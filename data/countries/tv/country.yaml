@@ -1,0 +1,7 @@
+code: tv
+name: { en: "Tuvalu", ar: "توفالو" }
+population: 11733
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: tvl, name: { en: "Tuvalu", ar: "التوفالو" }, percent: 85, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 9.1, official: true }

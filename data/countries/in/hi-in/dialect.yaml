@@ -1,0 +1,8 @@
+id: hi-in
+parent: hi
+name: { en: "Hindi (India)", ar: "الهندية (الهند)" }
+region: { en: "India", ar: "الهند" }
+script: deva
+codes: { bcp47: hi-IN }
+reviewers: []   # needs a native reviewer
+status: proposed

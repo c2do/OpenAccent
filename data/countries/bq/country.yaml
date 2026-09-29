@@ -1,0 +1,7 @@
+code: bq
+name: { en: "Caribbean Netherlands", ar: "هولندا الكاريبية" }
+population: 20000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: pap, name: { en: "Papiamento", ar: "البابيامينتو" }, percent: 81 }
+  - { code: nl, name: { en: "Dutch", ar: "الهولندية" }, percent: 8, official: true }

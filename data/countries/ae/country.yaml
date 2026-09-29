@@ -1,0 +1,7 @@
+code: ae
+name: { en: "United Arab Emirates", ar: "الإمارات العربية المتحدة" }
+population: 10032200
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 78, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 50 }

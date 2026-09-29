@@ -1,0 +1,7 @@
+code: jm
+name: { en: "Jamaica", ar: "جامايكا" }
+population: 2823710
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 98, official: true }
+  - { code: jam, name: { en: "Jamaican Creole English", ar: "الكريولية الجامايكية" }, percent: 95 }

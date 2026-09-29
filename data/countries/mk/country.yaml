@@ -1,0 +1,7 @@
+code: mk
+name: { en: "North Macedonia", ar: "مقدونيا الشمالية" }
+population: 2135620
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: mk, name: { en: "Macedonian", ar: "المقدونية" }, percent: 67, official: true }
+  - { code: sq, name: { en: "Albanian", ar: "الألبانية" }, percent: 25, official: true }

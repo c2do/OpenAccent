@@ -1,0 +1,6 @@
+code: vn
+name: { en: "Vietnam", ar: "فيتنام" }
+population: 105759000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: vi, name: { en: "Vietnamese", ar: "الفيتنامية" }, percent: 86, official: true }

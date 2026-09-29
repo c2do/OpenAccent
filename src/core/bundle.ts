@@ -1,5 +1,10 @@
 import { readFileSync } from 'node:fs';
-import type { Dialect, Entry } from './schema.js';
+import type { Country, Dialect, Entry } from './schema.js';
+
+export interface BundledDialect extends Dialect {
+  /** Country code, for dialects filed under data/countries/<cc>/. */
+  country?: string;
+}
 
 export interface BundledEntry extends Entry {
   /** `<dialect>/<slug>` */
@@ -10,7 +15,8 @@ export interface BundledEntry extends Entry {
 export interface Bundle {
   formatVersion: 1;
   builtAt: string;
-  dialects: Dialect[];
+  countries: Country[];
+  dialects: BundledDialect[];
   entries: BundledEntry[];
   /** Dialect guide markdown, keyed by dialect ID. */
   guides: Record<string, string>;

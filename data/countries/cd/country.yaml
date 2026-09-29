@@ -1,0 +1,10 @@
+code: cd
+name: { en: "Congo - Kinshasa", ar: "الكونغو - كينشاسا" }
+population: 115403000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 51, official: true }
+  - { code: sw, name: { en: "Swahili", ar: "السواحلية" }, percent: 50, official: true }
+  - { code: lua, name: { en: "Luba-Lulua", ar: "اللبا-لؤلؤ" }, percent: 9.6, official: true }
+  - { code: ln, name: { en: "Lingala", ar: "اللينجالا" }, percent: 3.1, official: true }
+  - { code: kg, name: { en: "Kongo", ar: "الكونغو" }, percent: 1.5, official: true }

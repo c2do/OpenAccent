@@ -1,0 +1,8 @@
+code: yt
+name: { en: "Mayotte", ar: "مايوت" }
+population: 194000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: swb, name: { en: "Comorian", ar: "القمرية" }, percent: 88 }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 63, official: true }
+  - { code: buc, name: { en: "Bushi", ar: "Bushi" }, percent: 23 }

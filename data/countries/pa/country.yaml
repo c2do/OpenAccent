@@ -1,0 +1,7 @@
+code: pa
+name: { en: "Panama", ar: "بنما" }
+population: 4470240
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 69, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 14 }

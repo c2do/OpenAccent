@@ -1,0 +1,8 @@
+code: sc
+name: { en: "Seychelles", ar: "سيشل" }
+population: 98187
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: crs, name: { en: "Seselwa Creole French", ar: "الفرنسية الكريولية السيشيلية" }, percent: 98 }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 53, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 38, official: true }

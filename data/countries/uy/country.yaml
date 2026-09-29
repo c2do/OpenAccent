@@ -1,0 +1,6 @@
+code: uy
+name: { en: "Uruguay", ar: "أورغواي" }
+population: 3425330
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 88, official: true }

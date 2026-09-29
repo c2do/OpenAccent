@@ -1,0 +1,9 @@
+code: pt
+name: { en: "Portugal", ar: "البرتغال" }
+population: 10207200
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: pt, name: { en: "Portuguese", ar: "البرتغالية" }, percent: 96, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 27 }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 15 }
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 10 }

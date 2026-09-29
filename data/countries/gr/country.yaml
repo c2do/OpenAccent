@@ -1,0 +1,7 @@
+code: gr
+name: { en: "Greece", ar: "اليونان" }
+population: 10461100
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: el, name: { en: "Greek", ar: "اليونانية" }, percent: 99, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 51 }

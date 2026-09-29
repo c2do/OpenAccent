@@ -2,7 +2,7 @@ import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import type { z } from 'zod';
 import { loadRawData, type DataError } from '../src/core/data-loader.js';
-import { DialectSchema, EntrySchema, type Dialect, type Entry } from '../src/core/schema.js';
+import { CountrySchema, DialectSchema, EntrySchema, type Dialect, type Entry } from '../src/core/schema.js';
 
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
@@ -18,17 +18,34 @@ export function validateData(root: string): DataError[] {
     return [{ file: 'dialects', message: 'No dialect files found — is this the data folder?' }];
   }
 
+  // Countries
+  for (const { file, data } of raw.countries) {
+    const parsed = CountrySchema.safeParse(data);
+    if (!parsed.success) {
+      errors.push({ file, message: describeIssues(parsed.error) });
+      continue;
+    }
+    const expected = file.split('/')[1];
+    if (parsed.data.code !== expected) {
+      errors.push({ file, message: `Country code "${parsed.data.code}" does not match folder name "${expected}"` });
+    }
+  }
+
   // Dialects
   const dialects = new Map<string, { file: string; dialect: Dialect }>();
-  for (const { file, data } of raw.dialects) {
+  for (const { file, data, folder } of raw.dialects) {
     const parsed = DialectSchema.safeParse(data);
     if (!parsed.success) {
       errors.push({ file, message: describeIssues(parsed.error) });
       continue;
     }
-    const expected = file.replace(/^dialects\//, '').replace(/\.yaml$/, '');
-    if (parsed.data.id !== expected) {
-      errors.push({ file, message: `Dialect id "${parsed.data.id}" does not match file name "${expected}"` });
+    if (parsed.data.id !== folder) {
+      errors.push({ file, message: `Dialect id "${parsed.data.id}" does not match folder name "${folder}"` });
+    }
+    const dup = dialects.get(parsed.data.id);
+    if (dup) {
+      errors.push({ file, message: `Dialect "${parsed.data.id}" is defined twice (also in ${dup.file})` });
+      continue;
     }
     dialects.set(parsed.data.id, { file, dialect: parsed.data });
   }

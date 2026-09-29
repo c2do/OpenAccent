@@ -1,0 +1,6 @@
+code: um
+name: { en: "U.S. Outlying Islands", ar: "جزر الولايات المتحدة النائية" }
+population: 316
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 100, official: true }

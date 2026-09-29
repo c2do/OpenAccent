@@ -1,0 +1,7 @@
+code: az
+name: { en: "Azerbaijan", ar: "أذربيجان" }
+population: 10650200
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: az, name: { en: "Azerbaijani", ar: "الأذربيجانية" }, percent: 89, official: true }
+  - { code: az_Cyrl, name: { en: "Azerbaijani", ar: "الأذربيجانية" }, percent: 9.9, official: true }

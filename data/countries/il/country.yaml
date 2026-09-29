@@ -1,0 +1,10 @@
+code: il
+name: { en: "Israel", ar: "إسرائيل" }
+population: 9402620
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: he, name: { en: "Hebrew", ar: "العبرية" }, percent: 100, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 85 }
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 20, official: true }
+  - { code: apc, name: { en: "Levantine Arabic", ar: "العربية الشامية" }, percent: 17 }
+  - { code: ru, name: { en: "Russian", ar: "الروسية" }, percent: 11 }

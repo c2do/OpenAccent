@@ -1,0 +1,11 @@
+code: nl
+name: { en: "Netherlands", ar: "هولندا" }
+population: 17772400
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: nl, name: { en: "Dutch", ar: "الهولندية" }, percent: 100, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 90 }
+  - { code: de, name: { en: "German", ar: "الألمانية" }, percent: 71 }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 19 }
+  - { code: nds, name: { en: "Low German", ar: "الألمانية السفلى" }, percent: 11 }
+  - { code: fy, name: { en: "Western Frisian", ar: "الفريزيان" }, percent: 4.3, official: true }

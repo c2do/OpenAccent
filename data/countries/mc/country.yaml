@@ -1,0 +1,6 @@
+code: mc
+name: { en: "Monaco", ar: "موناكو" }
+population: 31813
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 97, official: true }

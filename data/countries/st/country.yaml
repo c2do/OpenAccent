@@ -1,0 +1,7 @@
+code: st
+name: { en: "São Tomé & Príncipe", ar: "ساو تومي وبرينسيبي" }
+population: 223561
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: pt, name: { en: "Portuguese", ar: "البرتغالية" }, percent: 85, official: true }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 20 }

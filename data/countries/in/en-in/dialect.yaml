@@ -1,0 +1,8 @@
+id: en-in
+parent: en
+name: { en: "Indian English", ar: "الإنجليزية الهندية" }
+region: { en: "India", ar: "الهند" }
+script: latn
+codes: { bcp47: en-IN }
+reviewers: []   # needs a native reviewer
+status: proposed

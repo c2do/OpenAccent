@@ -1,0 +1,9 @@
+code: ro
+name: { en: "Romania", ar: "رومانيا" }
+population: 18148200
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ro, name: { en: "Romanian", ar: "الرومانية" }, percent: 90, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 31 }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 12 }
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 10 }

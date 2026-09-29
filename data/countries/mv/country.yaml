@@ -1,0 +1,7 @@
+code: mv
+name: { en: "Maldives", ar: "جزر المالديف" }
+population: 388858
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: dv, name: { en: "Divehi", ar: "المالديفية" }, percent: 98, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 75 }

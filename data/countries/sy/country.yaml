@@ -1,0 +1,7 @@
+code: sy
+name: { en: "Syria", ar: "سوريا" }
+population: 23865400
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: apc, name: { en: "Levantine Arabic", ar: "العربية الشامية" }, percent: 85 }
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 80, official: true }

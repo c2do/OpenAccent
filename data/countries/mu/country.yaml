@@ -1,0 +1,8 @@
+code: mu
+name: { en: "Mauritius", ar: "موريشيوس" }
+population: 1310500
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: mfe, name: { en: "Morisyen", ar: "المورسيانية" }, percent: 90 }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 73, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 72, official: true }

@@ -1,0 +1,8 @@
+code: ne
+name: { en: "Niger", ar: "النيجر" }
+population: 26342800
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ha, name: { en: "Hausa", ar: "الهوسا" }, percent: 41 }
+  - { code: dje, name: { en: "Zarma", ar: "الزارمية" }, percent: 17 }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 13, official: true }

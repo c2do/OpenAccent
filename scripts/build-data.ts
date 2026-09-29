@@ -1,9 +1,9 @@
-import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { mkdirSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { loadRawData } from '../src/core/data-loader.js';
 import type { Bundle } from '../src/core/bundle.js';
-import { DialectSchema, EntrySchema } from '../src/core/schema.js';
+import { CountrySchema, DialectSchema, EntrySchema } from '../src/core/schema.js';
 import { validateData } from './validate-data.js';
 
 export type { Bundle, BundledEntry } from '../src/core/bundle.js';
@@ -16,20 +16,17 @@ export function buildBundle(root: string): Bundle {
   }
   const raw = loadRawData(root);
 
-  const dialects = raw.dialects.map((f) => DialectSchema.parse(f.data)).sort((a, b) => a.id.localeCompare(b.id));
+  const countries = raw.countries.map((f) => CountrySchema.parse(f.data)).sort((a, b) => a.code.localeCompare(b.code));
+  const dialects = raw.dialects
+    .map((f) => ({ ...DialectSchema.parse(f.data), ...(f.country ? { country: f.country } : {}) }))
+    .sort((a, b) => a.id.localeCompare(b.id));
   const entries = raw.entries
     .map((f) => ({ id: `${f.folder}/${f.slug}`, ...EntrySchema.parse(f.data) }))
     .sort((a, b) => a.id.localeCompare(b.id));
-
   const guides: Record<string, string> = {};
-  const guidesDir = join(root, 'guides');
-  if (existsSync(guidesDir)) {
-    for (const f of readdirSync(guidesDir).filter((n) => n.endsWith('.md')).sort()) {
-      guides[f.replace(/\.md$/, '')] = readFileSync(join(guidesDir, f), 'utf8');
-    }
-  }
+  for (const f of raw.dialects) if (f.guide) guides[f.folder] = f.guide;
 
-  return { formatVersion: 1, builtAt: new Date().toISOString(), dialects, entries, guides };
+  return { formatVersion: 1, builtAt: new Date().toISOString(), countries, dialects, entries, guides };
 }
 
 export function writeBundle(bundle: Bundle, outFile: string): void {
@@ -44,7 +41,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   try {
     const bundle = buildBundle(root);
     writeBundle(bundle, out);
-    console.log(`✓ Built ${out}: ${bundle.dialects.length} dialects, ${bundle.entries.length} entries`);
+    console.log(`✓ Built ${out}: ${bundle.countries.length} countries, ${bundle.dialects.length} dialects, ${bundle.entries.length} entries`);
   } catch (err) {
     console.error((err as Error).message);
     process.exit(1);

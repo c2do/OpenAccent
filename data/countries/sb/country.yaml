@@ -1,0 +1,7 @@
+code: sb
+name: { en: "Solomon Islands", ar: "جزر سليمان" }
+population: 726799
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 100, official: true }
+  - { code: pis, name: { en: "Pijin", ar: "بيجين" }, percent: 82 }

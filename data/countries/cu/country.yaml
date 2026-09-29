@@ -1,0 +1,6 @@
+code: cu
+name: { en: "Cuba", ar: "كوبا" }
+population: 10966000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 100, official: true }

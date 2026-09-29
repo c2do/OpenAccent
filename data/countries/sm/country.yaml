@@ -1,0 +1,6 @@
+code: sm
+name: { en: "San Marino", ar: "سان مارينو" }
+population: 35095
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: it, name: { en: "Italian", ar: "الإيطالية" }, percent: 89, official: true }

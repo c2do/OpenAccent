@@ -1,0 +1,7 @@
+code: ht
+name: { en: "Haiti", ar: "هايتي" }
+population: 11753900
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ht, name: { en: "Haitian Creole", ar: "الكريولية الهايتية" }, percent: 81, official: true }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 42, official: true }

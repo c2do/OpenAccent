@@ -1,0 +1,11 @@
+code: ch
+name: { en: "Switzerland", ar: "سويسرا" }
+population: 8860570
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: de, name: { en: "German", ar: "الألمانية" }, percent: 76, official: true }
+  - { code: gsw, name: { en: "Swiss German", ar: "الألمانية السويسرية" }, percent: 66, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 45 }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 39, official: true }
+  - { code: it, name: { en: "Italian", ar: "الإيطالية" }, percent: 15, official: true }
+  - { code: rm, name: { en: "Romansh", ar: "الرومانشية" }, percent: 0.5, official: true }

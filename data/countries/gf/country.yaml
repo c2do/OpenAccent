@@ -1,0 +1,7 @@
+code: gf
+name: { en: "French Guiana", ar: "غويانا الفرنسية" }
+population: 199509
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 62, official: true }
+  - { code: gcr, name: { en: "Guianese Creole French", ar: "Guianese Creole French" }, percent: 26 }

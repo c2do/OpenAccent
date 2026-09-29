@@ -1,0 +1,6 @@
+code: gy
+name: { en: "Guyana", ar: "غيانا" }
+population: 794099
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 100, official: true }

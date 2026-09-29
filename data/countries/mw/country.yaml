@@ -1,0 +1,7 @@
+code: mw
+name: { en: "Malawi", ar: "ملاوي" }
+population: 21763300
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 63, official: true }
+  - { code: ny, name: { en: "Nyanja", ar: "النيانجا" }, percent: 63, official: true }

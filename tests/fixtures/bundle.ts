@@ -20,6 +20,7 @@ export function fixtureBundle(): Bundle {
     formatVersion: 1,
     builtAt: '',
     guides: {},
+    countries: [],
     dialects: [
       d({ id: 'ar', name: { en: 'Arabic' }, script: 'arab', status: 'proposed' }),
       d({ id: 'ar-ps', parent: 'ar', name: { en: 'Palestinian' }, script: 'arab' }),

@@ -1,0 +1,7 @@
+code: nr
+name: { en: "Nauru", ar: "ناورو" }
+population: 9892
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 95, official: true }
+  - { code: na, name: { en: "Nauru", ar: "النورو" }, percent: 70, official: true }

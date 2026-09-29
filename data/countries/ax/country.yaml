@@ -1,0 +1,6 @@
+code: ax
+name: { en: "Åland Islands", ar: "جزر آلاند" }
+population: 26200
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: sv, name: { en: "Swedish", ar: "السويدية" }, percent: 99, official: true }

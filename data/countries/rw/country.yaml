@@ -1,0 +1,8 @@
+code: rw
+name: { en: "Rwanda", ar: "رواندا" }
+population: 13623300
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: rw, name: { en: "Kinyarwanda", ar: "الكينيارواندا" }, percent: 77, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 15, official: true }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 5.8, official: true }

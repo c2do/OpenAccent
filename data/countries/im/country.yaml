@@ -1,0 +1,7 @@
+code: im
+name: { en: "Isle of Man", ar: "جزيرة مان" }
+population: 92269
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 100, official: true }
+  - { code: gv, name: { en: "Manx", ar: "المنكية" }, percent: 1.8, official: true }

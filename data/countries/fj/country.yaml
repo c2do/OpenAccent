@@ -1,0 +1,9 @@
+code: fj
+name: { en: "Fiji", ar: "فيجي" }
+population: 951611
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 94, official: true }
+  - { code: hi, name: { en: "Hindi", ar: "الهندية" }, percent: 44 }
+  - { code: hif, name: { en: "Fiji Hindi", ar: "الهندية الفيجية" }, percent: 41, official: true }
+  - { code: fj, name: { en: "Fijian", ar: "الفيجية" }, percent: 39, official: true }

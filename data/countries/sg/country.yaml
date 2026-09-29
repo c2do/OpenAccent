@@ -1,0 +1,9 @@
+code: sg
+name: { en: "Singapore", ar: "سنغافورة" }
+population: 6028460
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 93, official: true }
+  - { code: zh, name: { en: "Chinese", ar: "الصينية" }, percent: 77, official: true }
+  - { code: ms, name: { en: "Malay", ar: "الماليزية" }, percent: 14, official: true }
+  - { code: ta, name: { en: "Tamil", ar: "التاميلية" }, percent: 2.1, official: true }

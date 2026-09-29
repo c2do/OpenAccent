@@ -1,0 +1,6 @@
+code: gp
+name: { en: "Guadeloupe", ar: "غوادلوب" }
+population: 452776
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 84, official: true }

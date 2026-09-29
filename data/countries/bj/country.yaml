@@ -1,0 +1,7 @@
+code: bj
+name: { en: "Benin", ar: "بنين" }
+population: 14697100
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 34, official: true }
+  - { code: fon, name: { en: "Fon", ar: "الفون" }, percent: 25 }

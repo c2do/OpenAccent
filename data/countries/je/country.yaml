@@ -1,0 +1,6 @@
+code: je
+name: { en: "Jersey", ar: "جيرسي" }
+population: 103387
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 95, official: true }

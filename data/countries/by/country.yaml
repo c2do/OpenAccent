@@ -1,0 +1,7 @@
+code: by
+name: { en: "Belarus", ar: "بيلاروس" }
+population: 9501450
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ru, name: { en: "Russian", ar: "الروسية" }, percent: 71, official: true }
+  - { code: be, name: { en: "Belarusian", ar: "البيلاروسية" }, percent: 26, official: true }

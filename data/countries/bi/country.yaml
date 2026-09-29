@@ -1,0 +1,8 @@
+code: bi
+name: { en: "Burundi", ar: "بوروندي" }
+population: 13590100
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: rn, name: { en: "Rundi", ar: "الرندي" }, percent: 63, official: true }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 59, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 0.046, official: true }

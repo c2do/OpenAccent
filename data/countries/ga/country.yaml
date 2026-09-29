@@ -1,0 +1,6 @@
+code: ga
+name: { en: "Gabon", ar: "الغابون" }
+population: 2455110
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 63, official: true }

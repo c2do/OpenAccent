@@ -1,0 +1,8 @@
+code: mr
+name: { en: "Mauritania", ar: "موريتانيا" }
+population: 4328040
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: mey, name: { en: "Hassaniya Arabic", ar: "الحسانية" }, percent: 87 }
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 85, official: true }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 13 }

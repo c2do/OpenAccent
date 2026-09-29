@@ -1,0 +1,9 @@
+code: zm
+name: { en: "Zambia", ar: "زامبيا" }
+population: 20799100
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: bem, name: { en: "Bemba", ar: "البيمبا" }, percent: 34 }
+  - { code: ny, name: { en: "Nyanja", ar: "النيانجا" }, percent: 19 }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 16, official: true }
+  - { code: toi, name: { en: "Tonga (Zambia)", ar: "Tonga (Zambia)" }, percent: 11 }

@@ -1,0 +1,6 @@
+id: fr
+name: { en: French, ar: الفرنسية }
+script: latn
+codes: { bcp47: fr, iso639_3: fra, glottocode: stan1290 }
+reviewers: []
+status: proposed

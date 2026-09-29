@@ -1,0 +1,7 @@
+code: md
+name: { en: "Moldova", ar: "مولدوفا" }
+population: 3599530
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ro, name: { en: "Romanian", ar: "الرومانية" }, percent: 63, official: true }
+  - { code: uk, name: { en: "Ukrainian", ar: "الأوكرانية" }, percent: 14 }

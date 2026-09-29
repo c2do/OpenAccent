@@ -1,0 +1,7 @@
+code: td
+name: { en: "Chad", ar: "تشاد" }
+population: 19093600
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 17, official: true }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 13, official: true }

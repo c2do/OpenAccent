@@ -1,0 +1,8 @@
+code: tn
+name: { en: "Tunisia", ar: "تونس" }
+population: 12048800
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: aeb, name: { en: "Tunisian Arabic", ar: "العربية التونسية" }, percent: 90 }
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 90, official: true }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 53, official: true }

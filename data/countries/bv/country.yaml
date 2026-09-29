@@ -1,0 +1,6 @@
+code: bv
+name: { en: "Bouvet Island", ar: "جزيرة بوفيه" }
+population: 1
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: no, name: { en: "Norwegian", ar: "النرويجية" }, percent: 100 }

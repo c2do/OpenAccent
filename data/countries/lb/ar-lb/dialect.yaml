@@ -1,0 +1,8 @@
+id: ar-lb
+parent: ar-levantine
+name: { en: "Lebanese Arabic", ar: "العربية اللبنانية" }
+region: { en: "Lebanon", ar: "لبنان" }
+script: arab
+codes: { bcp47: apc-LB }
+reviewers: []   # needs a native reviewer
+status: proposed

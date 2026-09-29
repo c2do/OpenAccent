@@ -1,0 +1,6 @@
+code: gs
+name: { en: "South Georgia & South Sandwich Islands", ar: "جورجيا الجنوبية وجزر ساندويتش الجنوبية" }
+population: 20
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 100, official: true }

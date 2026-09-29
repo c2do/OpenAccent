@@ -1,0 +1,11 @@
+code: za
+name: { en: "South Africa", ar: "جنوب أفريقيا" }
+population: 60442600
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 31, official: true }
+  - { code: zu, name: { en: "Zulu", ar: "الزولو" }, percent: 24, official: true }
+  - { code: xh, name: { en: "Xhosa", ar: "الخوسا" }, percent: 18, official: true }
+  - { code: af, name: { en: "Afrikaans", ar: "الأفريقانية" }, percent: 13, official: true }
+  - { code: nso, name: { en: "Northern Sotho", ar: "السوتو الشمالية" }, percent: 9.4, official: true }
+  - { code: tn, name: { en: "Tswana", ar: "التسوانية" }, percent: 8.2, official: true }

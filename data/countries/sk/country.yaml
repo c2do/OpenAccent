@@ -1,0 +1,10 @@
+code: sk
+name: { en: "Slovakia", ar: "سلوفاكيا" }
+population: 5563650
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: sk, name: { en: "Slovak", ar: "السلوفاكية" }, percent: 90, official: true }
+  - { code: cs, name: { en: "Czech", ar: "التشيكية" }, percent: 47 }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 26 }
+  - { code: de, name: { en: "German", ar: "الألمانية" }, percent: 22 }
+  - { code: hu, name: { en: "Hungarian", ar: "الهنغارية" }, percent: 11 }

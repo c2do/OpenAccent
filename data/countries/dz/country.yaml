@@ -1,0 +1,9 @@
+code: dz
+name: { en: "Algeria", ar: "الجزائر" }
+population: 47022500
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: arq, name: { en: "Algerian Arabic", ar: "العربية الجزائرية" }, percent: 83 }
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 74, official: true }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 33, official: true }
+  - { code: mey, name: { en: "Hassaniya Arabic", ar: "الحسانية" }, percent: 11 }

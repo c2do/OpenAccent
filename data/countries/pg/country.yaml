@@ -1,0 +1,8 @@
+code: pg
+name: { en: "Papua New Guinea", ar: "بابوا غينيا الجديدة" }
+population: 10046200
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: tpi, name: { en: "Tok Pisin", ar: "التوك بيسين" }, percent: 71, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 50, official: true }
+  - { code: ho, name: { en: "Hiri Motu", ar: "الهيري موتو" }, percent: 2.1, official: true }

@@ -1,0 +1,9 @@
+code: dj
+name: { en: "Djibouti", ar: "جيبوتي" }
+population: 994974
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 50, official: true }
+  - { code: aa, name: { en: "Afar", ar: "الأفارية" }, percent: 42 }
+  - { code: so, name: { en: "Somali", ar: "الصومالية" }, percent: 41 }
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 7.3, official: true }

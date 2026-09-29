@@ -1,0 +1,9 @@
+code: ke
+name: { en: "Kenya", ar: "كينيا" }
+population: 58246400
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: sw, name: { en: "Swahili", ar: "السواحلية" }, percent: 66, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 19, official: true }
+  - { code: ki, name: { en: "Kikuyu", ar: "الكيكيو" }, percent: 17 }
+  - { code: luy, name: { en: "Luyia", ar: "لغة اللويا" }, percent: 11 }

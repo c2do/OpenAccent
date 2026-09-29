@@ -1,0 +1,11 @@
+code: ma
+name: { en: "Morocco", ar: "المغرب" }
+population: 37387600
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ary, name: { en: "Moroccan Arabic", ar: "العربية المغربية (الدارجة)" }, percent: 87 }
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 62, official: true }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 36, official: true }
+  - { code: zgh, name: { en: "Standard Moroccan Tamazight", ar: "التمازيغية المغربية القياسية" }, percent: 22 }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 14 }
+  - { code: tzm, name: { en: "Central Atlas Tamazight", ar: "الأمازيغية وسط الأطلس" }, percent: 9.8, official: true }

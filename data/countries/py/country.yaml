@@ -1,0 +1,7 @@
+code: py
+name: { en: "Paraguay", ar: "باراغواي" }
+population: 7522550
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: gn, name: { en: "Guarani", ar: "الغوارانية" }, percent: 80, official: true }
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 3.2, official: true }

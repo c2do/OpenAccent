@@ -1,0 +1,11 @@
+code: gt
+name: { en: "Guatemala", ar: "غواتيمالا" }
+population: 18255200
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 88, official: true }
+  - { code: cak, name: { en: "Kaqchikel", ar: "Kaqchikel" }, percent: 8.8, official: true }
+  - { code: quc, name: { en: "Kʼicheʼ", ar: "الكيشية" }, percent: 8.6, official: true }
+  - { code: ixl, name: { en: "Ixil", ar: "Ixil" }, percent: 0.89, official: true }
+  - { code: caa, name: { en: "Ch'orti'", ar: "Ch'orti'" }, percent: 0.13, official: true }
+  - { code: quv, name: { en: "Sakapultek", ar: "Sakapultek" }, percent: 0.054, official: true }

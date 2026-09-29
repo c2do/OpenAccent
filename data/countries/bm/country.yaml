@@ -1,0 +1,6 @@
+code: bm
+name: { en: "Bermuda", ar: "برمودا" }
+population: 72800
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 92, official: true }

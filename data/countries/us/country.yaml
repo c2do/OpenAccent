@@ -1,0 +1,8 @@
+code: us
+name: { en: "United States", ar: "الولايات المتحدة" }
+population: 341963000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 96, official: true }
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 9.6, official: true }
+  - { code: haw, name: { en: "Hawaiian", ar: "لغة هاواي" }, percent: 0.0089, official: true }

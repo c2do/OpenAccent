@@ -1,0 +1,9 @@
+code: gq
+name: { en: "Equatorial Guinea", ar: "غينيا الاستوائية" }
+population: 1795830
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 87, official: true }
+  - { code: fan, name: { en: "Fang", ar: "الفانج" }, percent: 51 }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 29, official: true }
+  - { code: pt, name: { en: "Portuguese", ar: "البرتغالية" }, percent: 0.0001, official: true }

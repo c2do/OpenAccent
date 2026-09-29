@@ -1,0 +1,8 @@
+code: bo
+name: { en: "Bolivia", ar: "بوليفيا" }
+population: 12312000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 61, official: true }
+  - { code: qu, name: { en: "Quechua", ar: "كيشوا" }, percent: 32, official: true }
+  - { code: ay, name: { en: "Aymara", ar: "الأيمارا" }, percent: 20, official: true }

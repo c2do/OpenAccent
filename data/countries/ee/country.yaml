@@ -1,0 +1,9 @@
+code: ee
+name: { en: "Estonia", ar: "إستونيا" }
+population: 1193790
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: et, name: { en: "Estonian", ar: "الإستونية" }, percent: 71, official: true }
+  - { code: ru, name: { en: "Russian", ar: "الروسية" }, percent: 56 }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 50 }
+  - { code: fi, name: { en: "Finnish", ar: "الفنلندية" }, percent: 21 }

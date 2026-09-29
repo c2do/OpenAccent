@@ -1,0 +1,7 @@
+code: kg
+name: { en: "Kyrgyzstan", ar: "قيرغيزستان" }
+population: 6172100
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ky, name: { en: "Kyrgyz", ar: "القيرغيزية" }, percent: 48, official: true }
+  - { code: ru, name: { en: "Russian", ar: "الروسية" }, percent: 36, official: true }

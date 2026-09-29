@@ -1,0 +1,11 @@
+code: de
+name: { en: "Germany", ar: "ألمانيا" }
+population: 84119100
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: de, name: { en: "German", ar: "الألمانية" }, percent: 91, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 64 }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 18 }
+  - { code: bar, name: { en: "Bavarian", ar: "البافارية" }, percent: 17 }
+  - { code: nds, name: { en: "Low German", ar: "الألمانية السفلى" }, percent: 12 }
+  - { code: frr, name: { en: "Northern Frisian", ar: "الفريزينية الشمالية" }, percent: 0.012, official: true }

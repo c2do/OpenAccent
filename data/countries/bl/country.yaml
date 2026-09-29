@@ -1,0 +1,6 @@
+code: bl
+name: { en: "St. Barthélemy", ar: "سان بارتليمي" }
+population: 7086
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 85, official: true }

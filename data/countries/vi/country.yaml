@@ -1,0 +1,6 @@
+code: vi
+name: { en: "U.S. Virgin Islands", ar: "جزر فيرجن الأمريكية" }
+population: 104377
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 75, official: true }

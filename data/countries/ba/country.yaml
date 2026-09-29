@@ -1,0 +1,11 @@
+code: ba
+name: { en: "Bosnia", ar: "البوسنة والهرسك" }
+population: 3798670
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: bs, name: { en: "Bosnian", ar: "البوسنية" }, percent: 99, official: true }
+  - { code: bs_Cyrl, name: { en: "Bosnian", ar: "البوسنية" }, percent: 99, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 45 }
+  - { code: hr, name: { en: "Croatian", ar: "الكرواتية" }, percent: 12, official: true }
+  - { code: sr, name: { en: "Serbian", ar: "الصربية" }, percent: 10, official: true }
+  - { code: sr_Latn, name: { en: "Serbian", ar: "الصربية" }, percent: 10, official: true }

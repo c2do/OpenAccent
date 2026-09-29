@@ -1,0 +1,6 @@
+code: ni
+name: { en: "Nicaragua", ar: "نيكاراغوا" }
+population: 6676950
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 78, official: true }

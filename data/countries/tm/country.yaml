@@ -1,0 +1,7 @@
+code: tm
+name: { en: "Turkmenistan", ar: "تركمانستان" }
+population: 5744150
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: tk, name: { en: "Turkmen", ar: "التركمانية" }, percent: 70, official: true }
+  - { code: ru, name: { en: "Russian", ar: "الروسية" }, percent: 12 }

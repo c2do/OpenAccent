@@ -1,0 +1,6 @@
+code: nf
+name: { en: "Norfolk Island", ar: "جزيرة نورفولك" }
+population: 1748
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 96, official: true }

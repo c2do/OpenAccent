@@ -1,0 +1,7 @@
+code: ci
+name: { en: "Côte d’Ivoire", ar: "ساحل العاج" }
+population: 29981800
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 34, official: true }
+  - { code: bci, name: { en: "Baoulé", ar: "Baoulé" }, percent: 11 }

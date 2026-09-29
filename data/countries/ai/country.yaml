@@ -1,0 +1,6 @@
+code: ai
+name: { en: "Anguilla", ar: "أنغويلا" }
+population: 19416
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 95, official: true }

@@ -1,0 +1,8 @@
+code: cy
+name: { en: "Cyprus", ar: "قبرص" }
+population: 1320530
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: el, name: { en: "Greek", ar: "اليونانية" }, percent: 95, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 73 }
+  - { code: tr, name: { en: "Turkish", ar: "التركية" }, percent: 23, official: true }

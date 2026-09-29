@@ -1,0 +1,11 @@
+code: es
+name: { en: "Spain", ar: "إسبانيا" }
+population: 47280400
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 99, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 24 }
+  - { code: ca, name: { en: "Catalan", ar: "الكتالانية" }, percent: 17, official: true }
+  - { code: gl, name: { en: "Galician", ar: "الجاليكية" }, percent: 7, official: true }
+  - { code: eu, name: { en: "Basque", ar: "الباسكية" }, percent: 2, official: true }
+  - { code: ast, name: { en: "Asturian", ar: "الأسترية" }, percent: 1.3, official: true }

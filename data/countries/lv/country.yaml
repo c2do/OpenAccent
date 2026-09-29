@@ -1,0 +1,8 @@
+code: lv
+name: { en: "Latvia", ar: "لاتفيا" }
+population: 1801250
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: lv, name: { en: "Latvian", ar: "اللاتفية" }, percent: 61, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 46 }
+  - { code: ru, name: { en: "Russian", ar: "الروسية" }, percent: 38 }

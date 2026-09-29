@@ -1,0 +1,8 @@
+code: tw
+name: { en: "Taiwan", ar: "تايوان" }
+population: 23595300
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: zh_Hant, name: { en: "Chinese", ar: "الصينية" }, percent: 95, official: true }
+  - { code: nan_Hant, name: { en: "Min Nan Chinese", ar: "مين-نان الصينية" }, percent: 57, official: true }
+  - { code: hak_Hant, name: { en: "Hakka Chinese", ar: "الهاكا الصينية" }, percent: 11, official: true }

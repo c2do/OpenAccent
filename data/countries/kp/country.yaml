@@ -1,0 +1,6 @@
+code: kp
+name: { en: "North Korea", ar: "كوريا الشمالية" }
+population: 26298700
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ko, name: { en: "Korean", ar: "الكورية" }, percent: 88, official: true }

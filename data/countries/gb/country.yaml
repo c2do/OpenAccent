@@ -1,0 +1,10 @@
+code: gb
+name: { en: "United Kingdom", ar: "المملكة المتحدة" }
+population: 68459100
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 98, official: true }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 17 }
+  - { code: cy, name: { en: "Welsh", ar: "الويلزية" }, percent: 1.3, official: true }
+  - { code: ga, name: { en: "Irish", ar: "الأيرلندية" }, percent: 0.15, official: true }
+  - { code: gd, name: { en: "Scottish Gaelic", ar: "الغيلية الأسكتلندية" }, percent: 0.11, official: true }

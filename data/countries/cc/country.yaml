@@ -1,0 +1,7 @@
+code: cc
+name: { en: "Cocos Islands", ar: "جزر كوكوس (كيلينغ)" }
+population: 593
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ms_Arab, name: { en: "Malay", ar: "الماليزية" }, percent: 84 }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 17, official: true }

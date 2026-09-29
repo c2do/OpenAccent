@@ -1,0 +1,6 @@
+code: la
+name: { en: "Laos", ar: "لاوس" }
+population: 7953560
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: lo, name: { en: "Lao", ar: "اللاوية" }, percent: 69, official: true }

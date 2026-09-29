@@ -1,0 +1,6 @@
+code: mn
+name: { en: "Mongolia", ar: "منغوليا" }
+population: 3281680
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: mn, name: { en: "Mongolian", ar: "المنغولية" }, percent: 93, official: true }

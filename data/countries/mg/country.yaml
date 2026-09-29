@@ -1,0 +1,8 @@
+code: mg
+name: { en: "Madagascar", ar: "مدغشقر" }
+population: 29452700
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: mg, name: { en: "Malagasy", ar: "الملغاشي" }, percent: 90, official: true }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 27, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 18, official: true }

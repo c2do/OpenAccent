@@ -1,0 +1,8 @@
+code: hu
+name: { en: "Hungary", ar: "هنغاريا" }
+population: 9855750
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: hu, name: { en: "Hungarian", ar: "الهنغارية" }, percent: 100, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 20 }
+  - { code: de, name: { en: "German", ar: "الألمانية" }, percent: 18 }

@@ -1,0 +1,11 @@
+code: cn
+name: { en: "China", ar: "الصين" }
+population: 1416040000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: zh, name: { en: "Chinese", ar: "الصينية" }, percent: 90, official: true }
+  - { code: ug, name: { en: "Uyghur", ar: "الأويغورية" }, percent: 0.55, official: true }
+  - { code: za, name: { en: "Zhuang", ar: "الزهيونج" }, percent: 0.31, official: true }
+  - { code: mn_Mong, name: { en: "Mongolian", ar: "المنغولية" }, percent: 0.26, official: true }
+  - { code: bo, name: { en: "Tibetan", ar: "التبتية" }, percent: 0.2, official: true }
+  - { code: ko, name: { en: "Korean", ar: "الكورية" }, percent: 0.15, official: true }

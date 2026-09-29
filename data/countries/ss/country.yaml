@@ -1,0 +1,7 @@
+code: ss
+name: { en: "South Sudan", ar: "جنوب السودان" }
+population: 12703700
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 27 }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 27, official: true }

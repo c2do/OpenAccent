@@ -1,0 +1,7 @@
+code: sz
+name: { en: "Eswatini", ar: "إسواتيني" }
+population: 1138090
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 80, official: true }
+  - { code: ss, name: { en: "Swati", ar: "السواتي" }, percent: 58, official: true }

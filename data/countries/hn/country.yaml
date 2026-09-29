@@ -1,0 +1,6 @@
+code: hn
+name: { en: "Honduras", ar: "هندوراس" }
+population: 9529190
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 91, official: true }

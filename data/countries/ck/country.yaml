@@ -1,0 +1,6 @@
+code: ck
+name: { en: "Cook Islands", ar: "جزر كوك" }
+population: 7761
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 100, official: true }

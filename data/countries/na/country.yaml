@@ -1,0 +1,10 @@
+code: na
+name: { en: "Namibia", ar: "ناميبيا" }
+population: 2803660
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: af, name: { en: "Afrikaans", ar: "الأفريقانية" }, percent: 75 }
+  - { code: kj, name: { en: "Kuanyama", ar: "كوانياما" }, percent: 35 }
+  - { code: ng, name: { en: "Ndonga", ar: "الندونجا" }, percent: 21 }
+  - { code: naq, name: { en: "Nama", ar: "لغة الناما" }, percent: 11 }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 7, official: true }

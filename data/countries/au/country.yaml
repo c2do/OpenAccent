@@ -1,0 +1,6 @@
+code: au
+name: { en: "Australia", ar: "أستراليا" }
+population: 26768600
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 96, official: true }

@@ -1,0 +1,7 @@
+id: ar-gulf
+parent: ar
+name: { en: Gulf Arabic, ar: العربية الخليجية }
+script: arab
+codes: { bcp47: afb, iso639_3: afb, glottocode: gulf1241 }
+reviewers: []
+status: proposed

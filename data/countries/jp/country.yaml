@@ -1,0 +1,6 @@
+code: jp
+name: { en: "Japan", ar: "اليابان" }
+population: 123202000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ja, name: { en: "Japanese", ar: "اليابانية" }, percent: 95, official: true }

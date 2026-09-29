@@ -1,0 +1,7 @@
+code: tz
+name: { en: "Tanzania", ar: "تنزانيا" }
+population: 67462100
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: sw, name: { en: "Swahili", ar: "السواحلية" }, percent: 90, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 69, official: true }

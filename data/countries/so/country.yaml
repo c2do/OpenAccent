@@ -1,0 +1,7 @@
+code: so
+name: { en: "Somalia", ar: "الصومال" }
+population: 13017300
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: so, name: { en: "Somali", ar: "الصومالية" }, percent: 78, official: true }
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 34, official: true }

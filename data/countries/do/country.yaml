@@ -1,0 +1,6 @@
+code: do
+name: { en: "Dominican Republic", ar: "جمهورية الدومينيكان" }
+population: 10815900
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 78, official: true }

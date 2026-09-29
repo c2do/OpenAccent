@@ -1,0 +1,8 @@
+code: my
+name: { en: "Malaysia", ar: "ماليزيا" }
+population: 34564800
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ms, name: { en: "Malay", ar: "الماليزية" }, percent: 75, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 21 }
+  - { code: zh, name: { en: "Chinese", ar: "الصينية" }, percent: 17 }

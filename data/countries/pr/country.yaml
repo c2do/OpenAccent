@@ -1,0 +1,7 @@
+code: pr
+name: { en: "Puerto Rico", ar: "بورتوريكو" }
+population: 3019450
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 87, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 49, official: true }

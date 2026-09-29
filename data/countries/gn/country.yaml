@@ -1,0 +1,10 @@
+code: gn
+name: { en: "Guinea", ar: "غينيا" }
+population: 13986200
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 27, official: true }
+  - { code: ff, name: { en: "Fula", ar: "الفولانية" }, percent: 26 }
+  - { code: man, name: { en: "Mandingo", ar: "الماندينغ" }, percent: 23 }
+  - { code: man_Nkoo, name: { en: "Mandingo", ar: "الماندينغ" }, percent: 23 }
+  - { code: sus, name: { en: "Susu", ar: "السوسو" }, percent: 11 }

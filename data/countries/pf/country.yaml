@@ -1,0 +1,7 @@
+code: pf
+name: { en: "French Polynesia", ar: "بولينيزيا الفرنسية" }
+population: 303540
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 98, official: true }
+  - { code: ty, name: { en: "Tahitian", ar: "التاهيتية" }, percent: 31, official: true }

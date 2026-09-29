@@ -1,0 +1,9 @@
+code: ge
+name: { en: "Georgia", ar: "جورجيا" }
+population: 4900960
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ka, name: { en: "Georgian", ar: "الجورجية" }, percent: 86, official: true }
+  - { code: xmf, name: { en: "Mingrelian", ar: "Mingrelian" }, percent: 11 }
+  - { code: ab, name: { en: "Abkhazian", ar: "الأبخازية" }, percent: 2.2, official: true }
+  - { code: os, name: { en: "Ossetic", ar: "الأوسيتيك" }, percent: 2.2, official: true }

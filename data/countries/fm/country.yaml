@@ -1,0 +1,8 @@
+code: fm
+name: { en: "Micronesia", ar: "ميكرونيزيا" }
+population: 99603
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 57, official: true }
+  - { code: chk, name: { en: "Chuukese", ar: "التشكيزية" }, percent: 30 }
+  - { code: pon, name: { en: "Pohnpeian", ar: "البوهنبيايان" }, percent: 23 }

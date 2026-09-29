@@ -1,0 +1,8 @@
+id: fr-fr
+parent: fr
+name: { en: "French (France)", ar: "الفرنسية (فرنسا)" }
+region: { en: "France", ar: "فرنسا" }
+script: latn
+codes: { bcp47: fr-FR }
+reviewers: []   # needs a native reviewer
+status: proposed

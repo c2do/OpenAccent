@@ -1,0 +1,8 @@
+code: bf
+name: { en: "Burkina Faso", ar: "بوركينا فاسو" }
+population: 23042200
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: mos, name: { en: "Mossi", ar: "الموسي" }, percent: 40 }
+  - { code: dyu, name: { en: "Dyula", ar: "الدايلا" }, percent: 32 }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 25, official: true }

@@ -36,6 +36,23 @@ export const DialectSchema = z.object({
   sound_rules: z.array(z.tuple([z.string().min(1), z.string()])).optional(),
 });
 
+export const CountrySchema = z.object({
+  /** ISO 3166-1 alpha-2, lowercase. */
+  code: z.string().regex(/^[a-z]{2}$/, 'Country codes are 2 lowercase letters (ISO 3166-1)'),
+  name: LocalizedSchema,
+  population: z.number().int().nonnegative().optional(),
+  languages: z
+    .array(
+      z.object({
+        code: z.string(),
+        name: LocalizedSchema,
+        percent: z.number().min(0).max(100),
+        official: z.boolean().optional(),
+      }),
+    )
+    .default([]),
+});
+
 const ExampleSchema = z.object({
   text: z.string().min(1),
   en: z.string().optional(),
@@ -123,5 +140,6 @@ export const MemorySchema = z.object({
 });
 
 export type Dialect = z.infer<typeof DialectSchema>;
+export type Country = z.infer<typeof CountrySchema>;
 export type Entry = z.infer<typeof EntrySchema>;
 export type Memory = z.infer<typeof MemorySchema>;

@@ -1,0 +1,7 @@
+code: gl
+name: { en: "Greenland", ar: "غرينلاند" }
+population: 57751
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: kl, name: { en: "Kalaallisut", ar: "الكالاليست" }, percent: 84, official: true }
+  - { code: da, name: { en: "Danish", ar: "الدانمركية" }, percent: 14 }

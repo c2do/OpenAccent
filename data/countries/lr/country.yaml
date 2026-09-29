@@ -1,0 +1,10 @@
+code: lr
+name: { en: "Liberia", ar: "ليبيريا" }
+population: 5437250
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 83, official: true }
+  - { code: lir, name: { en: "Liberian English", ar: "Liberian English" }, percent: 74 }
+  - { code: kpe, name: { en: "Kpelle", ar: "الكبيل" }, percent: 20 }
+  - { code: bsq, name: { en: "Bassa", ar: "Bassa" }, percent: 14 }
+  - { code: kro, name: { en: "Kru", ar: "Kru" }, percent: 10 }

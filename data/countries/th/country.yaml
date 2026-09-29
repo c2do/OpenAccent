@@ -1,0 +1,8 @@
+code: th
+name: { en: "Thailand", ar: "تايلاند" }
+population: 69921000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: th, name: { en: "Thai", ar: "التايلاندية" }, percent: 80, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 27 }
+  - { code: tts, name: { en: "Northeastern Thai (Isan)", ar: "التايلاندية الشمالية الشرقية (إيسان)" }, percent: 24 }

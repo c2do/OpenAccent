@@ -1,0 +1,6 @@
+code: sv
+name: { en: "El Salvador", ar: "السلفادور" }
+population: 6628700
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 89, official: true }

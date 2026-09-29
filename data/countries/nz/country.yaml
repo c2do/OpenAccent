@@ -1,0 +1,7 @@
+code: nz
+name: { en: "New Zealand", ar: "نيوزيلندا" }
+population: 5161210
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 98, official: true }
+  - { code: mi, name: { en: "Māori", ar: "الماورية" }, percent: 2.8, official: true }

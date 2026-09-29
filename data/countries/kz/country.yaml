@@ -1,0 +1,8 @@
+code: kz
+name: { en: "Kazakhstan", ar: "كازاخستان" }
+population: 20260000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ru, name: { en: "Russian", ar: "الروسية" }, percent: 72, official: true }
+  - { code: kk, name: { en: "Kazakh", ar: "الكازاخستانية" }, percent: 64, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 15 }

@@ -1,0 +1,7 @@
+code: ua
+name: { en: "Ukraine", ar: "أوكرانيا" }
+population: 35661800
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: uk, name: { en: "Ukrainian", ar: "الأوكرانية" }, percent: 65, official: true }
+  - { code: ru, name: { en: "Russian", ar: "الروسية" }, percent: 46, official: true }

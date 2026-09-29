@@ -1,0 +1,6 @@
+code: om
+name: { en: "Oman", ar: "عُمان" }
+population: 3901990
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 81, official: true }

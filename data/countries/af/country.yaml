@@ -1,0 +1,9 @@
+code: af
+name: { en: "Afghanistan", ar: "أفغانستان" }
+population: 40121600
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fa, name: { en: "Persian", ar: "الفارسية" }, percent: 50, official: true }
+  - { code: ps, name: { en: "Pashto", ar: "البشتو" }, percent: 43, official: true }
+  - { code: uz_Arab, name: { en: "Uzbek", ar: "الأوزبكية" }, percent: 4.7, official: true }
+  - { code: tk, name: { en: "Turkmen", ar: "التركمانية" }, percent: 1.7, official: true }

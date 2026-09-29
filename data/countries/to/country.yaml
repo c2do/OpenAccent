@@ -1,0 +1,7 @@
+code: to
+name: { en: "Tonga", ar: "تونغا" }
+population: 104889
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: to, name: { en: "Tongan", ar: "التونغية" }, percent: 95, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 28, official: true }

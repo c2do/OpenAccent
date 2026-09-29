@@ -1,0 +1,8 @@
+id: ar-ma
+parent: ar
+name: { en: "Moroccan Arabic (Darija)", ar: "الدارجة المغربية" }
+region: { en: "Morocco", ar: "المغرب" }
+script: arab
+codes: { bcp47: ary }
+reviewers: []   # needs a native reviewer
+status: proposed

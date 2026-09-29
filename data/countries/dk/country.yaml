@@ -1,0 +1,10 @@
+code: dk
+name: { en: "Denmark", ar: "الدانمرك" }
+population: 5973140
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: da, name: { en: "Danish", ar: "الدانمركية" }, percent: 93, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 86 }
+  - { code: de, name: { en: "German", ar: "الألمانية" }, percent: 47, official: true }
+  - { code: sv, name: { en: "Swedish", ar: "السويدية" }, percent: 13 }
+  - { code: kl, name: { en: "Kalaallisut", ar: "الكالاليست" }, percent: 0.12, official: true }

@@ -1,0 +1,10 @@
+code: ng
+name: { en: "Nigeria", ar: "نيجيريا" }
+population: 236747000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 53, official: true }
+  - { code: pcm, name: { en: "Nigerian Pidgin", ar: "البدجنية النيجيرية" }, percent: 21 }
+  - { code: ha, name: { en: "Hausa", ar: "الهوسا" }, percent: 13 }
+  - { code: ig, name: { en: "Igbo", ar: "الإيجبو" }, percent: 13 }
+  - { code: yo, name: { en: "Yoruba", ar: "اليوروبا" }, percent: 13, official: true }

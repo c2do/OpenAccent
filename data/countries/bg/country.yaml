@@ -1,0 +1,9 @@
+code: bg
+name: { en: "Bulgaria", ar: "بلغاريا" }
+population: 6782660
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: bg, name: { en: "Bulgarian", ar: "البلغارية" }, percent: 100, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 25 }
+  - { code: ru, name: { en: "Russian", ar: "الروسية" }, percent: 23 }
+  - { code: tr, name: { en: "Turkish", ar: "التركية" }, percent: 11 }

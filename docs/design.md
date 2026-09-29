@@ -71,7 +71,7 @@ Existing open-source work covers pieces of this: pronunciation trainers, accent 
                  ┌──────────────────────────── repo: c2do/openaccent ───────────────────────────┐
  contributors ──►│ GitHub Issue Forms ─► issue-to-PR bot ─► PR ─► dialect reviewer ─► merge     │
                  │                                                     │                        │
-                 │  data/dialects/*.yaml   data/guides/*.md   data/entries/<dialect>/*.yaml      │
+                 │  data/countries/<cc>/<dialect>/{dialect.yaml, guide.md, entries/}            │
                  │                         │ build (validate + compile)                          │
                  │                         ▼                                                     │
                  │                  dist/dictionary.json  (bundled in the package)               │
@@ -90,9 +90,23 @@ Existing open-source work covers pieces of this: pronunciation trainers, accent 
 
 ## 4. Data model
 
+### 4.0 Layout (owner decision, 2026-09-29)
+
+Data is organized **by country**, so people find their dialect by looking for their country:
+
+```
+data/countries/<cc>/country.yaml               every country and territory (ISO 3166-1, from Unicode CLDR)
+data/countries/<cc>/<dialect-id>/dialect.yaml  a dialect spoken there
+data/countries/<cc>/<dialect-id>/guide.md      its guide
+data/countries/<cc>/<dialect-id>/entries/*.yaml
+data/languages/<dialect-id>/...                cross-border levels (ar, ar-levantine, en, es, ...)
+```
+
+Everything about one dialect lives in one folder. The folder name must equal the dialect `id`. The tree (§4.1) is unchanged: a dialect's `parent` may live in another folder.
+
 ### 4.1 Dialect tree
 
-Dialects form a tree. Every node is one file, `data/dialects/<id>.yaml`. Entries **inherit down the tree**: a word filed under `ar-ps` (general Palestinian) applies to every Palestinian sub-dialect unless a more specific entry overrides it.
+Dialects form a tree. Every node is one folder with a `dialect.yaml` (see §4.0). Entries **inherit down the tree**: a word filed under `ar-ps` (general Palestinian) applies to every Palestinian sub-dialect unless a more specific entry overrides it.
 
 ```
 ar                      Arabic
@@ -113,7 +127,7 @@ en                      English
 ```
 
 ```yaml
-# data/dialects/ar-ps-fallahi.yaml
+# data/countries/ps/ar-ps-fallahi/dialect.yaml
 id: ar-ps-fallahi
 parent: ar-ps
 name: { en: Palestinian Rural (Fallahi), ar: فلسطيني فلاحي }
@@ -134,7 +148,7 @@ status: active              # proposed | active
 
 ### 4.2 Entry
 
-One word or expression in one dialect is **one file**: `data/entries/<dialect-id>/<slug>.yaml`. One file per entry means community PRs almost never conflict.
+One word or expression in one dialect is **one file**: `<dialect folder>/entries/<slug>.yaml`. One file per entry means community PRs almost never conflict.
 
 ```yaml
 word: حاكورة
@@ -176,7 +190,7 @@ added_by: ""
 
 ### 4.3 Dialect guide
 
-`data/guides/<dialect-id>.md` is written by native speakers. It has fixed headings so tools can extract sections:
+`<dialect folder>/guide.md` is written by native speakers. It has fixed headings so tools can extract sections:
 
 - `## Pronunciation`: e.g. fallahi ك → تش (تشيف حالك), ق → ك (كال).
 - `## Grammar & markers`: distinctive forms and function words.
@@ -277,7 +291,7 @@ Form rules:
 2. The `issue-to-pr` GitHub Action parses the form and validates it: required fields, dialect exists, no duplicate.
    - If something is wrong, it comments on the issue saying what to fix.
    - Otherwise it opens a PR that adds or updates the YAML file, and links the issue.
-3. `CODEOWNERS` routes `data/entries/<dialect>/**` to that dialect's reviewers.
+3. `CODEOWNERS` routes `data/countries/<cc>/<dialect>/**` to that dialect's reviewers.
 4. CI runs the schema validator and tests.
 5. A reviewer approves and merges.
    - Merging a contributor entry by a listed reviewer sets `status: verified` with `verified_by: [reviewer]`. The bot does this at merge time.

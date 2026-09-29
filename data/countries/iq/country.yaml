@@ -1,0 +1,10 @@
+code: iq
+name: { en: "Iraq", ar: "العراق" }
+population: 42083400
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 68, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 35 }
+  - { code: ckb, name: { en: "Central Kurdish", ar: "السورانية الكردية" }, percent: 12, official: true }
+  - { code: ku_Arab, name: { en: "Kurdish", ar: "الكردية" }, percent: 10 }
+  - { code: az_Arab, name: { en: "Azerbaijani", ar: "الأذربيجانية" }, percent: 1.8, official: true }

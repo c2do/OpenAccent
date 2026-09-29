@@ -1,0 +1,6 @@
+code: hm
+name: { en: "Heard & McDonald Islands", ar: "جزيرة هيرد وجزر ماكدونالد" }
+population: 1
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: und, name: { en: "Unknown language", ar: "لغة غير معروفة" }, percent: 100 }

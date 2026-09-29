@@ -1,0 +1,7 @@
+code: qa
+name: { en: "Qatar", ar: "قطر" }
+population: 2552090
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 89, official: true }
+  - { code: fa, name: { en: "Persian", ar: "الفارسية" }, percent: 11 }

@@ -1,0 +1,80 @@
+name: Import from Wiktionary
+
+# Downloads wiktextract (kaikki.org) data on GitHub's runners, imports the most frequent
+# region-specific words for each dialect as drafts, and pushes them to a new branch for review.
+on:
+  workflow_dispatch:
+    inputs:
+      dialects:
+        description: Comma-separated dialect IDs (empty = every wave-1 dialect)
+        default: ''
+      limit:
+        description: Max new entries per dialect
+        default: '150'
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    defaults:
+      run:
+        shell: bash
+    env:
+      DIALECTS: ${{ inputs.dialects }}
+      LIMIT: ${{ inputs.limit }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+
+      - name: Plan
+        run: |
+          args=()
+          if [ -n "$DIALECTS" ]; then args=(--dialects "$DIALECTS"); fi
+          npx tsx scripts/import-wiktextract.ts --plan "${args[@]}" > plan.json
+          jq . plan.json
+
+      - name: Download frequency lists
+        run: |
+          mkdir -p freq
+          jq -r '.frequency[] | "\(.code) \(.url)"' plan.json | while read -r code url; do
+            curl -sSfL --retry 3 "$url" -o "freq/${code}_50k.txt" || echo "::warning::No frequency list for $code"
+          done
+
+      - name: Import
+        run: |
+          jq -c '.languages[]' plan.json | while read -r item; do
+            lang=$(jq -r .language <<<"$item")
+            url=$(jq -r .url <<<"$item")
+            dialects=$(jq -r '.dialects | join(",")' <<<"$item")
+            echo "::group::$lang ($dialects)"
+            curl -sSfL --retry 3 "$url" \
+              | npx tsx scripts/import-wiktextract.ts --language "$lang" --input - --dialects "$dialects" \
+                  --freq-dir freq --limit "$LIMIT" | tee -a "$GITHUB_STEP_SUMMARY"
+            echo "::endgroup::"
+          done
+
+      - name: Validate
+        run: npm run validate
+
+      - name: Push a branch for review
+        run: |
+          if git diff --quiet -- data && [ -z "$(git ls-files --others --exclude-standard data)" ]; then
+            echo "Nothing new to import." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          branch="import/wiktionary-${GITHUB_RUN_ID}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add data
+          git commit -m "data: import dialect entries from Wiktionary (run ${GITHUB_RUN_ID})" \
+            -m "Drafts from Wiktionary via wiktextract/kaikki.org (CC BY-SA 4.0), ranked with FrequencyWords."
+          git push origin "$branch"
+          echo "Pushed branch \`$branch\` — open a pull request from it to review the entries." | tee -a "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,11 @@
+code: rs
+name: { en: "Serbia", ar: "صربيا" }
+population: 6652210
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: sr, name: { en: "Serbian", ar: "الصربية" }, percent: 99, official: true }
+  - { code: sr_Latn, name: { en: "Serbian", ar: "الصربية" }, percent: 99, official: true }
+  - { code: sq, name: { en: "Albanian", ar: "الألبانية" }, percent: 19 }
+  - { code: hu, name: { en: "Hungarian", ar: "الهنغارية" }, percent: 4.8, official: true }
+  - { code: ro, name: { en: "Romanian", ar: "الرومانية" }, percent: 2.1, official: true }
+  - { code: hr, name: { en: "Croatian", ar: "الكرواتية" }, percent: 0.93, official: true }

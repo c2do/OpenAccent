@@ -1,0 +1,11 @@
+code: in
+name: { en: "India", ar: "الهند" }
+population: 1409130000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: hi, name: { en: "Hindi", ar: "الهندية" }, percent: 41, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 19, official: true }
+  - { code: bn, name: { en: "Bangla", ar: "البنغالية" }, percent: 8.1, official: true }
+  - { code: te, name: { en: "Telugu", ar: "التيلوغوية" }, percent: 7.2, official: true }
+  - { code: mr, name: { en: "Marathi", ar: "الماراثية" }, percent: 7, official: true }
+  - { code: ta, name: { en: "Tamil", ar: "التاميلية" }, percent: 5.9, official: true }

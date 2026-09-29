@@ -1,0 +1,8 @@
+code: sx
+name: { en: "Sint Maarten", ar: "سانت مارتن" }
+population: 46215
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 68, official: true }
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 11 }
+  - { code: nl, name: { en: "Dutch", ar: "الهولندية" }, percent: 3.4, official: true }
