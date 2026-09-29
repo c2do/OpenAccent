@@ -131,6 +131,7 @@ interface Candidate {
 }
 
 const REGISTER_ORDER = ['vulgar', 'casual', 'formal'] as const;
+const MAX_PER_CONCEPT = 3;
 function registerFrom(tags: Set<string>): Entry['register'] {
   if (['vulgar', 'offensive', 'derogatory'].some((t) => tags.has(t))) return REGISTER_ORDER[0];
   if (['slang', 'colloquial', 'informal'].some((t) => tags.has(t))) return REGISTER_ORDER[1];
@@ -145,7 +146,7 @@ const glossParts = (text: string) =>
   text
     .replace(/\([^)]*\)/g, ' ')
     .split(/[;,/]/)
-    .map((p) => normalize(p, 'latn'))
+    .map((p) => normalize(p, 'latn').replace(/^(a|an|the|to) /, '').replace(/^(slang|informal) for /, ''))
     .filter(Boolean);
 
 /** Builds the lookup from data/concepts.yaml ({ id: { en, ... } }). */
@@ -156,12 +157,12 @@ export function conceptIndex(concepts: Record<string, { en: string }>): ConceptI
 }
 
 /**
- * The core concept a sense expresses. For English dialects the headword itself is compared
- * ("dude" → buddy); for other languages, the English gloss ("now" → now).
+ * The core concept a sense expresses, from its English gloss: Mexican "lana" = "money" → money,
+ * American "bread" = "Money." → money. (Matching English headwords instead links "can" to the
+ * modal verb when its regional sense is slang for something else.)
  */
-export function conceptFor(word: string, sense: Sense, cfg: DialectImport, concepts?: ConceptIndex): string | undefined {
+export function conceptFor(_word: string, sense: Sense, _cfg: DialectImport, concepts?: ConceptIndex): string | undefined {
   if (!concepts) return undefined;
-  if (cfg.languages.includes('English')) return concepts.get(normalize(word, 'latn'));
   for (const g of sense.glosses ?? []) {
     for (const part of glossParts(g)) {
       const hit = concepts.get(part);
@@ -298,8 +299,19 @@ export function toEntries(
     .filter((c) => !existing.has(normalize(c.word, cfg.script)))
     .sort((a, b) => rank(a.word) - rank(b.word) || a.word.localeCompare(b.word));
 
+  // At most a few words per concept, so eight synonyms for "very" don't crowd out everything else.
+  const perConcept = new Map<string, number>();
+  const picked = sorted
+    .filter((c) => {
+      if (!c.concept) return true;
+      const n = (perConcept.get(c.concept) ?? 0) + 1;
+      perConcept.set(c.concept, n);
+      return n <= MAX_PER_CONCEPT;
+    })
+    .slice(0, opts.limit);
+
   const out: { slug: string; entry: Entry }[] = [];
-  for (const c of sorted.slice(0, opts.limit)) {
+  for (const c of picked) {
     const romanized = [...c.romanized];
     let base = slugify(cfg.script === 'latn' ? c.word : (romanized[0] ?? '')) || `entry-${out.length + 1}`;
     let slug = base;
