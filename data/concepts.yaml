@@ -1,0 +1,133 @@
+# Core concepts: the everyday meanings that give a dialect away.
+# Every dialect fills these in (an entry sets `concept: <id>`), which makes dialects comparable
+# and lets OpenAccent tell when a reply mixes dialects. Keep ids stable; add, don't rename.
+#
+# id: { en: English gloss, ar: Arabic gloss, category }
+
+# Greetings and responses
+hello:          { en: "hello", ar: "مرحبا", category: greetings }
+how_are_you:    { en: "how are you?", ar: "كيف حالك؟", category: greetings }
+fine:           { en: "fine, well", ar: "بخير", category: greetings }
+thanks:         { en: "thank you", ar: "شكراً", category: greetings }
+youre_welcome:  { en: "you're welcome", ar: "عفواً", category: greetings }
+sorry:          { en: "sorry", ar: "آسف", category: greetings }
+please:         { en: "please", ar: "من فضلك", category: greetings }
+bye:            { en: "goodbye", ar: "مع السلامة", category: greetings }
+yes:            { en: "yes", ar: "نعم", category: greetings }
+no:             { en: "no", ar: "لا", category: greetings }
+okay:           { en: "okay", ar: "حسناً", category: greetings }
+maybe:          { en: "maybe", ar: "ربما", category: greetings }
+whats_up:       { en: "what's up?", ar: "ما الأخبار؟", category: greetings }
+
+# Questions and pointing
+what:           { en: "what", ar: "ماذا", category: questions }
+why:            { en: "why", ar: "لماذا", category: questions }
+how:            { en: "how", ar: "كيف", category: questions }
+where:          { en: "where", ar: "أين", category: questions }
+when:           { en: "when", ar: "متى", category: questions }
+who:            { en: "who", ar: "من", category: questions }
+how_much:       { en: "how much", ar: "كم", category: questions }
+this:           { en: "this", ar: "هذا", category: questions }
+that:           { en: "that", ar: "ذلك", category: questions }
+here:           { en: "here", ar: "هنا", category: questions }
+there:          { en: "there", ar: "هناك", category: questions }
+
+# Time
+now:            { en: "now", ar: "الآن", category: time }
+today:          { en: "today", ar: "اليوم", category: time }
+tomorrow:       { en: "tomorrow", ar: "غداً", category: time }
+yesterday:      { en: "yesterday", ar: "أمس", category: time }
+later:          { en: "later", ar: "لاحقاً", category: time }
+soon:           { en: "soon, in a bit", ar: "قريباً", category: time }
+always:         { en: "always", ar: "دائماً", category: time }
+never:          { en: "never", ar: "أبداً", category: time }
+still:          { en: "still", ar: "ما زال", category: time }
+
+# Amounts
+a_lot:          { en: "a lot, very", ar: "كثيراً", category: amounts }
+a_little:       { en: "a little", ar: "قليلاً", category: amounts }
+all:            { en: "all", ar: "كل", category: amounts }
+nothing:        { en: "nothing", ar: "لا شيء", category: amounts }
+something:      { en: "something, thing", ar: "شيء", category: amounts }
+enough:         { en: "enough", ar: "كفى", category: amounts }
+also:           { en: "also, too", ar: "أيضاً", category: amounts }
+
+# Verbs
+want:           { en: "want", ar: "يريد", category: verbs }
+go:             { en: "go", ar: "يذهب", category: verbs }
+come:           { en: "come", ar: "يأتي", category: verbs }
+see:            { en: "see, look", ar: "يرى", category: verbs }
+say:            { en: "say", ar: "يقول", category: verbs }
+do:             { en: "do, make", ar: "يفعل", category: verbs }
+give:           { en: "give", ar: "يعطي", category: verbs }
+take:           { en: "take", ar: "يأخذ", category: verbs }
+eat:            { en: "eat", ar: "يأكل", category: verbs }
+drink:          { en: "drink", ar: "يشرب", category: verbs }
+sleep:          { en: "sleep", ar: "ينام", category: verbs }
+know:           { en: "know", ar: "يعرف", category: verbs }
+understand:     { en: "understand", ar: "يفهم", category: verbs }
+can:            { en: "can", ar: "يستطيع", category: verbs }
+like:           { en: "like, love", ar: "يحب", category: verbs }
+wait:           { en: "wait", ar: "ينتظر", category: verbs }
+talk:           { en: "talk, speak", ar: "يتكلم", category: verbs }
+leave:          { en: "leave, go out", ar: "يغادر", category: verbs }
+bring:          { en: "bring", ar: "يحضر", category: verbs }
+need:           { en: "need", ar: "يحتاج", category: verbs }
+work_verb:      { en: "work", ar: "يعمل", category: verbs }
+
+# Describing
+good:           { en: "good", ar: "جيد", category: describing }
+bad:            { en: "bad", ar: "سيء", category: describing }
+beautiful:      { en: "beautiful, nice", ar: "جميل", category: describing }
+big:            { en: "big", ar: "كبير", category: describing }
+small:          { en: "small", ar: "صغير", category: describing }
+new:            { en: "new", ar: "جديد", category: describing }
+old_thing:      { en: "old (things)", ar: "قديم", category: describing }
+hot:            { en: "hot", ar: "حار", category: describing }
+cold:           { en: "cold", ar: "بارد", category: describing }
+fast:           { en: "fast", ar: "سريع", category: describing }
+far:            { en: "far", ar: "بعيد", category: describing }
+near:           { en: "near", ar: "قريب", category: describing }
+easy:           { en: "easy", ar: "سهل", category: describing }
+hard:           { en: "difficult", ar: "صعب", category: describing }
+expensive:      { en: "expensive", ar: "غالٍ", category: describing }
+cheap:          { en: "cheap", ar: "رخيص", category: describing }
+tired:          { en: "tired", ar: "متعب", category: describing }
+hungry:         { en: "hungry", ar: "جائع", category: describing }
+happy:          { en: "happy", ar: "سعيد", category: describing }
+angry:          { en: "angry", ar: "غاضب", category: describing }
+cool:           { en: "cool, awesome", ar: "رائع", category: describing }
+
+# People
+man:            { en: "man", ar: "رجل", category: people }
+woman:          { en: "woman", ar: "امرأة", category: people }
+child:          { en: "child", ar: "طفل", category: people }
+friend:         { en: "friend", ar: "صديق", category: people }
+buddy:          { en: "buddy, dude (addressing a man)", ar: "يا صاحبي", category: people }
+mom:            { en: "mom", ar: "أمي", category: people }
+dad:            { en: "dad", ar: "أبي", category: people }
+brother:        { en: "brother", ar: "أخي", category: people }
+grandma:        { en: "grandma", ar: "جدتي", category: people }
+grandpa:        { en: "grandpa", ar: "جدي", category: people }
+
+# Things and places
+money:          { en: "money", ar: "مال", category: things }
+house:          { en: "house", ar: "بيت", category: things }
+car:            { en: "car", ar: "سيارة", category: things }
+bus:            { en: "bus", ar: "حافلة", category: things }
+work:           { en: "work, job", ar: "عمل", category: things }
+food:           { en: "food", ar: "طعام", category: things }
+bread:          { en: "bread", ar: "خبز", category: things }
+water:          { en: "water", ar: "ماء", category: things }
+phone:          { en: "phone", ar: "هاتف", category: things }
+street:         { en: "street", ar: "شارع", category: things }
+
+# Expressions
+really:         { en: "really?", ar: "حقاً؟", category: expressions }
+of_course:      { en: "of course", ar: "طبعاً", category: expressions }
+no_problem:     { en: "no problem", ar: "لا مشكلة", category: expressions }
+lets_go:        { en: "let's go", ar: "هيا بنا", category: expressions }
+hurry_up:       { en: "hurry up", ar: "أسرع", category: expressions }
+never_mind:     { en: "never mind", ar: "لا يهم", category: expressions }
+i_dont_know:    { en: "I don't know", ar: "لا أعرف", category: expressions }
+wow:            { en: "wow", ar: "يا للروعة", category: expressions }

@@ -1,4 +1,4 @@
-import type { Bundle, BundledEntry } from './bundle.js';
+import type { Bundle, BundledEntry, BundledSample } from './bundle.js';
 import { normalize } from './normalize.js';
 import { arabiziCandidates } from './romanize.js';
 import type { Dialect } from './schema.js';
@@ -123,6 +123,7 @@ export class Dictionary {
     const found = inBranch.filter((ix) => {
       if (ix.entry.id === entry.id) return false;
       if (related.has(ix.entry.id) || ix.entry.related.includes(entry.id)) return true;
+      if (entry.concept && ix.entry.concept === entry.concept) return true;
       // Same meaning = the two glosses share a whole part ("you all; you (plural)" vs "you all").
       return glosses.some((g) => {
         const script = scriptOf(g);
@@ -185,11 +186,14 @@ export class Dictionary {
     const script = scriptOf(meaning);
     const q = normalize(meaning, script);
     const lang = script === 'arab' ? 'ar' : 'en';
+    const concept = this.findConcept(meaning);
     return opts.dialects.map((dialect) => {
       const branch = this.branch(dialect);
       const scored: { m: Match; score: number }[] = [];
       for (const ix of this.scope(branch)) {
-        const score = Math.max(0, ...ix.glosses[lang].map((g) => glossScore(q, g, script)));
+        // An entry linked to the matching core concept is the best answer there is.
+        const conceptScore = concept && ix.entry.concept === concept ? 3 : 0;
+        const score = Math.max(conceptScore, ...ix.glosses[lang].map((g) => glossScore(q, g, script)));
         if (score > 0) {
           scored.push({ m: { entry: ix.entry, match: 'gloss', inherited: ix.entry.dialect !== dialect }, score });
         }
@@ -199,6 +203,53 @@ export class Dictionary {
       const kept = this.applyOverrides(scored.filter((s) => s.score === best).map((s) => s.m), branch);
       return { dialect, ...this.paginate(this.rank(kept, branch), { limit: opts.limit }) };
     });
+  }
+
+  /** The core concept a meaning refers to: its id ("how_are_you") or one of its glosses ("now", "الآن"). */
+  findConcept(meaning: string): string | undefined {
+    const id = meaning.trim().toLowerCase().replace(/[\s-]+/g, '_');
+    if (this.bundle.concepts?.[id]) return id;
+    for (const [cid, c] of Object.entries(this.bundle.concepts ?? {})) {
+      for (const g of [c.en, c.ar]) {
+        const script = scriptOf(g);
+        if (g.split(/[;,()]/).some((part) => normalize(part, script) === normalize(meaning, script) && normalize(part, script))) return cid;
+      }
+    }
+    return undefined;
+  }
+
+  /** For each core concept, how a dialect says it: nearest dialect first, verified first. */
+  coreWords(dialect: string): { concept: string; gloss: string; entries: BundledEntry[] }[] {
+    const branch = this.branch(dialect);
+    const byConcept = new Map<string, Match[]>();
+    for (const ix of this.scope(branch)) {
+      if (!ix.entry.concept) continue;
+      const list = byConcept.get(ix.entry.concept) ?? [];
+      list.push({ entry: ix.entry, match: 'exact', inherited: ix.entry.dialect !== dialect });
+      byConcept.set(ix.entry.concept, list);
+    }
+    const order = Object.keys(this.bundle.concepts ?? {});
+    return [...byConcept.entries()]
+      .sort((a, b) => order.indexOf(a[0]) - order.indexOf(b[0]))
+      .map(([concept, matches]) => ({
+        concept,
+        gloss: this.bundle.concepts?.[concept]?.en ?? concept,
+        entries: this.rank(matches, branch).map((m) => m.entry),
+      }));
+  }
+
+  /** Samples for a dialect branch: nearest dialect first, then verified first. */
+  samplesFor(dialect: string, limit = 3): BundledSample[] {
+    const branch = this.branch(dialect);
+    return (this.bundle.samples ?? [])
+      .filter((s) => branch.includes(s.dialect))
+      .sort(
+        (a, b) =>
+          branch.indexOf(a.dialect) - branch.indexOf(b.dialect) ||
+          STATUS_RANK[a.status] - STATUS_RANK[b.status] ||
+          a.id.localeCompare(b.id),
+      )
+      .slice(0, limit);
   }
 
   listDialects(): DialectSummary[] {

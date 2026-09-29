@@ -29,14 +29,18 @@ export interface DialectImport {
    * are tagged with one of these other regions.
    */
   otherRegions?: string[];
+  /** Senses tagged with any of these (sub-regions that have their own dialect folder) are left out. */
+  excludeTags?: string[];
+  /** Keep pronouns, particles and other function words (true for dialect-specific files like Egyptian Arabic). */
+  keepFunctionWords?: boolean;
   /** FrequencyWords list code (content/2018/<code>/<code>_50k.txt), used to rank words. */
   freq?: string;
   script: string;
 }
 
 export const WAVE_1: DialectImport[] = [
-  { dialect: 'en-us-general', languages: ['English'], regionTags: ['US'], freq: 'en', script: 'latn' },
-  { dialect: 'en-gb', languages: ['English'], regionTags: ['UK', 'British'], freq: 'en', script: 'latn' },
+  { dialect: 'en-us-general', languages: ['English'], regionTags: ['US'], excludeTags: ['Southern-US', 'New-England', 'New-York', 'New-York-City', 'African-American-Vernacular', 'AAVE', 'Appalachia', 'Midwest', 'Midwestern-US', 'Pennsylvania', 'Boston', 'California', 'Texas', 'Hawaii', 'Louisiana', 'Western-US'], freq: 'en', script: 'latn' },
+  { dialect: 'en-gb', languages: ['English'], regionTags: ['UK', 'British'], excludeTags: ['Scotland', 'Scottish', 'Northern-England', 'Yorkshire', 'Geordie', 'Cockney', 'West-Country', 'Ireland', 'Irish', 'Northern-Ireland', 'Wales', 'Welsh', 'Liverpool', 'Scouse', 'Manchester', 'Birmingham', 'Cornwall', 'Lancashire', 'East-Anglia', 'Northumbria', 'Newcastle'], freq: 'en', script: 'latn' },
   { dialect: 'en-in', languages: ['English'], regionTags: ['India', 'Indian-English'], freq: 'en', script: 'latn' },
   { dialect: 'es-mx', languages: ['Spanish'], regionTags: ['Mexico'], freq: 'es', script: 'latn' },
   { dialect: 'es-es', languages: ['Spanish'], regionTags: ['Spain'], freq: 'es', script: 'latn' },
@@ -59,12 +63,22 @@ export const WAVE_1: DialectImport[] = [
   },
   { dialect: 'tr-tr', languages: ['Turkish'], freq: 'tr', script: 'latn' },
   { dialect: 'hi-in', languages: ['Hindi'], freq: 'hi', script: 'deva' },
-  { dialect: 'ar-eg', languages: ['Egyptian Arabic'], freq: 'ar', script: 'arab' },
+  { dialect: 'ar-eg', languages: ['Egyptian Arabic'], freq: 'ar', script: 'arab', keepFunctionWords: true },
   // Wiktionary has no separate Najdi Arabic dictionary (kaikki returns 404).
-  { dialect: 'ar-sa', languages: ['Hijazi Arabic', 'Gulf Arabic'], freq: 'ar', script: 'arab' },
-  { dialect: 'ar-sy', languages: ['North Levantine Arabic'], regionTags: ['Syria', 'Syrian'], freq: 'ar', script: 'arab' },
-  { dialect: 'ar-lb', languages: ['North Levantine Arabic'], regionTags: ['Lebanon', 'Lebanese'], freq: 'ar', script: 'arab' },
-  { dialect: 'ar-ma', languages: ['Moroccan Arabic'], freq: 'ar', script: 'arab' },
+  { dialect: 'ar-sa', languages: ['Hijazi Arabic', 'Gulf Arabic'], freq: 'ar', script: 'arab', keepFunctionWords: true },
+  // Wiktionary's North Levantine entries are mostly untagged: they go to the shared Levantine level
+  // (inherited by Syrian and Lebanese), and the few tagged senses go to the country dialects.
+  {
+    dialect: 'ar-levantine',
+    languages: ['North Levantine Arabic'],
+    excludeTags: ['Syria', 'Syrian', 'Lebanon', 'Lebanese', 'Palestine', 'Palestinian', 'Jordan', 'Jordanian'],
+    freq: 'ar',
+    script: 'arab',
+    keepFunctionWords: true,
+  },
+  { dialect: 'ar-sy', languages: ['North Levantine Arabic'], regionTags: ['Syria', 'Syrian'], freq: 'ar', script: 'arab', keepFunctionWords: true },
+  { dialect: 'ar-lb', languages: ['North Levantine Arabic'], regionTags: ['Lebanon', 'Lebanese'], freq: 'ar', script: 'arab', keepFunctionWords: true },
+  { dialect: 'ar-ma', languages: ['Moroccan Arabic'], freq: 'ar', script: 'arab', keepFunctionWords: true },
 ];
 
 export const kaikkiUrl = (language: string) =>
@@ -77,7 +91,12 @@ const SKIP_POS = new Set(['name', 'character', 'symbol', 'prefix', 'suffix', 'in
 // Senses tagged like this are everyday speech, which is what a dialect dictionary is for.
 const EVERYDAY_TAGS = ['colloquial', 'informal', 'slang', 'familiar'];
 // Senses we never import.
-const SKIP_TAGS = new Set(['obsolete', 'archaic', 'historical', 'form-of', 'alt-of', 'misspelling', 'nonstandard-spelling']);
+const SKIP_TAGS = new Set(['obsolete', 'archaic', 'historical', 'form-of', 'alt-of', 'misspelling', 'nonstandard-spelling', 'dialectal', 'rare-form']);
+// Grammar words: not what makes a dialect recognisable, unless they express a core concept.
+const FUNCTION_POS = new Set(['article', 'det', 'prep', 'postp', 'conj', 'particle', 'pron', 'contraction']);
+// Glosses that describe grammar or spelling rather than a meaning.
+const GRAMMAR_GLOSS =
+  /^(used (to|before|after|as|in|with|for)\b|(alternative|obsolete|archaic|dated|nonstandard) (form|spelling)|(plural|form|spelling|clipping|ellipsis|contraction|abbreviation|initialism|acronym) of\b|misspelling|eye dialect|pronunciation spelling|the (name of the )?letter\b)/i;
 
 interface Sense {
   glosses?: string[];
@@ -107,6 +126,8 @@ interface Candidate {
   pos: Set<string>;
   /** At least one selected sense is tagged colloquial/informal/slang. */
   everyday: boolean;
+  /** Core concept, if one of the selected senses expresses it. */
+  concept?: string;
 }
 
 const REGISTER_ORDER = ['vulgar', 'casual', 'formal'] as const;
@@ -117,13 +138,49 @@ function registerFrom(tags: Set<string>): Entry['register'] {
   return 'neutral';
 }
 
+/** Normalized gloss part → concept id. */
+export type ConceptIndex = Map<string, string>;
+
+const glossParts = (text: string) =>
+  text
+    .replace(/\([^)]*\)/g, ' ')
+    .split(/[;,/]/)
+    .map((p) => normalize(p, 'latn'))
+    .filter(Boolean);
+
+/** Builds the lookup from data/concepts.yaml ({ id: { en, ... } }). */
+export function conceptIndex(concepts: Record<string, { en: string }>): ConceptIndex {
+  const index: ConceptIndex = new Map();
+  for (const [id, c] of Object.entries(concepts)) for (const part of glossParts(c.en)) if (!index.has(part)) index.set(part, id);
+  return index;
+}
+
+/**
+ * The core concept a sense expresses. For English dialects the headword itself is compared
+ * ("dude" → buddy); for other languages, the English gloss ("now" → now).
+ */
+export function conceptFor(word: string, sense: Sense, cfg: DialectImport, concepts?: ConceptIndex): string | undefined {
+  if (!concepts) return undefined;
+  if (cfg.languages.includes('English')) return concepts.get(normalize(word, 'latn'));
+  for (const g of sense.glosses ?? []) {
+    for (const part of glossParts(g)) {
+      const hit = concepts.get(part);
+      if (hit) return hit;
+    }
+  }
+  return undefined;
+}
+
 /** Selects the senses a dialect wants from one kaikki entry. */
-export function selectSenses(entry: KaikkiEntry, cfg: DialectImport): Sense[] {
+export function selectSenses(entry: KaikkiEntry, cfg: DialectImport, concepts?: ConceptIndex): Sense[] {
   if (SKIP_POS.has(entry.pos)) return [];
+  if (cfg.script === 'latn' && (entry.word.length < 2 || /^\p{Lu}/u.test(entry.word))) return []; // letters, proper nouns
   return (entry.senses ?? []).filter((s) => {
     const tags = s.tags ?? [];
     if (!s.glosses?.length || s.form_of || s.alt_of) return false;
-    if (tags.some((t) => SKIP_TAGS.has(t))) return false;
+    if (tags.some((t) => SKIP_TAGS.has(t) || cfg.excludeTags?.includes(t))) return false;
+    if (s.glosses.every((g) => GRAMMAR_GLOSS.test(g.trim()))) return false;
+    if (FUNCTION_POS.has(entry.pos) && !cfg.keepFunctionWords && !conceptFor(entry.word, s, cfg, concepts)) return false;
     if (!cfg.regionTags) return true;
     if (tags.some((t) => cfg.regionTags!.includes(t))) return true;
     // Default variety: untagged-for-region everyday senses belong to it.
@@ -140,7 +197,7 @@ export function isRealExample(text: string): boolean {
 }
 
 /** Collects candidates per word from a stream of kaikki JSONL lines. */
-export async function collect(lines: AsyncIterable<string> | Iterable<string>, cfgs: DialectImport[]) {
+export async function collect(lines: AsyncIterable<string> | Iterable<string>, cfgs: DialectImport[], concepts?: ConceptIndex) {
   const byDialect = new Map<string, Map<string, Candidate>>(cfgs.map((c) => [c.dialect, new Map()]));
   for await (const line of lines) {
     if (!line.trim()) continue;
@@ -153,7 +210,7 @@ export async function collect(lines: AsyncIterable<string> | Iterable<string>, c
     if (!entry.word) continue;
     for (const cfg of cfgs) {
       if (entry.lang && !cfg.languages.includes(entry.lang)) continue;
-      const senses = selectSenses(entry, cfg);
+      const senses = selectSenses(entry, cfg, concepts);
       if (senses.length === 0) continue;
       const map = byDialect.get(cfg.dialect)!;
       const c: Candidate = map.get(entry.word) ?? {
@@ -175,6 +232,7 @@ export async function collect(lines: AsyncIterable<string> | Iterable<string>, c
         if (!tags.includes('rare')) c.allRare = false;
         if (!tags.includes('dated')) c.allDated = false;
         if (tags.some((t) => EVERYDAY_TAGS.includes(t))) c.everyday = true;
+        c.concept ??= conceptFor(entry.word, s, cfg, concepts);
         const en = s.glosses!.join('; ');
         if (c.meanings.some((m) => m.en === en)) continue;
         // Only Wiktionary's own usage examples; quotations from books and papers are left out.
@@ -222,11 +280,16 @@ export function toEntries(
   const EVERYDAY_BOOST = 0.25;
   const rank = (w: string) => {
     const c = candidates.get(w);
+    // Words for core concepts come first: they are what gives a dialect away.
+    const conceptBonus = c?.concept ? -1e15 : 0;
+    return conceptBonus + baseRank(w, c);
+  };
+  const baseRank = (w: string, c: Candidate | undefined) => {
     if (!opts.ranks) {
       // No frequency list (e.g. Hindi): everyday senses first, then words with examples, then shorter words.
       return (c?.everyday ? 0 : 2_000) + (c?.meanings.some((m) => m.examples.length) ? 0 : 1_000) + w.length;
     }
-    const r = opts.ranks.get(normalize(w, cfg.script)) ?? Number.MAX_SAFE_INTEGER;
+    const r = opts.ranks.get(normalize(w, cfg.script)) ?? 1e12;
     return c?.everyday ? (r + 1) * EVERYDAY_BOOST : r + 1;
   };
   const existing = opts.existingWords ?? new Set<string>();
@@ -251,6 +314,7 @@ export function toEntries(
       ...(c.ipa ? { pronunciation: { ipa: c.ipa } } : {}),
       ...(c.pos.size === 1 ? { part_of_speech: [...c.pos][0] } : {}),
       meanings: c.meanings.slice(0, 4).map((m) => ({ en: m.en, examples: m.examples })),
+      ...(c.concept ? { concept: c.concept } : {}),
       register: registerFrom(c.tags),
       familiarity: c.allDated ? 'dated' : c.allRare ? 'rare' : 'common',
       status: 'draft',
@@ -297,10 +361,11 @@ async function main() {
   const mine = cfgs.filter((c) => c.languages.includes(language));
   if (mine.length === 0) throw new Error(`No selected dialect draws on "${language}"`);
 
-  const stream = input === '-' ? process.stdin : createReadStream(input);
-  const byDialect = await collect(createInterface({ input: stream, crlfDelay: Infinity }), mine);
-
   const raw = loadRawData(dataRoot);
+  const concepts = raw.concepts ? conceptIndex(raw.concepts as Record<string, { en: string }>) : undefined;
+  const stream = input === '-' ? process.stdin : createReadStream(input);
+  const byDialect = await collect(createInterface({ input: stream, crlfDelay: Infinity }), mine, concepts);
+
   for (const cfg of mine) {
     const folder = raw.dialects.find((d) => d.folder === cfg.dialect);
     if (!folder) throw new Error(`No folder for dialect ${cfg.dialect}`);
@@ -318,7 +383,8 @@ async function main() {
       existingSlugs: new Set(own.map((e) => e.slug)),
     });
     mkdirSync(dir, { recursive: true });
-    for (const { slug, entry } of entries) writeFileSync(join(dir, `${slug}.yaml`), stringify(entry));
+    // YAML 1.1 output quotes words like "no" and "yes", so every YAML reader keeps them as text.
+    for (const { slug, entry } of entries) writeFileSync(join(dir, `${slug}.yaml`), stringify(entry, { version: '1.1' }));
     console.log(`${cfg.dialect}: ${byDialect.get(cfg.dialect)!.size} candidates, wrote ${entries.length} entries${ranks ? '' : ' (no frequency list)'}`);
   }
 }

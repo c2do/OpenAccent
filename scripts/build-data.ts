@@ -3,7 +3,7 @@ import { dirname, join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { loadRawData } from '../src/core/data-loader.js';
 import type { Bundle } from '../src/core/bundle.js';
-import { CountrySchema, DialectSchema, EntrySchema } from '../src/core/schema.js';
+import { ConceptSchema, CountrySchema, DialectSchema, EntrySchema, SampleSchema } from '../src/core/schema.js';
 import { validateData } from './validate-data.js';
 
 export type { Bundle, BundledEntry } from '../src/core/bundle.js';
@@ -23,10 +23,16 @@ export function buildBundle(root: string): Bundle {
   const entries = raw.entries
     .map((f) => ({ id: `${f.folder}/${f.slug}`, ...EntrySchema.parse(f.data) }))
     .sort((a, b) => a.id.localeCompare(b.id));
+  const samples = raw.samples
+    .map((f) => ({ id: `${f.folder}/${f.slug}`, dialect: f.folder, ...SampleSchema.parse(f.data) }))
+    .sort((a, b) => a.id.localeCompare(b.id));
+  const concepts = Object.fromEntries(
+    Object.entries((raw.concepts ?? {}) as Record<string, unknown>).map(([id, c]) => [id, ConceptSchema.parse(c)]),
+  );
   const guides: Record<string, string> = {};
   for (const f of raw.dialects) if (f.guide) guides[f.folder] = f.guide;
 
-  return { formatVersion: 1, builtAt: new Date().toISOString(), countries, dialects, entries, guides };
+  return { formatVersion: 1, builtAt: new Date().toISOString(), countries, dialects, entries, concepts, samples, guides };
 }
 
 export function writeBundle(bundle: Bundle, outFile: string): void {

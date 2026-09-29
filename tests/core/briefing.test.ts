@@ -89,6 +89,10 @@ describe('buildBriefing', () => {
     expect(b.text).toContain('Prefers short replies');
     expect(b.text).toContain('Writing the pronunciation');
     expect(b.text).toContain('Mixing in Egyptian words');
+    expect(b.text).toContain('## Core words in this dialect');
+    expect(b.text).toContain('- now: هسّع ✓ / الحين (regional)');
+    expect(b.text).toContain('## How people actually write it');
+    expect(b.text).toContain('> A: وينك؟');
     // Personal memory wins over the dictionary, and the text says so.
     expect(b.text).toMatch(/override the dictionary/i);
     // Draft guides are labeled.

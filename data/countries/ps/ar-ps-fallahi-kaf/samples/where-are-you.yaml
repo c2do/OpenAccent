@@ -1,0 +1,12 @@
+title: وينك؟
+context: two friends on WhatsApp
+turns:
+- from: user
+  text: وينك يا زلمة؟
+- from: reply
+  text: هسّا جاي، استناني عند الدكّانة
+status: draft
+verified_by: []
+source:
+  kind: ai-draft
+added_by: claude

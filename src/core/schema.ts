@@ -82,6 +82,15 @@ const SourceSchema = z
     path: ['name'],
   });
 
+/** Core concept IDs (data/concepts.yaml), e.g. "now", "how_are_you". */
+export const ConceptIdSchema = z.string().regex(/^[a-z][a-z0-9_]*$/, 'Concept IDs are lowercase with underscores, like "how_are_you"');
+
+export const ConceptSchema = z.object({
+  en: z.string().min(1),
+  ar: z.string().min(1),
+  category: z.string().min(1),
+});
+
 export const EntrySchema = z.object({
   word: z.string().min(1),
   dialect: DialectIdSchema,
@@ -92,11 +101,27 @@ export const EntrySchema = z.object({
   pronunciation: z.object({ simple: z.string().optional(), ipa: z.string().optional() }).optional(),
   part_of_speech: z.string().optional(),
   meanings: z.array(MeaningSchema).min(1, 'An entry needs at least one meaning'),
+  /** The core concept this word expresses in its dialect (see data/concepts.yaml). */
+  concept: ConceptIdSchema.optional(),
   register: z.enum(['casual', 'neutral', 'formal', 'vulgar']).default('neutral'),
   familiarity: z.enum(['common', 'regional', 'rare', 'dated']).default('common'),
   regions: z.array(z.string()).default([]),
   related: z.array(EntryIdSchema).default([]),
   notes: z.string().default(''),
+  status: z.enum(['draft', 'verified', 'disputed']),
+  verified_by: z.array(z.string().min(1)).default([]),
+  source: SourceSchema,
+  added_by: z.string().optional(),
+});
+
+/** A short, natural exchange showing how people actually write in a dialect. */
+export const SampleSchema = z.object({
+  title: z.string().min(1),
+  /** Who is talking and where, e.g. "two friends on WhatsApp". */
+  context: z.string().optional(),
+  turns: z
+    .array(z.object({ from: z.enum(['user', 'reply']), text: z.string().min(1) }))
+    .min(2, 'A sample needs at least two turns'),
   status: z.enum(['draft', 'verified', 'disputed']),
   verified_by: z.array(z.string().min(1)).default([]),
   source: SourceSchema,
@@ -141,5 +166,7 @@ export const MemorySchema = z.object({
 
 export type Dialect = z.infer<typeof DialectSchema>;
 export type Country = z.infer<typeof CountrySchema>;
+export type Concept = z.infer<typeof ConceptSchema>;
+export type Sample = z.infer<typeof SampleSchema>;
 export type Entry = z.infer<typeof EntrySchema>;
 export type Memory = z.infer<typeof MemorySchema>;

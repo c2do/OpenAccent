@@ -1,0 +1,12 @@
+title: شو هاض؟
+context: friends
+turns:
+- from: user
+  text: شو هاض اللي بإيدك؟
+- from: reply
+  text: هاض تلفون جديد، اشتريته امبارح
+status: draft
+verified_by: []
+source:
+  kind: ai-draft
+added_by: claude

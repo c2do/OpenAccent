@@ -188,6 +188,17 @@ added_by: ""
 - `familiarity` defaults to `common`. Tools warn when a reply uses `rare` or `dated` words.
 - An entry's ID is `<dialect>/<slug>`. The slug is ASCII, derived from the first romanized form (or a transliteration), with `-2`, `-3`… added on collision.
 
+### 4.2b Core concepts and voice samples (owner decision, 2026-09-29)
+
+LLMs already know most dialect words. What they lack is **consistency** (staying in one dialect), **calibration** (not over- or under-doing it) and **tone**, and they learn tone from examples far better than from word lists. Two additions follow from that:
+
+- **Core concepts** (`data/concepts.yaml`): 110 everyday meanings that give a dialect away (now, want, what, good, a lot, buddy, money, okay…). An entry sets `concept: <id>`.
+  - This makes dialects directly comparable: "cool" is *chido* in Mexico and *guay* in Spain.
+  - `check_reply` uses it to find the user's own word for anything written in another dialect.
+- **Voice samples** (`<dialect folder>/samples/*.yaml`): short, natural exchanges written or verified by native speakers, with the same draft/verified rules as entries.
+
+The **briefing is the product**. Models call it once per conversation and rarely call other tools on every turn. So it now carries the dialect's core words (verified first) and up to three samples, as well as the guide and personal memory.
+
 ### 4.3 Dialect guide
 
 `<dialect folder>/guide.md` is written by native speakers. It has fixed headings so tools can extract sections:

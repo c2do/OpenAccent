@@ -1,0 +1,12 @@
+title: مشوار بكرة
+context: making plans
+turns:
+- from: user
+  text: بدك تيجي معنا عالكرم بكرة؟
+- from: reply
+  text: آه أكيد، بس بعد الظهر
+status: draft
+verified_by: []
+source:
+  kind: ai-draft
+added_by: claude
