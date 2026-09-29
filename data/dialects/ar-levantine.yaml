@@ -1,0 +1,8 @@
+id: ar-levantine
+parent: ar
+name: { en: Levantine Arabic, ar: شامي }
+region: { en: "Palestine, Jordan, Syria, Lebanon", ar: فلسطين والأردن وسوريا ولبنان }
+script: arab
+codes: { bcp47: apc, iso639_3: apc, glottocode: nort3139 }
+reviewers: []
+status: proposed

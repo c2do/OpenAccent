@@ -1,0 +1,8 @@
+id: ar-ps-madani
+parent: ar-ps
+name: { en: Palestinian Urban (Madani), ar: فلسطيني مدني }
+region: { en: "Palestinian cities (Jerusalem, Nablus, Jaffa, Haifa...)", ar: المدن الفلسطينية }
+script: arab
+codes: { bcp47: apc-PS-x-madani, glottocode: mada1297 }
+reviewers: []
+status: proposed

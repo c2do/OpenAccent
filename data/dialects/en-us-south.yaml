@@ -1,0 +1,8 @@
+id: en-us-south
+parent: en-us
+name: { en: Southern American, ar: الأمريكية الجنوبية }
+region: { en: Southern United States, ar: جنوب الولايات المتحدة }
+script: latn
+codes: { bcp47: en-US }
+reviewers: []
+status: proposed
