@@ -3,7 +3,7 @@ import type { z } from 'zod';
 import { buildBriefing } from '../../src/core/briefing.js';
 import { checkReply } from '../../src/core/check.js';
 import { Dictionary } from '../../src/core/dictionary.js';
-import { MemorySchema } from '../../src/core/memory/index.js';
+import { CURRENT_MEMORY_VERSION, MemorySchema } from '../../src/core/memory/index.js';
 import {
   BriefingResultSchema,
   CheckResultSchema,
@@ -64,7 +64,7 @@ describe('tool results match their shared schemas exactly', () => {
 });
 
 describe('ok()', () => {
-  const ctx = { dictionary: new Dictionary(fixtureBundle()), memory: { read: () => MemorySchema.parse({ version: 1 }), warnings: [] } };
+  const ctx = { dictionary: new Dictionary(fixtureBundle()), memory: { read: () => MemorySchema.parse({ version: CURRENT_MEMORY_VERSION }), warnings: [] } };
 
   it('refuses a field the schema does not declare', () => {
     expect(() => ok(ctx as never, 'x', DialectCardResultSchema, { dialect: 'ar-ps', purpose: 'song', secret: 1 } as never)).toThrow();
@@ -73,7 +73,7 @@ describe('ok()', () => {
 
 describe('core results match the shared schemas', () => {
   const dict = new Dictionary(fixtureBundle());
-  const memory = MemorySchema.parse({ version: 1, profile: { dialect: 'ar-ps-fallahi' } });
+  const memory = MemorySchema.parse({ version: CURRENT_MEMORY_VERSION, profile: { dialect: 'ar-ps-fallahi' } });
 
   it('checkReply', () => {
     const r = checkReply(dict, memory, 'وهلّأ دلوقتي؟ at the end of the day', 'ar-ps-fallahi');
@@ -82,7 +82,7 @@ describe('core results match the shared schemas', () => {
   });
 
   it('buildBriefing, with and without a profile', () => {
-    for (const m of [memory, MemorySchema.parse({ version: 1 })]) {
+    for (const m of [memory, MemorySchema.parse({ version: CURRENT_MEMORY_VERSION })]) {
       const { text: _text, ...data } = buildBriefing(dict, m);
       expect(BriefingResultSchema.parse(data)).toEqual(data);
     }

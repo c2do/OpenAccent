@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { Dictionary } from '../../src/core/dictionary.js';
 import { buildPortablePrompt } from '../../src/core/portable.js';
+import { CURRENT_MEMORY_VERSION } from '../../src/core/memory/index.js';
 import { MemorySchema } from '../../src/core/schema.js';
 import { fixtureBundle } from '../fixtures/bundle.js';
 
@@ -10,7 +11,7 @@ bundle.guides = {
 };
 const dict = new Dictionary(bundle);
 const now = '2026-09-29T12:00:00.000Z';
-const empty = MemorySchema.parse({ version: 1 });
+const empty = MemorySchema.parse({ version: CURRENT_MEMORY_VERSION });
 
 describe('buildPortablePrompt', () => {
   it('names the dialect and includes core words, mistakes and an example', () => {
@@ -23,7 +24,7 @@ describe('buildPortablePrompt', () => {
 
   it('puts the user’s own words first after the header', () => {
     const memory = MemorySchema.parse({
-      version: 1,
+      version: CURRENT_MEMORY_VERSION,
       profile: { region: 'قرى رام الله' },
       words: [{ id: 'w1', say: 'هسّا', instead_of: 'هلأ', created_at: now }],
       corrections: [{ id: 'c1', wrong: 'كويس', right: 'منيح', created_at: now }],

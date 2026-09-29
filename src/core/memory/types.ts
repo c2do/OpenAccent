@@ -1,10 +1,10 @@
-import { MemoryV1Schema, type MemoryV1 } from './v1.js';
+import { MemoryV2Schema, type MemoryV2 } from './v2.js';
 
 /** The memory format this release reads and writes. */
-export const CURRENT_MEMORY_VERSION = 1;
+export const CURRENT_MEMORY_VERSION = 2;
 
-export const MemorySchema = MemoryV1Schema;
-export type Memory = MemoryV1;
+export const MemorySchema = MemoryV2Schema;
+export type Memory = MemoryV2;
 
 type Profile = Memory['profile'];
 export type WordItem = Memory['words'][number];
@@ -20,11 +20,11 @@ export const MEMORY_LIMITS = {
   /** Characters per field. */
   chars: { dialect: 64, region: 200, notes: 2000, say: 200, instead_of: 200, meaning: 300, wrong: 300, right: 300, context: 500, text: 1000 },
   /** Items per list. */
-  items: { words: 500, corrections: 500, style: 50 },
+  items: { words: 500, corrections: 500, style: 50, dialects: 5, voiceOwn: 200, voiceDialects: 50 },
 } as const;
 
 export type RememberInput =
-  | ({ kind: 'profile' } & Profile)
+  | ({ kind: 'profile' } & Partial<Profile>)
   | { kind: 'word'; say: string; instead_of?: string; meaning?: string }
   | { kind: 'correction'; wrong: string; right: string; context?: string }
   | { kind: 'style'; text: string };
@@ -36,6 +36,8 @@ export interface ForgetInput {
   /** Removes words, corrections and style notes containing this text. */
   text?: string;
   profile?: boolean;
+  /** Forgets everything learned from the user's messages. */
+  voice?: boolean;
 }
 
 /** Where personal memory lives. The remote server (v0.3) will implement this per signed-in user. */
@@ -43,6 +45,8 @@ export interface MemoryStore {
   read(): Memory;
   remember(input: RememberInput): { item: MemoryItem; created: boolean };
   forget(input: ForgetInput): MemoryItem[];
+  /** Learns from one of the user's own messages (counts only; the message is not kept). */
+  observe(text: string): Memory['voice'];
   /** Problems met while loading (e.g. a corrupt file that was backed up). */
   readonly warnings: string[];
 }

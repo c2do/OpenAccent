@@ -17,6 +17,7 @@ const Offset = z.number().int().nonnegative();
 
 export const ProfileSchema = z.strictObject({
   dialect: z.string().optional(),
+  dialects: z.array(z.string()),
   region: z.string().optional(),
   notes: z.string().optional(),
 });

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "profile": { "dialect": "ar-ps-fallahi-kaf", "dialects": ["ar-eg"], "region": "Ramallah villages" },
+  "words": [{ "id": "w1", "say": "هسّا", "instead_of": "هلّأ", "meaning": "now", "created_at": "2026-09-29T12:00:00.000Z" }],
+  "corrections": [{ "id": "c1", "wrong": "كويس", "right": "منيح", "created_at": "2026-09-29T12:02:00.000Z" }],
+  "style": [{ "id": "s1", "text": "Prefers short replies", "created_at": "2026-09-29T12:03:00.000Z" }],
+  "voice": {
+    "messages": 12,
+    "words": 96,
+    "latin": 1,
+    "emoji": 4,
+    "mixed": 2,
+    "dialects": { "ar-ps-fallahi": 20, "ar-eg": 5 },
+    "own": [{ "word": "هسا", "dialect": "ar-ps-fallahi", "count": 9 }],
+    "updated_at": "2026-09-29T13:00:00.000Z"
+  }
+}

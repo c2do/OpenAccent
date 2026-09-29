@@ -262,6 +262,17 @@ Memory is stored as local, human-readable JSON:
 - A file from a **newer** OpenAccent is never backed up or overwritten: memory turns read-only and the user is told to update. Only an unreadable file is backed up and replaced.
 - `tests/fixtures/memory/` holds files as earlier releases wrote them; every one must keep loading.
 
+**Learning how the user speaks (memory version 2).** People often speak more than one dialect, and each person arranges and phrases things their own way. So memory also keeps:
+
+- `profile.dialects`: other dialects the user speaks. `check_reply` never flags their words, and the briefing tells the model to follow the user's lead on when to use them.
+- `voice`: what OpenAccent learns from the user's own messages. `check_reply` takes the user's last message as `user_message`, so learning costs no extra tool call. Only counts are kept, never the message:
+  - which dialects their words come from (a word counts only when the dictionary files it under one dialect alone);
+  - the dialect words they use most (up to 200);
+  - how long their messages are;
+  - how often they write in Latin letters (Arabizi), use emoji, or mix scripts.
+
+  After 3 messages the briefing gets a "How the user writes" section (dialect mix, their words, reply length, habits), and a word the user has written twice is never flagged. `openaccent_forget` with `voice: true` clears it all.
+
 **Concurrent writers.** Claude Desktop and the CLI can use the same file. Every change is read-modify-write under a lock file (`memory.json.lock`, created exclusively), then written with an atomic rename, so neither corruption nor lost updates can happen. A lock older than 10 s is treated as abandoned by a crashed process.
 
 **Limits.** Memory goes into the model's context in every conversation, so new items are capped (`MEMORY_LIMITS`: e.g. 200 characters for a word, 2,000 for profile notes, 500 words, 500 corrections, 50 style notes). Limits apply when something is remembered, never when a file is read.

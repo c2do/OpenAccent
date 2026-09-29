@@ -92,17 +92,17 @@ describe('FileMemoryStore and versions', () => {
       const doc = raw as { version: number; sayings?: string[] };
       if (doc.version !== 0) return migrateMemory(raw);
       const memory = MemorySchema.parse({
-        version: 1,
+        version: CURRENT_MEMORY_VERSION,
         words: (doc.sayings ?? []).map((say, i) => ({ id: `w${i + 1}`, say, created_at: '2026-09-29T12:00:00.000Z' })),
       });
       return { memory, from: 0, migrated: true };
     };
-    const store = new FileMemoryStore(path, () => new Date('2026-09-30T00:00:00Z'), fromV0);
+    const store = new FileMemoryStore(path, { now: () => new Date('2026-09-30T00:00:00Z'), migrate: fromV0 });
     expect(store.read().words.map((w) => w.say)).toEqual(['هسّا']);
     store.remember({ kind: 'style', text: 'short replies' });
     expect(readFileSync(`${path}.v0.bak`, 'utf8')).toBe(original);
     const saved = JSON.parse(readFileSync(path, 'utf8'));
-    expect(saved).toMatchObject({ version: 1, words: [{ say: 'هسّا' }], style: [{ text: 'short replies' }] });
+    expect(saved).toMatchObject({ version: CURRENT_MEMORY_VERSION, words: [{ say: 'هسّا' }], style: [{ text: 'short replies' }] });
   });
 });
 
