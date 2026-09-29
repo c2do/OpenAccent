@@ -126,10 +126,13 @@ function normalizeArabic(text: string): string {
     .replace(/[^\p{L}\p{N}\s]/gu, ' ');
 }
 
+const PLAIN_ASCII = /^[\x20-\x7e]*$/;
+
 function normalizeLatin(text: string, rules: ResolvedRules, fuzzy: boolean): string {
   // Lowercase before decomposing, so Turkish İ becomes i and not ı.
-  const lowered = rules.lower(text.normalize('NFC'));
-  return stripMarks(lowered, fuzzy ? '' : rules.keep)
+  // Plain ASCII has nothing to compose or decompose (most English, and most queries).
+  const lowered = PLAIN_ASCII.test(text) ? rules.lower(text) : stripMarks(rules.lower(text.normalize('NFC')), fuzzy ? '' : rules.keep);
+  return lowered
     .replace(/œ/g, 'oe')
     .replace(/æ/g, 'ae')
     .replace(/[‘’ʼ`´]/g, "'")

@@ -38,6 +38,12 @@ export interface DialectSummary {
   verifiedPercent: number;
 }
 
+interface IndexedGloss {
+  /** Whole gloss parts, split on ; , ( ) — "you all; you (plural)" → "you all", "you", "plural". */
+  parts: Set<string>;
+  tokens: Set<string>;
+}
+
 interface IndexedEntry {
   entry: BundledEntry;
   script: string;
@@ -47,23 +53,44 @@ interface IndexedEntry {
   fuzzyKeys: Set<string>;
   /** Normalized (Latin) romanizations. */
   romanKeys: Set<string>;
-  /** Normalized glosses, per language. */
-  glosses: { ar: string[]; en: string[] };
+  /** Normalized glosses, per language, one item per meaning. */
+  glosses: { ar: IndexedGloss[]; en: IndexedGloss[] };
 }
+
+type Lang = 'ar' | 'en';
+type Index = Map<string, IndexedEntry[]>;
 
 /** Glosses are English or Arabic; they are normalized with that language's rules. */
 const glossScript = (text: string) => (detectScript(text) === 'arab' ? 'arab' : 'latn');
-const glossNorm = (text: string, script: string) => normalize(text, { script, dialect: script === 'arab' ? 'ar' : 'en' });
+const langOf = (script: string): Lang => (script === 'arab' ? 'ar' : 'en');
+const glossNorm = (text: string, script: string) => normalize(text, { script, dialect: langOf(script) });
 const tokens = (s: string) => s.split(' ').filter(Boolean);
+const splitParts = (gloss: string, script: string) => gloss.split(/[;,()]/).map((p) => glossNorm(p, script)).filter(Boolean);
 
-/** 0 = no match, 1 = all query words appear in the gloss, 2 = the query is a whole gloss part. */
-function glossScore(query: string, gloss: string, script: string): number {
-  const parts = gloss.split(/[;,()]/).map((p) => glossNorm(p, script)).filter(Boolean);
-  if (parts.includes(query)) return 2;
-  const glossTokens = new Set(tokens(glossNorm(gloss, script)));
-  const q = tokens(query);
-  return q.length > 0 && q.every((t) => glossTokens.has(t)) ? 1 : 0;
+function indexGloss(gloss: string, script: string): IndexedGloss {
+  // Parts split on the same punctuation normalization turns into spaces, so their words are the gloss's words.
+  const parts = new Set(splitParts(gloss, script));
+  return { parts, tokens: new Set([...parts].flatMap(tokens)) };
 }
+
+/** 0 = no match, 1 = all query words appear in one gloss, 2 = the query is a whole gloss part. */
+function glossScore(query: string, queryTokens: string[], glosses: IndexedGloss[]): number {
+  let best = 0;
+  for (const g of glosses) {
+    if (g.parts.has(query)) return 2;
+    if (queryTokens.length > 0 && queryTokens.every((t) => g.tokens.has(t))) best = 1;
+  }
+  return best;
+}
+
+function push(index: Index, key: string, ix: IndexedEntry) {
+  const list = index.get(key);
+  if (list) {
+    if (list[list.length - 1] !== ix) list.push(ix);
+  } else index.set(key, [ix]);
+}
+
+const collator = new Intl.Collator();
 
 function levenshtein(a: string, b: string): number {
   const row = Array.from({ length: b.length + 1 }, (_, i) => i);
@@ -82,8 +109,25 @@ function levenshtein(a: string, b: string): number {
 export class Dictionary {
   private readonly dialects = new Map<string, Dialect>();
   private readonly indexed: IndexedEntry[];
-  /** Normalized word/spelling → entries, across all dialects. */
-  private readonly formIndex = new Map<string, BundledEntry[]>();
+
+  // Indexes, built once. Every search starts from one of these instead of scanning all entries.
+  private readonly byId = new Map<string, IndexedEntry>();
+  private readonly byDialect: Index = new Map();
+  private readonly byConcept: Index = new Map();
+  /** Entries that list this id in `related` (the reverse direction of `related`). */
+  private readonly relatedFrom: Index = new Map();
+  /** Raw word/spelling → entries. */
+  private readonly exactIndex: Index = new Map();
+  /** Normalized word/spelling (each entry by its own dialect's rules) → entries. */
+  private readonly formIndex: Index = new Map();
+  private readonly fuzzyIndex: Index = new Map();
+  private readonly romanIndex: Index = new Map();
+  /** Written word only, script rules only → entries (for spoken → written sound variants). */
+  private readonly writtenIndex: Index = new Map();
+  private readonly glossTokenIndex: Record<Lang, Index> = { ar: new Map(), en: new Map() };
+  private readonly glossPartIndex: Record<Lang, Index> = { ar: new Map(), en: new Map() };
+  private readonly branches = new Map<string, string[]>();
+  private conceptIndex?: Map<string, { cid: string; order: number }>;
 
   /** One normalizer per dialect and level, since rules depend on the dialect's language. */
   private readonly normalizers = new Map<string, (text: string) => string>();
@@ -102,16 +146,27 @@ export class Dictionary {
         fuzzyKeys: new Set(forms.map(fuzzy)),
         romanKeys: new Set(entry.romanized.map((r) => normalize(r, 'latn'))),
         glosses: {
-          ar: entry.meanings.flatMap((m) => (m.ar ? [m.ar] : [])),
-          en: entry.meanings.flatMap((m) => (m.en ? [m.en] : [])),
+          ar: entry.meanings.flatMap((m) => (m.ar ? [indexGloss(m.ar, 'arab')] : [])),
+          en: entry.meanings.flatMap((m) => (m.en ? [indexGloss(m.en, 'latn')] : [])),
         },
       };
     });
     for (const ix of this.indexed) {
-      for (const key of ix.wordKeys) {
-        const list = this.formIndex.get(key) ?? [];
-        list.push(ix.entry);
-        this.formIndex.set(key, list);
+      const { entry } = ix;
+      this.byId.set(entry.id, ix);
+      push(this.byDialect, entry.dialect, ix);
+      if (entry.concept) push(this.byConcept, entry.concept, ix);
+      for (const id of entry.related) push(this.relatedFrom, id, ix);
+      for (const form of [entry.word, ...entry.spellings]) push(this.exactIndex, form, ix);
+      for (const key of ix.wordKeys) push(this.formIndex, key, ix);
+      for (const key of ix.fuzzyKeys) push(this.fuzzyIndex, key, ix);
+      for (const key of ix.romanKeys) push(this.romanIndex, key, ix);
+      push(this.writtenIndex, normalize(entry.word, ix.script), ix);
+      for (const lang of ['ar', 'en'] as const) {
+        for (const g of ix.glosses[lang]) {
+          for (const t of g.tokens) push(this.glossTokenIndex[lang], t, ix);
+          for (const part of g.parts) push(this.glossPartIndex[lang], part, ix);
+        }
       }
     }
   }
@@ -135,32 +190,33 @@ export class Dictionary {
 
   /** Entries in any dialect whose written word or a listed spelling matches this form, normalized as `dialect` does. */
   findByForm(form: string, dialect: string): BundledEntry[] {
-    return this.formIndex.get(this.normalizer(dialect)(form)) ?? [];
+    return (this.formIndex.get(this.normalizer(dialect)(form)) ?? []).map((ix) => ix.entry);
   }
 
   getEntry(id: string): BundledEntry | undefined {
-    return this.indexed.find((ix) => ix.entry.id === id)?.entry;
+    return this.byId.get(id)?.entry;
   }
 
-  /** Entries in a dialect branch that mean the same as `entry` (explicit `related` links or a shared gloss). */
+  /** Entries in a dialect branch that mean the same as `entry` (explicit `related` links, a shared concept, or a shared gloss). */
   equivalentsIn(entry: BundledEntry, dialect: string): BundledEntry[] {
     const branch = this.branch(dialect);
-    const inBranch = this.scope(branch);
-    const related = new Set(entry.related);
-    const glosses = entry.meanings.flatMap((m) => [m.en, m.ar]).filter((g): g is string => Boolean(g));
-    const found = inBranch.filter((ix) => {
-      if (ix.entry.id === entry.id) return false;
-      if (related.has(ix.entry.id) || ix.entry.related.includes(entry.id)) return true;
-      if (entry.concept && ix.entry.concept === entry.concept) return true;
-      // Same meaning = the two glosses share a whole part ("you all; you (plural)" vs "you all").
-      return glosses.some((g) => {
+    const found = new Set<IndexedEntry>();
+    const add = (list: IndexedEntry[] | undefined) => {
+      for (const ix of list ?? []) if (ix.entry.id !== entry.id && branch.includes(ix.entry.dialect)) found.add(ix);
+    };
+    for (const id of entry.related) add(this.byId.has(id) ? [this.byId.get(id)!] : undefined);
+    add(this.relatedFrom.get(entry.id));
+    if (entry.concept) add(this.byConcept.get(entry.concept));
+    // Same meaning = the two glosses share a whole part ("you all; you (plural)" vs "you all").
+    for (const m of entry.meanings) {
+      for (const g of [m.en, m.ar]) {
+        if (!g) continue;
         const script = glossScript(g);
-        const parts = g.split(/[;,()]/).map((p) => glossNorm(p, script)).filter(Boolean);
-        return ix.glosses[script === 'arab' ? 'ar' : 'en'].some((own) => parts.some((q) => glossScore(q, own, script) === 2));
-      });
-    });
+        for (const part of splitParts(g, script)) add(this.glossPartIndex[langOf(script)].get(part));
+      }
+    }
     return this.rank(
-      found.map((ix) => ({ entry: ix.entry, match: 'gloss' as const, inherited: ix.entry.dialect !== dialect })),
+      [...found].map((ix) => ({ entry: ix.entry, match: 'gloss' as const, inherited: ix.entry.dialect !== dialect })),
       branch,
     ).map((m) => m.entry);
   }
@@ -171,54 +227,69 @@ export class Dictionary {
 
   /** The dialect and its ancestors, nearest first. Throws for an unknown dialect. */
   branch(id: string): string[] {
+    const cached = this.branches.get(id);
+    if (cached) return cached;
     this.requireDialect(id);
     const out: string[] = [];
     for (let d: Dialect | undefined = this.dialects.get(id); d; d = d.parent ? this.dialects.get(d.parent) : undefined) {
       if (out.includes(d.id)) break;
       out.push(d.id);
     }
+    this.branches.set(id, out);
     return out;
   }
 
-  /** Find entries by word form: exact, normalized, romanized/Arabizi, dialect sound variants, then gloss. */
+  /** Find entries by word form: exact, normalized, fuzzy, romanized/Arabizi, dialect sound variants, then gloss. */
   lookup(query: string, opts: { dialect?: string; limit?: number; offset?: number } = {}): Page<Match> {
     const q = query.trim();
     const branch = opts.dialect ? this.branch(opts.dialect) : undefined;
+    const dialectsInScope = branch ?? [...this.dialects.keys()];
+    const inScope = new Set(dialectsInScope);
     const qScript = detectScript(q);
-    const qLatin = normalize(q, 'latn');
-    // The query is normalized the way each entry's dialect is (once per dialect, not per entry).
-    const qKeys = new Map<string, { canonical: string; fuzzy: string }>();
-    const keysFor = (ix: IndexedEntry) => {
-      const id = ix.entry.dialect;
-      let k = qKeys.get(id);
-      if (!k) {
-        k = { canonical: this.normalizer(id, 'canonical', ix.script)(q), fuzzy: this.normalizer(id, 'fuzzy', ix.script)(q) };
-        qKeys.set(id, k);
-      }
-      return k;
-    };
-    const candidates = qScript === 'latn' ? new Set(arabiziCandidates(q)) : new Set<string>();
-    // Sound rules add up along the branch: fallahi-tshaf gets its own تش rule plus fallahi's ق rule.
-    const rules = branch?.flatMap((id) => this.dialects.get(id)?.sound_rules ?? []);
-    // Spoken → written variants are compared with the written word only, not with spellings
-    // (spellings hold spoken forms, and matching them would chain the rules).
-    const qSound = new Set(qScript === 'arab' ? soundVariants(q, 'arab', rules) : []);
-    const qGlossScript = qScript === 'arab' ? 'arab' : 'latn';
-    const qGloss = glossNorm(q, qGlossScript);
 
-    const matches: Match[] = [];
-    for (const ix of this.scope(branch)) {
-      const { entry } = ix;
-      let kind: MatchKind | undefined;
-      if (entry.word === q || entry.spellings.includes(q)) kind = 'exact';
-      else if (ix.wordKeys.has(keysFor(ix).canonical)) kind = 'normalized';
-      else if (ix.fuzzyKeys.has(keysFor(ix).fuzzy)) kind = 'fuzzy';
-      else if (qScript === 'latn' && (ix.romanKeys.has(qLatin) || (ix.script === 'arab' && [...ix.wordKeys].some((k) => candidates.has(k)))))
-        kind = 'romanized';
-      else if (qSound.size && qSound.has(normalize(entry.word, ix.script))) kind = 'sound';
-      else if (ix.glosses[qGlossScript === 'arab' ? 'ar' : 'en'].some((g) => glossScore(qGloss, g, qGlossScript) > 0)) kind = 'gloss';
-      if (kind) matches.push({ entry, match: kind, inherited: branch ? entry.dialect !== branch[0] : false });
+    // Each entry keeps its best way of matching.
+    const best = new Map<IndexedEntry, MatchKind>();
+    const add = (list: IndexedEntry[] | undefined, kind: MatchKind, keep?: (ix: IndexedEntry) => boolean) => {
+      for (const ix of list ?? []) {
+        if (!inScope.has(ix.entry.dialect) || (keep && !keep(ix))) continue;
+        const current = best.get(ix);
+        if (!current || MATCH_RANK[kind] < MATCH_RANK[current]) best.set(ix, kind);
+      }
+    };
+
+    add(this.exactIndex.get(q), 'exact');
+    // The query is normalized the way each dialect normalizes its own entries.
+    for (const level of ['canonical', 'fuzzy'] as const) {
+      const dialectsByKey = new Map<string, Set<string>>();
+      for (const id of dialectsInScope) {
+        const key = this.normalizer(id, level)(q);
+        if (!dialectsByKey.has(key)) dialectsByKey.set(key, new Set());
+        dialectsByKey.get(key)!.add(id);
+      }
+      const index = level === 'canonical' ? this.formIndex : this.fuzzyIndex;
+      for (const [key, ids] of dialectsByKey) {
+        add(index.get(key), level === 'canonical' ? 'normalized' : 'fuzzy', (ix) => ids.has(ix.entry.dialect));
+      }
     }
+    if (qScript === 'latn') {
+      add(this.romanIndex.get(normalize(q, 'latn')), 'romanized');
+      for (const candidate of arabiziCandidates(q)) add(this.formIndex.get(candidate), 'romanized', (ix) => ix.script === 'arab');
+    }
+    if (qScript === 'arab') {
+      // Sound rules add up along the branch: fallahi-tshaf gets its own تش rule plus fallahi's ق rule.
+      const rules = branch?.flatMap((id) => this.dialects.get(id)?.sound_rules ?? []);
+      // Spoken → written variants are compared with the written word only, not with spellings
+      // (spellings hold spoken forms, and matching them would chain the rules).
+      for (const v of soundVariants(q, 'arab', rules)) add(this.writtenIndex.get(v), 'sound');
+    }
+    const glossScriptOfQuery = qScript === 'arab' ? 'arab' : 'latn';
+    add(this.glossCandidates(glossNorm(q, glossScriptOfQuery), langOf(glossScriptOfQuery)), 'gloss');
+
+    const matches = [...best].map(([ix, match]) => ({
+      entry: ix.entry,
+      match,
+      inherited: branch ? ix.entry.dialect !== branch[0] : false,
+    }));
     return this.paginate(this.rank(this.applyOverrides(matches, branch), branch), opts);
   }
 
@@ -226,15 +297,18 @@ export class Dictionary {
   express(meaning: string, opts: { dialects: string[]; limit?: number }): (Page<Match> & { dialect: string })[] {
     const script = glossScript(meaning);
     const q = glossNorm(meaning, script);
-    const lang = script === 'arab' ? 'ar' : 'en';
+    const qTokens = tokens(q);
+    const lang = langOf(script);
     const concept = this.findConcept(meaning);
+    const candidates = new Set([...(concept ? (this.byConcept.get(concept) ?? []) : []), ...this.glossCandidates(q, lang)]);
     return opts.dialects.map((dialect) => {
       const branch = this.branch(dialect);
       const scored: { m: Match; score: number }[] = [];
-      for (const ix of this.scope(branch)) {
+      for (const ix of candidates) {
+        if (!branch.includes(ix.entry.dialect)) continue;
         // An entry linked to the matching core concept is the best answer there is.
         const conceptScore = concept && ix.entry.concept === concept ? 3 : 0;
-        const score = Math.max(conceptScore, ...ix.glosses[lang].map((g) => glossScore(q, g, script)));
+        const score = Math.max(conceptScore, glossScore(q, qTokens, ix.glosses[lang]));
         if (score > 0) {
           scored.push({ m: { entry: ix.entry, match: 'gloss', inherited: ix.entry.dialect !== dialect }, score });
         }
@@ -250,34 +324,35 @@ export class Dictionary {
   findConcept(meaning: string): string | undefined {
     const id = meaning.trim().toLowerCase().replace(/[\s-]+/g, '_');
     if (this.bundle.concepts?.[id]) return id;
-    for (const [cid, c] of Object.entries(this.bundle.concepts ?? {})) {
-      for (const g of [c.en, c.ar]) {
-        const script = glossScript(g);
-        const wanted = glossNorm(meaning, script);
-        if (wanted && g.split(/[;,()]/).some((part) => glossNorm(part, script) === wanted)) return cid;
-      }
+    if (!this.conceptIndex) {
+      this.conceptIndex = new Map();
+      Object.entries(this.bundle.concepts ?? {}).forEach(([cid, c], order) => {
+        for (const g of [c.en, c.ar]) {
+          const script = glossScript(g);
+          for (const part of splitParts(g, script)) {
+            const key = `${script}\u0000${part}`;
+            if (!this.conceptIndex!.has(key)) this.conceptIndex!.set(key, { cid, order });
+          }
+        }
+      });
     }
-    return undefined;
+    const hits = (['latn', 'arab'] as const)
+      .map((script) => this.conceptIndex!.get(`${script}\u0000${glossNorm(meaning, script)}`))
+      .filter((h): h is { cid: string; order: number } => Boolean(h));
+    return hits.sort((a, b) => a.order - b.order)[0]?.cid;
   }
 
   /** For each core concept, how a dialect says it: nearest dialect first, verified first. */
   coreWords(dialect: string): { concept: string; gloss: string; entries: BundledEntry[] }[] {
     const branch = this.branch(dialect);
-    const byConcept = new Map<string, Match[]>();
-    for (const ix of this.scope(branch)) {
-      if (!ix.entry.concept) continue;
-      const list = byConcept.get(ix.entry.concept) ?? [];
-      list.push({ entry: ix.entry, match: 'exact', inherited: ix.entry.dialect !== dialect });
-      byConcept.set(ix.entry.concept, list);
+    const out: { concept: string; gloss: string; entries: BundledEntry[] }[] = [];
+    for (const [concept, c] of Object.entries(this.bundle.concepts ?? {})) {
+      const matches = (this.byConcept.get(concept) ?? [])
+        .filter((ix) => branch.includes(ix.entry.dialect))
+        .map((ix) => ({ entry: ix.entry, match: 'exact' as const, inherited: ix.entry.dialect !== dialect }));
+      if (matches.length) out.push({ concept, gloss: c.en, entries: this.rank(matches, branch).map((m) => m.entry) });
     }
-    const order = Object.keys(this.bundle.concepts ?? {});
-    return [...byConcept.entries()]
-      .sort((a, b) => order.indexOf(a[0]) - order.indexOf(b[0]))
-      .map(([concept, matches]) => ({
-        concept,
-        gloss: this.bundle.concepts?.[concept]?.en ?? concept,
-        entries: this.rank(matches, branch).map((m) => m.entry),
-      }));
+    return out;
   }
 
   /** Samples for a dialect branch: matching purpose first, then nearest dialect, then verified. */
@@ -297,7 +372,7 @@ export class Dictionary {
 
   listDialects(): DialectSummary[] {
     return [...this.dialects.values()].map((d) => {
-      const own = this.indexed.filter((ix) => ix.entry.dialect === d.id);
+      const own = this.byDialect.get(d.id) ?? [];
       const verified = own.filter((ix) => ix.entry.status === 'verified').length;
       return {
         id: d.id,
@@ -312,6 +387,15 @@ export class Dictionary {
     });
   }
 
+  /** Entries whose gloss (in one meaning) contains every word of the query. */
+  private glossCandidates(query: string, lang: Lang): IndexedEntry[] {
+    const qTokens = [...new Set(tokens(query))];
+    if (qTokens.length === 0) return [];
+    const lists = qTokens.map((t) => this.glossTokenIndex[lang].get(t) ?? []);
+    const smallest = lists.reduce((a, b) => (b.length < a.length ? b : a));
+    return smallest.filter((ix) => glossScore(query, qTokens, ix.glosses[lang]) > 0);
+  }
+
   private requireDialect(id: string): void {
     if (this.dialects.has(id)) return;
     const close = [...this.dialects.keys()]
@@ -323,11 +407,6 @@ export class Dictionary {
     const hint = close.length ? ` Did you mean: ${close.join(', ')}?` : ' Use list_dialects to see all dialects.';
     throw new Error(`Unknown dialect "${id}".${hint}`);
   }
-
-  private scope(branch: string[] | undefined): IndexedEntry[] {
-    return branch ? this.indexed.filter((ix) => branch.includes(ix.entry.dialect)) : this.indexed;
-  }
-
 
   /** When the same word exists at several levels of the branch, keep only the nearest one. */
   private applyOverrides(matches: Match[], branch: string[] | undefined): Match[] {
@@ -350,7 +429,7 @@ export class Dictionary {
         STATUS_RANK[a.entry.status] - STATUS_RANK[b.entry.status] ||
         depth(a) - depth(b) ||
         FAMILIARITY_RANK[a.entry.familiarity] - FAMILIARITY_RANK[b.entry.familiarity] ||
-        a.entry.id.localeCompare(b.entry.id),
+        collator.compare(a.entry.id, b.entry.id),
     );
   }
 
