@@ -98,7 +98,9 @@ Dialects form a tree. Every node is one file, `data/dialects/<id>.yaml`. Entries
 ar                      Arabic
 └── ar-levantine        Levantine
     └── ar-ps           Palestinian
-        ├── ar-ps-fallahi   Rural (fallahi)   ← v0.1 focus
+        ├── ar-ps-fallahi   Rural (fallahi): ق said ك   ← v0.1 focus
+        │   ├── ar-ps-fallahi-kaf    keeps ك (كيف)
+        │   └── ar-ps-fallahi-tshaf  ك said تش in some words (تشيف)
         ├── ar-ps-madani    Urban (madani)
         ├── ar-ps-khalili   Hebron
         └── ar-ps-gazawi    Gaza

@@ -28,10 +28,15 @@ export function fixtureBundle(): Bundle {
         parent: 'ar-ps',
         name: { en: 'Fallahi' },
         script: 'arab',
-        sound_rules: [
-          ['تش', 'ك'],
-          ['ك', 'ق'],
-        ],
+        sound_rules: [['ك', 'ق']],
+      }),
+      d({ id: 'ar-ps-fallahi-kaf', parent: 'ar-ps-fallahi', name: { en: 'Fallahi kaf' }, script: 'arab' }),
+      d({
+        id: 'ar-ps-fallahi-tshaf',
+        parent: 'ar-ps-fallahi',
+        name: { en: 'Fallahi tshaf' },
+        script: 'arab',
+        sound_rules: [['تش', 'ك']],
       }),
       d({ id: 'ar-ps-madani', parent: 'ar-ps', name: { en: 'Madani' }, script: 'arab' }),
       d({ id: 'ar-eg', parent: 'ar', name: { en: 'Egyptian' }, script: 'arab' }),
@@ -45,7 +50,7 @@ export function fixtureBundle(): Bundle {
         romanized: ['7akoura', 'hakoura'],
         meanings: [{ ar: 'جنينة صغيرة جنب الدار', en: 'small garden next to the house' }],
       }),
-      e('ar-ps-fallahi/kif', {
+      e('ar-ps-fallahi-tshaf/kif', {
         word: 'كيف',
         spellings: ['تشيف'],
         romanized: ['tshif', 'kif'],

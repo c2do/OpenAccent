@@ -1,0 +1,12 @@
+id: ar-ps-fallahi-tshaf
+parent: ar-ps-fallahi
+name: { en: "Palestinian Rural — Tshaf (says تشيف)", ar: "فلاحي تشاف (بيقول تشيف)" }
+region: { en: Rural Palestine, ar: قرى فلسطين }
+script: arab
+codes: { bcp47: apc-PS-x-fallahit }
+reviewers: []   # needs a native tshaf speaker
+status: proposed
+# Only some words: each تش word is listed as its own entry.
+sound_rules:   # [spoken, written]
+  - [تش, ك]    # كيف is said تشيف
+  - [چ, ك]

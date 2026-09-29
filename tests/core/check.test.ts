@@ -45,9 +45,16 @@ describe('checkReply', () => {
     ]);
   });
 
-  it('flags writing a word the way it is pronounced', () => {
-    const r = checkReply(dict, empty, 'تشيف حالك', 'ar-ps-fallahi');
+  it('flags writing a word the way it is pronounced, in the speaker’s own dialect', () => {
+    const r = checkReply(dict, empty, 'تشيف حالك', 'ar-ps-fallahi-tshaf');
     expect(r.issues[0]).toMatchObject({ text: 'تشيف', kind: 'pronunciation', suggestion: 'كيف' });
+    expect(r.issues[0]?.reason).toMatch(/how the word sounds/);
+  });
+
+  it('flags another variety’s pronunciation for a kaf speaker', () => {
+    const r = checkReply(dict, empty, 'تشيف حالك', 'ar-ps-fallahi-kaf');
+    expect(r.issues[0]).toMatchObject({ text: 'تشيف', kind: 'pronunciation', suggestion: 'كيف' });
+    expect(r.issues[0]?.reason).toMatch(/Fallahi tshaf speakers/);
   });
 
   it('flags rare words and suggests a common alternative (English)', () => {

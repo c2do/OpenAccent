@@ -32,9 +32,19 @@ describe('Dictionary.lookup', () => {
     expect(r.items[0]?.match).toBe('sound');
   });
 
+  it('adds up sound rules along the branch (tshaf gets its own rule and fallahi’s)', () => {
+    expect(ids(dict.lookup('تشيف', { dialect: 'ar-ps-fallahi-tshaf' }))).toEqual(['ar-ps-fallahi-tshaf/kif']);
+    expect(ids(dict.lookup('كنّ', { dialect: 'ar-ps-fallahi-tshaf' }))).toEqual(['ar-ps-fallahi/qinn']);
+    expect(ids(dict.lookup('كنّ', { dialect: 'ar-ps-fallahi-kaf' }))).toEqual(['ar-ps-fallahi/qinn']);
+  });
+
+  it('keeps tshaf words out of the kaf branch', () => {
+    expect(ids(dict.lookup('تشيف', { dialect: 'ar-ps-fallahi-kaf' }))).toEqual([]);
+  });
+
   it('never chains sound rules: تشال is not قال', () => {
-    expect(ids(dict.lookup('تشال', { dialect: 'ar-ps-fallahi' }))).toEqual([]);
-    expect(ids(dict.lookup('تشنّ', { dialect: 'ar-ps-fallahi' }))).toEqual([]);
+    expect(ids(dict.lookup('تشال', { dialect: 'ar-ps-fallahi-tshaf' }))).toEqual([]);
+    expect(ids(dict.lookup('تشنّ', { dialect: 'ar-ps-fallahi-tshaf' }))).toEqual([]);
   });
 
   it('inherits entries from parent dialects', () => {
@@ -113,14 +123,14 @@ describe('Dictionary.listDialects', () => {
   it('returns every dialect with counts and verified share', () => {
     const list = dict.listDialects();
     const fallahi = list.find((x) => x.id === 'ar-ps-fallahi');
-    expect(fallahi).toMatchObject({ parent: 'ar-ps', entries: 7, verified: 2, script: 'arab' });
-    expect(fallahi?.verifiedPercent).toBe(29);
+    expect(fallahi).toMatchObject({ parent: 'ar-ps', entries: 6, verified: 1, script: 'arab' });
+    expect(fallahi?.verifiedPercent).toBe(17);
     expect(list.map((x) => x.id)).toContain('en-us-south');
   });
 });
 
 describe('Dictionary.branch', () => {
   it('lists a dialect and its ancestors, nearest first', () => {
-    expect(dict.branch('ar-ps-fallahi')).toEqual(['ar-ps-fallahi', 'ar-ps', 'ar']);
+    expect(dict.branch('ar-ps-fallahi-kaf')).toEqual(['ar-ps-fallahi-kaf', 'ar-ps-fallahi', 'ar-ps', 'ar']);
   });
 });

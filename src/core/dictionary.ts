@@ -158,8 +158,8 @@ export class Dictionary {
     const qScript = scriptOf(q);
     const qLatin = normalize(q, 'latn');
     const candidates = qScript === 'latn' ? new Set(arabiziCandidates(q)) : new Set<string>();
-    const rulesOwner = branch?.find((id) => this.dialects.get(id)?.sound_rules?.length);
-    const rules = rulesOwner ? this.dialects.get(rulesOwner)?.sound_rules : undefined;
+    // Sound rules add up along the branch: fallahi-tshaf gets its own تش rule plus fallahi's ق rule.
+    const rules = branch?.flatMap((id) => this.dialects.get(id)?.sound_rules ?? []);
     // Spoken → written variants are compared with the written word only, not with spellings
     // (spellings hold spoken forms, and matching them would chain the rules).
     const qSound = new Set(qScript === 'arab' ? soundVariants(q, 'arab', rules) : []);

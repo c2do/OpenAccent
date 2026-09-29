@@ -64,20 +64,25 @@ export function checkReply(dict: Dictionary, memory: Memory, text: string, diale
     const entries = dict.findByForm(form, script);
     if (entries.length === 0) return undefined;
     const mine = entries.filter((e) => branch.includes(e.dialect));
+    const writtenInBranch = mine.some((e) => normalize(e.word, script) === form);
+
+    // Written the way it's pronounced (e.g. تشيف for كيف)? Wrong in any dialect's writing.
+    const spoken = entries.find(
+      (e) => e.pronunciation?.simple && normalize(e.pronunciation.simple, script) === form && normalize(e.word, script) !== form,
+    );
+    if (spoken && !writtenInBranch) {
+      const ownSound = branch.includes(spoken.dialect);
+      return {
+        text: form,
+        kind: 'pronunciation',
+        reason: ownSound
+          ? 'This is how the word sounds; people write it differently.'
+          : `This is how ${dict.getDialect(spoken.dialect)?.name.en ?? spoken.dialect} speakers say it, not the user's dialect, and it is written differently anyway.`,
+        suggestion: spoken.word,
+      };
+    }
 
     if (mine.length > 0) {
-      // Written the way it's pronounced (e.g. تشيف for كيف)?
-      const spoken = mine.find(
-        (e) => e.pronunciation?.simple && normalize(e.pronunciation.simple, script) === form && normalize(e.word, script) !== form,
-      );
-      if (spoken) {
-        return {
-          text: form,
-          kind: 'pronunciation',
-          reason: 'This is how the word sounds; people write it differently.',
-          suggestion: spoken.word,
-        };
-      }
       // In the dialect, but rare or old-fashioned?
       if (mine.every((e) => e.familiarity === 'rare' || e.familiarity === 'dated')) {
         const e = mine[0]!;

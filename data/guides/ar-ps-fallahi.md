@@ -5,11 +5,11 @@ The Arabic of Palestinian villages. Sounds and words differ a lot from village t
 
 ## Pronunciation
 
-> **Speech vs writing.** Fallahi speakers *pronounce* ك as تش and ق as ك, but *write* them as ك and ق, like everyone else. Entries use the written form in `word` and the spoken form in `pronunciation`.
+> **Two varieties.** *Kaf* speakers keep ك (كيف). *Tshaf* speakers say تش in some words (تشيف). Know which one the user speaks (their profile dialect is `ar-ps-fallahi-kaf` or `ar-ps-fallahi-tshaf`), and never mix them.
 
-- **ك is often pronounced تش** (tš): كيف sounds like "تشيف", كبير like "تشبير".
-  - Not every ك in every word or village.
-- **ق is pronounced ك**: قال sounds like "كال", قلب like "كلب".
+> **Speech vs writing.** Fallahi speakers *pronounce* ق as ك but *write* ق, like everyone else. Entries use the written form in `word` and the spoken form in `pronunciation`.
+
+- **ق is pronounced ك** by both varieties: قال sounds like "كال", قلب like "كلب".
   - That ك never turns into تش: it's always "كال", never "تشال".
 - **ث and ذ are kept** as in classical Arabic (ثلاثة، ذيب), unlike urban speech (تلاتة، ديب).
 
@@ -22,9 +22,9 @@ The Arabic of Palestinian villages. Sounds and words differ a lot from village t
 
 ## Common AI mistakes
 
-- **Writing the pronunciation**: "تشيف حالك" or "كال" in a text reply. Fallahi speakers write كيف and قال. Only write تش forms if the user writes that way themselves (check personal memory).
+- **Writing the pronunciation**: "كال" (or "تشيف") in a text reply. Fallahi speakers write قال and كيف. Only write spoken forms if the user writes that way themselves (check personal memory).
+- **Mixing the two varieties**: using تش forms with a kaf speaker.
 - **Urban forms in a fallahi conversation**: "هلأ" instead of "هسّع".
-- **Hypercorrection** in speech-like text (e.g. voice scripts): turning every ك into تش ("تشتاب" for كتاب) to "sound rural".
 - **Gulf/Egyptian words**: دلوقتي، إزيّك، شلونك، وايد. (Careful: الحين and هالحين *are* fallahi in some villages — see Grammar & markers above.)
 - **Caricature**: stuffing "يا زلمة" or "والله" into every sentence, or using village words for effect.
 - **Old-fashioned words** the user doesn't use. Check `familiarity` before using a `dated` word.

@@ -6,9 +6,9 @@ describe('a conversation across two sessions', () => {
     // Session 1: onboarding, profile, lookup, correction.
     const s1 = await connect();
     expect((await s1.call('openaccent_get_briefing')).data.onboarding).toBe(true);
-    await s1.call('openaccent_remember', { kind: 'profile', dialect: 'ar-ps-fallahi', region: 'قرية' });
-    const lookup = await s1.call('openaccent_lookup', { query: 'تشيف' });
-    expect(lookup.data.items[0].word).toBe('كيف');
+    await s1.call('openaccent_remember', { kind: 'profile', dialect: 'ar-ps-fallahi-kaf', region: 'قرية' });
+    const lookup = await s1.call('openaccent_lookup', { query: 'كال' });
+    expect(lookup.data.items[0].word).toBe('قال');
     await s1.call('openaccent_remember', { kind: 'correction', wrong: 'كويس', right: 'منيح' });
     await s1.close();
 
@@ -16,7 +16,7 @@ describe('a conversation across two sessions', () => {
     const s2 = await connect({ memoryPath: s1.memoryPath });
     const briefing = await s2.call('openaccent_get_briefing');
     expect(briefing.text).toContain('كويس → منيح');
-    expect(briefing.text).toContain('👤 User dialect: ar-ps-fallahi · corrections: كويس→منيح');
+    expect(briefing.text).toContain('👤 User dialect: ar-ps-fallahi-kaf · corrections: كويس→منيح');
 
     const check = await s2.call('openaccent_check_reply', { text: 'كويس، بجيك هسّا' });
     expect(check.data.issues[0]).toMatchObject({ kind: 'correction', suggestion: 'منيح' });
