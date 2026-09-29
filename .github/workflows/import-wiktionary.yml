@@ -54,9 +54,16 @@ jobs:
             url=$(jq -r .url <<<"$item")
             dialects=$(jq -r '.dialects | join(",")' <<<"$item")
             echo "::group::$lang ($dialects)"
-            curl -sSfL --retry 3 "$url" \
-              | npx tsx scripts/import-wiktextract.ts --language "$lang" --input - --dialects "$dialects" \
-                  --freq-dir freq --limit "$LIMIT" | tee -a "$GITHUB_STEP_SUMMARY"
+            # One missing source must not stop the others: warn and move on.
+            if ! curl -sSfL --retry 3 "$url" -o source.jsonl; then
+              echo "::warning::Could not download $lang from $url — skipped"
+              echo "- ⚠ $lang: download failed, skipped" >> "$GITHUB_STEP_SUMMARY"
+              echo "::endgroup::"
+              continue
+            fi
+            npx tsx scripts/import-wiktextract.ts --language "$lang" --input source.jsonl --dialects "$dialects" \
+              --freq-dir freq --limit "$LIMIT" | sed 's/^/- /' | tee -a "$GITHUB_STEP_SUMMARY"
+            rm -f source.jsonl
             echo "::endgroup::"
           done
 
