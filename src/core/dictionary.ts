@@ -1,12 +1,13 @@
 import type { Bundle, BundledEntry, BundledSample } from './bundle.js';
-import { normalize } from './normalize.js';
+import { normalize, normalizerFor } from './normalize.js';
 import { arabiziCandidates } from './romanize.js';
 import type { Dialect } from './schema.js';
+import { detectScript } from './script.js';
 import { soundVariants } from './soundfold.js';
 
 /** How a query matched an entry, best first. */
-export type MatchKind = 'exact' | 'normalized' | 'romanized' | 'sound' | 'gloss';
-const MATCH_RANK: Record<MatchKind, number> = { exact: 0, normalized: 1, romanized: 2, sound: 3, gloss: 4 };
+export type MatchKind = 'exact' | 'normalized' | 'fuzzy' | 'romanized' | 'sound' | 'gloss';
+const MATCH_RANK: Record<MatchKind, number> = { exact: 0, normalized: 1, fuzzy: 2, romanized: 3, sound: 4, gloss: 5 };
 const STATUS_RANK = { verified: 0, draft: 1, disputed: 2 } as const;
 const FAMILIARITY_RANK = { common: 0, regional: 1, rare: 2, dated: 3 } as const;
 
@@ -42,21 +43,24 @@ interface IndexedEntry {
   script: string;
   /** Normalized word and spellings. */
   wordKeys: Set<string>;
+  /** The same, loosely normalized (año → ano, heyyy → hey). */
+  fuzzyKeys: Set<string>;
   /** Normalized (Latin) romanizations. */
   romanKeys: Set<string>;
   /** Normalized glosses, per language. */
   glosses: { ar: string[]; en: string[] };
 }
 
-const ARABIC = /[؀-ۿ]/;
-const scriptOf = (text: string) => (ARABIC.test(text) ? 'arab' : 'latn');
+/** Glosses are English or Arabic; they are normalized with that language's rules. */
+const glossScript = (text: string) => (detectScript(text) === 'arab' ? 'arab' : 'latn');
+const glossNorm = (text: string, script: string) => normalize(text, { script, dialect: script === 'arab' ? 'ar' : 'en' });
 const tokens = (s: string) => s.split(' ').filter(Boolean);
 
 /** 0 = no match, 1 = all query words appear in the gloss, 2 = the query is a whole gloss part. */
 function glossScore(query: string, gloss: string, script: string): number {
-  const parts = gloss.split(/[;,()]/).map((p) => normalize(p, script)).filter(Boolean);
+  const parts = gloss.split(/[;,()]/).map((p) => glossNorm(p, script)).filter(Boolean);
   if (parts.includes(query)) return 2;
-  const glossTokens = new Set(tokens(normalize(gloss, script)));
+  const glossTokens = new Set(tokens(glossNorm(gloss, script)));
   const q = tokens(query);
   return q.length > 0 && q.every((t) => glossTokens.has(t)) ? 1 : 0;
 }
@@ -81,14 +85,21 @@ export class Dictionary {
   /** Normalized word/spelling → entries, across all dialects. */
   private readonly formIndex = new Map<string, BundledEntry[]>();
 
+  /** One normalizer per dialect and level, since rules depend on the dialect's language. */
+  private readonly normalizers = new Map<string, (text: string) => string>();
+
   constructor(readonly bundle: Bundle) {
     for (const d of bundle.dialects) this.dialects.set(d.id, d);
     this.indexed = bundle.entries.map((entry) => {
-      const script = this.dialects.get(entry.dialect)?.script ?? scriptOf(entry.word);
+      const script = this.dialects.get(entry.dialect)?.script ?? detectScript(entry.word);
+      const forms = [entry.word, ...entry.spellings];
+      const norm = this.normalizer(entry.dialect, 'canonical', script);
+      const fuzzy = this.normalizer(entry.dialect, 'fuzzy', script);
       return {
         entry,
         script,
-        wordKeys: new Set([entry.word, ...entry.spellings].map((w) => normalize(w, script))),
+        wordKeys: new Set(forms.map(norm)),
+        fuzzyKeys: new Set(forms.map(fuzzy)),
         romanKeys: new Set(entry.romanized.map((r) => normalize(r, 'latn'))),
         glosses: {
           ar: entry.meanings.flatMap((m) => (m.ar ? [m.ar] : [])),
@@ -105,9 +116,26 @@ export class Dictionary {
     }
   }
 
-  /** Entries in any dialect whose written word or a listed spelling matches this form. */
-  findByForm(form: string, script: string): BundledEntry[] {
-    return this.formIndex.get(normalize(form, script)) ?? [];
+  /**
+   * Normalize text the way a dialect's entries are normalized (its script and language rules).
+   * Unknown dialects get script rules only, with the script taken from the text.
+   */
+  normalizer(dialect: string, level: 'canonical' | 'fuzzy' = 'canonical', script?: string): (text: string) => string {
+    const key = `${dialect}\u0000${level}\u0000${script ?? ''}`;
+    let fn = this.normalizers.get(key);
+    if (!fn) {
+      const d = this.dialects.get(dialect);
+      fn = d || script
+        ? normalizerFor({ id: dialect, script: script ?? d!.script }, level)
+        : (text: string) => normalize(text, { script: detectScript(text), level });
+      this.normalizers.set(key, fn);
+    }
+    return fn;
+  }
+
+  /** Entries in any dialect whose written word or a listed spelling matches this form, normalized as `dialect` does. */
+  findByForm(form: string, dialect: string): BundledEntry[] {
+    return this.formIndex.get(this.normalizer(dialect)(form)) ?? [];
   }
 
   getEntry(id: string): BundledEntry | undefined {
@@ -126,8 +154,8 @@ export class Dictionary {
       if (entry.concept && ix.entry.concept === entry.concept) return true;
       // Same meaning = the two glosses share a whole part ("you all; you (plural)" vs "you all").
       return glosses.some((g) => {
-        const script = scriptOf(g);
-        const parts = g.split(/[;,()]/).map((p) => normalize(p, script)).filter(Boolean);
+        const script = glossScript(g);
+        const parts = g.split(/[;,()]/).map((p) => glossNorm(p, script)).filter(Boolean);
         return ix.glosses[script === 'arab' ? 'ar' : 'en'].some((own) => parts.some((q) => glossScore(q, own, script) === 2));
       });
     });
@@ -156,26 +184,39 @@ export class Dictionary {
   lookup(query: string, opts: { dialect?: string; limit?: number; offset?: number } = {}): Page<Match> {
     const q = query.trim();
     const branch = opts.dialect ? this.branch(opts.dialect) : undefined;
-    const qScript = scriptOf(q);
+    const qScript = detectScript(q);
     const qLatin = normalize(q, 'latn');
+    // The query is normalized the way each entry's dialect is (once per dialect, not per entry).
+    const qKeys = new Map<string, { canonical: string; fuzzy: string }>();
+    const keysFor = (ix: IndexedEntry) => {
+      const id = ix.entry.dialect;
+      let k = qKeys.get(id);
+      if (!k) {
+        k = { canonical: this.normalizer(id, 'canonical', ix.script)(q), fuzzy: this.normalizer(id, 'fuzzy', ix.script)(q) };
+        qKeys.set(id, k);
+      }
+      return k;
+    };
     const candidates = qScript === 'latn' ? new Set(arabiziCandidates(q)) : new Set<string>();
     // Sound rules add up along the branch: fallahi-tshaf gets its own تش rule plus fallahi's ق rule.
     const rules = branch?.flatMap((id) => this.dialects.get(id)?.sound_rules ?? []);
     // Spoken → written variants are compared with the written word only, not with spellings
     // (spellings hold spoken forms, and matching them would chain the rules).
     const qSound = new Set(qScript === 'arab' ? soundVariants(q, 'arab', rules) : []);
-    const qGloss = normalize(q, qScript);
+    const qGlossScript = qScript === 'arab' ? 'arab' : 'latn';
+    const qGloss = glossNorm(q, qGlossScript);
 
     const matches: Match[] = [];
     for (const ix of this.scope(branch)) {
       const { entry } = ix;
       let kind: MatchKind | undefined;
       if (entry.word === q || entry.spellings.includes(q)) kind = 'exact';
-      else if (ix.wordKeys.has(normalize(q, ix.script))) kind = 'normalized';
+      else if (ix.wordKeys.has(keysFor(ix).canonical)) kind = 'normalized';
+      else if (ix.fuzzyKeys.has(keysFor(ix).fuzzy)) kind = 'fuzzy';
       else if (qScript === 'latn' && (ix.romanKeys.has(qLatin) || (ix.script === 'arab' && [...ix.wordKeys].some((k) => candidates.has(k)))))
         kind = 'romanized';
       else if (qSound.size && qSound.has(normalize(entry.word, ix.script))) kind = 'sound';
-      else if (ix.glosses[qScript === 'arab' ? 'ar' : 'en'].some((g) => glossScore(qGloss, g, qScript) > 0)) kind = 'gloss';
+      else if (ix.glosses[qGlossScript === 'arab' ? 'ar' : 'en'].some((g) => glossScore(qGloss, g, qGlossScript) > 0)) kind = 'gloss';
       if (kind) matches.push({ entry, match: kind, inherited: branch ? entry.dialect !== branch[0] : false });
     }
     return this.paginate(this.rank(this.applyOverrides(matches, branch), branch), opts);
@@ -183,8 +224,8 @@ export class Dictionary {
 
   /** Find how to say a meaning (English or Arabic gloss) in one or more dialects, grouped by dialect. */
   express(meaning: string, opts: { dialects: string[]; limit?: number }): (Page<Match> & { dialect: string })[] {
-    const script = scriptOf(meaning);
-    const q = normalize(meaning, script);
+    const script = glossScript(meaning);
+    const q = glossNorm(meaning, script);
     const lang = script === 'arab' ? 'ar' : 'en';
     const concept = this.findConcept(meaning);
     return opts.dialects.map((dialect) => {
@@ -211,8 +252,9 @@ export class Dictionary {
     if (this.bundle.concepts?.[id]) return id;
     for (const [cid, c] of Object.entries(this.bundle.concepts ?? {})) {
       for (const g of [c.en, c.ar]) {
-        const script = scriptOf(g);
-        if (g.split(/[;,()]/).some((part) => normalize(part, script) === normalize(meaning, script) && normalize(part, script))) return cid;
+        const script = glossScript(g);
+        const wanted = glossNorm(meaning, script);
+        if (wanted && g.split(/[;,()]/).some((part) => glossNorm(part, script) === wanted)) return cid;
       }
     }
     return undefined;
@@ -291,7 +333,7 @@ export class Dictionary {
   private applyOverrides(matches: Match[], branch: string[] | undefined): Match[] {
     if (!branch) return matches;
     const nearest = new Map<string, number>();
-    const keyOf = (m: Match) => normalize(m.entry.word, this.dialects.get(m.entry.dialect)?.script ?? 'arab');
+    const keyOf = (m: Match) => this.normalizer(m.entry.dialect)(m.entry.word);
     for (const m of matches) {
       const depth = branch.indexOf(m.entry.dialect);
       const key = keyOf(m);

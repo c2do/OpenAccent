@@ -76,6 +76,22 @@ describe('Dictionary.lookup', () => {
     expect(ids(dict.lookup('colour', { dialect: 'en-us-general' }))).toEqual(['en-us-general/color']);
   });
 
+  it('normalizes each dialect by its own language rules', () => {
+    // English folds (…our → …or) must not touch French words.
+    expect(ids(dict.lookup('amour', { dialect: 'fr-fr' }))).toEqual(['fr-fr/amour']);
+    expect(dict.lookup('amour', { dialect: 'fr-fr' }).items[0]?.match).toBe('exact');
+    expect(ids(dict.lookup('AMOUR'))).toEqual(['fr-fr/amour']);
+    expect(ids(dict.lookup('amor', { dialect: 'fr-fr' }))).toEqual([]);
+    expect(ids(dict.lookup('colour'))).toContain('en-us-general/color');
+  });
+
+  it('falls back to fuzzy matching for words typed without the right keyboard', () => {
+    const r = dict.lookup('ano', { dialect: 'es-mx' });
+    expect(ids(r)).toEqual(['es-mx/ano-year']);
+    expect(r.items[0]?.match).toBe('fuzzy');
+    expect(dict.lookup('Año', { dialect: 'es-mx' }).items[0]?.match).toBe('normalized');
+  });
+
   it('paginates', () => {
     const all = dict.lookup('now');
     const page = dict.lookup('now', { limit: 2, offset: 0 });

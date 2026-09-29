@@ -14,7 +14,7 @@ import { createInterface } from 'node:readline';
 import { pathToFileURL } from 'node:url';
 import { stringify } from 'yaml';
 import { loadRawData } from '../src/core/data-loader.js';
-import { normalize } from '../src/core/normalize.js';
+import { normalize, type NormalizeOptions } from '../src/core/normalize.js';
 import { EntrySchema, type Entry } from '../src/core/schema.js';
 
 export interface DialectImport {
@@ -146,7 +146,7 @@ const glossParts = (text: string) =>
   text
     .replace(/\([^)]*\)/g, ' ')
     .split(/[;,/]/)
-    .map((p) => normalize(p, 'latn').replace(/^(a|an|the|to) /, '').replace(/^(slang|informal) for /, ''))
+    .map((p) => normalize(p, { script: 'latn', dialect: 'en' }).replace(/^(a|an|the|to) /, '').replace(/^(slang|informal) for /, ''))
     .filter(Boolean);
 
 /** Builds the lookup from data/concepts.yaml ({ id: { en, ... } }). */
@@ -250,7 +250,7 @@ export async function collect(lines: AsyncIterable<string> | Iterable<string>, c
 }
 
 /** Word → rank (0 = most frequent) from a FrequencyWords list ("word count" per line). */
-export function readFrequency(text: string, script: string): Map<string, number> {
+export function readFrequency(text: string, script: string | NormalizeOptions): Map<string, number> {
   const ranks = new Map<string, number>();
   text.split('\n').forEach((line, i) => {
     const word = line.split(' ')[0];
@@ -290,13 +290,13 @@ export function toEntries(
       // No frequency list (e.g. Hindi): everyday senses first, then words with examples, then shorter words.
       return (c?.everyday ? 0 : 2_000) + (c?.meanings.some((m) => m.examples.length) ? 0 : 1_000) + w.length;
     }
-    const r = opts.ranks.get(normalize(w, cfg.script)) ?? 1e12;
+    const r = opts.ranks.get(normalize(w, cfg)) ?? 1e12;
     return c?.everyday ? (r + 1) * EVERYDAY_BOOST : r + 1;
   };
   const existing = opts.existingWords ?? new Set<string>();
   const slugs = new Set(opts.existingSlugs ?? []);
   const sorted = [...candidates.values()]
-    .filter((c) => !existing.has(normalize(c.word, cfg.script)))
+    .filter((c) => !existing.has(normalize(c.word, cfg)))
     .sort((a, b) => rank(a.word) - rank(b.word) || a.word.localeCompare(b.word));
 
   // At most a few words per concept, so eight synonyms for "very" don't crowd out everything else.
@@ -383,9 +383,9 @@ async function main() {
     if (!folder) throw new Error(`No folder for dialect ${cfg.dialect}`);
     const dir = join(dataRoot, folder.file.replace(/\/dialect\.yaml$/, ''), 'entries');
     const own = raw.entries.filter((e) => e.folder === cfg.dialect);
-    const existingWords = new Set(own.map((e) => normalize(String((e.data as { word?: string }).word ?? ''), cfg.script)));
+    const existingWords = new Set(own.map((e) => normalize(String((e.data as { word?: string }).word ?? ''), cfg)));
     const freqFile = freqDir && cfg.freq ? join(freqDir, `${cfg.freq}_50k.txt`) : undefined;
-    const ranks = freqFile && existsSync(freqFile) ? readFrequency(readFileSync(freqFile, 'utf8'), cfg.script) : undefined;
+    const ranks = freqFile && existsSync(freqFile) ? readFrequency(readFileSync(freqFile, 'utf8'), cfg) : undefined;
     // The limit is per dialect, across all its source languages and earlier runs.
     const alreadyImported = own.filter((e) => (e.data as { added_by?: string }).added_by === 'wiktionary-import').length;
     const entries = toEntries(byDialect.get(cfg.dialect)!, cfg, {
