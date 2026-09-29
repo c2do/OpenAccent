@@ -1,12 +1,31 @@
-# OpenAccent
+<p align="center">
+  <img src="docs/assets/banner.svg" alt="OpenAccent" width="100%">
+</p>
 
-**Talk to AI like you'd talk to someone from home.**
+<p align="center"><b>Talk to AI like you'd talk to someone from home.</b></p>
 
-OpenAccent is an open-source, community-built dictionary of the world's dialects, verified by native speakers, plus a personal memory of how *you* speak. Both are served to AI assistants like Claude through [MCP](https://modelcontextprotocol.io).
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/code-MIT-0F766E" alt="Code: MIT"></a>
+  <a href="data/LICENSE"><img src="https://img.shields.io/badge/data-CC%20BY--SA%204.0-0F766E" alt="Data: CC BY-SA 4.0"></a>
+  <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP-server-4338CA" alt="MCP server"></a>
+  <img src="https://img.shields.io/badge/dialects-14%20in%20wave%201-4338CA" alt="14 dialects in wave 1">
+  <img src="https://img.shields.io/badge/status-early%20development-F59E0B" alt="Status: early development">
+</p>
 
-> **Status: early development (v0.1 in progress).** Nothing is installable yet. Follow along, or help build the dictionary.
+<p align="center">
+  <a href="README.md"><img src="https://img.shields.io/badge/English-4338CA?style=for-the-badge" alt="English"></a>
+  <a href="docs/readme/README.ar.md"><img src="https://img.shields.io/badge/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-64748B?style=for-the-badge" alt="العربية"></a>
+  <a href="docs/readme/README.es.md"><img src="https://img.shields.io/badge/Espa%C3%B1ol-64748B?style=for-the-badge" alt="Español"></a>
+  <a href="docs/readme/README.pt-BR.md"><img src="https://img.shields.io/badge/Portugu%C3%AAs-64748B?style=for-the-badge" alt="Português"></a>
+  <a href="docs/readme/README.fr.md"><img src="https://img.shields.io/badge/Fran%C3%A7ais-64748B?style=for-the-badge" alt="Français"></a>
+  <a href="docs/readme/README.de.md"><img src="https://img.shields.io/badge/Deutsch-64748B?style=for-the-badge" alt="Deutsch"></a>
+  <a href="docs/readme/README.hi.md"><img src="https://img.shields.io/badge/%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-64748B?style=for-the-badge" alt="हिन्दी"></a>
+  <a href="docs/readme/README.tr.md"><img src="https://img.shields.io/badge/T%C3%BCrk%C3%A7e-64748B?style=for-the-badge" alt="Türkçe"></a>
+</p>
 
-[العربية ⬇](#بالعربي)
+OpenAccent is an open-source, community-built dictionary of the world's dialects, organized by country and verified by native speakers. It also keeps a personal memory of how *you* speak. Both are served to AI assistants like Claude through [MCP](https://modelcontextprotocol.io).
+
+> **Status: early development.** The MCP server works locally, and the first 14 dialects are being filled from open sources. There is no installable release yet.
 
 ## The problem
 
@@ -23,66 +42,33 @@ It never feels like talking to a real person from your place.
 
 | Piece | What it does |
 |---|---|
-| 📖 **Dictionary** | One file per word, organized as a tree of dialects (e.g. Arabic → Levantine → Palestinian → Rural). Nothing is marked *verified* until a native speaker of that dialect approves it. |
+| 📖 **Dictionary** | One folder per country and one per dialect, one file per word. Every word cites its source, and nothing is marked *verified* until a native speaker approves it. |
 | 🧭 **Dialect guides** | How each dialect sounds and works, and the mistakes AI models commonly make in it. |
 | 🧠 **Personal memory** | Your dialect, your words, your corrections. It stays on your machine, and your corrections beat the dictionary. |
-| 🔍 **Reply check** | Flags words from the wrong dialect, rare words, and words you've corrected before. |
+| 🔍 **Reply check** | Flags words from the wrong dialect, rare words, words written the way they sound, and words you've corrected before. |
 
-We're starting with **Palestinian Rural (Fallahi) Arabic** and **General American English**, and growing to every dialect from there.
+## First wave: 14 dialects
+
+<table>
+  <tr><td align="center" width="20%"><img src="docs/assets/flags/us.svg" width="44" alt="United States"><br><b>General American</b><br><sub>United States</sub></td><td align="center" width="20%"><img src="docs/assets/flags/gb.svg" width="44" alt="United Kingdom"><br><b>British English</b><br><sub>United Kingdom</sub></td><td align="center" width="20%"><img src="docs/assets/flags/in.svg" width="44" alt="India"><br><b>Indian English</b><br><sub>India</sub></td><td align="center" width="20%"><img src="docs/assets/flags/mx.svg" width="44" alt="Mexico"><br><b>Mexican Spanish</b><br><sub>Mexico</sub></td><td align="center" width="20%"><img src="docs/assets/flags/es.svg" width="44" alt="Spain"><br><b>Spanish (Spain)</b><br><sub>Spain</sub></td></tr>
+  <tr><td align="center" width="20%"><img src="docs/assets/flags/br.svg" width="44" alt="Brazil"><br><b>Brazilian Portuguese</b><br><sub>Brazil</sub></td><td align="center" width="20%"><img src="docs/assets/flags/fr.svg" width="44" alt="France"><br><b>French (France)</b><br><sub>France</sub></td><td align="center" width="20%"><img src="docs/assets/flags/de.svg" width="44" alt="Germany"><br><b>German (Germany)</b><br><sub>Germany</sub></td><td align="center" width="20%"><img src="docs/assets/flags/tr.svg" width="44" alt="Turkey"><br><b>Turkish</b><br><sub>Turkey</sub></td><td align="center" width="20%"><img src="docs/assets/flags/in.svg" width="44" alt="India"><br><b>Hindi</b><br><sub>India</sub></td></tr>
+  <tr><td align="center" width="20%"><img src="docs/assets/flags/eg.svg" width="44" alt="Egypt"><br><b>Egyptian Arabic</b><br><sub>Egypt</sub></td><td align="center" width="20%"><img src="docs/assets/flags/sa.svg" width="44" alt="Saudi Arabia"><br><b>Saudi Arabic</b><br><sub>Saudi Arabia</sub></td><td align="center" width="20%"><img src="docs/assets/flags/sy.svg" width="44" alt="Syria"><br><b>Syrian Arabic</b><br><sub>Syria</sub></td><td align="center" width="20%"><img src="docs/assets/flags/lb.svg" width="44" alt="Lebanon"><br><b>Lebanese Arabic</b><br><sub>Lebanon</sub></td><td align="center" width="20%"><img src="docs/assets/flags/ma.svg" width="44" alt="Morocco"><br><b>Moroccan Darija</b><br><sub>Morocco</sub></td></tr>
+</table>
+
+Words come from [Wiktionary](https://en.wiktionary.org) (CC BY-SA 4.0), filtered by region and ranked by how common they are. Every imported word starts as a **draft** until a native speaker reviews it.
 
 ## Contribute
 
-You don't need to code. Once the forms are live (coming in v0.1), you'll be able to:
+You don't need to code.
 
-- **Add a word** to your dialect.
-- **Fix a word** that's wrong.
-- **Add a new dialect.**
-- **Become a reviewer** for your dialect. We especially need **native American English** speakers right now.
+- **Native speaker of one of these dialects?** We need **reviewers** most of all. Open an issue and tell us which dialect you speak.
+- **Want to add a word or a dialect?** Easy forms are coming. For now, see [`data/README.md`](data/README.md).
+- **Can you improve a translation of this page?** Please do. They were drafted by AI, which is exactly the kind of thing this project exists to fix.
 
-For the plan, see [`docs/design.md`](docs/design.md) and [`docs/plans/v0.1-implementation-plan.md`](docs/plans/v0.1-implementation-plan.md).
+More detail: [`docs/design.md`](docs/design.md) · [`docs/plans/world-wave-1.md`](docs/plans/world-wave-1.md)
 
 ## License
 
 - **Code:** [MIT](LICENSE)
 - **Dictionary data** (`data/`): [CC BY-SA 4.0](data/LICENSE), the same license as Wikipedia. The data stays open forever.
-
----
-
-<div dir="rtl">
-
-## بالعربي
-
-**احكي مع الذكاء الاصطناعي زي ما بتحكي مع حدا من بلدك.**
-
-OpenAccent مشروع مفتوح المصدر لقاموس لهجات العالم، بيبنيه المجتمع وبيأكّده أهل كل لهجة، ومعه ذاكرة شخصية لطريقة حكيك **إنت**. والاثنين بيوصلوا لـ Claude وغيره عن طريق MCP.
-
-> **الحالة: بأول التطوير (بنشتغل على v0.1).** لسا ما في إشي جاهز للتنزيل.
-
-### المشكلة
-- الموديلات **بتخلط اللهجات** بنفس الرد.
-- **بتغيّر كلماتها** بنص المحادثة.
-- **بتألّف كلمات**، أو بتحكي مصطلحات نادرة.
-- **بتنسى تصحيحاتك** بالمحادثة الجاية.
-
-### الحل
-| القطعة | شو بتعمل |
-|---|---|
-| 📖 **قاموس** | كل كلمة ملف، ومرتبة بشجرة لهجات. وما في كلمة بتصير "مؤكدة" إلا إذا وافق عليها حدا من أهل اللهجة. |
-| 🧭 **دليل لكل لهجة** | كيف بتنلفظ اللهجة وكيف بتشتغل، وشو الأغلاط اللي بيعملها الـ AI فيها. |
-| 🧠 **ذاكرة شخصية** | لهجتك، كلماتك، وتصحيحاتك. محفوظة على جهازك، وتصحيحك بيغلب القاموس. |
-| 🔍 **فحص الرد** | بيعلّم على الكلمات اللي من لهجة غلط، والكلمات النادرة، والكلمات اللي صححتها قبل. |
-
-بنبدأ بـ **الفلسطيني الفلاحي** و**الإنجليزي الأمريكي**، ومن هناك لكل لهجات العالم.
-
-### ساهم معنا
-ما بدها برمجة. قريباً (بـ v0.1) رح تقدر:
-- تضيف كلمة من لهجتك
-- تصحّح كلمة غلط
-- تضيف لهجة جديدة
-- تصير مراجع للهجتك
-
-### الرخصة
-- **الكود:** MIT
-- **القاموس:** CC BY-SA 4.0، نفس رخصة ويكيبيديا، يعني بيضل مفتوح للأبد.
-
-</div>
+- Country names and languages come from [Unicode CLDR](https://github.com/unicode-org/cldr-json). Flags: [flag-icons](https://github.com/lipis/flag-icons) (MIT). Word data comes from Wiktionary contributors, via [wiktextract](https://github.com/tatuylonen/wiktextract) / [kaikki.org](https://kaikki.org).
