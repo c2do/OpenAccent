@@ -1,0 +1,28 @@
+name: Release
+
+# Pushing a tag like v0.1.0 builds openaccent.mcpb (the one-click Claude Desktop extension,
+# which runs locally) and attaches it to a GitHub Release.
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run validate
+      - run: npm test
+      - run: npm run pack:mcpb
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: openaccent.mcpb
+          generate_release_notes: true

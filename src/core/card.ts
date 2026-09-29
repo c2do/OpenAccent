@@ -1,5 +1,6 @@
 import type { Dictionary } from './dictionary.js';
 import { mergedGuide } from './guides.js';
+import { displayName } from './names.js';
 import type { Purpose } from './schema.js';
 
 /**
@@ -38,7 +39,7 @@ export function buildDialectCard(dict: Dictionary, dialectId: string, purpose: P
   const dialect = dict.getDialect(dialectId);
   if (!dialect) throw new Error(`Unknown dialect "${dialectId}". Use openaccent_list_dialects to see all dialects.`);
   const lines: string[] = [];
-  lines.push(`# Dialect card: ${dialect.name.en}${dialect.name.ar ? ` (${dialect.name.ar})` : ''} — \`${dialect.id}\``);
+  lines.push(`# Dialect card: ${displayName(dialect)} — \`${dialect.id}\``);
   if (dialect.region) lines.push(`Where: ${dialect.region.en}`);
   lines.push('', `## Writing for: ${purpose}`, ...PURPOSE_RULES[purpose].map((r) => `- ${r}`));
 

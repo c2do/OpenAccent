@@ -1,5 +1,6 @@
 import type { Dictionary } from './dictionary.js';
 import { mergedGuide } from './guides.js';
+import { displayName } from './names.js';
 import type { Memory } from './schema.js';
 
 /**
@@ -29,8 +30,7 @@ export function buildPortablePrompt(dict: Dictionary, memory: Memory, dialectId:
   const max = opts.maxChars ?? DEFAULT_MAX;
   const dialect = dict.getDialect(dialectId);
   if (!dialect) throw new Error(`Unknown dialect "${dialectId}"`);
-  const plain = (t: string) => t.replace(/\s*\([^)]*\)/g, '').trim();
-  const name = dialect.name.ar ? `${plain(dialect.name.en)} (${plain(dialect.name.ar)})` : plain(dialect.name.en);
+  const name = displayName(dialect);
   const region = memory.profile.region ? `, from ${memory.profile.region}` : '';
 
   // Parts in priority order; lower-priority parts are dropped or shortened first.

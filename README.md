@@ -18,7 +18,7 @@
 
 OpenAccent is an open-source, community-built dictionary of the world's dialects, organized by country and verified by native speakers. It also keeps a personal memory of how *you* speak. Both are served to AI assistants like Claude through [MCP](https://modelcontextprotocol.io).
 
-> **Status: early development.** The MCP server works locally, and the first 14 dialects are being filled from open sources. There is no installable release yet.
+> **Status: early development.** Everything runs locally on your computer. The first 14 dialects are being filled from open sources. Install: [`docs/setup.md`](docs/setup.md).
 
 ## The problem
 

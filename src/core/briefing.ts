@@ -1,5 +1,6 @@
 import type { Dictionary } from './dictionary.js';
 import { mergedGuide } from './guides.js';
+import { displayName } from './names.js';
 import type { Memory } from './schema.js';
 
 export interface Briefing {
@@ -51,7 +52,7 @@ export function buildBriefing(dict: Dictionary, memory: Memory): Briefing {
   const lines: string[] = [];
   lines.push(`# Talking with this user`);
   lines.push(
-    `**Dialect:** ${dialect.name.en}${dialect.name.ar ? ` (${dialect.name.ar})` : ''} — \`${dialect.id}\`${
+    `**Dialect:** ${displayName(dialect)} — \`${dialect.id}\`${
       memory.profile.region ? ` · **Region:** ${memory.profile.region}` : ''
     }`,
   );
