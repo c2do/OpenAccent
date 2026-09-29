@@ -324,7 +324,8 @@ Normalization is chosen by the dialect's `script`. Every entry is indexed under 
 
 - **TypeScript**, Node 20+, ESM.
   - **MCP TypeScript SDK v2** (`@modelcontextprotocol/server`), with Zod v4 schemas plus `outputSchema`.
-  - Fallback: if v2 turns out to be incompatible with the Node version Claude Desktop bundles, pin the v1 SDK (`@modelcontextprotocol/sdk@1.x`) and keep the code isolated behind a thin server module.
+  - **Decision (Task 1, 2026-09-29):** SDK v2 (`@modelcontextprotocol/server@2.2.0`, requires Node ≥20). The MCPB docs confirm Node ships with Claude Desktop on macOS and Windows but don't state its version. Claude Desktop is an Electron app, and Electron has bundled Node ≥20 since 2024, so v2 is expected to work (medium confidence). The `.mcpb` manifest declares `compatibility.runtimes.node: ">=20"` so an incompatible install fails clearly; the owner confirms in Task 23.
+  - Fallback: if that check fails, pin the v1 SDK (`@modelcontextprotocol/sdk@1.x`). Server code stays isolated in `src/server/` to keep this swap small.
 - Data is YAML, validated by the same Zod schemas and compiled by `scripts/build-data.ts` into `dist/dictionary.json`.
 - Tests use Vitest. MCP integration tests use an in-memory client/server transport.
 - **Distribution**
