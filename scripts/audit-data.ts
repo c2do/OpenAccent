@@ -64,9 +64,10 @@ export function auditBundle(bundle: Bundle, dialects?: string[]): DialectAudit[]
       }
       // Only imported entries were linked by the importer's rules; hand-written ones may gloss differently ("he said").
       if (e.concept && e.source.kind === 'dataset') {
-        const main = e.meanings.find((m) => m.en)?.en;
-        const linked = main ? conceptFor(e.word, { glosses: [main] }, WAVE_1[0]!, concepts, e.part_of_speech) : undefined;
-        if (linked !== e.concept) add('concept_mismatch', e, `concept "${e.concept}", main meaning "${main ?? '—'}"`);
+        // The importer links a concept from any ordinary meaning's main sense ("أوي": strong; very).
+        const ordinary = e.meanings.filter((m) => m.en && m.sensitive.length === 0).map((m) => m.en!);
+        const linked = ordinary.some((en) => conceptFor(e.word, { glosses: [en] }, WAVE_1[0]!, concepts, e.part_of_speech) === e.concept);
+        if (!linked) add('concept_mismatch', e, `concept "${e.concept}", meanings "${ordinary.join(' | ').slice(0, 100)}"`);
       }
     }
 

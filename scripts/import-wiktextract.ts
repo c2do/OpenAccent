@@ -117,7 +117,7 @@ interface KaikkiEntry {
 
 interface Candidate {
   word: string;
-  meanings: { en: string; examples: { text: string; en?: string }[]; sensitive: SensitiveLabel[] }[];
+  meanings: { en: string; examples: { text: string; en?: string }[]; sensitive: SensitiveLabel[]; concept?: string }[];
   tags: Set<string>;
   /** Tags of the ordinary (not sensitive) senses: they set the word's register. */
   ordinaryTags: Set<string>;
@@ -128,7 +128,7 @@ interface Candidate {
   pos: Set<string>;
   /** At least one selected sense is tagged colloquial/informal/slang. */
   everyday: boolean;
-  /** Core concept, if one of the selected senses expresses it. */
+  /** Core concept, if one of the meanings kept in the entry expresses it (see keptMeanings). */
   concept?: string;
   /** Every part of speech the word has in the language, including entries with no selected sense. */
   allPos: Set<string>;
@@ -222,6 +222,13 @@ export function selectSenses(entry: KaikkiEntry, cfg: DialectImport, concepts?: 
   });
 }
 
+const MAX_MEANINGS = 4;
+
+/** The meanings an entry keeps: ordinary ones first, so a word's everyday sense is what readers see first. */
+export function keptMeanings(c: Pick<Candidate, 'meanings'>): Candidate['meanings'] {
+  return [...c.meanings].sort((a, b) => Number(a.sensitive.length > 0) - Number(b.sensitive.length > 0)).slice(0, MAX_MEANINGS);
+}
+
 /** Wiktionary sometimes stores notes like "ع (ʕa-) (alternative form)" as examples; keep real sentences only. */
 export function isRealExample(text: string): boolean {
   if (/\((alternative|obsolete|dated|rare) form|\bform of\b/i.test(text)) return false;
@@ -273,7 +280,7 @@ export async function collect(lines: AsyncIterable<string> | Iterable<string>, c
         const sensitive = sensitiveLabels(s);
         if (sensitive.length === 0) tags.forEach((t) => c.ordinaryTags.add(t));
         // A vulgar or offensive sense never stands for a core concept: core words go into briefings.
-        if (sensitive.length === 0) c.concept ??= conceptFor(entry.word, s, cfg, concepts, entry.pos);
+        const concept = sensitive.length === 0 ? conceptFor(entry.word, s, cfg, concepts, entry.pos) : undefined;
         const en = s.glosses!.join('; ');
         if (c.meanings.some((m) => m.en === en)) continue;
         // Only Wiktionary's own usage examples; quotations from books and papers are left out.
@@ -281,7 +288,10 @@ export async function collect(lines: AsyncIterable<string> | Iterable<string>, c
           .filter((e) => e.text && e.type !== 'quote' && e.text.length <= 200 && isRealExample(e.text))
           .slice(0, 2)
           .map((e) => ({ text: e.text!, ...((e.english ?? e.translation) ? { en: (e.english ?? e.translation)! } : {}) }));
-        c.meanings.push({ en, examples, sensitive });
+        c.meanings.push({ en, examples, sensitive, ...(concept ? { concept } : {}) });
+        // Only a meaning that ends up in the entry may link it to a concept (कार "tax; action; work"
+        // must not become "car" through a fifth sense nobody will see).
+        c.concept = keptMeanings(c).find((m) => m.concept)?.concept;
       }
       map.set(entry.word, c);
     }
@@ -367,11 +377,7 @@ export function toEntries(
       romanized,
       ...(c.ipa ? { pronunciation: { ipa: c.ipa } } : {}),
       ...(c.pos.size === 1 ? { part_of_speech: [...c.pos][0] } : {}),
-      // Ordinary meanings first, so a word's everyday sense is what readers see first.
-      meanings: [...c.meanings]
-        .sort((a, b) => Number(a.sensitive.length > 0) - Number(b.sensitive.length > 0))
-        .slice(0, 4)
-        .map((m) => ({ en: m.en, examples: m.examples, ...(m.sensitive.length ? { sensitive: m.sensitive } : {}) })),
+      meanings: keptMeanings(c).map((m) => ({ en: m.en, examples: m.examples, ...(m.sensitive.length ? { sensitive: m.sensitive } : {}) })),
       ...(c.concept ? { concept: c.concept } : {}),
       // A word with an everyday sense keeps that sense's register; only words that are vulgar in every sense are "vulgar".
       register: c.meanings.every((m) => m.sensitive.length > 0) ? 'vulgar' : registerFrom(c.ordinaryTags),

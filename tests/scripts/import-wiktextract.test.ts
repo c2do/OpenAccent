@@ -255,6 +255,19 @@ describe('safety and precision (review of import run 36565047004)', () => {
     expect(out.map((o) => o.entry.word)).toEqual(['pennen']);
   });
 
+  it('links a concept only through a meaning the entry keeps', async () => {
+    const hi = WAVE_1.find((c) => c.dialect === 'hi-in')!;
+    const kar = JSON.stringify({
+      lang: 'Hindi',
+      word: 'कार',
+      pos: 'noun',
+      senses: ['tax', 'action, doing', 'work', 'doer', 'car'].map((g) => ({ glosses: [g] })),
+    });
+    const c = (await collect([kar], [hi], conceptIndex({ car: { en: 'car', category: 'things' } }))).get('hi-in')!.get('कार')!;
+    expect(c.meanings).toHaveLength(5);
+    expect(c.concept).toBeUndefined();
+  });
+
   describe('links concepts by main meaning and part of speech', () => {
     const concepts = conceptIndex({
       fast: { en: 'fast', category: 'describing' },
