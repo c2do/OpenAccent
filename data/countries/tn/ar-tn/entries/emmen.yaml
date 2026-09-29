@@ -1,0 +1,35 @@
+word: امن
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - emmen
+  - amn
+pronunciation:
+  ipa: "[ˈɘm.mɘn]"
+part_of_speech: verb
+meanings:
+  - en: to trust
+    examples: []
+    sensitive: []
+  - en: to believe
+    examples: []
+    sensitive: []
+  - en: security, safety
+    examples:
+      - text: التَّآمِر علَى اَمنِ الدَّوْلَة
+        en: Conspiracy against State security
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%85%D9%86#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

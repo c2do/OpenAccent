@@ -1,0 +1,27 @@
+word: ريق
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - rīq
+meanings:
+  - en: vibe, pizzazz
+    examples: []
+    sensitive: []
+  - en: cool, trendy
+    examples: []
+    sensitive: []
+concept: cool
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B1%D9%8A%D9%82#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

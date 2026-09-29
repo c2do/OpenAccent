@@ -1,0 +1,33 @@
+word: كاين
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - kēyenn
+pronunciation:
+  ipa: "[ke̞ː.ˈjɘnː]"
+part_of_speech: noun
+meanings:
+  - en: to seem, to look like
+    examples:
+      - text: كِايِنِّك مَشغُوب
+        en: You seem troubled
+      - text: كِايِنِّك تحِبّ تقُول حَاجَة
+        en: It seems you want to say something
+    sensitive: []
+  - en: to be kinda
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D8%A7%D9%8A%D9%86#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

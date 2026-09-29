@@ -1,0 +1,41 @@
+word: برشا
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - barša
+pronunciation:
+  ipa: "[bɐr.ʃə]"
+meanings:
+  - en: very
+    examples:
+      - text: نحبك برشا.
+        en: I love you a lot.
+    sensitive: []
+  - en: too much
+    examples:
+      - text: كَبِّرتهَا رَاك بَرشَا الحكِايَة
+        en: You gave the mishap more than its worth of concern
+    sensitive: []
+  - en: often
+    examples: []
+    sensitive: []
+  - en: a lot of; much; many
+    examples:
+      - text: كليت برشا كسكسي.
+        en: I ate a lot of couscous.
+    sensitive: []
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%B1%D8%B4%D8%A7#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

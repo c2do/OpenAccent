@@ -1,0 +1,29 @@
+word: متين
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - mtīn
+pronunciation:
+  ipa: "[mtiːn]"
+meanings:
+  - en: when?
+    examples: []
+    sensitive: []
+  - en: when
+    examples: []
+    sensitive: []
+concept: when
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%AA%D9%8A%D9%86#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

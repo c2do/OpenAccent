@@ -1,0 +1,29 @@
+word: علاش
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ʕlēš
+pronunciation:
+  ipa: "[ʕle̞ːʃ]"
+meanings:
+  - en: why?, what about? what on?
+    examples: []
+    sensitive: []
+  - en: on which, about which
+    examples: []
+    sensitive: []
+concept: why
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%84%D8%A7%D8%B4#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

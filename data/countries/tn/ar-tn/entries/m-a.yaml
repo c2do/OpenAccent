@@ -1,0 +1,28 @@
+word: مع
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - mʕa
+pronunciation:
+  ipa: /mʕa/
+part_of_speech: prep
+meanings:
+  - en: with, together with, in the company of
+    examples:
+      - text: تحبشي تجي معايا؟
+        en: Would you like to come with me?
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%B9#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

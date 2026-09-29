@@ -1,0 +1,25 @@
+word: تاي
+dialect: ar-tn
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[te̞ːj]"
+part_of_speech: noun
+meanings:
+  - en: tea
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AA%D8%A7%D9%8A#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

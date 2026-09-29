@@ -1,0 +1,26 @@
+word: فين
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - fīn
+part_of_speech: adv
+meanings:
+  - en: "has to be asking for locative otherwise وين: where?"
+    examples:
+      - text: فِين حَطِّيتهَا؟ فِي القجَر
+        en: Where did you put it? In the drawer
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D9%8A%D9%86#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

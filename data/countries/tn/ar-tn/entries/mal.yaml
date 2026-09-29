@@ -1,0 +1,34 @@
+word: عمل
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ʕmal
+  - ʕammel
+pronunciation:
+  ipa: "[ʕmæl]"
+part_of_speech: verb
+meanings:
+  - en: to do, to make
+    examples: []
+    sensitive: []
+  - en: to pretend
+    examples: []
+    sensitive: []
+  - en: to rely
+    examples: []
+    sensitive: []
+concept: do
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%85%D9%84#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

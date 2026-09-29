@@ -1,0 +1,31 @@
+word: شي
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - šayy
+pronunciation:
+  ipa: "[ʃæjː]"
+part_of_speech: pron
+meanings:
+  - en: nothing
+    examples:
+      - text: (humorous, regional)
+    sensitive: []
+  - en: something
+    examples: []
+    sensitive: []
+concept: nothing
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D9%8A#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

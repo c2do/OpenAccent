@@ -1,0 +1,26 @@
+word: بجد
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - b-jedd
+pronunciation:
+  ipa: "[bʒɘdː]"
+part_of_speech: intj
+meanings:
+  - en: seriously, for real
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%AC%D8%AF#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

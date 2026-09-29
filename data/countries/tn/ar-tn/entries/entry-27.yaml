@@ -1,0 +1,48 @@
+word: تو
+dialect: ar-tn
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[tɐw]"
+meanings:
+  - en: 'added to an imperfect ("present") verb form to express near future tense:
+      will'
+    examples:
+      - text: تَو نْقُولُّو
+        en: I will soon tell him
+      - text: "Coordinate term: بَاشْ (bēš)"
+    sensitive: []
+  - en: now, (with repitition) immediately
+    examples:
+      - text: هَاني تَوّْ مَاشِيلْهَا
+        en: I'm going to meet her now
+      - text: نْحِبِّكْ تِبْدَالِي تَوّْ تَوّْ
+        en: I want you to launch immediately
+    sensitive: []
+  - en: just now, a little earlier, for the first time
+    examples:
+      - text: واِنْتِي رِيتْهَا تَوّْ؟
+        en: Did you just see her?
+      - text: واِنْتِي تَوّْ رِيتْهَا؟
+        en: You've only seen her just now?
+    sensitive: []
+  - en: not yet, still
+    examples:
+      - text: لتَوّ لِا مشِيت اِنتِي؟
+        en: You still didn't go?
+    sensitive: []
+concept: now
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AA%D9%88#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

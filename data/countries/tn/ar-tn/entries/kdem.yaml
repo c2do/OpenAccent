@@ -1,0 +1,30 @@
+word: خدم
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ḵdem
+pronunciation:
+  ipa: "[χdɘm]"
+part_of_speech: verb
+meanings:
+  - en: to work, to do something for a living
+    examples: []
+    sensitive: []
+  - en: to work, to function properly
+    examples: []
+    sensitive: []
+concept: work_verb
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AE%D8%AF%D9%85#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

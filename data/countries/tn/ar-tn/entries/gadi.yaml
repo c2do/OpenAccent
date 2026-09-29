@@ -1,0 +1,27 @@
+word: غادي
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ḡādi
+pronunciation:
+  ipa: "[ˈʁɐː.di]"
+part_of_speech: adv
+meanings:
+  - en: there
+    examples: []
+    sensitive: []
+concept: there
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%BA%D8%A7%D8%AF%D9%8A#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

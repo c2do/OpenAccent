@@ -1,0 +1,32 @@
+word: بقى
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - bqa
+pronunciation:
+  ipa: "[bqɐ]"
+part_of_speech: verb
+meanings:
+  - en: to stay
+    examples: []
+    sensitive: []
+  - en: to remain, to be left
+    examples: []
+    sensitive: []
+  - en: to sit down
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D9%82%D9%89#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

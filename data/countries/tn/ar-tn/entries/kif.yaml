@@ -1,0 +1,39 @@
+word: كيف
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - kīf
+pronunciation:
+  ipa: "[kiːf]"
+meanings:
+  - en: pleasure, ecstasy
+    examples:
+      - text: كوَيِّس تِاي بِاللُّوز يَعمِل سِتَّة وسِتِّين كِيف
+        en: A cup of tea with almond would be all it needs
+    sensitive: []
+  - en: how?
+    examples: []
+    sensitive: []
+  - en: like
+    examples: []
+    sensitive: []
+  - en: as, however
+    examples:
+      - text: كِيف مَا تحِبّ
+        en: As you like
+    sensitive: []
+concept: how
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D9%8A%D9%81#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

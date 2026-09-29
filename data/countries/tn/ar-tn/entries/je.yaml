@@ -1,0 +1,45 @@
+word: جا
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - je
+pronunciation:
+  ipa: "[ʒe̞]"
+part_of_speech: verb
+meanings:
+  - en: to come, to arrive
+    examples: []
+    sensitive: []
+  - en: to proceede
+    examples:
+      - text: جَا بِاش يحِلّ البَاب
+        en: He proceeded to open the door
+    sensitive: []
+  - en: "sets a condition that waits to be triggered. Precded by كِان and often
+      followed by a present participle or an adjective: were"
+    examples:
+      - text: كِان جِاوا خادمِين علَى روِاحهُم، خِير
+        en: If they were hard-working, it would've been fairer
+      - text: كِان جِيت لِابِاس عِلِيَّ، رَانِي دُرتهَا الدِّنيَا
+        en: If I were rich, I would've toured the world
+    sensitive: []
+  - en: (followed by ل) to look like, to enjoy similar (physical) features
+    examples:
+      - text: جِا لبُوه
+        en: He (the offspring) looks like his father
+    sensitive: []
+concept: come
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AC%D8%A7#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

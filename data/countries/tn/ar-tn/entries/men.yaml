@@ -1,0 +1,36 @@
+word: من
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - men
+pronunciation:
+  ipa: "[mɘn]"
+meanings:
+  - en: someone, somebody
+    examples:
+      - text: لِا مِن سمَع ولِا مِن رَا
+        en: Neither heard nor seen
+    sensitive: []
+  - en: from
+    examples: []
+    sensitive: []
+  - en: than
+    examples: []
+    sensitive: []
+  - en: since
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D9%86#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

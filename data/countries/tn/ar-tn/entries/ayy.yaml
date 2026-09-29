@@ -1,0 +1,27 @@
+word: ايا
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ayyə
+pronunciation:
+  ipa: "[ˈ(ɦ)ɐj.jə]"
+part_of_speech: intj
+meanings:
+  - en: (often coupled with عاد) let's go!, hurry!, come on!
+    examples: []
+    sensitive: []
+concept: lets_go
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%8A%D8%A7#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

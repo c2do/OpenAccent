@@ -1,0 +1,31 @@
+word: بالضبط
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - b-eḍ-ḍabṭ
+pronunciation:
+  ipa: "[bɘðˤ.ˈðˤɐbtˤ]"
+part_of_speech: adv
+meanings:
+  - en: exactly, precisely
+    examples: []
+    sensitive: []
+  - en: o'clock
+    examples:
+      - text: الخَمسَّة ونُصّ بِالضَّبط
+        en: "5:30"
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D9%84%D8%B6%D8%A8%D8%B7#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

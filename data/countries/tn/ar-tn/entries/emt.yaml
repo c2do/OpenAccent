@@ -1,0 +1,27 @@
+word: امتى
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - emtə
+pronunciation:
+  ipa: "[ˈɘm.tə]"
+part_of_speech: adv
+meanings:
+  - en: when?
+    examples: []
+    sensitive: []
+concept: when
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%85%D8%AA%D9%89#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

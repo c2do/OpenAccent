@@ -1,0 +1,26 @@
+word: لقب
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - laqabb
+pronunciation:
+  ipa: "[lɐ.ˈqɐbː]"
+part_of_speech: noun
+meanings:
+  - en: surname, family name, last name
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D9%82%D8%A8#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import
