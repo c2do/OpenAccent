@@ -1,0 +1,36 @@
+word: كتاب
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ktēb
+pronunciation:
+  ipa: "[kte̞ːb]"
+part_of_speech: noun
+meanings:
+  - en: book
+    examples: []
+    sensitive: []
+  - en: letter
+    examples: []
+    sensitive: []
+  - en: a paper or collection of papers; a book that will contain every good and bad
+      deed a person did in their worldly life
+    examples: []
+    sensitive: []
+  - en: a paper or collection of papers; inscriptions about a person to harm them
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D8%AA%D8%A7%D8%A8#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

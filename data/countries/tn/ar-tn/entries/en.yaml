@@ -1,0 +1,39 @@
+word: آنا
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ēnə
+pronunciation:
+  ipa: "[e̞ːnə]"
+meanings:
+  - en: I, (emphasis) me
+    examples:
+      - text: دَارِي آنَا
+        en: My own house
+    sensitive: []
+  - en: which
+    examples:
+      - text: آنَا كَرهْبَة تِحكِي علِيهَا؟
+        en: Which car are you talking about?
+      - text: آناهِي لِي شرِيتهَا؟
+        en: Which [one] did you buy?
+    sensitive: []
+  - en: what goddamn..., what do you mean..!?
+    examples:
+      - text: آنَا شِبِّاك متِاعِك؟
+        en: What goddamn window [are you talking about!]?
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A2%D9%86%D8%A7#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

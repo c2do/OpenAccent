@@ -1,0 +1,39 @@
+word: اسم
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - esm
+pronunciation:
+  ipa: "[ɘsm]"
+part_of_speech: noun
+meanings:
+  - en: name
+    examples:
+      - text: شِسمِك ؟
+        en: What's your name?
+    sensitive: []
+  - en: noun
+    examples: []
+    sensitive: []
+  - en: title
+    examples:
+      - text: مِا ختَارِش اِسم بِاهِي لكتِابُو
+        en: He didn't choose a good title for his book
+    sensitive: []
+  - en: first name
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%85#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,34 @@
+word: عبد
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ʕæbd
+  - ʕbed
+pronunciation:
+  ipa: /ʕæbd/
+meanings:
+  - en: one, person
+    examples:
+      - text: لازمو العبد يوزن كلامو قبل ما يقولو
+        en: one has to think twice before speaking
+    sensitive: []
+  - en: slave
+    examples: []
+    sensitive: []
+  - en: to worship
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D8%A8%D8%AF#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,32 @@
+word: باهي
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - bēhi
+pronunciation:
+  ipa: "[ˈbe̞ː.hi]"
+meanings:
+  - en: good
+    examples: []
+    sensitive: []
+  - en: appropriately, accordingly
+    examples: []
+    sensitive: []
+  - en: OK
+    examples: []
+    sensitive: []
+concept: good
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D9%87%D9%8A#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

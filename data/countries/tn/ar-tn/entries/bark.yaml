@@ -1,0 +1,38 @@
+word: بركة
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - barkə
+  - bærkə
+  - berkə
+pronunciation:
+  ipa: "[ˈbɐɾ.kə]"
+meanings:
+  - en: a divine blessing
+    examples: []
+    sensitive: []
+  - en: already
+    examples:
+      - text: قُصّهَا التِّسكرَة بَركَة
+        en: buy the ticket already
+    sensitive: []
+  - en: only, just, enough
+    examples: []
+    sensitive: []
+  - en: idling, staying still doing nothing
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%B1%D9%83%D8%A9#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

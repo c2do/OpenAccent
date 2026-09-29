@@ -1,0 +1,30 @@
+word: شنو
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - šnaw
+  - šnu
+pronunciation:
+  ipa: "[ʃnɐw(ː)]"
+meanings:
+  - en: what?
+    examples: []
+    sensitive: []
+  - en: which, that, what
+    examples: []
+    sensitive: []
+concept: what
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D9%86%D9%88#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

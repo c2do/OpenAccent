@@ -1,5 +1,5 @@
 id: ar-ma
-parent: ar
+parent: ar-maghrebi
 name: { en: "Moroccan Arabic (Darija)", ar: "الدارجة المغربية" }
 region: { en: "Morocco", ar: "المغرب" }
 script: arab

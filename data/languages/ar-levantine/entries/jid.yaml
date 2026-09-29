@@ -1,0 +1,26 @@
+word: جيد
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - jīd
+pronunciation:
+  ipa: /ʒiːd/
+part_of_speech: noun
+meanings:
+  - en: right side (e.g. of clothing)
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AC%D9%8A%D8%AF#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,8 @@
+id: ar-dz
+parent: ar-maghrebi
+name: { en: "Algerian Arabic (Darja)", ar: "الدارجة الجزائرية" }
+region: { en: "Algeria", ar: "الجزائر" }
+script: arab
+codes: { bcp47: arq, iso639_3: arq }
+reviewers: []   # needs a native reviewer
+status: proposed

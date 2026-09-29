@@ -1,0 +1,27 @@
+word: كرهبة
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - karhba
+pronunciation:
+  ipa: /karhba/
+part_of_speech: noun
+meanings:
+  - en: car
+    examples: []
+    sensitive: []
+concept: car
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D8%B1%D9%87%D8%A8%D8%A9#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

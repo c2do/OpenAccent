@@ -1,0 +1,39 @@
+word: شكون
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - škūn
+pronunciation:
+  ipa: "[ʃkuːn]"
+meanings:
+  - en: who?
+    examples:
+      - text: شكون يحب يكامبي غدوة؟
+        en: who wants to go camping tomorrow?
+    sensitive: []
+  - en: whose?
+    examples:
+      - text: مرايات شكون هاذوما؟
+        en: whose glasses are these?
+    sensitive: []
+  - en: someone, somebody
+    examples:
+      - text: فما شكون راو في البيت
+        en: there's someone in the room
+      - text: (archaic to idiomatic)
+    sensitive: []
+concept: who
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D9%83%D9%88%D9%86#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

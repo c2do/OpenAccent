@@ -1,0 +1,29 @@
+word: خارج
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ḵārej
+pronunciation:
+  ipa: "[ˈχɐː.rɘʒ]"
+part_of_speech: adv
+meanings:
+  - en: off by one or two more minutes
+    examples:
+      - text: الخَمسَة ونُصّ خَارِج
+        en: 5:31 or 5:32
+      - text: "Coordinate term: بِالضَّبط (b-eḍ-ḍabṭ)"
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D8%B1%D8%AC#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

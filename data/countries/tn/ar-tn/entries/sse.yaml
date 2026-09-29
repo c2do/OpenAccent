@@ -1,0 +1,31 @@
+word: الساعة
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ssēʕə
+pronunciation:
+  ipa: "[sːe̞ːʕæ]"
+part_of_speech: adv
+meanings:
+  - en: "setting a priority task: for now, for the time being, currently"
+    examples:
+      - text: تَو نَعطِيه، آمَا خَلِّينِي نكَمِّل السّاعَة
+        en: I'll give it to him, but for now, let me first finish what I'm doing
+    sensitive: []
+  - en: doomsday, judgement day
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D8%A9#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

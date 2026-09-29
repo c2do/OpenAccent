@@ -1,0 +1,34 @@
+word: مالا
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - mēlə
+pronunciation:
+  ipa: "[me̞ːlə]"
+meanings:
+  - en: so, therefore, thus
+    examples:
+      - text: قرِيب تسَكِّر البُوسطَة؟ اِمشِي مَالَا فِيسَع تَوّ
+        en: The post office is closing soon? Go then now quick
+      - text: نخَمِّم مَالَا آنَا
+        en: I think therefore I am
+    sensitive: []
+  - en: indeed!, truly!, obviously!, intuitively!
+    examples:
+      - text: مشِيت الصّبَاح وسَلِّكت أُمورِي. مَالَا وِينِك!
+        en: I've had everything done by early morning. Indeed, I did!
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%A7%D9%84%D8%A7#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

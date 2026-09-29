@@ -1,0 +1,31 @@
+word: ها
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ha
+pronunciation:
+  ipa: "[hɐ]"
+part_of_speech: particle
+meanings:
+  - en: here, Lo!
+    examples:
+      - text: هَاك تَاكِل!
+        en: You are literally eating right now!
+      - text: هَاني بَحذِاك
+        en: Here I am next to you
+    sensitive: []
+concept: here
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D8%A7#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,34 @@
+word: حاجة
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ḥājēt
+  - ḥājet
+  - ḥājjə
+pronunciation:
+  ipa: "[ˈħæː.ʒə]"
+part_of_speech: noun
+meanings:
+  - en: thing, something
+    examples: []
+    sensitive: []
+  - en: to need, to require
+    examples: []
+    sensitive: []
+  - en: a senior woman
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D8%A7%D8%AC%D8%A9#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

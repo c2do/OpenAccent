@@ -1,0 +1,39 @@
+word: قام
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - qām
+pronunciation:
+  ipa: "[qɐːm]"
+part_of_speech: verb
+meanings:
+  - en: to stand up
+    examples: []
+    sensitive: []
+  - en: to wake up
+    examples: []
+    sensitive: []
+  - en: to resurrect
+    examples: []
+    sensitive: []
+  - en: to arrive, to come back
+    examples:
+      - text: تُونِس مُوش بِاش تقَدِّم لمقَام سَيِّدنَا عِيسَى
+        en: Tunisia will stay underdevelopped until Jesus comes back
+      - text: Indicating that it would take a ridiculously long time (until the End of
+          Times) for any change to ever occur
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%A7%D9%85#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

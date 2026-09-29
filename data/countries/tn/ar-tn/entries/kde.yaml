@@ -1,0 +1,32 @@
+word: خذا
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ḵḏe
+pronunciation:
+  ipa: "[χðe̞]"
+part_of_speech: verb
+meanings:
+  - en: to take, to hold
+    examples: []
+    sensitive: []
+  - en: to receive charged money for a service
+    examples:
+      - text: قدِّاش خذِيت علِيه؟
+        en: How much did you charge him [and take it eventually]?
+    sensitive: []
+concept: take
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AE%D8%B0%D8%A7#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

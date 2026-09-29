@@ -1,0 +1,29 @@
+word: انت
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - enti
+pronunciation:
+  ipa: "[ˈɘn.ti]"
+part_of_speech: pron
+meanings:
+  - en: you
+    examples: []
+    sensitive: []
+  - en: (if -i then feminine, if -ə then masculine) you
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%86%D8%AA#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

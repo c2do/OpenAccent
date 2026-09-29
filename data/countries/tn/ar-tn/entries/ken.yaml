@@ -1,0 +1,48 @@
+word: كان
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - kēn
+pronunciation:
+  ipa: "[ke̞ːn]"
+meanings:
+  - en: to be
+    examples:
+      - text: تَوّْ مُوش كِان پرُوف؟
+        en: Now, was he not a professor?
+      - text: وِين كُنَّا ووِين صبَحنَا
+        en: Look how far we've gone
+    sensitive: []
+  - en: to be to a relative
+    examples:
+      - text: هَاكِي تكُونِلهَا كِنِّتهَا
+        en: She is her daughter-in-law
+    sensitive: []
+  - en: if, in case, when
+    examples:
+      - text: كِان قرِيت بالباهي، رَاك فِي فَاك طَيَّارَة
+        en: If you had studied hard, you would've attended a prestigious college
+      - text: كِان تسَكِّر بِيكْ الپِيسِي واِنتِي مِزِّلتْ تِخْدِمْ، رَاوْ تِترِسْتُورَى
+          خِدمتِك كِي تعَاود تحِلّ
+        en: In case your PC [suddenly] shut down while you're working, you can restore
+          your work once you turn it on
+    sensitive: []
+  - en: whether
+    examples:
+      - text: مَا نَعرِفش علِيك عَاد كِان عِينِك
+        en: Hey, I don't know whether you want it
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D8%A7%D9%86#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import
