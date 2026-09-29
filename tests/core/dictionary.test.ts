@@ -25,10 +25,16 @@ describe('Dictionary.lookup', () => {
     expect(ids(dict.lookup('zalameh', { dialect: 'ar-ps-fallahi' }))).toContain('ar-ps-fallahi/zalameh');
   });
 
-  it('finds a word through dialect sound folding', () => {
-    // Nobody listed "تشال" anywhere; fallahi sound rules fold it onto قال.
-    const r = dict.lookup('تشال', { dialect: 'ar-ps-fallahi' });
-    expect(ids(r)).toContain('ar-ps-fallahi/qal');
+  it('finds a written word from how it sounds (spoken → written rules)', () => {
+    // قنّ has no listed spellings; fallahi says it كنّ.
+    const r = dict.lookup('كنّ', { dialect: 'ar-ps-fallahi' });
+    expect(ids(r)).toEqual(['ar-ps-fallahi/qinn']);
+    expect(r.items[0]?.match).toBe('sound');
+  });
+
+  it('never chains sound rules: تشال is not قال', () => {
+    expect(ids(dict.lookup('تشال', { dialect: 'ar-ps-fallahi' }))).toEqual([]);
+    expect(ids(dict.lookup('تشنّ', { dialect: 'ar-ps-fallahi' }))).toEqual([]);
   });
 
   it('inherits entries from parent dialects', () => {
@@ -107,8 +113,8 @@ describe('Dictionary.listDialects', () => {
   it('returns every dialect with counts and verified share', () => {
     const list = dict.listDialects();
     const fallahi = list.find((x) => x.id === 'ar-ps-fallahi');
-    expect(fallahi).toMatchObject({ parent: 'ar-ps', entries: 6, verified: 2, script: 'arab' });
-    expect(fallahi?.verifiedPercent).toBe(33);
+    expect(fallahi).toMatchObject({ parent: 'ar-ps', entries: 7, verified: 2, script: 'arab' });
+    expect(fallahi?.verifiedPercent).toBe(29);
     expect(list.map((x) => x.id)).toContain('en-us-south');
   });
 });

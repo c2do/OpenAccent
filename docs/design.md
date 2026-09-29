@@ -316,7 +316,7 @@ Normalization is chosen by the dialect's `script`. Every entry is indexed under 
 1. **Normalized text.**
    - Latin script: lowercase, strip accents (NFKD), fold US/UK spelling pairs (`-our/-or`, `-ise/-ize`), straight quotes.
    - Arabic script: Strip diacritics (U+064B–U+0652, U+0670) and tatweel; unify إأآٱ→ا, ى→ي, ة→ه, ؤ→و, ئ→ي; convert Arabic-Indic digits to ASCII.
-2. **Dialect-sound key** (optional, from the dialect's `sound_rules`). Fallahi-aware folding: تش/چ ~ ك, and ق ~ ك ~ ء ~ گ. So `تشيف` finds `كيف`.
+2. **Spoken → written variants** (optional, from the dialect's `sound_rules`, which are `[spoken, written]` pairs). Fallahi: `[تش, ك]` and `[ك, ق]`, so `تشيف` finds `كيف` and `كال` finds `قال`. Each rule applies once per position and is **never chained**, and variants are compared with the written `word` only: `تشال` finds nothing, because the ك that comes from ق is never pronounced تش (owner review, 2026-09-29).
 3. **Romanization keys** (Arabic: Arabizi). Digits 2 3 5 6 7 8 9 and the digraphs gh, kh, sh, ch/tsh map to candidate Arabic spellings, which are matched against keys 1 and 2.
 4. **English and MSA glosses**, for `express`.
 

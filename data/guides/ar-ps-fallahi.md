@@ -10,6 +10,7 @@ The Arabic of Palestinian villages. Sounds and words differ a lot from village t
 - **ك is often pronounced تش** (tš): كيف sounds like "تشيف", كبير like "تشبير".
   - Not every ك in every word or village.
 - **ق is pronounced ك**: قال sounds like "كال", قلب like "كلب".
+  - That ك never turns into تش: it's always "كال", never "تشال".
 - **ث and ذ are kept** as in classical Arabic (ثلاثة، ذيب), unlike urban speech (تلاتة، ديب).
 
 ## Grammar & markers

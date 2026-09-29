@@ -30,7 +30,7 @@ export function fixtureBundle(): Bundle {
         script: 'arab',
         sound_rules: [
           ['تش', 'ك'],
-          ['ق', 'ك'],
+          ['ك', 'ق'],
         ],
       }),
       d({ id: 'ar-ps-madani', parent: 'ar-ps', name: { en: 'Madani' }, script: 'arab' }),
@@ -68,6 +68,7 @@ export function fixtureBundle(): Bundle {
         spellings: ['كال'],
         meanings: [{ ar: 'قال', en: 'he said' }],
       }),
+      e('ar-ps-fallahi/qinn', { word: 'قنّ', meanings: [{ ar: 'قن الجاج', en: 'chicken coop' }] }),
       e('ar-ps-madani/halla', { word: 'هلّأ', romanized: ['halla2'], meanings: [{ ar: 'الآن', en: 'now' }] }),
       e('ar-eg/dilwaqti', { word: 'دلوقتي', meanings: [{ ar: 'الآن', en: 'now' }] }),
       // Shared Palestinian word, and a fallahi override of the same word.

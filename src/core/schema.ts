@@ -32,7 +32,7 @@ export const DialectSchema = z.object({
     .default({}),
   reviewers: z.array(z.string().min(1)).default([]),
   status: z.enum(['proposed', 'active']),
-  /** Optional pronunciation folding rules for fuzzy search, e.g. [["تش", "ك"]]. */
+  /** Optional [spoken, written] pairs for search, e.g. [["تش", "ك"], ["ك", "ق"]] for fallahi. Never chained. */
   sound_rules: z.array(z.tuple([z.string().min(1), z.string()])).optional(),
 });
 

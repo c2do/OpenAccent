@@ -2,7 +2,7 @@ import type { Bundle, BundledEntry } from './bundle.js';
 import { normalize } from './normalize.js';
 import { arabiziCandidates } from './romanize.js';
 import type { Dialect } from './schema.js';
-import { soundKey } from './soundfold.js';
+import { soundVariants } from './soundfold.js';
 
 /** How a query matched an entry, best first. */
 export type MatchKind = 'exact' | 'normalized' | 'romanized' | 'sound' | 'gloss';
@@ -78,7 +78,6 @@ function levenshtein(a: string, b: string): number {
 export class Dictionary {
   private readonly dialects = new Map<string, Dialect>();
   private readonly indexed: IndexedEntry[];
-  private readonly soundCache = new Map<string, Set<string>>();
 
   constructor(readonly bundle: Bundle) {
     for (const d of bundle.dialects) this.dialects.set(d.id, d);
@@ -121,7 +120,9 @@ export class Dictionary {
     const candidates = qScript === 'latn' ? new Set(arabiziCandidates(q)) : new Set<string>();
     const rulesOwner = branch?.find((id) => this.dialects.get(id)?.sound_rules?.length);
     const rules = rulesOwner ? this.dialects.get(rulesOwner)?.sound_rules : undefined;
-    const qSound = rules ? soundKey(q, 'arab', rules) : undefined;
+    // Spoken → written variants are compared with the written word only, not with spellings
+    // (spellings hold spoken forms, and matching them would chain the rules).
+    const qSound = new Set(qScript === 'arab' ? soundVariants(q, 'arab', rules) : []);
     const qGloss = normalize(q, qScript);
 
     const matches: Match[] = [];
@@ -132,7 +133,7 @@ export class Dictionary {
       else if (ix.wordKeys.has(normalize(q, ix.script))) kind = 'normalized';
       else if (qScript === 'latn' && (ix.romanKeys.has(qLatin) || (ix.script === 'arab' && [...ix.wordKeys].some((k) => candidates.has(k)))))
         kind = 'romanized';
-      else if (qSound && ix.script === 'arab' && this.soundKeys(ix, rulesOwner!, rules!).has(qSound)) kind = 'sound';
+      else if (qSound.size && qSound.has(normalize(entry.word, ix.script))) kind = 'sound';
       else if (ix.glosses[qScript === 'arab' ? 'ar' : 'en'].some((g) => glossScore(qGloss, g, qScript) > 0)) kind = 'gloss';
       if (kind) matches.push({ entry, match: kind, inherited: branch ? entry.dialect !== branch[0] : false });
     }
@@ -193,15 +194,6 @@ export class Dictionary {
     return branch ? this.indexed.filter((ix) => branch.includes(ix.entry.dialect)) : this.indexed;
   }
 
-  private soundKeys(ix: IndexedEntry, rulesOwner: string, rules: [string, string][]): Set<string> {
-    const cacheKey = `${rulesOwner}|${ix.entry.id}`;
-    let keys = this.soundCache.get(cacheKey);
-    if (!keys) {
-      keys = new Set([ix.entry.word, ...ix.entry.spellings].map((w) => soundKey(w, 'arab', rules)));
-      this.soundCache.set(cacheKey, keys);
-    }
-    return keys;
-  }
 
   /** When the same word exists at several levels of the branch, keep only the nearest one. */
   private applyOverrides(matches: Match[], branch: string[] | undefined): Match[] {
