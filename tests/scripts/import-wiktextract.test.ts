@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { collect, kaikkiUrl, readFrequency, selectSenses, toEntries, WAVE_1 } from '../../scripts/import-wiktextract.js';
+import { collect, isRealExample, kaikkiUrl, readFrequency, selectSenses, toEntries, WAVE_1 } from '../../scripts/import-wiktextract.js';
 
 const esMx = WAVE_1.find((c) => c.dialect === 'es-mx')!;
 const arEg = WAVE_1.find((c) => c.dialect === 'ar-eg')!;
@@ -59,9 +59,10 @@ describe('collect + toEntries', () => {
 
   it('ranks by frequency, applies the limit and skips words the dialect already has', async () => {
     const byDialect = await collect(LINES, [esMx]);
-    const ranks = readFrequency('camión 900\nnel 10\n', 'latn');
+    const ranks = readFrequency('nel 900\ncamión 10\n', 'latn');
     const out = toEntries(byDialect.get('es-mx')!, esMx, { limit: 1, ranks });
-    expect(out.map((o) => o.entry.word)).toEqual(['camión']);
+    expect(out.map((o) => o.entry.word)).toEqual(['nel']);
+    expect(toEntries(byDialect.get('es-mx')!, esMx, { limit: 2, ranks }).map((o) => o.entry.word)).toEqual(['nel', 'camión']);
     const skipped = toEntries(byDialect.get('es-mx')!, esMx, { limit: 5, existingWords: new Set(['nel']) });
     expect(skipped.map((o) => o.entry.word)).toEqual(['camión']);
   });
@@ -82,6 +83,26 @@ describe('collect + toEntries', () => {
     });
     const out = toEntries((await collect([eg], [arEg])).get('ar-eg')!, arEg, { limit: 5 });
     expect(out[0]).toMatchObject({ slug: 'izzayyak', entry: { romanized: ['izzayyak'], register: 'casual' } });
+  });
+});
+
+describe('example and ranking quality', () => {
+  it('drops notes stored as examples', () => {
+    expect(isRealExample('ع (ʕa-) (alternative form)')).toBe(false);
+    expect(isRealExample('¿Bueno?')).toBe(false);
+    expect(isRealExample('بتعمل ايه؟')).toBe(true);
+  });
+
+  it('ranks everyday (slang/colloquial) senses above obscure senses of more frequent words', async () => {
+    const lines = [
+      line({ word: 'ante', pos: 'noun', senses: [{ glosses: ['tapir'], tags: ['Mexico'] }] }),
+      line({ word: 'chido', pos: 'adj', senses: [{ glosses: ['cool'], tags: ['Mexico', 'colloquial'] }] }),
+    ];
+    const filler = (n: number) => Array.from({ length: n }, (_, i) => `w${i} 1`).join('\n');
+    // ante is the 101st most frequent word, chido the 301st.
+    const ranks = readFrequency(`${filler(100)}\nante 1\n${filler(199)}\nchido 1\n`, 'latn');
+    const out = toEntries((await collect(lines, [esMx])).get('es-mx')!, esMx, { limit: 1, ranks });
+    expect(out.map((o) => o.entry.word)).toEqual(['chido']);
   });
 });
 
