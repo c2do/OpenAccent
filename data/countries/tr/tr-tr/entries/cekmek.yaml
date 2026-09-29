@@ -1,0 +1,36 @@
+word: çekmek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃecˈmec/
+part_of_speech: verb
+meanings:
+  - en: to pull
+    examples:
+      - text: Masayı biraz daha geriye mi çeksek?
+        en: Should we move the table back a little more?
+    sensitive: []
+  - en: to draw, haul, drag, tug
+    examples: []
+    sensitive: []
+  - en: to attract, draw
+    examples: []
+    sensitive: []
+  - en: to suck in, pull in, draw in
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A7ekmek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

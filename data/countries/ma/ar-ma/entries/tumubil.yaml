@@ -1,0 +1,27 @@
+word: طمبيل
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ṭumubīl
+pronunciation:
+  ipa: /tˤu.mu.biːl/
+part_of_speech: noun
+meanings:
+  - en: car
+    examples: []
+    sensitive: []
+concept: car
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B7%D9%85%D8%A8%D9%8A%D9%84#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

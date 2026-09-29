@@ -1,0 +1,31 @@
+word: sympa
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sɛ̃.pa/
+part_of_speech: adj
+meanings:
+  - en: nice; likeable
+    examples:
+      - text: C’est sympa d'avoir pensé à moi.
+        en: It's nice that you thought of me.
+    sensitive: []
+  - en: appealing, attractive
+    examples: []
+    sensitive: []
+concept: beautiful
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sympa#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

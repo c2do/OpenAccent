@@ -1,0 +1,47 @@
+word: شي
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - šī
+pronunciation:
+  ipa: /ʃiː/
+meanings:
+  - en: thing
+    examples:
+      - text: هيدي اشيا كتير مهمة
+        en: These are very important things.
+    sensitive: []
+  - en: something, anything
+    examples:
+      - text: بدك شي تاني يا حبيبتي؟
+        en: Do you want anything else, honey?
+      - text: بدي عطيك شي.
+        en: I want to give you something.
+    sensitive: []
+  - en: some, any
+    examples:
+      - text: في شي مشكلة؟
+        en: Is there any [kind of] problem?
+      - text: رح يرجع شي يوم
+        en: He’ll come back some day.
+    sensitive: []
+  - en: circa, about
+    examples:
+      - text: لازم تنطرلك شي عشرين دقيقه
+        en: You have to wait for about twenty minutes.
+    sensitive: []
+concept: something
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D9%8A#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

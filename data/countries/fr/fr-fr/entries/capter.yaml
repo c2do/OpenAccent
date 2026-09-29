@@ -1,0 +1,31 @@
+word: capter
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kap.te/
+part_of_speech: verb
+meanings:
+  - en: to understand
+    examples:
+      - text: On dirait qu'il a rien capté de c'que j'lui ai raconté.
+        en: He looks like [or it's as if] he hasn't understood anything I've told him.
+    sensitive: []
+  - en: to meet or see someone
+    examples: []
+    sensitive: []
+concept: understand
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/capter#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

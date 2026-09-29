@@ -1,0 +1,36 @@
+word: جاب
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - jāb
+pronunciation:
+  ipa: /ʒaːb/
+part_of_speech: verb
+meanings:
+  - en: to bring
+    examples:
+      - text: جابوا معاهم الحلوة والموناضة.
+        en: They brought dessert and soda with them.
+    sensitive: []
+  - en: to make one think
+    examples:
+      - text: جاب لي الله كنتي هنا.
+        en: I thought you were here.
+      - text: ديك الساعة جاب له الله باللي ربح طرح الكارطة.
+        en: At that moment, he thought he won the card game.
+    sensitive: []
+concept: bring
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AC%D8%A7%D8%A8#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

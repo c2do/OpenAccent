@@ -1,0 +1,27 @@
+word: chaqueta
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃaˈketa/
+part_of_speech: noun
+meanings:
+  - en: an act of masturbation
+    examples: []
+    sensitive:
+      - sexual
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chaqueta#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

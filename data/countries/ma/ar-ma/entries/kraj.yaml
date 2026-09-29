@@ -1,0 +1,37 @@
+word: خرج
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ḵraj
+  - ḵarraj
+pronunciation:
+  ipa: /xraʒ/
+part_of_speech: verb
+meanings:
+  - en: to go out
+    examples: []
+    sensitive: []
+  - en: to exit
+    examples: []
+    sensitive: []
+  - en: to deviate from, to stop to conform to
+    examples: []
+    sensitive: []
+  - en: to ruin
+    examples: []
+    sensitive: []
+concept: leave
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AE%D8%B1%D8%AC#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

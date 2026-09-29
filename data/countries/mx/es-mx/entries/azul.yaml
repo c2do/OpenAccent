@@ -1,0 +1,25 @@
+word: azul
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /aˈθul/
+part_of_speech: noun
+meanings:
+  - en: a police officer
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/azul#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

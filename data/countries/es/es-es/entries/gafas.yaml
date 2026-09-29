@@ -1,0 +1,27 @@
+word: gafas
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡafas/
+part_of_speech: noun
+meanings:
+  - en: eyeglasses
+    examples:
+      - text: Llevas gafas?
+        en: Do you wear glasses?
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gafas#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: هاد
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - hād
+meanings:
+  - en: this (one)
+    examples: []
+    sensitive: []
+  - en: this
+    examples: []
+    sensitive: []
+concept: this
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D8%A7%D8%AF#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,31 @@
+word: çocuk
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃoˈd͡ʒuk/
+part_of_speech: noun
+meanings:
+  - en: child
+    examples: []
+    sensitive: []
+  - en: a male around dating age
+    examples:
+      - text: Dün gece bana DM'den mesaj atan çocuğu hatırlıyor musun?
+        en: Do you remember the guy who DMed me last night?
+    sensitive: []
+concept: child
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A7ocuk#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

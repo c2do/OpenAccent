@@ -1,0 +1,34 @@
+word: basit
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[bɑˈsit]"
+part_of_speech: adj
+meanings:
+  - en: easy
+    examples:
+      - text: Kerpiçten yapılmış basit bir evde yaşıyordu.
+        en: "[He/She/It] was living in a simple house made of clay."
+    sensitive: []
+  - en: primitive
+    examples:
+      - text: Basit bir insan olduğundan ekonomik problemlerin çözümünü anlamaz.
+        en: As [he/she/it] is a simple person, [he/she/it] doesn't understand the
+          solution of [a/the] economic problems.
+    sensitive: []
+concept: easy
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/basit#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: مين
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - mīn
+pronunciation:
+  ipa: /miːn/
+part_of_speech: pron
+meanings:
+  - en: who?
+    examples: []
+    sensitive: []
+concept: who
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D9%8A%D9%86#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

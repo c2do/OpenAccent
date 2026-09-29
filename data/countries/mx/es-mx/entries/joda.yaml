@@ -1,0 +1,30 @@
+word: joda
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈxoda/
+part_of_speech: noun
+meanings:
+  - en: annoyance
+    examples: []
+    sensitive:
+      - vulgar
+  - en: annoyance; a difficult or unpleasant situation
+    examples: []
+    sensitive:
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/joda#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

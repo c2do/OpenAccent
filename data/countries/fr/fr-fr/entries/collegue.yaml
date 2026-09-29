@@ -1,0 +1,26 @@
+word: collègue
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɔ.lɛɡ/
+part_of_speech: noun
+meanings:
+  - en: friend
+    examples: []
+    sensitive: []
+concept: friend
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/coll%C3%A8gue#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

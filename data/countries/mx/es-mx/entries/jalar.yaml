@@ -1,0 +1,33 @@
+word: jalar
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /xaˈlaɾ/
+part_of_speech: verb
+meanings:
+  - en: to function properly; to be in working order
+    examples: []
+    sensitive: []
+  - en: to work, to have a job
+    examples: []
+    sensitive: []
+  - en: to masturbate
+    examples: []
+    sensitive:
+      - sexual
+      - vulgar
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jalar#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

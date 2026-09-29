@@ -1,0 +1,30 @@
+word: حب
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ḥabb
+  - ḥubb
+pronunciation:
+  ipa: /ħabb/
+meanings:
+  - en: to love
+    examples: []
+    sensitive: []
+  - en: love
+    examples: []
+    sensitive: []
+concept: like
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D8%A8#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

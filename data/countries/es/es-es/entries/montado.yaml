@@ -1,0 +1,25 @@
+word: montado
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /monˈtado/
+part_of_speech: adj
+meanings:
+  - en: loaded; rolling in it (rich)
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/montado#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

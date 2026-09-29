@@ -1,0 +1,25 @@
+word: tigre
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtiɡɾe/
+part_of_speech: noun
+meanings:
+  - en: toilet, WC
+    examples: []
+    sensitive: []
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tigre#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

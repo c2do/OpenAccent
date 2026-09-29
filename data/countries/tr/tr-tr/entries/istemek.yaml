@@ -1,0 +1,34 @@
+word: istemek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /is.teˈmec/
+part_of_speech: verb
+meanings:
+  - en: to want, desire, wish
+    examples:
+      - text: Ne istersiniz?
+        en: What would you like?
+    sensitive: []
+  - en: to ask for, seek, demand
+    examples: []
+    sensitive: []
+  - en: to ask for (a woman) in marriage
+    examples: []
+    sensitive: []
+concept: want
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/istemek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

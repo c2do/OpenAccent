@@ -1,0 +1,26 @@
+word: kolay
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[koˈɫaj]"
+part_of_speech: adj
+meanings:
+  - en: easy
+    examples: []
+    sensitive: []
+concept: easy
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/kolay#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

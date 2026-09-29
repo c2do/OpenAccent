@@ -1,0 +1,27 @@
+word: tela
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtela/
+part_of_speech: adv
+meanings:
+  - en: loads; lots; a shedload; extremely
+    examples:
+      - text: Es un chico tela de gracioso.
+        en: He's a really funny fella.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tela#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

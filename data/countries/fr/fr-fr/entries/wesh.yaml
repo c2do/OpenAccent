@@ -1,0 +1,42 @@
+word: wesh
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /wɛʃ/
+meanings:
+  - en: Stresses or emphasizes a fact or event.
+    examples:
+      - text: Mais c'est lui wesh!
+        en: Yo it's him!
+    sensitive: []
+  - en: Indicates or emphasizes shock or surprise at a fact or event.
+    examples:
+      - text: Wesh il a un chat?
+        en: Whoa, he has a cat?
+    sensitive: []
+  - en: Introduces a vocative.
+    examples:
+      - text: Wesh frérot, viens là!
+        en: Yo bro, come here!
+    sensitive: []
+  - en: hello, hey, hi, yo
+    examples:
+      - text: "Wesh Cousin -- (Name of a movie from 2004). Source: French Wikipedia.
+          Article Wesh Cousin)."
+    sensitive: []
+concept: hello
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wesh#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

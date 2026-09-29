@@ -1,0 +1,26 @@
+word: كن
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - kann-
+part_of_speech: conj
+meanings:
+  - en: if
+    examples:
+      - text: 3muul ma3ruuf ?uum ittalla3 kannu l-bustaji ?ija
+        en: Could you please see if the postman has come
+    sensitive: []
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D9%86#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

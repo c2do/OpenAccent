@@ -1,0 +1,33 @@
+word: yeterince
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[jeteɾˈindʒɛ]"
+part_of_speech: adv
+meanings:
+  - en: adequately
+    examples: []
+    sensitive: []
+  - en: enough, sufficiently
+    examples:
+      - text: Yeterince kahvemiz yok.
+        en: We don't have enough coffee.
+      - text: Yeterince konuştum, artık sıra sende.
+        en: I talked enough, now it's your turn.
+    sensitive: []
+concept: enough
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/yeterince#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

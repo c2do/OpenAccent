@@ -1,0 +1,29 @@
+word: عالم
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʕālam
+part_of_speech: noun
+meanings:
+  - en: world
+    examples: []
+    sensitive: []
+  - en: people, folk
+    examples:
+      - text: كان في كتير عالم هنيك.
+        en: There were a lot of people there.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D9%84%D9%85#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: ساهل
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - sāhil
+pronunciation:
+  ipa: /saːhil/
+part_of_speech: adj
+meanings:
+  - en: easy
+    examples: []
+    sensitive: []
+concept: easy
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B3%D8%A7%D9%87%D9%84#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

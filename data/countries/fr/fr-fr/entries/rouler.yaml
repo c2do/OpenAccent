@@ -1,0 +1,33 @@
+word: rouler
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʁu.le/
+part_of_speech: verb
+meanings:
+  - en: to go (of events, to proceed)
+    examples:
+      - text: Ça roule bien chez mon ami.
+        en: It's going well at my friend's house.
+    sensitive: []
+  - en: to dupe, to trick
+    examples:
+      - text: se faire rouler
+        en: to be tricked, to be duped
+    sensitive: []
+concept: go
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rouler#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

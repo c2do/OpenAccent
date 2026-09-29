@@ -1,0 +1,38 @@
+word: وين
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - wēn
+  - wayn
+meanings:
+  - en: where (relative and interrogative adverb, also figuratively)
+    examples:
+      - text: من وين إنت؟
+        en: Where are you from?
+      - text: عم تقلي روح إحكي معها؟ ما هي وين وأنا وين؟
+        en: You’re telling me I should go talk to her? She’s way out of my league.
+    sensitive: []
+  - en: Reaction to a quantity vastly larger or smaller than perceived
+    examples:
+      - text: قديه حقها؟ ميتين؟ وين يا معلم أنا إذا كان معي خمسين هلأ بيكون معجزة...
+        en: How much is it? $200? Jeez boss, that's a lot, if I had even $50 on me right
+          now it'd be a miracle...
+      - text: إنت طول بالك شوي، وين كلها دقيقتين ومنوصل
+        en: Just be patient a little, it's what, literally two minutes and we'll be
+          there
+    sensitive: []
+concept: where
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88%D9%8A%D9%86#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,39 @@
+word: cabrón
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kaˈbɾon/
+meanings:
+  - en: mate, dude (term of endearment between friends)
+    examples:
+      - text: ¿Qué onda, cabrón?
+        en: What's up, dude?
+      - text: Buenos días, cabrón!
+        en: Good morning, mate!
+    sensitive: []
+  - en: skilled
+    examples: []
+    sensitive: []
+  - en: complicated, difficult
+    examples: []
+    sensitive: []
+  - en: bastard, motherfucker (compare English jackass)
+    examples: []
+    sensitive:
+      - offensive
+      - vulgar
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cabr%C3%B3n#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

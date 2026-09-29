@@ -1,0 +1,26 @@
+word: becqueter
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɛ.k(ə).te/
+part_of_speech: verb
+meanings:
+  - en: to eat, nosh, chow down
+    examples: []
+    sensitive: []
+concept: eat
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/becqueter#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

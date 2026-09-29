@@ -1,0 +1,35 @@
+word: وصل
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - wiṣil
+  - waṣal
+  - waṣṣal
+part_of_speech: verb
+meanings:
+  - en: to arrive
+    examples: []
+    sensitive: []
+  - en: to bridge, to connect
+    examples: []
+    sensitive: []
+  - en: to convey, to deliver, to get something somewhere
+    examples: []
+    sensitive: []
+  - en: to convey, to get across (e.g. an idea)
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88%D8%B5%D9%84#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

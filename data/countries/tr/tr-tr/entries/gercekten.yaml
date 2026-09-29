@@ -1,0 +1,33 @@
+word: gerçekten
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɟæɾ.tʃecˈtæn/
+meanings:
+  - en: really, for real
+    examples: []
+    sensitive: []
+  - en: truly
+    examples:
+      - text: gerçekten müthiş bir manzara
+        en: truly a great view
+    sensitive: []
+  - en: really
+    examples: []
+    sensitive: []
+concept: really
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ger%C3%A7ekten#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

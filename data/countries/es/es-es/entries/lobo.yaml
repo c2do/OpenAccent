@@ -1,0 +1,25 @@
+word: lobo
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈlobo/
+part_of_speech: noun
+meanings:
+  - en: drunkenness
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/lobo#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

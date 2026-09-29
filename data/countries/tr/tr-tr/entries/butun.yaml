@@ -1,0 +1,30 @@
+word: bütün
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /byˈtyn/
+meanings:
+  - en: all
+    examples:
+      - text: Bütün gece çalıştım.
+        en: I worked all night.
+    sensitive: []
+  - en: something unitary; having the quality of oneness.
+    examples: []
+    sensitive: []
+concept: all
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/b%C3%BCt%C3%BCn#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,32 @@
+word: علي
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ʕili
+  - ʕalayya
+pronunciation:
+  ipa: /ʕi.li/
+meanings:
+  - en: to rise, to be risen
+    examples: []
+    sensitive: []
+  - en: to be exalted, high
+    examples: []
+    sensitive: []
+  - en: on me
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%84%D9%8A#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

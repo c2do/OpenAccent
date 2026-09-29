@@ -1,0 +1,36 @@
+word: هنا
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - hnā
+  - hanna
+pronunciation:
+  ipa: /hnaː/
+meanings:
+  - en: here
+    examples: []
+    sensitive: []
+  - en: to be peaceful, joyful
+    examples: []
+    sensitive: []
+  - en: peace, tranquility
+    examples: []
+    sensitive: []
+  - en: to leave in peace
+    examples: []
+    sensitive: []
+concept: here
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D9%86%D8%A7#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

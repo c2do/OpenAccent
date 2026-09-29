@@ -1,0 +1,27 @@
+word: الهيه
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - el-hīh
+pronunciation:
+  ipa: /ɪl.hiːh/
+part_of_speech: adv
+meanings:
+  - en: there
+    examples: []
+    sensitive: []
+concept: there
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%84%D9%87%D9%8A%D9%87#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

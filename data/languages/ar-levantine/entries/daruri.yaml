@@ -1,0 +1,33 @@
+word: ضروري
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ḍarūri
+  - ḍrūri
+pronunciation:
+  ipa: /dˤa.ruː.ri
+part_of_speech: adj
+meanings:
+  - en: necessary, indispensable
+    examples: []
+    sensitive: []
+  - en: essential, a must, mandatory
+    examples: []
+    sensitive: []
+  - en: compelled
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B6%D8%B1%D9%88%D8%B1%D9%8A#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

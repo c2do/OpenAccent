@@ -1,0 +1,42 @@
+word: يالله
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - yallāh
+pronunciation:
+  ipa: /jalˤ.lˤaːh/
+meanings:
+  - en: just, just now, recently
+    examples:
+      - text: يالله شفت خوك غادي فالشارع.
+        en: I just saw your brother walking on the street.
+    sensitive: []
+  - en: about to, almost, on the verge of
+    examples:
+      - text: يالله جينا نبداوا نلعبوا وهي تتفش الكورة.
+        en: We were about to start playing when the ball deflated.
+    sensitive: []
+  - en: barely
+    examples:
+      - text: الصالير يالله كيكفيه باش يخلص الكرا و الماكلة د الشهر.
+        en: The salary barely covers his monthly rent and food.
+    sensitive: []
+  - en: hurry up, come on
+    examples:
+      - text: يالله، راه خاصنا نمشيوا!
+        en: Come on, We have to go!
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%8A%D8%A7%D9%84%D9%84%D9%87#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: yerinde
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /je.ɾin.de/
+part_of_speech: adj
+meanings:
+  - en: good, nice
+    examples: []
+    sensitive: []
+  - en: appropriate, well-mannered, proper
+    examples: []
+    sensitive: []
+concept: good
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/yerinde#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

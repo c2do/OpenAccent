@@ -1,0 +1,27 @@
+word: cabrón
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kaˈbɾon/
+part_of_speech: noun
+meanings:
+  - en: bastard, motherfucker (compare English jackass)
+    examples: []
+    sensitive:
+      - offensive
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cabr%C3%B3n#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: hep
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /hep/
+part_of_speech: adv
+meanings:
+  - en: altogether
+    examples: []
+    sensitive: []
+  - en: always
+    examples: []
+    sensitive: []
+concept: always
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hep#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

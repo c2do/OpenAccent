@@ -1,0 +1,27 @@
+word: اخ
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - aḵ
+pronunciation:
+  ipa: "[(ʔ)ɑχ]"
+part_of_speech: noun
+meanings:
+  - en: brother
+    examples: []
+    sensitive: []
+concept: brother
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D8%AE#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

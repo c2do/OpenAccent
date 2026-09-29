@@ -1,0 +1,31 @@
+word: خي
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ḵayy
+meanings:
+  - en: brother
+    examples: []
+    sensitive: []
+  - en: Expresses relief due to a sudden absence of stress or noise
+    examples:
+      - text: خَيّْ... خلصنا من أَول جنرال...
+        en: Thank goodness... we've gotten rid of the first general...
+      - text: khayy! ma-aḥla ha-l-brūdāt!
+        en: Ahh! How beautiful this cool air is!
+    sensitive: []
+concept: brother
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AE%D9%8A#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

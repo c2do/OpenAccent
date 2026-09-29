@@ -1,0 +1,26 @@
+word: غني
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ḡani
+pronunciation:
+  ipa: /ɣa.ni/
+part_of_speech: adj
+meanings:
+  - en: rich
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%BA%D9%86%D9%8A#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

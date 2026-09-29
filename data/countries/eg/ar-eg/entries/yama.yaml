@@ -1,0 +1,30 @@
+word: ياما
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - yama
+pronunciation:
+  ipa: /jaːma/
+part_of_speech: particle
+meanings:
+  - en: how much!, how often!
+    examples:
+      - text: ياما نصحتك
+        en: How often have I advised you!
+      - text: ياما هنا، ياما هناك
+        en: everywhere
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%8A%D8%A7%D9%85%D8%A7#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

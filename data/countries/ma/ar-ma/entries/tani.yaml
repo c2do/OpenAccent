@@ -1,0 +1,40 @@
+word: تاني
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - tāni
+pronunciation:
+  ipa: /taː.ni/
+meanings:
+  - en: second
+    examples: []
+    sensitive: []
+  - en: again
+    examples:
+      - text: لقيته تاني كيلعب الكورة فالحمري.
+        en: I found him playing again on red soil.
+      - text: ضرب خاه تاني على والو.
+        en: He hit his brother again for nothing.
+    sensitive: []
+  - en: also, too
+    examples:
+      - text: هو تاني جا معانا.
+        en: He also came with us.
+      - text: نحبك تاني.
+        en: I love you too.
+    sensitive: []
+concept: also
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AA%D8%A7%D9%86%D9%8A#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

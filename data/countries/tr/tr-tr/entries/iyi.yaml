@@ -1,0 +1,34 @@
+word: iyi
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /iˈji/
+meanings:
+  - en: good
+    examples: []
+    sensitive: []
+  - en: plentiful, abundant
+    examples: []
+    sensitive: []
+  - en: in good health, well
+    examples: []
+    sensitive: []
+  - en: well, fine, decently
+    examples: []
+    sensitive: []
+concept: good
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/iyi#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

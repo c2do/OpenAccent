@@ -1,0 +1,38 @@
+word: durmak
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /duɾˈmɑk/
+part_of_speech: verb
+meanings:
+  - en: to stop
+    examples:
+      - text: Yağmur durdu.
+        en: The rain stopped.
+    sensitive: []
+  - en: to stand; to sit still; to remain
+    examples: []
+    sensitive: []
+  - en: to be (at a certain place)
+    examples:
+      - text: Daha şimdi burada duruyordu.
+        en: It was just here.
+    sensitive: []
+  - en: to last; to continue to be, to keep being
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/durmak#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

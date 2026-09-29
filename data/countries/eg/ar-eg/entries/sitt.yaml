@@ -1,0 +1,33 @@
+word: ست
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - sitt
+pronunciation:
+  ipa: /sitt/
+part_of_speech: noun
+meanings:
+  - en: woman
+    examples:
+      - text: وبيقولوا ان الست اللى فى الصورة دى اسمها الحاجة زينب وعندها ٨٢ سنة.
+        en: And they say that the woman that's in this picture is called El-Hajjah
+          Zainab and she is 82 years old.
+    sensitive: []
+  - en: Mrs, Miss, lady (title for a woman)
+    examples: []
+    sensitive: []
+concept: woman
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B3%D8%AA#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

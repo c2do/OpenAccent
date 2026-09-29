@@ -1,0 +1,34 @@
+word: من جد
+dialect: ar-sa
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /min ˈd͡ʒidd/
+meanings:
+  - en: really, in truth
+    examples: []
+    sensitive: []
+  - en: seriously
+    examples: []
+    sensitive: []
+  - en: Really?
+    examples: []
+    sensitive: []
+  - en: seriously?
+    examples: []
+    sensitive: []
+concept: really
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D9%86_%D8%AC%D8%AF#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

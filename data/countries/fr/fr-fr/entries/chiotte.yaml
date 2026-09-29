@@ -1,0 +1,32 @@
+word: chiotte
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʃjɔt/
+part_of_speech: noun
+meanings:
+  - en: car, ride, whip
+    examples: []
+    sensitive: []
+  - en: shitter, toilet
+    examples:
+      - text: Après avoir mangé ce curry, j'ai passé une demi-heure aux chiottes.
+        en: After eating that curry, I spent half an hour in the shitter.
+    sensitive:
+      - vulgar
+concept: car
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chiotte#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

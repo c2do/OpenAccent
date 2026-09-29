@@ -1,0 +1,29 @@
+word: فلوس
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - filūs
+pronunciation:
+  ipa: /fi.luːs/
+part_of_speech: noun
+meanings:
+  - en: money
+    examples:
+      - text: معنديش عربيّة علشان مفيش فلوس كفاية
+        en: I don't have a car because there's not enough money .
+    sensitive: []
+concept: money
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D9%84%D9%88%D8%B3#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

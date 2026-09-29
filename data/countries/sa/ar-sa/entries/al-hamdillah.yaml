@@ -1,0 +1,30 @@
+word: الحمد لله
+dialect: ar-sa
+type: phrase
+spellings: []
+romanized:
+  - al-ḥamdillāh
+pronunciation:
+  ipa: /al.ħam.dil.laːh/
+part_of_speech: intj
+meanings:
+  - en: thank God, praise be to God
+    examples: []
+    sensitive: []
+  - en: well, doing fine
+    examples: []
+    sensitive: []
+concept: fine
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%84%D8%AD%D9%85%D8%AF_%D9%84%D9%84%D9%87#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

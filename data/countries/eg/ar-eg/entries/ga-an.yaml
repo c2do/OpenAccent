@@ -1,0 +1,28 @@
+word: جعان
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - gaʕān
+  - jaʕān
+pronunciation:
+  ipa: /ɡa.ʕaːn/
+part_of_speech: adj
+meanings:
+  - en: hungry
+    examples: []
+    sensitive: []
+concept: hungry
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AC%D8%B9%D8%A7%D9%86#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

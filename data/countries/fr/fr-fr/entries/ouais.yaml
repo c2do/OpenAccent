@@ -1,0 +1,37 @@
+word: ouais
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /wɛ/
+part_of_speech: intj
+meanings:
+  - en: synonym of oui; yeah, yep, yup, yes, affirmative expression
+    examples:
+      - text: T’as eu ton bac alors ? — Ouais, tranquille.
+        en: You've got your baccalaureate then? Yeah, no problem.
+    sensitive: []
+  - en: synonym of oui (used to express consent)
+    examples:
+      - text: Damien est irresponsable. — Ouais ; ça lui jouera des tours.
+        en: Damian is irresponsible. — Yeah; it will play tricks on him in the future.
+    sensitive: []
+  - en: whoo (expresses joy)
+    examples:
+      - text: Ouais, on a gagné !
+        en: Whoo, we / they won!
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ouais#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

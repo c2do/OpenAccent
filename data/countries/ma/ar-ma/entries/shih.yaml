@@ -1,0 +1,32 @@
+word: صحيح
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ṣḥīḥ
+pronunciation:
+  ipa: /sˤħiːħ/
+part_of_speech: adj
+meanings:
+  - en: healthy
+    examples: []
+    sensitive: []
+  - en: strong
+    examples: []
+    sensitive: []
+  - en: correct
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B5%D8%AD%D9%8A%D8%AD#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

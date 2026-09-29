@@ -1,0 +1,27 @@
+word: cargar
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kaɾˈɡaɾ/
+part_of_speech: verb
+meanings:
+  - en: to break, destroy, ruin
+    examples:
+      - text: No te cargues la fiesta.
+        en: Don't ruin the party.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cargar#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,38 @@
+word: فلة
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - fulla
+  - falla
+pronunciation:
+  ipa: /ful.la/
+meanings:
+  - en: Arabian jasmine (Jasminum sambac).
+    examples: []
+    sensitive: []
+  - en: A medium sized, often semi-detached house.
+    examples:
+      - text: فِلَّة حَسَن حِلْوَة
+        en: Hasan's villa is pretty
+    sensitive: []
+  - en: cool
+    examples: []
+    sensitive: []
+  - en: trendy
+    examples: []
+    sensitive: []
+concept: cool
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D9%84%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

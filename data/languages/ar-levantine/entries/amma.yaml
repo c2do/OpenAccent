@@ -1,0 +1,31 @@
+word: أما
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʔamma
+pronunciation:
+  ipa: /ˈʔam.ma/
+meanings:
+  - en: or
+    examples: []
+    sensitive: []
+  - en: what (a)...!, such...!, how...! (before nouns or adjectives)
+    examples:
+      - text: قال أما قلة عقل كبس... كبس بانزين وراح تركني!
+        en: He said, how asinine! and stepped... stepped on the gas and went and left
+          me!
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D9%85%D8%A7#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

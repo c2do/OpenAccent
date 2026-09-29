@@ -1,0 +1,29 @@
+word: طريق
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ṭarīʔ
+pronunciation:
+  ipa: /tˤɑriːʔ/
+part_of_speech: noun
+meanings:
+  - en: way
+    examples: []
+    sensitive: []
+  - en: road
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B7%D8%B1%D9%8A%D9%82#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

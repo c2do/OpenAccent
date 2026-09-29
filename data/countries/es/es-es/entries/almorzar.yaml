@@ -1,0 +1,28 @@
+word: almorzar
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /almoɾˈθaɾ/
+part_of_speech: verb
+meanings:
+  - en: to have dinner
+    examples: []
+    sensitive: []
+  - en: to eat for dinner
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/almorzar#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

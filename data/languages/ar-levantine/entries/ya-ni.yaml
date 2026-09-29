@@ -1,0 +1,47 @@
+word: يعني
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - yaʕni
+  - yiʕni
+pronunciation:
+  ipa: /ˈjaʕ.ni/
+meanings:
+  - en: mean, means
+    examples:
+      - text: شو يعني اسمك؟
+        en: What does your name mean?
+      - text: لأ يعني لأ.
+        en: No means no
+    sensitive: []
+  - en: to mean
+    examples:
+      - text: موافقتك ما بتعنيلي شي
+        en: Your agreement doesn't mean anything to me
+    sensitive: []
+  - en: so; meaning
+    examples:
+      - text: عملنا اللي علينا، يعني رح نشوف هلأ شو بيصير
+        en: We’ve done what we could, meaning we’re going to see what happens now.
+    sensitive: []
+  - en: namely; that is; in other words
+    examples:
+      - text: عم قطّف توت وعنب، يعني إشيا حلوة
+        en: I'm picking mulberries and grapes... in other words, sweet things
+      - text: ما فيه فرق كتير. تقريبًا نفس الشي يعني
+        en: There’s not much of a difference. It’s almost the same thing, that is
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%8A%D8%B9%D9%86%D9%8A#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

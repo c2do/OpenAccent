@@ -1,0 +1,28 @@
+word: fije
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfixe/
+meanings:
+  - en: cool, awesome, groovy
+    examples: []
+    sensitive: []
+  - en: cool!, great!, groovy!
+    examples: []
+    sensitive: []
+concept: cool
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fije#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,32 @@
+word: على
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ʕla
+pronunciation:
+  ipa: /ʕla/
+part_of_speech: prep
+meanings:
+  - en: on; upon; onto
+    examples: []
+    sensitive: []
+  - en: against
+    examples: []
+    sensitive: []
+  - en: expresses obligation
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%84%D9%89#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

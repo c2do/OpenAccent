@@ -1,0 +1,29 @@
+word: كيفك
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - kīfak?
+  - kīfik?
+part_of_speech: phrase
+meanings:
+  - en: how are you? (to a man)
+    examples: []
+    sensitive: []
+  - en: how are you? (to a woman)
+    examples: []
+    sensitive: []
+concept: how_are_you
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D9%8A%D9%81%D9%83#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

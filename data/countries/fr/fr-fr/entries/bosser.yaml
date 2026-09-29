@@ -1,0 +1,35 @@
+word: bosser
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɔ.se/
+part_of_speech: verb
+meanings:
+  - en: to work, labour, do a day's work
+    examples:
+      - text: Toute la journée il bosse, et pour que dalle.
+        en: He works all day long, and all that for nothing.
+    sensitive: []
+  - en: to train (for something), work on (something), study, improve (on something)
+    examples:
+      - text: Je dois encore bosser (sur) mon solfège ce weekend.
+        en: I still need to work on music theory this weekend.
+      - text: Va bosser tes maths au lieu de jouer aux jeux vidéos!
+        en: Get back to your maths and study instead of playing video-games!
+    sensitive: []
+concept: work_verb
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bosser#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

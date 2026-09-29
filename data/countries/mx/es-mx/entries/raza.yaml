@@ -1,0 +1,33 @@
+word: raza
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈraθa/
+part_of_speech: noun
+meanings:
+  - en: people
+    examples:
+      - text: ¿Qué opinan, raza?
+        en: What do you guys think?
+      - text: la raza
+        en: the people, mestizos (localism referring to the mixed-race population that
+          is found throughout Latin America)
+    sensitive: []
+  - en: group of friends or relatives
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/raza#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

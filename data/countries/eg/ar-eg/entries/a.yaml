@@ -1,0 +1,30 @@
+word: آه
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ā
+pronunciation:
+  ipa: /aː/
+part_of_speech: intj
+meanings:
+  - en: yes, yeah (response to a question)
+    examples: []
+    sensitive: []
+  - en: A grunt expressing pain.
+    examples: []
+    sensitive: []
+concept: "yes"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A2%D9%87#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

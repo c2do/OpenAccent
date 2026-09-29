@@ -1,0 +1,29 @@
+word: birader
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /biɾaːdɛɾ/
+part_of_speech: noun
+meanings:
+  - en: brother
+    examples: []
+    sensitive: []
+  - en: bro, mate, pal
+    examples: []
+    sensitive: []
+concept: brother
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/birader#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

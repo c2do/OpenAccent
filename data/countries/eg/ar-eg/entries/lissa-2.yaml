@@ -1,0 +1,29 @@
+word: لسه
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - lissa
+part_of_speech: adv
+meanings:
+  - en: still, (not) yet
+    examples:
+      - text: هو لسه صغير. لسه بدري على المشي
+        en: He's still small. It's still too early for him to walk.
+      - text: جه ولا لسه؟
+        en: Has he come or not yet?
+    sensitive: []
+concept: still
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D8%B3%D9%87#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

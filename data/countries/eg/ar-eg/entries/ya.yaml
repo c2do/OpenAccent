@@ -1,0 +1,32 @@
+word: يا
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ya
+pronunciation:
+  ipa: /ja(ː)/
+meanings:
+  - en: vocative particle, rarely omitted
+    examples:
+      - text: طمني يا دكتور، ايه حالة ابننا دلوقت؟
+        en: Assure me [O] doctor, what's the health status of our son now?
+    sensitive: []
+  - en: either ... or
+    examples:
+      - text: يا ده يا ده.
+        en: Either this or that.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%8A%D8%A7#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

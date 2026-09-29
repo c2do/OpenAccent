@@ -1,0 +1,33 @@
+word: كمان
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - kamān
+part_of_speech: adv
+meanings:
+  - en: too (likewise)
+    examples: []
+    sensitive: []
+  - en: in addition
+    examples: []
+    sensitive: []
+  - en: even
+    examples:
+      - text: دا كمان عايزني أعمل له شغله
+        en: he even wants me to do his work for him
+    sensitive: []
+concept: also
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D9%85%D8%A7%D9%86#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

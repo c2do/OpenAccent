@@ -1,0 +1,33 @@
+word: قوي
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - qawi
+  - gawi
+  - ʔawi
+pronunciation:
+  ipa: /qa.wi/
+meanings:
+  - en: strong
+    examples: []
+    sensitive: []
+  - en: very
+    examples:
+      - text: أنا تعبان قوي
+        en: I'm very tired
+    sensitive: []
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D9%88%D9%8A#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

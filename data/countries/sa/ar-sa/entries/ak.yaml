@@ -1,0 +1,28 @@
+word: أخ
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ʔaḵ
+pronunciation:
+  ipa: /ʔax/
+part_of_speech: noun
+meanings:
+  - en: brother
+    examples:
+      - text: (common form) أخو (ʔaḵu)
+    sensitive: []
+concept: brother
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D8%AE#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

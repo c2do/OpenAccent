@@ -1,0 +1,29 @@
+word: إيه
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʔē
+pronunciation:
+  ipa: "[ʔeː ~ ʔɛː]"
+part_of_speech: adv
+meanings:
+  - en: yes, yeah
+    examples:
+      - text: إيه، طالعة معكن الليلة
+        en: Yes, I'm going out with y'all tonight
+    sensitive: []
+concept: "yes"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A5%D9%8A%D9%87#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

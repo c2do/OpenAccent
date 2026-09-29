@@ -1,0 +1,33 @@
+word: flotte
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /flɔt/
+part_of_speech: noun
+meanings:
+  - en: water
+    examples:
+      - text: La carte est tombée dans la flotte.
+        en: The map fell in the water.
+    sensitive: []
+  - en: rain
+    examples:
+      - text: Et allez! Encore de la flotte toute cette semaine!
+        en: Come on! More rain this week!
+    sensitive: []
+concept: water
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/flotte#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

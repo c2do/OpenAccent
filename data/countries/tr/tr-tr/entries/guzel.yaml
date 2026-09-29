@@ -1,0 +1,35 @@
+word: güzel
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɟyˈzel/
+meanings:
+  - en: beautiful
+    examples:
+      - text: Bugün güzel görünüyorsun.
+        en: You look beautiful today.
+    sensitive: []
+  - en: nice
+    examples: []
+    sensitive: []
+  - en: beauty (someone who is beautiful)
+    examples:
+      - text: Güzelleri çok kaprisli bulurum.
+        en: I find the beauties so capricious.
+    sensitive: []
+concept: beautiful
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/g%C3%BCzel#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

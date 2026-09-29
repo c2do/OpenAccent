@@ -1,0 +1,33 @@
+word: filer
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fi.le/
+part_of_speech: verb
+meanings:
+  - en: to leave, to get going, to scram, to slip through
+    examples: []
+    sensitive: []
+  - en: to pass, to hand, to give
+    examples:
+      - text: Tu pourrais me filer le sel, s'il-te-plaît ?
+        en: Can you gimme the salt, please?
+      - text: Elle m'a filé des classes d'anglais.
+        en: She gave me some English classes.
+    sensitive: []
+concept: leave
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/filer#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: جا
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - jā
+pronunciation:
+  ipa: /d͡ʒaː/
+part_of_speech: verb
+meanings:
+  - en: to come
+    examples: []
+    sensitive: []
+  - en: to arrive
+    examples: []
+    sensitive: []
+concept: come
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AC%D8%A7#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

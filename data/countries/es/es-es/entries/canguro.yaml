@@ -1,0 +1,29 @@
+word: canguro
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kanˈɡuɾo/
+part_of_speech: noun
+meanings:
+  - en: babysitter
+    examples:
+      - text: hacer de canguro
+        en: to babysit
+      - text: ya podía hacerles de canguro.
+        en: I could already babysit them
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/canguro#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

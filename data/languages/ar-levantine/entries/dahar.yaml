@@ -1,0 +1,27 @@
+word: ضهر
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ḍahar
+part_of_speech: verb
+meanings:
+  - en: to go out; to go outside
+    examples:
+      - text: رح اضهر اتمشى شوي بالشارع.
+        en: I’m going out to take a walk in the street.
+    sensitive: []
+concept: leave
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B6%D9%87%D8%B1#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

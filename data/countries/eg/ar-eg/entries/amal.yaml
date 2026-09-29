@@ -1,0 +1,42 @@
+word: عمل
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ʕamal
+  - ʕimil
+pronunciation:
+  ipa: /ʕa.mal/
+meanings:
+  - en: to do
+    examples:
+      - text: بتعمل ايه؟
+        en: What are you doing?
+    sensitive: []
+  - en: to make
+    examples:
+      - text: عايز اعمل اكل
+        en: I want to make food
+    sensitive: []
+  - en: to pretend to be
+    examples:
+      - text: عمل نفسه جامد
+        en: He pretended to be cool
+    sensitive: []
+  - en: spell, act of witchcraft or black magic
+    examples: []
+    sensitive: []
+concept: do
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%85%D9%84#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

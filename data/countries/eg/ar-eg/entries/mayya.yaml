@@ -1,0 +1,27 @@
+word: مية
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - mayya
+pronunciation:
+  ipa: /maj.ja/
+part_of_speech: noun
+meanings:
+  - en: water
+    examples: []
+    sensitive: []
+concept: water
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D9%8A%D8%A9#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

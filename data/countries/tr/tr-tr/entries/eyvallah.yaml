@@ -1,0 +1,36 @@
+word: eyvallah
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈej.vaɫ.ɫah/
+meanings:
+  - en: thanks
+    examples: []
+    sensitive: []
+  - en: alright, okay
+    examples: []
+    sensitive: []
+  - en: goodbye
+    examples: []
+    sensitive: []
+  - en: acceptance, approval
+    examples:
+      - text: Hadi 2,000 liraya da eyvallah, ama 2,500 lira nedir?
+        en: Okay, I can still agree to 2,000 lira, but 2,500 lira? Come on!
+    sensitive: []
+concept: bye
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/eyvallah#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

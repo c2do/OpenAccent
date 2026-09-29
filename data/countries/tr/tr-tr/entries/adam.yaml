@@ -1,0 +1,29 @@
+word: adam
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /aˈdam/
+part_of_speech: noun
+meanings:
+  - en: human
+    examples: []
+    sensitive: []
+  - en: man (adult male human)
+    examples: []
+    sensitive: []
+concept: man
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/adam#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

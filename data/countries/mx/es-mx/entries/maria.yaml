@@ -1,0 +1,26 @@
+word: maría
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /maˈɾia/
+part_of_speech: noun
+meanings:
+  - en: Indian immigrant from the countryside to Mexico City
+    examples: []
+    sensitive:
+      - offensive
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mar%C3%ADa#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

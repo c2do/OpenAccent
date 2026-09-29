@@ -1,0 +1,27 @@
+word: عجوز
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ʕajūz
+pronunciation:
+  ipa: /ʕa.d͡ʒuːz/
+part_of_speech: adj
+meanings:
+  - en: old (age)
+    examples: []
+    sensitive: []
+concept: old_thing
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D8%AC%D9%88%D8%B2#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

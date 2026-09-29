@@ -1,0 +1,31 @@
+word: هي
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - hiyya
+  - -ha
+pronunciation:
+  ipa: /hij.ja/
+part_of_speech: pron
+meanings:
+  - en: she (subject pronoun)
+    examples: []
+    sensitive: []
+  - en: it (subject pronoun, referring to animals and inanimate nouns of feminine
+      gender)
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D9%8A#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

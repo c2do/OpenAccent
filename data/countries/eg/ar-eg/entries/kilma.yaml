@@ -1,0 +1,26 @@
+word: كلمة
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - kilma
+pronunciation:
+  ipa: /kil.ma/
+part_of_speech: noun
+meanings:
+  - en: word
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D9%84%D9%85%D8%A9#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

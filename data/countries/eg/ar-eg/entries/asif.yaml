@@ -1,0 +1,27 @@
+word: آسف
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ʔāsif
+pronunciation:
+  ipa: /ʔaː.sif/
+part_of_speech: adj
+meanings:
+  - en: sorry
+    examples: []
+    sensitive: []
+concept: sorry
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A2%D8%B3%D9%81#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

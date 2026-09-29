@@ -1,0 +1,39 @@
+word: coller
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɔ.le/
+part_of_speech: verb
+meanings:
+  - en: to place
+    examples: []
+    sensitive: []
+  - en: to give; to hand over
+    examples: []
+    sensitive: []
+  - en: to be dumbfounded; to be in a daze
+    examples:
+      - text: Arrête de coller, réveille toi.
+        en: Stop being in a daze, wake up.
+    sensitive: []
+  - en: to have an affair
+    examples:
+      - text: se coller avec une poulette
+        en: to have an affair with a chick
+    sensitive: []
+concept: give
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/coller#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: coña
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkoɲa/
+part_of_speech: noun
+meanings:
+  - en: joking, kidding, joke
+    examples:
+      - text: fuera coña
+        en: jokes aside
+      - text: Es coña, ¿no?
+        en: You're kidding, right?
+    sensitive:
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/co%C3%B1a#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import
