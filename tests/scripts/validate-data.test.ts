@@ -75,6 +75,15 @@ describe('validateData', () => {
     expect(messages()).toEqual([]);
   });
 
+  it('checks that attesting datasets are listed in sources.yaml', () => {
+    baseTree();
+    write(entryFile('ar-ps', 'attested'), entry({ word: 'كلمة', attested_by: [{ name: 'maknuune' }, { name: 'madar' }, { name: 'mystery' }] }));
+    expect(messages()).toEqual([
+      expect.stringMatching(/attested_by: dataset "madar" is blocked/),
+      expect.stringMatching(/attested_by: dataset "mystery" is not listed/),
+    ]);
+  });
+
   it('reports schema errors with the file path', () => {
     baseTree();
     write(entryFile('ar-ps', 'bad'), entry({ meanings: [] }));

@@ -1,4 +1,5 @@
 import type { Bundle, BundledEntry, BundledSample } from './bundle.js';
+import { CONFIDENCE_RANK, confidenceOf } from './confidence.js';
 import { normalize, normalizerFor } from './normalize.js';
 import { arabiziCandidates } from './romanize.js';
 import type { DialectSummary, MatchKindSchema } from './results.js';
@@ -428,7 +429,8 @@ export class Dictionary {
     return [...matches].sort(
       (a, b) =>
         MATCH_RANK[a.match] - MATCH_RANK[b.match] ||
-        STATUS_RANK[a.entry.status] - STATUS_RANK[b.entry.status] ||
+        // Verified first, then words several independent sources agree on, then single-source drafts.
+        CONFIDENCE_RANK[confidenceOf(a.entry)] - CONFIDENCE_RANK[confidenceOf(b.entry)] ||
         depth(a) - depth(b) ||
         FAMILIARITY_RANK[a.entry.familiarity] - FAMILIARITY_RANK[b.entry.familiarity] ||
         collator.compare(a.entry.id, b.entry.id),

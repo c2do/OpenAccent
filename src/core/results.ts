@@ -37,6 +37,8 @@ export const EntryDataSchema = z.strictObject({
   word: z.string(),
   dialect: DialectIdSchema,
   status: z.enum(['draft', 'verified', 'disputed']),
+  /** verified | high (2+ independent sources) | medium (one source) | low (AI draft or disputed). */
+  confidence: z.enum(['verified', 'high', 'medium', 'low']),
   familiarity: z.enum(['common', 'regional', 'rare', 'dated']),
   register: z.enum(['casual', 'neutral', 'formal', 'vulgar']),
   meanings: z.array(

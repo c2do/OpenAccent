@@ -177,6 +177,7 @@ source:
   name: ""                     # dataset name from data/sources.yaml (required when kind is dataset), e.g. maknuune
   ref: ""                      # e.g. Maknuune entry ID
   license: CC-BY-SA-4.0
+attested_by: []                # other datasets listing the same word and meaning: [{ name: tatoeba, ref: "..." }]
 added_by: ""
 ```
 
@@ -185,6 +186,7 @@ added_by: ""
 - Required fields: `word`, `dialect`, `type`, `status`, `source`, and at least one meaning with `ar` or `en`.
 - **`word` is the written form**, the way native speakers write it in chat. How it sounds goes in `pronunciation`. Example: fallahi speakers say "تشيف" but write كيف, so `word: كيف`, `pronunciation.simple: تشيف`, and `تشيف` is listed in `spellings` so search still finds it. (Owner review, 2026-09-29.)
 - `status: verified` requires at least one handle in `verified_by`, and that handle must be listed in the dialect's `reviewers`. CI enforces this.
+- **Confidence comes from sources** (owner decision, 2026-09-29): `attested_by` lists other open datasets that give the same word with the same meaning. Tools rank and label entries by confidence: **verified** (a native reviewer approved it) › **high** (two or more independent datasets agree, labelled "attested by N independent sources (not yet reviewed)") › **medium** (one dataset or contributor) › **low** (AI draft, or disputed). The briefing marks high-confidence core words with ✓?. The more independent sources a word has, the less it depends on a reviewer.
 - **Tools never present `draft` as fact.** Draft results are labeled "unverified" and ranked below verified ones.
 - `familiarity` defaults to `common`. Tools warn when a reply uses `rare` or `dated` words.
 - **Vulgar and offensive words are part of the language, so they are in the dictionary** (owner decision, 2026-09-29). Each such meaning carries a `sensitive` label (`vulgar`, `sexual`, `offensive`, `slur`). Lookups find them and show the label, since users ask what words mean. But a model must never use them on its own: they are never core words (so never in briefings, dialect cards or portable prompts), a labelled meaning never links a core concept, and `check_reply` flags a word that is sensitive in every sense (stories, songs and scripts may swear; a slur is always flagged). A word with an everyday sense too (Spanish *tío*) keeps that sense first and its register. CI requires the label on unreviewed imported meanings that look sensitive.
