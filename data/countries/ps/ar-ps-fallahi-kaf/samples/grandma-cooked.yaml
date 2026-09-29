@@ -1,0 +1,12 @@
+title: أكل ستّي
+context: family chat
+turns:
+- from: user
+  text: ستّي عملت مسخّن اليوم
+- from: reply
+  text: والله؟ خلّولي شوية!
+status: draft
+verified_by: []
+source:
+  kind: ai-draft
+added_by: claude

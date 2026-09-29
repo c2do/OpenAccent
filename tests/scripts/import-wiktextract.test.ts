@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { collect, isRealExample, kaikkiUrl, readFrequency, selectSenses, toEntries, WAVE_1 } from '../../scripts/import-wiktextract.js';
+import { collect, conceptIndex, isRealExample, kaikkiUrl, readFrequency, selectSenses, toEntries, WAVE_1 } from '../../scripts/import-wiktextract.js';
 
 const esMx = WAVE_1.find((c) => c.dialect === 'es-mx')!;
 const arEg = WAVE_1.find((c) => c.dialect === 'ar-eg')!;
@@ -111,10 +111,10 @@ describe('default varieties (French of France)', () => {
   const fr = (o: { word: string; senses: object[] }) => ({ lang: 'French', pos: 'noun', ...o });
 
   it('keeps France-tagged senses and untagged everyday senses, but not other regions’ slang', () => {
-    expect(selectSenses(fr({ word: 'a', senses: [{ glosses: ['x'], tags: ['France'] }] }), frFr)).toHaveLength(1);
-    expect(selectSenses(fr({ word: 'b', senses: [{ glosses: ['x'], tags: ['colloquial'] }] }), frFr)).toHaveLength(1);
-    expect(selectSenses(fr({ word: 'c', senses: [{ glosses: ['x'], tags: ['Quebec', 'colloquial'] }] }), frFr)).toEqual([]);
-    expect(selectSenses(fr({ word: 'd', senses: [{ glosses: ['x'] }] }), frFr)).toEqual([]);
+    expect(selectSenses(fr({ word: 'bagnole', senses: [{ glosses: ['car'], tags: ['France'] }] }), frFr)).toHaveLength(1);
+    expect(selectSenses(fr({ word: 'truc', senses: [{ glosses: ['thing'], tags: ['colloquial'] }] }), frFr)).toHaveLength(1);
+    expect(selectSenses(fr({ word: 'char', senses: [{ glosses: ['car'], tags: ['Quebec', 'colloquial'] }] }), frFr)).toEqual([]);
+    expect(selectSenses(fr({ word: 'maison', senses: [{ glosses: ['house'] }] }), frFr)).toEqual([]);
   });
 });
 
@@ -129,6 +129,53 @@ describe('ranking without a frequency list', () => {
     ];
     const out = toEntries((await collect(lines, [hi])).get('hi-in')!, hi, { limit: 3 });
     expect(out.map((o) => o.entry.word)).toEqual(['गगगग', 'खख', 'कक']);
+  });
+});
+
+describe('quality filters and core concepts', () => {
+  const enUs = WAVE_1.find((c) => c.dialect === 'en-us-general')!;
+  const enGb = WAVE_1.find((c) => c.dialect === 'en-gb')!;
+  const concepts = conceptIndex({ now: { en: 'now' }, buddy: { en: 'buddy, dude (addressing a man)' }, how: { en: 'how' } });
+  const en = (o: { word: string; pos?: string; senses: object[] }) => ({ lang: 'English', pos: 'noun', ...o });
+
+  it('drops single letters, proper nouns, grammar glosses and sub-regional senses', () => {
+    expect(selectSenses(en({ word: 'c', senses: [{ glosses: ['x'], tags: ['US'] }] }), enUs)).toEqual([]);
+    expect(selectSenses(en({ word: 'Jimmy', senses: [{ glosses: ['x'], tags: ['US'] }] }), enUs)).toEqual([]);
+    expect(selectSenses(en({ word: 'an', senses: [{ glosses: ['Used before vowels.'], tags: ['UK'] }] }), enGb)).toEqual([]);
+    expect(selectSenses(en({ word: 'bairn', senses: [{ glosses: ['child'], tags: ['UK', 'Scotland'] }] }), enGb)).toEqual([]);
+    expect(selectSenses(en({ word: 'and', senses: [{ glosses: ['breath'], tags: ['UK', 'dialectal'] }] }), enGb)).toEqual([]);
+    expect(selectSenses(en({ word: 'lorry', senses: [{ glosses: ['truck'], tags: ['UK'] }] }), enGb)).toHaveLength(1);
+  });
+
+  it('drops function words unless they express a core concept or the file is dialect-specific', () => {
+    const de = WAVE_1.find((c) => c.dialect === 'de-de')!;
+    const deAb = { lang: 'German', word: 'ab', pos: 'prep', senses: [{ glosses: ['off'], tags: ['colloquial'] }] };
+    expect(selectSenses(deAb, de, concepts)).toEqual([]);
+    const eg = WAVE_1.find((c) => c.dialect === 'ar-eg')!;
+    expect(selectSenses({ lang: 'Egyptian Arabic', word: 'ايه', pos: 'pron', senses: [{ glosses: ['what'] }] }, eg)).toHaveLength(1);
+  });
+
+  it('links core concepts (by gloss, or by headword for English) and ranks them first', async () => {
+    const lines = [
+      line({ word: 'camión', pos: 'noun', senses: [{ glosses: ['bus'], tags: ['Mexico'] }] }),
+      line({ word: 'ahorita', pos: 'adv', senses: [{ glosses: ['now; right now'], tags: ['Mexico', 'colloquial'] }] }),
+    ];
+    const ranks = readFrequency('camión 9\nahorita 1\n', 'latn');
+    const out = toEntries((await collect(lines, [esMx], concepts)).get('es-mx')!, esMx, { limit: 1, ranks });
+    expect(out[0]?.entry).toMatchObject({ word: 'ahorita', concept: 'now' });
+    const dude = await collect([JSON.stringify(en({ word: 'dude', senses: [{ glosses: ['A man, a guy.'], tags: ['US', 'slang'] }] }))], [enUs], concepts);
+    expect(dude.get('en-us-general')!.get('dude')?.concept).toBe('buddy');
+  });
+
+  it('sends untagged North Levantine entries to the shared Levantine level', () => {
+    const lev = WAVE_1.find((c) => c.dialect === 'ar-levantine')!;
+    const sy = WAVE_1.find((c) => c.dialect === 'ar-sy')!;
+    const shared = { lang: 'North Levantine Arabic', word: 'هلق', pos: 'adv', senses: [{ glosses: ['now'] }] };
+    const syrian = { lang: 'North Levantine Arabic', word: 'شلون', pos: 'adv', senses: [{ glosses: ['how'], tags: ['Syria'] }] };
+    expect(selectSenses(shared, lev)).toHaveLength(1);
+    expect(selectSenses(shared, sy)).toEqual([]);
+    expect(selectSenses(syrian, lev)).toEqual([]);
+    expect(selectSenses(syrian, sy)).toHaveLength(1);
   });
 });
 

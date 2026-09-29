@@ -1,0 +1,14 @@
+title: كيف الحال
+context: catching up with a friend
+turns:
+- from: user
+  text: كيفك؟ من زمان ما شفناك
+- from: reply
+  text: منيح الحمد لله، وإنت شو أخبارك؟
+- from: user
+  text: تمام، ماشي الحال
+status: draft
+verified_by: []
+source:
+  kind: ai-draft
+added_by: claude

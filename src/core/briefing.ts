@@ -76,7 +76,10 @@ export function buildBriefing(dict: Dictionary, memory: Memory): Briefing {
     for (const c of core) {
       const words = c.entries
         .slice(0, 4)
-        .map((e) => `${e.word}${e.status === 'verified' ? ' ✓' : ''}${e.familiarity !== 'common' ? ` (${e.familiarity})` : ''}`)
+        .map((e) => {
+          const notes = [e.familiarity !== 'common' ? e.familiarity : '', e.register === 'vulgar' ? 'vulgar' : ''].filter(Boolean);
+          return `${e.word}${e.status === 'verified' ? ' ✓' : ''}${notes.length ? ` (${notes.join(', ')})` : ''}`;
+        })
         .join(' / ');
       lines.push(`- ${c.gloss}: ${words}`);
     }
