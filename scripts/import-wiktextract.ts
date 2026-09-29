@@ -82,6 +82,8 @@ interface Candidate {
   ipa?: string;
   romanized: Set<string>;
   pos: Set<string>;
+  /** At least one selected sense is tagged colloquial/informal/slang. */
+  everyday: boolean;
 }
 
 const REGISTER_ORDER = ['vulgar', 'casual', 'formal'] as const;
@@ -103,6 +105,15 @@ export function selectSenses(entry: KaikkiEntry, cfg: DialectImport): Sense[] {
     return true;
   });
 }
+
+/** Wiktionary sometimes stores notes like "ع (ʕa-) (alternative form)" as examples; keep real sentences only. */
+export function isRealExample(text: string): boolean {
+  if (/\((alternative|obsolete|dated|rare) form|\bform of\b/i.test(text)) return false;
+  return text.trim().split(/\s+/).length >= 2;
+}
+
+// Senses tagged like this are everyday speech, which is what a dialect dictionary is for.
+const EVERYDAY_TAGS = ['colloquial', 'informal', 'slang', 'familiar'];
 
 /** Collects candidates per word from a stream of kaikki JSONL lines. */
 export async function collect(lines: AsyncIterable<string> | Iterable<string>, cfgs: DialectImport[]) {
@@ -129,6 +140,7 @@ export async function collect(lines: AsyncIterable<string> | Iterable<string>, c
         allDated: true,
         romanized: new Set(),
         pos: new Set(),
+        everyday: false,
       };
       c.pos.add(entry.pos);
       c.ipa ??= entry.sounds?.find((s) => s.ipa)?.ipa;
@@ -138,11 +150,12 @@ export async function collect(lines: AsyncIterable<string> | Iterable<string>, c
         tags.forEach((t) => c.tags.add(t));
         if (!tags.includes('rare')) c.allRare = false;
         if (!tags.includes('dated')) c.allDated = false;
+        if (tags.some((t) => EVERYDAY_TAGS.includes(t))) c.everyday = true;
         const en = s.glosses!.join('; ');
         if (c.meanings.some((m) => m.en === en)) continue;
         // Only Wiktionary's own usage examples; quotations from books and papers are left out.
         const examples = (s.examples ?? [])
-          .filter((e) => e.text && e.type !== 'quote' && e.text.length <= 200)
+          .filter((e) => e.text && e.type !== 'quote' && e.text.length <= 200 && isRealExample(e.text))
           .slice(0, 2)
           .map((e) => ({ text: e.text!, ...((e.english ?? e.translation) ? { en: (e.english ?? e.translation)! } : {}) }));
         c.meanings.push({ en, examples });
@@ -180,7 +193,13 @@ export function toEntries(
   cfg: DialectImport,
   opts: { limit: number; ranks?: Map<string, number>; existingWords?: Set<string>; existingSlugs?: Set<string> },
 ): { slug: string; entry: Entry }[] {
-  const rank = (w: string) => opts.ranks?.get(normalize(w, cfg.script)) ?? Number.MAX_SAFE_INTEGER;
+  // Frequency of the word, with a boost for everyday senses: a common word whose regional sense is
+  // obscure (e.g. Mexican "ante" = tapir) should not beat a slang word everyone uses there.
+  const EVERYDAY_BOOST = 0.25;
+  const rank = (w: string) => {
+    const r = opts.ranks?.get(normalize(w, cfg.script)) ?? Number.MAX_SAFE_INTEGER;
+    return candidates.get(w)?.everyday ? (r + 1) * EVERYDAY_BOOST : r + 1;
+  };
   const existing = opts.existingWords ?? new Set<string>();
   const slugs = new Set(opts.existingSlugs ?? []);
   const sorted = [...candidates.values()]
