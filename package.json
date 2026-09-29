@@ -23,7 +23,8 @@
     "eval": "tsx scripts/eval.ts",
     "pack:mcpb": "bash scripts/pack-mcpb.sh",
     "bench": "tsx bench/run.ts",
-    "test:fuzz": "FC_RUNS=20000 vitest run tests/property"
+    "test:fuzz": "FC_RUNS=20000 vitest run tests/property",
+    "eval:manual": "tsx scripts/eval-manual.ts"
   },
   "repository": {
     "type": "git",
