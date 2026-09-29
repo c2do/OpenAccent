@@ -177,6 +177,45 @@ describe('validateData', () => {
   });
 });
 
+describe('concepts and samples', () => {
+  const sample = (extra: Record<string, unknown> = {}) => ({
+    title: 'Where are you?',
+    turns: [
+      { from: 'user', text: 'وينك؟' },
+      { from: 'reply', text: 'هسّا جاي' },
+    ],
+    status: 'draft',
+    source: { kind: 'ai-draft' },
+    ...extra,
+  });
+
+  it('accepts entries linked to known concepts, and valid samples', () => {
+    baseTree();
+    write('concepts.yaml', { now: { en: 'now', ar: 'الآن', category: 'time' } });
+    write(entryFile('ar-ps', 'hakoura'), entry({ concept: 'now' }));
+    write(`${PS}/ar-ps/samples/where-are-you.yaml`, sample());
+    expect(messages()).toEqual([]);
+  });
+
+  it('reports unknown concepts and malformed concept files', () => {
+    baseTree();
+    write('concepts.yaml', { now: { en: 'now', ar: 'الآن', category: 'time' }, broken: { en: 'x' } });
+    write(entryFile('ar-ps', 'hakoura'), entry({ concept: 'later' }));
+    const errs = messages().join('\n');
+    expect(errs).toContain('Unknown concept "later"');
+    expect(errs).toContain('concepts.yaml: broken:');
+  });
+
+  it('applies schema and reviewer rules to samples', () => {
+    baseTree();
+    write(`${PS}/ar-ps/samples/short.yaml`, sample({ turns: [{ from: 'user', text: 'x' }] }));
+    write(`${PS}/ar-ps/samples/unverified.yaml`, sample({ status: 'verified', verified_by: ['stranger'] }));
+    const errs = messages().join('\n');
+    expect(errs).toContain('at least two turns');
+    expect(errs).toContain('"stranger" is not a reviewer of ar-ps');
+  });
+});
+
 describe('empty or missing data root', () => {
   it('reports a root without dialects', () => {
     root = mkdtempSync(join(tmpdir(), 'oa-empty-'));

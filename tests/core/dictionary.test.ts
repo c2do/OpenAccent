@@ -102,7 +102,8 @@ describe('Dictionary.express', () => {
 
   it('accepts Arabic meanings', () => {
     const r = dict.express('الآن', { dialects: ['ar-ps-madani'] });
-    expect(ids(r[0]!)).toEqual(['ar-ps-madani/halla']);
+    // Both are linked to the "now" concept, which الآن names.
+    expect(ids(r[0]!)).toEqual(['ar-ps-madani/halla', 'ar-ps-madani/hassa-madani']);
   });
 
   it('groups results when comparing dialects', () => {
@@ -116,6 +117,32 @@ describe('Dictionary.express', () => {
     const r = dict.express('you all', { dialects: ['en-us-general', 'en-us-south'] });
     expect(ids(r[0]!)).toEqual(['en-us-general/you-guys']);
     expect(ids(r[1]!)).toEqual(['en-us-south/yall']);
+  });
+});
+
+describe('core concepts and samples', () => {
+  it('finds a concept by id or gloss', () => {
+    expect(dict.findConcept('now')).toBe('now');
+    expect(dict.findConcept('الآن')).toBe('now');
+    expect(dict.findConcept('how')).toBe('how');
+    expect(dict.findConcept('banana')).toBeUndefined();
+  });
+
+  it('express puts concept-linked entries first, even without a matching gloss', () => {
+    const r = dict.express('now', { dialects: ['ar-ps-madani'] });
+    expect(ids(r[0]!)).toEqual(['ar-ps-madani/halla', 'ar-ps-madani/hassa-madani']);
+  });
+
+  it('lists how a dialect says each core concept', () => {
+    const core = dict.coreWords('ar-ps-fallahi');
+    expect(core.map((c) => c.concept)).toEqual(['now']);
+    expect(core[0]?.entries.map((e) => e.word)).toEqual(['هسّع', 'الحين']);
+    expect(dict.coreWords('ar-ps-fallahi-tshaf').map((c) => c.concept)).toEqual(['now', 'how']);
+  });
+
+  it('returns samples from the dialect branch', () => {
+    expect(dict.samplesFor('ar-ps-fallahi-kaf').map((x) => x.id)).toEqual(['ar-ps-fallahi/where-are-you']);
+    expect(dict.samplesFor('ar-eg')).toEqual([]);
   });
 });
 

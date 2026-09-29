@@ -1,5 +1,5 @@
 import { readFileSync } from 'node:fs';
-import type { Country, Dialect, Entry } from './schema.js';
+import type { Concept, Country, Dialect, Entry, Sample } from './schema.js';
 
 export interface BundledDialect extends Dialect {
   /** Country code, for dialects filed under data/countries/<cc>/. */
@@ -11,6 +11,12 @@ export interface BundledEntry extends Entry {
   id: string;
 }
 
+export interface BundledSample extends Sample {
+  /** `<dialect>/<slug>` */
+  id: string;
+  dialect: string;
+}
+
 /** The compiled dictionary (`dist/dictionary.json`), produced by scripts/build-data.ts. */
 export interface Bundle {
   formatVersion: 1;
@@ -18,6 +24,9 @@ export interface Bundle {
   countries: Country[];
   dialects: BundledDialect[];
   entries: BundledEntry[];
+  /** Core concepts, keyed by id. */
+  concepts: Record<string, Concept>;
+  samples: BundledSample[];
   /** Dialect guide markdown, keyed by dialect ID. */
   guides: Record<string, string>;
 }

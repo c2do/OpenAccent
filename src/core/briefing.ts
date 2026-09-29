@@ -69,6 +69,30 @@ export function buildBriefing(dict: Dictionary, memory: Memory): Briefing {
     for (const s of memory.style) lines.push(`- Style: ${s.text}`);
   }
 
+  // Core words: the everyday words that give a dialect away. Personal words above still win.
+  const core = dict.coreWords(dialect.id).slice(0, 60);
+  if (core.length) {
+    lines.push('', '## Core words in this dialect (use these, not another dialect’s)');
+    for (const c of core) {
+      const words = c.entries
+        .slice(0, 4)
+        .map((e) => `${e.word}${e.status === 'verified' ? ' ✓' : ''}${e.familiarity !== 'common' ? ` (${e.familiarity})` : ''}`)
+        .join(' / ');
+      lines.push(`- ${c.gloss}: ${words}`);
+    }
+    lines.push('_✓ = verified by native speakers. Several words for one meaning often depend on the region: prefer the user’s own, and never mix them._');
+  }
+
+  // Samples: short real exchanges teach tone better than any word list.
+  const samples = dict.samplesFor(dialect.id, 3);
+  if (samples.length) {
+    lines.push('', '## How people actually write it (examples)');
+    for (const sample of samples) {
+      lines.push('', `**${sample.title}**${sample.context ? ` — ${sample.context}` : ''}${sample.status === 'verified' ? ' ✓' : ' _(draft)_'}`);
+      for (const t of sample.turns) lines.push(`> ${t.from === 'user' ? 'A' : 'B'}: ${t.text}`);
+    }
+  }
+
   const guide = mergedGuide(dict, dialect.id);
   if (guide.guides.length) {
     const drafts = guide.guides.filter((g) => g.status === 'draft').map((g) => g.dialect);

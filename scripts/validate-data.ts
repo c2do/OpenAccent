@@ -2,7 +2,7 @@ import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import type { z } from 'zod';
 import { loadRawData, type DataError } from '../src/core/data-loader.js';
-import { CountrySchema, DialectSchema, EntrySchema, type Dialect, type Entry } from '../src/core/schema.js';
+import { ConceptSchema, CountrySchema, DialectSchema, EntrySchema, SampleSchema, type Dialect, type Entry } from '../src/core/schema.js';
 
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
@@ -69,6 +69,48 @@ export function validateData(root: string): DataError[] {
   const allowed = new Set(Object.keys(sources.allowed ?? {}));
   const blocked = new Set(Object.keys(sources.blocked ?? {}));
 
+  // Concepts
+  const concepts = new Set<string>();
+  if (raw.concepts !== undefined) {
+    if (typeof raw.concepts !== 'object' || raw.concepts === null) {
+      errors.push({ file: 'concepts.yaml', message: 'Must be a mapping of concept id → { en, ar, category }' });
+    } else {
+      for (const [id, value] of Object.entries(raw.concepts as Record<string, unknown>)) {
+        const parsed = ConceptSchema.safeParse(value);
+        if (!parsed.success) errors.push({ file: 'concepts.yaml', message: `${id}: ${describeIssues(parsed.error)}` });
+        else if (!/^[a-z][a-z0-9_]*$/.test(id)) errors.push({ file: 'concepts.yaml', message: `Bad concept id "${id}"` });
+        else concepts.add(id);
+      }
+    }
+  }
+
+  /** Reviewer rules shared by entries and samples. */
+  const checkVerification = (file: string, dialectId: string, item: { status: string; verified_by: string[] }) => {
+    if (item.status === 'verified' && item.verified_by.length === 0) {
+      errors.push({ file, message: 'status is "verified" but verified_by is empty' });
+    }
+    const owner = dialects.get(dialectId);
+    for (const who of item.verified_by) {
+      if (owner && !owner.dialect.reviewers.includes(who)) {
+        errors.push({ file, message: `"${who}" is not a reviewer of ${dialectId}` });
+      }
+    }
+  };
+
+  // Samples
+  for (const { file, data, folder, slug } of raw.samples) {
+    if (!SLUG.test(slug)) {
+      errors.push({ file, message: 'File name must be a lowercase ASCII slug like "asking-directions"' });
+      continue;
+    }
+    const parsed = SampleSchema.safeParse(data);
+    if (!parsed.success) {
+      errors.push({ file, message: describeIssues(parsed.error) });
+      continue;
+    }
+    checkVerification(file, folder, parsed.data);
+  }
+
   // Entries
   const entries: { file: string; id: string; entry: Entry }[] = [];
   for (const { file, data, folder, slug } of raw.entries) {
@@ -88,13 +130,9 @@ export function validateData(root: string): DataError[] {
     } else if (folder !== entry.dialect) {
       errors.push({ file, message: `Entry dialect "${entry.dialect}" is in folder "${folder}"` });
     }
-    if (entry.status === 'verified' && entry.verified_by.length === 0) {
-      errors.push({ file, message: 'status is "verified" but verified_by is empty' });
-    }
-    for (const who of entry.verified_by) {
-      if (owner && !owner.dialect.reviewers.includes(who)) {
-        errors.push({ file, message: `"${who}" is not a reviewer of ${entry.dialect}` });
-      }
+    checkVerification(file, entry.dialect, entry);
+    if (entry.concept && raw.concepts !== undefined && !concepts.has(entry.concept)) {
+      errors.push({ file, message: `Unknown concept "${entry.concept}" (see data/concepts.yaml)` });
     }
     if (entry.source.kind === 'dataset' && entry.source.name) {
       if (blocked.has(entry.source.name)) {

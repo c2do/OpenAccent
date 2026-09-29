@@ -9,8 +9,10 @@ import { parse } from 'yaml';
  *   data/countries/<cc>/<dialect-id>/dialect.yaml  a dialect spoken there
  *   data/countries/<cc>/<dialect-id>/guide.md      its guide (optional)
  *   data/countries/<cc>/<dialect-id>/entries/*.yaml
+ *   data/countries/<cc>/<dialect-id>/samples/*.yaml  short natural exchanges
  *   data/languages/<dialect-id>/...                cross-border nodes (ar, ar-levantine, en, ...)
  *   data/sources.yaml
+ *   data/concepts.yaml                             core concepts every dialect fills in
  */
 
 export interface DataError {
@@ -44,6 +46,9 @@ export interface RawData {
   countries: RawFile[];
   dialects: RawDialectFile[];
   entries: RawEntryFile[];
+  /** Same shape as entries: folder = dialect, slug = file name. */
+  samples: RawEntryFile[];
+  concepts: unknown;
   sources: unknown;
   errors: DataError[];
 }
@@ -74,6 +79,7 @@ export function loadRawData(root: string): RawData {
   const countries: RawFile[] = [];
   const dialects: RawDialectFile[] = [];
   const entries: RawEntryFile[] = [];
+  const samples: RawEntryFile[] = [];
 
   const loadDialectFolder = (rel: string, folder: string, country?: string) => {
     const dir = `${rel}/${folder}`;
@@ -95,6 +101,10 @@ export function loadRawData(root: string): RawData {
       const entry = read(`${dir}/entries/${f}`);
       if (entry) entries.push({ ...entry, folder, slug: f.replace(/\.yaml$/, '') });
     }
+    for (const f of yamlFiles(join(root, dir, 'samples'))) {
+      const sample = read(`${dir}/samples/${f}`);
+      if (sample) samples.push({ ...sample, folder, slug: f.replace(/\.yaml$/, '') });
+    }
   };
 
   for (const cc of subdirs(join(root, 'countries'))) {
@@ -109,5 +119,6 @@ export function loadRawData(root: string): RawData {
   for (const folder of subdirs(join(root, 'languages'))) loadDialectFolder('languages', folder);
 
   const sources = existsSync(join(root, 'sources.yaml')) ? read('sources.yaml')?.data : undefined;
-  return { countries, dialects, entries, sources, errors };
+  const concepts = existsSync(join(root, 'concepts.yaml')) ? read('concepts.yaml')?.data : undefined;
+  return { countries, dialects, entries, samples, concepts, sources, errors };
 }
