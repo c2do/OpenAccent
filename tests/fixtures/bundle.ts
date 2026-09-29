@@ -64,6 +64,8 @@ export function fixtureBundle(): Bundle {
       d({ id: 'en', name: { en: 'English' }, script: 'latn' }),
       d({ id: 'en-us-general', parent: 'en', name: { en: 'General American' }, script: 'latn' }),
       d({ id: 'en-us-south', parent: 'en', name: { en: 'Southern' }, script: 'latn' }),
+      d({ id: 'fr-fr', name: { en: 'French (France)' }, script: 'latn' }),
+      d({ id: 'es-mx', name: { en: 'Mexican Spanish' }, script: 'latn' }),
     ],
     entries: [
       e('ar-ps-fallahi/hakoura', {
@@ -110,6 +112,8 @@ export function fixtureBundle(): Bundle {
       e('en-us-south/yall', { word: "y'all", meanings: [{ en: 'you all; you (plural)' }], familiarity: 'regional' }),
       e('en-us-general/you-guys', { word: 'you guys', type: 'phrase', meanings: [{ en: 'you all; you (plural)' }] }),
       e('en-us-general/color', { word: 'color', meanings: [{ en: 'color' }] }),
+      e('fr-fr/amour', { word: 'amour', meanings: [{ en: 'love' }] }),
+      e('es-mx/ano-year', { word: 'año', meanings: [{ en: 'year' }] }),
       e('en-us-general/delve', {
         word: 'delve',
         meanings: [{ en: 'to look into something in detail' }],

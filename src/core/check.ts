@@ -1,6 +1,5 @@
 import type { BundledEntry } from './bundle.js';
 import type { Dictionary } from './dictionary.js';
-import { normalize } from './normalize.js';
 import type { Memory, Purpose } from './schema.js';
 
 export type IssueKind = 'correction' | 'personal_word' | 'pronunciation' | 'other_dialect' | 'rare' | 'dated';
@@ -34,25 +33,25 @@ export function checkReply(
 ): CheckResult {
   const purpose = opts.purpose ?? 'chat';
   const branch = dict.branch(dialect);
-  const script = dict.getDialect(dialect)?.script ?? 'arab';
+  const norm = dict.normalizer(dialect);
   // Keep each word as written (for display) next to its normalized form (for matching).
   const pairs = text
     .split(/\s+/)
-    .map((raw) => ({ raw: raw.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}\u064B-\u065F\u0670]+$/gu, ''), norm: normalize(raw, script) }))
+    .map((raw) => ({ raw: raw.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}\u064B-\u065F\u0670]+$/gu, ''), norm: norm(raw) }))
     .filter((p) => p.norm && !p.norm.includes(' '));
   const words = pairs.map((p) => p.norm);
   const surface = (i: number, n: number) => pairs.slice(i, i + n).map((p) => p.raw).join(' ');
   const issues: ReplyIssue[] = [];
   const covered = new Array<boolean>(words.length).fill(false);
 
-  const corrections = new Map(memory.corrections.map((c) => [normalize(c.wrong, script), c]));
+  const corrections = new Map(memory.corrections.map((c) => [norm(c.wrong), c]));
   const replaced = new Map(
-    memory.words.filter((w) => w.instead_of).map((w) => [normalize(w.instead_of!, script), w]),
+    memory.words.filter((w) => w.instead_of).map((w) => [norm(w.instead_of!), w]),
   );
-  const ownWords = new Set(memory.words.map((w) => normalize(w.say, script)));
+  const ownWords = new Set(memory.words.map((w) => norm(w.say)));
 
   const bestSuggestion = (entries: BundledEntry[]) => {
-    const own = entries.find((e) => ownWords.has(normalize(e.word, script)));
+    const own = entries.find((e) => ownWords.has(norm(e.word)));
     const pick = own ?? entries.find((e) => e.familiarity === 'common') ?? entries[0];
     return pick?.word;
   };
@@ -68,14 +67,14 @@ export function checkReply(
     }
     if (ownWords.has(form)) return undefined;
 
-    const entries = dict.findByForm(form, script);
+    const entries = dict.findByForm(form, dialect);
     if (entries.length === 0) return undefined;
     const mine = entries.filter((e) => branch.includes(e.dialect));
-    const writtenInBranch = mine.some((e) => normalize(e.word, script) === form);
+    const writtenInBranch = mine.some((e) => norm(e.word) === form);
 
     // Written the way it's pronounced (e.g. تشيف for كيف)? Wrong in any dialect's writing.
     const spoken = entries.find(
-      (e) => e.pronunciation?.simple && normalize(e.pronunciation.simple, script) === form && normalize(e.word, script) !== form,
+      (e) => e.pronunciation?.simple && norm(e.pronunciation.simple) === form && norm(e.word) !== form,
     );
     // Scripts are written to be spoken, so spelling words the way they sound is the point there.
     if (spoken && !writtenInBranch && purpose !== 'script') {
@@ -130,7 +129,7 @@ export function checkReply(
     for (let i = 0; i + n <= words.length; i++) {
       if (covered.slice(i, i + n).some(Boolean)) continue;
       const form = words.slice(i, i + n).join(' ');
-      const known = n === 1 || dict.findByForm(form, script).length > 0 || corrections.has(form) || replaced.has(form);
+      const known = n === 1 || dict.findByForm(form, dialect).length > 0 || corrections.has(form) || replaced.has(form);
       if (!known) continue;
       const found = inspect(form);
       if (found || n > 1) covered.fill(true, i, i + n);

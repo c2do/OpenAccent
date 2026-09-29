@@ -22,7 +22,6 @@ import { z } from 'zod';
 import { buildBriefing } from '../src/core/briefing.js';
 import { checkReply } from '../src/core/check.js';
 import { Dictionary } from '../src/core/dictionary.js';
-import { normalize } from '../src/core/normalize.js';
 import { MemorySchema } from '../src/core/schema.js';
 import { buildBundle } from './build-data.js';
 
@@ -60,12 +59,12 @@ export interface ReplyRecord {
 export function scoreReply(dict: Dictionary, dialect: string, reply: string): ReplyScore {
   const memory = MemorySchema.parse({ version: 1, profile: { dialect } });
   const { issues } = checkReply(dict, memory, reply, dialect);
-  const script = dict.getDialect(dialect)?.script ?? 'arab';
-  const text = ` ${normalize(reply, script)} `;
+  const norm = dict.normalizer(dialect);
+  const text = ` ${norm(reply)} `;
   const coreForms = dict
     .coreWords(dialect)
     .flatMap((c) => c.entries.flatMap((e) => [e.word, ...e.spellings]))
-    .map((w) => normalize(w, script))
+    .map(norm)
     .filter(Boolean);
   const coreWordsUsed = new Set(coreForms.filter((f) => text.includes(` ${f} `))).size;
   return {
