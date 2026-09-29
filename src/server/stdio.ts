@@ -3,7 +3,7 @@ import { fileURLToPath } from 'node:url';
 import { serveStdio } from '@modelcontextprotocol/server/stdio';
 import { readBundle } from '../core/bundle.js';
 import { Dictionary } from '../core/dictionary.js';
-import { FileMemoryStore, resolveMemoryPath } from '../core/memory.js';
+import { FileMemoryStore, resolveMemoryPath } from '../core/memory/index.js';
 import { buildPortablePrompt } from '../core/portable.js';
 import { createServer } from './server.js';
 

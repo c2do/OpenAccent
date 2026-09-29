@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "profile": { "dialect": "ar-ps-fallahi-kaf", "region": "Ramallah villages", "notes": "Writes Arabic script, not Arabizi" },
+  "words": [
+    { "id": "w1", "say": "هسّا", "instead_of": "هلّأ", "meaning": "now", "created_at": "2026-09-29T12:00:00.000Z" },
+    { "id": "w2", "say": "زلمة", "created_at": "2026-09-29T12:01:00.000Z" }
+  ],
+  "corrections": [
+    { "id": "c1", "wrong": "كويس", "right": "منيح", "context": "casual chat", "created_at": "2026-09-29T12:02:00.000Z" }
+  ],
+  "style": [{ "id": "s1", "text": "Prefers short replies", "created_at": "2026-09-29T12:03:00.000Z" }]
+}

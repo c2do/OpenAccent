@@ -252,6 +252,18 @@ Memory is stored as local, human-readable JSON:
 
 **Precedence:** personal memory beats a verified dictionary entry, which beats a draft entry.
 
+**Versions and migrations** (`src/core/memory/`)
+
+- Every file has a `version`. Each version's schema lives in its own frozen file (`v1.ts`, …); `types.ts` points at the current one.
+- Loading always goes: detect the version → migrate step by step to the current one (`migrate.ts`, `MIGRATIONS[n]` turns version n into n + 1) → validate.
+- A migrated file is written back only on the next change, and the original is kept as `memory.json.v<n>.bak`.
+- A file from a **newer** OpenAccent is never backed up or overwritten: memory turns read-only and the user is told to update. Only an unreadable file is backed up and replaced.
+- `tests/fixtures/memory/` holds files as earlier releases wrote them; every one must keep loading.
+
+**Concurrent writers.** Claude Desktop and the CLI can use the same file. Every change is read-modify-write under a lock file (`memory.json.lock`, created exclusively), then written with an atomic rename, so neither corruption nor lost updates can happen. A lock older than 10 s is treated as abandoned by a crashed process.
+
+**Limits.** Memory goes into the model's context in every conversation, so new items are capped (`MEMORY_LIMITS`: e.g. 200 characters for a word, 2,000 for profile notes, 500 words, 500 corrections, 50 style notes). Limits apply when something is remembered, never when a file is read.
+
 **Privacy**
 
 - Memory never leaves the machine in v0.1.
@@ -394,7 +406,7 @@ Normalization rules stack from general to specific: the dialect's `script`, then
 **Automated**
 
 - Schema validation of all data.
-- Unit tests: normalizer, Arabizi, sound folding, inheritance, ranking, memory store (including atomic writes and a corrupt-file recovery path), URL builder.
+- Unit tests: normalizer, Arabizi, sound folding, inheritance, ranking, memory store (including atomic writes, a corrupt-file recovery path, migrations, newer-version files, limits, and several processes writing at once), URL builder.
 - MCP integration tests for each tool.
 
 **Behavioural evaluation** (`evals/`)
