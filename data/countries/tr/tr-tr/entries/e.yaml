@@ -1,0 +1,24 @@
+word: e
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /e/
+part_of_speech: noun
+meanings:
+  - en: The name of the Latin script letter E/e.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/e#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

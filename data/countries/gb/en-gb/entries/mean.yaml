@@ -1,0 +1,34 @@
+word: mean
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /miːn/
+meanings:
+  - en: To lament.
+    examples:
+      - text: All the tyme of his sickness he never said, “Alace!” or meaned any pain,
+          whilk was marvellous. Never man died in greater peace of mind or body.
+      - text: |-
+          “ If you should die for me, sir knight,
+          “ There’s few for you will mane,
+          “ For many a better has died for me,
+          “ Whose graves are growing green.
+  - en: Ungenerous; stingy; tight-fisted.
+    examples:
+      - text: He's so mean. I've never seen him spend so much as five pounds on presents
+          for his children.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mean#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

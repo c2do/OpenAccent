@@ -1,0 +1,25 @@
+word: خمس
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ḵumus
+pronunciation:
+  ipa: /xu.mus/
+part_of_speech: noun
+meanings:
+  - en: fifth (fraction)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AE%D9%85%D8%B3#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

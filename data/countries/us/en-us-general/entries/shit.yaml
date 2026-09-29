@@ -1,0 +1,25 @@
+word: shit
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʃɪt/
+part_of_speech: noun
+meanings:
+  - en: (the shit) The best of its kind.
+    examples:
+      - text: These grapes are the shit!
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/shit#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

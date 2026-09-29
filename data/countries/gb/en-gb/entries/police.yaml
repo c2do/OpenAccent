@@ -1,0 +1,31 @@
+word: police
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pəˈliːs/
+part_of_speech: noun
+meanings:
+  - en: A constituted body of officers representing the civil authority of
+      government, empowered to maintain public order and safety, enforce the
+      law, and prevent, detect, and investigate crime.; A branch of the Home
+      Office responsible for general law enforcement within a specific
+      territory.
+    examples:
+      - text: Scotland Yard is, technically speaking, only the metropolitan police for
+          Greater London but because of their importance they have special
+          jurisdiction for some crimes across the United Kingdom.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/police#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

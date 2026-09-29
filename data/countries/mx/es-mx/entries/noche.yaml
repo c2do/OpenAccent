@@ -1,0 +1,28 @@
+word: noche
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnot͡ʃe/
+part_of_speech: adv
+meanings:
+  - en: after dark, (late) at night, nocturnally
+    examples:
+      - text: Me gusta jugar videojuegos noche.
+        en: I like playing videogames at night.
+      - text: Llegamos a casa muy noche.
+        en: We arrived home late at night.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/noche#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

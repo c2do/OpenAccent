@@ -1,0 +1,30 @@
+word: حل
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ḥall
+pronunciation:
+  ipa: /ħalː/
+meanings:
+  - en: solution
+    examples: []
+  - en: to loosen
+    examples: []
+  - en: to open
+    examples: []
+  - en: to solve
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D9%84#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

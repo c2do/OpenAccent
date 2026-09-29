@@ -1,0 +1,27 @@
+word: behind
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɪˈhaɪnd/
+part_of_speech: prep
+meanings:
+  - en: Following, subsequent to; as a result or consequence of; because of.
+    examples:
+      - text: He was like, 'Fuck the police! Fuck you! You know who I am, you gonna quit
+          playing with me, bitch.' I'm like let's go. 'Cause I wasn't trying to
+          go to jail behind that shit.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/behind#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

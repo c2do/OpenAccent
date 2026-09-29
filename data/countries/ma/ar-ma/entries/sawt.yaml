@@ -1,0 +1,32 @@
+word: صوت
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ṣawt
+  - ṣūt
+  - ṣawwat
+pronunciation:
+  ipa: /sˤawt/
+meanings:
+  - en: voice (sound uttered by the mouth)
+    examples: []
+  - en: sound
+    examples: []
+  - en: vote, ballot
+    examples: []
+  - en: to vote
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B5%D9%88%D8%AA#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

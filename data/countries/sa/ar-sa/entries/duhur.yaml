@@ -1,0 +1,28 @@
+word: ظهر
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ḍuhur
+  - ḍahar
+pronunciation:
+  ipa: /dˤu.hur/
+part_of_speech: noun
+meanings:
+  - en: noon, midday
+    examples: []
+  - en: back (rear of the body)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B8%D9%87%D8%B1#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

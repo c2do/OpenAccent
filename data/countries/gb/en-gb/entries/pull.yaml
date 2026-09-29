@@ -1,0 +1,32 @@
+word: pull
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pʊl/
+part_of_speech: verb
+meanings:
+  - en: To persuade (someone) to have sex with one.
+    examples:
+      - text: I pulled at the club last night.
+      - text: He's pulled that bird over there.
+  - en: To score a certain number of points in a sport.
+    examples:
+      - text: How many points did you pull today, Albert?
+  - en: To draw beer from a pump, keg, or other source.
+    examples:
+      - text: Let's stop at Finnigan's. The barman pulls a good pint.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pull#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

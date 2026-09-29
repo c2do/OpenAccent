@@ -1,0 +1,26 @@
+word: Trinken
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtʁɪŋkən/
+part_of_speech: noun
+meanings:
+  - en: gerund of trinken; something to drink, a beverage
+    examples:
+      - text: Ich hab kein Trinken dabei.
+        en: I don't have anything to drink with me.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Trinken#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

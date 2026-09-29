@@ -1,0 +1,31 @@
+word: عاد
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ʕād
+pronunciation:
+  ipa: /ʕaːd/
+part_of_speech: adv
+meanings:
+  - en: just (recently)
+    examples:
+      - text: عاد وصلت للدار.
+        en: I just arrived home.
+  - en: yet
+    examples:
+      - text: وعاد آنا ما كنتش تمة فالدار.
+        en: Yet I wasn't there in the house.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D8%AF#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

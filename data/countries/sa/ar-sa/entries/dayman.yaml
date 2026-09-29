@@ -1,0 +1,27 @@
+word: دايما
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - dāyman
+pronunciation:
+  ipa: /daːj.man/
+part_of_speech: adv
+meanings:
+  - en: always
+    examples:
+      - text: دايمًا اشتري من هذا المحل
+        en: I always buy from this shop.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AF%D8%A7%D9%8A%D9%85%D8%A7#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

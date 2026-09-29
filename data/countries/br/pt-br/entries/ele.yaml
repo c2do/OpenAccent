@@ -1,0 +1,27 @@
+word: ele
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈe.li/
+part_of_speech: pron
+meanings:
+  - en: third-person masculine singular personal pronoun used in all positions; he;
+      him; it
+    examples:
+      - text: Um homem matou ele.
+        en: A man killed him.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ele#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: Tage
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtaːɡə/
+part_of_speech: noun
+meanings:
+  - en: period, that time of the month (female menstruation)
+    examples:
+      - text: Sie hat ihre Tage.
+        en: She's on her period.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Tage#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

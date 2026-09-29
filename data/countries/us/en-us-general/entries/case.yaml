@@ -1,0 +1,25 @@
+word: case
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /keɪs/
+part_of_speech: noun
+meanings:
+  - en: A unit of liquid measure used to measure sales in the beverage industry,
+      equivalent to 192 fluid ounces.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/case#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

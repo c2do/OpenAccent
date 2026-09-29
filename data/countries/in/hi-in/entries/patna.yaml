@@ -1,0 +1,33 @@
+word: पटना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - paṭnā
+pronunciation:
+  ipa: /pəʈ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to get along; to have a good relationship
+    examples:
+      - text: उन दोनों की ख़ूब जल्दी पट गई।
+        en: Those two got along pretty quick.
+  - en: to be settled (debt), paid
+    examples: []
+  - en: to be flat, level
+    examples: []
+  - en: to be thatched (a roof)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%9F%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

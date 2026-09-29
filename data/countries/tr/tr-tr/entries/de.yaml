@@ -1,0 +1,33 @@
+word: de
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dɛ/
+meanings:
+  - en: as well, too, also
+    examples:
+      - text: Özer de sorunun yanıtını biliyor.
+        en: Özer also knows the answer of the question.
+      - text: Berker de bizimle geliyor.
+        en: Berker is coming with us as well.
+  - en: however
+    examples:
+      - text: Herkes iddia ediyor ki boyum uzamış da ben fark etmiyorum.
+        en: Everyone claims that I've gotten taller however I don't really notice it.
+  - en: The name of the Latin script letter D/d.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/de#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

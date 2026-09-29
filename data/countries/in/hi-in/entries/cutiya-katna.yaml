@@ -1,0 +1,33 @@
+word: चूतिया काटना
+dialect: hi-in
+type: phrase
+spellings: []
+romanized:
+  - cūtiyā kāṭnā
+pronunciation:
+  ipa: /t͡ʃuː.t̪ɪ.jɑː kɑːʈ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: Literally, “to slice someone's cunt”
+    examples: []
+  - en: "[with का (kā, + genitive)] to make a fool of; to trick, deceive or befool"
+    examples:
+      - text: लेकिन कुदरत को इतना होने के बावजूद भी चैन नहीं मिला । उसने मेरा चूतिया
+          काटने के लिए एक त्योहार भी ला दिया । जिसे हम लोग हिन्दी में
+          'शिक्षकदिवस' कहते हैं और English में 'Teacher's day' कहते हैं ।
+        en: But nature wasn't satisfied with this much. She even made a festival to make
+          a fool of me, which we call 'śikṣak-divas' in Hindi and 'Teacher's
+          day' in English.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A5%82%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A4%BE_%E0%A4%95%E0%A4%BE%E0%A4%9F%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

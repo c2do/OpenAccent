@@ -1,0 +1,30 @@
+word: prendre
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pʁɑ̃.dʁə/
+part_of_speech: verb
+meanings:
+  - en: to take (a certain amount of time)
+    examples:
+      - text: Ça va me prendre au moins deux heures pour le mettre à jour.
+        en: It's going to take me at least two hours to update it.
+  - en: to take (a certain number or amount of)
+    examples:
+      - text: Pour finir dans deux heures, ça prend trois personnes.
+        en: To finish in two hours, it'll take three people.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/prendre#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

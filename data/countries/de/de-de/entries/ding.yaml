@@ -1,0 +1,27 @@
+word: Ding
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dɪŋ/
+part_of_speech: noun
+meanings:
+  - en: thing, prick, penis
+    examples:
+      - text: |-
+          Luda ist so sexy, ich gehöre verboten
+          Ich komme in den Klub und jedes Ding zeigt nach oben
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Ding#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

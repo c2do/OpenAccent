@@ -1,0 +1,30 @@
+word: boss
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɒs/
+part_of_speech: adj
+meanings:
+  - en: Of excellent quality, first-rate.
+    examples:
+      - text: That is a boss Zefron poster.
+      - text: |-
+          Boy 2: He's the neatest looking guy on TV!
+          Boy 3: I'll say!
+          Boy 1: He sure is!
+          Boy 3: Boy, the way he talks is really boss!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/boss#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: hierba
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʝeɾba/
+part_of_speech: noun
+meanings:
+  - en: grass (plant of the family Poaceae or plant that resembles grasses)
+    examples:
+      - text: "Near-synonyms: césped, pasto"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hierba#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

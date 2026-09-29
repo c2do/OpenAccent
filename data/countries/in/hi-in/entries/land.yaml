@@ -1,0 +1,32 @@
+word: लंड
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - laṇḍ
+pronunciation:
+  ipa: /ləɳɖ/
+meanings:
+  - en: penis, cock, dick
+    examples:
+      - text: मेरा लंड खड़ा हो गया।
+        en: I have a boner.
+  - en: used with stress to jeeringly contradict a statement
+    examples:
+      - text: ”इस बार जंग में मैं जीत सकता हूँ” “लंड, जीत सकता है”।
+        en: '"This time I can win in the battle" "Sure you can."'
+  - en: excrement, faeces, ordure
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B2%E0%A4%82%E0%A4%A1#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

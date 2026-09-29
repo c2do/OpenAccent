@@ -1,0 +1,30 @@
+word: can
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkæn/
+meanings:
+  - en: Buttocks.
+    examples: []
+  - en: The breasts of a woman.
+    examples: []
+  - en: An ounce (or sometimes, two ounces) of marijuana.
+    examples: []
+  - en: To fire or dismiss an employee.
+    examples:
+      - text: The boss canned him for speaking out.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/can#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

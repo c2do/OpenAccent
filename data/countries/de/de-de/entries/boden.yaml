@@ -1,0 +1,25 @@
+word: Boden
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈboːdn̩/
+part_of_speech: noun
+meanings:
+  - en: "flooring, floor cover (often used in this sense in compound nouns:
+      Teppichboden, Parkettboden)"
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Boden#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

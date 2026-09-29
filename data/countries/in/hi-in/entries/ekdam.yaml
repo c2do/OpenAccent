@@ -1,0 +1,27 @@
+word: एकदम
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ekdam
+pronunciation:
+  ipa: /eːk.d̪əm/
+part_of_speech: adv
+meanings:
+  - en: in a breath, in a moment, immediately
+    examples: []
+  - en: utterly, exactly, downright, plumb, completely, absolutely, totally
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%8F%E0%A4%95%E0%A4%A6%E0%A4%AE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

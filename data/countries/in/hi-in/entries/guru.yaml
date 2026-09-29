@@ -1,0 +1,30 @@
+word: गुरु
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - guru
+pronunciation:
+  ipa: /ɡʊ.ɾuː/
+meanings:
+  - en: heavy
+    examples: []
+  - en: guru, teacher, sage
+    examples: []
+  - en: Jupiter
+    examples: []
+  - en: a smartass
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%97%E0%A5%81%E0%A4%B0%E0%A5%81#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

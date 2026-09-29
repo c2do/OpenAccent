@@ -1,0 +1,26 @@
+word: am
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /am/
+part_of_speech: particle
+meanings:
+  - en: Used to form the progressive aspect of verbs, especially intransitive ones.
+    examples:
+      - text: Wir sind noch am Überlegen, wie wir es angehen.
+        en: We're still thinking about how we'll go about it.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/am#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

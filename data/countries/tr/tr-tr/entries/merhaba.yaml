@@ -1,0 +1,29 @@
+word: merhaba
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmæɾ.ha.baː/
+meanings:
+  - en: hello, hi
+    examples: []
+  - en: hi, hello, greeting
+    examples:
+      - text: Merhaba, size nasıl yardımcı olabilirim?
+        en: Hello, how can I help you?
+      - text: Merhabanı istemiyorum!
+        en: I don't want your hello's!
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/merhaba#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,34 @@
+word: mı
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /mɯ/
+part_of_speech: particle
+meanings:
+  - en: Used to form interrogatives.
+    examples:
+      - text: Arabanı sattın mı?
+        en: Did you sell your car?
+      - text: Aptal mısın?
+        en: Are you stupid?
+  - en: once, as soon as
+    examples:
+      - text: Güven kağıt gibidir; bir kere buruştu mu, hırpalandı mı bir daha eskisi
+          gibi olmayacaktır.
+        en: Trust is like paper; once it's wrinkled, once it's battered it'll never be
+          like it once was.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/m%C4%B1#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

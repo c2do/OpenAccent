@@ -1,0 +1,24 @@
+word: local
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈləʊ.kl̩/
+part_of_speech: noun
+meanings:
+  - en: An item of news relating to the place where the newspaper is published.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/local#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

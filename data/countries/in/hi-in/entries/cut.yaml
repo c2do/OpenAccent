@@ -1,0 +1,27 @@
+word: चूत
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - cūt
+pronunciation:
+  ipa: /t͡ʃuːt̪/
+part_of_speech: noun
+meanings:
+  - en: cunt, pussy, vagina, vulva
+    examples:
+      - text: तेरी माँ की चूत
+        en: Fuck you
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A5%82%E0%A4%A4#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

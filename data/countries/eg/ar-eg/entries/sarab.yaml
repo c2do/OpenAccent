@@ -1,0 +1,28 @@
+word: شراب
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - šarāb
+  - šorāb
+pronunciation:
+  ipa: "[ʃɑˈɾˤɑːb]"
+part_of_speech: noun
+meanings:
+  - en: sock
+    examples: []
+  - en: syrup
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D8%B1%D8%A7%D8%A8#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

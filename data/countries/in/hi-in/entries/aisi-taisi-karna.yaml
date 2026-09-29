@@ -1,0 +1,29 @@
+word: ऐसी तैसी करना
+dialect: hi-in
+type: phrase
+spellings: []
+romanized:
+  - aisī taisī karnā
+pronunciation:
+  ipa: /ɛː.siː t̪ɛː.siː kəɾ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to make a mockery of something
+    examples:
+      - text: तुमने गणित की पूरी ऐसी तैसी कर डाली है।
+        en: You've made a complete mockery of mathematics.
+  - en: to thrash, beat up
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%90%E0%A4%B8%E0%A5%80_%E0%A4%A4%E0%A5%88%E0%A4%B8%E0%A5%80_%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

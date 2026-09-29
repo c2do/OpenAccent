@@ -1,0 +1,25 @@
+word: مساعدة
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - musāʕada
+pronunciation:
+  ipa: /mu.saː.ʕa.da/
+part_of_speech: noun
+meanings:
+  - en: help
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

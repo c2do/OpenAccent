@@ -1,0 +1,37 @@
+word: ateş
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /aˈteʃ/
+part_of_speech: noun
+meanings:
+  - en: fire
+    examples:
+      - text: Bitlerin en birinci düşmanı ateştir. Kaynar su, ütü, etüv ve su buharı
+          (islim).
+        en: We must kill all the bugs
+  - en: fever, temperature
+    examples: []
+  - en: gunfire; artillery fire
+    examples:
+      - text: İstasyon müdürlerinden Holt Naziler tarafından itlâf edilmiştir. Vak'aden
+          haberdar olan polis derhal radyo binasını kuşatmış ve şiddetli bir
+          mitralyöz ateşi altına almıştır.
+        en: Why was Mr. Dolfuss killed?
+  - en: light (flame to create fire)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ate%C5%9F#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

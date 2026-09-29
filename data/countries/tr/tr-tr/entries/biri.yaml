@@ -1,0 +1,32 @@
+word: biri
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+part_of_speech: pron
+meanings:
+  - en: someone
+    examples:
+      - text: Ya biri bizi gördüyse?
+        en: What if someone saw us?
+      - text: Birileri anlatsın bana.
+        en: Someone explain it to me.
+  - en: "[with ablative] one of"
+    examples:
+      - text: Kurşun vınlayarak gidip bahçedeki ağaçlardan birine saplanmıştı.
+        en: The bullet whizzed by the trees and hit one of them in the garden.
+      - text: Adamın köpeklerinden biri ölmüş.
+        en: One of the man's dogs died.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/biri#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

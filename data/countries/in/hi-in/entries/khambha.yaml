@@ -1,0 +1,29 @@
+word: खंभा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - khambhā
+pronunciation:
+  ipa: /kʰəm.bʱɑː/
+part_of_speech: noun
+meanings:
+  - en: pole, post
+    examples:
+      - text: बिजली का खंभा तेज़ हवाओं के कारण घर पर गिर पड़ा।
+        en: The electricity pole fell on the house due to high winds.
+  - en: a full bottle of liquor (750 ml)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%96%E0%A4%82%E0%A4%AD%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

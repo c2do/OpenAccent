@@ -1,0 +1,30 @@
+word: دفع
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - dafʕ
+  - dafaʕ
+  - daffaʕ
+pronunciation:
+  ipa: /dafʕ/
+meanings:
+  - en: payment
+    examples: []
+  - en: to pay
+    examples: []
+  - en: to force someone to pay, to force someone to pay
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AF%D9%81%D8%B9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

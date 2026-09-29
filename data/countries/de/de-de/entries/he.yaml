@@ -1,0 +1,28 @@
+word: he
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /he/
+part_of_speech: intj
+meanings:
+  - en: An exclamation to get attention; hey
+    examples: []
+  - en: Expresses protest or reprimand; hey
+    examples: []
+  - en: Reinforces a question; huh
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/he#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

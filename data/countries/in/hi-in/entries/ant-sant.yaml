@@ -1,0 +1,29 @@
+word: अंट-संट
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - aṇṭ-saṇṭ
+pronunciation:
+  ipa: /əɳʈ.səɳʈ/
+part_of_speech: adv
+meanings:
+  - en: nonsensical, rubbish
+    examples:
+      - text: अंट-संट बोलना/बकना
+        en: to talk nonsense
+      - text: अंट-संट काम करना
+        en: to do nonsense, rubbish work
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%82%E0%A4%9F-%E0%A4%B8%E0%A4%82%E0%A4%9F#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

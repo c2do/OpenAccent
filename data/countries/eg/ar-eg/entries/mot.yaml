@@ -1,0 +1,28 @@
+word: موت
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - mōt
+pronunciation:
+  ipa: /moːt/
+meanings:
+  - en: death
+    examples: []
+  - en: to death, a lot, so much
+    examples:
+      - text: بحبّك موت
+        en: I love you to death
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D9%88%D8%AA#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

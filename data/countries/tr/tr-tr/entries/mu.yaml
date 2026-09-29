@@ -1,0 +1,26 @@
+word: mu
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+part_of_speech: particle
+meanings:
+  - en: Used to form interrogatives.
+    examples:
+      - text: Ona bu soruyu sordun mu?
+        en: Did you ask him/her this question?
+      - text: Mutlu musun?
+        en: Are you happy?
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mu#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,35 @@
+word: بلد
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - balad
+pronunciation:
+  ipa: /balad/
+part_of_speech: noun
+meanings:
+  - en: country
+    examples:
+      - text: باسمك يا بلدي، حلفنا يا بلدي
+        en: By your name, my country, we swore, my country
+  - en: internal region
+    examples:
+      - text: الشرقية بلد
+        en: Sharqiyya is a region in Egypt
+  - en: village, rural district
+    examples:
+      - text: رحت البلد امبارح
+        en: I went to my village yesterday
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D9%84%D8%AF#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

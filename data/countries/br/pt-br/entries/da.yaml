@@ -1,0 +1,24 @@
+word: dã
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdɐ̃/
+part_of_speech: intj
+meanings:
+  - en: duh!
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/d%C3%A3#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

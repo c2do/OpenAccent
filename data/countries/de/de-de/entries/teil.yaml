@@ -1,0 +1,28 @@
+word: Teil
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /taɪ̯l/
+part_of_speech: noun
+meanings:
+  - en: thing (any object, not limited to those which are part of a greater object)
+    examples: []
+  - en: piece of clothing
+    examples: []
+  - en: thing (penis)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Teil#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

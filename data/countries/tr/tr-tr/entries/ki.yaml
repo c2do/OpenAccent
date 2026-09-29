@@ -1,0 +1,43 @@
+word: ki
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ci/
+part_of_speech: conj
+meanings:
+  - en: so that, so
+    examples:
+      - text: Yaptım ki gidesin.
+        en: I did it so that you would (be able to) go.
+      - text: Yaptım ki gitsin.
+        en: I did it so that they would (be able to) go.
+  - en: that
+    examples:
+      - text: Seni öpersem biliyorum ki, sana âşık olacağım.
+        en: If I kiss you, I know that I'll fall in love with you.
+  - en: that; Used after a nominal phrase as an emphatic, acting as if there is an
+      implied consequence of the phrase, equivalent to English so ... that
+    examples:
+      - text: O kadar güzelsin ki! (gözlerinin içine sonsuza dek bakabilirim).
+        en: You are so beautiful! (that I can look into your eyes forever).
+      - text: O kadar uykum var ki (her an bayılabilirim gibi hissediyorum).
+        en: I'm so tired (that I feel like I'm going to pass out any moment).
+  - en: anyways
+    examples:
+      - text: Neden ondan korkuyorsun? O bir halt yapmaz ki.
+        en: Why are you even afraid of them? They won’t do shit anyways.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ki#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

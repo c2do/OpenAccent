@@ -1,0 +1,24 @@
+word: harika
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /haː.ɾiˈka/
+part_of_speech: adj
+meanings:
+  - en: great, marvellous, fantastic, wonderful
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/harika#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

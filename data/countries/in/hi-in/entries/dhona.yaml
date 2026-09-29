@@ -1,0 +1,33 @@
+word: धोना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - dhonā
+pronunciation:
+  ipa: /d̪ʱoː.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to wash
+    examples: []
+  - en: to cleanse
+    examples: []
+  - en: to beat up, thrash
+    examples:
+      - text: पब्लिक ने आरोपी को पुलिस के समाने ही जमकर धोया! मासूम बच्ची से दुष्कर्म का
+          किया था प्रयास
+        en: The public thrashed the accused right in front of the police! An attempt was
+          made to rape an innocent girl.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A7%E0%A5%8B%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

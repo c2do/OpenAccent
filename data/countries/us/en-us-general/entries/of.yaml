@@ -1,0 +1,42 @@
+word: of
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɒv/
+part_of_speech: prep
+meanings:
+  - en: Expressing qualities or characteristics.; Used to link singular indefinite
+      nouns (preceded by the indefinite article) and attributive adjectives
+      modified by certain common adverbs of degree.
+    examples:
+      - text: "It's not that big of a deal. (Standard form: It's not that big a deal.)"
+      - text: For some individuals, even 1000 calories/day may be too great of a
+          deficit.
+  - en: Expressing a point in time.; Before (the hour); to (the hour).
+    examples:
+      - text: I’ll be ready at ten of two
+        en: I’ll be ready at 1:50
+      - text: What's the time? / Nearly a quarter of three.
+  - en: Expressing a point in time.; Before (the hour); to (the hour).; Often used
+      without the hour.
+    examples:
+      - text: I’ll be ready at ten of
+        en: I’ll be ready at 1:50, or 2:50, or whatever time ending in 50 makes most
+          sense in context.
+      - text: Wednesday was more of the same. Out at 08:30, got to the office by quarter
+          of, clients all day.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/of#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: kız
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɯz/
+part_of_speech: noun
+meanings:
+  - en: girl
+    examples: []
+  - en: daughter
+    examples: []
+  - en: queen in card games
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/k%C4%B1z#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

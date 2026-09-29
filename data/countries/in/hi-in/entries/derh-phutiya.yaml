@@ -1,0 +1,37 @@
+word: डेढ़ फुटिया
+dialect: hi-in
+type: phrase
+spellings: []
+romanized:
+  - ḍeṛh phuṭiyā
+pronunciation:
+  ipa: /ɖeːɽʱ pʰʊ.ʈɪ.jɑː/
+part_of_speech: noun
+meanings:
+  - en: A very short person; a dwarf or midget.
+    examples: []
+  - en: A diminutive, goblin-like supernatural entity or cryptid popularized on
+      social media
+    examples:
+      - text: डेढ़ फुटिया सिद्ध करके आप उसीसे हर प्रकार के कार्य करवा सकते हे वो सब
+          कार्य करने में माहिर हे उसके लिए कोई काम बुरा या अच्छा नहीं होता।
+        en: Once this goblin is held in thralldom, it can be compelled to execute every
+          manner of task; a master of all trades, it operates entirely beyond
+          the reach of morality.
+  - en: A diminutive, goblin-like supernatural entity or cryptid popularized on
+      social media; A shamanic or tantric ritual aimed at summoning this
+      creature for the gaining of supernatural powers
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A1%E0%A5%87%E0%A4%A2%E0%A4%BC_%E0%A4%AB%E0%A5%81%E0%A4%9F%E0%A4%BF%E0%A4%AF%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

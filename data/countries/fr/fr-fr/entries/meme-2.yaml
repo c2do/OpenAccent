@@ -1,0 +1,30 @@
+word: mème
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /mɛm/
+part_of_speech: noun
+meanings:
+  - en: meme
+    examples:
+      - text: Son avenir, le duo le voit d’ailleurs plutôt sur Instagram que sur
+          Facebook, la plate-forme d’échange d’images étant devenue le nouvel
+          eldorado du mème.
+        en: Incidentally, the pair think it has more of a future on Instagram than on
+          Facebook, the image-sharing platform having become the new El Dorado
+          of the meme.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/m%C3%A8me#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

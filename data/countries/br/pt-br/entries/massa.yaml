@@ -1,0 +1,28 @@
+word: massa
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈma.sɐ/
+part_of_speech: adj
+meanings:
+  - en: cool (in fashion, part of or fitting the in-crowd)
+    examples: []
+  - en: great; amazing; awesome
+    examples:
+      - text: Aprender línguas é muito massa!
+        en: Learning languages is awesome!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/massa#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

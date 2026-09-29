@@ -1,0 +1,28 @@
+word: عدا
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ʕdā
+pronunciation:
+  ipa: /ʕdaː/
+part_of_speech: noun
+meanings:
+  - en: hostility
+    examples:
+      - text: |-
+          يا نور شعاع تمادي
+           سلكني من شر العدا ومن كيد الحسود
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D8%AF%D8%A7#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

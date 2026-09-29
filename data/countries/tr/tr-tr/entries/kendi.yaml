@@ -1,0 +1,29 @@
+word: kendi
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /cendi/
+meanings:
+  - en: self, oneself
+    examples: []
+  - en: own
+    examples: []
+  - en: he, she, him, himself, herself
+    examples: []
+  - en: of one's own
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/kendi#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

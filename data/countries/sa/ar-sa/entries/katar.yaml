@@ -1,0 +1,25 @@
+word: خطر
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ḵaṭar
+part_of_speech: verb
+meanings:
+  - en: to come to, to pop, to cross (of ideas that come to mind)
+    examples:
+      - text: ايش اول شي يخطر على بالكم؟
+        en: What is the first thing that comes to your mind?
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AE%D8%B7%D8%B1#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: olur
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+meanings:
+  - en: OK, green light
+    examples: []
+  - en: possible
+    examples:
+      - text: Olur iş değil!
+        en: It can't be!
+  - en: OK
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/olur#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

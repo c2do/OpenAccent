@@ -1,0 +1,24 @@
+word: aí
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /aˈi/
+part_of_speech: noun
+meanings:
+  - en: sloth (any animal in the suborder Folivora)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/a%C3%AD#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

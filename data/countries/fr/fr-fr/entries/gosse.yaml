@@ -1,0 +1,24 @@
+word: gosse
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡɔs/
+part_of_speech: noun
+meanings:
+  - en: child, kid
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gosse#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

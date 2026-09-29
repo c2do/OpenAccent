@@ -1,0 +1,35 @@
+word: हरामख़ोर
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - harāmxor
+pronunciation:
+  ipa: /ɦə.ɾɑːm.xoːɾ/
+part_of_speech: noun
+meanings:
+  - en: a person who earns their livelihood through dishonest means
+    examples:
+      - text: ख़बरदार तुमने हलाल कमाने वाले आदमी को हरामख़ोर बोला।
+        en: Don't you dare call an honest-earning man a dishonest-earner.
+  - en: a person who benefits from something without working towards it; a
+      freeloader
+    examples: []
+  - en: a person who benefits from something without working towards it; a
+      freeloader; bastard, bugger, scoundrel; a generic term of abuse
+    examples:
+      - text: क्या बोला, हरामख़ोर?
+        en: What did you say, you scoundrel?
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B9%E0%A4%B0%E0%A4%BE%E0%A4%AE%E0%A4%96%E0%A4%BC%E0%A5%8B%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

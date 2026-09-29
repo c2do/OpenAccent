@@ -1,0 +1,27 @@
+word: standard
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈstændəd/
+part_of_speech: noun
+meanings:
+  - en: A principle or example or measure used for comparison.; Grade level in
+      primary or secondary education.
+    examples:
+      - text: I am in fifth standard.
+      - text: I finished my twelfth standard with less than stellar marks.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/standard#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

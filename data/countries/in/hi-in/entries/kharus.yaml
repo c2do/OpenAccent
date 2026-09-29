@@ -1,0 +1,25 @@
+word: खड़ूस
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - khaṛūs
+pronunciation:
+  ipa: /kʰə.ɽuːs/
+part_of_speech: adj
+meanings:
+  - en: rude, dismissive, scornful
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%96%E0%A4%A1%E0%A4%BC%E0%A5%82%E0%A4%B8#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

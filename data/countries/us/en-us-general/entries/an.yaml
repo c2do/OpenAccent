@@ -1,0 +1,23 @@
+word: AN
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A set of sizes for screw threads agreed upon and jointly used by the United
+      States Army and Navy.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/AN#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: pizza
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpit.sɐ/
+part_of_speech: noun
+meanings:
+  - en: sweat visible in the clothes, specially under armpits
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pizza#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

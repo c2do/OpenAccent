@@ -1,0 +1,43 @@
+word: hiç
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhit͡ʃ/
+meanings:
+  - en: Used to emphasize the verb in negative sentences; not at all, not in the
+      least, no, any.
+    examples:
+      - text: Zavallı yaşlı kadın ne yapacağını hiç bilmiyordu.
+        en: The poor old woman did not in the least know what to do.
+      - text: Bakıyorum gidişimi kutlamakta hiç zaman kaybetmemişsin.
+        en: I see you didn't waste any time celebrating my departure.
+  - en: Used to indicate an indefinite time period, mainly in sentences regarding
+      life experiences; ever, never.
+    examples:
+      - text: Hiç Türkiye'de bulundunuz mu?
+        en: Have you ever been to Turkey?
+      - text: Bu kadar yavaş giden birini hiç görmemiştim.
+        en: I have never seen anyone move that slow.
+  - en: Used at the beginning of an ambiguous answer to question; nothing.
+    examples:
+      - text: "A: O kurabiye kutusuyla ne yapıyordun?"
+        en: "A: What were you doing with that cookie box?"
+      - text: "B: Hiç."
+        en: "B: Nothing."
+  - en: A worthless, insignificant thing or a person.
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hi%C3%A7#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

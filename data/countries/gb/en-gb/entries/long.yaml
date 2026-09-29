@@ -1,0 +1,28 @@
+word: long
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /lɒŋ/
+part_of_speech: adj
+meanings:
+  - en: Not short; tall.
+    examples:
+      - text: "The colonel and his sponsor made a queer contrast: Greystone [the
+          sponsor] long and stringy, with a face that seemed as if a cold wind
+          was eternally playing on it."
+      - text: Bless ’em all, bless ’em all, the long, the short and the tall.
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/long#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

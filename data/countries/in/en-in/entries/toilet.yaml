@@ -1,0 +1,33 @@
+word: toilet
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtɔɪ.lət/
+part_of_speech: noun
+meanings:
+  - en: A room, enclosed area or single-purpose building containing a fixture or
+      fixtures used for urination and defecation; a bathroom or water closet.
+    examples:
+      - text: Sorry, I was in the toilet.
+      - text: He would hit her when she cried and, if this did not work, would lock her
+          in the toilet for hours on end.
+  - en: A room, enclosed area or single-purpose building containing a fixture or
+      fixtures used for urination and defecation; a bathroom or water closet.; A
+      small secondary lavatory having a fixture used for urination and
+      defecation and sink but no bathtub or shower.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/toilet#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

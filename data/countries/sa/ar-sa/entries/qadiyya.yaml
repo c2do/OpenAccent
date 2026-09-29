@@ -1,0 +1,31 @@
+word: قضية
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - qaḍiyya
+pronunciation:
+  ipa: /ɡa.dˤij.ja/
+part_of_speech: noun
+meanings:
+  - en: case, lawsuit
+    examples: []
+  - en: judgment, sentence, decision
+    examples: []
+  - en: fact, thing, issue, matter, affair, cause
+    examples: []
+  - en: story
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%B6%D9%8A%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

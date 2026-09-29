@@ -1,0 +1,26 @@
+word: Platz
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /plat͡s/
+part_of_speech: noun
+meanings:
+  - en: place, location, site (in general)
+    examples:
+      - text: Die Zeit wisst ihr ja, den Platz sag ich euch vorher noch.
+        en: You already know the time, and I’ll tell you the place beforehand.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Platz#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

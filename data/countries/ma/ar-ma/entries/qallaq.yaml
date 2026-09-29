@@ -1,0 +1,29 @@
+word: قلق
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - qallaq
+pronunciation:
+  ipa: /qal.laq/
+part_of_speech: verb
+meanings:
+  - en: to upset, to anger, to worry
+    examples: []
+  - en: to irritate
+    examples: []
+  - en: to make nervous
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D9%84%D9%82#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

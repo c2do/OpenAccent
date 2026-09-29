@@ -1,0 +1,31 @@
+word: right
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɹaɪt/
+part_of_speech: adv
+meanings:
+  - en: Very, extremely, quite.
+    examples:
+      - text: I made a right stupid mistake there, didn't I?
+      - text: I stubbed my toe a week ago and it still hurts right much.
+  - en: Very, extremely, quite.; To a great extent or degree.
+    examples:
+      - text: Sir, I am right glad to meet you …
+      - text: Members of the Queen's Privy Council are styled The Right Honourable for
+          life.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/right#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

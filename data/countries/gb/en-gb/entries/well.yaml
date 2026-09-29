@@ -1,0 +1,29 @@
+word: well
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈwɛl/
+part_of_speech: adv
+meanings:
+  - en: Very (as a general-purpose intensifier).
+    examples:
+      - text: That guy rocks! I think he's called Matthew Lillard or sommat but he is
+          well cool in Scream.
+      - text: Hey Dude / FIFA 2003 is well wicked, I've got FIFA 2002 on PS2, David
+          Beckham on Xbox and Football Manager on Xbox too, out of all
+          pf^([sic]) them FIFA 2003 is easliy^([sic]) the best.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/well#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

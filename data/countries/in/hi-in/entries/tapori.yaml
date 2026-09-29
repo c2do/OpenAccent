@@ -1,0 +1,27 @@
+word: टपोरी
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ṭaporī
+pronunciation:
+  ipa: /ʈə.poː.ɾiː/
+part_of_speech: noun
+meanings:
+  - en: thug, gangster
+    examples:
+      - text: टपोरी बोली/भाषा
+        en: Bambaiyya Hindi, a pidgin of Hindi, Marathi, and other languages of Mumbai
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9F%E0%A4%AA%E0%A5%8B%E0%A4%B0%E0%A5%80#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

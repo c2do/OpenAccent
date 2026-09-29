@@ -1,0 +1,27 @@
+word: فيل
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - fīl
+pronunciation:
+  ipa: /fil/
+part_of_speech: noun
+meanings:
+  - en: elephant
+    examples: []
+  - en: bishop
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D9%8A%D9%84#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

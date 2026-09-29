@@ -1,0 +1,24 @@
+word: ñora
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɲoɾa/
+part_of_speech: noun
+meanings:
+  - en: old woman, hag
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%B1ora#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: ك
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ka-
+pronunciation:
+  ipa: /kaː/
+part_of_speech: particle
+meanings:
+  - en: Used to prefix a non-past verb to mark the present tense.
+    examples:
+      - text: كناكل هاد الخبز
+        en: I am eating this bread
+      - text: كيقول ما بغى
+        en: He says what he wants.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

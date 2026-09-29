@@ -1,0 +1,29 @@
+word: चमन चूतिया
+dialect: hi-in
+type: phrase
+spellings: []
+romanized:
+  - caman cūtiyā
+pronunciation:
+  ipa: /t͡ʃə.mən t͡ʃuː.t̪ɪ.jɑː/
+part_of_speech: noun
+meanings:
+  - en: fool, idiot, dolt, moron
+    examples:
+      - text: अबे चमन-चूतिये वो ये गलती कर चुका है तभी तो तुझे बता रहा है, ताकि तू ना
+          करे।
+        en: You fool, he has already committed this mistake, that is why he is telling
+          you so that you don't do it.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A4%AE%E0%A4%A8_%E0%A4%9A%E0%A5%82%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

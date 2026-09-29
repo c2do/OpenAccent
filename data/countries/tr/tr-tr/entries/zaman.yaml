@@ -1,0 +1,35 @@
+word: zaman
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /zaˈman/
+part_of_speech: noun
+meanings:
+  - en: time (progression into the future with the passing of present and past
+      events)
+    examples:
+      - text: Ah bir dokun tepeden tırnağa
+        en: |-
+          Oh, if only you would touch me from head to toe
+          My heart trembles, I've wanted you all this time.
+  - en: duration
+    examples: []
+  - en: interval (of time)
+    examples: []
+  - en: epoch, era
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/zaman#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

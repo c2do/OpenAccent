@@ -1,0 +1,24 @@
+word: entrenador
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /entɾenaˈdoɾ/
+part_of_speech: noun
+meanings:
+  - en: manager (UK), coach (US)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/entrenador#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

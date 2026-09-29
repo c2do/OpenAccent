@@ -1,0 +1,26 @@
+word: mi
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+part_of_speech: particle
+meanings:
+  - en: Used to form interrogatives.
+    examples:
+      - text: Bugün okula gittin mi?
+        en: Did you go to school today?
+      - text: Evli misin?
+        en: Are you married?
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mi#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

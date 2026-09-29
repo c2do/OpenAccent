@@ -1,0 +1,27 @@
+word: school
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /skuːl/
+part_of_speech: noun
+meanings:
+  - en: An institution dedicated to teaching and learning; an educational
+      institution.
+    examples:
+      - text: Our children attend a public school in our neighborhood.
+      - text: Harvard University is a famous American postsecondary school.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/school#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

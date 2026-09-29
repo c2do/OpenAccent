@@ -1,0 +1,28 @@
+word: skin
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /skɪn/
+meanings:
+  - en: A person; chap.
+    examples:
+      - text: He was a decent old skin.
+      - text: PAUDI:”I fucking love the pair of ye! You’re good lads. You’re loyal
+          skins”
+  - en: To use tricks to go past a defender.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/skin#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

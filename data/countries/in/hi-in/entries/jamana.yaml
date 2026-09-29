@@ -1,0 +1,30 @@
+word: जमाना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - jamānā
+pronunciation:
+  ipa: /d͡ʒə.mɑː.nɑː/
+meanings:
+  - en: to fix, lay in place
+    examples: []
+  - en: to freeze
+    examples: []
+  - en: to establish
+    examples: []
+  - en: to deposit (money)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9C%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: a
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɑ/
+part_of_speech: noun
+meanings:
+  - en: The name of the Latin script letter A/a.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/a#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

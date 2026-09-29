@@ -1,0 +1,29 @@
+word: ile
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /iˈle/
+meanings:
+  - en: with
+    examples:
+      - text: Arkadaşımla dışarı çıkıyorum.
+        en: I am going out with my friend.
+  - en: and (joining two noun phrases)
+    examples:
+      - text: Ateşle barut yan yana durmaz.
+        en: Fire and gunpowder, side by side, do not last.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ile#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

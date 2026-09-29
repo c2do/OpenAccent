@@ -1,0 +1,29 @@
+word: programa
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pɾoˈɡɾɐ̃.mɐ/
+part_of_speech: noun
+meanings:
+  - en: schedule, plan; leisure activity
+    examples:
+      - text: O programa de hoje será ir ao cinema.
+        en: Today's activity will be going to the movies.
+  - en: trick (act of prostitution; the time that a prostitute spends with a client
+      in exchange for money)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/programa#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

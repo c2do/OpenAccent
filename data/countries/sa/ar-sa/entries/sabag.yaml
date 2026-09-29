@@ -1,0 +1,32 @@
+word: سبق
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - sabag
+  - sabbag
+pronunciation:
+  ipa: /sa.baɡ/
+part_of_speech: verb
+meanings:
+  - en: to overtake, to leave behind
+    examples: []
+  - en: to precede, to come before (something or someone)
+    examples: []
+  - en: to let an overtake
+    examples: []
+  - en: to let precede
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B3%D8%A8%D9%82#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

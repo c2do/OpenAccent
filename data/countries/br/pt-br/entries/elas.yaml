@@ -1,0 +1,27 @@
+word: elas
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɛ.lɐs/
+part_of_speech: pron
+meanings:
+  - en: third-person feminine plural personal pronoun used in all positions; they;
+      them; it
+    examples:
+      - text: Vi elas cantando.
+        en: I saw them singing.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/elas#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

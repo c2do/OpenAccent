@@ -1,0 +1,28 @@
+word: comer
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /koˈme(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to eat; to eat some
+    examples:
+      - text: Você comeu da carne?
+        en: Did you eat some of the meat?
+  - en: to miss a letter or other symbol in writing
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/comer#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

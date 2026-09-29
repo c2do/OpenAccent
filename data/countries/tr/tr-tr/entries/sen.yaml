@@ -1,0 +1,24 @@
+word: sen
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sæn/
+part_of_speech: pron
+meanings:
+  - en: you (singular, informal), thou
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sen#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

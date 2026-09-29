@@ -1,0 +1,26 @@
+word: kim
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kim/
+part_of_speech: pron
+meanings:
+  - en: who
+    examples:
+      - text: kim onu gördü?
+        en: who saw him?
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/kim#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

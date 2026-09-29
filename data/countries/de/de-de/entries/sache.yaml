@@ -1,0 +1,26 @@
+word: Sache
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈzaxə/
+part_of_speech: noun
+meanings:
+  - en: kilometres per hour
+    examples:
+      - text: Er raste mit hundert Sachen um die Ecke.
+        en: He raced around the corner at 100 per.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Sache#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

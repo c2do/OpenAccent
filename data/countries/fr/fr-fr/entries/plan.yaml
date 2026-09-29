@@ -1,0 +1,29 @@
+word: plan
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /plɑ̃/
+part_of_speech: noun
+meanings:
+  - en: hookup (short for plan cul)
+    examples: []
+  - en: deal (short for bon plan)
+    examples: []
+  - en: a small case inserted in the rectum in order to hide one's valuables from a
+      full-body search
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/plan#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

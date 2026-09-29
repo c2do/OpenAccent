@@ -1,0 +1,29 @@
+word: doğru
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /doːˈɾu/
+meanings:
+  - en: "true"
+    examples: []
+  - en: right (correct)
+    examples: []
+  - en: truth
+    examples: []
+  - en: line
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/do%C4%9Fru#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

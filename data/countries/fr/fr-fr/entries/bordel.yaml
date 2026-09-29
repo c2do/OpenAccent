@@ -1,0 +1,33 @@
+word: bordel
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɔʁ.dɛl/
+meanings:
+  - en: brothel
+    examples:
+      - text: S'il vous plaît de chanter les fleurs / Qu'elles poussent au moins rue
+          Blondel / Dans un bordel
+        en: If you like to sing about flowers / At least let them be ones that grow on
+          Rue Blondel / In a brothel
+  - en: bloody mess (UK), goddamn mess (US)
+    examples:
+      - text: C'est quoi ce bordel ?
+        en: What the hell's this mess?
+  - en: bloody hell! (UK), Christ almighty!
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bordel#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

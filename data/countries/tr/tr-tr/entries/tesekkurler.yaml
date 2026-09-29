@@ -1,0 +1,24 @@
+word: teşekkürler
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /te.ʃec.cyɾˈleɾ/
+part_of_speech: intj
+meanings:
+  - en: thanks
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/te%C5%9Fekk%C3%BCrler#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

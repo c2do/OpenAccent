@@ -1,0 +1,33 @@
+word: तोप
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - top
+pronunciation:
+  ipa: /t̪oːp/
+part_of_speech: noun
+meanings:
+  - en: cannon, gun
+    examples:
+      - text: मैंने उसका हवाई जहाज़ विमानभेदी तोप से उड़ाया।
+        en: I blew apart his airplane with my anti-aircraft cannon.
+      - text: हमारी टैंकतोड़ तोप ख़राब हो गई।
+        en: Our anti-tank cannon is not working.
+  - en: cool person, badass
+    examples: []
+  - en: heap, pile, cluster
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A5%8B%E0%A4%AA#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

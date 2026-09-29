@@ -1,0 +1,26 @@
+word: hâlâ
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[ˈhaːlaː]"
+part_of_speech: adv
+meanings:
+  - en: still, yet
+    examples:
+      - text: Ah, ne zormuş “Bitsin” demek / Hâlâ severken seni
+        en: Ah, how hard it is to say “Let it end” / While still loving you
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/h%C3%A2l%C3%A2#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

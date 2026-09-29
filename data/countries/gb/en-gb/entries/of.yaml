@@ -1,0 +1,25 @@
+word: of
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɒv/
+part_of_speech: prep
+meanings:
+  - en: Expressing a point in time.; For (a given length of time).
+    examples:
+      - text: I’ve not taken her out of a goodly long while.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/of#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

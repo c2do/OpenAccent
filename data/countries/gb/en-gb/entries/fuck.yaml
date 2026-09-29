@@ -1,0 +1,30 @@
+word: fuck
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfʌk/
+meanings:
+  - en: To throw, to lob something. (angrily)
+    examples:
+      - text: He fucked the dirty cloth out the window.
+      - text: She fucked her mobile at his head in anger.
+  - en: Used after an inverted subject pronoun and auxiliary verb or copula to
+      emphatically negate the verb.
+    examples:
+      - text: Do I want to? Do I fuck!
+      - text: They're your friends, aren't they? – Are they fuck my friends.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fuck#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: logo
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈlɔ.ɡu/
+meanings:
+  - en: already (used to emphasize impatience)
+    examples:
+      - text: Precisamos terminar isto logo.
+        en: We need to finish this already.
+  - en: logo (a logotype)
+    examples:
+      - text: Fiz este logo para à empresa.
+        en: I made this logo for the company.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/logo#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,32 @@
+word: et
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /et/
+part_of_speech: noun
+meanings:
+  - en: The muscle and fat tissue in humans and animals; meat, flesh.
+    examples: []
+  - en: The muscle tissue in animals used as food.
+    examples: []
+  - en: The muscle tissue of specifically beef or lamb used as food.
+    examples:
+      - text: et döner
+        en: beef/lamb döner
+  - en: Bare skin on body.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/et#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

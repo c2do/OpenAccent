@@ -1,0 +1,25 @@
+word: nun
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /nuːn/
+part_of_speech: conj
+meanings:
+  - en: now that, given that it has occurred that the circumstances do not withstand
+      that …
+    examples: []
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nun#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

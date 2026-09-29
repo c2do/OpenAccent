@@ -1,0 +1,31 @@
+word: ك
+dialect: ar-eg
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /k/
+part_of_speech: pron
+meanings:
+  - en: "enclitic form of انت (inta); object pronoun, attached to verbs: you"
+    examples: []
+  - en: "enclitic form of انت (inta); possessive pronoun, attached to nouns: your"
+    examples: []
+  - en: "enclitic form of انت (inta); prepositional pronoun, attached to
+      prepositions: you"
+    examples: []
+  - en: "enclitic form of انتي (inti); object pronoun, attached to verbs: you"
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

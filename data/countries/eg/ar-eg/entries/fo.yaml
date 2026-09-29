@@ -1,0 +1,29 @@
+word: فوق
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - fōʔ
+  - fōg
+  - fawwaʔ
+  - fawwag
+pronunciation:
+  ipa: /foːʔ/
+meanings:
+  - en: above, on top of
+    examples: []
+  - en: to restore to (one's normal state of) consciousness
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D9%88%D9%82#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,35 @@
+word: artık
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[ɑɾˈtɯk]"
+meanings:
+  - en: excess, surplus.
+    examples: []
+  - en: after this
+    examples:
+      - text: artık daha mutlu olacağım
+        en: I am going to be happier after this
+  - en: any more
+    examples:
+      - text: artık seni sevmiyorum
+        en: I don't love you any more
+  - en: from now on, now
+    examples:
+      - text: artık evlilikten korkuyorum
+        en: I am afraid of marriage now
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/art%C4%B1k#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

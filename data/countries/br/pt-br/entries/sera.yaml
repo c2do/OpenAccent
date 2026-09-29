@@ -1,0 +1,29 @@
+word: será
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /seˈɾa/
+part_of_speech: intj
+meanings:
+  - en: used to indicate doubt or uncertainty of something said, where English uses
+      the sentence’s auxiliary verb followed by a pronoun
+    examples:
+      - text: “João se casará com ela.” “Será?”
+        en: “John will marry her.” “Will he?”
+      - text: “Eu serei escolhido.” “Será?”
+        en: “I will be chosen.” “Will you?”
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ser%C3%A1#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

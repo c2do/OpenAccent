@@ -1,0 +1,24 @@
+word: desconectar
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /deskoneɡˈtaɾ/
+part_of_speech: verb
+meanings:
+  - en: to switch off (to lose interest, and start thinking about something else)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/desconectar#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

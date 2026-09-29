@@ -1,0 +1,28 @@
+word: man
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /man/
+part_of_speech: adv
+meanings:
+  - en: just; only
+    examples:
+      - text: Komm man hier rüber!
+        en: Just come over here!
+      - text: Das sind man dreißig Stück oder so.
+        en: These are only thirty or so.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/man#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

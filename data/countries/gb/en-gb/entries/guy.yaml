@@ -1,0 +1,25 @@
+word: guy
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡaɪ/
+part_of_speech: noun
+meanings:
+  - en: An effigy of a man burned on a bonfire on the anniversary of the Gunpowder
+      Plot (5th November).
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/guy#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

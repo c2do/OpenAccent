@@ -1,0 +1,40 @@
+word: pants
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pænts/
+meanings:
+  - en: An undergarment that covers the genitals and often the buttocks and the
+      neighbouring parts of the body; underpants.
+    examples:
+      - text: I decided to pass up her underclothes, not from feelings of delicacy, but
+          because I couldn't see myself putting her pants on and snapping her
+          brassière.
+      - text: Big girls get candy for dry pants.
+  - en: Rubbish; something worthless.
+    examples:
+      - text: You're talking pants!
+      - text: The film was a load [or pile] of pants.
+  - en: Of inferior quality, rubbish.
+    examples:
+      - text: Your mobile is pants — why don’t you get one like mine?
+      - text: >-
+          'Is that what you're going to do when you graduate?' he asked. 'Be a
+          photographer?'
+
+          'I wish, but I'm pants at the technical stuff. ...'
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pants#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

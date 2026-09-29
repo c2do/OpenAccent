@@ -1,0 +1,25 @@
+word: بول
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - bōl
+pronunciation:
+  ipa: /boːl/
+part_of_speech: noun
+meanings:
+  - en: urine
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D9%88%D9%84#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,32 @@
+word: en
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /en/
+meanings:
+  - en: width
+    examples: []
+  - en: a cachet on an animal or bonded goods
+    examples: []
+  - en: the most ..., the ...-est (marks the superlative degree of any or most
+      adjectives)
+    examples:
+      - text: büyük, en büyük
+        en: big, (the) biggest
+      - text: en küçük
+        en: the smallest
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/en#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

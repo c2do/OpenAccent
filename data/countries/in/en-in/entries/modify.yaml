@@ -1,0 +1,24 @@
+word: Modify
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈməʊd.ɪ.faɪ/
+part_of_speech: verb
+meanings:
+  - en: To align with the ideology of Narendra Modi or Bharatiya Janata Party.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Modify#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

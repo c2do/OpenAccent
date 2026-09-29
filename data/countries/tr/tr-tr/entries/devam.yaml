@@ -1,0 +1,26 @@
+word: devam
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[deˈvam]"
+part_of_speech: noun
+meanings:
+  - en: continuation
+    examples:
+      - text: devamı var
+        en: to be continued
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/devam#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

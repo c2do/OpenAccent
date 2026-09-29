@@ -1,0 +1,25 @@
+word: burger
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɜːɡə/
+part_of_speech: noun
+meanings:
+  - en: Any sandwich that uses two bread rolls or buns (in North America it only
+      refers to a sandwich with two buns or bread rolls and a meat patty).
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/burger#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

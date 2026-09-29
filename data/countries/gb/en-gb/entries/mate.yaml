@@ -1,0 +1,29 @@
+word: mate
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /meɪt/
+part_of_speech: noun
+meanings:
+  - en: A friend, usually of the same sex.
+    examples:
+      - text: I'm going to the pub with a few mates.
+      - text: He's my best mate.
+  - en: Friendly term of address to a stranger, usually male, of similar age.
+    examples:
+      - text: Excuse me, mate, have you got the time?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mate#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

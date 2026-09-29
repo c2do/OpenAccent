@@ -1,0 +1,33 @@
+word: başka
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɑʃˈkɑ/
+meanings:
+  - en: another
+    examples: []
+  - en: different
+    examples: []
+  - en: other
+    examples: []
+  - en: except
+    examples:
+      - text: Birinden yardım istemekten başka çıkar yol yoktu ve ben yardım
+          isteyeceğime ölmeyi yeğlerdim.
+        en: There was no way other than asking someone for help and I would rather die
+          than ask for help.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ba%C5%9Fka#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

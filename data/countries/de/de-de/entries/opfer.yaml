@@ -1,0 +1,29 @@
+word: Opfer
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɔpfər/
+part_of_speech: noun
+meanings:
+  - en: loser, wimp (someone weak or dependent; one who cannot stand up for
+      themselves)
+    examples:
+      - text: Ich will, dass du unter mir stehst, du Opfer.
+        en: I want you to be beneath me, you wimp.
+      - text: Oder bist du schon wieder in Ohnmacht gefallen, du Opfer?
+        en: Or have you fainted yet again, you wimp?
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Opfer#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

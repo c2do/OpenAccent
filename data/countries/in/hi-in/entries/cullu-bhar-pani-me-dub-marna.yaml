@@ -1,0 +1,33 @@
+word: चुल्लू भर पानी में डूब मरना
+dialect: hi-in
+type: phrase
+spellings: []
+romanized:
+  - cullū bhar pānī mẽ ḍūb marnā
+pronunciation:
+  ipa: /t͡ʃʊl.luː bʱəɾ pɑː.niː mẽː ɖuːb məɾ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: "\"to die drowning in a palmful of water\" to be greatly ashamed or
+      embarrassed; to not show one's face out of shame"
+    examples:
+      - text: जिस राणा के अहसानों से हम दबे हुए हैं और जिस जन्मभूमि की रक्षा के लिए अपना
+          सब कुछ स्वाहा कर देना ही हर राजपूत का कर्तव्य है, उसी के राजा उदयसिंह
+          को शरण देने में डरता है? जा, चुल्लू-भर पानी में डूब मर!
+        en: To the Rana, by whose favours we are highly indebted, and who is the king of
+          the motherland for the protection of which sacrificing everything is
+          the duty of every Rajput, you fear giving refuge to Raja Uday Singh?
+          Go, drown in a palmful of water!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A5%82_%E0%A4%AD%E0%A4%B0_%E0%A4%AA%E0%A4%BE%E0%A4%A8%E0%A5%80_%E0%A4%AE%E0%A5%87%E0%A4%82_%E0%A4%A1%E0%A5%82%E0%A4%AC_%E0%A4%AE%E0%A4%B0%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

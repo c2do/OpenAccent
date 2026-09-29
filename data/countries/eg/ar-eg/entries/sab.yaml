@@ -1,0 +1,30 @@
+word: سبع
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - sabʕ
+pronunciation:
+  ipa: /sabʕ/
+meanings:
+  - en: lion
+    examples:
+      - text: سبع ولا ضبع
+        en: Success or failure?
+  - en: lionesque
+    examples:
+      - text: راجل سبع
+        en: a real man
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B3%D8%A8%D8%B9#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

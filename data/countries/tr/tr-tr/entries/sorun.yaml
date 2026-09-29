@@ -1,0 +1,29 @@
+word: sorun
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /soˈɾun/
+part_of_speech: noun
+meanings:
+  - en: problem, difficulty, issue
+    examples:
+      - text: Bir sorun var mı?
+        en: Is there a problem?
+      - text: Amerika dişişleri bakanı Dr. Kissinger dün Ecevit'e bir mesaj gödererek
+          Kıbrıs sorununu çözümlemek için Yunanistan başbakanı ile buluşmasını
+          önerdi.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sorun#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

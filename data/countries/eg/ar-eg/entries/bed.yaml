@@ -1,0 +1,31 @@
+word: بيض
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - bēḍ
+  - bayyaḍ
+pronunciation:
+  ipa: /beːdˤ/
+meanings:
+  - en: eggs
+    examples: []
+  - en: (something) foul, uncool
+    examples: []
+  - en: testicles
+    examples: []
+  - en: to whiten
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D9%8A%D8%B6#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

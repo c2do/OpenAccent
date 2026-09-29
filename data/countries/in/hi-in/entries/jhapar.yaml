@@ -1,0 +1,27 @@
+word: झापड़
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - jhāpaṛ
+pronunciation:
+  ipa: /d͡ʒʱɑː.pəɽ/
+part_of_speech: noun
+meanings:
+  - en: slap on the face
+    examples:
+      - text: झापड़ मारना
+        en: to slap
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9D%E0%A4%BE%E0%A4%AA%E0%A4%A1%E0%A4%BC#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: éste
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈeste/
+part_of_speech: pron
+meanings:
+  - en: substitutes a noun one can't remember or can't remember the name of
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A9ste#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

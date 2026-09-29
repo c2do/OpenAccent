@@ -1,0 +1,28 @@
+word: sehen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈzeː.ən/
+part_of_speech: verb
+meanings:
+  - en: to decide spontaneously and/or by personal preference; to wait and see
+    examples:
+      - text: Das werden wir dann sehen.
+        en: We’ll see then. / We’ll play it by ear.
+      - text: Soll ich Nudeln oder Pizza nehmen? — Das musst du selber sehen.
+        en: Should I take pasta or pizza? — You’ll have to decide for yourself.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sehen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

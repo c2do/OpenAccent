@@ -1,0 +1,27 @@
+word: Y
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /waɪ/
+part_of_speech: noun
+meanings:
+  - en: A particular facility run by the YMCA/YWCA.
+    examples:
+      - text: When a 50ish woman at my Y learned that I was about to turn 80, she
+          exclaimed, “80 is the new 60, and you set a great example for the rest
+          of us!”
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Y#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

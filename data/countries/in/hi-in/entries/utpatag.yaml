@@ -1,0 +1,27 @@
+word: ऊटपटाँग
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ūṭpaṭā̃g
+pronunciation:
+  ipa: /uːʈ.pə.ʈɑːŋɡ/
+part_of_speech: adj
+meanings:
+  - en: unrealistic, fantastic, fanciful, irrational
+    examples:
+      - text: तू रोज़ नईं ऊटपटाँग बातें कैसे करता है?
+        en: How do you come up with new nonsense to say every day?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%8A%E0%A4%9F%E0%A4%AA%E0%A4%9F%E0%A4%BE%E0%A4%81%E0%A4%97#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

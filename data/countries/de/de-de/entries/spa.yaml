@@ -1,0 +1,32 @@
+word: Spaß
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʃpaːs/
+part_of_speech: noun
+meanings:
+  - en: Stands in for an often well-delimited or well-established process or
+      transaction, often sarcastically to imply that the price or effort
+      outweighs the fun or positive effect
+    examples:
+      - text: der ganze Spaß
+        en: all of that, the whole thing
+      - text: Beim letzten Formular habe ich aus Versehen das Fenster geschlossen. Jetzt
+          darf ich den ganzen Spaß nochmal machen.
+        en: I accidentally closed the window on the last form. Now I get to do the whole
+          thing all over.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Spa%C3%9F#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

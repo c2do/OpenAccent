@@ -1,0 +1,28 @@
+word: joe
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /d͡ʒəʊ/
+part_of_speech: noun
+meanings:
+  - en: Coffee.
+    examples:
+      - text: In olden times, you'd wander down to Mom's Cafe for a bite to eat and a
+          cup of joe, and you would feel right at home.
+      - text: Some people say I make the best joe in town. But you know there's a kiosk
+          over on Eighteenth Avenue, not that far from here.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/joe#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: ése
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈese/
+part_of_speech: pron
+meanings:
+  - en: dude, guy, pal, man, buddy; (sometimes) asshole
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A9se#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

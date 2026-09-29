@@ -1,0 +1,28 @@
+word: dogs
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dɒɡz/
+part_of_speech: noun
+meanings:
+  - en: Feet, from rhyming slang dog's meat.
+    examples:
+      - text: My dogs are tired. Let's get a taxi.
+  - en: Toes
+    examples:
+      - text: Time to let the dogs out to play. (While taking off shoes.)
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dogs#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

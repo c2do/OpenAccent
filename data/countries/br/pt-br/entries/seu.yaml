@@ -1,0 +1,27 @@
+word: seu
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sew/
+part_of_speech: noun
+meanings:
+  - en: Mister
+    examples:
+      - text: "Coordinate term: Dona"
+      - text: Estive com o seu Luís ontem.
+        en: I was with Mr. Lewis yesterday.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/seu#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

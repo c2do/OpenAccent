@@ -1,0 +1,29 @@
+word: außer
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈaʊ̯sɐ/
+part_of_speech: conj
+meanings:
+  - en: except; referring to a noun phrase, which follows in the case suggested by
+      the syntax of the clause
+    examples:
+      - text: Keiner wollte mithelfen außer du und ich.
+        en: Nobody wanted to help except you and me.
+      - text: Außer dich hab ich noch keinen gefragt.
+        en: Except for you I haven’t asked anyone so far.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/au%C3%9Fer#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

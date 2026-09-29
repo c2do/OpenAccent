@@ -1,0 +1,37 @@
+word: पकना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - paknā
+pronunciation:
+  ipa: /pək.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to be cooked
+    examples: []
+  - en: to ripen; to mature
+    examples:
+      - text: इस मौसम में आम जल्दी पक जाएँगे।
+        en: In this weather the mangoes will ripen soon.
+  - en: to come to a head; to suppurate
+    examples:
+      - text: पका घाव
+        en: suppurating wound
+  - en: to harden; to be fixed, baked
+    examples:
+      - text: ईंट पकना
+        en: for bricks to harden (in the sun)
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%95%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

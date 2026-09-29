@@ -1,0 +1,34 @@
+word: रुपया
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - rupyā
+  - rupayā
+pronunciation:
+  ipa: /ɾʊp.jɑː/
+part_of_speech: noun
+meanings:
+  - en: rupee
+    examples: []
+  - en: a foreign currency of some kind.
+    examples:
+      - text: (by extension, US) US dollar
+      - text: (by extension, UK) British pound
+  - en: cash
+    examples: []
+  - en: wealth, money
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B0%E0%A5%81%E0%A4%AA%E0%A4%AF%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

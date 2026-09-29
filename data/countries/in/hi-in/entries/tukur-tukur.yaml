@@ -1,0 +1,27 @@
+word: टुकुर-टुकुर
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ṭukur-ṭukur
+part_of_speech: adv
+meanings:
+  - en: staringly, looking at something without blinking
+    examples:
+      - text: वह एक घंटे के लिए टुकुर-टुकुर देख रहा था, तभी समझ नहीं आया।
+        en: He stared at it for an hour, even then he did not understand.
+      - text: टुकुर-टुकुर देखना
+        en: to stare
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9F%E0%A5%81%E0%A4%95%E0%A5%81%E0%A4%B0-%E0%A4%9F%E0%A5%81%E0%A4%95%E0%A5%81%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

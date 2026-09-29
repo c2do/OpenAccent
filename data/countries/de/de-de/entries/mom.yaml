@@ -1,0 +1,24 @@
+word: Mom
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /mɔm/
+part_of_speech: noun
+meanings:
+  - en: mom
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Mom#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

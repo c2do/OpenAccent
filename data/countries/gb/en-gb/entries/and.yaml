@@ -1,0 +1,27 @@
+word: and
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈænd/
+meanings:
+  - en: Breath.
+    examples: []
+  - en: Sea smoke; steam fog.
+    examples: []
+  - en: To breathe; whisper; devise; imagine.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/and#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

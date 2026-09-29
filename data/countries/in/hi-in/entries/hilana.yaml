@@ -1,0 +1,37 @@
+word: हिलाना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - hilānā
+pronunciation:
+  ipa: /ɦɪ.lɑː.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to move, to make something move
+    examples:
+      - text: पुलिसवालों ने हड़तालियों को हिलाने कि कोशिश की।
+        en: The policemen tried to move the strikers.
+  - en: to shake, swing, move around
+    examples:
+      - text: तू खजूर के उस वृक्ष के तने को पकड़कर अपनी ओर हिला। तेरे ऊपर ताज़ा पकी-पकी
+          खजूरें टपक पड़ेंगी
+        en: having taken hold of the date-palm tree trunk shake it towards you. Over you
+          fresh and ripe dates will drop
+  - en: to masturbate
+    examples:
+      - text: हिलाके सो जा
+        en: Jerk off and go to bed.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B9%E0%A4%BF%E0%A4%B2%E0%A4%BE%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: चेप
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - cep
+pronunciation:
+  ipa: /t͡ʃeːp/
+part_of_speech: noun
+meanings:
+  - en: sticky substance; glue
+    examples: []
+  - en: one who intrudes
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A5%87%E0%A4%AA#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

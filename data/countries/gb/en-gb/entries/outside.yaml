@@ -1,0 +1,31 @@
+word: outside
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /aʊtˈsaɪd/
+meanings:
+  - en: A passenger riding on the outside of a coach or carriage.
+    examples:
+      - text: The outsides did as outsides always do. They were very cheerful and
+          talkative at the beginning of every stage, and very dismal and sleepy
+          in the middle[…]
+  - en: "Positioned towards the central division of a road: towards the right-hand
+      side if one drives on the left, or left-hand side if one drives on the
+      right."
+    examples:
+      - text: the outside lane of the motorway
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/outside#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

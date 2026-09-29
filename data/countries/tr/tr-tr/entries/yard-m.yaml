@@ -1,0 +1,24 @@
+word: yardım
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /jaɾˈdɯm/
+part_of_speech: noun
+meanings:
+  - en: help
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/yard%C4%B1m#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

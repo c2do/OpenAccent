@@ -1,0 +1,34 @@
+word: Job
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dʒɔp/
+part_of_speech: noun
+meanings:
+  - en: job, position, employment
+    examples:
+      - text: Wenn ich den Job kriege, kann ich mir vielleicht ein Auto leisten.
+        en: If I get the job, I might be able to afford a car.
+  - en: job, work, profession
+    examples:
+      - text: Im Job ist er sehr erfolgreich, aber privat läuft es überhaupt nicht.
+        en: He’s very successful in his job, but his private life is a mess.
+  - en: job, task, assignment
+    examples:
+      - text: "Ich hab ’n Job für dich: Rasenmähen!"
+        en: "I have a job for you: mowing the lawn!"
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Job#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

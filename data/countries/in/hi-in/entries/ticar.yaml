@@ -1,0 +1,27 @@
+word: टीचर
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ṭīcar
+pronunciation:
+  ipa: /ʈiː.t͡ʃəɾ/
+part_of_speech: noun
+meanings:
+  - en: teacher
+    examples:
+      - text: मैं टीचर के लिए एक ऐपल लाया।
+        en: I brought an apple for the teacher.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9F%E0%A5%80%E0%A4%9A%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

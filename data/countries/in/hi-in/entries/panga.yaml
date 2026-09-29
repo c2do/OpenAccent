@@ -1,0 +1,28 @@
+word: पंगा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - paṅgā
+pronunciation:
+  ipa: /pəŋ.ɡɑː/
+meanings:
+  - en: lame
+    examples: []
+  - en: maimed, deformed
+    examples: []
+  - en: trouble, clash
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%82%E0%A4%97%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

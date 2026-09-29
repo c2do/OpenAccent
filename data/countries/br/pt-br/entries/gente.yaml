@@ -1,0 +1,26 @@
+word: gente
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʒẽ.t͡ʃi/
+part_of_speech: intj
+meanings:
+  - en: expression of surprise or dismay
+    examples:
+      - text: Gente! O que aconteceu aqui
+        en: Wow! What happened here?
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gente#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

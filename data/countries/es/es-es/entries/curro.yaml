@@ -1,0 +1,27 @@
+word: curro
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkuro/
+meanings:
+  - en: job, work
+    examples:
+      - text: Voy al curro.
+        en: I’m going to work.
+  - en: handsome, good looking
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/curro#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

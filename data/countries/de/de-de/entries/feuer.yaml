@@ -1,0 +1,26 @@
+word: Feuer
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfɔʏ̯ər/
+part_of_speech: noun
+meanings:
+  - en: a means for lighting a fire, i.e. a lighter or matches
+    examples:
+      - text: Hätten Sie mal Feuer für mich?
+        en: Do you have a light please?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Feuer#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

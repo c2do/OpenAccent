@@ -1,0 +1,24 @@
+word: minority
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /maɪˈnɒɹ.ɪ.ti/
+part_of_speech: noun
+meanings:
+  - en: A Muslim.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/minority#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

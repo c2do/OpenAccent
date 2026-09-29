@@ -1,0 +1,26 @@
+word: ô
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈo/
+part_of_speech: intj
+meanings:
+  - en: hey (used to draw someone’s attention)
+    examples:
+      - text: Ô João, vem cá.
+        en: Hey John, come here.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%B4#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

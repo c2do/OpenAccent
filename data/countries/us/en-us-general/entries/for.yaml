@@ -1,0 +1,28 @@
+word: for
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fɔː/
+part_of_speech: prep
+meanings:
+  - en: In honor of; after.
+    examples:
+      - text: He is named for his grandfather.
+  - en: Out of; used to indicate a fraction, a ratio
+    examples:
+      - text: In term of base hits, Jones was three for four on the day
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/for#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

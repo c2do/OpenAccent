@@ -1,0 +1,29 @@
+word: mamada
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /maˈmada/
+part_of_speech: noun
+meanings:
+  - en: bullshit; horseshit; fuckery; bollocks; an intentional mean action or
+      statement; a stupid action or statement; a practical joke
+    examples:
+      - text: No digas mamadas.
+        en: Don't talk rubbish.
+  - en: thing
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mamada#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

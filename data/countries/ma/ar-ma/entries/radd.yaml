@@ -1,0 +1,29 @@
+word: رد
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - radd
+pronunciation:
+  ipa: /radː/
+part_of_speech: verb
+meanings:
+  - en: to reply, to answer, to respond
+    examples: []
+  - en: to give back
+    examples: []
+  - en: to vomit
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B1%D8%AF#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

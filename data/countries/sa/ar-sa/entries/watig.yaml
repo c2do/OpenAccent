@@ -1,0 +1,27 @@
+word: واثق
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - wāṯig
+pronunciation:
+  ipa: /waː.θiɡ/
+part_of_speech: adj
+meanings:
+  - en: certain, sure
+    examples: []
+  - en: confident
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88%D8%A7%D8%AB%D9%82#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

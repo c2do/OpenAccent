@@ -1,0 +1,28 @@
+word: mas
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /mas/
+part_of_speech: conj
+meanings:
+  - en: but
+    examples:
+      - text: Estoy envejeciendo, mas no me vuelvo sabio.
+        en: I'm getting older, but no wiser.
+  - en: however
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mas#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

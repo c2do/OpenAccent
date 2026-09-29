@@ -1,0 +1,26 @@
+word: nem
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnẽj̃/
+part_of_speech: intj
+meanings:
+  - en: nah, no
+    examples:
+      - text: Você gosta de abóbora? Nem! Eu prefiro cenoura.
+        en: Do you like pumpkin? Nah! I prefer carrot.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nem#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

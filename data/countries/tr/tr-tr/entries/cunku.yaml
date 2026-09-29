@@ -1,0 +1,24 @@
+word: çünkü
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tʃyɲ.cy/
+part_of_speech: conj
+meanings:
+  - en: because
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A7%C3%BCnk%C3%BC#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

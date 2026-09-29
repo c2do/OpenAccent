@@ -1,0 +1,26 @@
+word: same
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /seɪm/
+part_of_speech: pron
+meanings:
+  - en: "It or them, as above, meaning the last object mentioned, mainly as
+      complement: on the same, for the same."
+    examples:
+      - text: My picture/photography blog...kindly give me your reviews on the same.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/same#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

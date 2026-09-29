@@ -1,0 +1,31 @@
+word: görmek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɟøɾˈmec/
+part_of_speech: verb
+meanings:
+  - en: to see, watch
+    examples: []
+  - en: to see, perceive, discern
+    examples: []
+  - en: to see, meet and talk to/with
+    examples: []
+  - en: to see (something) as, view (something) as, find, consider (something) to
+      be, judge (something) to be
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/g%C3%B6rmek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

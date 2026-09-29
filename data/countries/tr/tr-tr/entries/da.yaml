@@ -1,0 +1,28 @@
+word: da
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /da/
+part_of_speech: conj
+meanings:
+  - en: as well, too, also
+    examples:
+      - text: O da sorunun yanıtını biliyor.
+        en: He also knows the answer to the question.
+      - text: Oğuzhan da bizimle geliyor.
+        en: Oğuzhan is coming with us as well.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/da#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

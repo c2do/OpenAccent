@@ -1,0 +1,29 @@
+word: صاحب
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ṣāḥib
+pronunciation:
+  ipa: /sˤaː.ħib/
+part_of_speech: noun
+meanings:
+  - en: friend, companion
+    examples:
+      - text: أنا مَع صَاحْبي
+        en: I'm with my friend
+  - en: owner, possessor, representative
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B5%D8%A7%D8%AD%D8%A8#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: trop
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tʁo/
+part_of_speech: adv
+meanings:
+  - en: very, really, so
+    examples:
+      - text: Elle est trop belle !
+        en: She is so beautiful!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/trop#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

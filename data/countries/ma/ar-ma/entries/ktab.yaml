@@ -1,0 +1,32 @@
+word: كتب
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ktab
+pronunciation:
+  ipa: /ktab/
+part_of_speech: verb
+meanings:
+  - en: to write
+    examples:
+      - text: كتب تلميدي مقال زوين على الحروب الأهلية اللي داز بيها المغرب فالماضي.
+        en: My student wrote an essay about the civil wars that took place in Morocco in
+          the past
+  - en: to destine or predestine
+    examples:
+      - text: كتب له الله جوج دراري.
+        en: God predestined him two kids
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D8%AA%D8%A8#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: فك
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - fakk
+pronunciation:
+  ipa: /fakk/
+meanings:
+  - en: to dismantle, to take apart
+    examples: []
+  - en: to ignore, to stop bothering (someone) (with من (minn))
+    examples: []
+  - en: to undo, to free
+    examples: []
+  - en: to change money into smaller units
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D9%83#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,37 @@
+word: टोपी
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ṭopī
+pronunciation:
+  ipa: /ʈoː.piː/
+part_of_speech: noun
+meanings:
+  - en: hat
+    examples:
+      - text: |-
+          सर पे लाल टोपी रूसी
+          फिर भी दिल है हिंदुस्तानी
+        en: |-
+          [I] wear a Russian hat
+          but my heart is still Indian
+  - en: cap, lid, cover
+    examples: []
+  - en: glans
+    examples:
+      - text: लिंग की टोपी में संक्रमण
+        en: infection in the glans of penis
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9F%E0%A5%8B%E0%A4%AA%E0%A5%80#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

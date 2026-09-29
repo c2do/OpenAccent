@@ -1,0 +1,33 @@
+word: छतरी
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - chatrī
+pronunciation:
+  ipa: /t͡ʃʰət̪.ɾiː/
+part_of_speech: noun
+meanings:
+  - en: umbrella
+    examples:
+      - text: जल्दी से छतरी ला, बारिश होनेवाली है!
+        en: Bring an umbrella quickly, it's about to rain!
+  - en: canopy, dome
+    examples: []
+  - en: parachute
+    examples: []
+  - en: condom
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9B%E0%A4%A4%E0%A4%B0%E0%A5%80#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

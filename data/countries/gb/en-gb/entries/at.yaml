@@ -1,0 +1,29 @@
+word: at
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /æt/
+part_of_speech: prep
+meanings:
+  - en: Indicating time of occurrence, especially an instant of time, or a period of
+      time relatively short in context or from the speaker’s perspective.; (also
+      as at; before dates) On (a particular date).
+    examples:
+      - text: balance as at 20th March 1999
+      - text: at the date of the commencement of the proceedings before the judicial or
+          administrative authority of the Contracting State where the child is
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/at#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

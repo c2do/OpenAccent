@@ -1,0 +1,33 @@
+word: cara
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈka.ɾɐ/
+meanings:
+  - en: man, fellow, guy and any adult male
+    examples:
+      - text: Esse país não é um país que tem uma sociedade com complexo de vira-lata,
+          que o cara [Elon Musk] gritou e a gente fica com medo. Esse cara tem
+          que aceitar as regras desse país.
+      - text: Quando saíam, de cinco em cinco, tinham que passar pelo grupo de agentes
+          que iam baixar a porrada. […] E toma porrada. Quebraram o cara de
+          porrada.
+  - en: dude!
+    examples:
+      - text: Cara! Finalmente cê me ligou!
+        en: Dude! You finally called me!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cara#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: gece
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[ɟe̞ˈd͡ʒɛ]"
+meanings:
+  - en: night
+    examples: []
+  - en: at night, in the night, by night
+    examples: []
+  - en: nocturnally
+    examples: []
+  - en: nocturnal
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gece#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

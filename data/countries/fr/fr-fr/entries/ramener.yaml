@@ -1,0 +1,28 @@
+word: ramener
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʁa.m(ə).ne/
+part_of_speech: verb
+meanings:
+  - en: to roll up, to get one's butt somewhere
+    examples:
+      - text: Il s'est ramené sans prévenir.
+        en: He turned up with no warning.
+      - text: Ramène-toi !
+        en: Get yourself over here!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ramener#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

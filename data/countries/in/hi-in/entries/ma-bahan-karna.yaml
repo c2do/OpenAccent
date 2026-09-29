@@ -1,0 +1,29 @@
+word: माँ-बहन करना
+dialect: hi-in
+type: phrase
+spellings: []
+romanized:
+  - mā̃-bahan karnā
+pronunciation:
+  ipa: /mɑ̃ː.bə.ɦən kəɾ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to abuse vulgarly with abuses relating to mother or sisters
+    examples: []
+  - en: to caricature or ruin (as a concept or language)
+    examples:
+      - text: मैने हिंदी भाषा की माँ-बहन कर दी।
+        en: i completely caricatured the Hindi language.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AE%E0%A4%BE%E0%A4%81-%E0%A4%AC%E0%A4%B9%E0%A4%A8_%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

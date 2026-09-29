@@ -1,0 +1,27 @@
+word: هنا
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - hina
+  - hanna
+pronunciation:
+  ipa: /hi.na/
+meanings:
+  - en: here
+    examples: []
+  - en: to congratulate
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D9%86%D8%A7#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

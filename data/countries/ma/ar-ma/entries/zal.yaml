@@ -1,0 +1,27 @@
+word: زال
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - zāl
+pronunciation:
+  ipa: /zaːl/
+part_of_speech: verb
+meanings:
+  - en: to remove
+    examples: []
+  - en: to go away
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B2%D8%A7%D9%84#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

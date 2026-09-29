@@ -1,0 +1,29 @@
+word: geral
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʒeˈɾaw/
+meanings:
+  - en: everyone, everybody (or at least the majority of a group)
+    examples:
+      - text: Geral tá contra isso.
+        en: Everybody is against that.
+  - en: all around; everywhere (often or constantly and in many places)
+    examples:
+      - text: Tem gente morrendo geral!
+        en: There are people dying everywhere!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/geral#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

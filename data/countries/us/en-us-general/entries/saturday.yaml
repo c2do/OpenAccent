@@ -1,0 +1,24 @@
+word: Saturday
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈsæt.ə.deɪ/
+part_of_speech: adv
+meanings:
+  - en: On Saturday.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Saturday#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

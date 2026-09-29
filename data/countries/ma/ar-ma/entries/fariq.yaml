@@ -1,0 +1,32 @@
+word: فريق
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - farīq
+pronunciation:
+  ipa: /fa.riːq/
+part_of_speech: noun
+meanings:
+  - en: party, group
+    examples:
+      - text: فريق المصباح خرج بمشروع قانون جديد باش يقنن زراعة الحشيش وتسويقه.
+        en: The Justice and Development Party proposed a new bill to legalise growing
+          weed and selling it.
+  - en: team; sports club
+    examples:
+      - text: فريق المغرب التطواني خسر البارح ضد المغرب الفاسي.
+        en: The Moghreb Tetouan lost against Maghreb Fes yesterday.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D8%B1%D9%8A%D9%82#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

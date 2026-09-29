@@ -1,0 +1,32 @@
+word: chorar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʃoˈɾa(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to haggle (to argue for a better deal)
+    examples:
+      - text: Chorei, chorei, até que o vendedor baixou o preço.
+        en: I haggled and haggled until the salesman lowered the price.
+      - text: Chore o preço até que o diminuam.
+        en: Haggle for the price until they lower it.
+  - en: to spend some time almost scoring (of a ball)
+    examples:
+      - text: A bola chorou por uns cinco segundos antes de cair na cesta.
+        en: The ball circled the hoop for about five seconds before it went through.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chorar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

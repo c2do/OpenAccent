@@ -1,0 +1,38 @@
+word: göre
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɟøˈɾe/
+part_of_speech: postp
+meanings:
+  - en: according to, per
+    examples:
+      - text: Bana göre bu sana daha çok yakışmış.
+        en: I think it suits you better.
+  - en: than
+    examples:
+      - text: Yarın bugüne göre birkaç derece soğuk olacakmış.
+        en: It's supposed to get a few degrees colder tomorrow than it is today.
+  - en: since, now that
+    examples:
+      - text: Ödevlerini bitirdiğine göre artık çıkabilir miyiz?
+        en: Now that you’ve finished your homework, can we go out?
+  - en: suitable for
+    examples:
+      - text: Bu elbise tam sana göre.
+        en: This dress is perfect for you.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/g%C3%B6re#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

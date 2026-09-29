@@ -1,0 +1,26 @@
+word: दफ़ा हो जा
+dialect: hi-in
+type: phrase
+spellings: []
+romanized:
+  - dafā ho jā
+part_of_speech: intj
+meanings:
+  - en: get lost! get away! piss off! Used to impolitely tell the listener to go
+      away
+    examples:
+      - text: ओये! दफ़ा हो जा! यह हमारी सड़क है!
+        en: Oi! Get lost! This is our street!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A4%AB%E0%A4%BC%E0%A4%BE_%E0%A4%B9%E0%A5%8B_%E0%A4%9C%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

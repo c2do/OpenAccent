@@ -1,0 +1,24 @@
+word: kid
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkɪd/
+part_of_speech: noun
+meanings:
+  - en: A seed pod, usually of a leguminous plant.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/kid#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: mensch
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /mɛnʃ/
+part_of_speech: pron
+meanings:
+  - en: one, they (indefinite third-person singular pronoun)
+    examples:
+      - text: „Nichtverhandeln war mehr ein Gefühl, daß mit dem Staat eh nichts
+          vernünftiges anzufangen ist, daß mensch nur übers Ohr gehauen wird,
+          wenn mensch sich auf Gespräche mit den Regierenden einläßt […]“
+      - text: "Dies ist nach Landweer (1999: 45) aber nur möglich, wenn mensch sich
+          irgendeine noch so vage Verantwortung dafür zuschreibt, Objekt von
+          Demütigung geworden zu sein."
+register: casual
+familiarity: rare
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mensch#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

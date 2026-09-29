@@ -1,0 +1,27 @@
+word: shit
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʃɪt/
+part_of_speech: verb
+meanings:
+  - en: To annoy.
+    examples:
+      - text: I saw red and smashed a plate and a bowl. […] I swept up the mess. I
+          bawled a lot as I swept […] I also thought, I am about to get my
+          period. It absolutely shits me that this should explain anything.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/shit#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

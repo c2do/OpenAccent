@@ -1,0 +1,28 @@
+word: Uhr
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /uːr/
+part_of_speech: noun
+meanings:
+  - en: clockwise direction
+    examples:
+      - text: mit der Uhr
+        en: clockwise
+      - text: gegen die Uhr
+        en: widdershins, counterclockwise
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Uhr#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

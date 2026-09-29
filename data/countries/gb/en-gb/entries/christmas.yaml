@@ -1,0 +1,25 @@
+word: Christmas
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkɹɪsməs/
+part_of_speech: noun
+meanings:
+  - en: Sprigs of holly and other evergreen plants used as Christmas decorations;
+      also (generally), any Christmas decorations.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Christmas#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: beni
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /beni/
+part_of_speech: pron
+meanings:
+  - en: me
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/beni#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

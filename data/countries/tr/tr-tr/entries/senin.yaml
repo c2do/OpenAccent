@@ -1,0 +1,26 @@
+word: senin
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /seˈnin/
+part_of_speech: pron
+meanings:
+  - en: yours
+    examples:
+      - text: Bu kitap senin mi?
+        en: Is this book yours?
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/senin#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

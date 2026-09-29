@@ -1,0 +1,28 @@
+word: खटमल
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - khaṭmal
+pronunciation:
+  ipa: /kʰəʈ.məl/
+part_of_speech: noun
+meanings:
+  - en: bedbug
+    examples: []
+  - en: a Twelver Shia Muslim
+    examples:
+      - text: "Coordinate term: मच्छर (macchar)"
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%96%E0%A4%9F%E0%A4%AE%E0%A4%B2#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

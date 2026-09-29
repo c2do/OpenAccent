@@ -1,0 +1,27 @@
+word: बोली
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bolī
+pronunciation:
+  ipa: /boː.liː/
+part_of_speech: noun
+meanings:
+  - en: dialect, local speech
+    examples: []
+  - en: language
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A5%8B%E0%A4%B2%E0%A5%80#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

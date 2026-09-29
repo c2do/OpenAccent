@@ -1,0 +1,28 @@
+word: voir
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /vwaʁ/
+part_of_speech: adv
+meanings:
+  - en: please (used to mark the imperative)
+    examples:
+      - text: Viens voir ici.
+        en: Come here please.
+      - text: Voyons voir.
+        en: Let's see.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/voir#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

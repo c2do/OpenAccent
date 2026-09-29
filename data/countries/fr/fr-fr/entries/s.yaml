@@ -1,0 +1,26 @@
+word: s'
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /s‿/
+part_of_speech: pron
+meanings:
+  - en: Elision of se before a word beginning with a consonant.
+    examples:
+      - text: Y s’bouge le cul ou quoi?
+        en: Is he movin’ his ass or what?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/s'#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

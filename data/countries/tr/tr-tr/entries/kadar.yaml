@@ -1,0 +1,40 @@
+word: kadar
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɑˈdɑɾ/
+part_of_speech: postp
+meanings:
+  - en: Equal in amount or quantity; as much as.
+    examples:
+      - text: O, senin kadar uzun.
+        en: He is as tall as you.
+      - text: Dünya, Venüs kadar yaşlı.
+        en: Earth is as old as Venus.
+  - en: In equal degree or amount; as much as, so much as.
+    examples:
+      - text: Rüzgar evi kökünden sökecek kadar güçlü esiyordu.
+        en: The wind was blowing so strong as to rip the house from the root.
+  - en: Up to a certain time or place; till, until
+    examples:
+      - text: Ölüm bizi ayırana kadar.
+        en: Till death do us part.
+  - en: till, until
+    examples:
+      - text: Özür dileyene kadar seninle konuşmayacağım
+        en: I'm not gonna talk with you until you apologize
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/kadar#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

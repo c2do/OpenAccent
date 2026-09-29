@@ -1,0 +1,27 @@
+word: alphabet
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈæl.fəˌbɛt/
+part_of_speech: noun
+meanings:
+  - en: An individual letter of an alphabet; an alphabetic character.
+    examples:
+      - text: The notes are named with the first seven alphabets.
+      - text: We realize the fact that the alphabet A has been used in many world
+          scripts as a vowel with the others AEIOU.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/alphabet#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

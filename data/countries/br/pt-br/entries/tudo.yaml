@@ -1,0 +1,26 @@
+word: tudo
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtu.du/
+part_of_speech: det
+meanings:
+  - en: every; all
+    examples:
+      - text: As bolas vermelhas tão tudo dentro do saco
+        en: The red balls are all in the bag.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tudo#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

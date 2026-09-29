@@ -1,0 +1,25 @@
+word: कॉफी
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kŏfī
+pronunciation:
+  ipa: /kɔ.fiː/
+part_of_speech: noun
+meanings:
+  - en: nuqtaless form of कॉफ़ी (kŏfī)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%89%E0%A4%AB%E0%A5%80#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: Zwei
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡svaɪ/
+part_of_speech: noun
+meanings:
+  - en: an academic grade indicating "good", corresponding roughly to a B in
+      English-speaking countries
+    examples:
+      - text: "Die gute Nachricht: Ich habe eine Zwei in Englisch!"
+        en: "The good news: I got a B in English!"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Zwei#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

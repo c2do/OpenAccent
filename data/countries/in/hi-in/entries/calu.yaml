@@ -1,0 +1,26 @@
+word: चालू
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - cālū
+meanings:
+  - en: working, running, processing
+    examples: []
+  - en: used, applied
+    examples: []
+  - en: smartass
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A5%82#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

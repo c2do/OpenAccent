@@ -1,0 +1,28 @@
+word: toucher
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tu.ʃe/
+part_of_speech: verb
+meanings:
+  - en: to know a thing or two
+    examples:
+      - text: Ce mec est un ancien critique d'art. Je peux te dire qu'il touche en
+          peinture!
+        en: This guy is a former art critic. Believe me, he knows a thing or two about
+          painting!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/toucher#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

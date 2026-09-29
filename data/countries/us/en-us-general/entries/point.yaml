@@ -1,0 +1,25 @@
+word: point
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pɔɪnt/
+part_of_speech: noun
+meanings:
+  - en: A small discrete division or individual feature of something.; An item of
+      private information; a hint; a tip; a pointer.
+    examples: []
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/point#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

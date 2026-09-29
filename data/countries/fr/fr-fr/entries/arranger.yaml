@@ -1,0 +1,26 @@
+word: arranger
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a.ʁɑ̃.ʒe/
+part_of_speech: verb
+meanings:
+  - en: to suit, to be convenient
+    examples:
+      - text: Désolé, ça ne m'arrange pas.
+        en: Sorry, that doesn't work for me.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/arranger#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

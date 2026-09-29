@@ -1,0 +1,27 @@
+word: gamin
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡa.mɛ̃/
+part_of_speech: noun
+meanings:
+  - en: kid
+    examples:
+      - text: Tous les gamins rencontrés au passage les escortent à grandes enjambées .
+          . .
+        en: All the kids they meet along the way escort them with great strides . . .
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gamin#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: चम्मच
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - cammac
+pronunciation:
+  ipa: /t͡ʃəm.mət͡ʃ/
+part_of_speech: noun
+meanings:
+  - en: spoon
+    examples: []
+  - en: sycophant, chamcha
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A4%AE%E0%A5%8D%E0%A4%AE%E0%A4%9A#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: là
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /la/
+part_of_speech: adv
+meanings:
+  - en: used to emphasize a statement or question
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/l%C3%A0#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

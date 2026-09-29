@@ -1,0 +1,28 @@
+word: soon
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /suːn/
+part_of_speech: adj
+meanings:
+  - en: Early.
+    examples:
+      - text: Late in the evening we arrived at Quincy where we bivouacked for the night
+          and taken a soon start the next morning to march to the arsenal.
+      - text: Got up pretty early, ate a soon breakfast, had the sulky and was about to
+          start to Newtown when it commenced raining..
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/soon#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

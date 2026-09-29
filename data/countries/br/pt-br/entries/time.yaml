@@ -1,0 +1,28 @@
+word: time
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈt͡ʃĩ.mi/
+part_of_speech: noun
+meanings:
+  - en: a team
+    examples: []
+  - en: a corporate team
+    examples: []
+  - en: sexual orientation
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/time#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: union
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈjuː.njən/
+part_of_speech: adj
+meanings:
+  - en: federal.
+    examples:
+      - text: The union government of India
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/union#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

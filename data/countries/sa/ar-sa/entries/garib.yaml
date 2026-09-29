@@ -1,0 +1,28 @@
+word: قريب
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - garīb
+pronunciation:
+  ipa: /ɡa.riːb/
+meanings:
+  - en: near, close
+    examples: []
+  - en: soon, shortly
+    examples: []
+  - en: relative, relation
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%B1%D9%8A%D8%A8#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

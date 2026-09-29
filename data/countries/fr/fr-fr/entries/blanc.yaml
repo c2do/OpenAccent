@@ -1,0 +1,26 @@
+word: blanc
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /blɑ̃/
+part_of_speech: noun
+meanings:
+  - en: white wine
+    examples:
+      - text: Le poisson se mange avec du blanc.
+        en: fish is eaten with white wine.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/blanc#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

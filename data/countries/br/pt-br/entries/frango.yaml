@@ -1,0 +1,28 @@
+word: frango
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfɾɐ̃.ɡu/
+part_of_speech: noun
+meanings:
+  - en: a skinny man or boy, especially one who has just started working out and has
+      not developed a muscular figure yet
+    examples: []
+  - en: a goal resulting from a shameful mistake by the goalkeeper; the goalkeeper
+      who makes this mistake
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/frango#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,35 @@
+word: मीठा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - mīṭhā
+pronunciation:
+  ipa: /miː.ʈʰɑː/
+part_of_speech: adj
+meanings:
+  - en: sweet
+    examples:
+      - text: यह चाय मीठी नहीं है, कुछ और शक्कर मिलाओ।
+        en: This tea is not sweet enough, add some more sugar.
+  - en: pleasant, agreeable
+    examples:
+      - text: मीठी बात
+        en: sweet-talk
+  - en: gentle, light
+    examples: []
+  - en: tender, sympathetic
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AE%E0%A5%80%E0%A4%A0%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

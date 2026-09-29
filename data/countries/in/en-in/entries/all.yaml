@@ -1,0 +1,31 @@
+word: all
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɔːl/
+part_of_speech: pron
+meanings:
+  - en: Used after who, what, where, how and similar words, either without changing
+      their meaning, or indicating that one expects that they cover more than
+      one element, e.g. that "Who all attended?" is more than one person. (Some
+      dialects only allow this to follow some words and not others.)
+    examples:
+      - text: Q. Now, then, when you started to go to stake the claims, who all went
+          along?
+      - text: "\"I mean, you could have called us—collect, o'course—jes' to let us know
+          how-all it's a-goin'.\""
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/all#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

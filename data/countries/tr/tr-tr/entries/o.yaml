@@ -1,0 +1,27 @@
+word: o
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /o/
+meanings:
+  - en: he, she, it
+    examples: []
+  - en: that
+    examples: []
+  - en: The name of the Latin script letter O/o.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/o#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

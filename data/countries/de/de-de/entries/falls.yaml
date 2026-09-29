@@ -1,0 +1,26 @@
+word: falls
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fals/
+part_of_speech: conj
+meanings:
+  - en: in case, in order to be prepared if
+    examples:
+      - text: Lass uns das Fenster zumachen, falls es anfängt zu regnen.
+        en: Let's close the window, in case it starts raining.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/falls#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

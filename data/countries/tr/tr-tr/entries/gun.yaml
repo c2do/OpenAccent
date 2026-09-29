@@ -1,0 +1,34 @@
+word: gün
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɟyn/
+part_of_speech: noun
+meanings:
+  - en: day
+    examples:
+      - text: bütün gün boyunca
+        en: all day long
+      - text: son günlerde
+        en: last few days
+  - en: sun (light and warmth received from the sun)
+    examples: []
+  - en: daytime
+    examples: []
+  - en: date
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/g%C3%BCn#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

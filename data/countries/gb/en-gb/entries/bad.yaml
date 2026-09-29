@@ -1,0 +1,24 @@
+word: bad
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bæd/
+part_of_speech: verb
+meanings:
+  - en: To shell (a walnut).
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bad#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,34 @@
+word: yoksa
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈjok.sa/
+part_of_speech: conj
+meanings:
+  - en: "Used other than figuratively or idiomatically: see yok, -sa or ise."
+    examples:
+      - text: Paranız yoksa size yardım edemem.
+        en: If you have no money I can't help you.
+  - en: otherwise, or else
+    examples:
+      - text: Sen de sakinleş. Yoksa bir taraflarımız tehlike içinde kalacak.
+        en: You calm down. Otherwise, one of us will be in danger.
+  - en: or
+    examples:
+      - text: Bir hastane odası mıydı, yoksa hapishane mi?
+        en: Was it a hospital room, or a prison?
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/yoksa#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

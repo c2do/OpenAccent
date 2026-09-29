@@ -1,0 +1,28 @@
+word: er
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /eːr/
+part_of_speech: pron
+meanings:
+  - en: Used in reference to a computer or other machine when personifying it; it
+    examples:
+      - text: Ich habe die Route gerade ins Navi eingegeben, und jetzt sagt er, die
+          Autobahn wäre gesperrt.
+        en: I just put the route into the GPS, and now it says that the highway is
+          closed.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/er#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

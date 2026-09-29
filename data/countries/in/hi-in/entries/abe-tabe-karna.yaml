@@ -1,0 +1,28 @@
+word: अबे-तबे करना
+dialect: hi-in
+type: phrase
+spellings: []
+romanized:
+  - abe-tabe karnā
+pronunciation:
+  ipa: /ə.beː.t̪ə.beː kəɾ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to speak without formality; either rudely or because of undue familiarity
+      and intimacy
+    examples:
+      - text: वह लड़का बड़ों से अबे-तबे करता है।
+        en: That boy speaks rudely to elders.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%AC%E0%A5%87-%E0%A4%A4%E0%A4%AC%E0%A5%87_%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,33 @@
+word: öyle
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈøj.le/
+meanings:
+  - en: like that, similar to (something).
+    examples:
+      - text: Öyle bir şey demedim.
+        en: I didn't say anything like that.
+  - en: in that way
+    examples:
+      - text: Bize öyle öğrettiler.
+        en: They (have) taught us in that way.
+  - en: that much, so ... that
+    examples:
+      - text: Öyle sarhoş olsam ki bir daha uyanmasam.
+        en: I wish I would be so drunk that I won't wake up again.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%B6yle#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

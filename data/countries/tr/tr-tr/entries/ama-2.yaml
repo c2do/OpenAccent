@@ -1,0 +1,25 @@
+word: âmâ
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /aːˈmaː/
+meanings:
+  - en: blind
+    examples: []
+  - en: the blind
+    examples: []
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A2m%C3%A2#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: présenter
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pʁe.zɑ̃.te/
+part_of_speech: verb
+meanings:
+  - en: to look
+    examples:
+      - text: Il présente bien.
+        en: He looks good.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pr%C3%A9senter#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: beleza
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /beˈle.zɐ/
+part_of_speech: intj
+meanings:
+  - en: what's up? (informal greeting)
+    examples: []
+  - en: all right; okay (used either as a question or answer/agreement)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/beleza#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

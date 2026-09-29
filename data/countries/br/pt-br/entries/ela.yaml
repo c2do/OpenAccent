@@ -1,0 +1,26 @@
+word: ela
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɛ.lɐ/
+part_of_speech: pron
+meanings:
+  - en: third-person feminine singular pronoun used in all positions she; it; her
+    examples:
+      - text: A gente encontrou ela.
+        en: We came across her.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ela#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

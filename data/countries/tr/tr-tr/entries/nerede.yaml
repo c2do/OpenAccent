@@ -1,0 +1,31 @@
+word: nerede
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈne.ɾe.de/
+meanings:
+  - en: where, in what place
+    examples:
+      - text: Ankara Üniversitesi nerede?
+        en: Where is Ankara University?
+  - en: Used to indicate disappointment and resignation that a thing desired is or
+      was unlikely to happen. Almost exclusively used in colloquial
+      pronunciation. Similar to I wish or if only
+    examples:
+      - text: İnsan beş yıldızlı otelden kaliteli hizmet bekliyor ama nerde!
+        en: One expects quality service from a five-star hotel, if only!
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nerede#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

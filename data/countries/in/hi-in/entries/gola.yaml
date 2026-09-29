@@ -1,0 +1,31 @@
+word: गोला
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - golā
+pronunciation:
+  ipa: /ɡoː.lɑː/
+part_of_speech: noun
+meanings:
+  - en: ball
+    examples: []
+  - en: cannonball
+    examples: []
+  - en: globe, orb, sphere
+    examples: []
+  - en: planet, world
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%97%E0%A5%8B%E0%A4%B2%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

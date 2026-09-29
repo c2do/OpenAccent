@@ -1,0 +1,29 @@
+word: गांड
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - gāṇḍ
+pronunciation:
+  ipa: /ɡɑːɳɖ/
+part_of_speech: noun
+meanings:
+  - en: asshole, butthole (the anus)
+    examples:
+      - text: उसने मेरी गांड मारी.
+        en: He fucked my asshole.
+  - en: ass, butt
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%97%E0%A4%BE%E0%A4%82%E0%A4%A1#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

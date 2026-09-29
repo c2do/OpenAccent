@@ -1,0 +1,42 @@
+word: nick
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /nɪk/
+meanings:
+  - en: "Often in the expressions in bad nick and in good nick: condition, state."
+    examples:
+      - text: The car I bought was cheap and in good nick.
+      - text: "[…]considering they've abused their bodies with everything from M and G
+          to crystal meth over the course of the last day or so, some longer,
+          they look in pretty good nick."
+  - en: A police station or prison.
+    examples:
+      - text: He was arrested and taken down to Sun Hill nick [police station] to be
+          charged.
+      - text: He’s just been released from Shadwell nick [prison] after doing ten years
+          for attempted murder.
+  - en: To steal.
+    examples:
+      - text: Someone’s nicked my bike!
+  - en: To arrest.
+    examples:
+      - text: The police nicked him climbing over the fence of the house he’d broken
+          into.
+      - text: "[...] I was always getting nicked when I was a junkie, so I've had my
+          fair share of skirmishes with the law."
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nick#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

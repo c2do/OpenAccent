@@ -1,0 +1,31 @@
+word: डंडी
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ḍaṇḍī
+pronunciation:
+  ipa: /ɖəɳ.ɖiː/
+part_of_speech: noun
+meanings:
+  - en: a stick, cane, rod
+    examples: []
+  - en: one carrying a staff (esp. an ascetic)
+    examples: []
+  - en: shaft (of a vehicle).
+    examples: []
+  - en: handle; lever
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A1%E0%A4%82%E0%A4%A1%E0%A5%80#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

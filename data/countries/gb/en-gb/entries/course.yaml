@@ -1,0 +1,29 @@
+word: course
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɔːs/
+part_of_speech: noun
+meanings:
+  - en: A sequence of events.; A learning programme; an educational programme at a
+      college or university leading to an academic degree or vocational
+      qualification.
+    examples:
+      - text: |-
+          What's your course in university?
+          —Business studies. And you?
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/course#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

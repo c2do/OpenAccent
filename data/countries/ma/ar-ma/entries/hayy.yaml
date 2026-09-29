@@ -1,0 +1,27 @@
+word: حي
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ḥayy
+  - ḥiyy
+pronunciation:
+  ipa: /ħajj/
+meanings:
+  - en: alive
+    examples: []
+  - en: neighbourhood
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D9%8A#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

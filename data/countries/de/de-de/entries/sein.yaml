@@ -1,0 +1,33 @@
+word: sein
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /zaɪ̯n/
+meanings:
+  - en: As an intransitive verb:; to have the next turn (in a game, in a queue,
+      etc.)
+    examples:
+      - text: Du bist.
+        en: It’s your turn.
+      - text: Du bist nach mir.
+        en: Your turn is after mine.
+  - en: its (agreeing with a masculine or neuter noun); Used to express an
+      approximate number, often with so.
+    examples:
+      - text: Der kostet so seine zweihundert Euro.
+        en: That one costs around two hundred euros.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sein#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

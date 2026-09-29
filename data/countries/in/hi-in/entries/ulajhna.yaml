@@ -1,0 +1,37 @@
+word: उलझना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ulajhnā
+pronunciation:
+  ipa: /ʊ.ləd͡ʒʱ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to be entangled, tangled
+    examples:
+      - text: धागे मेरे उंगलियों से उलझ गए।
+        en: The string became entangled with my fingers.
+  - en: to be involved in
+    examples:
+      - text: किसी मामले में उलझना
+        en: to be involved in a matter
+  - en: to be involved in; to be involved in a quarrel or fight
+    examples:
+      - text: उलझ पड़ना
+        en: to fight with
+  - en: to be involved in; to fall in love with
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%89%E0%A4%B2%E0%A4%9D%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

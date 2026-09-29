@@ -1,0 +1,24 @@
+word: sägen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈzɛːɡən/
+part_of_speech: verb
+meanings:
+  - en: to snore
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/s%C3%A4gen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

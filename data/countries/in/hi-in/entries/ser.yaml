@@ -1,0 +1,31 @@
+word: शेर
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - śer
+pronunciation:
+  ipa: /ʃeːɾ/
+part_of_speech: noun
+meanings:
+  - en: lion
+    examples: []
+  - en: tiger
+    examples: []
+  - en: couplet
+    examples: []
+  - en: verse
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A5%87%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,34 @@
+word: بيت
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - bīt
+  - bayt
+  - bayyat
+pronunciation:
+  ipa: /biːt/
+meanings:
+  - en: room
+    examples: []
+  - en: to put up someone for the night
+    examples: []
+  - en: to provide lodging
+    examples: []
+  - en: goal
+    examples:
+      - text: وخا يمركيوا بيت ما غاديش يربحوا.
+        en: Even if they score a goal they won't win.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D9%8A%D8%AA#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

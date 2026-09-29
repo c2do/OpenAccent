@@ -1,0 +1,35 @@
+word: على
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ʕala
+  - ʕalla
+pronunciation:
+  ipa: /ʕa.la/
+meanings:
+  - en: on, over
+    examples:
+      - text: حتلاقيه على الرف/عالرف
+        en: You will find it on rack
+  - en: against
+    examples:
+      - text: يوم ليك و يوم عليك
+        en: one day for you, and one day against you
+  - en: despite
+    examples: []
+  - en: to raise (the volume, one's voice, etc.)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%84%D9%89#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

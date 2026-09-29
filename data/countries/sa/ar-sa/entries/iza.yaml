@@ -1,0 +1,31 @@
+word: إذا
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ʔiza
+  - ʔiḏa
+  - ʔizan
+  - ʔiḏan
+pronunciation:
+  ipa: /ʔi.za/
+meanings:
+  - en: when, when it is that; as soon as
+    examples: []
+  - en: if, whether
+    examples: []
+  - en: so, then, therefore
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A5%D8%B0%D8%A7#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

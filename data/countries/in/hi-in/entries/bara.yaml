@@ -1,0 +1,39 @@
+word: बड़ा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - baṛā
+pronunciation:
+  ipa: /bə.ɽɑː/
+part_of_speech: adj
+meanings:
+  - en: big, large, huge
+    examples:
+      - text: बड़ा देश
+        en: big country
+      - text: बड़ा शहर
+        en: big city
+  - en: massive, heavy
+    examples: []
+  - en: grown up, adult
+    examples:
+      - text: बड़ा बच्चा
+        en: grown boy
+  - en: important
+    examples:
+      - text: वह बड़ा आदमी है।
+        en: He is an important man.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%A1%E0%A4%BC%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

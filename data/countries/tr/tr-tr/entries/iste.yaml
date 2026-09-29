@@ -1,0 +1,47 @@
+word: işte
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /iʃˈte/
+part_of_speech: intj
+meanings:
+  - en: '"lo! there it is", ta-da, presto, voilà'
+    examples:
+      - text: İşte evim.
+        en: Here's my home.
+      - text: İşte böyle yapacaksın.
+        en: Here's how you do it.
+  - en: used as a discourse marker; used to draw attention to a particular action
+      that has just happened
+    examples:
+      - text: İşte budur!
+        en: There you go!
+      - text: Al bak işte, öyle yaparsan alet bozulur dedim sana.
+        en: See? I told you that would break it.
+  - en: used as a discourse marker; used to signify that one is done talking about a
+      specific subject
+    examples:
+      - text: Öyle işte. Sen nasılsın?
+        en: That's about it. How are you?
+  - en: used as a discourse marker; used to signify that what one is saying should
+      be simple to understand or execute
+    examples:
+      - text: Git yap işte, bu kadar büyütmene ne gerek var?
+        en: Just go do it—why are you making such a big deal out of it?
+      - text: Yapamadım işte!
+        en: I just couldn't do it, OK?
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/i%C5%9Fte#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

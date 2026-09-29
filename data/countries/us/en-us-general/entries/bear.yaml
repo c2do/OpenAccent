@@ -1,0 +1,30 @@
+word: bear
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɛə/
+part_of_speech: noun
+meanings:
+  - en: A state policeman (short for Smokey Bear).
+    examples:
+      - text: "'The bear's pulling somebody off there at 74,' reported someone else."
+  - en: Something difficult or tiresome; a burden or chore.
+    examples:
+      - text: That window can be a bear to open.
+      - text: "\"This was a real bear to refinish. You can't believe how hard it was
+          right here to get a thousand years of crud out of this carving.\""
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bear#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

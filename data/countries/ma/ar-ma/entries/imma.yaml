@@ -1,0 +1,28 @@
+word: إما
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ʔimma
+pronunciation:
+  ipa: /ʔim.ma/
+part_of_speech: conj
+meanings:
+  - en: either (used together with أولا (ʔawla, “or”), ولا (walla, “or”) or أو (ʔaw,
+      “or”))
+    examples:
+      - text: إما غادي تمشي فحالك ولّا غادي نعيط للبوليس.
+        en: Either you will leave or I will call the police.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A5%D9%85%D8%A7#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

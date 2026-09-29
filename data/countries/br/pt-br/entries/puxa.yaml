@@ -1,0 +1,26 @@
+word: puxa
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpu.ʃɐ/
+part_of_speech: intj
+meanings:
+  - en: expresses surprise or admiration
+    examples: []
+  - en: expresses disappointment
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/puxa#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

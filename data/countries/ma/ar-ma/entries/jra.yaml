@@ -1,0 +1,34 @@
+word: جرى
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - jra
+  - jarra
+pronunciation:
+  ipa: /ʒra/
+part_of_speech: verb
+meanings:
+  - en: to run
+    examples: []
+  - en: to happen, to occur
+    examples: []
+  - en: to make (someone) leave
+    examples: []
+  - en: to fire (terminate the employment of)
+    examples:
+      - text: جراوا عليه من الخدمة حيت الشركة غتعمل إفلاس
+        en: They fired him because the company will go bankrupt
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AC%D8%B1%D9%89#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

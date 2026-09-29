@@ -1,0 +1,29 @@
+word: टटोलना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ṭaṭolnā
+pronunciation:
+  ipa: /ʈə.ʈoːl.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to feel, grope; fumble
+    examples:
+      - text: उसने अपनी जेब टटोलके दो रुपये निकाले।
+        en: Fumbling with his pocket he took out two rupees.
+  - en: to investigate
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9F%E0%A4%9F%E0%A5%8B%E0%A4%B2%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

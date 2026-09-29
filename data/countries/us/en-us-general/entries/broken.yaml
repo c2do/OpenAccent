@@ -1,0 +1,26 @@
+word: broken
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɹəʊ.kn̩/
+part_of_speech: adj
+meanings:
+  - en: Non-functional; not functioning properly.; Not having gone in the way
+      intended; saddening.
+    examples:
+      - text: Oh man! That is just broken!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/broken#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

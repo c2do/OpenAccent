@@ -1,0 +1,35 @@
+word: परसों
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - parsõ
+pronunciation:
+  ipa: /pəɾ.sõː/
+part_of_speech: adv
+meanings:
+  - en: day after tomorrow
+    examples:
+      - text: परसों दूधवाला दूध नहीं लाएगा।
+        en: The day after tomorrow the milkman won't bring milk.
+  - en: day before yesterday
+    examples:
+      - text: परसों दूधवाले ने दूध नहीं लाया।
+        en: The day before yesterday the milkman didn't bring milk.
+  - en: any time in the recent past or near future
+    examples:
+      - text: दूधवाला परसों से दूध नहीं ला रहा है।
+        en: The milkman hasn't been bringing milk for ages.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%B0%E0%A4%B8%E0%A5%8B%E0%A4%82#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

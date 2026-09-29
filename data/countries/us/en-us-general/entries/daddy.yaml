@@ -1,0 +1,28 @@
+word: daddy
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdædi/
+part_of_speech: noun
+meanings:
+  - en: A husband; also, a woman's (often older) male lover; (generally) a sexually
+      attractive man; a hunk.
+    examples:
+      - text: She's crazy 'bout her daddy / Oh, she believes in him / She loves her
+          daddy // She's crazy like a fool / Wild about Daddy Cool / I'm crazy
+          like a fool / Wild about Daddy Cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/daddy#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

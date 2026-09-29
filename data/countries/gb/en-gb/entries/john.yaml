@@ -1,0 +1,27 @@
+word: John
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /d͡ʒɒn/
+part_of_speech: noun
+meanings:
+  - en: A new recruit at Royal Military Academy Sandhurst.
+    examples:
+      - text: To avoid bullying, first-year “Johns” (from Johnny Raw) “fagged” for
+          senior classmen known as “Regs.” Fagging included making beds, running
+          messages, and smuggling contraband.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/John#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

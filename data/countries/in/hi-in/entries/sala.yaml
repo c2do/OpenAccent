@@ -1,0 +1,48 @@
+word: साला
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - sālā
+pronunciation:
+  ipa: /sɑː.lɑː/
+meanings:
+  - en: "saala/sala: brother-in-law, wife's brother"
+    examples:
+      - text: मेरे साले ने अपनी बहन को लिखा।
+        en: My brother-in-law wrote to his sister.
+  - en: "saala/sala: a term of abuse; bastard, bugger, scoundrel"
+    examples:
+      - text: अबे, साले, इधर आ तू!
+        en: Oi, you scoundrel, get over here!
+      - text: अबे! उस साले ने मेरा बटुआ चुरा लिया!
+        en: Oi! That bastard stole my purse!
+  - en: "saala/sala: a person, guy, bloke, bugger"
+    examples:
+      - text: |-
+          बाला, बाला, बाला
+          लोग बोलें, “बाला,”
+          “क्या चीज़ है साला”
+        en: |-
+          Bala, Bala, Bala
+          People say, "Bala,"
+          "What a guy, that bloke"
+  - en: bloody, damned (term of abuse)
+    examples:
+      - text: साले गधे की औलाद
+        en: Damned son of an ass.
+      - text: साली ज़िंदगी
+        en: Bloody life.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

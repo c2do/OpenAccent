@@ -1,0 +1,29 @@
+word: قوة
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - guwwa
+pronunciation:
+  ipa: /ɡuw.wa/
+part_of_speech: noun
+meanings:
+  - en: power
+    examples: []
+  - en: strength
+    examples: []
+  - en: intensity, severity
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D9%88%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

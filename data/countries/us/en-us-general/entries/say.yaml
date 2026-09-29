@@ -1,0 +1,25 @@
+word: say
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /seɪ/
+part_of_speech: intj
+meanings:
+  - en: Used to gain someone's attention before making an inquiry or suggestion
+    examples:
+      - text: Say, what did you think about the movie?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/say#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

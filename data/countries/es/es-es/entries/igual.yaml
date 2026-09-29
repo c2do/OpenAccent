@@ -1,0 +1,28 @@
+word: igual
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /iˈɡwal/
+part_of_speech: adv
+meanings:
+  - en: maybe
+    examples:
+      - text: Esta noche igual van al teatro.
+        en: Tonight maybe they’ll go to the cinema.
+      - text: Igual lo hago esta tarde.
+        en: Maybe I'll do it tonight.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/igual#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

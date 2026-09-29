@@ -1,0 +1,28 @@
+word: रट्टा मारना
+dialect: hi-in
+type: phrase
+spellings: []
+romanized:
+  - raṭṭā mārnā
+pronunciation:
+  ipa: /ɾəʈ.ʈɑː mɑːɾ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to memorize through repetition; to learn by rote without attention to
+      comprehension or thought for the meaning
+    examples:
+      - text: रट्टा मत मारो, सीखना बेहतर है।
+        en: Do not memorize, it is better to learn.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B0%E0%A4%9F%E0%A5%8D%E0%A4%9F%E0%A4%BE_%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

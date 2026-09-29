@@ -1,0 +1,27 @@
+word: قل
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - gall
+pronunciation:
+  ipa: /ɡall/
+part_of_speech: verb
+meanings:
+  - en: to be few, to be little
+    examples: []
+  - en: to become few, to become little
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D9%84#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: coincé
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kwɛ̃.se/
+meanings:
+  - en: not at ease, unconfident, uptight, stuck up; close-minded
+    examples:
+      - text: T'es trop coincé comme type, détends-toi un coup.
+        en: You're such an uptight guy, relax a little.
+  - en: a tightass, an uptight person
+    examples:
+      - text: C'est un gros coincé.
+        en: He's a real prude.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/coinc%C3%A9#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: new
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /n(j)ʉw/
+part_of_speech: noun
+meanings:
+  - en: A naval cadet who has just embarked on training.
+    examples:
+      - text: In the Britannia "news" were worms, to be trodden on […]
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/new#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

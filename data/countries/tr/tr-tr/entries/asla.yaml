@@ -1,0 +1,26 @@
+word: asla
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈas.ɫaː/
+part_of_speech: adv
+meanings:
+  - en: never (as a matter of principle or intent; compare hiç)
+    examples:
+      - text: Bunu yaparsan seni asla affetmem.
+        en: If you do this I'll never forgive you.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/asla#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

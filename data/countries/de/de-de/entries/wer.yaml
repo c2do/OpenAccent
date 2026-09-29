@@ -1,0 +1,30 @@
+word: wer
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /veːr/
+part_of_speech: pron
+meanings:
+  - en: what, which (one) (see usage notes)
+    examples: []
+  - en: somebody, someone; anybody, anyone (an unspecified person)
+    examples:
+      - text: Da ist wer an der Tür.
+        en: There's someone at the door.
+      - text: Riepel. Das ist ein Geschrey, als ob wer gestorben wäre.
+        en: Riepel. All this wailing, it's as though someone had died.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wer#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

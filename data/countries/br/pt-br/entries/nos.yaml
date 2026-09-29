@@ -1,0 +1,26 @@
+word: nós
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnɔ(j)s/
+part_of_speech: pron
+meanings:
+  - en: first-person plural objective personal pronoun; us
+    examples:
+      - text: Ele derrubou nós!
+        en: He knocked us down!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/n%C3%B3s#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

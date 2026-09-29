@@ -1,0 +1,30 @@
+word: olmak
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /oɫˈmak/
+part_of_speech: verb
+meanings:
+  - en: to become, come to exist, come into being
+    examples: []
+  - en: to happen, occur, be, take place, befall
+    examples: []
+  - en: to be, to have or occupy a place or position, be located or situated at
+    examples: []
+  - en: to have, own
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/olmak#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

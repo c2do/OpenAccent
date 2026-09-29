@@ -1,0 +1,32 @@
+word: شرطة
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - šurṭa
+  - šarṭa
+pronunciation:
+  ipa: /ʃur.tˤa/
+part_of_speech: noun
+meanings:
+  - en: police
+    examples: []
+  - en: policemen (plural)
+    examples: []
+  - en: hyphen
+    examples: []
+  - en: dash
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D8%B1%D8%B7%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

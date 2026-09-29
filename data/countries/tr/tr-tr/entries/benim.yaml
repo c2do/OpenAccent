@@ -1,0 +1,31 @@
+word: benim
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bé.nim/
+part_of_speech: pron
+meanings:
+  - en: predicative of ben (“I”); I am me
+    examples: []
+  - en: predicative of ben (“I”); it’s me
+    examples:
+      - text: |-
+          Kim o, deme boşuna…
+          Benim, ben.
+          Öyle bir ben ki gelen kapına;
+          Başdan başa sen.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/benim#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,38 @@
+word: unit
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈjuː.nɪt/
+part_of_speech: noun
+meanings:
+  - en: Any piece of equipment, such as an appliance, power tool, stereo system,
+      computer, tractor, or machinery.
+    examples:
+      - text: This air-conditioner is the most efficient unit we sell.
+  - en: A measure of housing equivalent to the living quarters of one household; an
+      apartment where a group of apartments is contained in one or more
+      multi-storied buildings or a group of dwellings is in one or more single
+      storey buildings, usually arranged around a driveway.
+    examples:
+      - text: The new apartment complex will have 50 units.
+  - en: Any military element whose structure is prescribed by competent authority,
+      such as a table of organization and equipment; specifically, part of an
+      organization.
+    examples: []
+  - en: An organization title of a subdivision of a group in a task force.
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/unit#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

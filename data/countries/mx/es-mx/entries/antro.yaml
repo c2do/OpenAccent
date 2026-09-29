@@ -1,0 +1,30 @@
+word: antro
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈantɾo/
+part_of_speech: noun
+meanings:
+  - en: dive, club (disreputable nightclub)
+    examples:
+      - text: Este último mes, varias publicaciones en redes sociales dieron cuenta de
+          la última rebelión de los antros, como se les conoce en el país,
+          contra la prohibición de las autoridades.
+        en: This last month, several publications on social media have gotten wind of
+          the latest rebellion of the dive bars, as they are known in the
+          country, against restriction by authorities.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/antro#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

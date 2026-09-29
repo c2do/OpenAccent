@@ -1,0 +1,27 @@
+word: هلا
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - hala
+pronunciation:
+  ipa: /ha.la/
+part_of_speech: intj
+meanings:
+  - en: hi
+    examples: []
+  - en: hey (greeting)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D9%84%D8%A7#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

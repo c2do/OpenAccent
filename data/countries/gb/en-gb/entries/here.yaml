@@ -1,0 +1,26 @@
+word: here
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhɪə̯/
+part_of_speech: intj
+meanings:
+  - en: Used for emphasis at the beginning of a sentence when expressing an opinion
+      or want.
+    examples:
+      - text: Here, I'm tired and I want a drink.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/here#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

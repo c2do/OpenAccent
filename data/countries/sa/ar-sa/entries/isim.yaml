@@ -1,0 +1,27 @@
+word: اسم
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - isim
+pronunciation:
+  ipa: /i.sim/
+part_of_speech: noun
+meanings:
+  - en: name
+    examples: []
+  - en: noun
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%85#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

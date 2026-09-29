@@ -1,0 +1,31 @@
+word: vent
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /vɑ̃/
+part_of_speech: noun
+meanings:
+  - en: wind instrument
+    examples:
+      - text: se prendre un vent
+        en: to be completely blanked, to receive no answer, to be rebuffed by having
+          one's advances ignored
+      - text: mettre un vent à quelqu'un, faire un vent à quelqu'un, foutre un vent à
+          quelqu'un
+        en: to ignore someone, to give someone the cold shoulder, to brush someone off,
+          to diss someone
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/vent#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

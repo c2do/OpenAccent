@@ -1,0 +1,27 @@
+word: parado
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /paˈɾado/
+part_of_speech: adj
+meanings:
+  - en: erect (a penis, when using masculine nouns, preceded by the verb tener or
+      traer)
+    examples:
+      - text: Ese lo trae parado.
+        en: That guy has a hard-on.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/parado#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

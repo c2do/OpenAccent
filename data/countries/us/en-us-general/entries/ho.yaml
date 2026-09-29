@@ -1,0 +1,32 @@
+word: ho
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /həʊ/
+meanings:
+  - en: A whore; a sexually promiscuous woman; in general use as a highly offensive
+      term of abuse for a woman with connotations of loose sexuality.
+    examples:
+      - text: Bros before hoes!
+      - text: So you want to see the show? You really don't have to be a ho.
+  - en: A woman in general; a bitch.
+    examples: []
+  - en: To act as a ho, to prostitute.
+    examples:
+      - text: She holds down a decent job during the day, but is secretly hoeing around
+          with at least 5 different trifling men.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ho#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

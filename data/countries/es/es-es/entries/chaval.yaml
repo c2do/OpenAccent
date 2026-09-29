@@ -1,0 +1,28 @@
+word: chaval
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃaˈbal/
+part_of_speech: noun
+meanings:
+  - en: kid, boy
+    examples: []
+  - en: buddy, guy
+    examples:
+      - text: En el parque de las balas / Tardes y noches, fines de semanas / Con los
+          chavales y con las chavalas
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chaval#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

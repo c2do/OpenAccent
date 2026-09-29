@@ -1,0 +1,31 @@
+word: छक्का
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - chakkā
+pronunciation:
+  ipa: /t͡ʃʰək.kɑː/
+part_of_speech: noun
+meanings:
+  - en: any set of six; sixer
+    examples: []
+  - en: any set of six; a six
+    examples: []
+  - en: a eunuch
+    examples: []
+  - en: a transgender person
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9B%E0%A4%95%E0%A5%8D%E0%A4%95%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

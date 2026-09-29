@@ -1,0 +1,27 @@
+word: C
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /siː/
+part_of_speech: noun
+meanings:
+  - en: One hundred dollars; a c-note.
+    examples:
+      - text: I keep on fairbanking the chump until he is between a poop and a sweat.
+          The score is half a C and he's broke.
+      - text: Five C's. Straight in-and-out job. Nothing fancy.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/C#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

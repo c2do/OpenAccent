@@ -1,0 +1,25 @@
+word: بقى
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - bqā
+pronunciation:
+  ipa: /bqaː/
+part_of_speech: verb
+meanings:
+  - en: to remain, to stay
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D9%82%D9%89#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

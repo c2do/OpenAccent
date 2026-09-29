@@ -1,0 +1,29 @@
+word: hemen
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /heˈmæn/
+meanings:
+  - en: immediately, without delay
+    examples: []
+  - en: more or less
+    examples: []
+  - en: very (used before prepositions)
+    examples:
+      - text: hemen yanında
+        en: very near (to it)
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hemen#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

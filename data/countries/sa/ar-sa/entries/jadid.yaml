@@ -1,0 +1,25 @@
+word: جديد
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - jadīd
+pronunciation:
+  ipa: /d͡ʒa.diːd/
+part_of_speech: adj
+meanings:
+  - en: new
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AC%D8%AF%D9%8A%D8%AF#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

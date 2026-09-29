@@ -1,0 +1,25 @@
+word: चिपकू
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - cipkū
+pronunciation:
+  ipa: /t͡ʃɪp.kuː/
+part_of_speech: noun
+meanings:
+  - en: a clingy person
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A4%BF%E0%A4%AA%E0%A4%95%E0%A5%82#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

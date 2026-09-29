@@ -1,0 +1,26 @@
+word: nur
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /nuːɐ̯/
+part_of_speech: conj
+meanings:
+  - en: but
+    examples:
+      - text: Ich wär auf jeden Fall dabei, nur ich hab echt keine Zeit.
+        en: I’d definitely come along, but I really don’t have the time.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nur#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

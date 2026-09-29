@@ -1,0 +1,30 @@
+word: chupar
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃuˈpaɾ/
+part_of_speech: verb
+meanings:
+  - en: to drink an alcoholic beverage
+    examples: []
+  - en: to consume too fast or waste money, gasoline or another resource
+    examples: []
+  - en: to lose muscular mass or strength
+    examples: []
+  - en: to lose one's youthful or not-too-mature appearance
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chupar#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

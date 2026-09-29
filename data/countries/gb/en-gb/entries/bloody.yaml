@@ -1,0 +1,30 @@
+word: bloody
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈblʌ.di/
+meanings:
+  - en: Used as an intensifier.
+    examples:
+      - text: Traffic in central London was a bloody mess this morning.
+      - text: There seems to be something wrong with our bloody ships today.
+  - en: Used to express anger, annoyance, or shock, or for emphasis.
+    examples:
+      - text: Walk! Not bloody likely. [Sensation]. I am going in a taxi. [She goes
+          out].
+      - text: '"Dice are no bloody good," David said.'
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bloody#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

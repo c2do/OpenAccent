@@ -1,0 +1,29 @@
+word: गोरी
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - gorī
+pronunciation:
+  ipa: /ɡoː.ɾiː/
+part_of_speech: noun
+meanings:
+  - en: A fair woman.
+    examples: []
+  - en: A Caucasian woman.
+    examples: []
+  - en: A blonde woman.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%97%E0%A5%8B%E0%A4%B0%E0%A5%80#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,34 @@
+word: bird
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɜːd/
+part_of_speech: noun
+meanings:
+  - en: A girl or woman, especially one considered sexually attractive.
+    examples:
+      - text: And by my word! the bonny bird / In danger shall not tarry.
+      - text: Are you calling me “darlin’”? / Are you calling me “bird”?
+  - en: A girl or woman, especially one considered sexually attractive.; A
+      girlfriend.
+    examples:
+      - text: Mike went out with his bird last night.
+  - en: Booing and jeering, especially as done by an audience expressing displeasure
+      at a performer.
+    examples:
+      - text: to give the bird
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bird#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: grana
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡɾɐ̃.nɐ/
+part_of_speech: noun
+meanings:
+  - en: money; cash; dough
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/grana#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

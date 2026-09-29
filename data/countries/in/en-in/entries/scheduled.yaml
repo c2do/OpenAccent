@@ -1,0 +1,26 @@
+word: scheduled
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: Included in a Schedule of the Indian Constitution, and as such is recognised
+      by the government as eligible for special protection and consideration;
+      afforded special concessions
+    examples:
+      - text: "Near-synonym: recognized"
+      - text: scheduled caste; scheduled tribe; scheduled language
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/scheduled#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

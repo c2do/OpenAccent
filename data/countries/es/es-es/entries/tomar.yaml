@@ -1,0 +1,29 @@
+word: tomar
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /toˈmaɾ/
+part_of_speech: verb
+meanings:
+  - en: to take (put under one's physical or mental control, often in one's hands);
+      to draw from, take, derive
+    examples:
+      - text: En la creación de Star Wars, se tomaron* elementos del cine de samuráis.
+        en: |-
+          When creating Star Wars, they drew elements from samurai cinema.
+          *passive construction, in this sense the verb is usually not reflexive
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tomar#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

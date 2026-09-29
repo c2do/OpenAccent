@@ -1,0 +1,33 @@
+word: पकाना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - pakānā
+pronunciation:
+  ipa: /pə.kɑː.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to cook, prepare food
+    examples:
+      - text: हमें चार लोगों के लिए खाना पकाना हैं।
+        en: We have to cook food for four people.
+  - en: to ripen
+    examples: []
+  - en: to fire, bake (bricks)
+    examples: []
+  - en: to arrange, settle; make ready
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%95%E0%A4%BE%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

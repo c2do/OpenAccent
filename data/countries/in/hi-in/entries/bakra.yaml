@@ -1,0 +1,27 @@
+word: बकरा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bakrā
+pronunciation:
+  ipa: /bək.ɾɑː/
+part_of_speech: noun
+meanings:
+  - en: billy goat, male goat
+    examples: []
+  - en: scapegoat
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%95%E0%A4%B0%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: fogo
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfo.ɡu/
+part_of_speech: noun
+meanings:
+  - en: pain in the ass (someone or something that is hard to deal with)
+    examples:
+      - text: Seu filho é fogo.
+        en: Your kid is a pain in the ass.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fogo#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

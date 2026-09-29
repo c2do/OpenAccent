@@ -1,0 +1,24 @@
+word: asked
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɑːskt/
+part_of_speech: adj
+meanings:
+  - en: Arsed (bothered; willing to make an effort).
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/asked#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

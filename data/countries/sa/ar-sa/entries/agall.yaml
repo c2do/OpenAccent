@@ -1,0 +1,25 @@
+word: أقل
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ʔagall
+pronunciation:
+  ipa: /ʔa.ɡall/
+part_of_speech: adj
+meanings:
+  - en: "elative degree of قليل (galīl): less, least"
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D9%82%D9%84#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

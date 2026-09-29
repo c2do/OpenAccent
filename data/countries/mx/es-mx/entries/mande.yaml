@@ -1,0 +1,24 @@
+word: mande
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmande/
+part_of_speech: intj
+meanings:
+  - en: Used as a polite invitation for a person to state what they need, want, etc.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mande#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

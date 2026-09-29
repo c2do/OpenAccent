@@ -1,0 +1,22 @@
+word: mısın
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+part_of_speech: particle
+meanings:
+  - en: second-person singular simple of mı
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/m%C4%B1s%C4%B1n#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

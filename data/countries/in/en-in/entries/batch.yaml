@@ -1,0 +1,26 @@
+word: batch
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bæt͡ʃ/
+part_of_speech: noun
+meanings:
+  - en: A group or collection of things of the same kind, such as a batch of letters
+      or the next batch of business.; A graduating class; school class.
+    examples:
+      - text: She was the valedictorian of Batch ’73.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/batch#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

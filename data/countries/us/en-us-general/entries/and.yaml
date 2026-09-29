@@ -1,0 +1,28 @@
+word: and
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈænd/
+part_of_speech: conj
+meanings:
+  - en: Expressing a condition.; If; provided that.
+    examples:
+      - text: '"Where ys Sir Launcelot?" seyde King Arthure. "And he were here, he wolde
+          nat grucche to do batayle for you."'
+      - text: "Peter answered, and sayde: master, and thou be he, bidde me come unto the
+          on the water."
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/and#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

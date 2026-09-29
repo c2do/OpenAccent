@@ -1,0 +1,25 @@
+word: سفينة
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - sfīna
+pronunciation:
+  ipa: /sfiː.na/
+part_of_speech: noun
+meanings:
+  - en: ship
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B3%D9%81%D9%8A%D9%86%D8%A9#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: محل
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - maḥall
+pronunciation:
+  ipa: /maħalː/
+part_of_speech: noun
+meanings:
+  - en: place, location
+    examples: []
+  - en: store
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%AD%D9%84#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

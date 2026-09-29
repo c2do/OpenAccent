@@ -1,0 +1,27 @@
+word: chino
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈt͡ʃino/
+part_of_speech: noun
+meanings:
+  - en: a Chinese-run establishment; (US) variety store, dollar store, dime store,
+      five-and-dime, (UK) pound shop (owned by a Chinese immigrant)
+    examples: []
+  - en: heroin (taken by chasing the dragon)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chino#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

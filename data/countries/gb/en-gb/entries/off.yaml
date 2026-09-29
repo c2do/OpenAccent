@@ -1,0 +1,32 @@
+word: off
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɒf/
+part_of_speech: adj
+meanings:
+  - en: Denoting something faulty, unsatisfactory, objectionable etc.; Rancid,
+      rotten, gone bad.
+    examples:
+      - text: This milk is off!
+  - en: On the side furthest from the kerb (the right-hand side if one drives on the
+      left).
+    examples:
+      - text: The off front wheel came loose.
+      - text: The man and the horse came closer and were Sonny Jacobs of the Diamond Six
+          and a smallish neat sorrel definitely favouring its off forefoot.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/off#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

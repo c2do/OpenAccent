@@ -1,0 +1,30 @@
+word: عمر
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ʕammar
+  - ʕmur
+  - ʕmar
+pronunciation:
+  ipa: /ʕam.mar/
+meanings:
+  - en: to fill (a container, etc.)
+    examples: []
+  - en: to never do (used with object pronoun as agent)
+    examples: []
+  - en: age
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%85%D8%B1#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

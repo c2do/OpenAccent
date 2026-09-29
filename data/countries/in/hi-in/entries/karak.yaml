@@ -1,0 +1,28 @@
+word: कड़क
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kaṛak
+pronunciation:
+  ipa: /kə.ɽək/
+meanings:
+  - en: crack, boom; a sudden loud sound
+    examples: []
+  - en: intense
+    examples: []
+  - en: hot, sexy
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%A1%E0%A4%BC%E0%A4%95#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,41 @@
+word: लेना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - lenā
+pronunciation:
+  ipa: /leː.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to take
+    examples:
+      - text: बैंक से ऋण लेना पड़ेगा।
+        en: I'll have to take a loan from the bank.
+      - text: आज वह स्कूल से छुट्टी लेना चाहता है।
+        en: He wants to take a holiday from school today.
+  - en: to buy, get
+    examples:
+      - text: मैं नई घड़ी लेना चाहता हूँ।
+        en: I want to buy a new watch.
+  - en: to take on
+    examples:
+      - text: अवतार लेना
+        en: to take on a new form
+  - en: an element of compound verbs; indicates completion
+    examples:
+      - text: खाना ख़त्म कर लिया।
+        en: They have (just now) finished their food.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B2%E0%A5%87%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: चंकट
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - caṅkaṭ
+pronunciation:
+  ipa: /t͡ʃəŋ.kəʈ/
+part_of_speech: noun
+meanings:
+  - en: a slap on the face
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A4%82%E0%A4%95%E0%A4%9F#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

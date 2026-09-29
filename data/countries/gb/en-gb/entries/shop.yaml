@@ -1,0 +1,29 @@
+word: shop
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʃɒp/
+meanings:
+  - en: The collective items bought (or to be bought) on a shopping trip.
+    examples:
+      - text: I’ve got a big shop, so feel free to go in front.
+  - en: To report the criminal activities or whereabouts of someone to an authority.
+    examples:
+      - text: He shopped his mates in to the police.
+  - en: To imprison.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/shop#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

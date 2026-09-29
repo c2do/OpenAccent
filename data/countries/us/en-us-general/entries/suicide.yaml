@@ -1,0 +1,26 @@
+word: suicide
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈs(j)uːɪˌsaɪd/
+part_of_speech: noun
+meanings:
+  - en: A beverage combining all available flavors at a soda fountain.
+    examples:
+      - text: Using Coca-Cola as a base, a suicide called for the addition of every
+          other flavor available.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/suicide#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

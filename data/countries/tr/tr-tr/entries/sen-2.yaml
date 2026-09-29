@@ -1,0 +1,26 @@
+word: şen
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʃen/
+part_of_speech: adj
+meanings:
+  - en: happy, cheerful
+    examples: []
+  - en: well-populated and prosperous, flourishing, thriving
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C5%9Fen#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

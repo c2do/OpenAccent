@@ -1,0 +1,29 @@
+word: भक्त
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bhakt
+pronunciation:
+  ipa: /bʱəkt̪/
+part_of_speech: noun
+meanings:
+  - en: devotee, adorer
+    examples: []
+  - en: bhakt (ardent right-wing Hindu nationalist netizen)
+    examples:
+      - text: लेकिन, राजनीति की जमीनी असलियत भक्तों को नजर नहीं आ रही।
+        en: However, the bhakts do not understand the actual political situation.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AD%E0%A4%95%E0%A5%8D%E0%A4%A4#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

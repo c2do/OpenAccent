@@ -1,0 +1,25 @@
+word: get
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡɛt/
+part_of_speech: noun
+meanings:
+  - en: Synonym of git (“contemptible person”).
+    examples:
+      - text: "Kylie: Oi, Bono! You lazy get! Have you finished my song yet?"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/get#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

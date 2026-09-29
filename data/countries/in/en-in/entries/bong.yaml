@@ -1,0 +1,22 @@
+word: Bong
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A Bengali (from West Bengal).
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Bong#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

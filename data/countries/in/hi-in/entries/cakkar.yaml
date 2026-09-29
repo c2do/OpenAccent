@@ -1,0 +1,35 @@
+word: चक्कर
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - cakkar
+pronunciation:
+  ipa: /t͡ʃək.kəɾ/
+part_of_speech: noun
+meanings:
+  - en: curve, turn, circle; spiral
+    examples: []
+  - en: roundabout, traffic circle
+    examples: []
+  - en: dizziness, lightheadedness
+    examples:
+      - text: चक्कर आना
+        en: to feel dizzy
+  - en: affair
+    examples:
+      - text: उनके बीच कुछ चक्कर चल रहा है क्या?
+        en: Is there some sort of affair happening between them?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A4%95%E0%A5%8D%E0%A4%95%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

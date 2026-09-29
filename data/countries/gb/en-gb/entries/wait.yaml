@@ -1,0 +1,29 @@
+word: wait
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /weɪt/
+part_of_speech: noun
+meanings:
+  - en: Musicians who sing or play at night or in the early morning, especially at
+      Christmas time; serenaders; musical watchmen.
+    examples:
+      - text: Hark! are the waits abroad?
+      - text: "[…] the waits begin their rounds, and going from house to house, […] they
+          sing carols and Christmas hymns until […] another Christmas-day has
+          dawned.[…]"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wait#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

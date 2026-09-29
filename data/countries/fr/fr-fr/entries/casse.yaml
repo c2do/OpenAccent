@@ -1,0 +1,27 @@
+word: casse
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kas/
+part_of_speech: noun
+meanings:
+  - en: burglary, break-in
+    examples: []
+  - en: ruckus; mayhem
+    examples:
+      - text: Il va y avoir de la casse !
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/casse#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

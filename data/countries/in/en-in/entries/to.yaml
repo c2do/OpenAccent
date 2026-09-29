@@ -1,0 +1,25 @@
+word: to
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t̪oː/
+part_of_speech: particle
+meanings:
+  - en: A filler word common amongst urban Indians.
+    examples:
+      - text: I am to so bored right now.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/to#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

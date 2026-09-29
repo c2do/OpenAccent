@@ -1,0 +1,27 @@
+word: راس
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - rās
+pronunciation:
+  ipa: /raːs/
+part_of_speech: noun
+meanings:
+  - en: head
+    examples: []
+  - en: beginning
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B1%D8%A7%D8%B3#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

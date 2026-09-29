@@ -1,0 +1,40 @@
+word: diye
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[dijɛ]"
+part_of_speech: adv
+meanings:
+  - en: someone who is named ..., something which is called ...
+    examples:
+      - text: '"Zafer" diye biri.'
+        en: Someone named "Zafer"
+      - text: Hiç "peskütan" diye bir peynir türü duymuş muydun?
+        en: Have you ever heard of a kind of cheese called "peskütan?"
+  - en: in order to, to, for to
+    examples:
+      - text: Okula gitmesin diye dolaba saklandı!
+        en: He/she hid in the closet in order not to go to school!
+  - en: because
+    examples:
+      - text: Kullanmıyorum diye kartımı iptal etmişler.
+        en: They've canceled my card because I wasn't using it.
+  - en: as
+    examples:
+      - text: Tüm soruları "bilmiyorum" diye cevapladın.
+        en: You answered all the questions as "I don't know"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/diye#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

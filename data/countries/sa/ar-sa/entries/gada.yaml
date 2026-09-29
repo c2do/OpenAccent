@@ -1,0 +1,25 @@
+word: غدا
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ḡada
+pronunciation:
+  ipa: /ɣa.da/
+part_of_speech: noun
+meanings:
+  - en: lunch
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%BA%D8%AF%D8%A7#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

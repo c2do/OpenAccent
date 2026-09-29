@@ -1,0 +1,25 @@
+word: بدا
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - bdā
+pronunciation:
+  ipa: /bdaː/
+part_of_speech: verb
+meanings:
+  - en: to begin, to start
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%AF%D8%A7#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

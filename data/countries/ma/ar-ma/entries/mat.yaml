@@ -1,0 +1,25 @@
+word: مات
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - māt
+pronunciation:
+  ipa: /maːt/
+part_of_speech: verb
+meanings:
+  - en: to die
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%A7%D8%AA#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

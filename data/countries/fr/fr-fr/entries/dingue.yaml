@@ -1,0 +1,36 @@
+word: dingue
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dɛ̃ɡ/
+meanings:
+  - en: mad, crazy, nuts
+    examples:
+      - text: Ce truc me rend dingue!
+        en: This thing drives me crazy!
+      - text: Elle te rend din-din, dingue / Quand elle a son poom poom short / Et ton
+          problème, c'est simplement qu'elle s'en moque / Elle te rend dingue,
+          bwoy !
+        en: She drives you cra-cra-crazy / With her pum pum shorts / And your problem is
+          that she just doesn't care / She drives you crazy, bwoy!
+  - en: incredible, unbelievable
+    examples: []
+  - en: madman, maniac
+    examples:
+      - text: La célébrité me faisait mener une existence de dingue.
+        en: Fame was leading me to a crazy existence.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dingue#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

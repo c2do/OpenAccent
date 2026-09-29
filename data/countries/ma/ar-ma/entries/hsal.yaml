@@ -1,0 +1,30 @@
+word: حصل
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ḥṣal
+  - ḥaṣṣal
+pronunciation:
+  ipa: /ħsˤal/
+part_of_speech: verb
+meanings:
+  - en: to be stuck
+    examples: []
+  - en: to obtain
+    examples: []
+  - en: to trap
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D8%B5%D9%84#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

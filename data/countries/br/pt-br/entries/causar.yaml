@@ -1,0 +1,26 @@
+word: causar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kawˈza(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to do something mischievous or for attention
+    examples:
+      - text: Esse cara gosta de causar.
+        en: That guy likes to play around.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/causar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

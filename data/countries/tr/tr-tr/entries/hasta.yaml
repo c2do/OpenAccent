@@ -1,0 +1,32 @@
+word: hasta
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /hasˈta/
+meanings:
+  - en: ill, sick
+    examples: []
+  - en: sick, wicked, perverted
+    examples:
+      - text: hasta düşünceler
+        en: sick ideas
+  - en: patient, sufferer
+    examples: []
+  - en: fanatic
+    examples:
+      - text: köpek hastası ― dog fanatic
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hasta#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

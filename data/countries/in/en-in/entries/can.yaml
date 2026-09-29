@@ -1,0 +1,29 @@
+word: can
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kæn/
+part_of_speech: verb
+meanings:
+  - en: To be (followed by a word like able, possible, allowed). third-person
+      singular simple present indicative of can
+    examples:
+      - text: "Importance of Identifying Leaf: Identify Plants: If we can able to
+          identify leaf, we can easily able to identify plants."
+      - text: It can possible to design the ruleset refreshes that allow them to
+          subsequently run at precise interludes and these keep informed.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/can#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

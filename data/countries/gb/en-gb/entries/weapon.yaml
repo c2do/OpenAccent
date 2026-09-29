@@ -1,0 +1,24 @@
+word: weapon
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈwɛp.ən/
+part_of_speech: noun
+meanings:
+  - en: An idiot, an oaf, a fool, a tool; a contemptible or incompetent person.
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/weapon#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: هدية
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - hdiyya
+pronunciation:
+  ipa: /hdij.ja/
+part_of_speech: noun
+meanings:
+  - en: gift
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D8%AF%D9%8A%D8%A9#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

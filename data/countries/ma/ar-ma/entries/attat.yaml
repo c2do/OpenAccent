@@ -1,0 +1,25 @@
+word: أتت
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ʔattat
+pronunciation:
+  ipa: /ʔat.tat/
+part_of_speech: verb
+meanings:
+  - en: to furnish
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D8%AA%D8%AA#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

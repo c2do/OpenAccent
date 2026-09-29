@@ -1,0 +1,31 @@
+word: tamam
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tɑˈmɑm/
+meanings:
+  - en: complete, without defects
+    examples: []
+  - en: complete, completed, finished
+    examples: []
+  - en: all, whole, complete
+    examples:
+      - text: hayatımın tamamı
+        en: all my life (literally, “the whole of my life”)
+  - en: OK
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tamam#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

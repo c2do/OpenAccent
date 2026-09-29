@@ -1,0 +1,28 @@
+word: bref
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bʁɛf/
+part_of_speech: adv
+meanings:
+  - en: in short, in brief, briefly
+    examples:
+      - text: Je vous ai déjà dit que cela ne se peut, que cela ne doit pas être ; bref,
+          je ne le veux pas.
+        en: I have already told you that that cannot be, that it must not be; in short,
+          I do not want it.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bref#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

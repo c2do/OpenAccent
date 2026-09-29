@@ -1,0 +1,27 @@
+word: गेड़ी मारना
+dialect: hi-in
+type: phrase
+spellings: []
+romanized:
+  - geṛī mārnā
+pronunciation:
+  ipa: /ɡeː.ɽiː mɑːɾ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to wander, stroll around
+    examples:
+      - text: चल, गेड़ी मारते हैं।
+        en: Come on, let's go on a stroll.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%97%E0%A5%87%E0%A4%A1%E0%A4%BC%E0%A5%80_%E0%A4%AE%E0%A4%BE%E0%A4%B0%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

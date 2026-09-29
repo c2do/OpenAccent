@@ -1,0 +1,33 @@
+word: majo
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmaxo/
+part_of_speech: adj
+meanings:
+  - en: kind, friendly, likeable, nice, pretty
+    examples:
+      - text: Ese chico es muy majo, siempre me ayuda.
+        en: That guy is very nice, he always helps me.
+  - en: good-looking, handsome
+    examples: []
+  - en: said of a person, neither ugly nor very pretty. Sometimes a euphemism for
+      not calling someone "ugly".
+    examples:
+      - text: ¿Te parece guapa esa chica? Bueno, es maja.
+        en: Do you think that girl is pretty? Well, she's okay.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/majo#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: आला
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ālā
+pronunciation:
+  ipa: /ə.(ʔ)lɑː/
+meanings:
+  - en: greatest; highest
+    examples: []
+  - en: supreme, chief, head
+    examples: []
+  - en: dignified; loftiest
+    examples: []
+  - en: great, brilliant; excellent
+    examples: []
+register: casual
+familiarity: rare
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%86%E0%A4%B2%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

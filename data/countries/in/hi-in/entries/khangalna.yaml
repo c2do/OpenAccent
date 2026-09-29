@@ -1,0 +1,35 @@
+word: खँगालना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - khaṅgālnā
+pronunciation:
+  ipa: /kʰəŋ.ɡɑːl.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to rinse, swill, wash out
+    examples: []
+  - en: to rummage through (a house, etc) for stealables (of thieves)
+    examples: []
+  - en: to probe, plumb, scrutinize, search thoroughly
+    examples:
+      - text: वक्त के साथ-साथ मुझे फेसबुक की लत लग गई। मैं यूँ ही किसी भी व्यक्ति को
+          अपने मित्रों की सूची में शामिल करने लगा, उनकी पोस्ट पढ़ने लगा, उनके
+          एलबम की तस्वीरें खँगालने लगा।
+        en: With time I became addicted to Facebook. I began to aimlessly add any person
+          to my friends list, read their posts, go through the photos of their
+          albums.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%96%E0%A4%81%E0%A4%97%E0%A4%BE%E0%A4%B2%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

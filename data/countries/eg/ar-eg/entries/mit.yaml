@@ -1,0 +1,30 @@
+word: ميت
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - mīt
+  - mayyit
+pronunciation:
+  ipa: /miːt/
+part_of_speech: adj
+meanings:
+  - en: a hundred
+    examples: []
+  - en: dead
+    examples: []
+  - en: idle, dormant; quiet
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D9%8A%D8%AA#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

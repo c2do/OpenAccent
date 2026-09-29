@@ -1,0 +1,24 @@
+word: bajar
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /baˈxaɾ/
+part_of_speech: verb
+meanings:
+  - en: to menstruate.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bajar#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

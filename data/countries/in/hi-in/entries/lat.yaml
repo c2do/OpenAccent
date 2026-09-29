@@ -1,0 +1,29 @@
+word: लात
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - lāt
+pronunciation:
+  ipa: /lɑːt̪/
+part_of_speech: noun
+meanings:
+  - en: kick, blow given from the foot
+    examples:
+      - text: लात मारना
+        en: to kick
+  - en: leg
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B2%E0%A4%BE%E0%A4%A4#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

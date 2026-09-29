@@ -1,0 +1,26 @@
+word: awful
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɔːfʊl/
+part_of_speech: adv
+meanings:
+  - en: Very, extremely.
+    examples:
+      - text: That's an awful big house.
+      - text: She seemed awful nice when I met her yesterday.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/awful#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

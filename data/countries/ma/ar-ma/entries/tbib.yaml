@@ -1,0 +1,25 @@
+word: طبيب
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ṭbīb
+pronunciation:
+  ipa: /tˤbiːb/
+part_of_speech: noun
+meanings:
+  - en: doctor, physician
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B7%D8%A8%D9%8A%D8%A8#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

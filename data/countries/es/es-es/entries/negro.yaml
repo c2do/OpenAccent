@@ -1,0 +1,26 @@
+word: negro
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈneɡɾo/
+part_of_speech: adj
+meanings:
+  - en: angry
+    examples:
+      - text: está negro
+        en: he's in a rage
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/negro#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

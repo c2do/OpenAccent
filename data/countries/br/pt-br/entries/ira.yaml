@@ -1,0 +1,24 @@
+word: irá
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /iˈɾa/
+part_of_speech: noun
+meanings:
+  - en: meliponine
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ir%C3%A1#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

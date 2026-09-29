@@ -1,0 +1,28 @@
+word: Hallo
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /haˈloː/
+part_of_speech: noun
+meanings:
+  - en: hullabaloo, cheering (often welcoming or celebratory)
+    examples:
+      - text: Die Siegerehrung fand mit einem großem Hallo um 18.30 Uhr am Dorfplatz
+          statt.
+        en: The award ceremony took place to loud cheering at 6:30pm on the village
+          square.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Hallo#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

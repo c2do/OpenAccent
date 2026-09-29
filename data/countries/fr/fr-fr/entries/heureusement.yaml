@@ -1,0 +1,25 @@
+word: heureusement
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /œ.ʁøz.mɑ̃/
+part_of_speech: intj
+meanings:
+  - en: and a good job too! and a good thing too! well that's lucky! I'm glad to
+      hear it! it's just as well! thank goodness!
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/heureusement#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

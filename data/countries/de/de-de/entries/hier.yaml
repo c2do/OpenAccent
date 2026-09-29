@@ -1,0 +1,31 @@
+word: hier
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /hiːr/
+part_of_speech: intj
+meanings:
+  - en: listen, hey; Used for emphasis or to call for attention, often when
+      broaching a new subject, but not as a greeting
+    examples:
+      - text: Hier, der Markus ist doch jetzt auch verheiratet, ne?
+        en: Hey, wait, Markus is married now, too, isn't he?
+      - text: '"Hier, ich wollte mal fragen: Ist im Dezember wirklich die Wolle alle?
+          Und wird die Seife gestreckt?"'
+        en: '"Hey, so I wanted to ask: Are we really going to run out of wool in
+          December? And is the soap being stretched?"'
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hier#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

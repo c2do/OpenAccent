@@ -1,0 +1,33 @@
+word: olay
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /oˈɫaj/
+part_of_speech: noun
+meanings:
+  - en: event, happening, incident, phenomenon
+    examples: []
+  - en: thing (a genuine concept, entity or phenomenon; something that actually
+      exists)
+    examples: []
+  - en: very impressive, eye-catching
+    examples:
+      - text: Kombinin olay resmen!
+        en: Your outift slays!
+      - text: aşko insta'da bi' çocuk bulmuşum var ya olay
+        en: gurl I've found a boy on insta he's hot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/olay#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

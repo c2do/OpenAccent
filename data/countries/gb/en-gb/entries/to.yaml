@@ -1,0 +1,24 @@
+word: to
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+part_of_speech: adv
+meanings:
+  - en: Toward a closed, touching, or engaging position.
+    examples:
+      - text: Please push the door to.
+      - text: He went in his room, pushed the door to, without fastening the latch.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/to#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

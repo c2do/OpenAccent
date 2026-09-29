@@ -1,0 +1,23 @@
+word: قطع
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ʔaṭaʕ
+part_of_speech: verb
+meanings:
+  - en: to cut
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%B7%D8%B9#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

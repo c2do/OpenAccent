@@ -1,0 +1,27 @@
+word: bomb
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɒm/
+part_of_speech: noun
+meanings:
+  - en: A car in poor condition.
+    examples:
+      - text: Nowadays, an old bomb simply won’t pass the inspection.
+      - text: We′ve got the money and it just feels ridiculous to let you drive around
+          in that old bomb.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bomb#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

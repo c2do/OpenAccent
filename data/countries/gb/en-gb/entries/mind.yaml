@@ -1,0 +1,25 @@
+word: mind
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /maɪnd/
+part_of_speech: verb
+meanings:
+  - en: Take note; used to point out an exception or caveat.
+    examples:
+      - text: I'm not very healthy. I do eat fruit sometimes, mind.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mind#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

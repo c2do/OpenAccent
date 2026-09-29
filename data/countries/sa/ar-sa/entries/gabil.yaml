@@ -1,0 +1,27 @@
+word: قبل
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - gabil
+  - gibil
+pronunciation:
+  ipa: /ɡa.bil/
+meanings:
+  - en: before, prior to
+    examples: []
+  - en: to accept, to agree to something
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%A8%D9%84#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

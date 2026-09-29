@@ -1,0 +1,27 @@
+word: und
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʊnt/
+part_of_speech: conj
+meanings:
+  - en: links two nouns, often a person and an activity, in rhetoric questions to
+      express an opposition between them
+    examples:
+      - text: Er und Abwaschen? Vielleicht einmal im Jahr!
+        en: Him doing the dishes? Maybe once per year!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/und#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

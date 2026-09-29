@@ -1,0 +1,24 @@
+word: ones
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /wʌnz/
+part_of_speech: noun
+meanings:
+  - en: The cells located on the ground floor.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ones#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

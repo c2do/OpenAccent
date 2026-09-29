@@ -1,0 +1,30 @@
+word: भसड़
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bhasaṛ
+pronunciation:
+  ipa: /bʱə.səɽ/
+part_of_speech: noun
+meanings:
+  - en: untidiness, disorder, mess, dishevelment
+    examples: []
+  - en: chaos, mess, ruckus, bewilderment
+    examples:
+      - text: "[…] जिंदगी की भसड़ से दूर जिंदगी के मजे लेने में अलग मजा है। 🤠😎😁"
+        en: There is a unique pleasure in enjoying life away from the hustle and bustle
+          of life.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AD%E0%A4%B8%E0%A4%A1%E0%A4%BC#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

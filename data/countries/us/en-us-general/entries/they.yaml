@@ -1,0 +1,32 @@
+word: they
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈðeɪ̯/
+meanings:
+  - en: Their.
+    examples:
+      - text: It's a shame to see someone talk so bad about the gays and lesbians in
+          prison. She is brainwash to the fact that she think every gay and
+          lesbian in prison is guilty of they crimes.
+      - text: But all they kids be listenin' to me religiously / So I'm signin' CDs
+          while police fingerprint me
+  - en: There (especially as an expletive subject of be).
+    examples:
+      - text: They’s music in the twitter of the bluebird and the jay.
+      - text: They ain’t nothin’ wrong with that.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/they#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

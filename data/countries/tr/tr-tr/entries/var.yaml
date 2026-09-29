@@ -1,0 +1,39 @@
+word: var
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /vɑɾ/
+meanings:
+  - en: there is, there are (not a verb)
+    examples:
+      - text: İstanbul'da bir kervansaray var.
+        en: There is a caravanserai in Istanbul.
+      - text: Yediye yirmi beş var.
+        en: It's twenty-five to seven.
+  - en: it exists
+    examples:
+      - text: Düşünüyorum, öyleyse varım
+        en: I think, therefore I am
+      - text: Pirinç var mı? — Evet, var.
+        en: Is there any rice? — Yes, there is.
+  - en: Expressing possession, equivalent of have.
+    examples:
+      - text: İki teyzem ve bir dayım var.
+        en: I have two aunts and an uncle.
+  - en: every, all
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/var#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

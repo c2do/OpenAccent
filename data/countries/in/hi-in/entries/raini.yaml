@@ -1,0 +1,30 @@
+word: रैनी
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - rainī
+pronunciation:
+  ipa: /ɾɛː.niː/
+part_of_speech: noun
+meanings:
+  - en: Colouring; colour; extracting colour (from plants or flowers, as safflower
+      etc.).
+    examples: []
+  - en: to have the monthly discharge
+    examples: []
+  - en: lump of gold or silver used to draw wire
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B0%E0%A5%88%E0%A4%A8%E0%A5%80#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

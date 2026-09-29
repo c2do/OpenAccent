@@ -1,0 +1,25 @@
+word: from
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfɹɒm/
+part_of_speech: prep
+meanings:
+  - en: Indicating removal or separation.; Denoting a subtraction operation.
+    examples:
+      - text: 20 from 31 leaves 11.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/from#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

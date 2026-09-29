@@ -1,0 +1,29 @@
+word: बौड़म
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bauṛam
+pronunciation:
+  ipa: /bɔː.ɽəm/
+part_of_speech: adj
+meanings:
+  - en: silly, stupid, crazy
+    examples: []
+  - en: stupid, silly, nincompoop
+    examples:
+      - text: मेरा उसूल किसी को पसन्द नहीं, इसलिए मैं बौड़म हूँ।
+        en: My principles aren't liked by anyone, that's why I'm [called] crazy.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A5%8C%E0%A4%A1%E0%A4%BC%E0%A4%AE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

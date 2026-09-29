@@ -1,0 +1,31 @@
+word: faire
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fɛʁ/
+part_of_speech: verb
+meanings:
+  - en: to do (to have sex with)
+    examples: []
+  - en: to defecate; (metaphorically) to soil oneself, to poop one's pants (to be
+      terrified)
+    examples:
+      - text: L'enfant a fait dans son pantalon.
+        en: The child soiled his trousers.
+      - text: Ils viennent d'entendre les nouvelles et ils font dans leur culotte.
+        en: They've just heard the news and they're soiling themselves.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/faire#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

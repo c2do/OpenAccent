@@ -1,0 +1,31 @@
+word: भजन
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bhajan
+pronunciation:
+  ipa: /bʱə.d͡ʒən/
+part_of_speech: noun
+meanings:
+  - en: devotional song, hymn, bhajan
+    examples: []
+  - en: servitude, devotion
+    examples: []
+  - en: ardent support, fanhood
+    examples:
+      - text: वह रोज़ शाहरुख़ खान का भजन करता है।
+        en: He literally worships Shah Rukh Khan every day.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AD%E0%A4%9C%E0%A4%A8#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

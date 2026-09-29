@@ -1,0 +1,33 @@
+word: son
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈson/
+meanings:
+  - en: last, final
+    examples:
+      - text: son nefes
+        en: one's last breath
+  - en: end, ending
+    examples:
+      - text: çocukluğun sonu
+        en: the end of childhood
+  - en: consequence, result, conclusion
+    examples: []
+  - en: placenta
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/son#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

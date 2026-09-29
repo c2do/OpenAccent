@@ -1,0 +1,26 @@
+word: Musik
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /muˈziːk/
+part_of_speech: noun
+meanings:
+  - en: a band, mostly one performing at some event
+    examples:
+      - text: Die Musik ist noch beim Essen, aber gleich geht’s los.
+        en: The band are still eating, but they’ll start soon.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Musik#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,31 @@
+word: be
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /be/
+meanings:
+  - en: The name of the Latin script letter B/b.
+    examples: []
+  - en: "Letter of the Arabic alphabet: ب"
+    examples: []
+  - en: hey there, hey! you! (implying disapproval of the addressee’s actions)
+    examples: []
+  - en: strengthening of the preceding sentence
+    examples:
+      - text: Bu yük çok ağır be!
+        en: My, this load is very heavy
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/be#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

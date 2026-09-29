@@ -1,0 +1,27 @@
+word: minute
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmɪnɪt/
+part_of_speech: noun
+meanings:
+  - en: A while or a long unspecified period of time.
+    examples:
+      - text: Oh, I ain't heard that song in a minute!
+      - text: “Man, I haven’t seen you in a minute,” he says, smiling still. “Maybe like
+          two, three years ago?”
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/minute#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

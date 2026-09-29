@@ -1,0 +1,32 @@
+word: قسم
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - gisim
+  - gasam
+  - gassam
+pronunciation:
+  ipa: /ɡi.sim/
+meanings:
+  - en: section, division, sort, part
+    examples: []
+  - en: department
+    examples: []
+  - en: to swear, to make an oath
+    examples: []
+  - en: to divide
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%B3%D9%85#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: branco
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɾɐ̃.ku/
+part_of_speech: noun
+meanings:
+  - en: blackout (failure in recalling something)
+    examples:
+      - text: Me deu um branco na prova!
+        en: I couldn’t remember anything during the test!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/branco#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,31 @@
+word: अबे-तबे
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - abe-tabe
+pronunciation:
+  ipa: /ə.beː.t̪ə.beː/
+part_of_speech: noun
+meanings:
+  - en: a rude or an intimate, informal conversation
+    examples:
+      - text: दोनों दोस्तों की अबे-तबे चल रही है।
+        en: Both friends are having an intimate conversation.
+  - en: rudeness, disrespectfulness
+    examples:
+      - text: अपना अबे-तबे बंद करो!
+        en: Stop being rude!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%AC%E0%A5%87-%E0%A4%A4%E0%A4%AC%E0%A5%87#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

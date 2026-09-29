@@ -1,0 +1,27 @@
+word: taking
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈteɪkɪŋ/
+part_of_speech: noun
+meanings:
+  - en: Cash or money received (by a shop or other business, for example).
+    examples:
+      - text: Fred was concerned because the takings from his sweetshop had fallen again
+          for the third week.
+      - text: Count the shop's takings.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/taking#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

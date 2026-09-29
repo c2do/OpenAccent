@@ -1,0 +1,28 @@
+word: izin
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[iˈzin]"
+part_of_speech: noun
+meanings:
+  - en: permission
+    examples: []
+  - en: leave of absence
+    examples:
+      - text: Dün, işten izin aldım.
+        en: Yesterday I took a day off work.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/izin#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

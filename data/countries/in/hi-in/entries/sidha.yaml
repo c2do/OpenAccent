@@ -1,0 +1,35 @@
+word: सीधा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - sīdhā
+pronunciation:
+  ipa: /siː.d̪ʱɑː/
+part_of_speech: adj
+meanings:
+  - en: direct
+    examples: []
+  - en: straight; In a straight line (without curves)
+    examples:
+      - text: सीधी रेखा
+        en: straight line
+  - en: straight; Straight (heterosexual)
+    examples:
+      - text: वह बंदा सीधा है।
+        en: That guy is straight.
+  - en: upright, erect
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A5%80%E0%A4%A7%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

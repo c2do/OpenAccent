@@ -1,0 +1,25 @@
+word: for
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fɔː/
+part_of_speech: prep
+meanings:
+  - en: Due for or facing (a certain outcome or fate).
+    examples:
+      - text: He totally screwed up that project. Now he's surely for the sack.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/for#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

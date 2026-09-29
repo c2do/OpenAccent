@@ -1,0 +1,28 @@
+word: pas
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pa/
+part_of_speech: adv
+meanings:
+  - en: used as an intensifier in underlying rhetorical questions, mostly with voilà
+    examples:
+      - text: Et v'là t-y pas qu'elle m'en colle une !
+        en: And I tell you, she slapped me just like that!
+      - text: Et me voilà pas arrivé sans un kopeck au bercail.
+        en: And there I am, home without a dime.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pas#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

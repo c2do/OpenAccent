@@ -1,0 +1,30 @@
+word: sinon
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /si.nɔ̃/
+part_of_speech: adv
+meanings:
+  - en: also; additionally; furthermore; anyway
+    examples:
+      - text: On ne dira donc pas, ce que l’on entend hélas trop souvent, il a un bel
+          appartement à Paris, sinon il a aussi une maison en Vendée ; toute sa
+          famille va bien, et, sinon, sa sœur vient de se marier.
+        en: "We will not say then, what we, alas, hear too often: he has a beautiful
+          apartment in Paris, he also has a house in the Vendée too; his whole
+          family is well, and, what's more, his sister just got married."
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sinon#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

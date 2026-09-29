@@ -1,0 +1,28 @@
+word: Typ
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[tyːp]"
+part_of_speech: noun
+meanings:
+  - en: guy; bloke
+    examples:
+      - text: Siehst du den komischen Typ da drüben?
+        en: Do you see that strange bloke over there?
+      - text: Der ist echt ’n toller Typ!
+        en: He’s really a great guy!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Typ#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

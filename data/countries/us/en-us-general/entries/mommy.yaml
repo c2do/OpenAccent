@@ -1,0 +1,31 @@
+word: mommy
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmɒm.i/
+meanings:
+  - en: Mother.
+    examples: []
+  - en: To treat someone like a mother would; to mother someone.
+    examples: []
+  - en: Characteristic of a mother; motherly.
+    examples:
+      - text: She is the mommiest of mommies.
+      - text: I am smack-dab in the middle of the mommiest years of my life. There are
+          toys strewn across my once-pristine floors, goldfish crackers in my
+          couch cushions, and empty juice boxes in my car.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mommy#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

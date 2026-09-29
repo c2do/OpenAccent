@@ -1,0 +1,28 @@
+word: transar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tɾɐ̃ˈza(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to get laid, to have sex, to shag, to fuck, to bang
+    examples:
+      - text: Vamo transar como se fosse a última noite / Me ame como se fosse a última
+          noite / Me chupe como se fosse a última noite
+        en: We gon' fuck like it was last night / Love me like it was last night / Suck
+          me like it was last night
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/transar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

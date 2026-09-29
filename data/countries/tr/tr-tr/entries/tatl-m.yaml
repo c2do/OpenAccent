@@ -1,0 +1,24 @@
+word: tatlım
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tɑtɫɯm/
+part_of_speech: intj
+meanings:
+  - en: My honey, sweetie, dear
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tatl%C4%B1m#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

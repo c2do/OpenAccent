@@ -1,0 +1,45 @@
+word: गोटी
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - goṭī
+pronunciation:
+  ipa: /ɡoː.ʈiː/
+part_of_speech: noun
+meanings:
+  - en: small round stone; piece, gamepiece (particularly in carom)
+    examples:
+      - text: गोटी बिठाना
+        en: to carry out one's plan; to scheme
+      - text: गोटी मारना
+        en: to succeed in a plan
+  - en: small round stone; game played using small round stones
+    examples:
+      - text: गोटियाँ खेलना
+  - en: cocoon (of a silkworm)
+    examples:
+      - text: रेशम के कीड़े रेशम की गोटीयाँ बनाते हैं […]
+        en: Silkworms make silk cocooons […]
+      - text: इनकी गोटी या कोए का रंग उजला या ईट की तरह लाल होता है ।
+        en: The colour of their cocoons is white or red like a brick.
+  - en: profit, benefit, gain
+    examples:
+      - text: यशवंत के मुँह में पानी भर आया। अगर मुकदमा दो महीने भी चला, तो कम-से-कम एक
+          लाख रुपये सीधे हो जायँगे। पुरस्कार ऊपर से, पूरे दो लाख की गोटी है।
+        en: Yashwant began salivating. If the competition lasts for even two months,
+          then there will at least be 1 lakh rupees. With the prize on top,
+          there is a gain of two lakh [rupees].
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%97%E0%A5%8B%E0%A4%9F%E0%A5%80#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

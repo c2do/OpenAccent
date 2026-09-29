@@ -1,0 +1,27 @@
+word: مقابل
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - mugābil
+pronunciation:
+  ipa: /mu.ɡaː.bil/
+part_of_speech: prep
+meanings:
+  - en: in front of
+    examples: []
+  - en: in return for, in exchange for, as a compensation for
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D9%82%D8%A7%D8%A8%D9%84#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

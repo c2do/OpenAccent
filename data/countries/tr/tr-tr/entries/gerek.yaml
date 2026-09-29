@@ -1,0 +1,39 @@
+word: gerek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɟeˈɾec/
+meanings:
+  - en: necessary, required
+    examples:
+      - text: Yarın erken kalkmam gerek.
+        en: I need to get up early tomorrow.
+  - en: necessity, requirement
+    examples: []
+  - en: Used for combining elements of similar function or equivalence, or choosing
+      between multiple things; whether ... or, either … or, both … and, as well
+      as.
+    examples:
+      - text: ...gerek ölçüsüz yapılan iskânlar ve gerek memleket dahilinde olan
+          göçler...
+        en: ...both the extravagant settlements and the immigrations within the
+          nation...
+      - text: Gerek bu maddeyi, gerek Kültür bakanlığına aid maddeleri diğer
+          arkadaşlarla ... sabaha kadar müzakere ettik.
+        en: We discussed this article as well as the articles related to the Culture
+          ministry with the other colleagues till morning.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gerek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

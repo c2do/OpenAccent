@@ -1,0 +1,30 @@
+word: frappe
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fʁap/
+part_of_speech: noun
+meanings:
+  - en: A very attractive woman, a hottie
+    examples:
+      - text: Tema la frappe là-bas !
+        en: Look at that hottie over there!
+  - en: used to describe something very good
+    examples:
+      - text: C'est de la frappe ce truc
+        en: That thing is so good!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/frappe#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

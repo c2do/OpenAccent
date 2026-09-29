@@ -1,0 +1,33 @@
+word: دم
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - damm
+pronunciation:
+  ipa: /damm/
+meanings:
+  - en: blood
+    examples:
+      - text: |-
+          غلى فيه الدم.
+          ḡlā fīh ed-damm.
+          He got very angry.
+        en: literally, “The blood boiled inside of him.”
+      - text: كان كله دمايات.
+        en: He was covered in blood.
+  - en: to slander, to backbite
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AF%D9%85#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,31 @@
+word: pain
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pɛ̃/
+part_of_speech: noun
+meanings:
+  - en: punch (a hit with the fist)
+    examples:
+      - text: J’étais redescendue dare-dare, bien décidée à lui mettre un pain dans la
+          tronche.
+        en: I had gone back down quickly, determined to give him a punch in the face.
+  - en: mistake during a performance (false note, forgot an intro, wrong solo, …)
+    examples: []
+  - en: hottie, fox
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pain#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

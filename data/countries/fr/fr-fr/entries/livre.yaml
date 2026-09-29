@@ -1,0 +1,24 @@
+word: livre
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /livʁ/
+part_of_speech: noun
+meanings:
+  - en: pound (unit of weight); metrical pound, half a kilogramme, 500 g
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/livre#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

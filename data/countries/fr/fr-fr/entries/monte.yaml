@@ -1,0 +1,26 @@
+word: monté
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /mɔ̃.te/
+part_of_speech: adj
+meanings:
+  - en: hung
+    examples:
+      - text: bien monté
+        en: well-hung
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mont%C3%A9#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

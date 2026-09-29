@@ -1,0 +1,25 @@
+word: شهر
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - šahar
+pronunciation:
+  ipa: /ʃa.har/
+part_of_speech: noun
+meanings:
+  - en: month
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D9%87%D8%B1#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

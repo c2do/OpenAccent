@@ -1,0 +1,31 @@
+word: माल
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - māl
+pronunciation:
+  ipa: /mɑːl/
+part_of_speech: noun
+meanings:
+  - en: goods, stuff, things
+    examples: []
+  - en: money
+    examples: []
+  - en: an attractive woman; item girl
+    examples: []
+  - en: drugs
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AE%E0%A4%BE%E0%A4%B2#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

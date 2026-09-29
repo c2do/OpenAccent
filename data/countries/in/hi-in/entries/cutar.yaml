@@ -1,0 +1,25 @@
+word: चूतड़
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - cūtaṛ
+pronunciation:
+  ipa: /t͡ʃuː.t̪əɽ/
+part_of_speech: noun
+meanings:
+  - en: buttocks
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A5%82%E0%A4%A4%E0%A4%A1%E0%A4%BC#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: ligar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /liˈɡa(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to care (about); to mind (to have concern or interest in)
+    examples:
+      - text: Antes eu não ligava para a política.
+        en: Previously I didn't care about politics.
+  - en: to become aware; to realize or perceive something
+    examples:
+      - text: Só me liguei depois.
+        en: I only realized it later.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ligar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

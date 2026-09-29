@@ -1,0 +1,42 @@
+word: foutu
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fu.ty/
+part_of_speech: adj
+meanings:
+  - en: done for, screwed, fucked, doomed
+    examples:
+      - text: T’es foutu, mec !
+        en: You’re fucked, man!
+  - en: broken beyond repair, destroyed
+    examples:
+      - text: Mon ordi est foutu, je dois en acheter un nouveau mais j'ai plus un rond.
+        en: My computer's fucked or knackered (UK); I need to buy a new one but I'm
+          broke.
+  - en: fucking (as an intensifier), pesky, damned, bloody
+    examples:
+      - text: Enlève cette foutue voiture du chemin !
+        en: Get this fucking car out of the way!
+  - en: liable to, capable of
+    examples:
+      - text: Il est foutu de tout casser, lui.
+        en: He might break everything.
+      - text: Ils ont même pas été foutus de ranger la cuisine.
+        en: They didn't even bother to clean the kitchen. / They couldn't even be arsed
+          (UK) to clean the kitchen.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/foutu#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

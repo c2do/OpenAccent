@@ -1,0 +1,30 @@
+word: وقت
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - waʔt
+  - wagt
+  - waqqat
+  - waʔʔat
+  - waggat
+pronunciation:
+  ipa: /waʔt/
+meanings:
+  - en: time
+    examples: []
+  - en: to time
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88%D9%82%D8%AA#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

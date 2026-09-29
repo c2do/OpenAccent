@@ -1,0 +1,28 @@
+word: dans
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dɑ̃/
+part_of_speech: prep
+meanings:
+  - en: Used in dans les (“about, around”)
+    examples:
+      - text: dans les trentes kilos
+        en: about thirty kilos
+      - text: dans les dix euros
+        en: about ten euros
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dans#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

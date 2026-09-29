@@ -1,0 +1,31 @@
+word: yemek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /jeˈmec/
+meanings:
+  - en: to eat
+    examples:
+      - text: Her gün iki öğün haşlanmış patates yemekten bıktım.
+        en: I'm tired of eating boiled potatoes twice every day.
+  - en: to require, use up, consume
+    examples: []
+  - en: to bite, eat someone up
+    examples: []
+  - en: to drain someone, wear someone down
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/yemek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

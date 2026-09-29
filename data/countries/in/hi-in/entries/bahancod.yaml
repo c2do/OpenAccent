@@ -1,0 +1,36 @@
+word: बहनचोद
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bahancod
+pronunciation:
+  ipa: /bə.ɦən.t͡ʃoːd̪/
+meanings:
+  - en: sisterfucker (a term of abuse)
+    examples:
+      - text: उस बहनचोद ने मेरी कुर्सी पे पानी गिरा दिया!
+        en: That fucker spilled water on my seat!
+  - en: sisterfucker (a term of address among close friends)
+    examples:
+      - text: क्या हाल है, बहनचोद?
+        en: How are ya, cunt?
+  - en: fuck! (an expression of dismay or discontent)
+    examples:
+      - text: बहनचोद! फिर से फ़ेल हो गया!
+        en: Fuck! I failed again!
+      - text: बहनचोद, बिलकुल गिरनेवाला था।
+        en: Fuck, I was just about to fall.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%B9%E0%A4%A8%E0%A4%9A%E0%A5%8B%E0%A4%A6#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

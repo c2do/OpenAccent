@@ -1,0 +1,31 @@
+word: fille
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fij/
+part_of_speech: noun
+meanings:
+  - en: prostitute, wench
+    examples:
+      - text: Il buvait et courait les filles avant qu'il ne contracte la cirrhose et la
+          blennorragie.
+        en: He drank and consorted with hookers before contracting cirrhosis and
+          gonorrhea.
+      - text: Elle s'engouffrait dans les ruelles sombres, et elle arrivait tout en
+          sueur vers le bas de la rue Nationale, près de la fontaine qui est là.
+          C'est le quartier du théâtre, des estaminets et des filles.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fille#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

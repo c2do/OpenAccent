@@ -1,0 +1,25 @@
+word: غريبة
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ḡurēba
+pronunciation:
+  ipa: /ɣu.reː.ba/
+part_of_speech: noun
+meanings:
+  - en: Qurabiya, sandie (a kind of sablé biscuits with nuts and/or raisins)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%BA%D8%B1%D9%8A%D8%A8%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

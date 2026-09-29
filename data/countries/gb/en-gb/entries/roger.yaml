@@ -1,0 +1,31 @@
+word: roger
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɹɒd͡ʒə/
+meanings:
+  - en: Of a man, to have sexual intercourse with (someone), especially in a rough
+      manner.
+    examples: []
+  - en: To have sexual intercourse.
+    examples:
+      - text: Should not a Half-pay Officer roger for sixpence?
+  - en: An act of sexual intercourse.
+    examples:
+      - text: "ALAN: Lynn, if I have to put back my roger with Sonja one more time, I'll
+          be fit to burst."
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/roger#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

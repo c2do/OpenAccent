@@ -1,0 +1,30 @@
+word: pig
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpɪɡ/
+part_of_speech: noun
+meanings:
+  - en: The general-purpose M60 machine gun, considered to be heavy and bulky.
+    examples:
+      - text: Unfortunately, the M60 is about twenty-four pounds and is very unbalanced.
+          You try carrying the pig around the jungle and see how you feel.
+  - en: A Cadillac car.
+    examples: []
+  - en: A Harley-Davidson motorcycle.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pig#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

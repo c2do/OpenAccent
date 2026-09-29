@@ -1,0 +1,27 @@
+word: مهم
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - mohimm
+pronunciation:
+  ipa: /mohem/
+part_of_speech: adj
+meanings:
+  - en: interesting
+    examples: []
+  - en: important
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D9%87%D9%85#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

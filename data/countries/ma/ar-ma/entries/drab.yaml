@@ -1,0 +1,43 @@
+word: ضرب
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ḍrab
+pronunciation:
+  ipa: /dˤrab/
+part_of_speech: verb
+meanings:
+  - en: to hit, to strike, to beat
+    examples:
+      - text: ضرب راسه مع الحيط
+        en: He hit his head against the wall.
+      - text: ضربه خوه على دراعه
+        en: His brother hit him on his arm.
+  - en: to do or perform an action
+    examples:
+      - text: ضربها بجرية.
+        en: He ran.
+      - text: ضربها بنعسة.
+        en: He slept
+  - en: to travel a distance
+    examples:
+      - text: ضرب مسافة على رجليه
+        en: He walked a long distance on foot.
+  - en: to play an instrument
+    examples:
+      - text: هاد الكومنجي كيعرف يضرب الكمنجة
+        en: This violonist knows how to play the violin.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B6%D8%B1%D8%A8#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: much
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /mʌt͡ʃ/
+part_of_speech: det
+meanings:
+  - en: many ( + plural countable noun).
+    examples:
+      - text: They got so much things to say right now, they got so much things to say.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/much#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

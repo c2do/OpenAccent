@@ -1,0 +1,30 @@
+word: viajar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /vi.aˈʒa(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to not pay attention
+    examples:
+      - text: O aluno viaja quando o professor lhe fala.
+        en: The student doesn't pay attention when the teacher speaks to him.
+  - en: to be nonsensical (vid. viajado)
+    examples: []
+  - en: to trip (on drugs)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/viajar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

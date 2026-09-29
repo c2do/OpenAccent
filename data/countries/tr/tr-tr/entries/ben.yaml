@@ -1,0 +1,32 @@
+word: ben
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈben/
+meanings:
+  - en: I, me
+    examples:
+      - text: Beni seviyor musun?
+        en: Do you love me?
+      - text: "Tüm gün evde yatıp sınavdan yüksek almayı bekledikten sonra ben:"
+        en: "Me after doing nothing at home whole day and waiting to get high grade from
+          exam:"
+  - en: ego
+    examples: []
+  - en: birthmark, mole
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ben#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

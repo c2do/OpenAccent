@@ -1,0 +1,25 @@
+word: Schwester
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃvɛstɐ/
+part_of_speech: noun
+meanings:
+  - en: nurse; by extension used to refer to any medical staff that is not a doctor
+      (usually, but not necessarily, confined to female staff)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Schwester#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

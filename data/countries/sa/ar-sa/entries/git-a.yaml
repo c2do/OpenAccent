@@ -1,0 +1,27 @@
+word: قطعة
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - giṭʕa
+pronunciation:
+  ipa: /ɡitˤ.ʕa/
+part_of_speech: noun
+meanings:
+  - en: piece, fragment, chunk
+    examples: []
+  - en: part, unit, section, division
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%B7%D8%B9%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

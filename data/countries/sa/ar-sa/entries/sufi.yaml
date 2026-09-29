@@ -1,0 +1,26 @@
+word: صوفي
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ṣūfi
+pronunciation:
+  ipa: /sˤuː.fi/
+part_of_speech: adj
+meanings:
+  - en: non-smoker, does not smoke or use tobacco; analgesics (painkillers) and
+      drugs.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B5%D9%88%D9%81%D9%8A#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

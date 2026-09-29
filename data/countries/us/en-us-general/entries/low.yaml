@@ -1,0 +1,30 @@
+word: "'low"
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /laʊ/
+part_of_speech: verb
+meanings:
+  - en: To allow; to acknowledge or admit.
+    examples:
+      - text: But louing well, and meaning not amisse, / He lowde him scope, without
+          suspect of ill, / To come and goe, to vse the house as hys, / A
+          perfect showe of very great good wyll.
+      - text: "[…] and so with - drew / That freedome from her lookes (least they should
+          'low / More then her heart might meane) as they reflect / A narrower
+          and a carefuller aspect."
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/'low#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

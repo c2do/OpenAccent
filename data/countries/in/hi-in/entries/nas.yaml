@@ -1,0 +1,34 @@
+word: नास
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - nās
+pronunciation:
+  ipa: /nɑːs/
+part_of_speech: noun
+meanings:
+  - en: any substance ingested nasally
+    examples:
+      - text: दूध और घृत मिलाय नास ले तो आधा सीसी जाय॥ १६ ॥
+        en: (please add an English translation of this quotation)
+      - text: (both senses)
+  - en: any substance ingested nasally; any nasally ingested medication
+    examples: []
+  - en: tobacco snuff
+    examples: []
+  - en: the nose
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A8%E0%A4%BE%E0%A4%B8#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: through
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /θɹuː/
+part_of_speech: adj
+meanings:
+  - en: (usually followed by "to") Able to progress (to the next stage or a higher
+      level) following success in an exam, sports match, etc.
+    examples:
+      - text: Manchester United are through to the FA Cup Final for the thirteenth time.
+register: neutral
+familiarity: rare
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/through#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

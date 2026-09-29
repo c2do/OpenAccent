@@ -1,0 +1,32 @@
+word: cul
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ky/
+part_of_speech: noun
+meanings:
+  - en: sex (sexual intercourse)
+    examples:
+      - text: Le cul mène le monde.
+        en: Sex rules the world.
+  - en: good luck or good fortune
+    examples:
+      - text: Ils ont du cul.
+        en: They are lucky.
+  - en: roach (the butt of a marijuana cigarette)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cul#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,38 @@
+word: ya
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ja/
+meanings:
+  - en: Expression of surprise or confusion.
+    examples:
+      - text: Gerçekten mi ya?
+        en: Wow, really?
+  - en: aw (Used to express affection.)
+    examples:
+      - text: Ya, çok tatlı! Şunun yatışına bak.
+        en: Aw, she’s so cute! Look at how's she sleeping.
+  - en: Expresses frustration.
+    examples:
+      - text: Ya yeter be, yeter!
+        en: Enough!
+  - en: An expression used to indicate ratification of a statement that requires an
+      approval or necessity.
+    examples:
+      - text: Biz de gelelim mi? - Gelin ya.
+        en: Shall we come too? - Please do.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ya#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

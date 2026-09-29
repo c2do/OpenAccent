@@ -1,0 +1,28 @@
+word: alle
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈalə/
+part_of_speech: adj
+meanings:
+  - en: finished; gone
+    examples:
+      - text: Die Milch ist alle.
+        en: The milk is gone.
+      - text: Wir haben gestern das Bier alle gemacht.
+        en: Yesterday we have depleted the beer.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/alle#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

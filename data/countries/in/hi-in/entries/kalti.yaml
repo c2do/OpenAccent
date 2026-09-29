@@ -1,0 +1,28 @@
+word: कल्टी
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kalṭī
+pronunciation:
+  ipa: /kəl.ʈiː/
+part_of_speech: adj
+meanings:
+  - en: lost (in an unknown location)
+    examples:
+      - text: कल्टी मारना
+        en: to get lost
+      - text: 2016, Arjit Singh, "Breakup Song" in Ae Dil Hai Mushkil
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%B2%E0%A5%8D%E0%A4%9F%E0%A5%80#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

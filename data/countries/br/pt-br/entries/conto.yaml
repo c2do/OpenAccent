@@ -1,0 +1,24 @@
+word: conto
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkõ.tu/
+part_of_speech: noun
+meanings:
+  - en: count (a quantity counted); real (unit of currency)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/conto#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

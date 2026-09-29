@@ -1,0 +1,27 @@
+word: قهوة
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - qahwa
+pronunciation:
+  ipa: /qah.wa/
+part_of_speech: noun
+meanings:
+  - en: coffee
+    examples: []
+  - en: coffee shop, café
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D9%87%D9%88%D8%A9#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

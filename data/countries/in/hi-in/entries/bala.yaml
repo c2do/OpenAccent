@@ -1,0 +1,29 @@
+word: बला
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - balā
+pronunciation:
+  ipa: /bə.lɑː/
+part_of_speech: noun
+meanings:
+  - en: misfortune, affliction
+    examples: []
+  - en: spirit, hag
+    examples: []
+  - en: a vast amount (of)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%B2%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: tuition
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tjuːˈɪʃən/
+part_of_speech: noun
+meanings:
+  - en: Paid private classes taken outside of formal education; tutoring. (also used
+      attributively)
+    examples:
+      - text: tuition classes
+      - text: Tuition in the past was like taking medicine and you sent children for it
+          only if they were doing poorly in a subject.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tuition#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,31 @@
+word: through
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /θɹuː/
+meanings:
+  - en: To (or up to) and including, with all intermediate values; to... inclusive;
+      until the end of.
+    examples:
+      - text: from 1945 through 1991;  the numbers 1 through 9;  your membership is
+          active through March 15, 2013
+      - text: The plural is "oyesses", but "oyes" vied with "oyez" through about the
+          first half of the nineteenth century.
+  - en: Finished; complete.
+    examples:
+      - text: They were through with laying the subroof by noon.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/through#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

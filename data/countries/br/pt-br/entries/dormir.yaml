@@ -1,0 +1,30 @@
+word: dormir
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /duʁˈmi(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: not to notice a problem
+    examples:
+      - text: O controlador dormiu e os aviões bateram.
+        en: The controller didn’t pay attention and the aeroplanes collided.
+  - en: to spend the night
+    examples:
+      - text: A luz dormiu acesa.
+        en: The light spent the night turned on.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dormir#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

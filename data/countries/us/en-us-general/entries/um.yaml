@@ -1,0 +1,27 @@
+word: um
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʌm/
+part_of_speech: intj
+meanings:
+  - en: Dated spelling of mmm.
+    examples:
+      - text: |-
+          "About the same, wherever you go," he agreed.
+          "Um," I said.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/um#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

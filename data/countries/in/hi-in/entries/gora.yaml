@@ -1,0 +1,26 @@
+word: गोरा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - gorā
+pronunciation:
+  ipa: /ɡoː.ɾɑː/
+meanings:
+  - en: fair (of skin)
+    examples: []
+  - en: a white person; a Caucasian
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%97%E0%A5%8B%E0%A4%B0%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

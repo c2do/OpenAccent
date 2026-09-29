@@ -1,0 +1,28 @@
+word: immer
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɪmɐ/
+part_of_speech: adv
+meanings:
+  - en: used to emphasize another adverb of time, which itself is stressed
+    examples:
+      - text: Er kommt immer nie pünktlich.
+        en: He’s never on time.
+      - text: Ich bin oft immer sehr vergesslich.
+        en: I’m often very forgetful.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/immer#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

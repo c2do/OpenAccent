@@ -1,0 +1,24 @@
+word: Licht
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /lɪçt/
+part_of_speech: noun
+meanings:
+  - en: light (a light source, often artificial); candle
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Licht#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

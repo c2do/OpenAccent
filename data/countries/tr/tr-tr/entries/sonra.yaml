@@ -1,0 +1,31 @@
+word: sonra
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /son.ɾɑ/
+meanings:
+  - en: later, after, afterwards, post-
+    examples:
+      - text: uzun zaman sonra
+        en: a long time after
+  - en: thereafter, subsequently, following
+    examples: []
+  - en: hereafter, in the future
+    examples: []
+  - en: otherwise
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sonra#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

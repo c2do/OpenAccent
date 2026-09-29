@@ -1,0 +1,25 @@
+word: Ben
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɛn/
+part_of_speech: noun
+meanings:
+  - en: A US$100 bill, which bears a portrait of Benjamin Franklin. Often used in
+      the plural form to indicate large sums of money.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Ben#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

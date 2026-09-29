@@ -1,0 +1,26 @@
+word: trabalho
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tɾaˈba.ʎu/
+part_of_speech: noun
+meanings:
+  - en: homework involving research
+    examples:
+      - text: Preciso escrever um trabalho sobre a idade do ferro.
+        en: I need to write a report about the Iron Age.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/trabalho#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

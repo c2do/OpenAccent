@@ -1,0 +1,24 @@
+word: os
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /os/
+part_of_speech: pron
+meanings:
+  - en: you, to you, for you; dative and accusative of vosotros
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/os#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

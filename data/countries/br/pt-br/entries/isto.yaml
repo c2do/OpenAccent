@@ -1,0 +1,34 @@
+word: isto
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈis.tu/
+part_of_speech: intj
+meanings:
+  - en: that’s right, that’s correct; akin to English this!
+    examples:
+      - text: |-
+          — Você é o filho da Mariana?
+          — Isto.
+        en: |-
+          “Are you Mariana’s son?”
+          “That’s right.”
+  - en: yeah! (expresses happiness with an outcome)
+    examples:
+      - text: Eles perderam! Isto!
+        en: They lost! Yeah!
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/isto#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

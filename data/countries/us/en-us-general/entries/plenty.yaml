@@ -1,0 +1,38 @@
+word: plenty
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈplɛnti/
+meanings:
+  - en: More than sufficiently.
+    examples:
+      - text: This office is plenty big enough for our needs.
+      - text: For the likes of her, the down-at-heels support of Hoboken pier was plenty
+          good enough.
+  - en: Used as an intensifier, very.
+    examples:
+      - text: She was plenty mad at him.
+      - text: "'Guess the lady'll need plenty for her summer frocks,' said the
+          conductor. 'Shops is plenty expensive in St Pete. Plenty hot down
+          there too. You folks been to Florida before?'"
+  - en: much, enough
+    examples:
+      - text: There'll be plenty time later for that
+  - en: many
+    examples:
+      - text: Get a manicure. Plenty men do it.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/plenty#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

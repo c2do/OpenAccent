@@ -1,0 +1,35 @@
+word: demek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+meanings:
+  - en: to say
+    examples:
+      - text: o ne dedi?
+        en: what'd he say?
+  - en: to assume, to suppose
+    examples:
+      - text: Biz seçildik diyelim. Ne yapacağız?
+        en: Suppose we got chosen. What will we do?
+  - en: to want, to desire
+    examples:
+      - text: Sabah gidelim diyoruz
+        en: We think we should go in the morning.
+  - en: to call, name, dub
+    examples:
+      - text: yeni oyunumuza "Uzaylıların Saldırısı" diyeceğiz.
+        en: we will call our game "Invasion of the Aliens".
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/demek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,32 @@
+word: bobby
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɒbi/
+part_of_speech: noun
+meanings:
+  - en: A police officer.
+    examples:
+      - text: If I am wrong, and if Lessingham’s wrong, how do you explain his
+          extraordinary insistence on taking it inside the cab with him, which
+          the bobby describes?
+      - text: '"We are looking at being able to fly [drones] tens of miles from base,
+          which is going to make a huge difference. It is the equivalent of
+          having bobbies on the beat."'
+  - en: A railway signaller.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bobby#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

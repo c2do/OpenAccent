@@ -1,0 +1,25 @@
+word: نجد
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - najjad
+pronunciation:
+  ipa: /nad͡ʒ.d͡ʒad/
+part_of_speech: verb
+meanings:
+  - en: to furnish, to upholster
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%86%D8%AC%D8%AF#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

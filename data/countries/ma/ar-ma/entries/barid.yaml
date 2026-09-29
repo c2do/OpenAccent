@@ -1,0 +1,27 @@
+word: بارد
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - bārid
+pronunciation:
+  ipa: /baː.rid/
+part_of_speech: adj
+meanings:
+  - en: cold
+    examples: []
+  - en: dull
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%B1%D8%AF#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

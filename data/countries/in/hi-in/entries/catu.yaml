@@ -1,0 +1,27 @@
+word: चाटु
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - cāṭu
+pronunciation:
+  ipa: /t͡ʃɑː.ʈuː/
+part_of_speech: noun
+meanings:
+  - en: flattery, adulation, false praise
+    examples: []
+  - en: a chatterbox
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A4%BE%E0%A4%9F%E0%A5%81#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

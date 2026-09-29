@@ -1,0 +1,23 @@
+word: زوجة
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - zawga
+part_of_speech: noun
+meanings:
+  - en: wife
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B2%D9%88%D8%AC%D8%A9#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

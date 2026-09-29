@@ -1,0 +1,26 @@
+word: total
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtəʊ.tl̩/
+part_of_speech: verb
+meanings:
+  - en: To demolish; to wreck completely. (from total loss)
+    examples:
+      - text: Honey, I’m OK, but I’ve totaled the car.
+      - text: He acted real funny / He hocked up a rock and / It totaled my car!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/total#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: ponto
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpõ.tu/
+part_of_speech: noun
+meanings:
+  - en: bus stop, taxi stand, a location where passengers wait for a bus or taxi
+    examples:
+      - text: ponto de ônibus
+        en: bus stop
+      - text: ponto de táxi
+        en: taxi stand
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ponto#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

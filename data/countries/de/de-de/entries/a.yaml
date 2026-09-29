@@ -1,0 +1,26 @@
+word: à
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /aː/
+part_of_speech: prep
+meanings:
+  - en: at (a specified price or rate of exchange per item)
+    examples:
+      - text: Vier Briefmarken à 75 Cent, das macht drei Euro, bitte!
+        en: Four stamps at 75 cents each, that's three euros, please!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A0#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

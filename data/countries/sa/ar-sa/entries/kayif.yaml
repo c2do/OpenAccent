@@ -1,0 +1,25 @@
+word: خايف
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ḵāyif
+pronunciation:
+  ipa: /xaː.jif/
+part_of_speech: adj
+meanings:
+  - en: afraid, scared
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D9%8A%D9%81#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

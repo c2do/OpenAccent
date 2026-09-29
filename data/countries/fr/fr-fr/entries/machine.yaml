@@ -1,0 +1,26 @@
+word: machine
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ma.ʃin/
+part_of_speech: noun
+meanings:
+  - en: machine (a person who is very efficient)
+    examples:
+      - text: Ce type, c'est une vraie machine!
+        en: What a guy, he's a real machine!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/machine#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

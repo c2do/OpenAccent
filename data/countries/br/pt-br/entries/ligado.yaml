@@ -1,0 +1,30 @@
+word: ligado
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /liˈɡa.du/
+part_of_speech: adj
+meanings:
+  - en: attentive, watchful
+    examples:
+      - text: Fique ligado na curva.
+        en: "Watch the curve. (lit.: Stay watchful on the curve.)"
+  - en: aware
+    examples:
+      - text: Cê tá ligado que é perigoso andar por aqui de noite?
+        en: Are you aware that it is dangerous to walk around here at night?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ligado#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

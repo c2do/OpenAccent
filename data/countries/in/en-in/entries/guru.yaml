@@ -1,0 +1,24 @@
+word: guru
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡʊɹuː/
+part_of_speech: noun
+meanings:
+  - en: Any general teacher (as a term of respect).
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/guru#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,31 @@
+word: sex
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈsɛks/
+part_of_speech: verb
+meanings:
+  - en: To have sex with.
+    examples:
+      - text: As good as Muddah had handled me in bed, sexing her hadn't done a damn
+          thing to take my mind off my cousin Smoove.
+      - text: He shows some glimpses, but most of the released singles are about
+          flossing, partying, and sexing women.
+  - en: To have sex.
+    examples:
+      - text: Our baby is eighteen months old now, and cries when we sex
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sex#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

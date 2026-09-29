@@ -1,0 +1,29 @@
+word: نقل
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - nqal
+pronunciation:
+  ipa: /nqal/
+part_of_speech: verb
+meanings:
+  - en: to transport, bring from one place to another
+    examples: []
+  - en: to copy, copy out
+    examples: []
+  - en: to cheat (in an exam)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%86%D9%82%D9%84#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

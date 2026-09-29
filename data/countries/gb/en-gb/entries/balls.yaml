@@ -1,0 +1,28 @@
+word: balls
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɔːlz/
+part_of_speech: noun
+meanings:
+  - en: Synonym of bollocks, nonsense.
+    examples:
+      - text: That's a load of balls.
+  - en: A balls-up; a botched job.
+    examples:
+      - text: Don't make a balls of it!
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/balls#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

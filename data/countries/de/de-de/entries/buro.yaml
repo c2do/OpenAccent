@@ -1,0 +1,26 @@
+word: Büro
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /byˈroː/
+part_of_speech: noun
+meanings:
+  - en: the staff of such places
+    examples:
+      - text: Der Chef lädt das ganze Büro zum Essen ein.
+        en: The boss is inviting the whole office to dinner.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/B%C3%BCro#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

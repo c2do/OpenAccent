@@ -1,0 +1,28 @@
+word: ne
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /nə/
+part_of_speech: particle
+meanings:
+  - en: right?; is it?; is it not?; tag question
+    examples:
+      - text: Wir müssen da lang, ne?
+        en: We need to go that way, don't we?
+      - text: Du hast keine Geschwister, ne?
+        en: You don't have siblings, do you?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ne#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

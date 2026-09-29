@@ -1,0 +1,29 @@
+word: değil
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /deˈ(j)il/
+meanings:
+  - en: not (negates meaning of the verb *imek)
+    examples:
+      - text: Mutlu olabilirsin, ama ben değilim.
+        en: You may be happy, but I am not.
+      - text: Evli değil misiniz?
+        en: Aren't you married?
+  - en: the not
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/de%C4%9Fil#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: sound
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈsaʊ̯nd/
+meanings:
+  - en: Good; acceptable; decent.
+    examples:
+      - text: How are you? —I'm sound.
+      - text: That's a sound track you're playing.
+  - en: Yes; used to show agreement or understanding.
+    examples:
+      - text: I found my jacket. — Sound.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sound#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

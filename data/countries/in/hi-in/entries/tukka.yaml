@@ -1,0 +1,29 @@
+word: तुक्का
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - tukkā
+pronunciation:
+  ipa: /t̪ʊk.kɑː/
+part_of_speech: noun
+meanings:
+  - en: headless arrow
+    examples: []
+  - en: an uninformed guess
+    examples:
+      - text: जो भी मैंने लिखा है सब तुक्का है।
+        en: Everything I have written is baseless speculation.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A5%81%E0%A4%95%E0%A5%8D%E0%A4%95%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

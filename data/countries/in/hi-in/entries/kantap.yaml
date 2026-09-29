@@ -1,0 +1,25 @@
+word: कंटाप
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kaṇṭāp
+pronunciation:
+  ipa: /kəɳ.ʈɑːp/
+part_of_speech: noun
+meanings:
+  - en: slap, smack
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%82%E0%A4%9F%E0%A4%BE%E0%A4%AA#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

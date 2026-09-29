@@ -1,0 +1,29 @@
+word: stay
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /steɪ/
+meanings:
+  - en: Steep; ascending.
+    examples: []
+  - en: (of a roof) Steeply pitched.
+    examples: []
+  - en: Difficult to negotiate; not easy to access; sheer.
+    examples: []
+  - en: Stiff; upright; unbending; reserved; haughty; proud.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/stay#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

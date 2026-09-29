@@ -1,0 +1,25 @@
+word: أسبوع
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ʔusbūʕ
+pronunciation:
+  ipa: /ʔus.buːʕ/
+part_of_speech: noun
+meanings:
+  - en: week
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D8%B3%D8%A8%D9%88%D8%B9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

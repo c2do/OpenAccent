@@ -1,0 +1,43 @@
+word: का
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kā
+pronunciation:
+  ipa: /kɑː/
+part_of_speech: postp
+meanings:
+  - en: "marks the genitive case: -'s, of, belonging to"
+    examples:
+      - text: राम का भाई
+        en: Ram's brother
+      - text: उसका मित्र
+        en: his friend
+  - en: part of, originating from
+    examples:
+      - text: हाथ की उंगली
+        en: finger of the hand
+      - text: संतरे का रस
+        en: orange juice
+  - en: made of, consisting of
+    examples:
+      - text: लोहे की तलवार
+        en: an iron sword
+  - en: worth, useful
+    examples:
+      - text: क्या यह कोई कहने की बात है?
+        en: Is this something that is worth saying?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

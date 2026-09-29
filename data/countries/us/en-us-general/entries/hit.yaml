@@ -1,0 +1,29 @@
+word: hit
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /hɪt/
+part_of_speech: verb
+meanings:
+  - en: To have sex with.
+    examples:
+      - text: I'd hit that!
+  - en: To inhale an amount of smoke from a narcotic substance, particularly
+      marijuana.
+    examples:
+      - text: Tastes like fruit when you hit it; got to have bread to get it.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hit#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

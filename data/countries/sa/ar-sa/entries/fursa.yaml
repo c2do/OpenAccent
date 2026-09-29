@@ -1,0 +1,25 @@
+word: فرصة
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - furṣa
+pronunciation:
+  ipa: /fur.sˤa/
+part_of_speech: noun
+meanings:
+  - en: chance, opportunity
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%B5%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

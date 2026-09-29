@@ -1,0 +1,32 @@
+word: قلب
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - galb
+  - galab
+  - gallab
+pronunciation:
+  ipa: /ɡalb/
+meanings:
+  - en: heart
+    examples: []
+  - en: core
+    examples: []
+  - en: flip, overturn, inverting
+    examples: []
+  - en: courage
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D9%84%D8%A8#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

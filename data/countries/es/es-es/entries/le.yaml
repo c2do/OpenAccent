@@ -1,0 +1,42 @@
+word: le
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /le/
+part_of_speech: pron
+meanings:
+  - en: you (formal); accusative of usted
+    examples:
+      - text: José, ¿le puedo ayudar?
+        en: José, can I help you?
+      - text: Ana, ¿necesita que le ayude en algo?
+        en: Ana, do you need me to help you with anything?
+  - en: him; accusative of él
+    examples:
+      - text: Él es mi amigo, le conozco desde pequeño.
+        en: He is my friend, I know him since he was little.
+      - text: ¿Te gusta mi auto? Le compré con mis ahorros. [proscribed]
+        en: Do you like my car? I bought it with my savings.
+  - en: it; accusative of ello
+    examples: []
+  - en: her; accusative of ella
+    examples:
+      - text: Se le conoce como la Reina del Pop. [non-proscribed]
+        en: They know her as the Queen of Pop.
+      - text: Ayer le vi cenando en un restaurante. [proscribed]
+        en: Yesterday I saw her dining at a restaurant.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/le#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

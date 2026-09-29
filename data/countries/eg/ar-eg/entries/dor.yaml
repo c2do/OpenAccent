@@ -1,0 +1,31 @@
+word: دور
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - dōr
+pronunciation:
+  ipa: "[doːr]"
+part_of_speech: noun
+meanings:
+  - en: floor, storey
+    examples:
+      - text: عماره خمس تدوار
+        en: Five-storey building
+  - en: turn (in a game)
+    examples: []
+  - en: role
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AF%D9%88%D8%B1#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

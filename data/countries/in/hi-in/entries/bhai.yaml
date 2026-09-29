@@ -1,0 +1,31 @@
+word: भाई
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bhāī
+pronunciation:
+  ipa: /bʱɑː.iː/
+part_of_speech: noun
+meanings:
+  - en: brother
+    examples:
+      - text: मेरा छोटा भाई बहुत मासूम है।
+        en: My younger brother is very naïve.
+  - en: used to refer to any male person
+    examples: []
+  - en: dude, friend, bro
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AD%E0%A4%BE%E0%A4%88#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

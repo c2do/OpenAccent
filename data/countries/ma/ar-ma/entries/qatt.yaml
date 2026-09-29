@@ -1,0 +1,25 @@
+word: قط
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - qaṭṭ
+pronunciation:
+  ipa: /qatˤː/
+part_of_speech: noun
+meanings:
+  - en: cat
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%B7#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

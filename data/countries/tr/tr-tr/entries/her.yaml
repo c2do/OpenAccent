@@ -1,0 +1,29 @@
+word: her
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /hæɾ/
+meanings:
+  - en: every
+    examples: []
+  - en: each
+    examples: []
+  - en: every time
+    examples:
+      - text: Her tavuk yediğimde nedense bana dokunuyor.
+        en: For some reason, every time I eat chicken, it upsets my stomach.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/her#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

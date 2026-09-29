@@ -1,0 +1,39 @@
+word: उड़ाना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - uṛānā
+part_of_speech: verb
+meanings:
+  - en: to fly
+    examples:
+      - text: पतंग उड़ाना
+        en: to fly a kite
+  - en: to explode, wipe out, destroy
+    examples:
+      - text: दुर्ग उड़ाना
+        en: to wipe out a fort
+  - en: to kill, usually by detonation
+    examples:
+      - text: अगले दिन आतंकवादियों ने उसको उड़ा दिया।
+        en: Next day, the terrorists blew him up.
+  - en: to remove (something non-physical)
+    examples:
+      - text: यार, उनने मेरा पोस्ट उड़ा दिया।
+        en: Bro, they removed my post.
+      - text: ऐसी विडियोज़ मत बनाया कर, अकाउंट उड़ा देंगे तेरा।
+        en: Don't post such videos, they'll ban your account.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%89%E0%A4%A1%E0%A4%BC%E0%A4%BE%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

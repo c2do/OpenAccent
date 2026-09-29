@@ -1,0 +1,41 @@
+word: ja
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[jäː]"
+part_of_speech: adv
+meanings:
+  - en: under any circumstances, for (absolute) certain (often with the implication
+      of pettiness, insecurity or overblown fear regarding the issue one wants
+      certainty on)
+    examples:
+      - text: Er fragt jedes Mal mindestens fünf Mal nach, um auch ja alles richtig zu
+          machen.
+        en: Eery time, he asks to make sure at least five times to be absolutely
+          positively sure that he does it all correctly.
+      - text: Wenn der Lehrer eine Frage stellt, schauen alle auf den Boden und hoffen,
+          ja nicht aufgerufen zu werden.
+        en: When the teacher asks a question, everybody's staring at the ground, hoping
+          to not get called on under any circumstances.
+  - en: under any circumstances, for (absolute) certain (often with the implication
+      of pettiness, insecurity or overblown fear regarding the issue one wants
+      certainty on); had better; used to reinforce an imperative or other order
+      with an implied threat, especially by an authority figure.
+    examples:
+      - text: Komm ja nicht zu spät nach Hause!
+        en: You'd better not be late in coming back home!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ja#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

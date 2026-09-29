@@ -1,0 +1,31 @@
+word: चूतिया
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - cūtiyā
+pronunciation:
+  ipa: /t͡ʃuː.t̪ɪ.jɑː/
+part_of_speech: noun
+meanings:
+  - en: idiot, fool, twat, dumbfuck, fuckwit
+    examples:
+      - text: |-
+          फूलों की लाशों में ताज़गी चाहता है,
+          आदमी चूतिया है, कुछ भी चाहता है ।
+        en: |-
+          He wants freshness from dead flowers;
+          Man is a fool, he wants anything.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A5%82%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

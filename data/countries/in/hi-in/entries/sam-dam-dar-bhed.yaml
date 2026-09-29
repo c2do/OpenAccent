@@ -1,0 +1,28 @@
+word: साम दाम दंड़ भेद
+dialect: hi-in
+type: phrase
+spellings: []
+romanized:
+  - sām dām dãṛ bhed
+part_of_speech: phrase
+meanings:
+  - en: Negotiation, bribery, threats, and division—the four classical techniques
+      for manipulation
+    examples: []
+  - en: Significant effort to achieve one's goals, any means necessary
+    examples:
+      - text: इस डील पक्का करने के लिये हमको अपना साम दाम दंड़ भेद मारना पड़ेगा
+        en: To seal this deal, we'll need to use any means necessary
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%BE%E0%A4%AE_%E0%A4%A6%E0%A4%BE%E0%A4%AE_%E0%A4%A6%E0%A4%82%E0%A4%A1%E0%A4%BC_%E0%A4%AD%E0%A5%87%E0%A4%A6#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

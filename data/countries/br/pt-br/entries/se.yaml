@@ -1,0 +1,30 @@
+word: se
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /si/
+part_of_speech: pron
+meanings:
+  - en: first-person singular reflexive pronoun; myself
+    examples:
+      - text: Eu acordei e se vesti.
+        en: I woke up and dressed myself.
+  - en: first-person plural reciprocal pronoun; each other; one another
+    examples:
+      - text: Nós se beijámos.
+        en: We kissed each other.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/se#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

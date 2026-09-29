@@ -1,0 +1,25 @@
+word: طعام
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ṭʕām
+pronunciation:
+  ipa: /tˤʕaːm/
+part_of_speech: noun
+meanings:
+  - en: couscous
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B7%D8%B9%D8%A7%D9%85#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

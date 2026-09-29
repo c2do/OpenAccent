@@ -1,0 +1,29 @@
+word: geri
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[ɟeɾi]"
+meanings:
+  - en: back
+    examples: []
+  - en: stupid
+    examples: []
+  - en: back, backwards
+    examples: []
+  - en: again
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/geri#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

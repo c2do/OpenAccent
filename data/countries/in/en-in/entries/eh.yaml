@@ -1,0 +1,29 @@
+word: eh
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /eɪ/
+part_of_speech: intj
+meanings:
+  - en: Used as a tag question, to emphasise what goes before or to request that the
+      listener express an opinion about what has been said.
+    examples:
+      - text: These hot dogs are pretty good, eh?
+      - text: Well, what dost thou think then of seeing the world? Do ye wish to go
+          round Cape Horn to see any more of it, eh? Can’t ye see the world
+          where you stand?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/eh#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

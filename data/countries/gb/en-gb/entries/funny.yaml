@@ -1,0 +1,33 @@
+word: funny
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfʌni/
+meanings:
+  - en: Showing unexpected resentment.
+    examples:
+      - text: "Near-synonyms: touchy, tetchy"
+      - text: Don't mention it to her — she's funny about it.
+  - en: A narrow, clinker-built double-ender for sculling.
+    examples:
+      - text: As I do not belong to the boat-club, I always row by myself in a funny […]
+          or at least go in a two-oared boat, with some friend with whom I
+          should otherwise be walking.
+      - text: We were going to have a go in one of the double scull ‘funnies’ that could
+          be had from the Rowing Club in the harbour, but he is off up the line
+          tomorrow to rejoin his old Battery.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/funny#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

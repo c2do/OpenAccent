@@ -1,0 +1,29 @@
+word: folks
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fəʊks/
+part_of_speech: noun
+meanings:
+  - en: People in general; everybody or anybody.
+    examples:
+      - text: Lots of folks like to travel during the holidays.
+      - text: ‘Hi, folks,’ Henry said, using inclusive terminology because one of them
+          was female.
+  - en: The police.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/folks#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

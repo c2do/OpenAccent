@@ -1,0 +1,26 @@
+word: Horst
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /hɔʁst/
+part_of_speech: noun
+meanings:
+  - en: loser; nerd; idiot
+    examples:
+      - text: Alter, du bist so ein Horst!
+        en: Mate, you're such an idiot!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Horst#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: wann
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /van/
+part_of_speech: adv
+meanings:
+  - en: sometime
+    examples:
+      - text: Das sollten wir mal wann besprechen, wenn alle da sind.
+        en: We should discuss this sometime that everybody’s present.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wann#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

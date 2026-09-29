@@ -1,0 +1,27 @@
+word: gérer
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʒe.ʁe/
+part_of_speech: verb
+meanings:
+  - en: to rule, to rock (to excel)
+    examples:
+      - text: J'ai réussi avec grande distinction. - Excellent! Tu gères!
+      - text: I passed with distinction.
+        en: Excellent! You rule!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/g%C3%A9rer#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: ama
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈa.ma/
+part_of_speech: conj
+meanings:
+  - en: but; however
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ama#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

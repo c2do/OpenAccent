@@ -1,0 +1,27 @@
+word: गटकना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - gaṭaknā
+pronunciation:
+  ipa: /ɡə.ʈək.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to gulp down, to bolt (food)
+    examples: []
+  - en: to embezzle
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%97%E0%A4%9F%E0%A4%95%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

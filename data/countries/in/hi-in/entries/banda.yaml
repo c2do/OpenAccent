@@ -1,0 +1,28 @@
+word: बंदा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bandā
+pronunciation:
+  ipa: /bən.d̪ɑː/
+part_of_speech: noun
+meanings:
+  - en: a man, person, guy, bloke
+    examples: []
+  - en: a servant, slave; used to refer to oneself humbly, e.g. यह बंदा (yah bandā,
+      “this servant”)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%82%E0%A4%A6%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

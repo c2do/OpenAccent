@@ -1,0 +1,34 @@
+word: Laden
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈlaːdən/
+part_of_speech: noun
+meanings:
+  - en: any establishment entertaining guests, especially a pub or bar, but also a
+      hotel, restaurant, discotheque, etc.
+    examples:
+      - text: Was kostet denn das Bier hier in dem Laden?
+        en: So how much is a beer in this place?
+  - en: "a (usually organised) group of people and its affairs: a company, political
+      party, club, school, etc."
+    examples:
+      - text: Ich bin den ganzen Laden so leid.
+        en: I’m so fed up with the whole bunch.
+      - text: Er muss wohnen und schlafen / Und vergessen / Dass gestern wie heute wird
+          / Heute wie morgen / Und dass in diesem Laden herzlich wenig passiert
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Laden#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

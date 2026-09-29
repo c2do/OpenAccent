@@ -1,0 +1,27 @@
+word: لون
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - lūn
+  - lawwan
+pronunciation:
+  ipa: /luːn/
+meanings:
+  - en: color
+    examples: []
+  - en: to color
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D9%88%D9%86#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

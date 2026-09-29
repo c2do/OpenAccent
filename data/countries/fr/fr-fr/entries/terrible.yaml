@@ -1,0 +1,26 @@
+word: terrible
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tɛ.ʁibl/
+part_of_speech: adj
+meanings:
+  - en: great, excellent
+    examples:
+      - text: Le concert était terrible. J'ai adoré.
+        en: The concert was terrific. I loved it.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/terrible#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

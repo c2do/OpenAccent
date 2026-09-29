@@ -1,0 +1,26 @@
+word: mü
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+part_of_speech: prep
+meanings:
+  - en: Used to form interrogatives.
+    examples:
+      - text: Şu seksi adamı gördün mü?
+        en: Did you see that sexy man?
+      - text: Kör müsün?
+        en: Are you blind?
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/m%C3%BC#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

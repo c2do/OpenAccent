@@ -1,0 +1,25 @@
+word: top
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tɒp/
+part_of_speech: verb
+meanings:
+  - en: To commit suicide.
+    examples:
+      - text: Depression causes many people to top themselves.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/top#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: biz
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /biz/
+meanings:
+  - en: we (subject form)
+    examples: []
+  - en: awl
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/biz#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

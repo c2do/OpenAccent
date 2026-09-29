@@ -1,0 +1,29 @@
+word: चाटना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - cāṭnā
+pronunciation:
+  ipa: /t͡ʃɑːʈ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to lick
+    examples: []
+  - en: to eat with appetite
+    examples: []
+  - en: to bore, annoy
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A4%BE%E0%A4%9F%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

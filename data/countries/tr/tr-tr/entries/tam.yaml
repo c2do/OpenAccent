@@ -1,0 +1,33 @@
+word: tam
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tam/
+meanings:
+  - en: exactly
+    examples:
+      - text: Tam arkanda!
+        en: On your six!
+  - en: right when, right while
+    examples:
+      - text: tam uyuyordum, kapı çalındı
+        en: right when I was about to sleep, the doorbell rang
+  - en: complete, absolute
+    examples: []
+  - en: full, entire
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tam#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

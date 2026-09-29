@@ -1,0 +1,25 @@
+word: only
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈoʊn.li/
+part_of_speech: adv
+meanings:
+  - en: Used to express surprise or consternation at an action.
+    examples:
+      - text: She's only gone and run off with the milkman!
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/only#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

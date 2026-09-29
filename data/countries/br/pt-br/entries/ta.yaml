@@ -1,0 +1,24 @@
+word: tá
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈta/
+part_of_speech: intj
+meanings:
+  - en: OK; all right
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/t%C3%A1#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

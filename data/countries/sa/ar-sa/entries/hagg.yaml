@@ -1,0 +1,30 @@
+word: حق
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ḥagg
+pronunciation:
+  ipa: /ˈħaɡɡ/
+meanings:
+  - en: equity
+    examples: []
+  - en: right
+    examples: []
+  - en: rightful possession, property
+    examples: []
+  - en: claim, legal claim
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D9%82#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

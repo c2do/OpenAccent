@@ -1,0 +1,32 @@
+word: سقط
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - sqaṭ
+  - saqqaṭ
+pronunciation:
+  ipa: /sqatˤ/
+part_of_speech: verb
+meanings:
+  - en: to flunk
+    examples:
+      - text: سقط محمد هاد العام.
+        en: Muhammed flunked this year.
+  - en: To give a student a non-passing grade in an academic endeavour.
+    examples:
+      - text: سقطوه حيت نقل فامتحان الرياضيات.
+        en: They failed him because he cheated in the maths exam.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B3%D9%82%D8%B7#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

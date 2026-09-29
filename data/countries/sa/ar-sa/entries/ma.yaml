@@ -1,0 +1,33 @@
+word: مع
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - maʕ
+pronunciation:
+  ipa: /maʕ/
+part_of_speech: prep
+meanings:
+  - en: with, together with, in the company of
+    examples:
+      - text: حروح معاك
+        en: I will go with you
+  - en: in spite of, despite
+    examples: []
+  - en: toward, in relation to
+    examples: []
+  - en: pro, for, advocate of, supporting
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%B9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

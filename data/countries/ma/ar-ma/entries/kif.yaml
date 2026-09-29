@@ -1,0 +1,38 @@
+word: كيف
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - kīf
+pronunciation:
+  ipa: /kiːf/
+meanings:
+  - en: how
+    examples:
+      - text: كيف صبحتي اليوم؟ ― صبحت شوية عيان.
+        en: How did you sleep today? ― I woke up a bit tired.
+  - en: as soon as
+    examples:
+      - text: كيف جا، مشيت بحالي.
+        en: As soon as he came, I've left.
+  - en: as, like
+    examples:
+      - text: ما كاين حد كيفنا.
+        en: There is no one like us.
+  - en: cannabis
+    examples:
+      - text: غشوني فالكيف اللي شريت ديك النهار.
+        en: They scammed me with the cannabis I bought the other day.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D9%8A%D9%81#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

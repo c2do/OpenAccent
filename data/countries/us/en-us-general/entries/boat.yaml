@@ -1,0 +1,26 @@
+word: boat
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bəʊ̯t/
+part_of_speech: noun
+meanings:
+  - en: A car, especially a large or heavy one.
+    examples:
+      - text: "Near-synonyms: land yacht, sled"
+      - text: He claimed to be broke but he always drove that ridiculous boat.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/boat#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

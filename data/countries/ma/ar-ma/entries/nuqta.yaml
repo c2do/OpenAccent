@@ -1,0 +1,31 @@
+word: نقطة
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - nuqṭa
+pronunciation:
+  ipa: /nuq.tˤa/
+part_of_speech: noun
+meanings:
+  - en: dot, point
+    examples: []
+  - en: subject, issue
+    examples: []
+  - en: period (punctuation mark)
+    examples: []
+  - en: drop
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%86%D9%82%D8%B7%D8%A9#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

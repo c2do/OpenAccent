@@ -1,0 +1,27 @@
+word: قاتل
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - gātal
+  - gātil
+pronunciation:
+  ipa: /ɡaː.tal/
+meanings:
+  - en: to combat, to battle, to fight
+    examples: []
+  - en: killer, murderer, assassin
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%A7%D8%AA%D9%84#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

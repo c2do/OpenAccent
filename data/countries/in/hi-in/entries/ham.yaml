@@ -1,0 +1,32 @@
+word: हम
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ham
+pronunciation:
+  ipa: /ɦəm/
+meanings:
+  - en: "we: first-person plural personal pronoun, plural of मैं (ma͠i)"
+    examples:
+      - text: हम बहुत पहले से एक-दूसरे को जानते हैं।
+        en: We've known each other for a long time.
+  - en: "I: first-person personal singular personal pronoun"
+    examples: []
+  - en: also, as well, likewise
+    examples: []
+  - en: whether, either
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B9%E0%A4%AE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

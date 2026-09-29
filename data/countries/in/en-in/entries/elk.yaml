@@ -1,0 +1,28 @@
+word: elk
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɛlk/
+part_of_speech: noun
+meanings:
+  - en: Any of various large species of deer such as the red deer, moose or wapiti
+      (see usage notes).; Sambar (Cervus unicolor).
+    examples:
+      - text: In a narrow defile […] a male elk, (cervus alces, Lin.) of noble
+          appearance, followed by twenty-two females, passed majestically under
+          their platform, each as large as a common-sized horse.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/elk#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

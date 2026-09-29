@@ -1,0 +1,28 @@
+word: part
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pɑːt/
+part_of_speech: noun
+meanings:
+  - en: A portion; a component.; A room in a public building, especially a
+      courtroom.
+    examples: []
+  - en: The dividing line formed by combing the hair in different directions.
+    examples:
+      - text: The part of his hair was slightly to the left.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/part#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

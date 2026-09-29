@@ -1,0 +1,26 @@
+word: natural
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnæt͡ʃ.(ə.)ɹəl/
+part_of_speech: noun
+meanings:
+  - en: One's life.
+    examples:
+      - text: ‘Sergeant-Major Robinson came in in the middle of it, and you've never
+          seen a man look more surprised in your natural.’
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/natural#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

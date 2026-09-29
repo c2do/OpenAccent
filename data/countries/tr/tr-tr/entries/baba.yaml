@@ -1,0 +1,29 @@
+word: baba
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /baˈba/
+meanings:
+  - en: father
+    examples: []
+  - en: saint
+    examples: []
+  - en: crime boss
+    examples: []
+  - en: penis, dick
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/baba#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

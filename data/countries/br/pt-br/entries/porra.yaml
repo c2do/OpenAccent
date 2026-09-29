@@ -1,0 +1,26 @@
+word: porra
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpo.ʁɐ/
+part_of_speech: noun
+meanings:
+  - en: cum, spunk (UK), spooge (US), jizz, jizzum, jism
+    examples: []
+  - en: cumshot
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/porra#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: après
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a.pʁɛ/
+part_of_speech: adv
+meanings:
+  - en: that being said
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/apr%C3%A8s#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

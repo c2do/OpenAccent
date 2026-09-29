@@ -1,0 +1,26 @@
+word: bloß
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bloːs/
+part_of_speech: adv
+meanings:
+  - en: Used to add emphasis or to respond to a request.
+    examples:
+      - text: Pass bloß auf!
+        en: Just watch out!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/blo%C3%9F#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: حليب
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ḥlīb
+pronunciation:
+  ipa: /ħliːb/
+part_of_speech: noun
+meanings:
+  - en: milk
+    examples: []
+  - en: semen
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D9%84%D9%8A%D8%A8#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

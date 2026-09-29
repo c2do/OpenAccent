@@ -1,0 +1,41 @@
+word: machen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmaxən/
+part_of_speech: verb
+meanings:
+  - en: to do, perform, carry out (an action) (to execute; to put into operation)
+    examples:
+      - text: Mach es!
+        en: Do it!
+      - text: Das hat er ganz allein gemacht!
+        en: He did that all by himself!
+  - en: to come to, to total, to cost (to require the payment of)
+    examples:
+      - text: Wie viel macht das?
+        en: How much does that come to?
+  - en: to make (to earn, gain wages, profit, etc.)
+    examples:
+      - text: Der Herr Müller ist echt reich; der macht mehr als 5000 Euro im Monat.
+        en: Mr Müller is quite rich; he makes more than 5000 Euros per month.
+  - en: to signify, to mean [with nichts, viel, etc.] (translated idiomatically as
+      English (not) matter)
+    examples:
+      - text: Das macht nichts!
+        en: That doesn't matter!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/machen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

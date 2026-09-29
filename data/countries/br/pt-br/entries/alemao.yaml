@@ -1,0 +1,27 @@
+word: alemão
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a.leˈmɐ̃w̃/
+meanings:
+  - en: blond and fair-skinned
+    examples: []
+  - en: a person with blond hair and fair skin
+    examples: []
+  - en: cop (police officer)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/alem%C3%A3o#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: then
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ðɛn/
+part_of_speech: adv
+meanings:
+  - en: Used to contradict an assertion.
+    examples:
+      - text: |-
+          ‘She says Indian elephants are tidgy little things.’
+           ‘They're not then.’ Emma was getting heated. ‘They're –’
+           ‘Emma!’ said Jenny sharply. The child subsided.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/then#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

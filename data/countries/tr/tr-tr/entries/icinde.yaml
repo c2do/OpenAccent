@@ -1,0 +1,26 @@
+word: içinde
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /i.t͡ʃinˈde/
+part_of_speech: postp
+meanings:
+  - en: in, within, inside
+    examples:
+      - text: Sarayın içinde yüz oda vardır.
+        en: There are a hundred rooms inside the palace.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/i%C3%A7inde#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

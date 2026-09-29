@@ -1,0 +1,30 @@
+word: is
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈis/
+part_of_speech: noun
+meanings:
+  - en: soot, lampblack, particles of amorphous carbon and tar produced by the
+      incomplete combustion of coal
+    examples: []
+  - en: fume, a material that has been vaporized from the solid or liquid state and
+      re-coalesced to the solid state
+    examples: []
+  - en: synonym of sürme (“kohl”)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/is#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

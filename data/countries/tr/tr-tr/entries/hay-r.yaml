@@ -1,0 +1,31 @@
+word: hayır
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhɑ.jɯɾ/
+meanings:
+  - en: no
+    examples:
+      - text: Öğretmen misin? — Hayır.
+        en: Are you a teacher? — No.
+  - en: good; prosperity
+    examples: []
+  - en: profit, advantage
+    examples: []
+  - en: charity
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hay%C4%B1r#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: नाख़ून
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - nāxūn
+pronunciation:
+  ipa: /nɑː.xʊn/
+part_of_speech: noun
+meanings:
+  - en: nail, fingernail (of the finger or toe), claw, talon
+    examples:
+      - text: तुम्हारे लंबे नाख़ून जल्दी से काटना चाहिए।
+        en: You should cut your long nails quickly.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A8%E0%A4%BE%E0%A4%96%E0%A4%BC%E0%A5%82%E0%A4%A8#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

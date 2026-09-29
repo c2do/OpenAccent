@@ -1,0 +1,37 @@
+word: böyle
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbœj.le/
+meanings:
+  - en: such; like this (that, these, those)
+    examples:
+      - text: Böyle insanlarla yaşamak istemiyorum.
+        en: I don't want to live with such people.
+  - en: so; in this way; like this (that)
+    examples:
+      - text: Mektuplarımı hep böyle yazarım.
+        en: I always write my letters like this/in this way.
+  - en: in this level, so ... as this
+    examples:
+      - text: Böyle bir sevmek daha önce görülmedi.
+        en: There has never been seen a love as great as this.
+  - en: signifies surprise or disfavour when added to questions
+    examples:
+      - text: Bu geç saatte nereye gidiyorsun böyle?
+        en: Where are you going at this late hour?
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/b%C3%B6yle#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

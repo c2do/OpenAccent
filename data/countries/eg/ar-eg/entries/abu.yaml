@@ -1,0 +1,27 @@
+word: ابو
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - abu
+pronunciation:
+  ipa: /(ʔ)abu/
+part_of_speech: adj
+meanings:
+  - en: which is with, which has
+    examples:
+      - text: الراجل أبو طربوش
+        en: The man with the fez
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D8%A8%D9%88#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

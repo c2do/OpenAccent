@@ -1,0 +1,24 @@
+word: champ'
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʃɑ̃p/
+part_of_speech: noun
+meanings:
+  - en: champagne, champers
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/champ'#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: poulet
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pu.le/
+part_of_speech: noun
+meanings:
+  - en: policeman (especially a plain-clothes police detective)
+    examples:
+      - text: Dans un tweet, depuis effacé, la CGT Publicis évoquait le traitement
+          médiatique réservé à un «poulet grillé», pour parler du policier
+          gravement brûlé en marge des défilés du 1er-Mai à Paris.
+        en: In a tweet, since deleted, CGT Publicis [a trade union branch] mentioned the
+          media's coverage of a "pig roast", referring to a police officer who
+          suffered severe burns during the 1 May marches in Paris.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/poulet#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

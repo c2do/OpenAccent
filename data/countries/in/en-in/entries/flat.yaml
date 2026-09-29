@@ -1,0 +1,29 @@
+word: flat
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈflæt/
+part_of_speech: noun
+meanings:
+  - en: A complete domicile occupying only part of a building, especially one for
+      rent
+    examples:
+      - text: The excellence of French flats is so well known in America, that the owner
+          will often refer to his property as "first class French flats."
+      - text: A kiss may be grand but it won’t pay the rental on your humble flat or
+          help you at the automat.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/flat#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

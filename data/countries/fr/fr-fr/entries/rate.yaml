@@ -1,0 +1,27 @@
+word: raté
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʁa.te/
+meanings:
+  - en: failed, screwed up
+    examples: []
+  - en: missed
+    examples: []
+  - en: a failure, a washout, a loser
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rat%C3%A9#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

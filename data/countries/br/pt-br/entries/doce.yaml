@@ -1,0 +1,24 @@
+word: doce
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdo.si/
+part_of_speech: noun
+meanings:
+  - en: LSD (lysergic acid diethylamide)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/doce#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

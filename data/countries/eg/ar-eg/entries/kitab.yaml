@@ -1,0 +1,27 @@
+word: كتاب
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - kitāb
+pronunciation:
+  ipa: /ki.taːb/
+part_of_speech: noun
+meanings:
+  - en: book
+    examples:
+      - text: عموما التفاصيل في الكتاب
+        en: Generally, all the details are in the book.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D8%AA%D8%A7%D8%A8#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

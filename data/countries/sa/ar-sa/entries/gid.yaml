@@ -1,0 +1,34 @@
+word: قيد
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - gīd
+  - gēd
+  - gayyad
+pronunciation:
+  ipa: /ɡiːd/
+meanings:
+  - en: already
+    examples:
+      - text: قيده جا
+        en: He already came
+  - en: fetter, chain, bond
+    examples: []
+  - en: strap
+    examples: []
+  - en: registration
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D9%8A%D8%AF#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

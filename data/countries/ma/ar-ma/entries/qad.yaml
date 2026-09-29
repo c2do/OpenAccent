@@ -1,0 +1,32 @@
+word: عقد
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ʕqad
+  - ʕaqqad
+  - ʕaqd
+pronunciation:
+  ipa: /ʕqad/
+meanings:
+  - en: to tie, knit, make a knot
+    examples: []
+  - en: to conclude a bargain or contract
+    examples: []
+  - en: to complicate
+    examples: []
+  - en: contract
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%82%D8%AF#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

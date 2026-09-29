@@ -1,0 +1,24 @@
+word: keş
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ceʃ/
+part_of_speech: noun
+meanings:
+  - en: drug addict
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ke%C5%9F#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

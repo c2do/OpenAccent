@@ -1,0 +1,30 @@
+word: zona
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈzõ.nɐ/
+part_of_speech: noun
+meanings:
+  - en: mess
+    examples:
+      - text: A cozinha está uma zona!
+        en: The kitchen is an absolute mess!
+      - text: A bolsonarista também afirmou que o municipo estava uma “zona” e que do
+          tema ela entende.
+  - en: red light district; brothel
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/zona#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

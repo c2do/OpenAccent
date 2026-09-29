@@ -1,0 +1,27 @@
+word: موعد
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - mawʕid
+pronunciation:
+  ipa: /maw.ʕid/
+part_of_speech: noun
+meanings:
+  - en: appointment
+    examples: []
+  - en: date
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D9%88%D8%B9%D8%AF#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

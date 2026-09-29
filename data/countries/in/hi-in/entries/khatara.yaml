@@ -1,0 +1,35 @@
+word: खटारा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - khaṭārā
+pronunciation:
+  ipa: /kʰə.ʈɑː.ɾɑː/
+meanings:
+  - en: working flakily; barely functioning; decrepit; wrecky; rickety; ramshackle;
+      useless
+    examples: []
+  - en: loading cart
+    examples:
+      - text: घुड़दौड़ के घोड़े को बूढ़ा होने पर अब जीर्ण-शीर्ण साज़ में एक खटारा खींचना
+          पड़ रहा था […]
+        en: The racehorse, having grown old, now had to pull a cart in a worn-out
+          harness […]
+  - en: an old, worn-out, unreliable vehicle, machine, or gadget; a creaky or
+      clattery vehicle or machine; beater; junker; jalopy; crate; wreck; hunk of
+      junk; rustbucket
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%96%E0%A4%9F%E0%A4%BE%E0%A4%B0%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

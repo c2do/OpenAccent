@@ -1,0 +1,32 @@
+word: شهر
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - šahr
+  - šahar
+  - šahhar
+pronunciation:
+  ipa: /ʃahr/
+meanings:
+  - en: month
+    examples: []
+  - en: to make known
+    examples: []
+  - en: to defame
+    examples: []
+  - en: to proclaim, to announce
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D9%87%D8%B1#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

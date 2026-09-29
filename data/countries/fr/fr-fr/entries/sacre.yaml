@@ -1,0 +1,26 @@
+word: sacré
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sa.kʁe/
+part_of_speech: adj
+meanings:
+  - en: hell of a; bloody
+    examples:
+      - text: sacré menteur
+      - text: sacré toupet
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sacr%C3%A9#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

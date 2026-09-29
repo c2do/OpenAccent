@@ -1,0 +1,33 @@
+word: Nummer
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnʊmɐ/
+part_of_speech: noun
+meanings:
+  - en: song; composition
+    examples:
+      - text: Und auch wenn nicht jede Nummer so zwingend erscheint wie ein paar
+          offensichtliche Ohrwürmer – „In My Darkness“ etwa oder auch der
+          Titelsong –, hat dieses Album durchaus die Anmutung eines Mixtapes.
+  - en: character (idiosyncratic person)
+    examples: []
+  - en: sex; an instance of sexual intercourse
+    examples:
+      - text: eine schnelle Nummer
+      - text: eine Nummer schieben
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Nummer#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,33 @@
+word: ढक्कन
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ḍhakkan
+pronunciation:
+  ipa: /ɖʱək.kən/
+part_of_speech: noun
+meanings:
+  - en: bottle cap or a cork to close a bottle
+    examples: []
+  - en: lid
+    examples: []
+  - en: cover
+    examples:
+      - text: इस टोकरी का ढक्कन हटाओ।
+        en: Take the lid off this basket.
+  - en: an idiot
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A2%E0%A4%95%E0%A5%8D%E0%A4%95%E0%A4%A8#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

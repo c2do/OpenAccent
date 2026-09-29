@@ -1,0 +1,26 @@
+word: depuis
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /də.pɥi/
+part_of_speech: adv
+meanings:
+  - en: ever since, since then
+    examples:
+      - text: Depuis, je vis ici.
+        en: Since then, I've been living here.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/depuis#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

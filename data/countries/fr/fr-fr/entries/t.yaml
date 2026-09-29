@@ -1,0 +1,26 @@
+word: t'
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t‿/
+part_of_speech: pron
+meanings:
+  - en: elided form of tu
+    examples:
+      - text: T’as vu mon frère ?
+        en: Have you seen my brother?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/t'#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: eğer
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈe.(j)eɾ/
+part_of_speech: conj
+meanings:
+  - en: if (supposing that)
+    examples: []
+  - en: "in case (to allow for the possibility that): in the event (conjunction)"
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/e%C4%9Fer#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

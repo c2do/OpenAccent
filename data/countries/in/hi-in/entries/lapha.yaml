@@ -1,0 +1,29 @@
+word: लाफा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - lāphā
+pronunciation:
+  ipa: /lɑː.pʰɑː/
+part_of_speech: noun
+meanings:
+  - en: a slap, strike, hit
+    examples:
+      - text: लाफा मारना
+        en: to slap, hit, strike
+      - text: अरे मेरे भाई, लाफा नहीं मारने का!
+        en: Friend, don't hit me!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B2%E0%A4%BE%E0%A4%AB%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

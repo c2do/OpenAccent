@@ -1,0 +1,25 @@
+word: بينما
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - bīnemma
+pronunciation:
+  ipa: /biː.nɪm.ma/
+part_of_speech: conj
+meanings:
+  - en: while
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D9%8A%D9%86%D9%85%D8%A7#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

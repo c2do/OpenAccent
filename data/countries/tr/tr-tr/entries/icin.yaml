@@ -1,0 +1,36 @@
+word: için
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /iˈt͡ʃin/
+part_of_speech: postp
+meanings:
+  - en: with the aim of, as a result of, for
+    examples:
+      - text: Bir gece için mi?
+        en: For one night?
+  - en: so as to, in order to, on account of
+    examples: []
+  - en: in the case of, so that, in order that
+    examples: []
+  - en: because, since, owing to
+    examples:
+      - text: Üşüdüğüm için mont giydim.
+        en: I put on a coat because I was cold.
+      - text: Bunun için geldim.
+        en: I came for this reason.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/i%C3%A7in#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: lhes
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʎis/
+part_of_speech: pron
+meanings:
+  - en: direct object of vocês
+    examples: []
+  - en: direct object of eles and elas
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/lhes#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,31 @@
+word: وقت
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - wagt
+  - waggat
+pronunciation:
+  ipa: /waɡt/
+meanings:
+  - en: time (as an abstract concept)
+    examples: []
+  - en: period of time, time span
+    examples: []
+  - en: moment, instant
+    examples: []
+  - en: to set a time, to appoint a time, to fix a time, to schedule
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88%D9%82%D8%AA#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

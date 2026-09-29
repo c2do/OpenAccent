@@ -1,0 +1,25 @@
+word: صندوق
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ṣandūʔ
+pronunciation:
+  ipa: /sˤan.duːʔ/
+part_of_speech: noun
+meanings:
+  - en: box, chest
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B5%D9%86%D8%AF%D9%88%D9%82#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

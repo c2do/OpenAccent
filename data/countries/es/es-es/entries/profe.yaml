@@ -1,0 +1,24 @@
+word: profe
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpɾofe/
+part_of_speech: noun
+meanings:
+  - en: prof, teacher
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/profe#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

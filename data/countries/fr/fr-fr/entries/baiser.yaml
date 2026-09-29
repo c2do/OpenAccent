@@ -1,0 +1,30 @@
+word: baiser
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɛ.ze/
+part_of_speech: verb
+meanings:
+  - en: to prevail over someone, fuck, screw
+    examples:
+      - text: L’enfoiré croyait m’avoir, mais je l’ai bien baisé.
+        en: The asshole thought he had me, but I screwed him.
+  - en: to break, deteriorate, to fuck up
+    examples:
+      - text: En forçant sur l’écrou, j’ai baisé le filetage.
+        en: By forcing the nut, I fucked up the screw thread.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/baiser#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

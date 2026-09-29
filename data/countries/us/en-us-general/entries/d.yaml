@@ -1,0 +1,23 @@
+word: D
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A grade awarded for a class, better than outright failure (which can be F or
+      E depending on the institution) and worse than a C.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/D#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

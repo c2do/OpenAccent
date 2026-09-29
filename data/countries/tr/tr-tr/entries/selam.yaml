@@ -1,0 +1,25 @@
+word: selam
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /seˈlam/
+meanings:
+  - en: hi
+    examples: []
+  - en: '"hello" or an equivalent greeting'
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/selam#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

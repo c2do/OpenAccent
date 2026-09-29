@@ -1,0 +1,31 @@
+word: عام
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ʕām
+  - ʕāmm
+pronunciation:
+  ipa: /ʕaːm/
+meanings:
+  - en: year
+    examples: []
+  - en: to swim
+    examples: []
+  - en: public
+    examples: []
+  - en: prevalent, universal
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D9%85#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

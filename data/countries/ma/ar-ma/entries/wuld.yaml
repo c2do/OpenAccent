@@ -1,0 +1,30 @@
+word: ولد
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - wuld
+  - wald
+pronunciation:
+  ipa: /wuld/
+part_of_speech: noun
+meanings:
+  - en: boy
+    examples: []
+  - en: son
+    examples: []
+  - en: children
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88%D9%84%D8%AF#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: औंधा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - aundhā
+pronunciation:
+  ipa: /ɔːn.d̪ʱɑː/
+meanings:
+  - en: face down, upside down
+    examples: []
+  - en: overturned, in utter confusion, ruined, fallen flat
+    examples: []
+  - en: crooked, wrong, adverse (as fortune)
+    examples: []
+  - en: a fool
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%94%E0%A4%82%E0%A4%A7%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: كول
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - kul
+pronunciation:
+  ipa: /kuːl/
+part_of_speech: adj
+meanings:
+  - en: cool
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D9%88%D9%84#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

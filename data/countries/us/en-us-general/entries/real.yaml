@@ -1,0 +1,26 @@
+word: real
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɹiːl/
+part_of_speech: adv
+meanings:
+  - en: Really; very.
+    examples:
+      - text: When I told him the truth, he got real mad.
+      - text: Se looked at me real strange.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/real#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

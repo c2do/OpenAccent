@@ -1,0 +1,29 @@
+word: فوق
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - fawq
+  - fūq
+pronunciation:
+  ipa: /fawq/
+meanings:
+  - en: location that is above
+    examples: []
+  - en: above
+    examples: []
+  - en: above, on top of
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D9%88%D9%82#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

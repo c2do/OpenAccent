@@ -1,0 +1,24 @@
+word: mona
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmona/
+part_of_speech: noun
+meanings:
+  - en: doll, puppet
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mona#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

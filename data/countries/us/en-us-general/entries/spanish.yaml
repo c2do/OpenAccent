@@ -1,0 +1,27 @@
+word: Spanish
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈspænɪʃ/
+meanings:
+  - en: Of or pertaining to Hispanic people or their culture.
+    examples: []
+  - en: People of Hispanic origin; one whose first language is Spanish.
+    examples:
+      - text: Sixty-four percent more Spanish are functionally illiterate compared to
+          Anglos in Lubbock (only 15 percent more of nonwhites than Anglos).
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Spanish#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

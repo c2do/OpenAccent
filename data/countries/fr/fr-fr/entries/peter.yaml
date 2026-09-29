@@ -1,0 +1,30 @@
+word: péter
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pe.te/
+part_of_speech: verb
+meanings:
+  - en: to blow off, fart
+    examples: []
+  - en: to break
+    examples: []
+  - en: to explode
+    examples:
+      - text: Ça fait déjà des années que tout aurait dû péter / Dommage que l'unité
+          n'ait été de notre côté
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/p%C3%A9ter#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

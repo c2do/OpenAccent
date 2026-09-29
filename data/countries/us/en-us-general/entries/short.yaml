@@ -1,0 +1,29 @@
+word: short
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʃɔːt/
+part_of_speech: noun
+meanings:
+  - en: An automobile.
+    examples:
+      - text: crack shorts
+        en: to break into automobiles
+      - text: For example, one addict would crack shorts (break and enter cars) and
+          usually obtain just enough stolen goods to buy stuff and get off just
+          before getting sick.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/short#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,32 @@
+word: Alter
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈaltər/
+meanings:
+  - en: mate, bloke (UK); dude, guy (US); a somewhat intimate or mildly dismissive
+      word for a man, especially but not exclusively used as a vocative
+    examples:
+      - text: Alter! Komm zurück, wir müssen hier links.
+        en: Dude! Come back, we need to go left here.
+      - text: Haste ma ’n Euro für was zu essen, Alter?
+        en: You got a euro for summat to eat, mate?
+  - en: man, dude, mate; used for emphasis
+    examples:
+      - text: Alter, was denn hier los?
+        en: Man, what’s going on in here?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Alter#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

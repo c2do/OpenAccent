@@ -1,0 +1,36 @@
+word: Christmas
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkɹɪsməs/
+meanings:
+  - en: Red and green in color.
+    examples: []
+  - en: "Of a dish: having a sauce made with red (ripe) and green (unripe) chili
+      peppers."
+    examples: []
+  - en: To decorate (a place) with Christmas (“sprigs of holly and other evergreen
+      plants used as Christmas decorations, or any Christmas decorations”).
+    examples:
+      - text: (Moving to the holly boughs.) Come on; let's finish Christmassing the
+          place.
+  - en: To celebrate Christmas.
+    examples:
+      - text: The 2016 campaign via TBWA Sydney asks the question, ‘How do Australians
+          Christmas?’ with a film to be launched today featuring global
+          superstar and style icon, Cate Blanchett.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/Christmas#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import
