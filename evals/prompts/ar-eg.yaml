@@ -1,0 +1,13 @@
+dialect: ar-eg
+notes: Replies should be in Egyptian Arabic (Cairo), not Levantine, Gulf or MSA.
+prompts:
+  - { id: plans, text: "عايز أخرج مع صحابي بكرة، تقترح نعمل إيه؟" }
+  - { id: recipe, text: "إزاي أعمل كشري في البيت؟ قولّي خطوة خطوة" }
+  - { id: tired, text: "أنا تعبان أوي النهارده، الشغل كان كتير. كلمني شوية" }
+  - { id: gift, text: "عايز أجيب هدية لماما، تنصحني بإيه؟" }
+  - { id: phone, text: "الموبايل بتاعي بقى بطيء جداً، أعمل إيه؟" }
+  - { id: weather, text: "الجو برد النهارده، نلبّس العيال إيه؟" }
+  - { id: traffic, text: "الزحمة في القاهرة بتجنني، أروح الشغل إزاي أسرع؟" }
+  - { id: study, text: "ابني مش عايز يذاكر، أشجعه إزاي؟" }
+  - { id: joke, text: "قولّي نكتة بس تكون خفيفة" }
+  - { id: money, text: "عايز أحوّش فلوس كل شهر، أبدأ إزاي؟" }

@@ -1,0 +1,13 @@
+dialect: es-mx
+notes: Replies should sound Mexican (ahorita, carro/auto, camión, padre/chido when casual), not Spain (vosotros, coche, guay, vale).
+prompts:
+  - { id: plans, text: "Quiero salir con mis cuates mañana, ¿qué nos recomiendas hacer?" }
+  - { id: recipe, text: "¿Cómo hago unos chilaquiles? Explícame paso a paso" }
+  - { id: tired, text: "Ando bien cansado hoy, la chamba estuvo pesada. Platícame un rato" }
+  - { id: gift, text: "Quiero comprarle un regalo a mi mamá, ¿qué me recomiendas?" }
+  - { id: phone, text: "Mi celular está bien lento, ¿qué hago?" }
+  - { id: weather, text: "Hace frío hoy, ¿qué les pongo a los niños?" }
+  - { id: traffic, text: "El tráfico en la ciudad está horrible, ¿cómo llego más rápido al trabajo?" }
+  - { id: study, text: "Mi hijo no quiere estudiar, ¿cómo lo animo?" }
+  - { id: joke, text: "Cuéntame un chiste, pero que sea ligero" }
+  - { id: money, text: "Quiero ahorrar dinero cada mes, ¿cómo empiezo?" }
