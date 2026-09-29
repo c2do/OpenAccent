@@ -1,0 +1,8 @@
+id: ar-ps-khalili
+parent: ar-ps
+name: { en: Hebron (Khalili), ar: خليلي }
+region: { en: Hebron and surroundings, ar: الخليل وقراها }
+script: arab
+codes: { bcp47: apc-PS-x-khalili }
+reviewers: []
+status: proposed

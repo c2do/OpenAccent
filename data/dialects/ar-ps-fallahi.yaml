@@ -1,0 +1,12 @@
+id: ar-ps-fallahi
+parent: ar-ps
+name: { en: Palestinian Rural (Fallahi), ar: فلسطيني فلاحي }
+region: { en: "Rural Palestine (West Bank villages, Galilee)", ar: قرى فلسطين }
+script: arab
+codes: { bcp47: apc-PS-x-fallahi, glottocode: fell1238 }
+reviewers: [c2do]
+status: active
+sound_rules:
+  - [تش, ك]
+  - [چ, ك]
+  - [ق, ك]

@@ -1,0 +1,6 @@
+id: ar
+name: { en: Arabic, ar: العربية }
+script: arab
+codes: { bcp47: ar, iso639_3: ara, glottocode: arab1395 }
+reviewers: []
+status: proposed

@@ -1,0 +1,6 @@
+id: en
+name: { en: English, ar: الإنجليزية }
+script: latn
+codes: { bcp47: en, iso639_3: eng, glottocode: stan1293 }
+reviewers: []
+status: proposed

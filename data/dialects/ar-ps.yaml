@@ -1,0 +1,8 @@
+id: ar-ps
+parent: ar-levantine
+name: { en: Palestinian Arabic, ar: فلسطيني }
+region: { en: Palestine, ar: فلسطين }
+script: arab
+codes: { bcp47: apc-PS, glottocode: sout3123 }
+reviewers: []
+status: proposed

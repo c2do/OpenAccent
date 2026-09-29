@@ -1,0 +1,8 @@
+id: en-us-general
+parent: en-us
+name: { en: General American, ar: الأمريكية العامة }
+region: { en: "United States (widely understood, not region-specific)", ar: الولايات المتحدة }
+script: latn
+codes: { bcp47: en-US }
+reviewers: []   # needs a native American reviewer before it can become active
+status: proposed

@@ -1,0 +1,8 @@
+id: en-us-nyc
+parent: en-us
+name: { en: New York City, ar: نيويورك }
+region: { en: New York City metro area, ar: منطقة نيويورك }
+script: latn
+codes: { bcp47: en-US }
+reviewers: []
+status: proposed

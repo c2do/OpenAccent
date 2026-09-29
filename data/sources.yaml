@@ -1,0 +1,44 @@
+# Datasets that entries may (or may not) be derived from.
+# Entries with `source.kind: dataset` must name an `allowed` dataset below.
+# The validator rejects blocked or unlisted datasets.
+
+allowed:
+  maknuune:
+    title: Maknuune — Palestinian Arabic lexicon (CAMeL Lab, NYU Abu Dhabi)
+    license: CC-BY-SA-4.0
+    url: https://sites.google.com/nyu.edu/palestine-lexicon
+    attribution: "Dibas, Khairallah, Habash et al. (2022), Maknuune: A Large Open Palestinian Arabic Lexicon"
+    note: License must be confirmed by the owner on the official download page before importing.
+  curras:
+    title: Curras — Palestinian Arabic annotated corpus (Birzeit University)
+    license: CC-BY-4.0
+    url: https://sina.birzeit.edu/currasat/
+    attribution: "Jarrar et al. (2017), Curras: an annotated corpus for the Palestinian Arabic dialect"
+  wiktionary:
+    title: Wiktionary (via kaikki.org / wiktextract)
+    license: CC-BY-SA-4.0
+    url: https://en.wiktionary.org
+    attribution: Wiktionary contributors
+  tatoeba:
+    title: Tatoeba example sentences
+    license: CC-BY-2.0-FR
+    url: https://tatoeba.org
+    attribution: Tatoeba contributors
+  glottolog:
+    title: Glottolog (dialect metadata only)
+    license: CC-BY-4.0
+    url: https://glottolog.org
+    attribution: Glottolog, Max Planck Institute for Evolutionary Anthropology
+
+blocked:
+  madar: Research-only license; no redistribution or modification.
+  nadi: Registration required; research/non-commercial only.
+  living-arabic: All rights reserved; reproduction prohibited without authorization.
+  qabas: CC BY-ND 4.0 (no derivatives) — link to IDs only, never copy data.
+  padic: GPLv3 — incompatible with CC BY-SA data.
+  dare: Dictionary of American Regional English — copyrighted.
+
+# Licenses still to confirm before any use:
+unconfirmed:
+  harvard-dialect-survey: License of the survey data unknown.
+  cambridge-dialect-survey: License of the survey data unknown.

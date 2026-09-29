@@ -1,0 +1,8 @@
+id: ar-ps-gazawi
+parent: ar-ps
+name: { en: Gaza (Gazawi), ar: غزاوي }
+region: { en: Gaza Strip, ar: قطاع غزة }
+script: arab
+codes: { bcp47: apc-PS-x-gazawi }
+reviewers: []
+status: proposed

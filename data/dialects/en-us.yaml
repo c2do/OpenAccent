@@ -1,0 +1,8 @@
+id: en-us
+parent: en
+name: { en: American English, ar: الإنجليزية الأمريكية }
+region: { en: United States, ar: الولايات المتحدة }
+script: latn
+codes: { bcp47: en-US }
+reviewers: []
+status: proposed
