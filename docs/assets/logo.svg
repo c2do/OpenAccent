@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="OpenAccent">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#312E81"/>
+      <stop offset="0.55" stop-color="#4338CA"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#bg)"/>
+  <g transform="translate(48 50)">
+    <path d="M24 0h112a24 24 0 0 1 24 24v88a24 24 0 0 1-24 24H70l-34 30v-30H24A24 24 0 0 1 0 112V24A24 24 0 0 1 24 0z" fill="#FFFFFF"/>
+    <g fill="url(#mark)">
+      <rect x="34" y="52" width="14" height="32" rx="7"/>
+      <rect x="58" y="34" width="14" height="68" rx="7"/>
+      <rect x="82" y="22" width="14" height="92" rx="7"/>
+      <rect x="106" y="44" width="14" height="48" rx="7"/>
+    </g>
+  </g>
+</svg>

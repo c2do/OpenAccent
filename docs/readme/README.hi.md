@@ -1,10 +1,29 @@
-# OpenAccent
+<p align="center">
+  <img src="../../docs/assets/banner.svg" alt="OpenAccent" width="100%">
+</p>
 
-[English](../../README.md) · [العربية](README.ar.md) · [Español](README.es.md) · [Português](README.pt-BR.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · **हिन्दी** · [Türkçe](README.tr.md)
+<p align="center"><b>AI से वैसे बात करें, जैसे अपने इलाके के किसी इंसान से करते हैं।</b></p>
+
+<p align="center">
+  <a href="../../LICENSE"><img src="https://img.shields.io/badge/code-MIT-0F766E" alt="Code: MIT"></a>
+  <a href="../../data/LICENSE"><img src="https://img.shields.io/badge/data-CC%20BY--SA%204.0-0F766E" alt="Data: CC BY-SA 4.0"></a>
+  <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP-server-4338CA" alt="MCP server"></a>
+  <img src="https://img.shields.io/badge/dialects-14%20in%20wave%201-4338CA" alt="14 dialects in wave 1">
+  <img src="https://img.shields.io/badge/status-early%20development-F59E0B" alt="Status: early development">
+</p>
+
+<p align="center">
+  <a href="../../README.md"><img src="https://img.shields.io/badge/English-64748B?style=for-the-badge" alt="English"></a>
+  <a href="README.ar.md"><img src="https://img.shields.io/badge/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-64748B?style=for-the-badge" alt="العربية"></a>
+  <a href="README.es.md"><img src="https://img.shields.io/badge/Espa%C3%B1ol-64748B?style=for-the-badge" alt="Español"></a>
+  <a href="README.pt-BR.md"><img src="https://img.shields.io/badge/Portugu%C3%AAs-64748B?style=for-the-badge" alt="Português"></a>
+  <a href="README.fr.md"><img src="https://img.shields.io/badge/Fran%C3%A7ais-64748B?style=for-the-badge" alt="Français"></a>
+  <a href="README.de.md"><img src="https://img.shields.io/badge/Deutsch-64748B?style=for-the-badge" alt="Deutsch"></a>
+  <a href="README.hi.md"><img src="https://img.shields.io/badge/%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-4338CA?style=for-the-badge" alt="हिन्दी"></a>
+  <a href="README.tr.md"><img src="https://img.shields.io/badge/T%C3%BCrk%C3%A7e-64748B?style=for-the-badge" alt="Türkçe"></a>
+</p>
 
 > 🤖 यह अनुवाद एक AI ने तैयार किया है। अगर हिन्दी आपकी भाषा है, तो इसे बेहतर बनाने में मदद करें — यह प्रोजेक्ट ठीक इसी तरह की चीज़ सुधारने के लिए है।
-
-**AI से वैसे बात करें, जैसे अपने इलाके के किसी इंसान से करते हैं।**
 
 OpenAccent दुनिया की बोलियों का एक ओपन-सोर्स शब्दकोश है — देश के हिसाब से व्यवस्थित, समुदाय द्वारा बनाया गया और मूल वक्ताओं द्वारा जाँचा गया। यह इस बात की निजी याद भी रखता है कि *आप* कैसे बोलते हैं। दोनों [MCP](https://modelcontextprotocol.io) के ज़रिए Claude जैसे AI असिस्टेंट तक पहुँचते हैं।
 
@@ -32,9 +51,11 @@ AI मॉडल बोलियों में कमज़ोर हैं:
 
 ## पहली लहर: 14 बोलियाँ
 
-🇺🇸 · 🇬🇧 · 🇮🇳 · 🇲🇽 · 🇪🇸 · 🇧🇷 · 🇫🇷 · 🇩🇪 · 🇹🇷 · 🇮🇳 · 🇪🇬 · 🇸🇦 · 🇸🇾 · 🇱🇧 · 🇲🇦
-
-अमेरिकी · ब्रिटिश · भारतीय अंग्रेज़ी · मैक्सिकन स्पैनिश · स्पेन की स्पैनिश · ब्राज़ीलियन पुर्तगाली · फ़्रांस की फ़्रेंच · जर्मनी की जर्मन · तुर्की · हिन्दी · मिस्री · सऊदी · सीरियाई · लेबनानी अरबी · मोरक्को की दारिजा
+<table>
+  <tr><td align="center" width="20%"><img src="../../docs/assets/flags/us.svg" width="44" alt="United States"><br><b>अमेरिकी</b></td><td align="center" width="20%"><img src="../../docs/assets/flags/gb.svg" width="44" alt="United Kingdom"><br><b>ब्रिटिश</b></td><td align="center" width="20%"><img src="../../docs/assets/flags/in.svg" width="44" alt="India"><br><b>भारतीय अंग्रेज़ी</b></td><td align="center" width="20%"><img src="../../docs/assets/flags/mx.svg" width="44" alt="Mexico"><br><b>मैक्सिकन स्पैनिश</b></td><td align="center" width="20%"><img src="../../docs/assets/flags/es.svg" width="44" alt="Spain"><br><b>स्पेन की स्पैनिश</b></td></tr>
+  <tr><td align="center" width="20%"><img src="../../docs/assets/flags/br.svg" width="44" alt="Brazil"><br><b>ब्राज़ीलियन पुर्तगाली</b></td><td align="center" width="20%"><img src="../../docs/assets/flags/fr.svg" width="44" alt="France"><br><b>फ़्रांस की फ़्रेंच</b></td><td align="center" width="20%"><img src="../../docs/assets/flags/de.svg" width="44" alt="Germany"><br><b>जर्मनी की जर्मन</b></td><td align="center" width="20%"><img src="../../docs/assets/flags/tr.svg" width="44" alt="Turkey"><br><b>तुर्की</b></td><td align="center" width="20%"><img src="../../docs/assets/flags/in.svg" width="44" alt="India"><br><b>हिन्दी</b></td></tr>
+  <tr><td align="center" width="20%"><img src="../../docs/assets/flags/eg.svg" width="44" alt="Egypt"><br><b>मिस्री</b></td><td align="center" width="20%"><img src="../../docs/assets/flags/sa.svg" width="44" alt="Saudi Arabia"><br><b>सऊदी</b></td><td align="center" width="20%"><img src="../../docs/assets/flags/sy.svg" width="44" alt="Syria"><br><b>सीरियाई</b></td><td align="center" width="20%"><img src="../../docs/assets/flags/lb.svg" width="44" alt="Lebanon"><br><b>लेबनानी अरबी</b></td><td align="center" width="20%"><img src="../../docs/assets/flags/ma.svg" width="44" alt="Morocco"><br><b>मोरक्को की दारिजा</b></td></tr>
+</table>
 
 शब्द [विक्षनरी](https://en.wiktionary.org) (CC BY-SA 4.0) से आते हैं, क्षेत्र के अनुसार छाँटे और आम इस्तेमाल के हिसाब से क्रमबद्ध। हर आयात किया गया शब्द तब तक **ड्राफ़्ट** रहता है जब तक कोई मूल वक्ता उसकी समीक्षा न करे।
 
