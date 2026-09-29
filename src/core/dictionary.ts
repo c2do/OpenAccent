@@ -238,13 +238,14 @@ export class Dictionary {
       }));
   }
 
-  /** Samples for a dialect branch: nearest dialect first, then verified first. */
-  samplesFor(dialect: string, limit = 3): BundledSample[] {
+  /** Samples for a dialect branch: matching purpose first, then nearest dialect, then verified. */
+  samplesFor(dialect: string, limit = 3, purpose: string = 'chat'): BundledSample[] {
     const branch = this.branch(dialect);
     return (this.bundle.samples ?? [])
       .filter((s) => branch.includes(s.dialect))
       .sort(
         (a, b) =>
+          Number((b.purpose ?? 'chat') === purpose) - Number((a.purpose ?? 'chat') === purpose) ||
           branch.indexOf(a.dialect) - branch.indexOf(b.dialect) ||
           STATUS_RANK[a.status] - STATUS_RANK[b.status] ||
           a.id.localeCompare(b.id),

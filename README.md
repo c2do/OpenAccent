@@ -39,6 +39,7 @@ It never feels like talking to a real person from your place.
 | 🧭 **Dialect guides** | How each dialect sounds and works, and the mistakes AI models commonly make in it. |
 | 🧠 **Personal memory** | Your dialect, your words, your corrections. It stays on your machine, and your corrections beat the dictionary. |
 | 🔍 **Reply check** | Flags words from the wrong dialect, rare words, words written the way they sound, and words you've corrected before. |
+| 🎭 **Dialect cards** | For stories, songs, scripts and game dialogue: voice characters from any dialect, with rules for each kind of writing. |
 | 📋 **Portable prompt** | A short text for any AI's custom instructions (Claude, ChatGPT, …), generated on your machine: `openaccent-mcp export <dialect>`. |
 
 ## First wave: 14 dialects

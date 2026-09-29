@@ -199,6 +199,26 @@ LLMs already know most dialect words. What they lack is **consistency** (staying
 
 The **briefing is the product**. Models call it once per conversation and rarely call other tools on every turn. So it now carries the dialect's core words (verified first) and up to three samples, as well as the guide and personal memory.
 
+### 4.2c Creative writing (owner decision, 2026-09-29)
+
+OpenAccent also serves writers and agents producing stories, songs, scripts and game dialogue. These differ from chat in three ways:
+
+1. **Many dialects in one text.** Characters come from different places, independent of the user's own dialect.
+2. **Different rules per purpose.**
+   - Scripts *should* spell words as they are said.
+   - Songs and stories may use old or rare words.
+   - Chat should do neither.
+3. **Consistency per character** matters more than anything.
+
+This is how OpenAccent supports it:
+
+- `purpose` (`chat | story | song | script | game`) on samples and on `check_reply`:
+  - `script` does not flag spoken spellings.
+  - `song` and `story` do not flag rare or dated words.
+  - Other-dialect words are always flagged.
+- `openaccent_dialect_card(dialect, purpose)` returns everything needed to voice a character in any dialect: purpose rules, core words (with spoken forms for scripts), guide sections and examples of the same purpose.
+- Guides may have a `## Creative writing` section.
+
 ### 4.3 Dialect guide
 
 `<dialect folder>/guide.md` is written by native speakers. It has fixed headings so tools can extract sections:

@@ -115,6 +115,7 @@ export function buildBriefing(dict: Dictionary, memory: Memory): Briefing {
     '- Unsure about a word? `openaccent_lookup` (word → meaning) or `openaccent_express` (meaning → word).',
     '- Before sending a reply in dialect, run `openaccent_check_reply` on it.',
     '- When the user corrects your dialect, save it with `openaccent_remember` right away.',
+    '- Writing a story, song, script or game with characters from other places? Get a card per dialect with `openaccent_dialect_card`.',
   );
 
   return { ...base, onboarding: false, dialect: dialect.id, text: lines.join('\n') };

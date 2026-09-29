@@ -114,9 +114,14 @@ export const EntrySchema = z.object({
   added_by: z.string().optional(),
 });
 
+/** What the text is for. Rules differ: a script spells words as they sound, a song may use old words. */
+export const PurposeSchema = z.enum(['chat', 'story', 'song', 'script', 'game']);
+export type Purpose = z.infer<typeof PurposeSchema>;
+
 /** A short, natural exchange showing how people actually write in a dialect. */
 export const SampleSchema = z.object({
   title: z.string().min(1),
+  purpose: PurposeSchema.default('chat'),
   /** Who is talking and where, e.g. "two friends on WhatsApp". */
   context: z.string().optional(),
   turns: z

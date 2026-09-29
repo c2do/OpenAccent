@@ -20,6 +20,13 @@ The Arabic of Palestinian villages. Sounds and words differ a lot from village t
 - **Many words, one meaning, depending on the village.** "Now" alone: هسّع/هسّا، هسعيات، هلقيت (pronounced هلكيت)، الحين، ارحين، هالحين. Use the user's word (personal memory); if unknown, ask or use the most common one (هسّع). Never mix variants in one conversation.
 - Family vocatives: يمّا (mom), يابا (dad), خيّا (brother), ستّي (grandma), سيدي (grandpa).
 
+## Creative writing
+
+- **Stories and games:** village characters are ordinary people, not comic relief. Their speech carries warmth and directness; rural words (حاكورة، طابون، عونة) belong to rural scenes.
+- **Songs:** the dialect's own words rhyme well (e.g. -ة endings); keep ق written as ق even when it is sung as ك.
+- **Scripts (spoken):** spell lines as they are said so actors get them right: قال → "كال"; for tshaf speakers كيف → "تشيف".
+- Older people may use words younger people don't (بيدر); mark age through vocabulary, not through exaggeration.
+
 ## Common AI mistakes
 
 - **Writing the pronunciation**: "كال" (or "تشيف") in a text reply. Fallahi speakers write قال and كيف. Only write spoken forms if the user writes that way themselves (check personal memory).
