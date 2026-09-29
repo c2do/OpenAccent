@@ -1,0 +1,101 @@
+{
+  "manifest_version": "0.3",
+  "name": "openaccent",
+  "display_name": "OpenAccent",
+  "version": "0.1.0",
+  "description": "Talk to AI like someone from home: a community dialect dictionary and a personal memory of how you speak.",
+  "long_description": "OpenAccent helps Claude speak your dialect without mixing dialects, drifting, or inventing words. It combines a community-built, native-speaker-verified dictionary (organized by country) with a personal memory of your own words and corrections, which stays on your computer. It also gives dialect cards for writing stories, songs, scripts and game dialogue, and exports a short prompt for any AI.",
+  "author": {
+    "name": "OpenAccent contributors",
+    "url": "https://github.com/c2do/OpenAccent"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/c2do/OpenAccent"
+  },
+  "homepage": "https://github.com/c2do/OpenAccent",
+  "license": "MIT",
+  "icon": "icon.png",
+  "keywords": [
+    "dialect",
+    "language",
+    "arabic",
+    "translation",
+    "memory",
+    "writing"
+  ],
+  "server": {
+    "type": "node",
+    "entry_point": "dist/server/stdio.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/dist/server/stdio.js"
+      ],
+      "env": {
+        "OPENACCENT_MEMORY_PATH": "${user_config.memory_path}"
+      }
+    }
+  },
+  "user_config": {
+    "memory_path": {
+      "type": "string",
+      "title": "Memory file",
+      "description": "Where OpenAccent keeps your dialect, words and corrections (a JSON file on this computer).",
+      "required": false,
+      "default": "${HOME}/.openaccent/memory.json"
+    }
+  },
+  "tools": [
+    {
+      "name": "openaccent_check_reply",
+      "description": "Check a reply before sending it"
+    },
+    {
+      "name": "openaccent_dialect_card",
+      "description": "Get a dialect card for writing"
+    },
+    {
+      "name": "openaccent_export_prompt",
+      "description": "Export a portable dialect prompt"
+    },
+    {
+      "name": "openaccent_express",
+      "description": "How to say something in a dialect"
+    },
+    {
+      "name": "openaccent_forget",
+      "description": "Forget something from memory"
+    },
+    {
+      "name": "openaccent_get_briefing",
+      "description": "Get the user’s dialect briefing"
+    },
+    {
+      "name": "openaccent_list_dialects",
+      "description": "List dialects"
+    },
+    {
+      "name": "openaccent_lookup",
+      "description": "Look up a word in a dialect"
+    },
+    {
+      "name": "openaccent_remember",
+      "description": "Remember how the user speaks"
+    },
+    {
+      "name": "openaccent_suggest_entry",
+      "description": "Suggest a word for the public dictionary"
+    }
+  ],
+  "compatibility": {
+    "platforms": [
+      "darwin",
+      "win32",
+      "linux"
+    ],
+    "runtimes": {
+      "node": ">=20"
+    }
+  }
+}

@@ -20,7 +20,8 @@
     "validate": "tsx scripts/validate-data.ts",
     "build:data": "tsx scripts/build-data.ts",
     "build": "npm run build:data && tsc -p tsconfig.build.json",
-    "eval": "tsx scripts/eval.ts"
+    "eval": "tsx scripts/eval.ts",
+    "pack:mcpb": "bash scripts/pack-mcpb.sh"
   },
   "repository": {
     "type": "git",
