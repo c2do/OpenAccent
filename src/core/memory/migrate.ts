@@ -13,7 +13,10 @@ import { CURRENT_MEMORY_VERSION, MemorySchema, type Memory } from './types.js';
 
 /** `MIGRATIONS[n]` turns a version n document into a version n + 1 document. */
 export type Migration = (doc: Record<string, unknown>) => Record<string, unknown>;
-export const MIGRATIONS: Record<number, Migration> = {};
+export const MIGRATIONS: Record<number, Migration> = {
+  // v2 adds profile.dialects and voice; both default to empty, so the rest carries over as is.
+  1: (doc) => doc,
+};
 
 export class MemoryVersionError extends Error {
   constructor(

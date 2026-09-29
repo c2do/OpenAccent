@@ -8,6 +8,7 @@
 import { performance } from 'node:perf_hooks';
 import { checkReply } from '../src/core/check.js';
 import { Dictionary } from '../src/core/dictionary.js';
+import { CURRENT_MEMORY_VERSION } from '../src/core/memory/index.js';
 import { MemorySchema } from '../src/core/schema.js';
 import { syntheticBundle } from '../tests/fixtures/synthetic.js';
 
@@ -35,7 +36,7 @@ export function runBench(size: number) {
   const lookups = queries.map((q, i) => time(() => dict.lookup(q, { dialect: dialects[i % dialects.length] })));
   const expresses = sample.slice(0, 200).map((e) => time(() => dict.express(e.meanings[0]?.en ?? 'x', { dialects: ['ar-ps-fallahi-kaf', 'en-us-general'] })));
 
-  const memory = MemorySchema.parse({ version: 1, profile: { dialect: 'ar-ps-fallahi-kaf' } });
+  const memory = MemorySchema.parse({ version: CURRENT_MEMORY_VERSION, profile: { dialect: 'ar-ps-fallahi-kaf' } });
   const arabic = bundle.entries.filter((e) => e.dialect.startsWith('ar')).map((e) => e.word);
   const replies = Array.from({ length: 50 }, (_, r) => Array.from({ length: 50 }, (_, i) => arabic[(r * 50 + i * 7) % arabic.length]).join(' '));
   const checks = replies.map((text) => time(() => checkReply(dict, memory, text, 'ar-ps-fallahi-kaf')));

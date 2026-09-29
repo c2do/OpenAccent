@@ -16,11 +16,11 @@ beforeEach(() => {
 });
 afterEach(() => rmSync(dir, { recursive: true, force: true }));
 
-const store = () => new FileMemoryStore(path, clock);
+const store = () => new FileMemoryStore(path, { now: clock });
 
 describe('FileMemoryStore', () => {
   it('starts empty when the file does not exist', () => {
-    expect(store().read()).toEqual({ version: 1, profile: {}, words: [], corrections: [], style: [] });
+    expect(store().read()).toEqual({ version: 2, profile: { dialects: [] }, words: [], corrections: [], style: [], voice: { messages: 0, words: 0, latin: 0, emoji: 0, mixed: 0, dialects: {}, own: [] } });
     expect(existsSync(path)).toBe(false);
   });
 
@@ -28,7 +28,7 @@ describe('FileMemoryStore', () => {
     const s = store();
     s.remember({ kind: 'profile', dialect: 'ar-ps-fallahi' });
     s.remember({ kind: 'profile', region: 'قرى رام الله' });
-    expect(s.read().profile).toEqual({ dialect: 'ar-ps-fallahi', region: 'قرى رام الله' });
+    expect(s.read().profile).toEqual({ dialect: 'ar-ps-fallahi', dialects: [], region: 'قرى رام الله' });
   });
 
   it('remembers words, corrections and style with ids and timestamps', () => {
@@ -83,15 +83,15 @@ describe('FileMemoryStore', () => {
   it('forgets the profile', () => {
     const s = store();
     s.remember({ kind: 'profile', dialect: 'ar-ps-fallahi' });
-    expect(s.forget({ profile: true })).toEqual([{ id: 'profile', dialect: 'ar-ps-fallahi' }]);
-    expect(s.read().profile).toEqual({});
+    expect(s.forget({ profile: true })).toEqual([{ id: 'profile', dialect: 'ar-ps-fallahi', dialects: [] }]);
+    expect(s.read().profile).toEqual({ dialects: [] });
   });
 
   it('writes atomically, leaving no temp files behind', () => {
     const s = store();
     s.remember({ kind: 'style', text: 'x' });
     expect(readdirSync(join(dir, 'nested'))).toEqual(['memory.json']);
-    expect(JSON.parse(readFileSync(path, 'utf8')).version).toBe(1);
+    expect(JSON.parse(readFileSync(path, 'utf8')).version).toBe(2);
   });
 
   it('backs up a corrupt file, starts empty, and reports a warning', () => {

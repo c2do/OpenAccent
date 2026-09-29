@@ -19,10 +19,8 @@ export interface Harness {
 /** An MCP client connected in-memory to a fresh OpenAccent server. */
 export async function connect(opts: { bundle?: Bundle; memoryPath?: string } = {}): Promise<Harness> {
   const memoryPath = opts.memoryPath ?? join(mkdtempSync(join(tmpdir(), 'oa-srv-')), 'memory.json');
-  const server = createServer({
-    dictionary: new Dictionary(opts.bundle ?? fixtureBundle()),
-    memory: new FileMemoryStore(memoryPath),
-  });
+  const dictionary = new Dictionary(opts.bundle ?? fixtureBundle());
+  const server = createServer({ dictionary, memory: new FileMemoryStore(memoryPath, { dictionary }) });
   const [clientTransport, serverTransport] = InMemoryTransport.createLinkedPair();
   await server.connect(serverTransport);
   const client = new Client({ name: 'test', version: '0.0.0' });

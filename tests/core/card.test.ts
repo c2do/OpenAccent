@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { buildDialectCard } from '../../src/core/card.js';
 import { checkReply } from '../../src/core/check.js';
 import { Dictionary } from '../../src/core/dictionary.js';
+import { CURRENT_MEMORY_VERSION } from '../../src/core/memory/index.js';
 import { MemorySchema } from '../../src/core/schema.js';
 import { fixtureBundle } from '../fixtures/bundle.js';
 
@@ -20,7 +21,7 @@ bundle.samples.push({
   ],
 });
 const dict = new Dictionary(bundle);
-const empty = MemorySchema.parse({ version: 1 });
+const empty = MemorySchema.parse({ version: CURRENT_MEMORY_VERSION });
 
 describe('buildDialectCard', () => {
   it('includes purpose rules, core words, guide sections and examples', () => {

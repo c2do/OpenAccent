@@ -1,11 +1,12 @@
 import { describe, expect, it } from 'vitest';
 import { checkReply } from '../../src/core/check.js';
 import { Dictionary } from '../../src/core/dictionary.js';
+import { CURRENT_MEMORY_VERSION } from '../../src/core/memory/index.js';
 import { MemorySchema } from '../../src/core/schema.js';
 import { fixtureBundle } from '../fixtures/bundle.js';
 
 const dict = new Dictionary(fixtureBundle());
-const empty = MemorySchema.parse({ version: 1, profile: { dialect: 'ar-ps-fallahi' } });
+const empty = MemorySchema.parse({ version: CURRENT_MEMORY_VERSION, profile: { dialect: 'ar-ps-fallahi' } });
 const now = '2026-09-29T12:00:00.000Z';
 
 describe('checkReply', () => {

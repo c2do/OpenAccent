@@ -15,11 +15,16 @@ export function registerRemember(server: McpServer, ctx: ServerContext) {
       description:
         'Save something about how the user speaks, on their own device. Call it right away whenever the user ' +
         'corrects your dialect ("we say X, not Y"), tells you their dialect or village, or states a style preference. ' +
-        'kind="profile": dialect and/or region. kind="word": a word they say (optionally instead_of another). ' +
+        'kind="profile": dialect, other dialects they also speak (also_speaks), and/or region. kind="word": a word they say (optionally instead_of another). ' +
         'kind="correction": a wrong word and the right one. kind="style": a short preference.',
       inputSchema: z.object({
         kind: z.enum(['profile', 'word', 'correction', 'style']),
         dialect: z.string().max(max.dialect).optional().describe('profile: dialect ID, e.g. "ar-ps-fallahi"'),
+        also_speaks: z
+          .array(z.string().max(max.dialect))
+          .max(5)
+          .optional()
+          .describe('profile: other dialects the user speaks too, e.g. ["ar-eg"]. Their words are never flagged as mistakes.'),
         region: z.string().max(max.region).optional().describe('profile: town, village or region'),
         notes: z.string().max(max.notes).optional().describe('profile: anything else worth knowing'),
         say: z.string().max(max.say).optional().describe('word: the word the user says'),
@@ -38,11 +43,15 @@ export function registerRemember(server: McpServer, ctx: ServerContext) {
         let input: RememberInput;
         switch (args.kind) {
           case 'profile': {
-            if (!args.dialect && !args.region && !args.notes) return fail('kind "profile" needs dialect, region or notes.');
-            if (args.dialect) ctx.dictionary.branch(args.dialect); // throws with suggestions if unknown
+            if (!args.dialect && !args.region && !args.notes && !args.also_speaks) {
+              return fail('kind "profile" needs dialect, also_speaks, region or notes.');
+            }
+            // Unknown dialects throw here, with suggestions.
+            for (const d of [...(args.dialect ? [args.dialect] : []), ...(args.also_speaks ?? [])]) ctx.dictionary.branch(d);
             input = {
               kind: 'profile',
               ...(args.dialect ? { dialect: args.dialect } : {}),
+              ...(args.also_speaks ? { dialects: args.also_speaks } : {}),
               ...(args.region ? { region: args.region } : {}),
               ...(args.notes ? { notes: args.notes } : {}),
             };

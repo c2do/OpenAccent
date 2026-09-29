@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs';
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
 import { connect, type Harness } from './harness.js';
 
@@ -142,6 +143,16 @@ describe('openaccent_check_reply', () => {
     const r = await h.call('openaccent_check_reply', { text: 'دلوقتي بجيك' });
     expect(r.data.issues[0]).toMatchObject({ text: 'دلوقتي', kind: 'other_dialect', suggestion: 'هسّع', start: expect.any(Number), end: expect.any(Number) });
     expect(r.text).toContain('→ use **هسّع**');
+  });
+
+  it('learns from the user’s message and accepts dialects they also speak', async () => {
+    await h.call('openaccent_remember', { kind: 'profile', dialect: 'ar-ps-fallahi', also_speaks: ['ar-eg'] });
+    const r = await h.call('openaccent_check_reply', { text: 'دلوقتي بجيك', user_message: 'ازيك يا زلمة، دلوقتي فاضي؟' });
+    expect(r.data.issues).toEqual([]);
+    const memory = JSON.parse(readFileSync(h.memoryPath, 'utf8'));
+    expect(memory.voice.messages).toBe(1);
+    expect(JSON.stringify(memory)).not.toContain('فاضي');
+    expect((await h.call('openaccent_remember', { kind: 'profile', also_speaks: ['ar-egg'] })).text).toMatch(/Did you mean/);
   });
 
   it('needs a dialect when there is no profile', async () => {

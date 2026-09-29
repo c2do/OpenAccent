@@ -22,7 +22,7 @@ export function createServer(ctx: ServerContext): McpServer {
       // Claude's apps currently ignore this, which is why the tools themselves carry the guidance.
       instructions:
         'OpenAccent helps you speak the user’s dialect. Call openaccent_get_briefing at the start of any ' +
-        'conversation in a dialect, check replies with openaccent_check_reply, and save corrections with openaccent_remember.',
+        'conversation in a dialect, check replies with openaccent_check_reply (pass the user’s last message too, so it learns how they speak), and save corrections with openaccent_remember.',
     },
   );
   registerGetBriefing(server, ctx);
