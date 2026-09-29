@@ -142,6 +142,10 @@ export function validateData(root: string): DataError[] {
         errors.push({ file, message: `Dataset "${entry.source.name}" is not listed in data/sources.yaml` });
       }
     }
+    for (const a of entry.attested_by) {
+      if (blocked.has(a.name)) errors.push({ file, message: `attested_by: dataset "${a.name}" is blocked (see data/sources.yaml)` });
+      else if (!allowed.has(a.name)) errors.push({ file, message: `attested_by: dataset "${a.name}" is not listed in data/sources.yaml` });
+    }
     // Imported drafts nobody has reviewed: every offensive or sexual meaning must be labelled (so models
     // never use it on their own), and a single letter is never a word.
     if (entry.source.kind === 'dataset' && entry.status !== 'verified') {

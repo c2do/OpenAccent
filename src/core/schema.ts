@@ -120,6 +120,8 @@ export const EntrySchema = z.object({
   status: z.enum(['draft', 'verified', 'disputed']),
   verified_by: z.array(z.string().min(1)).default([]),
   source: SourceSchema,
+  /** Other open datasets that list the same word with the same meaning: more sources, more confidence. */
+  attested_by: z.array(z.object({ name: z.string().min(1), ref: z.string().optional() })).default([]),
   added_by: z.string().optional(),
 });
 

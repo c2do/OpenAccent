@@ -2,12 +2,11 @@ import type { BundledEntry } from '../core/bundle.js';
 import type { Match } from '../core/dictionary.js';
 import type { EntryData } from '../core/results.js';
 
-const statusLabel = (e: BundledEntry) =>
-  e.status === 'verified' ? '✓ verified' : e.status === 'disputed' ? '⚠ disputed' : '⚠ unverified (draft)';
+import { confidenceLabel, confidenceOf } from '../core/confidence.js';
 
 /** Markdown for one entry, as the model will read it. */
 export function formatEntry(e: BundledEntry, extra = ''): string {
-  const lines = [`**${e.word}** — \`${e.id}\` · ${statusLabel(e)}${extra}`];
+  const lines = [`**${e.word}** — \`${e.id}\` · ${confidenceLabel(e)}${extra}`];
   for (const m of e.meanings) {
     const warning = m.sensitive.length ? ` ⚠ ${m.sensitive.join(', ')}: never use it unless the user does` : '';
     lines.push(`- ${[m.en, m.ar].filter(Boolean).join(' / ')}${warning}`);
@@ -34,6 +33,7 @@ export function entryData(e: BundledEntry): EntryData {
     word: e.word,
     dialect: e.dialect,
     status: e.status,
+    confidence: confidenceOf(e),
     familiarity: e.familiarity,
     register: e.register,
     meanings: e.meanings,

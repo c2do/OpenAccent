@@ -3,6 +3,7 @@ import { mergedGuide } from './guides.js';
 import { displayName } from './names.js';
 import type { BriefingResult } from './results.js';
 import { describeVoice } from './voice.js';
+import { confidenceOf } from './confidence.js';
 import type { Memory } from './schema.js';
 
 /** The briefing: structured data (see BriefingResultSchema) plus markdown for the model to read. */
@@ -81,12 +82,13 @@ export function buildBriefing(dict: Dictionary, memory: Memory): Briefing {
         .slice(0, 4)
         .map((e) => {
           const notes = [e.familiarity !== 'common' ? e.familiarity : '', e.register === 'vulgar' ? 'vulgar' : ''].filter(Boolean);
-          return `${e.word}${e.status === 'verified' ? ' ✓' : ''}${notes.length ? ` (${notes.join(', ')})` : ''}`;
+          const mark = e.status === 'verified' ? ' ✓' : confidenceOf(e) === 'high' ? ' ✓?' : '';
+          return `${e.word}${mark}${notes.length ? ` (${notes.join(', ')})` : ''}`;
         })
         .join(' / ');
       lines.push(`- ${c.gloss}: ${words}`);
     }
-    lines.push('_✓ = verified by native speakers. Several words for one meaning often depend on the region: prefer the user’s own, and never mix them._');
+    lines.push('_✓ = verified by native speakers, ✓? = several independent sources agree (not yet reviewed). Several words for one meaning often depend on the region: prefer the user’s own, and never mix them._');
   }
 
   // Samples: short real exchanges teach tone better than any word list.
