@@ -1,0 +1,35 @@
+word: bill
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɪl/
+part_of_speech: noun
+meanings:
+  - en: A piece of paper money; a banknote.
+    examples:
+      - text: He gave the change for a three dollar bill. Upon examination, the bill
+          proved to be counterfeit.
+      - text: "[…]So I wropped 'em up in a five dollar bill and tied 'em up and sent
+          'em, and they ain't back yet.”"
+  - en: A piece of paper money; a banknote.; One hundred dollars.
+    examples:
+      - text: There was no excuse, simply no excuse for not making four or five bills a
+          week. A little initiative, that's all.
+      - text: All we got from her was Stranahan's location, and barely that. A house in
+          the bay, she said. A house with a windmill. Easiest five bills that
+          woman ever made.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bill#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

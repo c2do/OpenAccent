@@ -1,0 +1,31 @@
+word: cantante
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɐ̃ˈtɐ̃.t͡ʃi/
+part_of_speech: noun
+meanings:
+  - en: alarm clock
+    examples: []
+  - en: money; cash
+    examples: []
+  - en: outlaw; criminal
+    examples: []
+  - en: anyone; individual
+    examples: []
+concept: money
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cantante#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

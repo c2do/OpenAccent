@@ -1,0 +1,28 @@
+word: معلش
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - maʕlišš
+pronunciation:
+  ipa: /maʕ.liʃʃ/
+part_of_speech: intj
+meanings:
+  - en: it's okay, take it easy, don't worry, never mind, no problem, no worries
+    examples: []
+  - en: excuse me, sorry
+    examples: []
+concept: never_mind
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%B9%D9%84%D8%B4#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

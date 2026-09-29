@@ -1,0 +1,25 @@
+word: chance
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈt͡ʃanθe/
+part_of_speech: conj
+meanings:
+  - en: maybe, perchance, perhaps or possibly
+    examples: []
+concept: maybe
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chance#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

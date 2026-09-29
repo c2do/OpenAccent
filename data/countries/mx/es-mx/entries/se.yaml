@@ -1,0 +1,25 @@
+word: sé
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈse/
+part_of_speech: intj
+meanings:
+  - en: "yes"
+    examples: []
+concept: "yes"
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/s%C3%A9#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

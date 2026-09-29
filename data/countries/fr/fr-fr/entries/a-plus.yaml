@@ -1,0 +1,25 @@
+word: à plus
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a plys/
+part_of_speech: intj
+meanings:
+  - en: see you, later, laters
+    examples: []
+concept: later
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A0_plus#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

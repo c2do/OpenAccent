@@ -1,0 +1,32 @@
+word: da
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /daː/
+part_of_speech: adv
+meanings:
+  - en: replaces any pronominal adverb when the context is clear
+    examples:
+      - text: Ich wollte eigentlich Linsensuppe machen, aber da (= dafür, dazu) hatte
+          ich das Rezept nicht.
+        en: I was actually going to make lentil soup, but I didn’t have the recipe for
+          it.
+      - text: Wir haben jetzt ein Angebot gekriegt, aber da (= darüber) müssen wir noch
+          diskutieren.
+        en: We’ve now received an offer, but we’ll still need to have discussion about
+          that.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/da#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

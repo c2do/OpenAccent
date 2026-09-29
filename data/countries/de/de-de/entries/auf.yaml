@@ -1,0 +1,35 @@
+word: auf
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /aʊ̯f/
+meanings:
+  - en: open
+    examples:
+      - text: Die Tür ist auf.
+        en: The door is open.
+  - en: finished; gone (food)
+    examples:
+      - text: Hast du deine Suppe auf?
+        en: Have you finished your soup?
+      - text: Die Milch is’ auf.
+        en: The milk is gone. (consumed)
+  - en: up; awake; out of bed
+    examples:
+      - text: Ich war um sechs Uhr auf.
+        en: I was up at six o'clock.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/auf#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

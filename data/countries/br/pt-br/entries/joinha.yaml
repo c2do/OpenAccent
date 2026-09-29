@@ -1,0 +1,31 @@
+word: joinha
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʒɔˈĩ.ɲɐ/
+part_of_speech: noun
+meanings:
+  - en: thumbs up (gesture signifying approval or okay)
+    examples: []
+  - en: like (Internet interaction)
+    examples:
+      - text: E se você é um fodinha, vai deixando logo o seu joinha.
+      - text: Ao avaliar a entrega, uma das práticas de gentileza com os entregadores é
+          fazer sua avaliação no app do iFood e dar um joinha se você curtiu o
+          trabalho.
+concept: like
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/joinha#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

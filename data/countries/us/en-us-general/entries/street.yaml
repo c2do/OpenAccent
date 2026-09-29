@@ -1,0 +1,25 @@
+word: street
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /stɹiːt/
+part_of_speech: noun
+meanings:
+  - en: The roads that run perpendicular to avenues in a grid layout.
+    examples: []
+concept: street
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/street#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: غرفة
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ḡurfa
+pronunciation:
+  ipa: /ɣur.fa/
+part_of_speech: noun
+meanings:
+  - en: upper room (in a house, usually on the rooftop)
+    examples:
+      - text: جيب السطل من الغرفة.
+        en: Get the backet from the upper room.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%BA%D8%B1%D9%81%D8%A9#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

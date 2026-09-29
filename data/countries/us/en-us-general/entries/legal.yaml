@@ -1,0 +1,33 @@
+word: legal
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈliː.ɡəl/
+meanings:
+  - en: Permitting the use and/or sale of cannabis; in which cannabis is lawful.
+    examples:
+      - text: Whether you're interested in opening a retail marijuana store in a legal
+          state or if you're interested in investing in someone or a company,
+          which is operating in a legal state, there are[…]
+      - text: "[Because] marijuana is still a federally illegal drug, using the drug in
+          a child's presence, even in a legal state, could thus be construed as
+          child abuse."
+  - en: One who immigrated lawfully.
+    examples: []
+  - en: Of paper or document layouts, measuring 8+¹⁄₂ × 14 inches (216 × 356 mm).
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/legal#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

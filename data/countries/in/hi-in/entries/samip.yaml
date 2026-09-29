@@ -1,0 +1,33 @@
+word: समीप
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - samīp
+pronunciation:
+  ipa: /sə.miːp/
+meanings:
+  - en: near, close, in proximity (in distance or time)
+    examples:
+      - text: मेरा घर यहाँ से काफ़ी समीप है।
+        en: My home is quite near to here.
+  - en: near, close
+    examples: []
+  - en: proximity, vicinity
+    examples:
+      - text: समीप में होना
+        en: to be in the vicinity of
+concept: near
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%AE%E0%A5%80%E0%A4%AA#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

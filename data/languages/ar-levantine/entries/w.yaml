@@ -1,0 +1,42 @@
+word: و
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - w
+pronunciation:
+  ipa: /w/
+part_of_speech: conj
+meanings:
+  - en: and
+    examples: []
+  - en: and; Introduces the predicate in certain set constructions
+    examples:
+      - text: من إنتي وصغيرة وما بتحبي البامية
+        en: Ever since you were little you haven't liked okra
+      - text: كل شي وإلو محلو
+        en: Everything has its place
+  - en: while, with
+    examples:
+      - text: ما فيني ركّز والضو هيك بوجّي قوم اطفيلي ياه
+        en: I can't focus with the light in my face like that, go turn it off for me
+  - en: "[with preceding subject pronoun] while, back when"
+    examples:
+      - text: روحي لحّقي صلاتك أنا وعم حضّر الغدا
+        en: Go get in your prayers while I get lunch ready
+      - text: نحنا وبالسنوي كل يوم نتروق مناقيش من عند هالفرن
+        en: Back when we were in high school we'd have man'oushes from that bakery for
+          breakfast every single day
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,37 @@
+word: قال
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʔāl
+pronunciation:
+  ipa: /ʔaːl/ [ʔæːl]
+meanings:
+  - en: to say
+    examples: []
+  - en: to tell
+    examples: []
+  - en: to say to oneself, say in one's head
+    examples:
+      - text: عم ضل قول شو هالريحة بس ما حابة إسأل
+        en: I keep saying to myself, what's that smell?, but I don't want to ask
+  - en: to say to oneself, say in one's head; to figure, intend
+    examples:
+      - text: قالولنا إنهن اليوم رح يقطعوا المي قلت لخبرك
+        en: They told us that they were going to shut off the water today, I figured I'd
+          tell you
+      - text: سمعنا ضجة قلنا منجي منطل
+        en: We heard a ruckus, we figured we'd come see what was going on
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%A7%D9%84#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

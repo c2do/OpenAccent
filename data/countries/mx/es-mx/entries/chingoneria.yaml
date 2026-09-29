@@ -1,0 +1,25 @@
+word: chingonería
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃinɡoneˈɾia/
+part_of_speech: noun
+meanings:
+  - en: badass, awesome, kickass, wonder, belter, ripper, something great
+    examples: []
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chingoner%C3%ADa#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

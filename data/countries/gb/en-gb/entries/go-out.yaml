@@ -1,0 +1,24 @@
+word: go out
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: To be broadcast.
+    examples:
+      - text: The first episode of the show goes out on Saturday.
+concept: leave
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/go_out#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: ب
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - bi-
+pronunciation:
+  ipa: /bi(ː)/
+part_of_speech: prep
+meanings:
+  - en: Denotes an instrument or means; with, by
+    examples:
+      - text: ضربته بشاكوش
+        en: She hit him with a hammer
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

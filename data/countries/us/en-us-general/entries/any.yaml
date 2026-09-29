@@ -1,0 +1,27 @@
+word: any
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɛni/
+part_of_speech: adv
+meanings:
+  - en: To even the slightest extent; at all.; Used to modify a verb, generally a
+      finite verb or a non-finite verb in object position.
+    examples:
+      - text: That doesn't bother me any.
+      - text: Unfortunately, I don't expect the documentation to help any.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/any#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

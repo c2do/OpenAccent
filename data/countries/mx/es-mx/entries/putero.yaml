@@ -1,0 +1,25 @@
+word: putero
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /puˈteɾo/
+part_of_speech: noun
+meanings:
+  - en: a lot, a bunch
+    examples: []
+concept: a_lot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/putero#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

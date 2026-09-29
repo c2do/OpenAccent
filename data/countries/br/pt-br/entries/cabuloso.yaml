@@ -1,0 +1,33 @@
+word: cabuloso
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ka.buˈlo.zu/
+part_of_speech: adj
+meanings:
+  - en: freaky; spooky; awesome
+    examples: []
+  - en: complicated; difficult to understand
+    examples:
+      - text: Ser mecânico é uma profissão cabulosa.
+        en: Being a mechanic is a complicated occupation.
+  - en: unlikeable; antipathetic
+    examples: []
+  - en: monotonous; tiresome; boring
+    examples: []
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cabuloso#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

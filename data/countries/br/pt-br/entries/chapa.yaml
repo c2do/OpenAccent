@@ -1,0 +1,27 @@
+word: chapa
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃa.pɐ/
+part_of_speech: noun
+meanings:
+  - en: mate; pal; buddy (term of address for a friend)
+    examples: []
+  - en: a person who helps truck drivers find locations and exchange cargos
+    examples: []
+concept: buddy
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chapa#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

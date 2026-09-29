@@ -1,0 +1,25 @@
+word: cacimba
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kaˈsĩ.bɐ/
+part_of_speech: noun
+meanings:
+  - en: well (hole dug to obtain water)
+    examples: []
+concept: fine
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cacimba#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

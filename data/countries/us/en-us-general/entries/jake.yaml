@@ -1,0 +1,33 @@
+word: jake
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dʒeɪk/
+part_of_speech: noun
+meanings:
+  - en: A juvenile male turkey.
+    examples:
+      - text: The spring turkey woods are occupied by roaming bands of jakes — year-old
+          males with strong mating urges but inferior body size.
+  - en: Jamaica ginger.
+    examples:
+      - text: It is possible that the governments have found the cause of the poisoned
+          “jake” in their investigations into the Jamaica ginger deaths
+          throughout the South and Southwest.
+  - en: A rustic; a yokel.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jake#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: جنوب
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - jnūb
+pronunciation:
+  ipa: /ʒnuːb/
+part_of_speech: noun
+meanings:
+  - en: south
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AC%D9%86%D9%88%D8%A8#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: virado no Jiraiya
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /viˈɾa.du nu ʒiˈɾaj.ɐ/
+part_of_speech: adj
+meanings:
+  - en: angry, mad, cranky
+    examples: []
+concept: angry
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/virado_no_Jiraiya#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

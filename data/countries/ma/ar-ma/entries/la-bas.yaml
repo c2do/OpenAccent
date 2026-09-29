@@ -1,0 +1,31 @@
+word: لا باس
+dialect: ar-ma
+type: phrase
+spellings: []
+romanized:
+  - lā bās
+  - la bās
+pronunciation:
+  ipa: /laː baːs/
+part_of_speech: phrase
+meanings:
+  - en: how are you?
+    examples: []
+  - en: well, fine, okay, good
+    examples: []
+  - en: are you OK?
+    examples: []
+concept: how_are_you
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D8%A7_%D8%A8%D8%A7%D8%B3#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

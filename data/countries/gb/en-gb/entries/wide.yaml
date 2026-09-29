@@ -1,0 +1,24 @@
+word: wide
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /waɪd/
+part_of_speech: adj
+meanings:
+  - en: Sharp-witted.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wide#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

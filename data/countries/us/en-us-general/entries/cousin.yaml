@@ -1,0 +1,33 @@
+word: cousin
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkʌzn̩/
+part_of_speech: verb
+meanings:
+  - en: To associate with someone or something on a close basis.
+    examples:
+      - text: The UK has fiscal arithmetic cousined with that of Greece, but is dealing
+          with it.
+  - en: To visit a cousin or other relation.
+    examples:
+      - text: It isn't the thing for a man to be like a stranger to his own flesh and
+          blood. I'm going cousining, Sue, down East, and I'll hunt up my
+          relations.
+      - text: The pretty wren perches now in the Governor's house—a-cousining,
+          a-cousining.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cousin#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

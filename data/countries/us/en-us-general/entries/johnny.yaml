@@ -1,0 +1,28 @@
+word: johnny
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈd͡ʒɒn.i/
+part_of_speech: noun
+meanings:
+  - en: "Synonym of john: a toilet, lavatory, outhouse, or chamber pot."
+    examples:
+      - text: The women's toilet (as distinguished from the ladies' room in a speakeasy,
+          the johnny at school, the little girls' room at a party in an
+          apartment, and the wash-my-hands on a train) was clean enough.
+      - text: Kitty Hofman came in the johnny.
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/johnny#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

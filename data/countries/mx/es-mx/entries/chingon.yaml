@@ -1,0 +1,30 @@
+word: chingón
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃinˈɡon/
+meanings:
+  - en: intelligent, skilled, capable
+    examples: []
+  - en: cool, very good, epic, kickass, badass
+    examples: []
+  - en: an intelligent, skilled, capable person
+    examples: []
+  - en: someone or something cool, awesome, very good
+    examples: []
+concept: cool
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ching%C3%B3n#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

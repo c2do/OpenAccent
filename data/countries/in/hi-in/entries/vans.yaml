@@ -1,0 +1,36 @@
+word: वंश
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - vañś
+pronunciation:
+  ipa: /ʋənʃ/
+part_of_speech: noun
+meanings:
+  - en: bamboo cane
+    examples: []
+  - en: lineage, family
+    examples:
+      - text: उच्च वंश का
+        en: noble, of high lineage
+  - en: dynasty, clan, house
+    examples:
+      - text: लोदी वंश
+        en: Lodi Dynasty (1451-1526)
+  - en: genus
+    examples: []
+concept: house
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A4%82%E0%A4%B6#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

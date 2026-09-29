@@ -1,0 +1,26 @@
+word: hide
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /haɪd/
+part_of_speech: noun
+meanings:
+  - en: One's own life or personal safety, especially when in peril.
+    examples:
+      - text: to save his own hide
+      - text: better watch his hide
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hide#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

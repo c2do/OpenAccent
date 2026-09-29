@@ -1,0 +1,42 @@
+word: chaud
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʃo/
+part_of_speech: adj
+meanings:
+  - en: horny, randy (showing interest in sexual activity)
+    examples:
+      - text: un chaud lapin
+  - en: sexually attractive, sexy, hot
+    examples:
+      - text: Cette meuf est chaude !
+        en: That chick's hot as hell!
+  - en: enthusiastic, willing, up for
+    examples:
+      - text: "Near-synonyms: partant, prêt"
+      - text: T'es sûr que tu veux y aller ? Je suis vraiment pas chaud, perso !
+        en: Are you sure you wanna go? I'm not really up for it, personally.
+  - en: hard, difficult
+    examples:
+      - text: "Near-synonyms: tendu, limite; dur, compliqué"
+      - text: Ça va être chaud de finir ça d'ici demain, je crois pas que j'aurai le
+          temps...
+        en: Finishing that on time is gonna be hard, I don't think I'll have enough
+          time...
+concept: hot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chaud#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

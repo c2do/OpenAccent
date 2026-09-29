@@ -1,0 +1,27 @@
+word: ñero
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɲeɾo/
+part_of_speech: noun
+meanings:
+  - en: A vulgar or uneducated person
+    examples: []
+  - en: buddy, pal
+    examples: []
+concept: buddy
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%B1ero#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

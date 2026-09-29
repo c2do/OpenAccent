@@ -1,0 +1,27 @@
+word: avec
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a.vɛk/
+part_of_speech: adv
+meanings:
+  - en: too, also
+    examples:
+      - text: Il en est vraiment content. —Bien, moi avec.
+        en: He's really happy about it. —Well, me too.
+concept: also
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/avec#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

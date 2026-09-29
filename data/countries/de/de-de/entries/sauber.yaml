@@ -1,0 +1,25 @@
+word: sauber
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈzaʊ̯bɐ/
+part_of_speech: adj
+meanings:
+  - en: good, all right
+    examples: []
+concept: good
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sauber#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

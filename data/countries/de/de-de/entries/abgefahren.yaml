@@ -1,0 +1,33 @@
+word: abgefahren
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʔapɡəfaːɐ̯n/
+part_of_speech: adj
+meanings:
+  - en: outstanding, great, cool
+    examples: []
+  - en: strange, weird
+    examples:
+      - text: Ich habe gerade so was Abgefahrenes geträumt.
+        en: I just had a weird dream.
+      - text: Du riechst, du fühlst, du siehst alles ganz klar, und trotzdem weißt du
+          nicht, was und wer es war. Das ist komplett abgefahren.
+        en: You smell, you feel, you see everything quite clearly, and yet you don’t
+          know what or who it was. That’s completely crazy.
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/abgefahren#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: خالص
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - khāliṣ
+pronunciation:
+  ipa: /xaː.lisˤ/
+part_of_speech: adv
+meanings:
+  - en: a lot
+    examples: []
+  - en: at all
+    examples:
+      - text: احنا مش عايزين كده خالص
+        en: We don't want that at all
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D9%84%D8%B5#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,33 @@
+word: governor
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡʌv(ə)nə/
+part_of_speech: noun
+meanings:
+  - en: Term of address to a man.
+    examples:
+      - text: '"Oh, right you are, governor, if you say so," accepted Fank […]'
+  - en: A superior, especially a boss, an employer, or (law enforcement) a superior
+      police officer.
+    examples:
+      - text: >-
+          DCI Tom Barnaby: ... so far, your detective sergeant is absolutely
+          believable.
+           Nico Bentley: Terrific. Why?
+           Barnaby: You've observed Rule Number 1: Always keep the governor waiting.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/governor#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

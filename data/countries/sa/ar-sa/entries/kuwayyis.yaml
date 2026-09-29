@@ -1,0 +1,25 @@
+word: كويس
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - kuwayyis
+pronunciation:
+  ipa: /ku.waj.jis/
+meanings:
+  - en: good, well
+    examples: []
+concept: good
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D9%88%D9%8A%D8%B3#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

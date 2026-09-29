@@ -1,0 +1,27 @@
+word: office
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɒf.ɪs/
+part_of_speech: noun
+meanings:
+  - en: A room, set of rooms, or building used for non-manual work; A room, set of
+      rooms, or building used for consultation and diagnosis, but not surgery or
+      other major procedures.
+    examples:
+      - text: This one was made out at a private office—Office is American for Surgery.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/office#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

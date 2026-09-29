@@ -1,0 +1,23 @@
+word: wie geht es dir
+dialect: de-de
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: phrase
+meanings:
+  - en: how are you, often abbreviated to wie geht's?
+    examples: []
+concept: how_are_you
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wie_geht_es_dir#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

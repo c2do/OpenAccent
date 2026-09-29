@@ -1,0 +1,31 @@
+word: amtlich
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈamtlɪç/
+part_of_speech: adj
+meanings:
+  - en: official; ministerial (of or by a state or regional authority); official,
+      confirmed (by any kind of source considered authoritative)
+    examples: []
+  - en: significant, impressive, a lot (especially of values)
+    examples:
+      - text: 1000 Euro für das Gerät? Das ist schon ein amtlicher Preis.
+        en: 1000 euros for that device? That's a pretty significant price./That's quite
+          a lot.
+concept: a_lot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/amtlich#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

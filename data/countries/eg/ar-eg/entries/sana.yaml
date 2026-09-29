@@ -1,0 +1,35 @@
+word: سنة
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - sana
+  - sinna
+  - sunna
+pronunciation:
+  ipa: /sa.na/
+meanings:
+  - en: year
+    examples: []
+  - en: tooth
+    examples: []
+  - en: Sunna
+    examples: []
+  - en: a bit, a little
+    examples:
+      - text: ارفعه فوق سنّة
+        en: Raise it up a little
+concept: a_little
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B3%D9%86%D8%A9#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

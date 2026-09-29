@@ -1,0 +1,44 @@
+word: सुभग
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - subhag
+pronunciation:
+  ipa: /sʊ.bʱəɡ/
+part_of_speech: adj
+meanings:
+  - en: fortunate; blessed
+    examples:
+      - text: मेरी धन्यता तो उस व्यक्ति के सुभग भाग्य से तुलना की जा सकती है, जो केवल
+          मुट्ठी-भर चने के लिए इधर-उधर घूमता हो, परन्तु उसे आगे ही पड़ी सोने की
+          वृष्टि मिल जा[ये]।
+        en: My good fortune can be compared with the blessed fortune of that person who
+          roams around only for a handful of grams but finds a pile of gold
+          right in front of him.
+  - en: auspicious; beautiful; lovely
+    examples:
+      - text: वायु देवता का उल्लेख ऋग्वेद में हुआ है। वह सुभग था, आकाश को स्पर्श करता था
+          तथा उसके सहस्र नेत्र थे।
+        en: The Wind God is mentioned in the Rigveda. He was beautiful, he touched the
+          sky and had a thousand eyes.
+      - text: |-
+          दृगों में छिपा अश्रु का हार,
+          सुभग है तेरा ही उपहार।
+        en: |-
+          Hidden in the eyes is a garland of tears;
+          lovely is only your gift.
+concept: beautiful
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A5%81%E0%A4%AD%E0%A4%97#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

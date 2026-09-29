@@ -1,0 +1,29 @@
+word: bif
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bif/
+part_of_speech: noun
+meanings:
+  - en: money, gwop, moola
+    examples:
+      - text: Faire du bif ouais c’est ma deuxième religion
+        en: Making moola, yeah, it's my second religion
+      - text: Mi amor compte mon bif, si t’es ma Tata je serais ton Pablo
+        en: My love counts my moola, if you're my Tata I'll be your Pablo
+concept: money
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bif#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

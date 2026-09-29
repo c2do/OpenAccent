@@ -1,0 +1,25 @@
+word: fetzig
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfɛt͡sɪç/
+part_of_speech: adj
+meanings:
+  - en: great, cool (very good)
+    examples: []
+concept: cool
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fetzig#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

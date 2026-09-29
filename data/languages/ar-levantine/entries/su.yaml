@@ -1,0 +1,38 @@
+word: شو
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - šū
+  - šu
+pronunciation:
+  ipa: /ʃu(ː)/
+meanings:
+  - en: what?
+    examples:
+      - text: شو إسمك؟
+        en: What's your name?
+  - en: what
+    examples:
+      - text: شفت شو بعتّلّك؟
+        en: Did you see what I sent you?
+  - en: what a...!, how...! (before adjectives or verb phrases)
+    examples: []
+  - en: whoa; wait; what gives
+    examples:
+      - text: شو مبين بتترغل صاير
+        en: Wait, wow, you seem completely fluent now
+concept: what
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D9%88#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

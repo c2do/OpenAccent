@@ -1,0 +1,36 @@
+word: am Arsch
+dialect: de-de
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /am ˈaʁʃ/
+meanings:
+  - en: broken, fucked
+    examples:
+      - text: Die Uhr hier is’ am Arsch. Kauf dir ma ’ne neue.
+        en: This clock is fucked. Buy a new one.
+  - en: exhausted, tired
+    examples: []
+  - en: In trouble; in a hopeless situation.
+    examples: []
+  - en: my arse; my foot
+    examples:
+      - text: Fahr doch mal was vorsichtiger! — Vorsichtiger am Arsch! Autobahn heißt
+          Krieg.
+        en: Drive a bit more carefully already! — More carefully, my arse! Motorway
+          means war.
+concept: tired
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/am_Arsch#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: متل
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - mitl
+meanings:
+  - en: like; as
+    examples:
+      - text: بدي تنورة متل يلي بالصورة
+        en: I want a skirt like the one in the photo.
+  - en: like (filler)
+    examples:
+      - text: "Near-synonym: هيك (hēk, hayk)"
+      - text: في حدا برا... حامل متل عصاية أو هيك شي
+        en: There's someone outside... he's holding, like, a stick or something
+concept: like
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%AA%D9%84#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

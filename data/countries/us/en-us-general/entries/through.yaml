@@ -1,0 +1,25 @@
+word: through
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /θɹuː/
+part_of_speech: adj
+meanings:
+  - en: Finished; complete.
+    examples:
+      - text: They were through with laying the subroof by noon.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/through#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

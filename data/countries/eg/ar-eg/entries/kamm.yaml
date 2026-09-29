@@ -1,0 +1,30 @@
+word: كم
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - kamm
+  - kumm
+pronunciation:
+  ipa: /kamm/
+part_of_speech: noun
+meanings:
+  - en: quantity, multitude
+    examples: []
+  - en: quantum
+    examples: []
+  - en: sleeve
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D9%85#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

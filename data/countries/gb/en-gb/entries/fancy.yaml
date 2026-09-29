@@ -1,0 +1,32 @@
+word: fancy
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfæn.si/
+part_of_speech: verb
+meanings:
+  - en: Would like; have a desire for.
+    examples:
+      - text: I fancy a burger tonight for dinner.
+      - text: Do you fancy going to town this weekend?
+  - en: To be sexually, aesthetically or romantically attracted to.
+    examples:
+      - text: I fancy that girl over there.
+      - text: How can you fancie one that lookes so fierce, / Onely diſpoſed to martiall
+          Stratagems? / UUho when he ſhal embrace you in his arms / UUil tell
+          how many thouſand men he ſlew.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fancy#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

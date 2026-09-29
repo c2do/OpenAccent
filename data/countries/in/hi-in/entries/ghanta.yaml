@@ -1,0 +1,36 @@
+word: घंटा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ghaṇṭā
+pronunciation:
+  ipa: /ɡʱəɳ.ʈɑː/
+part_of_speech: noun
+meanings:
+  - en: hour
+    examples:
+      - text: कितने घंटे हुए हैं?
+        en: How many hours have passed?
+  - en: clock
+    examples: []
+  - en: bell, gong
+    examples: []
+  - en: period (division of school day)
+    examples:
+      - text: पहला घंटा गणित का है।
+        en: The first period is of maths.
+concept: nothing
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%98%E0%A4%82%E0%A4%9F%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

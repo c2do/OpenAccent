@@ -1,0 +1,29 @@
+word: no duro
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /nu ˈdu.ɾu/
+part_of_speech: adv
+meanings:
+  - en: as a fact; really; truthfully
+    examples:
+      - text: Oi, doutor... No duro?! Acha que ela vai aguentar passar por isso? Tá
+          animadinha? Ah, isso é ótimo!
+        en: Hi, Doc... Really?! You think she's gonna be able to pull though with some
+          encouragement? Aw, that's great!
+concept: really
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/no_duro#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

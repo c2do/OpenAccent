@@ -1,0 +1,32 @@
+word: पैसा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - paisā
+pronunciation:
+  ipa: /pɛː.sɑː/
+part_of_speech: noun
+meanings:
+  - en: paisa (a subdivision of currency, equal to ¹⁄₁₀₀ of a rupee)
+    examples:
+      - text: एक रुपये में सौ पैसे होते हैं।
+        en: There are a hundred paisas in a rupee.
+  - en: money, wealth, riches
+    examples:
+      - text: उसने इस व्यापार में बहुत पैसा कमाया।
+        en: He earned a lot of money in this business.
+concept: money
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A5%88%E0%A4%B8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

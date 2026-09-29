@@ -1,0 +1,29 @@
+word: بخير
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - bi-ḵayr
+  - b-ḵayr
+  - bi-ḵīr
+  - b-ḵīr
+pronunciation:
+  ipa: /bi.xajr/
+part_of_speech: prep_phrase
+meanings:
+  - en: well, fine, okay, good
+    examples: []
+concept: fine
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%AE%D9%8A%D8%B1#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

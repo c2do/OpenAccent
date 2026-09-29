@@ -1,0 +1,25 @@
+word: tete
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtete/
+part_of_speech: noun
+meanings:
+  - en: a nice person, dude, friend, brother
+    examples: []
+concept: buddy
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tete#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

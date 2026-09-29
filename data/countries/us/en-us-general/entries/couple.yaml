@@ -1,0 +1,28 @@
+word: couple
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkʌp.əl/
+part_of_speech: adj
+meanings:
+  - en: Two or (a) small number of.
+    examples:
+      - text: Put any couple guys in a tricked out car and a couple of bandannas […]" He
+          trailed off.
+      - text: Since we were now living so close, at least those couple hours of talking
+          together helped boost our spirits.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/couple#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

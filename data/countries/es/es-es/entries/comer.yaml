@@ -1,0 +1,28 @@
+word: comer
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /koˈmeɾ/
+part_of_speech: verb
+meanings:
+  - en: to have lunch
+    examples: []
+  - en: translated with "not care"
+    examples:
+      - text: X me la come
+        en: I don't care about X (literally "X eats my [dick]")
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/comer#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: fala sério
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfa.lɐ ˈsɛ.ɾju/
+part_of_speech: intj
+meanings:
+  - en: no way, come off it (implies the speaker is astonished and/or does not
+      believe something said)
+    examples: []
+  - en: really?! (implies the speaker is annoyed with something)
+    examples: []
+concept: really
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fala_s%C3%A9rio#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

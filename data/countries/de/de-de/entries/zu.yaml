@@ -1,0 +1,41 @@
+word: zu
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡suː/
+meanings:
+  - en: An intensifier.
+    examples:
+      - text: Dieses Essen ist zu lecker!
+        en: This food tastes so good!
+  - en: shut; closed; locked
+    examples: []
+  - en: As a separated part of dazu or wozu
+    examples:
+      - text: |-
+          "Wann willst du denn los?"
+          "Um 10? Nur wenn du da Lust zu hast."
+        en: |-
+          "When did you wanna go?"
+          "At 10? Only if you're up for it."
+  - en: shut, closed (made inaccessible or impassable; not open)
+    examples:
+      - text: Das Geschäft war zu.
+        en: The shop was closed.
+      - text: Die Tür muss aus Brandschutzgründen immer zu sein.
+        en: This door must be shut at all times for reasons of fire safety.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/zu#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

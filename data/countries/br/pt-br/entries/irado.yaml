@@ -1,0 +1,25 @@
+word: irado
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /iˈɾa.du/
+part_of_speech: adj
+meanings:
+  - en: cool, nice, amazing, awesome; sick, dope
+    examples: []
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/irado#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

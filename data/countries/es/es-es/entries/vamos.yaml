@@ -1,0 +1,26 @@
+word: vamos
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbamos/
+part_of_speech: intj
+meanings:
+  - en: basically, in other words
+    examples:
+      - text: "A: Mi hermano no trabaja, ni estudia, ni hace nada en realidad. B: Vamos,
+          que es un matao."
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/vamos#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

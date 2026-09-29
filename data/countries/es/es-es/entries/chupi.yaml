@@ -1,0 +1,33 @@
+word: chupi
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈt͡ʃupi/
+part_of_speech: adj
+meanings:
+  - en: fab, awesome
+    examples:
+      - text: chupi guay
+        en: super cool
+      - text: Me pasa con La Bomba y me pasa con Macarena. Canciones muy graciosas y
+          chupis para casi todo el mundo a las que yo no les veo la gracia por
+          ningún lado.
+        en: It happens to me with La Bomba and it happens to me with Macarena. Songs
+          that almost everyone finds funny and cool that I just don't see the
+          humor in.
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chupi#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,37 @@
+word: hani
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ha.ni/
+meanings:
+  - en: where
+    examples:
+      - text: Hani benim gömleğim?
+        en: Where is my shirt?
+  - en: actually, to tell the truth
+    examples: []
+  - en: used when the speaker perceives an action as incomplete that the listener
+      was supposed to perform
+    examples:
+      - text: hani dedin benden başka kimseyi sevmediğini?
+        en: didn't you say you didn't love anyone but me?
+      - text: hani ödevini yapacaktın?
+        en: weren't you gonna do your homework?
+  - en: you know
+    examples: []
+concept: where
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hani#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

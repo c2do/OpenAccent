@@ -1,0 +1,27 @@
+word: headman
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: headmaster
+    examples:
+      - text: But then Nash speaks to the school headman on Josie's behalf and persuades
+          him to admit my youngest son.
+      - text: The Headman and the Principal of the school have taken care that the
+          children do not learn anything and that education does not make any
+          progress in this region.
+register: casual
+familiarity: rare
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/headman#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

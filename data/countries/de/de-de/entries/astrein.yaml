@@ -1,0 +1,25 @@
+word: astrein
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: cool, excellent
+    examples:
+      - text: Der Film war astrein!
+        en: That movie was kick-ass!
+concept: cool
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/astrein#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

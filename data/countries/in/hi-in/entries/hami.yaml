@@ -1,0 +1,30 @@
+word: हामी
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - hāmī
+pronunciation:
+  ipa: /ɦɑː.miː/
+part_of_speech: noun
+meanings:
+  - en: agreement, assent, yes
+    examples:
+      - text: हामी भरना
+        en: to assent
+  - en: supporter, one who agrees
+    examples: []
+concept: "yes"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B9%E0%A4%BE%E0%A4%AE%E0%A5%80#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: सखा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - sakhā
+pronunciation:
+  ipa: /sə.kʰɑː/
+part_of_speech: noun
+meanings:
+  - en: friend, companion
+    examples:
+      - text: सखा लोग
+        en: associates, companions, a group of buddies
+concept: friend
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%96%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,32 @@
+word: half
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhɑːf/
+part_of_speech: noun
+meanings:
+  - en: Half of a standard measure, chiefly:; half a pint of beer or cider.
+      (Refusing a pint) Just a half, thank you. (Offering to top up a pint
+      glass) Do you want a half in that? (Minimizing the amount of drink taken)
+      A swift half at the Pear Tree.
+    examples:
+      - text: He came back with a pint of Guinness for me and a half of bitter for
+          Wendy.
+      - text: I accepted a half of bitter from him.
+  - en: A child ticket. Two and a half to Paddington.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/half#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

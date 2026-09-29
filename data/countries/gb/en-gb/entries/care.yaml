@@ -1,0 +1,25 @@
+word: care
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɛə/
+part_of_speech: noun
+meanings:
+  - en: The state of being cared for by others.
+    examples:
+      - text: in care
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/care#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

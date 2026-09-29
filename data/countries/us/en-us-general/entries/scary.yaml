@@ -1,0 +1,32 @@
+word: scary
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈskɛə.ɹi/
+part_of_speech: adj
+meanings:
+  - en: Subject to sudden alarm; easily frightened.
+    examples:
+      - text: |-
+          “She’s cursed,” said the skipper; “speak her fair:
+          I’m scary always to see her shake
+          Her wicked head, with its wild gray hair,
+          And nose like a hawk, and eyes like a snake.”
+      - text: And let us say to these interests that, until the Buy-It-Made-In-Texas
+          movement co-operates with the farmers, we are going to be a little
+          scary of the snare.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/scary#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

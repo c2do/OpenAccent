@@ -1,0 +1,25 @@
+word: vergas
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbeɾɡas/
+part_of_speech: adj
+meanings:
+  - en: awesome
+    examples: []
+concept: cool
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/vergas#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

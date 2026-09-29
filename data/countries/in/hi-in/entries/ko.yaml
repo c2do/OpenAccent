@@ -1,0 +1,28 @@
+word: को
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ko
+part_of_speech: postp
+meanings:
+  - en: when marking the Agent of the verb, expresses obligation, want, or necessity
+    examples:
+      - text: मुझको घर जाना है।
+        en: I want/need to go home.
+      - text: मुझको करना पड़ा।
+        en: I had to do it.
+concept: want
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%8B#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

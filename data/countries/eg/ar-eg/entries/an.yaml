@@ -1,0 +1,29 @@
+word: عن
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ʕan
+pronunciation:
+  ipa: /ʕan/
+part_of_speech: prep
+meanings:
+  - en: from (away from)
+    examples: []
+  - en: about
+    examples: []
+  - en: instead of, on behalf of
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%86#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

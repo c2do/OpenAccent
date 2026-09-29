@@ -1,0 +1,27 @@
+word: yo
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /joː/
+part_of_speech: intj
+meanings:
+  - en: "no"
+    examples: []
+  - en: Term of objection, roughly equivalent to nope, nah or naw.
+    examples: []
+concept: "no"
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/yo#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

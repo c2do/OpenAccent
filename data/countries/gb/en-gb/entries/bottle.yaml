@@ -1,0 +1,36 @@
+word: bottle
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɒtəl/
+meanings:
+  - en: (originally bottle and glass as rhyming slang for "arse") Nerve, courage.
+    examples:
+      - text: You don’t have the bottle to do that!
+      - text: He was going to ask her out, but he lost his bottle when he saw her.
+  - en: To feed (an infant) baby formula.
+    examples:
+      - text: Because of complications she can't breast feed her baby and so she bottles
+          him.
+  - en: To refrain from doing (something) at the last moment because of a sudden
+      loss of courage.
+    examples:
+      - text: The rider bottled the big jump.
+  - en: To throw away a leading position.
+    examples:
+      - text: Arsenal bottled the Premier League.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bottle#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

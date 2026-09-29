@@ -1,0 +1,31 @@
+word: score
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /skɔː/
+part_of_speech: noun
+meanings:
+  - en: Twenty (20).; Twenty pounds sterling.
+    examples:
+      - text: DEVLIN:You know the apple and core. Head might cost you a score, or more
+          if you want a meat show on all fours.
+  - en: In the Lowestoft area, a narrow pathway running down a cliff to the beach.
+    examples:
+      - text: Above the harbour, steeply up the hill, run The Bolts, narrow stepped
+          passages, equivalent of The Scores of Lowestoft and The Rows of Great
+          Yarmouth.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/score#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

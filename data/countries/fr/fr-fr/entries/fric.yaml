@@ -1,0 +1,25 @@
+word: fric
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fʁik/
+part_of_speech: noun
+meanings:
+  - en: dosh, dough, bread (money)
+    examples: []
+concept: bread
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fric#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

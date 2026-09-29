@@ -1,0 +1,31 @@
+word: john
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈd͡ʒɑn/
+part_of_speech: noun
+meanings:
+  - en: A prostitute's client.
+    examples:
+      - text: The girls sat there while the johns (customers) moped around giving them
+          the once-over.
+      - text: In the first part of the video, Thad sucks the john's cock and takes a
+          load in his mouth.
+  - en: "A device or place for urination and defecation: now usually a toilet or
+      lavatory, but also (dated) a chamber pot or outhouse."
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/john#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

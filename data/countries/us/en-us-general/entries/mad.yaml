@@ -1,0 +1,36 @@
+word: mad
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmæd/
+meanings:
+  - en: Angry; annoyed.
+    examples:
+      - text: Are you mad at me?
+      - text: And I punished them oft in euery Synagogue, and compelled them to
+          blaspheme, and being exceedingly mad against them, I persecuted them
+          euen vnto strange cities.
+  - en: Used litotically to indicate satisfaction or approval.
+    examples:
+      - text: Wow, you really made this pie from scratch? I'm not mad at it.
+      - text: I'm not mad at this little house, though.
+  - en: To madden, to anger, to frustrate.
+    examples:
+      - text: This musick mads me, let it sound no more.
+      - text: He that mads others, if he were so humoured, would be as mad himself, as
+          much grieved and tormented […].
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mad#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

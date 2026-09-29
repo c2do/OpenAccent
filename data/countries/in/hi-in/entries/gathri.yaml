@@ -1,0 +1,45 @@
+word: गठरी
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - gaṭhrī
+pronunciation:
+  ipa: /ɡəʈʰ.ɾiː/
+part_of_speech: noun
+meanings:
+  - en: bundle, package, parcel
+    examples:
+      - text: गठरियों में आटा, चावल, दाल है और डिब्बे में घी।
+        en: There is flour, rice, pulses in the bundles and ghee in the box.
+  - en: riches, money, wealth
+    examples:
+      - text: अगर अमीर बनना है तो दूसरों की गठरियाँ हड़प नहीं करनी होंगी।
+        en: If you want to become rich, you will not have to grab the riches of others.
+  - en: "a body like a bundle or package: nonmoving, stationary, or inept and
+      crumpled or squeezed body"
+    examples:
+      - text: "[…] लेंदरा लपेट कर फिर से गठरी बन गया था बाप।"
+        en: Wrapping himself in a lendra, the father had again become a stationary,
+          crumpled body.
+      - text: जरा कल्पना तो करके देख तेरी सुहागरात कैसी होगी? तूने लाल जोड़ा पहना होगा।
+          सफेद कोट-पैंट में अखिल आएगा। […] तू सिमटकर बिलकुल गठरी बन जाएगी।
+          धीरे-धीरे वो तेरा घूँघट उठाएगा...
+        en: Just try to imagine, how your wedding night will be? You would be wearing a
+          red pair. Akhil will come in white coat-pants. […] You will squeeze
+          and become a crumpled, unmoving body. Slowly he will lift your
+          ghoonghat...
+concept: money
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%97%E0%A4%A0%E0%A4%B0%E0%A5%80#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

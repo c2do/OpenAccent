@@ -1,0 +1,28 @@
+word: zica
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈzi.kɐ/
+meanings:
+  - en: bad luck
+    examples: []
+  - en: problem
+    examples: []
+  - en: cool
+    examples: []
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/zica#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

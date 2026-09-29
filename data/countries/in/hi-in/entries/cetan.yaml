@@ -1,0 +1,37 @@
+word: चेतन
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - cetan
+pronunciation:
+  ipa: /t͡ʃeː.t̪ən/
+meanings:
+  - en: conscious, aware, alert, vigilant
+    examples:
+      - text: हमें अपने अधिकारों के प्रति चेतन रहना चाहिए।
+        en: We should remain conscious of our rights.
+  - en: animate, living, sentient
+    examples:
+      - text: सृष्टि में जड़ और चेतन दोनों प्रकार के तत्व मौजूद हैं।
+        en: Both inanimate and animate elements exist in the universe.
+  - en: rational
+    examples: []
+  - en: consciousness, mind, intellect, soul
+    examples:
+      - text: जड़ और चेतन का भेद समझना ही ज्ञान है।
+        en: Understanding the difference between matter and soul is true knowledge.
+concept: man
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A5%87%E0%A4%A4%E0%A4%A8#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

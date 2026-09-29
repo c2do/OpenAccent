@@ -1,0 +1,25 @@
+word: comme ça
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɔm sa/
+part_of_speech: adj
+meanings:
+  - en: large, big
+    examples: []
+concept: big
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/comme_%C3%A7a#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

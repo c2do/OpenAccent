@@ -1,0 +1,30 @@
+word: tek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtec/
+meanings:
+  - en: single, sole, only
+    examples: []
+  - en: a shot of an alcoholic beverage
+    examples: []
+  - en: none, no
+    examples: []
+  - en: odd (indivisible by two)
+    examples: []
+concept: "no"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

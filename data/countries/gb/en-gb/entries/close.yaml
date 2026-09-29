@@ -1,0 +1,24 @@
+word: close
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kləʊs/
+part_of_speech: noun
+meanings:
+  - en: A street that ends in a dead end.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/close#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

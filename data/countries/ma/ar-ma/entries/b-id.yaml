@@ -1,0 +1,26 @@
+word: بعيد
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - bʕīd
+pronunciation:
+  ipa: /bʕiːd/
+part_of_speech: adj
+meanings:
+  - en: far, remote, distant
+    examples: []
+concept: far
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%B9%D9%8A%D8%AF#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: على
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ʕala
+  - ʕalla
+pronunciation:
+  ipa: /ʕala(ː)/
+meanings:
+  - en: on, upon
+    examples: []
+  - en: to raise (the volume, one's voice, etc.)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%84%D9%89#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: beat
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /biːt/
+part_of_speech: adj
+meanings:
+  - en: Exhausted.
+    examples:
+      - text: After the long day, she was feeling completely beat.
+      - text: I stayed in San Francisco a week and had the beatest time of my life.
+          Marylou and I walked around for miles, looking for food-money.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/beat#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

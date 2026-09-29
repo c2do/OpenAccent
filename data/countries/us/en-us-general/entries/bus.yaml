@@ -1,0 +1,41 @@
+word: bus
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bʌs/
+meanings:
+  - en: A motor vehicle for transporting large numbers of people along roads.; A
+      coach, a bus used for long travels.
+    examples: []
+  - en: To transport students to school, often to a more distant school for the
+      purposes of achieving racial integration.
+    examples:
+      - text: But if you ask me to bus my children / I hope the cops take down your name
+      - text: ...to strike down Detroit's federal court order to bus students across
+          school district lines for the purpose of desegregation and therefore
+          nullify many busing programs throughout the country.
+  - en: To clear meal remains from.
+    examples:
+      - text: He bussed tables as the restaurant emptied out.
+      - text: He was hired to bus tables, but after a few incidents they moved him to
+          the kitchen.
+  - en: To work at clearing the remains of meals from tables or counters; to work as
+      a busboy.
+    examples:
+      - text: He’s been bussing for minimum wage.
+concept: bus
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bus#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

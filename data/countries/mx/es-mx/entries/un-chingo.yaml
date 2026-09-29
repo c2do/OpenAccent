@@ -1,0 +1,27 @@
+word: un chingo
+dialect: es-mx
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /un ˈt͡ʃinɡo/
+part_of_speech: adv
+meanings:
+  - en: a lot, very much (see chingo)
+    examples:
+      - text: Lo quiero un chingo.
+        en: I love him a lot.
+concept: a_lot
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/un_chingo#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

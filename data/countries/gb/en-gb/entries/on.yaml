@@ -1,0 +1,26 @@
+word: "on"
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɒn/
+part_of_speech: adj
+meanings:
+  - en: Acceptable, appropriate.
+    examples:
+      - text: It's not fair to do that – it's just not on.
+      - text: This kind of over-packaging of goods is completely not on.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/on#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

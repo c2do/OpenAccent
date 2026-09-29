@@ -1,0 +1,25 @@
+word: à crever
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a kʁə.ve/
+part_of_speech: adv
+meanings:
+  - en: very, extremely, as hell, no end
+    examples: []
+concept: a_lot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A0_crever#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

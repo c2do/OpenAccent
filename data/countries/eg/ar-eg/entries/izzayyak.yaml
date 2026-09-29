@@ -1,0 +1,29 @@
+word: ازيك
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - izzáyyak?
+  - izzáyyik?
+pronunciation:
+  ipa: /iz.zaj.jak/
+part_of_speech: phrase
+meanings:
+  - en: how are you? (to a man)
+    examples: []
+  - en: how are you? (to a woman)
+    examples: []
+concept: how_are_you
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D8%B2%D9%8A%D9%83#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

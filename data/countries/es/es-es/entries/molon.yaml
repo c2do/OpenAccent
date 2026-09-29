@@ -1,0 +1,25 @@
+word: molón
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /moˈlon/
+part_of_speech: adj
+meanings:
+  - en: cool
+    examples: []
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mol%C3%B3n#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

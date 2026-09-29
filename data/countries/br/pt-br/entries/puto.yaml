@@ -1,0 +1,36 @@
+word: puto
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpu.tu/
+meanings:
+  - en: furious, angry, annoyed, irritated
+    examples:
+      - text: Eu estou puto com ela.
+        en: I'm very angry with her.
+      - text: Minha mãe ficou puta com a situação.
+        en: My mom became angry with the situation.
+  - en: a jerk; an unlikable, obnoxious person
+    examples:
+      - text: Aquele cara ali é um puto.
+        en: That dude over there isn't worth anything.
+  - en: a libertine man
+    examples: []
+  - en: a male prostitute; a manwhore
+    examples: []
+concept: angry
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/puto#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

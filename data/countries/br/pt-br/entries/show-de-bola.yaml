@@ -1,0 +1,25 @@
+word: show de bola
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃo(w) d͡ʒi ˈbɔ.lɐ/
+part_of_speech: adj
+meanings:
+  - en: awesome; amazing
+    examples: []
+concept: cool
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/show_de_bola#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

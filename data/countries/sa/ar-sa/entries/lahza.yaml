@@ -1,0 +1,27 @@
+word: لحظة
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - laḥẓa
+pronunciation:
+  ipa: /laħ.zˤa/
+part_of_speech: noun
+meanings:
+  - en: moment
+    examples: []
+  - en: instant
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D8%AD%D8%B8%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

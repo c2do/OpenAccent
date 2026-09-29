@@ -1,0 +1,28 @@
+word: ver
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈve(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to get; used when ordering something from a waiter or attendant
+    examples:
+      - text: Por favor, me vê 500 g de queijo.
+        en: I would like 500 g of cheese, please.
+      - text: Mandei o recepcionista ver um táxi para o meu pai.
+        en: I told the receptionist to get a cab for my dad.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ver#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

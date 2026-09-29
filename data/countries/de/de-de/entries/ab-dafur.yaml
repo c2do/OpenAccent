@@ -1,0 +1,27 @@
+word: ab dafür
+dialect: de-de
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: intj
+meanings:
+  - en: go, let's go
+    examples:
+      - text: Bis drei Uhr nachts wurde vorgeglüht, dann noch schnell eine Line Speed
+          gezogen und ab dafür.
+        en: We had pre drinks until 3am then quickly did a line of speed, and off we
+          went.
+concept: go
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ab_daf%C3%BCr#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

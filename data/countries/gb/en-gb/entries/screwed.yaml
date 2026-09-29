@@ -1,0 +1,32 @@
+word: screwed
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: Intoxicated.
+    examples:
+      - text: >-
+          "[…] Did you know that my husband came home intoxicated?"
+
+          Mrs. Brown laughed.
+
+          "Oh, not so bad as that, surely! Only a little 'screwed.' George was
+          'quisby,' too. But then its Christmas, you know."
+      - text: Besides they were dreadfully afraid that Freddy Malins might turn up
+          screwed. They would not wish for worlds that any of Mary Jane's pupils
+          should see him under the influence; […]
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/screwed#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

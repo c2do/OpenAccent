@@ -1,0 +1,27 @@
+word: esse
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈe.si/
+part_of_speech: det
+meanings:
+  - en: this (near me)
+    examples:
+      - text: Esse livro é muito bom.
+        en: This book is very good.
+concept: this
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/esse#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

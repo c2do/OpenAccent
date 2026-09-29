@@ -1,0 +1,33 @@
+word: कुशल
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kuśal
+pronunciation:
+  ipa: /kʊ.ʃəl/
+meanings:
+  - en: skilled, experienced
+    examples: []
+  - en: prosperous; healthy, well; good
+    examples:
+      - text: मैं अमेरिका आके कुशल बन गया हूँ।
+        en: I have come to America and prospered.
+  - en: health; well-being
+    examples: []
+  - en: fortune, luck
+    examples: []
+concept: fine
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%81%E0%A4%B6%E0%A4%B2#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

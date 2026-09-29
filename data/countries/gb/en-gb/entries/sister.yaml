@@ -1,0 +1,24 @@
+word: sister
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈsɪs.tə(ɹ)/
+part_of_speech: noun
+meanings:
+  - en: A senior or supervisory nurse, often in a hospital.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sister#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,33 @@
+word: mächtig
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmɛçtɪç/
+part_of_speech: adj
+meanings:
+  - en: intense; (adverbial) very, totally
+    examples:
+      - text: Er bekam einen mächtigen Wutanfall.
+        en: He got into an intense rage.
+      - text: Doch so 'ne Katastrophe, das ging mächtig in die Hose
+        en: But what a disaster, it totally failed
+  - en: very filling, heavy (of food)
+    examples:
+      - text: Die Sahnetorte war mir zu mächtig.
+        en: The cream cake was too filling for my taste.
+concept: a_lot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/m%C3%A4chtig#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

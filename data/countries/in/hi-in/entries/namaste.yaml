@@ -1,0 +1,34 @@
+word: नमस्ते
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - namaste
+pronunciation:
+  ipa: /nə.məs.t̪eː/
+meanings:
+  - en: A salutation; a greeting used for most purposes including hello, goodbye,
+      etc.
+    examples: []
+  - en: an instance of the interjection namaste; greeting, salutation
+    examples: []
+  - en: farewell, ending
+    examples:
+      - text: नमस्ते करना
+        en: to bid farewell; to fire, kick out
+      - text: वित्तीय अनुशासन के अन्तगर्त कई विभागों को समयपूर्व ही नमस्ते कर दिया गया।
+        en: Under fiscal discipline, several departments were bid farewell prematurely.
+concept: bye
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

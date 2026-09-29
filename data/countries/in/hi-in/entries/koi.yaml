@@ -1,0 +1,31 @@
+word: कोई
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - koī
+pronunciation:
+  ipa: /koː.iː/
+meanings:
+  - en: some, certain, any (particularized); no, not any
+    examples:
+      - text: इसमें कोई गलती नहीं है।
+        en: There is no mistake in this.
+  - en: such, what
+    examples:
+      - text: लड़की, कोई तेरी अक़्ल मारी गई?
+        en: Girl, have you lost your mind?
+concept: "no"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%8B%E0%A4%88#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

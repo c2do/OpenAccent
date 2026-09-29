@@ -1,0 +1,29 @@
+word: خيمة
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ḵayma
+  - ḵīma
+pronunciation:
+  ipa: /xaj.ma/
+part_of_speech: noun
+meanings:
+  - en: tent
+    examples: []
+  - en: house
+    examples: []
+concept: house
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AE%D9%8A%D9%85%D8%A9#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

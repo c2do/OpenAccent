@@ -1,0 +1,26 @@
+word: يمكن
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - yimkan
+pronunciation:
+  ipa: /jim.kan/
+part_of_speech: adv
+meanings:
+  - en: maybe
+    examples: []
+concept: maybe
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%8A%D9%85%D9%83%D9%86#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

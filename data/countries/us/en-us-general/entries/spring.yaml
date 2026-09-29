@@ -1,0 +1,26 @@
+word: spring
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈspɹɪŋ/
+part_of_speech: verb
+meanings:
+  - en: To free from imprisonment, especially by facilitating an illegal escape.
+    examples:
+      - text: His lieutenants hired a team of miners to help spring him.
+      - text: If I was in jail I know you'd spring me
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/spring#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

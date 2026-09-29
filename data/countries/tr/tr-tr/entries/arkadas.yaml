@@ -1,0 +1,34 @@
+word: arkadaş
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɑɾ.kɑˈdɑʃ/
+part_of_speech: noun
+meanings:
+  - en: friend
+    examples: []
+  - en: comrade
+    examples: []
+  - en: colleague, employee
+    examples:
+      - text: Ben bununla ilgilenmiyorum, sen en iyisi oradaki çalışan arkadaşa sor.
+        en: I don't handle that, you should ask the employee over there.
+  - en: "an informal word to address a group, especially of young people: guys!,
+      people!"
+    examples: []
+concept: friend
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/arkada%C5%9F#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

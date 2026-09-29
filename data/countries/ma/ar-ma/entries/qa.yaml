@@ -1,0 +1,36 @@
+word: قاع
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - qāʕ
+pronunciation:
+  ipa: /qaːʕ/
+part_of_speech: noun
+meanings:
+  - en: bottom
+    examples:
+      - text: قاع البير
+        en: the bottom of the well
+      - text: قاع الكاس
+        en: the bottom of the glass
+  - en: buttock
+    examples:
+      - text: جلسوا على قيعانكم وبركة من الهدرة.
+        en: Sit on your ass and stop talking.
+  - en: all
+    examples: []
+concept: all
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%A7%D8%B9#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

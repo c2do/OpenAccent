@@ -1,0 +1,36 @@
+word: bail
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /baj/
+part_of_speech: noun
+meanings:
+  - en: yonks, ages
+    examples:
+      - text: Il disait que ça faisait un bail qu'ils ne s'étaient pas vus, qu'il lui
+          manquait […].
+        en: He was saying that it had been ages since they'd seen each other, and that
+          he missed him.
+  - en: thing, stuff, affair
+    examples:
+      - text: C'est pas les mêmes bails.
+        en: They're not the same things.
+      - text: J'suis dans les bails noirs (mmh, mmh), c'est l'bruit qu't'as fait quand
+          on t'a bâillonné
+        en: I’m into booky tings, mmh, mmh, that’s the noise you made when gagged by us
+concept: something
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bail#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: no último
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /nu ˈuw.t͡ʃi.mu/
+part_of_speech: adv
+meanings:
+  - en: really; super
+    examples:
+      - text: Aquele cara é ignorante no último!
+        en: That guy is super rude!
+concept: really
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/no_%C3%BAltimo#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

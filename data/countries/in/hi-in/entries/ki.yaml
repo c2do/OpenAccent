@@ -1,0 +1,28 @@
+word: कि
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ki
+pronunciation:
+  ipa: /kɪ/
+part_of_speech: conj
+meanings:
+  - en: that
+    examples:
+      - text: मुझे मालूम नहीं था कि तुम्हें मराठी आती है।
+        en: I didn't know that you speak Marathi
+concept: that
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BF#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

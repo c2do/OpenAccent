@@ -1,0 +1,24 @@
+word: shift
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃɪft/
+part_of_speech: noun
+meanings:
+  - en: be done; ruined
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/shift#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

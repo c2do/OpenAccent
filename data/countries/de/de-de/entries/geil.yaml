@@ -1,0 +1,44 @@
+word: geil
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡaɪ̯l/
+part_of_speech: adj
+meanings:
+  - en: keen; bent
+    examples:
+      - text: Vernachlässigt und elegant, waren sie geil auf Katastrophen, von denen sie
+          kein Kind bekommen konnten.
+        en: Youth Without God / The Age of the Fish
+      - text: "Salopp formuliert könnte man sagen: Unser Gehirn ist geil auf Geld."
+        en: "Casually said: Our brain is keen on money."
+  - en: great; cool; awesome
+    examples:
+      - text: Lass sie alle reden, lass die Halle beben / Was für'n geiles Leben, ich
+          mache Scheine, scheine / Indem ich Reime reime so wie Heinrich Heine
+        en: Let them all talk, let the hall quake / What an awesome life, I make money /
+          with rhyming like Heinrich Heine
+      - text: Hey Dealer / das ist ganz schön geil / fühlt sich an wie Sonnenschein /
+          alles ganz schön real
+        en: Hey dealer / this is pretty awesome / feels like sun shine / all pretty real
+  - en: sexy; hot
+    examples:
+      - text: Dann lässt sie sich von Markus den Hintern tätscheln und »geile Maus«
+          nennen.
+        en: Then she let Marcus fondle her butt and let him call her hot chick.
+concept: cool
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/geil#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

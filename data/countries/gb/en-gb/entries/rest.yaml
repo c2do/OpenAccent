@@ -1,0 +1,25 @@
+word: rest
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɹɛst/
+part_of_speech: noun
+meanings:
+  - en: A surplus held as a reserved fund by a bank to equalize its dividends, etc.;
+      in the Bank of England, the balance of assets above liabilities.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rest#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

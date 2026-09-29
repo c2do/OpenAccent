@@ -1,0 +1,26 @@
+word: shake
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃeɪk/
+part_of_speech: noun
+meanings:
+  - en: An adulterant added to cocaine powder.
+    examples:
+      - text: "[…] most suppliers will allow up to 120 grams of shake to a kilo, or 12
+          percent; kilo-level buyers are usually unhappy if they find more."
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/shake#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

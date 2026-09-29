@@ -1,0 +1,26 @@
+word: ugly
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʌɡli/
+part_of_speech: noun
+meanings:
+  - en: A shade for the face, projecting from a bonnet.
+    examples:
+      - text: "[…] camp-stools, telescopes, poetry-books, blue uglies, red petticoats,
+          and parasols of every hue."
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ugly#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

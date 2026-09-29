@@ -1,0 +1,28 @@
+word: baba
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɑːbɑː/
+part_of_speech: noun
+meanings:
+  - en: A baby, child.
+    examples:
+      - text: That is to say, if I do not take care, I shall go on calling my darling
+          'Baba' till she is as old as her mamma, and has a dozen Babas of her
+          own.
+      - text: For my child is dead—my baba is dead!
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/baba#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

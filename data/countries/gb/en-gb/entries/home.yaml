@@ -1,0 +1,24 @@
+word: home
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /həʊm/
+part_of_speech: adv
+meanings:
+  - en: into the goal
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/home#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

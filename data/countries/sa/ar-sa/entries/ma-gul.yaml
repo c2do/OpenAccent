@@ -1,0 +1,29 @@
+word: معقول
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - maʕgūl
+pronunciation:
+  ipa: /maʕ.ɡuːl/
+meanings:
+  - en: reasonable
+    examples: []
+  - en: logical
+    examples: []
+  - en: really?, is it possible?
+    examples: []
+concept: really
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%B9%D9%82%D9%88%D9%84#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

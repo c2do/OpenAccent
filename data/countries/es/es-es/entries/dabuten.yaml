@@ -1,0 +1,24 @@
+word: dabuten
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /daˈbuten/
+meanings:
+  - en: cool, terrific
+    examples: []
+concept: cool
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dabuten#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

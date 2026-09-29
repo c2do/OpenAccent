@@ -1,0 +1,35 @@
+word: संत
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - sant
+pronunciation:
+  ipa: /sənt̪/
+meanings:
+  - en: a saint
+    examples:
+      - text: नगर में आज जैन श्वेताम्बर सम्प्रदाय के संत अमोधकीर्ति मुनि का नगर में आगमन
+          हुआ।
+        en: Today Saint Amogh Kirti Muni of the Shvetambar sect of Jainism arrived in
+          town.
+  - en: a revered or venerated person
+    examples: []
+  - en: existent
+    examples: []
+  - en: good, virtuous, pious
+    examples: []
+concept: good
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%82%E0%A4%A4#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

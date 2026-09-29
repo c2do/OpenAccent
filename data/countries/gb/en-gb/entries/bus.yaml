@@ -1,0 +1,27 @@
+word: bus
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bʌs/
+part_of_speech: noun
+meanings:
+  - en: Any motorized vehicle, such as a motorbike or car.
+    examples:
+      - text: “Excuse me,” said the stranger, who turned out to be a youth in
+          motorcycling kit, “but could you give me a hand with my bus?”
+concept: bus
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bus#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

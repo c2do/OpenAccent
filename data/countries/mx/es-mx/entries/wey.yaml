@@ -1,0 +1,27 @@
+word: wey
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈwei/
+part_of_speech: noun
+meanings:
+  - en: chump, punk, dumbass, idiot, jerk
+    examples: []
+  - en: dude, guy, buddy
+    examples: []
+concept: buddy
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wey#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

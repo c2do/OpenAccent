@@ -1,0 +1,27 @@
+word: comme tout
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɔm tu/
+part_of_speech: adv
+meanings:
+  - en: very, extremely, as all get-out
+    examples:
+      - text: N'aie pas peur du chien, il est gentil comme tout !
+        en: Don't be afraid of the dog, he's very sweet-natured!
+concept: a_lot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/comme_tout#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

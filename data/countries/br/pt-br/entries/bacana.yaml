@@ -1,0 +1,26 @@
+word: bacana
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /baˈkɐ̃.nɐ/
+meanings:
+  - en: cool, nice
+    examples: []
+  - en: rich person
+    examples: []
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bacana#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,34 @@
+word: ليك
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - lēk
+pronunciation:
+  ipa: /leːk/
+meanings:
+  - en: look
+    examples: []
+  - en: listen, pay attention (used to draw attention to the speaker themself)
+    examples:
+      - text: ليك يا حبوب، أنا متلك منشتغل نفس الشغلة وبعرف البير وغطاه
+        en: Look, darling, I'm like you in that we do the same thing, and I know what
+          you're not telling me
+  - en: here
+    examples:
+      - text: ليكها هون
+        en: Here it is, right here
+concept: see
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D9%8A%D9%83#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

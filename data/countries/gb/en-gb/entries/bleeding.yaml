@@ -1,0 +1,28 @@
+word: bleeding
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbliːdɪŋ/
+part_of_speech: adj
+meanings:
+  - en: extreme, outright; bloody, blasted.
+    examples:
+      - text: You are a bleeding liar. Truth is of no interest to you at all.
+      - text: '"You are a bleeding idiot sometimes, but I love you and", Harry hands him
+          the first gift Severus ever gave him and says, "One hundred and
+          sixteen."'
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bleeding#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

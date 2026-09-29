@@ -1,0 +1,27 @@
+word: nombre
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnombɾe/
+part_of_speech: intj
+meanings:
+  - en: wow!
+    examples: []
+  - en: yikes, nope
+    examples: []
+concept: wow
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nombre#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: راجل
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - rājil
+pronunciation:
+  ipa: /raː.ʒil/
+part_of_speech: noun
+meanings:
+  - en: man
+    examples: []
+  - en: husband
+    examples: []
+concept: man
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B1%D8%A7%D8%AC%D9%84#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

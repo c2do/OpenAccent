@@ -1,0 +1,30 @@
+word: अब
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ab
+part_of_speech: adv
+meanings:
+  - en: now
+    examples:
+      - text: अब क्या करोगे?
+        en: What will you do now?
+  - en: after all
+    examples:
+      - text: जायज़ है कि घोड़े नहीं उड़ सकते, अब वो कोई पंछी हैं क्या?
+        en: It's obvious that horses can't fly, after all they are not birds, are they?
+concept: now
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%AC#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

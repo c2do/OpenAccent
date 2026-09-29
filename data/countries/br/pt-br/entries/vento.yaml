@@ -1,0 +1,27 @@
+word: vento
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈvẽ.tu/
+part_of_speech: noun
+meanings:
+  - en: nothingness; nothing (the lack of something)
+    examples:
+      - text: Coloquei a mão no bolso para pegar a carteira, mas só encontrei vento.
+        en: I put my hand in my pocket to get my wallet, but I found nothing.
+concept: nothing
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/vento#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

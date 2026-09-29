@@ -1,0 +1,23 @@
+word: angefressen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: annoyed, angry, fed up
+    examples: []
+concept: angry
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/angefressen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

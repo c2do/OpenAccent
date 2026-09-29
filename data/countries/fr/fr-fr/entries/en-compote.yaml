@@ -1,0 +1,26 @@
+word: en compote
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɑ̃ kɔ̃.pɔt/
+part_of_speech: prep_phrase
+meanings:
+  - en: tired, hurting, wobbly
+    examples:
+      - text: avoir les jambes en compote
+concept: tired
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/en_compote#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

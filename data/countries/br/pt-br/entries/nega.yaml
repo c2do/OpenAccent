@@ -1,0 +1,32 @@
+word: nega
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈne.ɡɐ/
+part_of_speech: noun
+meanings:
+  - en: female lover, especially, though not exclusively, a black one
+    examples:
+      - text: A minha nega está viajando
+        en: My girl is travelling
+      - text: Procure uma nega baiana, ô / Que saiba mexer
+  - en: woman
+    examples:
+      - text: Vi uma nega bem bonita hoje
+        en: I saw this very cute girl today
+concept: woman
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nega#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

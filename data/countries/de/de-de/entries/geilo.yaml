@@ -1,0 +1,25 @@
+word: geilo
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: cool, awesome
+    examples:
+      - text: Sonst D nicht mehr Deutsch, sondern siehe Darwin! Das ein geilo Stichwort.
+          Denn manchmal ist dem Bumbum not und druff!
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/geilo#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

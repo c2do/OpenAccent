@@ -1,0 +1,27 @@
+word: great
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡɹeɪt/
+part_of_speech: adj
+meanings:
+  - en: Taking much space; large.; Intensifying a word or expression, used in mild
+      oaths.
+    examples:
+      - text: a dirty great smack in the face
+      - text: Great Scott!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/great#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

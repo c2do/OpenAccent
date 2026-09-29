@@ -1,0 +1,30 @@
+word: mali
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmɑːli/
+part_of_speech: noun
+meanings:
+  - en: A member of a caste in South Asia whose traditional occupation is gardening;
+      hence, any South Asian gardener.
+    examples:
+      - text: I sent down dhobies, sweepers, cooks, and mallees, last to dig trenches
+          for burying the dead, when burning was not possible.
+      - text: He found, as he expected, that the poor girl was crying. And, as always,
+          an Indian close outside the window, a mali in this case, picking up
+          sounds.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mali#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

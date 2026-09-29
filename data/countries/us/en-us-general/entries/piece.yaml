@@ -1,0 +1,37 @@
+word: piece
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /piːs/
+part_of_speech: noun
+meanings:
+  - en: A gun.
+    examples:
+      - text: He's packin' a piece!
+      - text: I wanted peace, but now my piece is clearing out the block.
+  - en: A toupee or wig, especially when worn by a man.
+    examples:
+      - text: The announcer is wearing a new piece.
+  - en: A sexual encounter; from piece of ass or piece of tail.
+    examples:
+      - text: I got a piece at lunchtime.
+  - en: A shoddy or worthless object (usually applied to consumer products like
+      vehicles or appliances).
+    examples:
+      - text: Ugh, my new computer is such a piece. I'm taking it back to the store
+          tomorrow.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/piece#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

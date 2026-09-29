@@ -1,0 +1,34 @@
+word: आँख
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ā̃kh
+pronunciation:
+  ipa: /ɑ̃ːkʰ/
+part_of_speech: noun
+meanings:
+  - en: eye
+    examples:
+      - text: प्रकाश में मानवीय आँख पर क्या प्रतिक्रिया होती है?
+        en: How does the human eye react to light?
+      - text: मैंने उसे अपनी आँखों से देखा था।
+        en: I saw him with my own eyes.
+  - en: sight, glance, look
+    examples: []
+  - en: regard
+    examples: []
+concept: see
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%86%E0%A4%81%E0%A4%96#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

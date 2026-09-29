@@ -1,0 +1,27 @@
+word: buyurun
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bu.juˈɾun/
+part_of_speech: intj
+meanings:
+  - en: here you are, how can I help you?, what would you like?, please (used to
+      politely state to a person whom one serves that they may do something,
+      usually not an actual bestowing of permission)
+    examples: []
+concept: please
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/buyurun#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

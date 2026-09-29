@@ -1,0 +1,33 @@
+word: abfeiern
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈapˌfaɪ̯ɐn/
+part_of_speech: verb
+meanings:
+  - en: to celebrate, praise, love
+    examples:
+      - text: Nun war die Aktion von Samidoun, die nach dem Überfall auf Israel in
+          Neukölln Süßigkeiten verteilten und die Hamas abfeierten, nicht
+          unbequem, sondern strafbar.
+        en: Now, Samidoun’s actions – handing out sweets and celebrating Hamas in
+          Neukölln after the attack on Israel – were not only uncomfortable but
+          punishable under the law.
+  - en: to party hard
+    examples: []
+concept: like
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/abfeiern#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

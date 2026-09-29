@@ -1,0 +1,23 @@
+word: sensass
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: cool; ace; fantastic; excellent
+    examples: []
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sensass#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

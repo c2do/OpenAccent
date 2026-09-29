@@ -1,0 +1,28 @@
+word: بين
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - bayn
+  - bīn
+  - bayyan
+pronunciation:
+  ipa: /bajn/
+meanings:
+  - en: between (in the position or interval that separates two things)
+    examples: []
+  - en: to make clear, to explain, to outline, to illustrate
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D9%8A%D9%86#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

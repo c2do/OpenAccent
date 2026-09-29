@@ -1,0 +1,29 @@
+word: üzgün
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /yzˈɟyn/
+part_of_speech: adj
+meanings:
+  - en: sad
+    examples: []
+  - en: sorry, afraid
+    examples:
+      - text: Üzgünüm ama bu imkânsızdır.
+        en: I'm afraid this is impossible.
+concept: sorry
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%BCzg%C3%BCn#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: papel
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /paˈpel/
+part_of_speech: noun
+meanings:
+  - en: money
+    examples: []
+  - en: buck, bill
+    examples: []
+concept: money
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/papel#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: c'est selon
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /s‿ɛ sə.lɔ̃/
+part_of_speech: phrase
+meanings:
+  - en: it depends; maybe
+    examples: []
+concept: maybe
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/c'est_selon#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

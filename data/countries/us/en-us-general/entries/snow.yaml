@@ -1,0 +1,26 @@
+word: snow
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /snəʊ̯/
+part_of_speech: verb
+meanings:
+  - en: To cause (someone) to be under the effect of a drug; to dope, to drug.
+    examples:
+      - text: She looked snowed, weaved around funny, didn't seem to know much what was
+          going on.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/snow#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

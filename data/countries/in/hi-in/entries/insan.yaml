@@ -1,0 +1,28 @@
+word: इंसान
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - insān
+pronunciation:
+  ipa: /ɪn.sɑːn/
+part_of_speech: noun
+meanings:
+  - en: human, man
+    examples:
+      - text: वह इंसान नहीं, हैवान है।
+        en: He is not a human, but a beast.
+concept: man
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%87%E0%A4%82%E0%A4%B8%E0%A4%BE%E0%A4%A8#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

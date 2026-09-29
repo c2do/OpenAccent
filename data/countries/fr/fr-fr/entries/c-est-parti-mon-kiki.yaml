@@ -1,0 +1,25 @@
+word: c'est parti mon kiki
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /s‿ɛ paʁ.ti mɔ̃ ki.ki/
+part_of_speech: intj
+meanings:
+  - en: we're ready; let's go!; we're off!; here we go!
+    examples: []
+concept: lets_go
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/c'est_parti_mon_kiki#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

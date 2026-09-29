@@ -1,0 +1,25 @@
+word: hoş
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: nice
+    examples: []
+  - en: pleasant, pleasing
+    examples: []
+concept: beautiful
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ho%C5%9F#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

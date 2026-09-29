@@ -1,0 +1,23 @@
+word: muito louco
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: wicked; awesome; amazing
+    examples: []
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/muito_louco#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

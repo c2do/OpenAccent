@@ -1,0 +1,31 @@
+word: morro
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmoro/
+part_of_speech: noun
+meanings:
+  - en: Mexican calabash (Crescentia alata)
+    examples: []
+  - en: kid
+    examples:
+      - text: de morrito/a
+        en: as a kid; when I was little
+  - en: young man, guy, dude
+    examples: []
+concept: buddy
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/morro#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

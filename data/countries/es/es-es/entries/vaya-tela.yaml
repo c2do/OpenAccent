@@ -1,0 +1,27 @@
+word: vaya tela
+dialect: es-es
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˌbaʝa ˈtela/
+part_of_speech: phrase
+meanings:
+  - en: wow!, oh my!
+    examples:
+      - text: "Leonard Cohen, por ejemplo, hay un momento en el que se mira a sí mismo y
+          dice: 'Hostia puta, macho, vaya tela\"."
+concept: wow
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/vaya_tela#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

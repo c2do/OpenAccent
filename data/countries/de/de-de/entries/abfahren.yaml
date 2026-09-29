@@ -1,0 +1,28 @@
+word: abfahren
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[ˈapfaːrən]"
+part_of_speech: verb
+meanings:
+  - en: to go for; to be crazy about, for; to be a fan of or infatuated with [with
+      auf ‘someone/something’]
+    examples:
+      - text: Sie fährt voll auf Kultfilme ab.
+        en: She's really crazy about cult movies.
+concept: something
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/abfahren#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

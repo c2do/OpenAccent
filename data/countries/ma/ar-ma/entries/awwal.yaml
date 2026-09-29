@@ -1,0 +1,25 @@
+word: أول
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ʔawwal
+pronunciation:
+  ipa: /ʔaw.wal/
+part_of_speech: adj
+meanings:
+  - en: first
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D9%88%D9%84#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

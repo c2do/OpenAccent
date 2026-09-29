@@ -1,0 +1,25 @@
+word: يعطيك العافية
+dialect: ar-sa
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /yiʕ.tˤiːk al.ʕaːf.ja/
+part_of_speech: phrase
+meanings:
+  - en: thank you (to a male)
+    examples: []
+concept: thanks
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%8A%D8%B9%D8%B7%D9%8A%D9%83_%D8%A7%D9%84%D8%B9%D8%A7%D9%81%D9%8A%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

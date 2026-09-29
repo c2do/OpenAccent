@@ -1,0 +1,26 @@
+word: tronco
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtɾonko/
+part_of_speech: noun
+meanings:
+  - en: guy, dude
+    examples:
+      - text: —Qué pasa, chavales. ¿Habéis visto el partido, troncos? —pregunta.
+concept: buddy
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tronco#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

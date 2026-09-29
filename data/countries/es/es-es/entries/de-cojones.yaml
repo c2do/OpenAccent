@@ -1,0 +1,32 @@
+word: de cojones
+dialect: es-es
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /de koˈxones/
+meanings:
+  - en: intense
+    examples:
+      - text: un frío de cojones
+        en: intense cold
+  - en: very good
+    examples: []
+  - en: very (used as an intensifier)
+    examples:
+      - text: Mi primo es raro de cojones.
+        en: My cousin is weird as hell.
+concept: a_lot
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/de_cojones#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

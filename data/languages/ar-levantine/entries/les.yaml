@@ -1,0 +1,27 @@
+word: ليش
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - lēš
+  - layš
+pronunciation:
+  ipa: /leːʃ/
+part_of_speech: adv
+meanings:
+  - en: why?
+    examples: []
+concept: why
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D9%8A%D8%B4#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

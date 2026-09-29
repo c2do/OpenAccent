@@ -1,0 +1,28 @@
+word: حرمة
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ḥurma
+pronunciation:
+  ipa: /ˈħur.ma/
+part_of_speech: noun
+meanings:
+  - en: woman
+    examples: []
+  - en: holiness, sanctity, sacredness
+    examples: []
+concept: woman
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D8%B1%D9%85%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

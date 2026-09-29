@@ -1,0 +1,25 @@
+word: business
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɪz.nɪs/
+part_of_speech: noun
+meanings:
+  - en: Something very good; top quality.
+    examples:
+      - text: These new phones are the business!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/business#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

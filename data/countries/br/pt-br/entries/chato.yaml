@@ -1,0 +1,25 @@
+word: chatô
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʃaˈto/
+part_of_speech: noun
+meanings:
+  - en: a room, house, or apartment where a single man lives
+    examples: []
+concept: house
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chat%C3%B4#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,39 @@
+word: post
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pəʊst/
+meanings:
+  - en: An organisation for delivering letters, parcels etc., or the service
+      provided by such an organisation.
+    examples:
+      - text: I sent a parcel via/by post.
+      - text: I take it too as an opportunity of sending you the fair copy of the poem
+          on Dullness, which was not then finished, and which I should not care
+          to hazard by the common post.
+  - en: A single delivery of letters; the letters or deliveries that make up a
+      single batch delivered to one person or one address.
+    examples:
+      - text: Royal Mail worker Evette Chapman gathered a team of 12 colleagues to
+          deliver post in fancy dress and raise money for a nurses' charity and
+          patients in Musgrove Park Hospital, Taunton.
+  - en: To send (an item of mail etc.) through the postal service.
+    examples:
+      - text: Mail items posted before 7.00pm within the Central Business District and
+          before 5.00pm outside the Central Business District will be delivered
+          the next working day.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/post#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

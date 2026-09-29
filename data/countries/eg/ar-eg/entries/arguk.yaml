@@ -1,0 +1,26 @@
+word: أرجوك
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ʔargūk
+pronunciation:
+  ipa: /ʔar.ɡuːk/
+part_of_speech: noun
+meanings:
+  - en: please
+    examples: []
+concept: please
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D8%B1%D8%AC%D9%88%D9%83#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

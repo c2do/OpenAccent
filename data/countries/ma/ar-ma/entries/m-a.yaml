@@ -1,0 +1,34 @@
+word: مع
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - mʕa
+pronunciation:
+  ipa: /mʕa/
+meanings:
+  - en: as (at the same instant that)
+    examples:
+      - text: مع جيت، مشى ينعس.
+        en: As I came, he went to sleep.
+  - en: with, together with, in the company of
+    examples:
+      - text: ماش نخرج معاه.
+        en: I will go out with him.
+  - en: pro, for, advocate of, supporting
+    examples:
+      - text: آنا مع البارصا فهاد الدوري.
+        en: I am supporting FC Barcelona in this tournament.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%B9#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

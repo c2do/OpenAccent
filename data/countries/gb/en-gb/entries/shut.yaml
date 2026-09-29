@@ -1,0 +1,27 @@
+word: shut
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʃʌt/
+part_of_speech: verb
+meanings:
+  - en: To close, in various senses.; To close (a business or venue) temporarily or
+      permanently.
+    examples:
+      - text: They generally shut the museum each day at 6 pm.
+      - text: The supermarket shuts at eight o'clock.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/shut#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,36 @@
+word: şey
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃej/
+meanings:
+  - en: thing
+    examples: []
+  - en: uh, you know (used to refer to something one cannot remember at the moment)
+    examples:
+      - text: Şeyi temizledin mi, tezgâhı?
+        en: Did you clean the uh, the counter?
+  - en: genital organ
+    examples:
+      - text: Şeyimi gördün mü?
+        en: Did you see my thing?
+  - en: well
+    examples:
+      - text: Şey, anlayamadım.
+        en: Well, I could not understand.
+concept: something
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C5%9Fey#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

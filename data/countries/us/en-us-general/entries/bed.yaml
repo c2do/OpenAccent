@@ -1,0 +1,27 @@
+word: bed
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɛd/
+part_of_speech: noun
+meanings:
+  - en: A place, or flat surface or layer, on which something else rests or is
+      laid.; The platform of a truck, trailer, wagon, railcar, or other vehicle
+      that supports the load to be hauled.
+    examples:
+      - text: The parcels were loaded onto the truck bed before transportation.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bed#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

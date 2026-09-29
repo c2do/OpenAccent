@@ -1,0 +1,34 @@
+word: talk
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tɔːk/
+part_of_speech: noun
+meanings:
+  - en: A customary conversation by parent(s) or guardian(s) with their (often
+      teenage) child about a reality of life; in particular:; A customary
+      conversation in which the parent(s) of a black child explain the racism
+      and violence they may face, especially when interacting with police, and
+      strategies to manage it.
+    examples:
+      - text: Later, I made sure to have the talk with my son about being a black boy,
+          […]
+      - text: All the black parents I have ever spoken to have had “the talk” with their
+          sons and daughters. “The talk” is a conversation about how to behave
+          and not to behave with police.
+concept: talk
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/talk#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

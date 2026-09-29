@@ -1,0 +1,30 @@
+word: clever
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈklɛv.ə/
+part_of_speech: adj
+meanings:
+  - en: Fit and healthy; free from fatigue or illness.
+    examples:
+      - text: But at that moment I knew it was all over for me, I had never thought that
+          this day would come, but it had and I was not feeling too clever. In
+          fact I had to escape to a nearby toilet to be sick.
+      - text: Right, and no, because the solicitor has told her that Walter's legs
+          didn't look too clever, which, apparently, everyone's putting down to
+          a fall, thankfully.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/clever#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

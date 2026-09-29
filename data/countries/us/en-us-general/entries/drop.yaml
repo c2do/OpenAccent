@@ -1,0 +1,30 @@
+word: drop
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dɹɒp/
+meanings:
+  - en: An act or instance of dropping (in all senses).; An unsolicited credit card
+      issue.
+    examples: []
+  - en: An automobile with a drop-top roof, a convertible.
+    examples: []
+  - en: To make someone, or be made to do push-ups or some other form of exercise on
+      the ground as punishment.
+    examples:
+      - text: Drop and give me 20, now!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/drop#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

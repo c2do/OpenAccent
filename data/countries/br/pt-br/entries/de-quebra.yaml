@@ -1,0 +1,26 @@
+word: de quebra
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /d͡ʒi ˈkɛ.bɾɐ/
+part_of_speech: adv
+meanings:
+  - en: "to boot: additionally, besides, also (normally used to remark something
+      positive)"
+    examples: []
+concept: also
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/de_quebra#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

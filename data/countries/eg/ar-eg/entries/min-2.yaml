@@ -1,0 +1,35 @@
+word: من
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - min
+part_of_speech: prep
+meanings:
+  - en: than
+    examples: []
+  - en: from, of
+    examples:
+      - text: تعبت من الكلام
+        en: I’m tired of talking.
+  - en: ago
+    examples:
+      - text: شفتك من كام يوم
+        en: I saw you a few days ago.
+  - en: since
+    examples:
+      - text: متكلمناش من إيام المدرسة
+        en: We haven't spoken since [our] school days.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D9%86#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: truck
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tɹʌk/
+part_of_speech: noun
+meanings:
+  - en: A heavier motor vehicle designed to carry goods or to pull a semi-trailer
+      designed to carry goods; (in Malaysia/Singapore) a such vehicle with a
+      closed or covered carriage.
+    examples:
+      - text: We rented a truck big enough to carry the whole load in one trip.
+      - text: That's why driving truck became more than a job for many in the industry.
+          Driving truck was a lifestyle.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/truck#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

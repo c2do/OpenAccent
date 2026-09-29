@@ -1,0 +1,29 @@
+word: طيب
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ṭayyib
+pronunciation:
+  ipa: /tˤaj.jib/
+meanings:
+  - en: OK, fine
+    examples: []
+  - en: alright then..., well then...
+    examples: []
+  - en: kind
+    examples: []
+concept: fine
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B7%D9%8A%D8%A8#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

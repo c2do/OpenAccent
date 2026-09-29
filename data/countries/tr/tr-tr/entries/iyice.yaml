@@ -1,0 +1,30 @@
+word: iyice
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈiː.d͡ʒe/
+meanings:
+  - en: pretty good, fairly good, or close to good
+    examples: []
+  - en: very, highly
+    examples: []
+  - en: thoroughly, completely
+    examples: []
+  - en: properly, as required, in depth, in detail
+    examples: []
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/iyice#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

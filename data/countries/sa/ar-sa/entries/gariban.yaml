@@ -1,0 +1,26 @@
+word: قريبا
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - garīban
+pronunciation:
+  ipa: /ɡa.riː.ban/
+part_of_speech: adv
+meanings:
+  - en: soon, shortly
+    examples: []
+concept: soon
+register: neutral
+familiarity: rare
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%B1%D9%8A%D8%A8%D8%A7#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

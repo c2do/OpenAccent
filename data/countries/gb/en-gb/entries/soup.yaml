@@ -1,0 +1,25 @@
+word: soup
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /suːp/
+part_of_speech: noun
+meanings:
+  - en: Any mixture or substance suggestive of soup consistency.; An unfortunate
+      situation; trouble, problems (a fix, a mess); chaos.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/soup#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

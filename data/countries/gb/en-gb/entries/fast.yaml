@@ -1,0 +1,26 @@
+word: fast
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fɑːst/
+part_of_speech: noun
+meanings:
+  - en: A train that calls at only some stations it passes between its origin and
+      destination, typically just the principal stations.
+    examples: []
+concept: fast
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fast#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

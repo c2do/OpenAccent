@@ -1,0 +1,26 @@
+word: let
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /lɛt/
+part_of_speech: verb
+meanings:
+  - en: To allow possession of (a property etc.) in exchange for rent.
+    examples:
+      - text: I decided to let the farmhouse to a couple while I was working abroad.
+      - text: Trailers for sale or rent, rooms to let, fifty cents.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/let#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

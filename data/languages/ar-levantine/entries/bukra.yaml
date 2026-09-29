@@ -1,0 +1,39 @@
+word: بكرة
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - bukra
+  - bakara
+  - bagara
+pronunciation:
+  ipa: /bukra/
+meanings:
+  - en: tomorrow
+    examples: []
+  - en: one day soon, someday soon, one of these days
+    examples:
+      - text: بكرة بس ترجع تشمّس منصير بدنا نضل نسقي
+        en: Someday soon once the sun starts coming back out we'll have to constantly
+          water [the lawn]
+      - text: بكرة بتشوف
+        en: One day soon you'll see
+  - en: large spool of thread
+    examples: []
+  - en: Only used in حكرة بكرة (ḥakara bakara, ḥagara bagara, “eeny, meeny, miny,
+      moe”) and related phrases
+    examples: []
+concept: tomorrow
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D9%83%D8%B1%D8%A9#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

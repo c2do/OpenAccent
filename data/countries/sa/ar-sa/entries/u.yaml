@@ -1,0 +1,26 @@
+word: و
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - u-
+  - w-
+pronunciation:
+  ipa: /u/
+part_of_speech: conj
+meanings:
+  - en: and
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

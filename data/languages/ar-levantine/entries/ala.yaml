@@ -1,0 +1,31 @@
+word: على
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʕala
+part_of_speech: prep
+meanings:
+  - en: on; upon; onto
+    examples: []
+  - en: with a hint of
+    examples: []
+  - en: about (a topic)
+    examples: []
+  - en: to (a place)
+    examples:
+      - text: مسافرين ع بيروت
+        en: We’re travelling to Beirut.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%84%D9%89#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: قلاوي
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - qlāwi
+pronunciation:
+  ipa: /qlaː.wi/
+meanings:
+  - en: fuck!
+    examples: []
+  - en: dude
+    examples:
+      - text: وا القلاوي ،شباغي مني عاود؟
+        en: Dude, what do you want from me again?.
+concept: buddy
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D9%84%D8%A7%D9%88%D9%8A#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

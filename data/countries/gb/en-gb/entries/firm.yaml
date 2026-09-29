@@ -1,0 +1,26 @@
+word: firm
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fɜːm/
+meanings:
+  - en: A business partnership; the name under which it trades.
+    examples: []
+  - en: To select (a higher education institution) as one's preferred choice, so as
+      to enrol automatically if one's grades match the conditional offer.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/firm#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: sahi
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈsaːhi/
+part_of_speech: adv
+meanings:
+  - en: really, truthfully, indeed
+    examples: []
+concept: really
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sahi#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

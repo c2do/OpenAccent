@@ -1,0 +1,25 @@
+word: king
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkɪŋ/
+part_of_speech: noun
+meanings:
+  - en: Senses related to large sizes of certain items; A king skin.
+    examples:
+      - text: Oi mate, have you got kings?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/king#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

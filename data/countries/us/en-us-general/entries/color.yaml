@@ -1,0 +1,35 @@
+word: color
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkʌl.ə/
+meanings:
+  - en: Conveying color, as opposed to shades of gray.
+    examples:
+      - text: Color television and movies were considered a great improvement over black
+          and white.
+  - en: To give something color.
+    examples:
+      - text: We could color the walls red.
+  - en: To give something color.; To cause (a pipe, especially a meerschaum) to take
+      on a brown or black color, by smoking.
+    examples: []
+  - en: To apply colors to the areas within the boundaries of a line drawing using
+      colored markers or crayons.
+    examples:
+      - text: My kindergartener loves to color.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/color#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

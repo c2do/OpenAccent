@@ -1,0 +1,28 @@
+word: catapimbas
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ka.taˈpĩ.bɐs/
+part_of_speech: intj
+meanings:
+  - en: bingo (used when finding what one has been looking for or trying to recall,
+      or on successful completion of a task)
+    examples: []
+  - en: wow! (expresses awe or surprise)
+    examples: []
+concept: wow
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/catapimbas#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

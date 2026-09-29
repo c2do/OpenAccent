@@ -1,0 +1,31 @@
+word: ساعة
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - sāʕa
+pronunciation:
+  ipa: /saː.ʕa/
+part_of_speech: noun
+meanings:
+  - en: hour
+    examples: []
+  - en: clock, watch
+    examples: []
+  - en: the time
+    examples:
+      - text: الساعة كام؟
+        en: What time is it?
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B3%D8%A7%D8%B9%D8%A9#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: till
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tɪl/
+part_of_speech: noun
+meanings:
+  - en: A cash register.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/till#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

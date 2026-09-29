@@ -1,0 +1,28 @@
+word: دقيقة
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - dʔīʔa
+pronunciation:
+  ipa: /ˈdʔiːʔa/
+meanings:
+  - en: minute
+    examples: []
+  - en: short period of time
+    examples: []
+  - en: just a minute, one minute
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AF%D9%82%D9%8A%D9%82%D8%A9#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

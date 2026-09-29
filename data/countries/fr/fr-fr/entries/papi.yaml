@@ -1,0 +1,27 @@
+word: papi
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pa.pi/
+part_of_speech: noun
+meanings:
+  - en: grandad, grandpa
+    examples: []
+  - en: old man, gramps
+    examples: []
+concept: grandpa
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/papi#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

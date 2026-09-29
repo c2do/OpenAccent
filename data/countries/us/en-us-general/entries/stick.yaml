@@ -1,0 +1,44 @@
+word: stick
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /stɪk/
+meanings:
+  - en: An elongated piece of wood or similar material, typically put to some use,
+      for example as a wand or baton.; A timber board, especially a two by four
+      (inches).
+    examples:
+      - text: I found enough sticks in dumpsters at construction sites to build my shed.
+  - en: Any roughly cylindrical (or rectangular) unit of a substance.; A small
+      rectangular block, with a length several times its width, which contains
+      by volume one half of a cup of shortening (butter, margarine or lard).
+    examples:
+      - text: The recipe calls for half a stick of butter.
+  - en: A tool, control, or instrument shaped somewhat like a stick.; A manual
+      transmission, a vehicle equipped with a manual transmission, so called
+      because of the stick-like, i.e. twig-like, control (the gear shift) with
+      which the driver of such a vehicle controls its transmission.
+    examples:
+      - text: I grew up driving a stick, but many people my age didn't.
+  - en: A tool, control, or instrument shaped somewhat like a stick.; A manual
+      transmission, a vehicle equipped with a manual transmission, so called
+      because of the stick-like, i.e. twig-like, control (the gear shift) with
+      which the driver of such a vehicle controls its transmission.; Vehicles,
+      collectively, equipped with manual transmissions.
+    examples:
+      - text: I grew up driving stick, but many people my age didn't.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/stick#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: dig
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dɪɡ/
+meanings:
+  - en: To work like a digger; to study ploddingly and laboriously.
+    examples:
+      - text: Peter dug at his books all the harder.
+  - en: A plodding and laborious student.
+    examples: []
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dig#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

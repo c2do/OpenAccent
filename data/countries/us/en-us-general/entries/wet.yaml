@@ -1,0 +1,29 @@
+word: wet
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /wɛt/
+meanings:
+  - en: One who supports the consumption of alcohol and thus opposes Prohibition.
+    examples:
+      - text: The drys were as unhappy with the second part of the speech as the wets
+          were with the first half.
+  - en: To kill or seriously injure.
+    examples:
+      - text: I'm coming to get ya, I'm coming to get ya / Spitting out lyrics, homie,
+          I'll wet ya
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wet#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

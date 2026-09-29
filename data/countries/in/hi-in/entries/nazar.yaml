@@ -1,0 +1,36 @@
+word: नज़र
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - nazar
+pronunciation:
+  ipa: /nə.zəɾ/
+part_of_speech: noun
+meanings:
+  - en: sight, vision, glance, look
+    examples:
+      - text: देखो! नदी की नज़र आ रही है!
+        en: Look! Now the river is coming into view!
+  - en: supervision, watch
+    examples:
+      - text: मेरी नज़र उस पर है।
+        en: I've got my eyes on him.
+  - en: evil eye
+    examples:
+      - text: नज़र लगना
+        en: to be affected by the evil eye
+concept: see
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A8%E0%A4%9C%E0%A4%BC%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

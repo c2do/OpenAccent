@@ -1,0 +1,36 @@
+word: برد
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - birid
+  - barrad
+  - bard
+  - barad
+pronunciation:
+  ipa: /bi.rid/
+meanings:
+  - en: to become cold, to cool down
+    examples:
+      - text: الأكل مرّة حار. استناه يبرد.
+        en: The food is too hot. Wait for it to cool down.
+  - en: to cool down
+    examples: []
+  - en: cold
+    examples: []
+  - en: a cold (illness)
+    examples: []
+concept: cold
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%B1%D8%AF#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: dash
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdæʃ/
+part_of_speech: noun
+meanings:
+  - en: A prime symbol.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dash#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

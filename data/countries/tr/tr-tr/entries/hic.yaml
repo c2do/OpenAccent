@@ -1,0 +1,30 @@
+word: hiç
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhit͡ʃ/
+meanings:
+  - en: Used at the beginning of an ambiguous answer to question; nothing.
+    examples:
+      - text: "A: O kurabiye kutusuyla ne yapıyordun?"
+        en: "A: What were you doing with that cookie box?"
+      - text: "B: Hiç."
+        en: "B: Nothing."
+  - en: A worthless, insignificant thing or a person.
+    examples: []
+concept: nothing
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hi%C3%A7#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

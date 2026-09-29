@@ -1,0 +1,32 @@
+word: साज़
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - sāz
+pronunciation:
+  ipa: /sɑːz/
+part_of_speech: noun
+meanings:
+  - en: equipment, tool, thing
+    examples: []
+  - en: musical instrument
+    examples:
+      - text: क्या तुम कोई साज़ बजाते हो?
+        en: Do you play any musical instrument?
+  - en: decoration
+    examples: []
+concept: something
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%BE%E0%A4%9C%E0%A4%BC#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

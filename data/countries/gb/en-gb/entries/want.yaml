@@ -1,0 +1,26 @@
+word: want
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /wɒnt/
+part_of_speech: noun
+meanings:
+  - en: A depression in coal strata, hollowed out before the subsequent deposition
+      took place.
+    examples: []
+concept: want
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/want#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

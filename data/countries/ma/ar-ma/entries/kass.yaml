@@ -1,0 +1,31 @@
+word: خاص
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ḵāṣṣ
+pronunciation:
+  ipa: /xaːsˤsˤ/
+meanings:
+  - en: special
+    examples: []
+  - en: particular
+    examples: []
+  - en: specific
+    examples: []
+  - en: designated (ب (b-) for)
+    examples: []
+concept: need
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AE%D8%A7%D8%B5#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: rat
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɹæt/
+part_of_speech: noun
+meanings:
+  - en: Vagina, vulva.
+    examples:
+      - text: Get your rat out.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rat#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

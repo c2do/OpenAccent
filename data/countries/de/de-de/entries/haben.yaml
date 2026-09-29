@@ -1,0 +1,34 @@
+word: haben
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhaːbən/
+part_of_speech: verb
+meanings:
+  - en: to make a fuss
+    examples:
+      - text: Hab dich nicht so!
+        en: Don't make such a fuss!
+  - en: to be occupied with, to like, to be into
+    examples:
+      - text: Ich hab's nich so mit Hunden.
+        en: I'm not a great fan of dogs.
+  - en: to talk
+    examples:
+      - text: Wir hatten's grad von dir und deiner Freundin.
+        en: We've just been talking about you and your girlfriend.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/haben#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

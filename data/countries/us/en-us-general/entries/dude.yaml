@@ -1,0 +1,36 @@
+word: dude
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /duːd/
+meanings:
+  - en: A man, generally a younger man.
+    examples:
+      - text: So we were at the mall and these two dudes just walk up to us and say
+          "hi".
+      - text: At first Europeans didn't realize what chocolate could be—poor guys!
+          [Christopher] Columbus saw cacao beans in 1503, but he didn't have a
+          clue. (No surprise—dude thought he was in India!)
+  - en: "Usually followed by up: to dress up, to wear smart or special clothes."
+    examples:
+      - text: It seemed that the fellas couldn't get enough girlin' and racing fast cars
+          and grooving to rock and dudeing around in city-slick suits from St.
+          Louis.
+      - text: "1990, Bob Gale & Robert Zemeckis, Back to the Future Part III,
+          screenplay:"
+concept: buddy
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dude#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

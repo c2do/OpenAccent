@@ -1,0 +1,31 @@
+word: raus
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʁaʊ̯s/
+meanings:
+  - en: out, out of there, outta there
+    examples:
+      - text: Er kommt jetzt raus.
+        en: He's coming outside now.
+  - en: out, out of here, outta here
+    examples:
+      - text: Er geht raus zu den andern.
+        en: He's going outside to the other people.
+  - en: get out!
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/raus#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

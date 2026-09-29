@@ -1,0 +1,34 @@
+word: चोखा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - cokhā
+pronunciation:
+  ipa: /t͡ʃoː.kʰɑː/
+part_of_speech: adj
+meanings:
+  - en: pure, true, real, genuine
+    examples:
+      - text: यह बिल्कुल चोखा सोना है।
+        en: This is definitely pure gold.
+  - en: good, excellent
+    examples: []
+  - en: sincere
+    examples: []
+  - en: sharp, sharpened
+    examples: []
+concept: good
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A5%8B%E0%A4%96%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

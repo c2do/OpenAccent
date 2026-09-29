@@ -1,0 +1,35 @@
+word: country
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkʌntɹi/
+part_of_speech: noun
+meanings:
+  - en: An area of land of undefined extent; a region, a district.
+    examples:
+      - text: We walk along flat, open country, red dirt and spinifex grass, a few short
+          trees[…].
+  - en: An area of land of undefined extent; a region, a district.; An area of land
+      of indefinite extent or of more or less definite extent in relation to
+      human occupation, especially characterized by its particular physical
+      features, or its suitability for a particular activity or connected with
+      its population (by race, dialect, culture, etc.) or a person, especially a
+      writer, or their works.
+    examples:
+      - text: Thomas Hardy country
+      - text: Hikers love the wild country that lies northwest of this river confluence.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/country#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: class
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /klɑːs/
+part_of_speech: noun
+meanings:
+  - en: a grade, standard, level of education.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/class#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

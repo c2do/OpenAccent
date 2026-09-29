@@ -1,0 +1,28 @@
+word: uzak
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /uˈzɑk/
+meanings:
+  - en: far, distant, remote
+    examples: []
+  - en: The far; that which is far
+    examples:
+      - text: Uzağı iyi görebiliyorum.
+        en: I can see far well
+concept: far
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/uzak#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

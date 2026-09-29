@@ -1,0 +1,37 @@
+word: rock
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɹɒk/
+part_of_speech: noun
+meanings:
+  - en: A crystallized lump of crack cocaine.
+    examples:
+      - text: I ain't guilty, ‘cause even though I sell rocks / It feels good puttin'
+          money in your mailbox
+      - text: When I necked five-quid bottles of vodka, I did not read the label. When I
+          scored rocks and bags off tumbleweed hobos blowing through the
+          no-man's-land of Hackney estates, I conducted no litmus test.
+  - en: An unintelligent person, especially one who repeats mistakes.
+    examples: []
+  - en: An extremely conservative player who is willing to play only the very
+      strongest hands.
+    examples: []
+  - en: A basketball.
+    examples:
+      - text: Yo homie, pass the rock!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rock#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

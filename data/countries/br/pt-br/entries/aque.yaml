@@ -1,0 +1,43 @@
+word: aqué
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /aˈkwɛ/
+part_of_speech: noun
+meanings:
+  - en: money given for the materials of offerings in Afro-Brazilian religions
+    examples:
+      - text: A gamela também representa o dar e o receber, pois é a artura oferecida ao
+          Orixá e a fé nele que fará receber seu quinhão. É na gamela que é
+          depositado o aqué […]
+        en: The trough also represents giving and receiving, as it is the food offered
+          to the Orisha, and the faith in the Orisha that will ensure receiving
+          one's share. It is in the trough that money [for the materials of the
+          offerings] is deposited […]
+      - text: — discussões sobre o aqué (dinheiro) - textos que falam sobre consumo,
+          sapatos, carros, casas, trocas de mercadorias e enriquecimento da
+          população negra;
+        en: — discussions about money - texts that talk about consumption, shoes, cars,
+          houses, trade, and the economic advancement of the black community;
+  - en: money
+    examples:
+      - text: Empresário, publicitário, cantor... sei lá mais o quê, mas o bofe tem
+          "aqué" (dinheiro, na gíria gay)!
+        en: Businessman, advertiser, singer... I don't know what else, but the guy's got
+          "aqué" (gay slang for money)!
+concept: money
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/aqu%C3%A9#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

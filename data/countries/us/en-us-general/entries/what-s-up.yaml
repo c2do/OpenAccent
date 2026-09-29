@@ -1,0 +1,24 @@
+word: what's up
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: phrase
+meanings:
+  - en: What's happening? What are you doing?
+    examples:
+      - text: Hey, what's up? – Not much, just working.
+concept: whats_up
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/what's_up#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

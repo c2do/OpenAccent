@@ -1,0 +1,35 @@
+word: aşk
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈaʃk/
+part_of_speech: noun
+meanings:
+  - en: love (romantic feelings)
+    examples:
+      - text: |-
+          Aynalara, aşk sadece anlayana
+           Güzel gözlüm sen bir yana
+        en: |-
+          To the mirrors, love only to whom understood it
+           Aside, you my beautiful eyed lover
+  - en: love, passion
+    examples:
+      - text: yaşama aşkı
+        en: passion to live
+concept: like
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/a%C5%9Fk#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

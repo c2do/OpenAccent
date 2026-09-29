@@ -1,0 +1,25 @@
+word: pardon
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpaɾ.don/
+part_of_speech: intj
+meanings:
+  - en: pardon!, pardon me!, excuse me!, I beg your pardon!, sorry!
+    examples: []
+concept: sorry
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pardon#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

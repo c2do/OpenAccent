@@ -1,0 +1,26 @@
+word: لسة
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - lissa
+pronunciation:
+  ipa: /ˈlis.sa/
+part_of_speech: adv
+meanings:
+  - en: yet, still, not yet
+    examples: []
+concept: still
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D8%B3%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

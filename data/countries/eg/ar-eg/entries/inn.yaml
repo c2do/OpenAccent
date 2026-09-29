@@ -1,0 +1,28 @@
+word: ان
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - inn
+pronunciation:
+  ipa: /inn/
+part_of_speech: conj
+meanings:
+  - en: "Introduces a subordinate clause, always with a subject, nominative or
+      genitive: that"
+    examples:
+      - text: سمعت انك اشتريت عربية جديدة، مبروك.
+        en: I heard that you bought a new car, congrats.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%86#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

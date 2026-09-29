@@ -1,0 +1,27 @@
+word: good
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡʊd/
+part_of_speech: adj
+meanings:
+  - en: Of a person or an animal:; Satisfied or at ease; not requiring more.
+    examples:
+      - text: Would you like a glass of water? — I'm good.
+      - text: "[Are] you good? — Yeah, I'm fine."
+concept: good
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/good#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

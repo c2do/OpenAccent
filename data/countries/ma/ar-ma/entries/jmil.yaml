@@ -1,0 +1,27 @@
+word: جميل
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - jmīl
+pronunciation:
+  ipa: /ʒmiːl/
+meanings:
+  - en: beautiful
+    examples: []
+  - en: good deed, favor, benefit
+    examples: []
+concept: beautiful
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AC%D9%85%D9%8A%D9%84#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

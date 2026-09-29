@@ -1,0 +1,28 @@
+word: tony
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtəʊni/
+part_of_speech: adj
+meanings:
+  - en: Stylish, high-toned, upscale.
+    examples:
+      - text: “He’d scorn it. You heard what he said to-night,” answered Ben. “Never
+          mind that. He’s got tony notions, but he isn’t a pamby, for all his
+          talk.[…]”
+      - text: '"No ladies or any of your tony friends?"'
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tony#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

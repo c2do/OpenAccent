@@ -1,0 +1,26 @@
+word: مليح
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - mlīḥ
+pronunciation:
+  ipa: /mliːħ/
+part_of_speech: adj
+meanings:
+  - en: good
+    examples: []
+concept: good
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D9%84%D9%8A%D8%AD#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

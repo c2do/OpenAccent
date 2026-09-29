@@ -1,0 +1,26 @@
+word: فرحان
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - farḥān
+pronunciation:
+  ipa: /far.ħaːn/
+part_of_speech: adj
+meanings:
+  - en: happy, joyous
+    examples: []
+concept: happy
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%AD%D8%A7%D9%86#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

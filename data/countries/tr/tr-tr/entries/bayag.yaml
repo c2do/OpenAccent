@@ -1,0 +1,30 @@
+word: bayağı
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ba.jaˈɯ/
+meanings:
+  - en: vulgar, low, base
+    examples: []
+  - en: common, ordinary, plain
+    examples: []
+  - en: coarse, rude, crass
+    examples: []
+  - en: almost, nearly
+    examples: []
+concept: really
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/baya%C4%9F%C4%B1#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,31 @@
+word: truc
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tʁyk/
+part_of_speech: noun
+meanings:
+  - en: thingamajig, thingy, thing
+    examples:
+      - text: >-
+          — Je t’aime Léon, tu vois bien que je t’aime, Léon...
+           Elle ne savait que ce truc-là, son « je t’aime ». Comme si ç’avait été la réponse à tout.
+        en: >-
+          'I love you, Leon . . . Can't you see that I love you?'
+           "That's all she knew, her 'I love you' jazz. As if that was the answer to everything. "
+concept: something
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/truc#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

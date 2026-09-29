@@ -1,0 +1,24 @@
+word: ante
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈante/
+part_of_speech: noun
+meanings:
+  - en: tapir (large odd-toed ungulate with a long prehensile upper lip)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ante#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

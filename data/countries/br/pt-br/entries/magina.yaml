@@ -1,0 +1,25 @@
+word: magina
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /maˈʒĩ.nɐ/
+part_of_speech: intj
+meanings:
+  - en: don't mention it; you're welcome
+    examples: []
+concept: youre_welcome
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/magina#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

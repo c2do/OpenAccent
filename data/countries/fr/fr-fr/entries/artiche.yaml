@@ -1,0 +1,30 @@
+word: artiche
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /aʁ.tiʃ/
+part_of_speech: noun
+meanings:
+  - en: money
+    examples:
+      - text: — Tu te rappelles la manière qu’il planque son artiche, au bagne,
+          Papilloche?
+        en: — Do you remember the way he hides his money, in prison, Papilloche?
+  - en: a purse
+    examples: []
+concept: money
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/artiche#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

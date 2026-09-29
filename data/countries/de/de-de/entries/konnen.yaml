@@ -1,0 +1,42 @@
+word: können
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkœnən/
+part_of_speech: verb
+meanings:
+  - en: to be able (to do or be something), to have the possibility of, can.; to be
+      possible, to make sense
+    examples:
+      - text: Nächstes Jahr is’n Schaltjahr. – Das kann nich’. Letztes Jahr war doch
+          Schaltjahr!
+        en: Next year is a leap year. – That’s not possible. Last year was a leap year!
+  - en: to be able (to do or be something), to have the possibility of, can.; to be
+      allowed (to do something); to be permitted (to do something); may.
+    examples:
+      - text: Kann ich mitkommen?
+        en: May I come along?
+      - text: Er hat nicht ins Kino gehen können.
+        en: He was not allowed to go to the cinema.
+  - en: to be to blame, to be at fault
+    examples:
+      - text: Ich kann nichts dafür, dass das passiert ist.
+        en: It's not my fault that happened.
+      - text: Er kann nicht wirklich etwas für das Verhalten seiner Familie.
+        en: He's not really to blame for his family's behavior.
+concept: can
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/k%C3%B6nnen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

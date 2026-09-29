@@ -1,0 +1,27 @@
+word: grave
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡʁav/
+part_of_speech: adv
+meanings:
+  - en: much; a lot
+    examples:
+      - text: Je te kiffe grave !
+        en: I love you like crazy!
+concept: a_lot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/grave#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,40 @@
+word: दाम
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - dām
+pronunciation:
+  ipa: /d̪ɑːm/
+part_of_speech: noun
+meanings:
+  - en: price, value, cost
+    examples:
+      - text: टीवी ऊँचे या सस्ते दामों पर ख़रीदो, फ़र्क़ नहीं पड़ता।
+        en: Buy the TV at a high or cheap price, it doesn't matter.
+      - text: महानगर गैस (Mahanagar Gas) कंपनी ने कहा है कि उसने कोविड-19 महामारी के
+          दौरान परिचालन, कर्मचारी और स्थाई खर्चों में इजाफे की भरपायी के लिए गैस
+          के दाम बढ़ाए हैं.
+        en: Mahanagar Gas Company said that to pay off the increase in operating costs,
+          employee pay, and other fixed payments during the COVID-19 pandemic,
+          it has increased the cost of gas.
+  - en: money, funds
+    examples: []
+  - en: rope, string, cord
+    examples: []
+  - en: garland
+    examples: []
+concept: money
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A4%BE%E0%A4%AE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

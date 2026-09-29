@@ -1,0 +1,26 @@
+word: فعلا
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - fiʕlan
+pronunciation:
+  ipa: /fiʕ.lan/
+part_of_speech: adv
+meanings:
+  - en: indeed, really, actually
+    examples: []
+concept: really
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D8%B9%D9%84%D8%A7#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

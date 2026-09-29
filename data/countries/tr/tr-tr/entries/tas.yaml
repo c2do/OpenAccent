@@ -1,0 +1,30 @@
+word: taş
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtaʃ/
+meanings:
+  - en: stone, rock (aggregate of solid mineral matter)
+    examples: []
+  - en: stone, rock (a single piece of rock)
+    examples: []
+  - en: gem
+    examples: []
+  - en: a stone monument
+    examples: []
+concept: money
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ta%C5%9F#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

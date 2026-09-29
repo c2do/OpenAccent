@@ -1,0 +1,37 @@
+word: ठेंगा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ṭheṅgā
+pronunciation:
+  ipa: /ʈʰeːŋ.ɡɑː/
+part_of_speech: noun
+meanings:
+  - en: a hand gesture made by extending the thumb at somebody, used among men to
+      signify dismissal, and by women towards men as a form of coquetry
+    examples:
+      - text: ठेंगा दिखाना
+        en: to give the ṭheṅgā
+  - en: nothing, bugger all, sweet FA
+    examples:
+      - text: और आज तक हमको क्या मिला? ठेंगा।
+        en: And till this day, what have we found? Nothing.
+  - en: stick, lathi
+    examples: []
+  - en: penis
+    examples: []
+concept: nothing
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A0%E0%A5%87%E0%A4%82%E0%A4%97%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

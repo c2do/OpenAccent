@@ -1,0 +1,29 @@
+word: quand même
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɑ̃ mɛm/
+part_of_speech: adv
+meanings:
+  - en: really; extremely; seriously; still
+    examples:
+      - text: C'est beau quand même.
+        en: It really is pretty.
+      - text: Tu ne lui as pas dit tout ça quand même ? — Quand même pas !
+        en: You didn't really tell him all that, did you? – Not at all!
+concept: really
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/quand_m%C3%AAme#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

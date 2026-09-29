@@ -1,0 +1,25 @@
+word: oberaffengeil
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈoːbɐˈʔafn̩ˈɡaɪ̯l/
+part_of_speech: adj
+meanings:
+  - en: really cool, awesome
+    examples: []
+concept: cool
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/oberaffengeil#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

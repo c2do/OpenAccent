@@ -1,0 +1,36 @@
+word: opa
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈo.pɐ/
+meanings:
+  - en: oops (acknowledging a minor mistake)
+    examples:
+      - text: Opa! Desculpa, foi sem querer.
+        en: Oops! Sorry, it was an accident.
+  - en: hey (protest or reprimand)
+    examples:
+      - text: Opa, calma aí! Não precisa ofender!
+        en: Hey, calm down! No need to offend!
+  - en: hey (informal greeting)
+    examples:
+      - text: Opa! Eaí, tudo bem?
+        en: Hey! What's up?
+  - en: a type of cape used by members of the clergy
+    examples: []
+concept: grandpa
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/opa#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: break
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɹeɪk/
+part_of_speech: noun
+meanings:
+  - en: A rest or pause, usually from work.; A time for students to talk or play
+      between lessons.
+    examples:
+      - text: It was playtime - or rather ‘break’ - and I had brazenly joined in a game
+          of football on the school parade ground.
+  - en: A change, particularly the end of a spell of persistent good or bad weather.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/break#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

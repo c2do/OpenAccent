@@ -1,0 +1,31 @@
+word: ख़ूब
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - xūb
+pronunciation:
+  ipa: /xuːb/
+meanings:
+  - en: many, much, a lot
+    examples:
+      - text: ख़ूब वीडियो गेम खेलता है तुम्हारा बच्चा।
+        en: Your son plays a lot of video games.
+  - en: good, well, in a good manner
+    examples: []
+  - en: often, frequently
+    examples: []
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%96%E0%A4%BC%E0%A5%82%E0%A4%AC#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

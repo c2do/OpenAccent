@@ -1,0 +1,28 @@
+word: du feu de Dieu
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dy fø də djø/
+meanings:
+  - en: terrific, awesome
+    examples: []
+  - en: extremely well
+    examples:
+      - text: marcher du feu de Dieu
+        en: to go like a dream
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/du_feu_de_Dieu#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: أي
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ʔayy
+pronunciation:
+  ipa: /ʔajj/
+part_of_speech: det
+meanings:
+  - en: any
+    examples:
+      - text: أي طريق خدتي غتوصلك لاين باغية.
+        en: Any road you take will lead you to where you want.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D9%8A#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

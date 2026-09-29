@@ -1,0 +1,39 @@
+word: कड़ा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kaṛā
+pronunciation:
+  ipa: /kə.ɽɑː/
+meanings:
+  - en: hard, difficult
+    examples:
+      - text: इस बरस का प्रश्नपत्र बहुत कड़ा है।
+        en: The question paper for this year is very hard.
+  - en: tough, resilient
+    examples:
+      - text: यह कच्चा मांस बहुत कड़ा है।
+        en: This uncooked meat is very tough.
+  - en: stiff, inflexible
+    examples:
+      - text: कलफ़ से कपड़े आम तौर पर कड़े हो जाते हैं।
+        en: Starch usually makes clothes stiff.
+  - en: stern
+    examples:
+      - text: भूल करने के बाद, वह कड़ी फटकार प्राप्त किया।
+        en: After making a mistake, he received a stern reprimand.
+concept: hard
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%A1%E0%A4%BC%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

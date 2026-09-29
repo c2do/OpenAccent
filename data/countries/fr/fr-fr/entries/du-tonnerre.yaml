@@ -1,0 +1,28 @@
+word: du tonnerre
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dy tɔ.nɛʁ/
+meanings:
+  - en: terrific, awesome
+    examples: []
+  - en: extremely well
+    examples:
+      - text: marcher du tonnerre
+        en: to go like a dream, to work like a charm; to be a huge success, to be a hit
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/du_tonnerre#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

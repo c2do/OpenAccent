@@ -1,0 +1,27 @@
+word: blow
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bləʊ/
+part_of_speech: noun
+meanings:
+  - en: Powder cocaine.
+    examples:
+      - text: Hi there, you're a pretty cute chick, want to snort some blow?
+      - text: Hey man, you wanna cop some blow? / Sure, what you got, dust, flakes or
+          rocks?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/blow#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

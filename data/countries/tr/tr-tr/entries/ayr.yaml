@@ -1,0 +1,30 @@
+word: ayrı
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ajˈɾɯ/
+meanings:
+  - en: placed apart from each other, separate, several.
+    examples: []
+  - en: not same, different, of a different kind.
+    examples: []
+  - en: far, distant
+    examples: []
+  - en: alone, as single, separately.
+    examples: []
+concept: far
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ayr%C4%B1#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: شلون
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - šlōn
+part_of_speech: adv
+meanings:
+  - en: how?
+    examples: []
+concept: how
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D9%84%D9%88%D9%86#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: فين
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - fīn
+pronunciation:
+  ipa: /fiːn/
+part_of_speech: adv
+meanings:
+  - en: where?
+    examples: []
+concept: where
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D9%8A%D9%86#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

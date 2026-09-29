@@ -1,0 +1,33 @@
+word: على طول
+dialect: ar-sa
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʕala tˤuːl/
+part_of_speech: adv
+meanings:
+  - en: straight ahead
+    examples:
+      - text: اَمْشِي عَلَى طول و حَتْلَاقِي المَحَل قُدَّامَك
+        en: go straight ahead and you will find the shop in front of you
+  - en: always
+    examples: []
+  - en: immediately
+    examples:
+      - text: "!رُحت له عَلَى طول"
+        en: I went to him immediately!
+concept: always
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%84%D9%89_%D8%B7%D9%88%D9%84#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

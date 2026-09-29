@@ -1,0 +1,37 @@
+word: जी
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - jī
+pronunciation:
+  ipa: /d͡ʒiː/
+meanings:
+  - en: an expression of assent; yes, true, very well
+    examples:
+      - text: जी साहब!
+        en: Yes sir!
+      - text: जी हाँ!
+        en: Yes (formal)
+  - en: an expression of enquiry; yes?, who is it?
+    examples: []
+  - en: heart, mind (in the figurative, not anatomical, sense)
+    examples:
+      - text: उसके प्रेम ने मेरा जी ललचाया।
+        en: My heart was allured by their love.
+      - text: एक विचार अभी मेरे जी में आया।
+        en: A thought just came to my mind.
+concept: "yes"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9C%E0%A5%80#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

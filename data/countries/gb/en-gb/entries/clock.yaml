@@ -1,0 +1,30 @@
+word: clock
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /klɒk/
+meanings:
+  - en: The odometer of a motor vehicle.
+    examples:
+      - text: This car has over 300,000 miles on the clock.
+  - en: To falsify the reading of the odometer of a vehicle.
+    examples:
+      - text: I don't believe that car has done only 40,000 miles. It's been clocked.
+  - en: To beat a video game.
+    examples:
+      - text: Have you clocked that game yet?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/clock#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

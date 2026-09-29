@@ -1,0 +1,29 @@
+word: bird
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɜːd/
+part_of_speech: noun
+meanings:
+  - en: A kilogram of cocaine.
+    examples:
+      - text: |-
+          Never dirt on my knees
+          I'm just serving these fiends
+          Sell birds to the bees
+          I sell birds to the trees
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bird#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

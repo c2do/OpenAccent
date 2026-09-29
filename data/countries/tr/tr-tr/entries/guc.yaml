@@ -1,0 +1,36 @@
+word: güç
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɟyt͡ʃ/
+meanings:
+  - en: hard, difficult
+    examples:
+      - text: Bir sanat eserini tenkit ne güç iştir!
+        en: What a difficult task to criticize a work of art!
+  - en: with difficulty, in a hard way
+    examples: []
+  - en: strength, force
+    examples:
+      - text: Bu ağır kapıyı yerinden kaldırmak güç ister.
+        en: To move this heavy door from its location, one has to have strength.
+  - en: power
+    examples:
+      - text: Arabamın gücü elli beş kilovat olduğundan vergisi az.
+        en: As the power of my car is fifty five kilowatts, its tax is low.
+concept: hard
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/g%C3%BC%C3%A7#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

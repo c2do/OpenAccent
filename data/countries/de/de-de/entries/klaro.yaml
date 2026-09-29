@@ -1,0 +1,37 @@
+word: klaro
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈklaʁo/
+part_of_speech: intj
+meanings:
+  - en: "synonym of klar: sure, of course"
+    examples:
+      - text: |-
+          "Hey, hast du ein Haus?", fragte sie mich.
+          "Oje", dachte ich, "Was gibt denn das nun?"
+          "Klaro",... log ich.
+        en: |-
+          "Hey, do you have a house?", she asked me.
+          "Oh dear, " I thought, "Where is this going to go?"
+          "Of course," ... I lied.
+      - text: Ich habe sie noch nie weinen sehen. Klaro, ich hab das mal gehört. Aber
+          gesehen hab ich das noch nie.
+        en: I've never seen her cry. Of course, I've heard of it before. But seen it
+          myself, never.
+concept: of_course
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/klaro#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

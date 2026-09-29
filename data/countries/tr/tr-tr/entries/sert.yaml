@@ -1,0 +1,34 @@
+word: sert
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈseɾt/
+meanings:
+  - en: hard
+    examples: []
+  - en: stiff, inflexible
+    examples: []
+  - en: harsh, inclement
+    examples:
+      - text: sert iklim
+        en: harsh climate
+  - en: strong
+    examples:
+      - text: sert şarap
+        en: strong wine
+concept: angry
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sert#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

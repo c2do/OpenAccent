@@ -1,0 +1,26 @@
+word: qué
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈke/
+part_of_speech: adv
+meanings:
+  - en: Replaces an interrogative word like cómo, cuándo, etc.
+    examples:
+      - text: ¿Qué vas, para la playa?
+        en: Where are you going, to the beach?
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/qu%C3%A9#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: simon
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈsaɪmən/
+part_of_speech: noun
+meanings:
+  - en: Sixpence coin.
+    examples: []
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/simon#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

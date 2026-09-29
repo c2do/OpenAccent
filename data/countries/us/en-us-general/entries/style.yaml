@@ -1,0 +1,24 @@
+word: style
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /staɪl/
+part_of_speech: verb
+meanings:
+  - en: To act in a way which seeks to show that one possesses style.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/style#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

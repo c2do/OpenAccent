@@ -1,0 +1,26 @@
+word: attitude
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈætɪt͡ʃuːd/
+part_of_speech: noun
+meanings:
+  - en: Unpleasant behavior.
+    examples:
+      - text: He doesn't take attitude from anybody.
+      - text: I asked the waiter for a clean fork and all I got was attitude.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/attitude#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

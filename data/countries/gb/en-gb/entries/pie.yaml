@@ -1,0 +1,26 @@
+word: pie
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /paɪ/
+part_of_speech: verb
+meanings:
+  - en: To ignore (someone).
+    examples:
+      - text: just my luck been put in a presentation group at uni with a guy I pied on
+          tinder last week HAHA gud
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pie#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: رقاد
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - rugād
+pronunciation:
+  ipa: /ru.ɡaːd/
+part_of_speech: noun
+meanings:
+  - en: sleep
+    examples: []
+concept: sleep
+register: neutral
+familiarity: rare
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B1%D9%82%D8%A7%D8%AF#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: zor
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈzoɾ/
+part_of_speech: adj
+meanings:
+  - en: hard, difficult
+    examples:
+      - text: Bu çok zor bir ödev.
+        en: This is a very difficult task.
+concept: hard
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/zor#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

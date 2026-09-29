@@ -1,0 +1,25 @@
+word: ال
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - il-
+pronunciation:
+  ipa: /i/
+part_of_speech: article
+meanings:
+  - en: the
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%84#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

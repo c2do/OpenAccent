@@ -1,0 +1,28 @@
+word: çekici
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃe.ciˈd͡ʒi/
+meanings:
+  - en: attractive, hot
+    examples: []
+  - en: tow truck
+    examples: []
+  - en: semi-tractor, tractor unit
+    examples: []
+concept: hot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A7ekici#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: demasié
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /demaˈsje/
+meanings:
+  - en: cool, terrific
+    examples: []
+concept: cool
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/demasi%C3%A9#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

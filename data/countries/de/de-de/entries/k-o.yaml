@@ -1,0 +1,27 @@
+word: k. o.
+dialect: de-de
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kaːˈʔoː/
+part_of_speech: adj
+meanings:
+  - en: exhausted, beat, tired
+    examples:
+      - text: Nach der langen Reise war ich total k. o.
+        en: After the long journey, I was totally beat.
+concept: tired
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/k._o.#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

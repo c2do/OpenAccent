@@ -1,0 +1,24 @@
+word: anna
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈænə/
+part_of_speech: noun
+meanings:
+  - en: Money (like "bucks" and "quid").
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/anna#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

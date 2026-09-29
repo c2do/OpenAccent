@@ -1,0 +1,25 @@
+word: gitme
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡitˈme/
+part_of_speech: noun
+meanings:
+  - en: go, going
+    examples: []
+concept: go
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gitme#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

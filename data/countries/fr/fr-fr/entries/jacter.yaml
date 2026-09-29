@@ -1,0 +1,31 @@
+word: jacter
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʒak.te/
+part_of_speech: verb
+meanings:
+  - en: to talk, speak
+    examples: []
+  - en: to speak (a language)
+    examples: []
+  - en: to chat
+    examples: []
+  - en: to gossip
+    examples: []
+concept: talk
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jacter#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

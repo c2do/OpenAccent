@@ -1,0 +1,31 @@
+word: daronne
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /da.ʁɔn/
+part_of_speech: noun
+meanings:
+  - en: mum, mom
+    examples:
+      - text: Ma daronne, elle déteste Ali, c'est celui de mes potes qu'elle déteste le
+          plus je crois. Elle a fait un blocage sur lui, elle dit qu'il a une
+          tête à déterrer les morts pour leur faire les poches.
+        en: "My mum hates Ali; he's the one of my mates that she hates the most I think.
+          She has a thing about him: she says he looks like the kind of person
+          who digs up dead bodies to pick their pockets."
+concept: mom
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/daronne#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: hebs
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /hɛbs/
+part_of_speech: noun
+meanings:
+  - en: prison, can
+    examples: []
+concept: can
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hebs#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

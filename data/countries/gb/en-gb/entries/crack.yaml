@@ -1,0 +1,25 @@
+word: crack
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɹæk/
+part_of_speech: noun
+meanings:
+  - en: A brief time; an instant; a jiffy.
+    examples:
+      - text: I'll be with you in a crack.
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/crack#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

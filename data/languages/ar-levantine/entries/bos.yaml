@@ -1,0 +1,28 @@
+word: بوش
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - bōš
+pronunciation:
+  ipa: /boːʃ/
+part_of_speech: noun
+meanings:
+  - en: zip, zilch, nothing, nada
+    examples:
+      - text: شو؟ ربحت شي؟ — لأ بوش
+        en: Well? Did you win anything? — Nope, nada.
+concept: nothing
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D9%88%D8%B4#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

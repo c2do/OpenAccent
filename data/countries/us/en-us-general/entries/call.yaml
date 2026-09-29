@@ -1,0 +1,26 @@
+word: call
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɔːl/
+part_of_speech: noun
+meanings:
+  - en: A reference to, or statement of, an object, course, distance, or other
+      matter of description in a survey or grant requiring or calling for a
+      corresponding object, etc., on the land.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/call#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

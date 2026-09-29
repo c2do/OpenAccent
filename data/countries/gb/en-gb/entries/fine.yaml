@@ -1,0 +1,24 @@
+word: fine
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A sum of money or price paid for obtaining a benefit, favor, or privilege,
+      as for admission to a copyhold, or for obtaining or renewing a lease.
+    examples: []
+concept: fine
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fine#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

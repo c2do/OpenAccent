@@ -1,0 +1,29 @@
+word: du côté de
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dy ko.te də/
+part_of_speech: prep
+meanings:
+  - en: around, near; in the vicinity of
+    examples:
+      - text: J'habite du côté de la place Flagey.
+        en: I live near Place Flagey.
+      - text: T'habites de quel côté ?
+        en: Whereabouts do you live?
+concept: near
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/du_c%C3%B4t%C3%A9_de#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: بديع
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - bdīʕ
+pronunciation:
+  ipa: /bdiːʕ/
+part_of_speech: adj
+meanings:
+  - en: marvelous, splendid, beautiful
+    examples: []
+concept: beautiful
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%AF%D9%8A%D8%B9#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

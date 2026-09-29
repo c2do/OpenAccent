@@ -1,0 +1,25 @@
+word: rush
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɹʌʃ/
+meanings:
+  - en: A perfect recitation.
+    examples: []
+  - en: To recite (a lesson) or pass (an examination) without an error.
+    examples: []
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rush#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

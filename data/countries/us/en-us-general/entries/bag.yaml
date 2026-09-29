@@ -1,0 +1,24 @@
+word: bag
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bæɡ/
+part_of_speech: noun
+meanings:
+  - en: A fellow gay man.
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bag#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

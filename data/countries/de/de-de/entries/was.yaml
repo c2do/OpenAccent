@@ -1,0 +1,38 @@
+word: was
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /vas/
+meanings:
+  - en: that, which; referring to neuter singular nouns, instead of standard das
+    examples:
+      - text: Siehst du das weiße Haus, was renoviert wird?
+        en: Do you see that white house, which is being renovated?
+  - en: something, anything; instead of standard etwas
+    examples:
+      - text: Ich hab was gefunden.
+        en: I've found something.
+      - text: Er wollte Anna was antun.
+        en: He wanted to do something to Anna.
+  - en: why, what for; often expressing a personal concern about the matter
+    examples:
+      - text: Was bist du heute so stumm?
+        en: Why are you so silent today?
+      - text: Was kuckt der hier so komisch rüber?
+        en: Why’s that guy looking over here so strangely?
+concept: that
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/was#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

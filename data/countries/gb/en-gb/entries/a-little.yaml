@@ -1,0 +1,29 @@
+word: a little
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: adv
+meanings:
+  - en: Very.
+    examples:
+      - text: It's a little big, don't you think?
+  - en: A lot.
+    examples: []
+  - en: A lot of.
+    examples:
+      - text: It could do with a little work, that's for sure.
+concept: a_little
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/a_little#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,37 @@
+word: فلوس
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - flūs
+  - fallūs
+pronunciation:
+  ipa: /fluːs/
+part_of_speech: noun
+meanings:
+  - en: money
+    examples:
+      - text: ما عندي فلوس
+        en: I have no money
+      - text: رجع الفلوس للراجل
+        en: Give the guy his money back.
+  - en: chick, young chicken
+    examples:
+      - text: شريت جوج فلالس ملونين لولادي.
+        en: I bought two coloured chicks for my kids.
+  - en: rooster
+    examples: []
+concept: money
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D9%84%D9%88%D8%B3#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

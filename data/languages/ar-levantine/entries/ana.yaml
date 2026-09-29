@@ -1,0 +1,24 @@
+word: أنا
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʾana
+part_of_speech: pron
+meanings:
+  - en: I (first person singular subject pronoun)
+    examples:
+      - text: "Enclitic forms: ـي (-i/-y), ـني (-ni)"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D9%86%D8%A7#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

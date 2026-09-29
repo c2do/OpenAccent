@@ -1,0 +1,29 @@
+word: burn
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɜːn/
+part_of_speech: noun
+meanings:
+  - en: The act or action of burning something with fire, or by analogous means; the
+      quality or nature of an act of burning.; Tobacco.
+    examples:
+      - text: "TOM: I’m serious bruv. Put my burn and lighter and all that in my jeans
+          please and give them here, then press the cell bell."
+      - text: “Any of you want to borrow some burn,” asked a scarred inmate known as
+          Bull.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/burn#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

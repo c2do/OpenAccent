@@ -1,0 +1,32 @@
+word: رقم
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ragim
+  - ragam
+  - raggam
+pronunciation:
+  ipa: /raɡim/
+meanings:
+  - en: numeral, number
+    examples: []
+  - en: figure
+    examples: []
+  - en: digit
+    examples: []
+  - en: to furnish with numbers, to paginate, to catalogue and the like
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B1%D9%82%D9%85#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

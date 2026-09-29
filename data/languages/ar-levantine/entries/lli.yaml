@@ -1,0 +1,38 @@
+word: اللي
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - lli
+  - illi
+meanings:
+  - en: who; whom; which; that; what
+    examples:
+      - text: هيدا المستشفى اللي بتشتغل فيه إمي
+        en: This is the hospital that my mother works in.
+  - en: that
+    examples:
+      - text: منيح اللي فيقتني كنت مكوبسة
+        en: Good thing you woke me up, I was having a nightmare
+      - text: il-wezîr 3allem mara ḥɒtta tûʾaf 3ala'd-derb ū-ṣârit tesibb witʾûl il-ḥomd
+          ílla illī mä̂t iš-šêḫ il-fāḫûrī yaḫrub bêtu ɒlla yiǧɒmmíʾlū 3omrū ma
+          yörja3. ʾallha lau kunt muš mêyit kunt beʾûm lêki.
+        en: The vizîr instructed a woman to stand on the road; she began to curse and
+          say, "Praise be to God that he who has died is the jar-maker, (who
+          was) an elder. May his house be destroyed; may God make his grave
+          deep, and may his life not return." The jar-maker replied, "Were I not
+          dead, I would rise against you!"
+concept: who
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%84%D9%84%D9%8A#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

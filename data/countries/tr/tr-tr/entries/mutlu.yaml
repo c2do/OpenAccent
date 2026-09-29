@@ -1,0 +1,24 @@
+word: mutlu
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+meanings:
+  - en: happy
+    examples: []
+  - en: someone happy
+    examples: []
+concept: happy
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mutlu#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

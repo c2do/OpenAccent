@@ -1,0 +1,32 @@
+word: mega
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /meɡa/
+meanings:
+  - en: very, super, mega
+    examples:
+      - text: Das ist megaeinfach.
+        en: It’s super easy.
+      - text: Er freute sich mega.
+        en: He was super happy.
+  - en: awesome, amazing
+    examples:
+      - text: Die Party gestern war mega.
+        en: That party last night was awesome.
+concept: a_lot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mega#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

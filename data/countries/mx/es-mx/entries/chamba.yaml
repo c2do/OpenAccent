@@ -1,0 +1,32 @@
+word: chamba
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈt͡ʃamba/
+part_of_speech: noun
+meanings:
+  - en: work, employment; task
+    examples:
+      - text: Me transó, pensé, tendré que conseguir chamba; linda forma tiene Humberto
+          para pescarme.
+        en: (In the context of a story in Mexico) "He swindled me", I thought, "I'll
+          have to get work. Humberto has a great way to catch me red-handed."
+      - text: El Tigre a mí me acompaña porque ha sido un gran amigo / Maestro en la
+          pista chica, además muy precavido / Él sabe que en esta chamba / No es
+          bueno volar dormido
+concept: work_verb
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chamba#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,32 @@
+word: coger
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /koˈxeɾ/
+part_of_speech: verb
+meanings:
+  - en: to imitate, learn
+    examples: []
+  - en: to choose (a direction, route, when driving or walking)
+    examples: []
+  - en: to turn to (when driving or walking)
+    examples: []
+  - en: to board (means of transportation)
+    examples:
+      - text: Tengo que coger el tren.
+        en: I have a train to catch.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/coger#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

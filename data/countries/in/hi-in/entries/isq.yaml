@@ -1,0 +1,30 @@
+word: इश्क़
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - iśq
+pronunciation:
+  ipa: /ɪʃq/
+part_of_speech: noun
+meanings:
+  - en: love
+    examples:
+      - text: तेरे इश्क़ में हम ने क्या क्या ना देखा?
+        en: What all did I not see in your love?
+  - en: passion
+    examples: []
+concept: like
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%87%E0%A4%B6%E0%A5%8D%E0%A4%95%E0%A4%BC#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

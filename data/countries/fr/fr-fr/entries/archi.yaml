@@ -1,0 +1,30 @@
+word: archi
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /aʁ.ʃi/
+meanings:
+  - en: very; super
+    examples:
+      - text: J'suis archi fatiguée.
+        en: I'm super tired.
+  - en: architecture
+    examples:
+      - text: un étudiant en archi
+        en: an architecture student
+concept: a_lot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/archi#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

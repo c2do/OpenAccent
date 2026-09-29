@@ -1,0 +1,32 @@
+word: حك
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ḥukk
+  - ḥakk
+pronunciation:
+  ipa: /ħukː/
+meanings:
+  - en: can
+    examples:
+      - text: شري معاك حك السردين باش نحضر الشلاضة.
+        en: Buy a can of sardines to make the salad.
+  - en: to rub
+    examples: []
+  - en: to scrape, to scratch
+    examples: []
+concept: can
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D9%83#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

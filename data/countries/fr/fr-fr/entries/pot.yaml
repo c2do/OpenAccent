@@ -1,0 +1,31 @@
+word: pot
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /po/
+part_of_speech: noun
+meanings:
+  - en: drink, jar, bevvy (alcoholic beverage)
+    examples: []
+  - en: do (UK), bash, drinks party (a small, informal party or celebration)
+    examples: []
+  - en: luck (success; chance occurrence, especially when favourable)
+    examples: []
+  - en: arse, ass (the buttocks)
+    examples: []
+concept: drink
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pot#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

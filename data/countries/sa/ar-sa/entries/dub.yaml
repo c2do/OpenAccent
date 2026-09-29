@@ -1,0 +1,32 @@
+word: دوب
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - dūb
+pronunciation:
+  ipa: /duːb/
+part_of_speech: conj
+meanings:
+  - en: now, just
+    examples:
+      - text: دوبه وصل.
+        en: He just arrived.
+  - en: barely
+    examples:
+      - text: يا دوب أجيبه.
+        en: I can barely bring him.
+concept: now
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AF%D9%88%D8%A8#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

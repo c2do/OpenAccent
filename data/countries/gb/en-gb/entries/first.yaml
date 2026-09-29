@@ -1,0 +1,26 @@
+word: first
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fɜːst/
+part_of_speech: noun
+meanings:
+  - en: A first-class honours degree.
+    examples:
+      - text: "[Stephen Hawking] […] would go to Cambridge, he said, if they gave him a
+          first, and stay at Oxford if they gave him a second. He got a first."
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/first#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

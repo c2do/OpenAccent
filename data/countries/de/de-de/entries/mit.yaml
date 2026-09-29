@@ -1,0 +1,28 @@
+word: mit
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /mɪt/
+part_of_speech: adv
+meanings:
+  - en: with (something), with it
+    examples:
+      - text: Ich brauch nicht unbedingt Mayonnaise zu den Fritten, aber mit sind sie
+          natürlich besser.
+        en: I don't necessarily need mayonnaise with the chips, but they taste better
+          with it, of course.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mit#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: انتي
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʔinti
+  - ʔinta
+  - ʔintu
+part_of_speech: pron
+meanings:
+  - en: you
+    examples:
+      - text: "Enclitic form: ـك (-ik/-ki)"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%86%D8%AA%D9%8A#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,35 @@
+word: आशना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - āśnā
+pronunciation:
+  ipa: /ɑːʃ.nɑː/
+part_of_speech: noun
+meanings:
+  - en: lover, paramour
+    examples:
+      - text: |-
+          अगर दर्द-ए-मोहब्बत से न इन्साँ आश्ना होता
+          न कुछ मरने का ग़म होता न जीने का मज़ा होता
+          agar dard-e-mohabbat se na insā̃ āśnā hotā
+        en: |-
+          If the pain of love would not compel man to become lover
+          then there would be no pain in death nor joy in life
+  - en: friend, companion
+    examples: []
+concept: friend
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%86%E0%A4%B6%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

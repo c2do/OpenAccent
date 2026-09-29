@@ -1,0 +1,28 @@
+word: آش
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ʔāš
+pronunciation:
+  ipa: /ʔaːʃ/
+part_of_speech: adv
+meanings:
+  - en: what?
+    examples:
+      - text: آش بغيتي مني؟
+        en: What do you want from me?
+concept: what
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A2%D8%B4#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

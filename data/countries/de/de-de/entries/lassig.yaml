@@ -1,0 +1,26 @@
+word: lässig
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈlɛsɪç/
+part_of_speech: adj
+meanings:
+  - en: cool, awesome
+    examples:
+      - text: Ich bin heute mit ein paar lässigen Typen weggegangen.
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/l%C3%A4ssig#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

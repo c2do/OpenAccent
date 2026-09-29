@@ -1,0 +1,28 @@
+word: لسع
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - lasaʕ
+  - lissaʕ
+pronunciation:
+  ipa: /la.saʕ/
+meanings:
+  - en: to sting
+    examples: []
+  - en: yet, still, not yet
+    examples: []
+concept: still
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D8%B3%D8%B9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

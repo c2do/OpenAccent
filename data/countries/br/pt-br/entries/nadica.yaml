@@ -1,0 +1,26 @@
+word: nadica
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /naˈd͡ʒi.kɐ/
+meanings:
+  - en: nothing
+    examples: []
+  - en: not at all, in no way
+    examples: []
+concept: nothing
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nadica#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

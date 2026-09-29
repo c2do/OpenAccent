@@ -1,0 +1,27 @@
+word: nel
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnel/
+part_of_speech: adv
+meanings:
+  - en: no; no way; nope
+    examples:
+      - text: –¿Irás a la fiesta? –Nel, estará muy aburrida.
+        en: –Will you go to the party? –Nope, it'll be really boring
+concept: "no"
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nel#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,35 @@
+word: ولا
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - walla
+  - wala
+pronunciation:
+  ipa: /wal.la/
+part_of_speech: conj
+meanings:
+  - en: or
+    examples:
+      - text: شنو باغي تشري فالقمايص للعرس؟ هدا اللي مخطط بالاصفر ولا هداك اللي بلون
+          موحد ومطرز بالصقلي زرق؟
+        en: What do you want to buy for a wedding qmīṣ (Moroccan male dress) for the
+          wedding? This yellow-stripped one or that one with one colour and
+          embroidered with blue ṣqalli (Moroccan golden motif)?
+  - en: nor, neither
+    examples:
+      - text: ما خاصني لا هادا ولا هداك.
+        en: I don't want this nor that.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88%D9%84%D8%A7#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

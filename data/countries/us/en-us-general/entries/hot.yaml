@@ -1,0 +1,27 @@
+word: hot
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /hɒt/
+part_of_speech: adj
+meanings:
+  - en: Active, in use or ready for use (like a bullet or a firing range), turned on
+      (like a microphone or camera).; Electrically charged.
+    examples:
+      - text: a hot wire
+concept: hot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hot#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

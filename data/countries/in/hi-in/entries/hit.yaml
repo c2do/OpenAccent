@@ -1,0 +1,33 @@
+word: हित
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - hit
+pronunciation:
+  ipa: /ɦɪt̪/
+meanings:
+  - en: good, welfare, comfort, security
+    examples:
+      - text: इस सरकार ने लोक-हित का ध्यान रखने का वादा लिया है।
+        en: This government has taken the promise to safeguard the public well-being.
+  - en: benefit, advantage
+    examples: []
+  - en: favour, courtesy
+    examples: []
+  - en: good, proper, right, suitable
+    examples: []
+concept: good
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B9%E0%A4%BF%E0%A4%A4#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

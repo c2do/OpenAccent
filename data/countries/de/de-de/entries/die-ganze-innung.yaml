@@ -1,0 +1,26 @@
+word: die ganze Innung
+dialect: de-de
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: all, the entire group (generally with verbs implying disgrace or
+      embarrassment, such as blamieren, bloßstellen, in Verruf bringen)
+    examples:
+      - text: Der blamiert noch die ganze Innung.
+        en: He's going to embarrass us all.
+concept: all
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/die_ganze_Innung#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

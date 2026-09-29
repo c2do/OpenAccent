@@ -1,0 +1,30 @@
+word: لما
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - lamma
+pronunciation:
+  ipa: /lam.ma/
+part_of_speech: conj
+meanings:
+  - en: when, while
+    examples:
+      - text: لَمَّا جيت ذاك اليوم ما لقيتك
+        en: When I came that day I didn't find you
+  - en: as, as long as
+    examples: []
+concept: when
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D9%85%D8%A7#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

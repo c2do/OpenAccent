@@ -1,0 +1,25 @@
+word: faz-me rir
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfa(j)z.mi ˈʁi(ʁ)/
+part_of_speech: noun
+meanings:
+  - en: money; cash; dough
+    examples: []
+concept: money
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/faz-me_rir#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

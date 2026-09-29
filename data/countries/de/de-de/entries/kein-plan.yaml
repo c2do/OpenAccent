@@ -1,0 +1,26 @@
+word: kein Plan
+dialect: de-de
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: phrase
+meanings:
+  - en: no idea, I don't know
+    examples:
+      - text: Ey, weißt du, wo hier ’n Kiosk ist? — Kein Plan, aber frag mal ihn hier!
+        en: Yo, you know where there’s a corner shop round here? — No idea, but try and
+          ask this guy!
+concept: i_dont_know
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/kein_Plan#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

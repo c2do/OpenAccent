@@ -1,0 +1,25 @@
+word: knowledge
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnɒl.ɪdʒ/
+part_of_speech: noun
+meanings:
+  - en: The deep familiarity with certain routes and places of interest required by
+      taxicab drivers working in London, England.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/knowledge#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

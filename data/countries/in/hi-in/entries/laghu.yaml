@@ -1,0 +1,30 @@
+word: लघु
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - laghu
+pronunciation:
+  ipa: /lə.ɡʱuː/
+part_of_speech: adj
+meanings:
+  - en: light, small, short
+    examples:
+      - text: मेरा मित्र लघु उद्योग में काम करता है।
+        en: My friend works in the field of light industry.
+      - text: लघु फ़िल्म
+        en: short film
+concept: small
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B2%E0%A4%98%E0%A5%81#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

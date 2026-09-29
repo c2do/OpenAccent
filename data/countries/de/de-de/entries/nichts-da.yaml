@@ -1,0 +1,25 @@
+word: nichts da
+dialect: de-de
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnɪçtsˌda/
+part_of_speech: intj
+meanings:
+  - en: no!, no way!, no chance!; that's out of the question!
+    examples: []
+concept: "no"
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nichts_da#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

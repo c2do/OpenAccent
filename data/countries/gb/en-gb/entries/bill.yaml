@@ -1,0 +1,30 @@
+word: bill
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɪl/
+meanings:
+  - en: One hundred pounds sterling.
+    examples: []
+  - en: A list of pupils to be disciplined for breaking school rules.
+    examples: []
+  - en: To roll up a marijuana cigarette.
+    examples:
+      - text: And we don't really need Netflix, I'mma give you something to watch /
+          After we done, bill a spliff and cotch / Pour me a glass of the Henny
+          on the rocks
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bill#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

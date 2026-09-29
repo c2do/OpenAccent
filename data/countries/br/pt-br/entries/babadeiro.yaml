@@ -1,0 +1,32 @@
+word: babadeiro
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ba.baˈde(j).ɾu/
+part_of_speech: adj
+meanings:
+  - en: cool, great, awesome
+    examples:
+      - text: Um bandido removeu as telhas, entrou pelo topo da casa e me levou tudo — o
+          radinho babadeiro, a geladeira, o fogão, a vida.
+        en: A thief removed the roof tiles, came in through the top of the house, and
+          took everything from me — the cool little radio, the refrigerator, the
+          stove, my life.
+      - text: Mapô babadeira é um termo para designar uma mulher ("mapô") extremamente
+          bacana, entrosada, gente fina ("babadeira").
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/babadeiro#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

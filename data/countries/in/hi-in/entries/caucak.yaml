@@ -1,0 +1,32 @@
+word: चौचक
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - caucak
+pronunciation:
+  ipa: /t͡ʃɔː.t͡ʃək/
+part_of_speech: adj
+meanings:
+  - en: great, awesome, amazing
+    examples:
+      - text: एकदम चौचक खाना
+        en: Amazing food
+  - en: attractive, hot (of a woman)
+    examples:
+      - text: एकदम चौचक लड़की
+        en: Hot chick
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A5%8C%E0%A4%9A%E0%A4%95#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

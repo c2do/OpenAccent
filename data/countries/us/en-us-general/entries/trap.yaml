@@ -1,0 +1,34 @@
+word: trap
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tɹæp/
+part_of_speech: noun
+meanings:
+  - en: A vehicle, residential building, or sidewalk corner where drugs are
+      manufactured, packaged, or sold.
+    examples:
+      - text: trap phone
+      - text: trap car
+  - en: An area, especially of a city, with a low level of opportunity and a high
+      level of poverty and crime; a ghetto; a hood.
+    examples:
+      - text: Maybe T.I was also making connection between fur trapping and living in
+          the trap, or the hood.
+      - text: Stay in the trap like my name was McCaulk. Dumb-ahh nigger, I think he
+          meant Culkin.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/trap#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

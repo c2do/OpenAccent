@@ -1,0 +1,26 @@
+word: fix
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fɪks/
+meanings:
+  - en: To surgically render an animal, especially a pet, infertile.
+    examples:
+      - text: Rover stopped digging under the fence after we had the vet fix him.
+  - en: Fettlings (mixture used to line a furnace).
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fix#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,35 @@
+word: रोज़
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - roz
+pronunciation:
+  ipa: /ɾoːz/
+meanings:
+  - en: daily, everyday; always
+    examples:
+      - text: मैं रोज़ तीन बार शिशु को खाना खिलाती हूँ।
+        en: I feed my baby three times every day.
+  - en: day
+    examples:
+      - text: हर रोज़
+        en: every day, daily
+  - en: daily, everyday
+    examples: []
+  - en: period, age, time
+    examples: []
+concept: always
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B0%E0%A5%8B%E0%A4%9C%E0%A4%BC#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

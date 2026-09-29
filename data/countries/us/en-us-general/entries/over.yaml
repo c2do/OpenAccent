@@ -1,0 +1,25 @@
+word: over
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈəʊ̯.və/
+part_of_speech: adv
+meanings:
+  - en: Indicating repetition.; Again; another time; once more; over again.
+    examples:
+      - text: I lost my paper and I had to do the entire assignment over.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/over#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

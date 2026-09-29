@@ -1,0 +1,27 @@
+word: joça
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʒɔ.sɐ/
+part_of_speech: noun
+meanings:
+  - en: old or useless thing
+    examples: []
+  - en: thing (in general)
+    examples: []
+concept: something
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jo%C3%A7a#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

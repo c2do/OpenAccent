@@ -1,0 +1,25 @@
+word: echt jetzt
+dialect: de-de
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: intj
+meanings:
+  - en: really?; get out of here! (exclamation of surprise or disbelief)
+    examples: []
+  - en: come on!; for real! (exclamation of frustration)
+    examples: []
+concept: really
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/echt_jetzt#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

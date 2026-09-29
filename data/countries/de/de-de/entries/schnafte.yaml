@@ -1,0 +1,25 @@
+word: schnafte
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃnaftə/
+part_of_speech: adj
+meanings:
+  - en: great, cool
+    examples: []
+concept: cool
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/schnafte#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: echt
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɛçt/
+meanings:
+  - en: real; factual
+    examples:
+      - text: Der Film ist nah an der echten Geschichte.
+        en: The film is close to the real story.
+  - en: really; indeed
+    examples:
+      - text: Das war echt gut.
+        en: That was really good.
+concept: really
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/echt#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

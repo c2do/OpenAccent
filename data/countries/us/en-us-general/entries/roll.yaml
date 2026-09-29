@@ -1,0 +1,38 @@
+word: roll
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɹəʊl/
+meanings:
+  - en: To leave or begin a journey; sometimes with out.
+    examples:
+      - text: I want to get there early; let's roll.
+  - en: To leave or begin a journey; sometimes with out.; To compete, especially
+      with vigor.
+    examples:
+      - text: OK guys, we're only down by two points. Let's roll!
+  - en: To leave or begin a journey; sometimes with out.; To walk, especially
+      leisurely or idly; to stroll.
+    examples:
+      - text: Let's roll around town on foot and see the sights.
+  - en: To behave in a certain way; to adopt a general disposition toward a
+      situation.
+    examples:
+      - text: I was going to kick his ass, but he wasn't worth getting all worked up
+          over; I don't roll like that.
+      - text: '"This is how we roll in Spring Valley," one teen reportedly boasted.'
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/roll#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

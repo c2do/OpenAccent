@@ -1,0 +1,33 @@
+word: stark
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʃtark/
+part_of_speech: adj
+meanings:
+  - en: brilliant, awesome
+    examples: []
+  - en: incredible, unbelievable
+    examples:
+      - text: ein starkes Stück
+        en: an impressive feat
+      - text: Nun, es sind Eheleute, in Gottes Namen, soweit ist die Sache in Ordnung.
+          Aber am hellen Morgen, das ist doch stark.
+        en: Well, they are a married couple, in God's name, there's no issue in that
+          regard. But in right in the bright of morning, unbelievable, really.
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/stark#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

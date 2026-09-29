@@ -1,0 +1,38 @@
+word: काम
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kām
+pronunciation:
+  ipa: /kɑːm/
+part_of_speech: noun
+meanings:
+  - en: work, task, labour
+    examples:
+      - text: मैं कारख़ाने में काम करता हूँ।
+        en: I work at a factory.
+  - en: job, employment
+    examples:
+      - text: आजकल मैं काम की तलाश कर रहा हूँ।
+        en: These days I am looking for a job.
+  - en: function, purpose, usage, use
+    examples:
+      - text: यह बक्सा मेज़ का काम देगा।
+        en: This box will serve the function of a table.
+  - en: lust, sexual passion, desire
+    examples: []
+concept: work_verb
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%AE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: up
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʌp/
+meanings:
+  - en: Without additional ice.
+    examples:
+      - text: A Cosmopolitan is typically served up.
+  - en: Chilled and served without ice; (often specifically) shaken with ice and
+      then strained into a coupe for serving, leaving the ice behind.
+    examples:
+      - text: Would you like that drink up or on ice?
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/up#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

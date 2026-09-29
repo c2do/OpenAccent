@@ -1,0 +1,26 @@
+word: stand
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈstænd/
+part_of_speech: verb
+meanings:
+  - en: To position or be positioned socially:; To be a candidate (in an election).
+    examples:
+      - text: He is standing for election to the local council.
+      - text: He stood to be elected one of the proctors of the university.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/stand#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

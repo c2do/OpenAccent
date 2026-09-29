@@ -1,0 +1,31 @@
+word: भला
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bhalā
+pronunciation:
+  ipa: /bʱə.lɑː/
+meanings:
+  - en: good
+    examples: []
+  - en: righteous
+    examples: []
+  - en: honest, respectable
+    examples: []
+  - en: benevolent, kind
+    examples: []
+concept: good
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AD%E0%A4%B2%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

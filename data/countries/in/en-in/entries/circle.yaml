@@ -1,0 +1,27 @@
+word: circle
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈsɜɹkəl/
+part_of_speech: noun
+meanings:
+  - en: Any shape, curve or arrangement of objects that approximates to or resembles
+      the geometric figures.; A traffic circle or roundabout.
+    examples:
+      - text: He arrived at the lakefront and drove around the circle where the
+          amusement park and beach used to be when he was a kid[…]
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/circle#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

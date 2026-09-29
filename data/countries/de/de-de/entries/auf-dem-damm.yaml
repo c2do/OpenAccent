@@ -1,0 +1,25 @@
+word: auf dem Damm
+dialect: de-de
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: prep_phrase
+meanings:
+  - en: well, fit, capable, usually after a period of illness or the like
+    examples:
+      - text: Ganz weg ist es noch nicht, aber seit gestern bin ich wieder halbwegs auf
+          dem Damm.
+concept: fine
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/auf_dem_Damm#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

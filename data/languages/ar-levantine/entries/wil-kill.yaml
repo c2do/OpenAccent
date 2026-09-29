@@ -1,0 +1,33 @@
+word: والكل
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - wil-kill
+pronunciation:
+  ipa: /w l-kill/ [wᵊlˈkell]
+part_of_speech: phrase
+meanings:
+  - en: also, too, as well
+    examples:
+      - text: "wəl-kəll « aussi », de même sens de kamǟn ou kamēn : ḍarba bass hiyye
+          ḍarbəˈto wəl-kəll « il l’a frappé, mais elle le frappa aussi »."
+        en: he hit her but she hit him too.
+      - text: "wəl-kəll « aussi »: ṛā̊ḥ ᵊl-ḥmā̊ṛ wəl-kəll « l’âne est parti aussi ».
+          L‘expression n‘est pas particulière à Qornet Chahouâne ou à Beit Chbâb
+          (p. 288); elle est assez répandue."
+        en: the donkey went too
+concept: also
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88%D8%A7%D9%84%D9%83%D9%84#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: ab
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ap/
+part_of_speech: adj
+meanings:
+  - en: off, detached (not attached to anything anymore, having come off)
+    examples:
+      - text: Der Arm ist ab.
+        en: The arm has been cut off.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ab#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

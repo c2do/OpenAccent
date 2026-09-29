@@ -1,0 +1,39 @@
+word: समय
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - samay
+pronunciation:
+  ipa: /sə.məj/
+meanings:
+  - en: at the time that, when (after the imperfective participle ते)
+    examples:
+      - text: इस समय
+        en: At this time, now
+      - text: किस समय
+        en: At what time
+  - en: time
+    examples:
+      - text: इसमें कितना समय लगता है?
+        en: How much time does this take?
+      - text: घर जाने का समय लगभग हो गया है।
+        en: It is about time to go home.
+  - en: hours
+    examples:
+      - text: मिलने का समय क्या है?
+        en: What are the visiting hours?
+concept: when
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%AE%E0%A4%AF#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

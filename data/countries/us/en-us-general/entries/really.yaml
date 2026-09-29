@@ -1,0 +1,27 @@
+word: really
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɹɪə.li/
+part_of_speech: intj
+meanings:
+  - en: Indicating affirmation, agreement.
+    examples:
+      - text: "A: That girl talks about herself way too much."
+      - text: "B: Really. She's a nightmare."
+concept: really
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/really#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

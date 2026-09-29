@@ -1,0 +1,28 @@
+word: ordentlich
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɔʁdəntlɪç/
+part_of_speech: adj
+meanings:
+  - en: proper, big, large
+    examples:
+      - text: Man muss schon ein ordentlicher Trottel sein, um auf so etwas
+          hereinzufallen.
+        en: You'd have to be a proper idiot to fall for something like that.
+concept: big
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ordentlich#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

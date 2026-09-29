@@ -1,0 +1,27 @@
+word: متأكد
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - mitʔakkad
+pronunciation:
+  ipa: /mit.ʔak.kad/
+part_of_speech: adj
+meanings:
+  - en: sure, certain, convinced
+    examples:
+      - text: آنا متأكد باللي الباب مفتوح.
+        en: I am sure that the door is open.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%AA%D8%A3%D9%83%D8%AF#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

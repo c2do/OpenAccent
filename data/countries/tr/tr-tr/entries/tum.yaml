@@ -1,0 +1,29 @@
+word: tüm
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tym/
+part_of_speech: adj
+meanings:
+  - en: entire, complete
+    examples: []
+  - en: all
+    examples:
+      - text: Tüm gece çalıştım.
+        en: I worked all night.
+concept: all
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/t%C3%BCm#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

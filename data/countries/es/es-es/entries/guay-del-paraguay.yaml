@@ -1,0 +1,25 @@
+word: guay del Paraguay
+dialect: es-es
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˌɡwai del paɾaˈɡwai/
+part_of_speech: adj
+meanings:
+  - en: cool; awesome, the bee's knees
+    examples: []
+concept: cool
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/guay_del_Paraguay#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

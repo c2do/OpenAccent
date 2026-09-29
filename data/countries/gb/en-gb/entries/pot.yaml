@@ -1,0 +1,34 @@
+word: pot
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pɒt/
+meanings:
+  - en: "A favorite: a heavily-backed horse."
+    examples: []
+  - en: To send someone to jail, expeditiously.
+    examples: []
+  - en: To seat a person, usually a young child, on a potty or toilet, typically
+      during toilet teaching.
+    examples:
+      - text: If you leave out this “catching" stage altogether and start proper toilet
+          training at, say, eighteen months you will only have to pot your baby
+          about 2000 times for the same effect.
+      - text: Do not make the mistake of potting your baby as early as possible, but
+          wait until she gives the signal that she is aware that puddles are
+          somehow to do with her.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pot#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

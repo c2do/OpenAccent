@@ -1,0 +1,28 @@
+word: عيان
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ʕiyyān
+pronunciation:
+  ipa: /ʕij.jaːn/
+part_of_speech: adj
+meanings:
+  - en: tired
+    examples: []
+  - en: weak
+    examples: []
+concept: tired
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%8A%D8%A7%D9%86#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

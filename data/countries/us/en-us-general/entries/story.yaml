@@ -1,0 +1,27 @@
+word: story
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈstɔː.ɹi/
+part_of_speech: noun
+meanings:
+  - en: A soap opera.
+    examples:
+      - text: What will she do without being able to watch her stories?
+      - text: He stood on the doorstep for a minute, listening for sounds inside the
+          house — a radio, a TV tuned to one of the stories […]
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/story#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

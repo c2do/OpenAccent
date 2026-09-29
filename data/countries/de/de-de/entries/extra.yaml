@@ -1,0 +1,37 @@
+word: extra
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɛks.tʁa/
+meanings:
+  - en: separate (not included in or directly connected to the object being
+      discussed)
+    examples: []
+  - en: special, specially made
+    examples:
+      - text: Das is’n ganz extra Rezept von meiner Mutter.
+        en: This is a very special recipe of my mother’s.
+  - en: on purpose
+    examples:
+      - text: Das hab ich doch nich’ extra gemacht!
+        en: I didn't do that on purpose!
+  - en: aside, apart, separately
+    examples:
+      - text: Können Sie mir die Fritten und die Wurst extra abpacken?
+        en: Could you wrap the fries and the sausage separately?
+concept: a_lot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/extra#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

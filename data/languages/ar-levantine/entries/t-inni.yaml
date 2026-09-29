@@ -1,0 +1,27 @@
+word: تعني
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - tʕinni
+pronunciation:
+  ipa: /tʕinni
+part_of_speech: noun
+meanings:
+  - en: a type of diarrhea; ulcerative colitis
+    examples:
+      - text: صار عندي تعني مش رح نام الليلة
+        en: I just got tʕinni, I'm not going to sleep tonight
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AA%D8%B9%D9%86%D9%8A#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,23 @@
+word: majete
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: cool, nice
+    examples: []
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/majete#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

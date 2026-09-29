@@ -1,0 +1,25 @@
+word: loco
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈloko/
+part_of_speech: noun
+meanings:
+  - en: dude, guy
+    examples: []
+concept: buddy
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/loco#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

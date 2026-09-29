@@ -1,0 +1,35 @@
+word: daora
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /daˈɔ.ɾɐ/
+part_of_speech: adj
+meanings:
+  - en: cool, very cool,
+    examples:
+      - text: Essa novela é muito daora!
+        en: That telenovela is so cool!
+      - text: Esse jogo é daora
+        en: This game is very cool
+  - en: incredible, awesome
+    examples:
+      - text: Mano, aquela mina é daora!
+        en: Bro, that girl is incredible!
+      - text: Aquele dia foi daora
+        en: That day was awesome
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/daora#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

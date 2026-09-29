@@ -1,0 +1,24 @@
+word: moño
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmoɲo/
+part_of_speech: noun
+meanings:
+  - en: bow (of ribbon)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mo%C3%B1o#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

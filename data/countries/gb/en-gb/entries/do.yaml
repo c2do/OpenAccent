@@ -1,0 +1,37 @@
+word: do
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /də/
+part_of_speech: noun
+meanings:
+  - en: A party, celebration, social function; usually of moderate size and
+      formality.
+    examples:
+      - text: We’re having a bit of a do on Saturday to celebrate my birthday.
+      - text: She was into French cuisine but I ain't no Cordon Bleu / This was at some
+          do in Palmers Green, I had no luck with her
+  - en: A homicide.
+    examples:
+      - text: |-
+          Get it done, no not properly
+          Them man thought that they got me
+          True, I came back like a fucking zombie
+          Attempted do with the ching
+          Have an opp boy say “please don’t chong me!”
+concept: do
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/do#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

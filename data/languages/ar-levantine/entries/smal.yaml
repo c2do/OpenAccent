@@ -1,0 +1,25 @@
+word: شمال
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - šmāl
+pronunciation:
+  ipa: /ʃmaːl/
+part_of_speech: noun
+meanings:
+  - en: north
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D9%85%D8%A7%D9%84#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

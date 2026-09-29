@@ -1,0 +1,25 @@
+word: husband
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhʌzbənd/
+part_of_speech: noun
+meanings:
+  - en: A manager of property; one who has the care of another's belongings, owndom,
+      or interests; a steward; an economist.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/husband#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

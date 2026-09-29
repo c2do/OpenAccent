@@ -1,0 +1,25 @@
+word: fon
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfon/
+part_of_speech: noun
+meanings:
+  - en: phone
+    examples: []
+concept: phone
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fon#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

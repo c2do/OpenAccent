@@ -1,0 +1,26 @@
+word: fora
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfɔ.ɾɐ/
+part_of_speech: noun
+meanings:
+  - en: rejection of a romantic proposal
+    examples: []
+  - en: blunder, cock-up
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fora#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

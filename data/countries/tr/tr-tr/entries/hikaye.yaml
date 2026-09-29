@@ -1,0 +1,31 @@
+word: hikâye
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /hi.cɑːje/
+part_of_speech: noun
+meanings:
+  - en: story
+    examples: []
+  - en: story; short story
+    examples: []
+  - en: all talk, baloney, bullshit, nonsense
+    examples: []
+  - en: bad, low quality
+    examples: []
+concept: bad
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hik%C3%A2ye#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

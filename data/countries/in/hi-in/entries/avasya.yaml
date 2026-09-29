@@ -1,0 +1,29 @@
+word: अवश्य
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - avaśya
+pronunciation:
+  ipa: /ə.ʋəʃ.jᵊ/
+meanings:
+  - en: certainly, assuredly, of course
+    examples:
+      - text: मेरा काम करोगे? अवश्य!
+        en: Will you do my work? Certainly!
+  - en: necessary, mandatory, required
+    examples: []
+concept: of_course
+register: formal
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%B5%E0%A4%B6%E0%A5%8D%E0%A4%AF#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

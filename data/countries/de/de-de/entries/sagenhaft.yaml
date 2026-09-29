@@ -1,0 +1,30 @@
+word: sagenhaft
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈzaːɡn̩haft/
+part_of_speech: adj
+meanings:
+  - en: fabulous, terrific, awesome, incredible
+    examples:
+      - text: Das sagenhafte Preis-Leistungs-Verhältnis des Döners im Brot war über
+          Jahrzehnte ein relevanter Beitrag der türkischen Community zur
+          Aufrechterhaltung des sozialen Friedens hierzulande.
+  - en: incredibly large or great
+    examples: []
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sagenhaft#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: na
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /nɑː/
+part_of_speech: adv
+meanings:
+  - en: Isn't it?
+    examples:
+      - text: It is far na?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/na#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

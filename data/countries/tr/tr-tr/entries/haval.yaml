@@ -1,0 +1,29 @@
+word: havalı
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ha.vaˈɫɯ/
+part_of_speech: adj
+meanings:
+  - en: cool, sick, lit
+    examples:
+      - text: Oha gözlüğün çok havalı
+        en: Oh my god your glasses are so sick
+  - en: with or containing air, ventilated
+    examples: []
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/haval%C4%B1#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

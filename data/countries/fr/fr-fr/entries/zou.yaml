@@ -1,0 +1,28 @@
+word: zou
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /zu/
+part_of_speech: intj
+meanings:
+  - en: shoo, let's go!
+    examples:
+      - text: La mère va rentrer de la messe; nous déjeunons, et puis, zou! nous allons
+          voir danser les jolies filles…
+        en: Letters from My Windmill
+concept: lets_go
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/zou#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

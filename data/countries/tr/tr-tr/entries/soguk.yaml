@@ -1,0 +1,30 @@
+word: soğuk
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /soˈuk/
+meanings:
+  - en: Having low temperature; cold, cool.
+    examples: []
+  - en: Lacking emotion or friendliness, apathetic, aloof, distant.
+    examples: []
+  - en: Unappealing, inappropriate, out-of-place.
+    examples: []
+  - en: The state of low temperature.
+    examples: []
+concept: cold
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/so%C4%9Fuk#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

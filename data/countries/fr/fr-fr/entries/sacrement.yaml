@@ -1,0 +1,25 @@
+word: sacrément
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sa.kʁe.mɑ̃/
+part_of_speech: adv
+meanings:
+  - en: bloody, incredibly, really
+    examples: []
+concept: really
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sacr%C3%A9ment#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

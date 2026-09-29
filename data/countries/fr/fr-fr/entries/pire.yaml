@@ -1,0 +1,29 @@
+word: pire
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /piʁ/
+part_of_speech: adj
+meanings:
+  - en: bad; harmful, serious
+    examples:
+      - text: C'est moins pire de se casser la gueule que de se la péter.
+        en: It's better (less bad, serious) to trip than to break your neck.
+      - text: C'est lequel le plus pire ?
+        en: Which is the worst?
+concept: bad
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pire#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

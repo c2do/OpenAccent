@@ -1,0 +1,30 @@
+word: suck
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sʌk/
+meanings:
+  - en: Badness or mediocrity.
+    examples:
+      - text: You don't have to call me on for everything, ok? I'm aware of my suck.
+  - en: "To be inferior or objectionable: a general term of disparagement, sometimes
+      used with at to indicate a particular area of deficiency."
+    examples:
+      - text: Schumacher recalls Bucher had also written “Communism sucks” on the
+          underside of his table
+      - text: it has a few very high points . . . but as a novel, it sucks
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/suck#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,42 @@
+word: chillig
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈt͡ʃɪlɪç/
+part_of_speech: adj
+meanings:
+  - en: chill, relaxed, pleasant (not stressful or high-energy)
+    examples:
+      - text: >-
+          um gottes willen, du mußt ja nicht dein ganzes weed mit dir
+          rumschleppen!
+
+          das mit den cops ist schon scheisse, aber sonst ist die stadt schon
+          chillig!
+        en: |-
+          for god's sake, you don't need to have all your weed on you!
+          the cop thing sucks but otherwise the city's pretty chill
+      - text: Ich fand‘ den Online-Unterricht eigentlich ganz chillig muss ich sagen.
+        en: I thought the online classes were pretty chill I have to say.
+  - en: comfortable, nice (of locations)
+    examples:
+      - text: es wird n chilligen raum fürs buffet geben
+        en: there's gonna be a nice room for a buffet
+      - text: Chillige Bude! Sieht man selten.
+        en: Nice gaff! That's a rare sight.
+concept: beautiful
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chillig#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

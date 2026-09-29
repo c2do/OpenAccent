@@ -1,0 +1,27 @@
+word: wonder
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈwʌndə/
+part_of_speech: noun
+meanings:
+  - en: A mental pondering, a thought.
+    examples:
+      - text: Miss Paynter had a little wonder as to whether the man, as she called Mr.
+          Lacy in her own mind, had ever been admitted to this room. She thought
+          not.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wonder#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

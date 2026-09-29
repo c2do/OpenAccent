@@ -1,0 +1,27 @@
+word: near
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /nɪə/
+part_of_speech: adj
+meanings:
+  - en: On the side nearest to the kerb (the left-hand side if one drives on the
+      left).
+    examples:
+      - text: The near front wheel came loose.
+concept: near
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/near#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

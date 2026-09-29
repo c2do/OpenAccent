@@ -1,0 +1,29 @@
+word: à quel point
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a kɛl pwɛ̃/
+part_of_speech: adv
+meanings:
+  - en: how much (to what point, to what extent)
+    examples:
+      - text: Est-ce que tu comprends à quel point je t'aime ?
+        en: Do you understand how much I love you?
+      - text: Je ne savais pas à quel point c'était important pour toi.
+        en: I didn't know how much it meant to you.
+concept: how_much
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A0_quel_point#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

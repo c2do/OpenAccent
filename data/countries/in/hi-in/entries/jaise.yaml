@@ -1,0 +1,28 @@
+word: जैसे
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - jaise
+pronunciation:
+  ipa: /d͡ʒɛː.seː/
+part_of_speech: adv
+meanings:
+  - en: like, as; in the manner
+    examples:
+      - text: जैसे तुम करते हो, मैं वैसे ही करूँगा।
+        en: I'll do it like you do it.
+concept: like
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9C%E0%A5%88%E0%A4%B8%E0%A5%87#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,37 @@
+word: दूर
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - dūr
+pronunciation:
+  ipa: /d̪uːɾ/
+meanings:
+  - en: distant, far
+    examples:
+      - text: आपका कार्यालय यहाँ से कितनी दूर है।
+        en: How far is your office from here?
+      - text: पृथ्वी से शनि बहुत दूर है।
+        en: Saturn is very distant from the Earth.
+  - en: away, off
+    examples:
+      - text: वह सौ मीटर दूर खड़ा था।
+        en: He was standing a hundred meters away.
+      - text: इन लड़कों को खेत से दूर रखो।
+        en: Keep these boys off the field.
+  - en: distance, remoteness
+    examples: []
+concept: far
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A5%82%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

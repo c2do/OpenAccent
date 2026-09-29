@@ -1,0 +1,29 @@
+word: coño
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkoɲo/
+meanings:
+  - en: vulva, vagina, cunt, pussy, twat
+    examples: []
+  - en: fuck!, shit!
+    examples:
+      - text: ¡Coño! ¡No puedo creerlo!
+        en: Damn! I can't believe it!
+      - text: ¡Coño, ya basta de ruido!.
+        en: Fuck, enough with the noise!
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/co%C3%B1o#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

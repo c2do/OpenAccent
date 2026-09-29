@@ -1,0 +1,31 @@
+word: job
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dʒɒb/
+part_of_speech: noun
+meanings:
+  - en: The police as a profession, act of policing, or an individual police
+      officer.
+    examples:
+      - text: “He was ex-job, Beavis. Detective sergeant out of County, Banbury, retired
+          in ‘59.”
+      - text: "But there it was on the screen: The personal details of his old colleague
+          from Kennington station in the late nineties.[…]She’s job. We used to
+          work together."
+concept: work
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/job#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,35 @@
+word: ठीक
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ṭhīk
+pronunciation:
+  ipa: /ʈʰiːk/
+meanings:
+  - en: right, correct, accurate, appropriate, proper
+    examples:
+      - text: अपनी ग़लतियाँ झट से ठीक करनी चाहिए।
+        en: You should quickly correct your mistakes.
+  - en: good, okay, fine
+    examples:
+      - text: हाँ, मैं ठीक हूँ।
+        en: Yes, I'm fine.
+  - en: immediate; very close, direct, or adjacent
+    examples: []
+  - en: exactly
+    examples: []
+concept: good
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A0%E0%A5%80%E0%A4%95#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

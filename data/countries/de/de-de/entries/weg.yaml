@@ -1,0 +1,26 @@
+word: weg
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /vɛk/
+part_of_speech: adj
+meanings:
+  - en: unconscious; passed out
+    examples: []
+  - en: hammered; so drunk as being close to unconsciousness
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/weg#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

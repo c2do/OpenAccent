@@ -1,0 +1,26 @@
+word: bit
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɪt/
+part_of_speech: noun
+meanings:
+  - en: Applied to a various small units of currency and coins.; A coin of a
+      specified value.
+    examples:
+      - text: a threepenny bit
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bit#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

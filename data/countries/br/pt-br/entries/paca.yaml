@@ -1,0 +1,30 @@
+word: paca
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpa.kɐ/
+meanings:
+  - en: paca (rodent of the genus Cuniculus)
+    examples: []
+  - en: paca (rodent of the genus Cuniculus); dish made of its meat
+    examples: []
+  - en: mole cricket
+    examples: []
+  - en: homosexual man
+    examples: []
+concept: a_lot
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/paca#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

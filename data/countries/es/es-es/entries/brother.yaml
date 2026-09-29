@@ -1,0 +1,25 @@
+word: brother
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɾodeɾ/
+part_of_speech: noun
+meanings:
+  - en: bro, dude, brother
+    examples: []
+concept: buddy
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/brother#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

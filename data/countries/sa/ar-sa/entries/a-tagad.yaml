@@ -1,0 +1,25 @@
+word: اعتقد
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - aʕtagad
+pronunciation:
+  ipa: /aʕ.ta.ɡad/
+part_of_speech: verb
+meanings:
+  - en: to think, to consider, to believe (that something is the case)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D8%B9%D8%AA%D9%82%D8%AF#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,31 @@
+word: jeta
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈxeta/
+part_of_speech: noun
+meanings:
+  - en: sleep (act)
+    examples:
+      - text: voy a echarme una jeta
+        en: I am going to sleep
+  - en: anger face
+    examples:
+      - text: cada vez que hablo de eso pones tu jeta
+        en: every time I talk about it you show your angry face
+concept: sleep
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jeta#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

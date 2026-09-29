@@ -1,0 +1,27 @@
+word: earth
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɜːθ/
+meanings:
+  - en: "A connection electrically to the earth ((US) ground); on equipment: a
+      terminal connected in that manner."
+    examples: []
+  - en: To connect electrically to the earth.
+    examples:
+      - text: That noise is because the amplifier is not properly earthed.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/earth#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

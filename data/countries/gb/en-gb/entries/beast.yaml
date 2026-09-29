@@ -1,0 +1,32 @@
+word: beast
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /biːst/
+meanings:
+  - en: A domestic animal, especially a bovine farm animal.
+    examples:
+      - text: Boxer was an enormous beast, nearly eighteen hands high, and as strong as
+          any two ordinary horses put together.
+  - en: To impose arduous exercise upon, either as training or as punishment.
+    examples:
+      - text: "Recalling his training experiences in the Army and now the Prison
+          Service, this young male officer remarked: In the Army, to get beasted
+          was to be given a lot of psychological pressure […]"
+  - en: To bully or harass.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/beast#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import
