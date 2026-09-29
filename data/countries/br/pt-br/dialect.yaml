@@ -1,0 +1,8 @@
+id: pt-br
+parent: pt
+name: { en: "Brazilian Portuguese", ar: "البرتغالية البرازيلية" }
+region: { en: "Brazil", ar: "البرازيل" }
+script: latn
+codes: { bcp47: pt-BR }
+reviewers: []   # needs a native reviewer
+status: proposed

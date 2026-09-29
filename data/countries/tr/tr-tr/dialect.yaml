@@ -1,0 +1,8 @@
+id: tr-tr
+parent: tr
+name: { en: "Turkish (Turkey)", ar: "التركية (تركيا)" }
+region: { en: "Turkey", ar: "تركيا" }
+script: latn
+codes: { bcp47: tr-TR }
+reviewers: []   # needs a native reviewer
+status: proposed

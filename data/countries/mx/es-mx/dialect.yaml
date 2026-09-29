@@ -1,0 +1,8 @@
+id: es-mx
+parent: es
+name: { en: "Mexican Spanish", ar: "الإسبانية المكسيكية" }
+region: { en: "Mexico", ar: "المكسيك" }
+script: latn
+codes: { bcp47: es-MX }
+reviewers: []   # needs a native reviewer
+status: proposed

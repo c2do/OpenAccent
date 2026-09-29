@@ -1,0 +1,8 @@
+id: ar-sy
+parent: ar-levantine
+name: { en: "Syrian Arabic", ar: "العربية السورية" }
+region: { en: "Syria", ar: "سوريا" }
+script: arab
+codes: { bcp47: apc-SY }
+reviewers: []   # needs a native reviewer
+status: proposed

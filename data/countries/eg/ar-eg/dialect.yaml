@@ -1,0 +1,8 @@
+id: ar-eg
+parent: ar
+name: { en: "Egyptian Arabic", ar: "العربية المصرية" }
+region: { en: "Egypt", ar: "مصر" }
+script: arab
+codes: { bcp47: arz }
+reviewers: []   # needs a native reviewer
+status: proposed

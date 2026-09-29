@@ -1,0 +1,8 @@
+id: de-de
+parent: de
+name: { en: "German (Germany)", ar: "الألمانية (ألمانيا)" }
+region: { en: "Germany", ar: "ألمانيا" }
+script: latn
+codes: { bcp47: de-DE }
+reviewers: []   # needs a native reviewer
+status: proposed

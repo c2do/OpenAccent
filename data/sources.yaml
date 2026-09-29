@@ -15,10 +15,15 @@ allowed:
     url: https://sina.birzeit.edu/currasat/
     attribution: "Jarrar et al. (2017), Curras: an annotated corpus for the Palestinian Arabic dialect"
   wiktionary:
-    title: Wiktionary (via kaikki.org / wiktextract)
+    title: Wiktionary (English edition), machine-readable via wiktextract / kaikki.org
     license: CC-BY-SA-4.0
     url: https://en.wiktionary.org
-    attribution: Wiktionary contributors
+    attribution: Wiktionary contributors; extracted with wiktextract (Tatu Ylonen), https://kaikki.org
+  frequencywords:
+    title: FrequencyWords (OpenSubtitles 2018 word frequencies), used only to rank words
+    license: CC-BY-SA-4.0
+    url: https://github.com/hermitdave/FrequencyWords
+    attribution: Hermit Dave
   tatoeba:
     title: Tatoeba example sentences
     license: CC-BY-2.0-FR
@@ -37,6 +42,10 @@ blocked:
   qabas: CC BY-ND 4.0 (no derivatives) — link to IDs only, never copy data.
   padic: GPLv3 — incompatible with CC BY-SA data.
   dare: Dictionary of American Regional English — copyrighted.
+  doda: Darija Open Dataset — CC BY-NC 4.0 (non-commercial), incompatible with CC BY-SA.
+  kenet: Turkish WordNet — GPL-3.0, incompatible (and derived from the TDK dictionary).
+  hindi-wordnet: IndoWordNet / Hindi WordNet — GFDL, incompatible with CC BY-SA.
+  openthesaurus: LGPL — poor fit for CC BY-SA data.
 
 # Licenses still to confirm before any use:
 unconfirmed:

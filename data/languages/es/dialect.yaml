@@ -1,0 +1,6 @@
+id: es
+name: { en: Spanish, ar: الإسبانية }
+script: latn
+codes: { bcp47: es, iso639_3: spa, glottocode: stan1288 }
+reviewers: []
+status: proposed

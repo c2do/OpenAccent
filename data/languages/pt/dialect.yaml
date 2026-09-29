@@ -1,0 +1,6 @@
+id: pt
+name: { en: Portuguese, ar: البرتغالية }
+script: latn
+codes: { bcp47: pt, iso639_3: por, glottocode: port1283 }
+reviewers: []
+status: proposed

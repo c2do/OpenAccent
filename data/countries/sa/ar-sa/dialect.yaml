@@ -1,0 +1,8 @@
+id: ar-sa
+parent: ar-gulf
+name: { en: "Saudi Arabic", ar: "العربية السعودية" }
+region: { en: "Saudi Arabia (Najdi, Hijazi and Gulf varieties)", ar: "السعودية (نجدي وحجازي وخليجي)" }
+script: arab
+codes: { bcp47: ars }
+reviewers: []   # needs a native reviewer
+status: proposed

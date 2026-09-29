@@ -1,0 +1,6 @@
+id: tr
+name: { en: Turkish, ar: التركية }
+script: latn
+codes: { bcp47: tr, iso639_3: tur, glottocode: nucl1301 }
+reviewers: []
+status: proposed

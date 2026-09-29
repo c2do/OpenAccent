@@ -1,0 +1,6 @@
+id: de
+name: { en: German, ar: الألمانية }
+script: latn
+codes: { bcp47: de, iso639_3: deu, glottocode: stan1295 }
+reviewers: []
+status: proposed

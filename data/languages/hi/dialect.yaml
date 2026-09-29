@@ -1,0 +1,6 @@
+id: hi
+name: { en: Hindi, ar: الهندية }
+script: deva
+codes: { bcp47: hi, iso639_3: hin, glottocode: hind1269 }
+reviewers: []
+status: proposed
