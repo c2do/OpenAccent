@@ -127,6 +127,8 @@ export class Dictionary {
   private readonly glossTokenIndex: Record<Lang, Index> = { ar: new Map(), en: new Map() };
   private readonly glossPartIndex: Record<Lang, Index> = { ar: new Map(), en: new Map() };
   private readonly branches = new Map<string, string[]>();
+  /** Words in the longest entry (after normalization), so phrase checks know how far to look. */
+  readonly maxPhraseTokens: number;
   private conceptIndex?: Map<string, { cid: string; order: number }>;
 
   /** One normalizer per dialect and level, since rules depend on the dialect's language. */
@@ -151,6 +153,7 @@ export class Dictionary {
         },
       };
     });
+    let longest = 1;
     for (const ix of this.indexed) {
       const { entry } = ix;
       this.byId.set(entry.id, ix);
@@ -162,6 +165,7 @@ export class Dictionary {
       for (const key of ix.fuzzyKeys) push(this.fuzzyIndex, key, ix);
       for (const key of ix.romanKeys) push(this.romanIndex, key, ix);
       push(this.writtenIndex, normalize(entry.word, ix.script), ix);
+      for (const key of ix.wordKeys) longest = Math.max(longest, key.split(' ').length);
       for (const lang of ['ar', 'en'] as const) {
         for (const g of ix.glosses[lang]) {
           for (const t of g.tokens) push(this.glossTokenIndex[lang], t, ix);
@@ -169,6 +173,7 @@ export class Dictionary {
         }
       }
     }
+    this.maxPhraseTokens = longest;
   }
 
   /**

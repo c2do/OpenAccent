@@ -134,7 +134,7 @@ describe('openaccent_check_reply', () => {
   it('flags other-dialect words with a suggestion', async () => {
     await setFallahi();
     const r = await h.call('openaccent_check_reply', { text: 'دلوقتي بجيك' });
-    expect(r.data.issues[0]).toMatchObject({ text: 'دلوقتي', kind: 'other_dialect', suggestion: 'هسّع' });
+    expect(r.data.issues[0]).toMatchObject({ text: 'دلوقتي', kind: 'other_dialect', suggestion: 'هسّع', start: expect.any(Number), end: expect.any(Number) });
     expect(r.text).toContain('→ use **هسّع**');
   });
 

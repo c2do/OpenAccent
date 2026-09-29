@@ -112,6 +112,12 @@ export function fixtureBundle(): Bundle {
       e('en-us-south/yall', { word: "y'all", meanings: [{ en: 'you all; you (plural)' }], familiarity: 'regional' }),
       e('en-us-general/you-guys', { word: 'you guys', type: 'phrase', meanings: [{ en: 'you all; you (plural)' }] }),
       e('en-us-general/color', { word: 'color', meanings: [{ en: 'color' }] }),
+      e('en-us-general/end-of-the-day', {
+        word: 'at the end of the day',
+        type: 'phrase',
+        meanings: [{ en: 'ultimately' }],
+        familiarity: 'dated',
+      }),
       e('fr-fr/amour', { word: 'amour', meanings: [{ en: 'love' }] }),
       e('es-mx/ano-year', { word: 'año', meanings: [{ en: 'year' }] }),
       e('en-us-general/delve', {

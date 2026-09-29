@@ -277,12 +277,12 @@ All tools are prefixed `openaccent_`, accept Arabic, English and Arabizi, and re
 
 It works at the word level, from data we already have. It needs no conversation state and no LLM call:
 
-1. Tokenize the reply and look up each token (and 2–3-word phrases) with the normal search keys.
+1. Tokenize the reply (words with their offsets) and look up each word and phrase with the normal search keys, longest phrase first. Phrases are checked up to the length of the longest entry in the dictionary or in the user's memory, so a new long phrase needs no code change. When the whole word is unknown, a conservative clitic reading is tried: Arabic و/ف + ب/ل/ك + ال (وبالحاكورة → حاكورة, للبيت → البيت), French elision (l'amour → amour) and English possessive 's. The whole word always wins over a reading. This is not a morphological analyzer.
 2. Flag a match whose dialect is **outside** the user's dialect branch (neither the dialect nor its ancestors), when the user's branch has an equivalent (via `related` or a shared gloss).
 3. Flag `familiarity: rare | dated`.
 4. Flag words that appear as `wrong` in personal corrections or `instead_of` in personal words. This is how "don't switch back to the word I replaced" works.
 
-The output is a list of `{ word, reason, suggestion }` plus a one-line verdict. Limits: it cannot judge grammar or tone. The dialect guide covers those.
+The output is a list of `{ text, start, end, kind, reason, suggestion }`, one per occurrence in reading order, plus a one-line verdict. `text === reply.slice(start, end)`, with offsets as JavaScript string indexes (UTF-16 code units). Limits: it cannot judge grammar or tone. The dialect guide covers those.
 
 ### Why tools, not server instructions
 
