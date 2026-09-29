@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+import { CURRENT_MEMORY_VERSION } from '../../src/core/memory/index.js';
 import { DialectSchema, EntrySchema, MemorySchema } from '../../src/core/schema.js';
 
 const validEntry = {
@@ -103,14 +104,14 @@ describe('DialectSchema', () => {
 
 describe('MemorySchema', () => {
   it('parses an empty memory with defaults', () => {
-    const m = MemorySchema.parse({ version: 1 });
-    expect(m).toEqual({ version: 1, profile: {}, words: [], corrections: [], style: [] });
+    const m = MemorySchema.parse({ version: CURRENT_MEMORY_VERSION });
+    expect(m).toEqual({ version: 2, profile: { dialects: [] }, words: [], corrections: [], style: [], voice: { messages: 0, words: 0, latin: 0, emoji: 0, mixed: 0, dialects: {}, own: [] } });
   });
 
   it('parses items', () => {
     const now = '2026-09-29T00:00:00.000Z';
     const m = MemorySchema.parse({
-      version: 1,
+      version: CURRENT_MEMORY_VERSION,
       profile: { dialect: 'ar-ps-fallahi' },
       words: [{ id: 'w1', say: 'هسّا', instead_of: 'هلأ', created_at: now }],
       corrections: [{ id: 'c1', wrong: 'كويس', right: 'منيح', created_at: now }],
@@ -120,7 +121,7 @@ describe('MemorySchema', () => {
   });
 
   it('rejects an unknown version with a clear message', () => {
-    const r = MemorySchema.safeParse({ version: 2 });
+    const r = MemorySchema.safeParse({ version: 99 });
     expect(r.success).toBe(false);
     expect(JSON.stringify(r.error?.issues)).toContain('Unsupported memory file version');
   });

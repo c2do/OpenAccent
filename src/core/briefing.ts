@@ -2,6 +2,7 @@ import type { Dictionary } from './dictionary.js';
 import { mergedGuide } from './guides.js';
 import { displayName } from './names.js';
 import type { BriefingResult } from './results.js';
+import { describeVoice } from './voice.js';
 import type { Memory } from './schema.js';
 
 /** The briefing: structured data (see BriefingResultSchema) plus markdown for the model to read. */
@@ -50,6 +51,12 @@ export function buildBriefing(dict: Dictionary, memory: Memory): Briefing {
     }`,
   );
   if (memory.profile.notes) lines.push(`**Notes:** ${memory.profile.notes}`);
+  const also = memory.profile.dialects.map((d) => dict.getDialect(d)).filter((d) => d !== undefined);
+  if (also.length) {
+    lines.push(
+      `**Also speaks:** ${also.map((d) => `${displayName(d)} (\`${d.id}\`)`).join(', ')}. Words from these are theirs too: follow their lead on when to use them.`,
+    );
+  }
   lines.push('Stay in this dialect for the whole conversation. Tools default to it.');
 
   if (memory.words.length || memory.corrections.length || memory.style.length) {
@@ -62,6 +69,8 @@ export function buildBriefing(dict: Dictionary, memory: Memory): Briefing {
     }
     for (const s of memory.style) lines.push(`- Style: ${s.text}`);
   }
+
+  lines.push(...(describeVoice(dict, memory.voice).length ? ['', ...describeVoice(dict, memory.voice)] : []));
 
   // Core words: the everyday words that give a dialect away. Personal words above still win.
   const core = dict.coreWords(dialect.id).slice(0, 60);
@@ -107,7 +116,7 @@ export function buildBriefing(dict: Dictionary, memory: Memory): Briefing {
     '',
     '## How to use OpenAccent',
     '- Unsure about a word? `openaccent_lookup` (word → meaning) or `openaccent_express` (meaning → word).',
-    '- Before sending a reply in dialect, run `openaccent_check_reply` on it.',
+    '- Before sending a reply in dialect, run `openaccent_check_reply` on it, with the user’s last message as `user_message` so OpenAccent keeps learning how they speak.',
     '- When the user corrects your dialect, save it with `openaccent_remember` right away.',
     '- Writing a story, song, script or game with characters from other places? Get a card per dialect with `openaccent_dialect_card`.',
   );

@@ -13,6 +13,8 @@ import {
 } from 'node:fs';
 import { homedir } from 'node:os';
 import { dirname, join } from 'node:path';
+import type { Dictionary } from '../dictionary.js';
+import { observeMessage } from '../voice.js';
 import { MemoryVersionError, migrateMemory, type MigrationResult } from './migrate.js';
 import {
   CURRENT_MEMORY_VERSION,
@@ -79,12 +81,24 @@ function checkRoom(list: 'words' | 'corrections' | 'style', memory: Memory): voi
 export class FileMemoryStore implements MemoryStore {
   readonly warnings: string[] = [];
 
+  private readonly now: () => Date;
+  private readonly migrate: (raw: unknown) => MigrationResult;
+  /** Needed to learn from the user's messages (which words belong to which dialect). */
+  private readonly dictionary?: Dictionary;
+
   constructor(
     readonly path: string,
-    private readonly now: () => Date = () => new Date(),
-    /** Replaceable in tests, to exercise migrations before a real version 2 exists. */
-    private readonly migrate: (raw: unknown) => MigrationResult = migrateMemory,
-  ) {}
+    opts: {
+      now?: () => Date;
+      /** Replaceable in tests, to exercise migrations. */
+      migrate?: (raw: unknown) => MigrationResult;
+      dictionary?: Dictionary;
+    } = {},
+  ) {
+    this.now = opts.now ?? (() => new Date());
+    this.migrate = opts.migrate ?? migrateMemory;
+    this.dictionary = opts.dictionary;
+  }
 
   /** Set when the file comes from a newer OpenAccent: memory is read-only so the file is never overwritten. */
   private blocked?: string;
@@ -126,6 +140,12 @@ export class FileMemoryStore implements MemoryStore {
     switch (input.kind) {
       case 'profile': {
         const { kind: _kind, ...fields } = input;
+        if (fields.dialects) {
+          fields.dialects = [...new Set(fields.dialects)].filter((d) => d !== (fields.dialect ?? memory.profile.dialect));
+          if (fields.dialects.length > MEMORY_LIMITS.items.dialects) {
+            throw new MemoryLimitError(`Memory keeps at most ${MEMORY_LIMITS.items.dialects} other dialects.`);
+          }
+        }
         memory.profile = { ...memory.profile, ...fields };
         result = { item: { id: 'profile', ...memory.profile }, created: false };
         break;
@@ -178,6 +198,17 @@ export class FileMemoryStore implements MemoryStore {
     return result;
   }
 
+  observe(text: string): Memory['voice'] {
+    if (!this.dictionary) return this.read().voice;
+    const dict = this.dictionary;
+    return this.withLock(() => {
+      const memory = this.read();
+      memory.voice = observeMessage(dict, memory, text, this.now());
+      this.write(memory);
+      return memory.voice;
+    });
+  }
+
   forget(input: ForgetInput): MemoryItem[] {
     return this.withLock(() => this.forgetLocked(input));
   }
@@ -200,12 +231,16 @@ export class FileMemoryStore implements MemoryStore {
     memory.words = keep(memory.words, (w) => [w.say, w.instead_of, w.meaning]);
     memory.corrections = keep(memory.corrections, (c) => [c.wrong, c.right, c.context]);
     memory.style = keep(memory.style, (s) => [s.text]);
-    if ((input.profile || ids.has('profile')) && Object.keys(memory.profile).length > 0) {
+    const { dialect, dialects, region, notes } = memory.profile;
+    const hasProfile = Boolean(dialect || region || notes || dialects.length);
+    if ((input.profile || ids.has('profile')) && hasProfile) {
       removed.push({ id: 'profile', ...memory.profile });
-      memory.profile = {};
+      memory.profile = { dialects: [] };
     }
 
-    if (removed.length > 0) this.write(memory);
+    const learned = memory.voice.messages > 0;
+    if (input.voice && learned) memory.voice = MemorySchema.shape.voice.parse({});
+    if (removed.length > 0 || (input.voice && learned)) this.write(memory);
     return removed;
   }
 

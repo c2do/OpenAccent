@@ -5,7 +5,7 @@ import fc from 'fast-check';
 import { describe, expect, it } from 'vitest';
 import { checkReply } from '../../src/core/check.js';
 import { Dictionary } from '../../src/core/dictionary.js';
-import { FileMemoryStore, MemorySchema } from '../../src/core/memory/index.js';
+import { CURRENT_MEMORY_VERSION, FileMemoryStore, MemorySchema } from '../../src/core/memory/index.js';
 import { CheckResultSchema } from '../../src/core/results.js';
 import { fixtureBundle } from '../fixtures/bundle.js';
 import { messyText, RUNS } from './arbitraries.js';
@@ -31,7 +31,7 @@ const memory = fc
   })
   .map(({ corrections, words }) =>
     MemorySchema.parse({
-      version: 1,
+      version: CURRENT_MEMORY_VERSION,
       corrections: corrections.filter((c) => c.wrong.length > 0).map((c, i) => ({ id: `c${i + 1}`, ...c, created_at: now })),
       words: words.filter((w) => w.say.length > 0).map((w, i) => ({ id: `w${i + 1}`, ...w, created_at: now })),
     }),
@@ -56,7 +56,7 @@ describe('checkReply', () => {
 
   it('finds issues in these generated replies (the property above is not vacuous)', () => {
     const samples = fc.sample(reply, { numRuns: 200, seed: 42 });
-    const withIssues = samples.filter((t) => checkReply(dict, MemorySchema.parse({ version: 1 }), t, 'ar-ps-fallahi').issues.length > 0);
+    const withIssues = samples.filter((t) => checkReply(dict, MemorySchema.parse({ version: CURRENT_MEMORY_VERSION }), t, 'ar-ps-fallahi').issues.length > 0);
     expect(withIssues.length).toBeGreaterThan(20);
   });
 });

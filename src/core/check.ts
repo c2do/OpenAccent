@@ -19,7 +19,9 @@ export function checkReply(
   opts: { purpose?: Purpose } = {},
 ): CheckResult {
   const purpose = opts.purpose ?? 'chat';
-  const branch = dict.branch(dialect);
+  // Someone who speaks several dialects: words from any of them are theirs, not mistakes.
+  const also = dialect === memory.profile.dialect ? memory.profile.dialects.filter((d) => dict.getDialect(d)) : [];
+  const branch = [...new Set([dialect, ...also].flatMap((d) => dict.branch(d)))];
   const norm = dict.normalizer(dialect);
   const script = dict.getDialect(dialect)?.script ?? 'arab';
   const language = languageOf(dialect);
@@ -34,6 +36,8 @@ export function checkReply(
     memory.words.filter((w) => w.instead_of).map((w) => [norm(w.instead_of!), w]),
   );
   const ownWords = new Set(memory.words.map((w) => norm(w.say)));
+  // Words the user keeps writing themselves are theirs too (learned from their messages).
+  for (const o of memory.voice.own) if (o.count >= 2) ownWords.add(o.word);
   const known = (form: string) =>
     corrections.has(form) || replaced.has(form) || ownWords.has(form) || dict.findByForm(form, dialect).length > 0;
 

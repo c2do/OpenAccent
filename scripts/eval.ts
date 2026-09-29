@@ -22,6 +22,7 @@ import { z } from 'zod';
 import { buildBriefing } from '../src/core/briefing.js';
 import { checkReply } from '../src/core/check.js';
 import { Dictionary } from '../src/core/dictionary.js';
+import { CURRENT_MEMORY_VERSION } from '../src/core/memory/index.js';
 import { MemorySchema } from '../src/core/schema.js';
 import { buildBundle } from './build-data.js';
 
@@ -57,7 +58,7 @@ export interface ReplyRecord {
 
 /** Word-level score of one reply against a dialect. */
 export function scoreReply(dict: Dictionary, dialect: string, reply: string): ReplyScore {
-  const memory = MemorySchema.parse({ version: 1, profile: { dialect } });
+  const memory = MemorySchema.parse({ version: CURRENT_MEMORY_VERSION, profile: { dialect } });
   const { issues } = checkReply(dict, memory, reply, dialect);
   const norm = dict.normalizer(dialect);
   const text = ` ${norm(reply)} `;
@@ -151,7 +152,7 @@ export function loadEvalSets(dir: string, wanted?: string[]): EvalSet[] {
 
 /** The system prompt a user of this dialect would get from OpenAccent. */
 export function openAccentSystem(dict: Dictionary, dialect: string): string {
-  return buildBriefing(dict, MemorySchema.parse({ version: 1, profile: { dialect } })).text;
+  return buildBriefing(dict, MemorySchema.parse({ version: CURRENT_MEMORY_VERSION, profile: { dialect } })).text;
 }
 
 async function ask(client: Anthropic, model: string, effort: string, prompt: string, system?: string): Promise<string> {

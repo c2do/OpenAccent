@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { buildBriefing, profileFooter } from '../../src/core/briefing.js';
 import { Dictionary } from '../../src/core/dictionary.js';
 import { mergedGuide, parseGuide } from '../../src/core/guides.js';
+import { CURRENT_MEMORY_VERSION } from '../../src/core/memory/index.js';
 import { MemorySchema } from '../../src/core/schema.js';
 import { fixtureBundle } from '../fixtures/bundle.js';
 
@@ -64,7 +65,7 @@ describe('mergedGuide', () => {
 
 describe('buildBriefing', () => {
   it('asks for onboarding when there is no profile', () => {
-    const b = buildBriefing(dict, MemorySchema.parse({ version: 1 }));
+    const b = buildBriefing(dict, MemorySchema.parse({ version: CURRENT_MEMORY_VERSION }));
     expect(b.onboarding).toBe(true);
     expect(b.text).toMatch(/Ask the user/);
     expect(b.text).toContain('openaccent_remember');
@@ -73,7 +74,7 @@ describe('buildBriefing', () => {
 
   it('includes profile, merged guide, and personal memory', () => {
     const memory = MemorySchema.parse({
-      version: 1,
+      version: CURRENT_MEMORY_VERSION,
       profile: { dialect: 'ar-ps-fallahi', region: 'قرى رام الله' },
       words: [{ id: 'w1', say: 'هسّا', instead_of: 'هلأ', meaning: 'now', created_at: now }],
       corrections: [{ id: 'c1', wrong: 'كويس', right: 'منيح', created_at: now }],
@@ -100,7 +101,7 @@ describe('buildBriefing', () => {
   });
 
   it('warns and onboards when the profile dialect no longer exists', () => {
-    const b = buildBriefing(dict, MemorySchema.parse({ version: 1, profile: { dialect: 'ar-zz' } }));
+    const b = buildBriefing(dict, MemorySchema.parse({ version: CURRENT_MEMORY_VERSION, profile: { dialect: 'ar-zz' } }));
     expect(b.onboarding).toBe(true);
     expect(b.text).toContain('"ar-zz"');
   });
@@ -109,7 +110,7 @@ describe('buildBriefing', () => {
 describe('profileFooter', () => {
   it('shows the dialect and the latest 3 corrections in one short line', () => {
     const memory = MemorySchema.parse({
-      version: 1,
+      version: CURRENT_MEMORY_VERSION,
       profile: { dialect: 'ar-ps-fallahi' },
       corrections: ['أ', 'ب', 'ت', 'ث'].map((w, i) => ({ id: `c${i + 1}`, wrong: w, right: `${w}${w}`, created_at: now })),
     });
@@ -122,6 +123,6 @@ describe('profileFooter', () => {
   });
 
   it('points to the briefing when there is no profile', () => {
-    expect(profileFooter(MemorySchema.parse({ version: 1 }))).toContain('openaccent_get_briefing');
+    expect(profileFooter(MemorySchema.parse({ version: CURRENT_MEMORY_VERSION }))).toContain('openaccent_get_briefing');
   });
 });
