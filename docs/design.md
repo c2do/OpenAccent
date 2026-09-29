@@ -156,7 +156,8 @@ notes: ""
 status: draft                  # draft | verified | disputed
 verified_by: []                # GitHub handles of native-speaker reviewers
 source:
-  kind: ai-draft               # maknuune | contributor | ai-draft | reviewer
+  kind: ai-draft               # ai-draft | contributor | reviewer | dataset
+  name: ""                     # dataset name from data/sources.yaml (required when kind is dataset), e.g. maknuune
   ref: ""                      # e.g. Maknuune entry ID
   license: CC-BY-SA-4.0
 added_by: ""
@@ -288,7 +289,7 @@ Form rules:
 
 1. **Dialect tree:** `ar`, `ar-levantine`, `ar-ps` and the four Palestinian children. Only `ar-ps-fallahi` is `active`, with reviewer @c2do.
 2. **Maknuune import.** Maknuune is an open Palestinian lexicon from CAMeL Lab, NYU Abu Dhabi.
-   - The import goes into `ar-ps` as `draft`, `source.kind: maknuune`, and must credit the source.
+   - The import goes into `ar-ps` as `draft`, `source: {kind: dataset, name: maknuune}`, and must credit the source.
    - Its license (CC BY-SA 4.0) must be **confirmed on the official download page before importing**.
    - The import is a curated subset of ≤2,000 entries: the most common ones, preferring entries with examples. A full import can come later.
 3. **Fallahi drafts from Claude:** about 150 fallahi-specific words and phrases, `source.kind: ai-draft`, `draft`.
@@ -338,7 +339,7 @@ Normalization is chosen by the dialect's `script`. Every entry is indexed under 
 
 - **Code:** MIT (`LICENSE`).
 - **Data:** CC BY-SA 4.0 (`data/LICENSE`). This is required to include Maknuune and Wiktionary-derived content.
-- Every entry records `source.kind` and `source.license`. Contributors agree through the issue-form checkbox, and PR authors through a DCO sign-off.
+- Every entry records `source.kind` (plus `source.name` for datasets) and `source.license`. Contributors agree through the issue-form checkbox, and PR authors through a DCO sign-off.
 
 ## 11. Testing and success criteria
 
