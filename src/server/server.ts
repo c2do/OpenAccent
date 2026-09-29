@@ -1,6 +1,7 @@
 import { McpServer } from '@modelcontextprotocol/server';
 import type { ServerContext } from './context.js';
 import { registerCheckReply } from './tools/check-reply.js';
+import { registerExportPrompt } from './tools/export-prompt.js';
 import { registerExpress } from './tools/express.js';
 import { registerForget } from './tools/forget.js';
 import { registerGetBriefing } from './tools/get-briefing.js';
@@ -31,5 +32,6 @@ export function createServer(ctx: ServerContext): McpServer {
   registerForget(server, ctx);
   registerSuggestEntry(server, ctx);
   registerCheckReply(server, ctx);
+  registerExportPrompt(server, ctx);
   return server;
 }
