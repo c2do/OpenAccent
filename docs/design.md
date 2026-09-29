@@ -397,7 +397,8 @@ Normalization is chosen by the dialect's `script`. Every entry is indexed under 
 |---|---|
 | **v0.1** | Data format and validator, issue forms and bot, Maknuune subset import, ~150 fallahi drafts + fallahi guide, ~150 General American drafts + guide, 8-tool stdio server (incl. `check_reply`), file memory, `.mcpb` |
 | **v0.2** | 200 verified fallahi entries; first native American reviewer; reviewers for madani, khalili and gazawi; behavioural eval run; tool polish from eval findings |
-| **v0.3** | Remote HTTP server for Claude web/mobile; OAuth memory; simple website that files issues for people without GitHub |
+| **v0.3** | Portable prompt (done early, local: `openaccent-mcp export <dialect>` and the `openaccent_export_prompt` tool). **Owner decision (2026-09-29): v1 stays local**, so no server and no website yet |
+| Later | Remote HTTP server for Claude web/mobile; OAuth memory; a simple website for contributors without GitHub |
 | After v0.2 | "Hook" features that make people *want* to use it, chosen from `docs/ideas.md` once the base is proven |
 | Later | Consented audio pronunciations; other languages' dialects; `openaccent_verify` flow for reviewers from chat |
 

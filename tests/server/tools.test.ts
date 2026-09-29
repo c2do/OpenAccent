@@ -10,10 +10,11 @@ afterEach(async () => h.close());
 const setFallahi = () => h.call('openaccent_remember', { kind: 'profile', dialect: 'ar-ps-fallahi' });
 
 describe('server', () => {
-  it('lists the 8 tools with annotations', async () => {
+  it('lists the 9 tools with annotations', async () => {
     const { tools } = await h.client.listTools();
     expect(tools.map((t) => t.name).sort()).toEqual([
       'openaccent_check_reply',
+      'openaccent_export_prompt',
       'openaccent_express',
       'openaccent_forget',
       'openaccent_get_briefing',
@@ -138,5 +139,16 @@ describe('openaccent_check_reply', () => {
 
   it('needs a dialect when there is no profile', async () => {
     expect((await h.call('openaccent_check_reply', { text: 'hi' })).isError).toBe(true);
+  });
+});
+
+describe('openaccent_export_prompt', () => {
+  it('returns a portable prompt for the profile dialect', async () => {
+    await setFallahi();
+    await h.call('openaccent_remember', { kind: 'correction', wrong: 'كويس', right: 'منيح' });
+    const r = await h.call('openaccent_export_prompt');
+    expect(r.data.dialect).toBe('ar-ps-fallahi');
+    expect(r.data.text).toContain('"منيح" not "كويس"');
+    expect(r.data.text.length).toBeLessThanOrEqual(1500);
   });
 });
