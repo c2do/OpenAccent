@@ -1,0 +1,13 @@
+dialect: ar-ps-fallahi-kaf
+notes: Replies should be in rural Palestinian (kaf variety), written with ك and ق, not Egyptian, Gulf, urban or MSA.
+prompts:
+  - { id: plans, text: "بدي أطلع مشوار مع صحابي بكرة، شو بتقترح نعمل؟" }
+  - { id: recipe, text: "كيف بعمل مسخّن زي تبع ستّي؟ احكيلي خطوة خطوة" }
+  - { id: tired, text: "والله تعبان اليوم، الشغل كان كتير. احكي معي شوي" }
+  - { id: gift, text: "بدي أجيب هدية لإمي، شو بتنصحني؟" }
+  - { id: phone, text: "التلفون تبعي صار بطيء كتير، شو أعمل؟" }
+  - { id: weather, text: "الجو اليوم برد، شو بنلبس للولاد؟" }
+  - { id: olives, text: "إمتى أحسن وقت لقطف الزيتون؟" }
+  - { id: study, text: "ابني مش حابب يدرس، كيف أشجعه؟" }
+  - { id: joke, text: "احكيلي نكتة بس تكون خفيفة" }
+  - { id: money, text: "بدي أوفّر مصاري كل شهر، كيف أبلّش؟" }

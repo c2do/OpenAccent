@@ -1,0 +1,13 @@
+dialect: en-us-general
+notes: Replies should sound like everyday American English, not British (mobile, flat, mate) and not AI-speak (delve, tapestry).
+prompts:
+  - { id: plans, text: "Want to hang out with some friends tomorrow, any ideas?" }
+  - { id: recipe, text: "How do I make pancakes from scratch? Walk me through it" }
+  - { id: tired, text: "I'm beat, work was rough today. Just talk to me for a bit" }
+  - { id: gift, text: "Need a gift for my mom, what should I get her?" }
+  - { id: phone, text: "My phone's gotten super slow, what do I do?" }
+  - { id: weather, text: "It's freezing out, what should the kids wear?" }
+  - { id: traffic, text: "Traffic's awful, how do I get to work faster?" }
+  - { id: study, text: "My kid doesn't want to study, how do I motivate him?" }
+  - { id: joke, text: "Tell me a joke, something light" }
+  - { id: money, text: "I want to save money every month, how do I start?" }

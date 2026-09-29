@@ -1,0 +1,55 @@
+name: Eval (does OpenAccent help?)
+
+# Asks Claude every eval prompt twice — without and with the OpenAccent briefing — and scores the
+# replies. Costs API money: runs only when started by hand, and needs the ANTHROPIC_API_KEY secret.
+on:
+  workflow_dispatch:
+    inputs:
+      dialects:
+        description: Comma-separated dialect IDs (empty = every file in evals/prompts)
+        default: ''
+      model:
+        description: Claude model
+        default: claude-opus-5-5
+      effort:
+        description: Effort (low | medium | high)
+        default: low
+
+permissions:
+  contents: read
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    defaults:
+      run:
+        shell: bash
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      DIALECTS: ${{ inputs.dialects }}
+      MODEL: ${{ inputs.model }}
+      EFFORT: ${{ inputs.effort }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - name: Check the API key is set
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::error::Add an ANTHROPIC_API_KEY repository secret (Settings → Secrets and variables → Actions)."
+            exit 1
+          fi
+      - name: Run
+        run: |
+          args=(--model "$MODEL" --effort "$EFFORT")
+          if [ -n "$DIALECTS" ]; then args+=(--dialects "$DIALECTS"); fi
+          npx tsx scripts/eval.ts "${args[@]}"
+          cat evals/results/*.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eval-results
+          path: evals/results/
