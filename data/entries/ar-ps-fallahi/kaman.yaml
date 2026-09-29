@@ -1,17 +1,21 @@
-word: تشمان
+word: كمان
 dialect: ar-ps-fallahi
 type: word
+spellings:
+- تشمان
 romanized:
 - tshman
 - chman
+pronunciation:
+  simple: تشمان
 meanings:
 - ar: كمان، أيضاً
   en: also, too
   examples:
-  - text: وأنا تشمان بدّي أجي
+  - text: وأنا كمان بدّي أجي
 register: casual
 familiarity: common
-notes: كمان with ك→تش.
+notes: Written كمان, pronounced تشمان (ك is pronounced تش). In writing, use كمان.
 status: draft
 verified_by: []
 source:

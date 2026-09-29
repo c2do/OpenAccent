@@ -166,6 +166,7 @@ added_by: ""
 **Rules**
 
 - Required fields: `word`, `dialect`, `type`, `status`, `source`, and at least one meaning with `ar` or `en`.
+- **`word` is the written form**, the way native speakers write it in chat. How it sounds goes in `pronunciation`. Example: fallahi speakers say "تشيف" but write كيف, so `word: كيف`, `pronunciation.simple: تشيف`, and `تشيف` is listed in `spellings` so search still finds it. (Owner review, 2026-09-29.)
 - `status: verified` requires at least one handle in `verified_by`, and that handle must be listed in the dialect's `reviewers`. CI enforces this.
 - **Tools never present `draft` as fact.** Draft results are labeled "unverified" and ranked below verified ones.
 - `familiarity` defaults to `common`. Tools warn when a reply uses `rare` or `dated` words.

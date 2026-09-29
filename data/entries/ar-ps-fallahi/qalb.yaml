@@ -1,0 +1,22 @@
+word: قلب
+dialect: ar-ps-fallahi
+type: word
+spellings:
+- كلب
+romanized:
+- kalb
+pronunciation:
+  simple: كلب
+meanings:
+- ar: قلب
+  en: heart
+  examples:
+  - text: قلبي معك
+register: casual
+familiarity: common
+notes: Written قلب, pronounced كلب (ق is pronounced ك). In writing, use قلب. A dog
+  is كلب, pronounced تشلب.
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

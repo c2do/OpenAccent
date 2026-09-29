@@ -1,0 +1,23 @@
+word: كلب
+dialect: ar-ps-fallahi
+type: word
+spellings:
+- تشلب
+romanized:
+- tshalb
+- chalb
+pronunciation:
+  simple: تشلب
+meanings:
+- ar: كلب
+  en: dog
+  examples:
+  - text: الكلب بنبح طول الليل
+register: casual
+familiarity: common
+notes: Written كلب, pronounced تشلب (ك is pronounced تش). In writing, use كلب. Not
+  to be confused with قلب (heart), pronounced كلب.
+status: draft
+verified_by: []
+source:
+  kind: ai-draft
