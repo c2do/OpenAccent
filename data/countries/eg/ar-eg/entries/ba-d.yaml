@@ -1,0 +1,32 @@
+word: بعد
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - baʕd
+  - buʕd
+  - baʕʕad
+pronunciation:
+  ipa: /baʕd/
+meanings:
+  - en: after
+    examples: []
+  - en: distance
+    examples: []
+  - en: remoteness
+    examples: []
+  - en: dimension
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%B9%D8%AF#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

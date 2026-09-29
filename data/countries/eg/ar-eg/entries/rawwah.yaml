@@ -1,0 +1,31 @@
+word: روح
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - rawwaḥ
+  - rōḥ
+pronunciation:
+  ipa: /rawwaħ/
+meanings:
+  - en: to (literally) go home, to return home
+    examples: []
+  - en: to bring home, to get home (verbal noun ترويح (tarwīḥ))
+    examples: []
+  - en: spirit; soul
+    examples: []
+  - en: spirit; ghost
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B1%D9%88%D8%AD#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: مرة
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - marra
+  - mara
+pronunciation:
+  ipa: /mar.ra/
+meanings:
+  - en: a time
+    examples: []
+  - en: once
+    examples: []
+  - en: woman; broad, bitch
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%B1%D8%A9#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

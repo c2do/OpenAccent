@@ -1,0 +1,23 @@
+word: حاول
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ḥāwil
+part_of_speech: verb
+meanings:
+  - en: to try, to attempt
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D8%A7%D9%88%D9%84#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: ولد
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - walad
+  - wilid
+pronunciation:
+  ipa: /wa.lad/
+meanings:
+  - en: boy
+    examples: []
+  - en: to give birth, to bear
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88%D9%84%D8%AF#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

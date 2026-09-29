@@ -1,0 +1,25 @@
+word: مطعم
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - maṭʕam
+pronunciation:
+  ipa: "[mɑtˤ.ʕɑm]"
+part_of_speech: noun
+meanings:
+  - en: restaurant
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%B7%D8%B9%D9%85#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

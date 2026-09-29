@@ -1,0 +1,24 @@
+word: liga
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈliɡa/
+part_of_speech: noun
+meanings:
+  - en: hair tie, ponytail holder, ponytailer, hair elastic, bobble, hair boble
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/liga#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

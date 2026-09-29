@@ -1,0 +1,32 @@
+word: طول
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ṭūl
+  - ṭawwil
+  - ṭawwal
+pronunciation:
+  ipa: /tˤuːl/
+meanings:
+  - en: height, length
+    examples: []
+  - en: longitude
+    examples: []
+  - en: long duration
+    examples: []
+  - en: to lengthen
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B7%D9%88%D9%84#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

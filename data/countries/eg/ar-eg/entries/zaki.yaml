@@ -1,0 +1,25 @@
+word: ذكي
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - zaki
+pronunciation:
+  ipa: /za.ki/
+part_of_speech: adj
+meanings:
+  - en: intelligent
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B0%D9%83%D9%8A#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

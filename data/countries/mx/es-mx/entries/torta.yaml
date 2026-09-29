@@ -1,0 +1,24 @@
+word: torta
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtoɾta/
+part_of_speech: noun
+meanings:
+  - en: submarine sandwich
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/torta#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

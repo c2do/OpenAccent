@@ -1,0 +1,24 @@
+word: crucero
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɾuˈθeɾo/
+part_of_speech: noun
+meanings:
+  - en: crossing, crossroads, intersection (an intersection where roads cross)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/crucero#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

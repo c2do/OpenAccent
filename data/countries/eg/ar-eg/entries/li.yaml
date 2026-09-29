@@ -1,0 +1,34 @@
+word: ل
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - li-
+  - l-
+pronunciation:
+  ipa: /li/
+part_of_speech: prep
+meanings:
+  - en: to, towards
+    examples: []
+  - en: for
+    examples:
+      - text: عملت لأخويا كيكة
+        en: I made a cake for my brother
+  - en: "Marks the beneficiary of ditransitive verbs: to"
+    examples:
+      - text: قلت لأخويا
+        en: I told my brother
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

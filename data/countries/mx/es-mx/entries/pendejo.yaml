@@ -1,0 +1,27 @@
+word: pendejo
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /penˈdexo/
+meanings:
+  - en: stupid person, idiot
+    examples:
+      - text: Paco reprobó el examen porque es un pinche pendejo.
+        en: Paco failed the test because he's a fucking dumbass.
+  - en: stupid
+    examples: []
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pendejo#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

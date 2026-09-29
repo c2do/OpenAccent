@@ -1,0 +1,27 @@
+word: دم
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - damm
+pronunciation:
+  ipa: /damm/
+part_of_speech: noun
+meanings:
+  - en: blood
+    examples: []
+  - en: wit; tolerability (see usage notes)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AF%D9%85#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

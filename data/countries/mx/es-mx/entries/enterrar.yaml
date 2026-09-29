@@ -1,0 +1,24 @@
+word: enterrar
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /enteˈraɾ/
+part_of_speech: verb
+meanings:
+  - en: to stick (press something with a sharp point into something else)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/enterrar#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

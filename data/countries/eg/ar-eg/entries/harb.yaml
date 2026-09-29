@@ -1,0 +1,25 @@
+word: حرب
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ḥarb
+pronunciation:
+  ipa: /ħarb/
+part_of_speech: noun
+meanings:
+  - en: war
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D8%B1%D8%A8#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

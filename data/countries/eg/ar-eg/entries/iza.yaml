@@ -1,0 +1,34 @@
+word: إذا
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ʔiza
+  - ʔiða
+pronunciation:
+  ipa: /ʔi.za/
+part_of_speech: conj
+meanings:
+  - en: if
+    examples:
+      - text: إذا كان معاك فلوس سلفني خمسين جنيه
+        en: If you have some money, lend me fifty pounds.
+      - text: إذا مفيش مشكلة
+        en: If it's not a problem.
+  - en: whether, if
+    examples:
+      - text: اسأله إذا كان معاه سمك
+        en: Ask him whether he has fish.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A5%D8%B0%D8%A7#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

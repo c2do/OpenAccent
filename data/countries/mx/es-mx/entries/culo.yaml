@@ -1,0 +1,26 @@
+word: culo
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkulo/
+part_of_speech: adj
+meanings:
+  - en: cowardly, gutless
+    examples:
+      - text: Es bien culo.
+        en: He's so gutless.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/culo#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

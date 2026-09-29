@@ -1,0 +1,23 @@
+word: لون
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - lūn
+part_of_speech: noun
+meanings:
+  - en: color
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D9%88%D9%86#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

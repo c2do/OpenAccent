@@ -1,0 +1,27 @@
+word: bueno
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbweno/
+part_of_speech: intj
+meanings:
+  - en: expression used when answering the phone, often with the pronunciation
+      /bweˈno/, rather than /ˈbweno/
+    examples:
+      - text: ¿Bueno?
+        en: Hello?
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bueno#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

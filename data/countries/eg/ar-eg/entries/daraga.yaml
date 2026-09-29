@@ -1,0 +1,39 @@
+word: درجة
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - daraga
+pronunciation:
+  ipa: /ˈda.ra.ɡa/
+part_of_speech: noun
+meanings:
+  - en: step
+    examples: []
+  - en: grade
+    examples: []
+  - en: degree
+    examples:
+      - text: |-
+          روحي سيبي روحي لروحي
+          وضعي معاكي غير الاول
+          خلاص ده اللي بينا خلاص
+          ١٨٠ درجة اتحول
+        en: |-
+          Go leave my soul to myself.
+          My situation with you is different to how it was first
+          Enough, what was between us
+          Has turned 180 degrees
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AF%D8%B1%D8%AC%D8%A9#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

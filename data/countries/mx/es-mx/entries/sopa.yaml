@@ -1,0 +1,24 @@
+word: sopa
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈsopa/
+part_of_speech: noun
+meanings:
+  - en: noodles
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sopa#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

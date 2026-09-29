@@ -1,0 +1,26 @@
+word: padre
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpadɾe/
+part_of_speech: adj
+meanings:
+  - en: cool, acceptable, easy
+    examples:
+      - text: Está padre esa madre.
+        en: That thing is cool.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/padre#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

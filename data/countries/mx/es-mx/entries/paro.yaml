@@ -1,0 +1,34 @@
+word: paro
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpaɾo/
+part_of_speech: noun
+meanings:
+  - en: pretext
+    examples:
+      - text: Puros paros para no trabajar
+        en: Just pretexts for not working
+  - en: a favour, help, cover-up, (preceded by hacerle un, hacerme un, to indicate
+      "to do someone a favour", "to help someone", "to protect someone by
+      lying")
+    examples:
+      - text: Hazme un paro, no le digas que estoy aquí
+        en: Protect me, do not tell him/her that I am here
+      - text: Hazle un paro a Juan, tiene que meter todas esas cajas
+        en: Help Juan, he must store all those boxes
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/paro#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,33 @@
+word: قلب
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ʔalab
+  - ʔalb
+pronunciation:
+  ipa: /ʔælɐb/
+meanings:
+  - en: to flip, to turn over
+    examples: []
+  - en: heart
+    examples: []
+  - en: core, inside
+    examples: []
+  - en: in, inside
+    examples:
+      - text: في القلب في السرير
+        en: in the bed
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D9%84%D8%A8#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

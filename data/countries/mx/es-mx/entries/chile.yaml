@@ -1,0 +1,28 @@
+word: chile
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈt͡ʃile/
+part_of_speech: noun
+meanings:
+  - en: a chili pepper
+    examples: []
+  - en: penis
+    examples:
+      - text: Me duele el chile.
+        en: My dick hurts.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chile#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

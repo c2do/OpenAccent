@@ -1,0 +1,37 @@
+word: راس
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - rās
+pronunciation:
+  ipa: "[ɾɑːs]"
+part_of_speech: noun
+meanings:
+  - en: head (part of the body)
+    examples:
+      - text: مايعرفش راسه من رجليه.
+        en: He doesn't know his head from his feet.
+  - en: chief, top (of a hierarchy)
+    examples:
+      - text: هو اكبر راس فى الحتة دى.
+        en: He's the biggest chief in this area.
+  - en: top part, summit
+    examples: []
+  - en: cape
+    examples:
+      - text: راس البر، راس الشيطان
+        en: Ras El-Bar, Ras El-Sheitan (a popular beach resort near Nuweiba).
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B1%D8%A7%D8%B3#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

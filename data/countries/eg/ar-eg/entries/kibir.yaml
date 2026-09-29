@@ -1,0 +1,29 @@
+word: كبير
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - kibīr
+pronunciation:
+  ipa: "[kɪˈbiːr]"
+part_of_speech: adj
+meanings:
+  - en: big, large
+    examples: []
+  - en: old (of a person)
+    examples: []
+  - en: adult, grown-up (chiefly mentally)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D8%A8%D9%8A%D8%B1#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

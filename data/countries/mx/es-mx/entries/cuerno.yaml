@@ -1,0 +1,24 @@
+word: cuerno
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkweɾno/
+part_of_speech: noun
+meanings:
+  - en: AK-47
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cuerno#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

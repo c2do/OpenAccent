@@ -1,0 +1,25 @@
+word: فندق
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - fundoʔ
+pronunciation:
+  ipa: /fun.doʔ/
+part_of_speech: noun
+meanings:
+  - en: inn, hotel
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D9%86%D8%AF%D9%82#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

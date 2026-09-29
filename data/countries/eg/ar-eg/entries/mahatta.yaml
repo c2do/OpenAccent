@@ -1,0 +1,25 @@
+word: محطة
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - maḥáṭṭa
+part_of_speech: noun
+meanings:
+  - en: station
+    examples:
+      - text: محطة باص فين من فضلك؟
+        en: Where is the bus station, please?
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%AD%D8%B7%D8%A9#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

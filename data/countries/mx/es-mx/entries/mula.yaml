@@ -1,0 +1,24 @@
+word: mula
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmula/
+part_of_speech: noun
+meanings:
+  - en: a smart, somewhat abusive person
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mula#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: نادي
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - nādi
+pronunciation:
+  ipa: /ˈnaː.di/
+part_of_speech: noun
+meanings:
+  - en: club
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%86%D8%A7%D8%AF%D9%8A#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

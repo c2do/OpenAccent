@@ -1,0 +1,26 @@
+word: allanamiento
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /aʝanaˈmjento/
+part_of_speech: noun
+meanings:
+  - en: break-in
+    examples:
+      - text: Acusado de allanamiento de morada
+        en: Charged with breaking and entering
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/allanamiento#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import
