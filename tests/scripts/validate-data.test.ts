@@ -149,6 +149,13 @@ describe('validateData', () => {
   });
 });
 
+describe('empty or missing data root', () => {
+  it('reports a root without dialects', () => {
+    root = mkdtempSync(join(tmpdir(), 'oa-empty-'));
+    expect(messages()).toEqual(['dialects: No dialect files found — is this the data folder?']);
+  });
+});
+
 describe('real data', () => {
   it('the repository data is valid', () => {
     const errors = validateData(join(import.meta.dirname, '../../data'));

@@ -14,6 +14,10 @@ export function validateData(root: string): DataError[] {
   const raw = loadRawData(root);
   const errors: DataError[] = [...raw.errors];
 
+  if (raw.dialects.length === 0 && raw.errors.length === 0) {
+    return [{ file: 'dialects', message: 'No dialect files found — is this the data folder?' }];
+  }
+
   // Dialects
   const dialects = new Map<string, { file: string; dialect: Dialect }>();
   for (const { file, data } of raw.dialects) {
