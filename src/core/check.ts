@@ -1,27 +1,10 @@
+export type { CheckResult, IssueKind, ReplyIssue } from './results.js';
 import type { BundledEntry } from './bundle.js';
 import type { Dictionary } from './dictionary.js';
 import { languageOf } from './normalize.js';
+import type { CheckResult, ReplyIssue } from './results.js';
 import type { Memory, Purpose } from './schema.js';
 import { readings, tokenize } from './tokenize.js';
-
-export type IssueKind = 'correction' | 'personal_word' | 'pronunciation' | 'other_dialect' | 'rare' | 'dated';
-
-export interface ReplyIssue {
-  /** The words as they appear in the reply: `text === reply.slice(start, end)`. */
-  text: string;
-  /** Position in the reply, as JavaScript string indexes (UTF-16 code units). */
-  start: number;
-  end: number;
-  kind: IssueKind;
-  reason: string;
-  suggestion?: string;
-}
-
-export interface CheckResult {
-  dialect: string;
-  issues: ReplyIssue[];
-  verdict: string;
-}
 
 /**
  * Word-level check of a draft reply against the user's dialect and personal memory.

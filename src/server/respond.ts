@@ -1,3 +1,4 @@
+import type { z } from 'zod';
 import { profileFooter } from '../core/briefing.js';
 import type { ServerContext } from './context.js';
 
@@ -7,8 +8,12 @@ type ToolResult = {
   isError?: boolean;
 };
 
-/** A successful tool result: markdown text plus structured data, with the profile footer appended. */
-export function ok(ctx: ServerContext, text: string, structured: Record<string, unknown>): ToolResult {
+/**
+ * A successful tool result: markdown text plus structured data, with the profile footer appended.
+ * The data is checked against the tool's output schema, so a tool can't return fields it doesn't declare.
+ */
+export function ok<S extends z.ZodType<Record<string, unknown>>>(ctx: ServerContext, text: string, schema: S, data: z.input<S>): ToolResult {
+  const structured = schema.parse(data);
   const memory = ctx.memory.read();
   const warnings = ctx.memory.warnings.length ? `\n\n⚠ ${ctx.memory.warnings.join('\n⚠ ')}` : '';
   return {

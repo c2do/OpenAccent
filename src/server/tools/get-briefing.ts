@@ -1,6 +1,7 @@
 import type { McpServer } from '@modelcontextprotocol/server';
 import { z } from 'zod';
 import { buildBriefing } from '../../core/briefing.js';
+import { BriefingResultSchema } from '../../core/results.js';
 import type { ServerContext } from '../context.js';
 import { guard, ok } from '../respond.js';
 
@@ -15,13 +16,13 @@ export function registerGetBriefing(server: McpServer, ctx: ServerContext) {
         'the dictionary), and the dialect guide including common AI mistakes. If there is no profile yet, it tells ' +
         'you how to set one up.',
       inputSchema: z.object({}),
-      outputSchema: z.looseObject({ onboarding: z.boolean(), dialect: z.string().optional() }),
+      outputSchema: BriefingResultSchema,
       annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
     },
     async () =>
       guard(() => {
         const { text, ...data } = buildBriefing(ctx.dictionary, ctx.memory.read());
-        return ok(ctx, text, data);
+        return ok(ctx, text, BriefingResultSchema, data);
       }),
   );
 }

@@ -1,5 +1,6 @@
 import type { BundledEntry } from '../core/bundle.js';
 import type { Match } from '../core/dictionary.js';
+import type { EntryData } from '../core/results.js';
 
 const statusLabel = (e: BundledEntry) =>
   e.status === 'verified' ? '✓ verified' : e.status === 'disputed' ? '⚠ disputed' : '⚠ unverified (draft)';
@@ -26,7 +27,7 @@ export function formatMatch(m: Match): string {
 }
 
 /** Structured form of an entry for structuredContent. */
-export function entryData(e: BundledEntry) {
+export function entryData(e: BundledEntry): EntryData {
   return {
     id: e.id,
     word: e.word,
