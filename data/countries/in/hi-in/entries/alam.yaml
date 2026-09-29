@@ -1,0 +1,28 @@
+word: अलम्
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - alam
+pronunciation:
+  ipa: /ə.ləm/
+part_of_speech: adv
+meanings:
+  - en: enough, sufficient, adequate, equal to
+    examples: []
+  - en: ornamentally, decoratively (as in अलंकार (alaṅkār))
+    examples: []
+concept: enough
+register: formal
+familiarity: rare
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%B2%E0%A4%AE%E0%A5%8D#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

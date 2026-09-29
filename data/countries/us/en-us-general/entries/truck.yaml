@@ -1,0 +1,39 @@
+word: truck
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tɹʌk/
+meanings:
+  - en: A heavier motor vehicle designed to carry goods or to pull a semi-trailer
+      designed to carry goods; (in Malaysia/Singapore) a such vehicle with a
+      closed or covered carriage.
+    examples:
+      - text: We rented a truck big enough to carry the whole load in one trip.
+      - text: That's why driving truck became more than a job for many in the industry.
+          Driving truck was a lifestyle.
+  - en: To travel, to proceed.
+    examples:
+      - text: Instead, when relatives heard that the right ship had docked, they trucked
+          over to Ellis Island and waited desperately by the Kissing Post.
+      - text: In November 1978, Hay and Starratt trucked on down toward the Classic City
+          in a VW Van (of course), following the Grateful Dead's tour […]
+  - en: To persist, to endure.
+    examples:
+      - text: Keep on trucking!
+      - text: “What's ol' Harrison up to these days, Larry?” Grandpa asked. “Oh, he's
+          still trucking along,” Uncle Larry replied.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/truck#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

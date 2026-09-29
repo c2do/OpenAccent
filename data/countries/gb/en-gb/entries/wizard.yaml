@@ -1,0 +1,28 @@
+word: wizard
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈwɪzəd/
+part_of_speech: adj
+meanings:
+  - en: Fine, superb (originally RAF slang).
+    examples:
+      - text: '"We had a wizard show," the young leader of an Australian squadron said,
+          trying to keep the excitement out of his voice.'
+      - text: But he was a wizard flyer, that boy.
+concept: fine
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wizard#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

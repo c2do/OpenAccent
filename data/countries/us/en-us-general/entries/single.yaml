@@ -1,0 +1,27 @@
+word: single
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈsɪŋɡl̩/
+part_of_speech: noun
+meanings:
+  - en: A bill valued at $1.
+    examples:
+      - text: I don't have any singles, so you'll have to make change.
+      - text: She looked in her purse, found a ten and a single, gave him the ten. ‘I'll
+          spend it on booze,’ he said.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/single#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: vielleicht
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fiˈlaɪ̯çt/
+part_of_speech: adv
+meanings:
+  - en: expresses amazement or excitement, particularly at something negative
+    examples:
+      - text: Das is’ vielleicht ’ne Geldverschwendung da!
+        en: Now, that’s some waste of money!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/vielleicht#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

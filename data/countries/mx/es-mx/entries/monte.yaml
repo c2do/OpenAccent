@@ -1,0 +1,28 @@
+word: monte
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmonte/
+part_of_speech: noun
+meanings:
+  - en: desert
+    examples: []
+  - en: underbrush
+    examples: []
+  - en: weeds
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/monte#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

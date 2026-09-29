@@ -1,0 +1,32 @@
+word: ter
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈte(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to have; to receive one’s wage
+    examples:
+      - text: Ainda não tive esse mês.
+        en: I still haven’t received my wage this month.
+  - en: there be (to exist, physically or abstractly)
+    examples:
+      - text: Amanhã terá aula.
+        en: There will be class tomorrow.
+      - text: Tem países em guerra naquela região.
+        en: There are countries at war in that region.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ter#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: air
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɛə̯/
+part_of_speech: verb
+meanings:
+  - en: To ignore (a person).
+    examples:
+      - text: Why is this girl airing me?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/air#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

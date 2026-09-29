@@ -1,0 +1,31 @@
+word: gato
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡa.tu/
+meanings:
+  - en: an illegal connection to use electricity or watch pay TV for free
+    examples: []
+  - en: a petty thief
+    examples: []
+  - en: truck driver who rents boias-frias to work on farming
+    examples: []
+  - en: physically attractive
+    examples:
+      - text: Ela é muito gata.
+        en: She is very beautiful.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gato#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

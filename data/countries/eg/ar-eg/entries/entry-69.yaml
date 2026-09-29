@@ -1,0 +1,25 @@
+word: السلام عليكوا
+dialect: ar-eg
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /il.sa.laː.mu ʕa.leː.ku/
+part_of_speech: intj
+meanings:
+  - en: hello, hi (when greeting people or entering a place)
+    examples: []
+concept: hello
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85_%D8%B9%D9%84%D9%8A%D9%83%D9%88%D8%A7#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

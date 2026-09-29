@@ -1,0 +1,24 @@
+word: perdeu
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /peʁˈdew/
+part_of_speech: intj
+meanings:
+  - en: used by thieves when stealing someone’s valuables; stand and deliver
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/perdeu#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

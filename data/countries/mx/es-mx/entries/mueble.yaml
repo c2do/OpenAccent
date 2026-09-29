@@ -1,0 +1,28 @@
+word: mueble
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmweble/
+part_of_speech: noun
+meanings:
+  - en: car
+    examples: []
+  - en: A character who has no development or whose role is negligible, essentially
+      "background furniture."
+    examples: []
+concept: car
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mueble#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

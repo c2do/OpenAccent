@@ -1,0 +1,27 @@
+word: lütt
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /lʏt/
+part_of_speech: adj
+meanings:
+  - en: small, little
+    examples:
+      - text: Meine Kollegin Sabine hatte heut ihren lütten Jungen mit zur Arbeit.
+        en: My colleague Sabine brought her little boy to work today.
+concept: small
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/l%C3%BCtt#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

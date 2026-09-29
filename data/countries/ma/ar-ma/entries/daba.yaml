@@ -1,0 +1,28 @@
+word: دابا
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - dāba
+pronunciation:
+  ipa: /daː.ba/
+part_of_speech: adv
+meanings:
+  - en: now; right now; at present
+    examples:
+      - text: آنا دابا ماشي للمدرسة.
+        en: Right now, I am going to school.
+concept: now
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AF%D8%A7%D8%A8%D8%A7#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

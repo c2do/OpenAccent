@@ -1,0 +1,30 @@
+word: bomba
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbõ.bɐ/
+part_of_speech: noun
+meanings:
+  - en: the bomb (a success; something excellent)
+    examples: []
+  - en: steroid (any anabolic hormone used to promote muscle growth or athletic
+      performance)
+    examples:
+      - text: Quer tomar bomba? Pode aplicar / Mas eu não garanto se vai inchar
+  - en: strong shot
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bomba#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

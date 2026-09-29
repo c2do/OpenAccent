@@ -1,0 +1,26 @@
+word: سيارة
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - sayyāra
+pronunciation:
+  ipa: /saj.jaː.ra/
+part_of_speech: noun
+meanings:
+  - en: car
+    examples: []
+concept: car
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

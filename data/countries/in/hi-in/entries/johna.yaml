@@ -1,0 +1,32 @@
+word: जोहना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - johnā
+pronunciation:
+  ipa: /d͡ʒoːɦ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to see, watch for
+    examples:
+      - text: बाट जोहना
+        en: to await the return (of), to long for
+  - en: to search, look for
+    examples: []
+  - en: to await, wait for
+    examples: []
+concept: see
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9C%E0%A5%8B%E0%A4%B9%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

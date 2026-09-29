@@ -1,0 +1,24 @@
+word: fire
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfaɪ.ə/
+part_of_speech: noun
+meanings:
+  - en: A heater or stove used in place of a real fire (such as an electric fire).
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fire#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

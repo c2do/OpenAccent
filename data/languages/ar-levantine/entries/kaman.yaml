@@ -1,0 +1,28 @@
+word: كمان
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - kamān
+pronunciation:
+  ipa: "[kæˈmæːn]"
+part_of_speech: adv
+meanings:
+  - en: also, too, as well
+    examples: []
+  - en: more
+    examples: []
+concept: also
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D9%85%D8%A7%D9%86#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

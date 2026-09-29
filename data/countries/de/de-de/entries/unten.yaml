@@ -1,0 +1,24 @@
+word: unten
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʊntn̩/
+part_of_speech: adv
+meanings:
+  - en: south
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/unten#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

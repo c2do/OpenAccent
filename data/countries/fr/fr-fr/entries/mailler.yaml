@@ -1,0 +1,29 @@
+word: mailler
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ma.je/
+part_of_speech: verb
+meanings:
+  - en: to work, to pursue an activity for payment
+    examples:
+      - text: "[…] des délits j'ai commis, j'aurais du lire des livres; J'l'ai faits
+          pour mailler, j'l'ai pas fait pour l'délire"
+        en: About the crimes I committed, I should have read books; I did for the flizz,
+          not for the fun.
+concept: work_verb
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mailler#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

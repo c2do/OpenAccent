@@ -1,0 +1,27 @@
+word: فريق
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - farīg
+pronunciation:
+  ipa: /faˈriːɡ/
+part_of_speech: noun
+meanings:
+  - en: team
+    examples: []
+  - en: football club
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D8%B1%D9%8A%D9%82#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: ran
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[ʁan]"
+part_of_speech: adv
+meanings:
+  - en: near, close to, over to
+    examples: []
+concept: near
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ran#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

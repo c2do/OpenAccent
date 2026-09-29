@@ -1,0 +1,27 @@
+word: marcha
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmaɾt͡ʃa/
+part_of_speech: noun
+meanings:
+  - en: lively atmosphere, festive vibe, energy
+    examples: []
+  - en: party (social gathering)
+    examples:
+      - text: salir de marcha
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/marcha#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

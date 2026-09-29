@@ -1,0 +1,29 @@
+word: archaize
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɑː(ɹ).keɪˌaɪz/
+part_of_speech: verb
+meanings:
+  - en: To give an archaic quality or character to; make archaic, to suggest the
+      past.
+    examples:
+      - text: The statue had an archaized quality to it.
+  - en: To speak, write, etc. in an archaic manner.
+    examples: []
+concept: talk
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/archaize#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: amarrar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a.maˈʁa(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to love, to like very much
+    examples:
+      - text: Eu me amarro em filmes de ação.
+        en: I love action movies.
+concept: like
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/amarrar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

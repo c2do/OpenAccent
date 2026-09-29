@@ -1,0 +1,27 @@
+word: buey
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbwei/
+part_of_speech: noun
+meanings:
+  - en: guy, dumb, dude (depends on context and intonation, also denotes surprise,
+      colloquially pronounced güey)
+    examples: []
+  - en: cuckold
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/buey#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: getirmek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɟe.tiɾˈmec/
+part_of_speech: verb
+meanings:
+  - en: to bring
+    examples:
+      - text: Bana bir çiçek getirdi.
+        en: He brought me a flower.
+      - text: Bana şu çiçeği getirdi.
+        en: He brought me that flower.
+concept: bring
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/getirmek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

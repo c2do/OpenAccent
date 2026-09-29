@@ -1,0 +1,26 @@
+word: estar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /isˈta(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to possess, have, or have in possession
+    examples:
+      - text: Ele está com o meu livro desde semana passada.
+        en: He has had my book since last week.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/estar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

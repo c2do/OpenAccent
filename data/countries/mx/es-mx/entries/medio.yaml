@@ -1,0 +1,26 @@
+word: medio
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmedjo/
+part_of_speech: noun
+meanings:
+  - en: half (one of two equal parts of any whole); medio (following decimalization,
+      the notional amount of 6+¹⁄₄ centavos as half of the notional amount of a
+      ¹⁄₈-peseta real and later by extension any 5 centavo coin)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/medio#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

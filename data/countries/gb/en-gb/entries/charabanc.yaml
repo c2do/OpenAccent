@@ -1,0 +1,39 @@
+word: charabanc
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃæ.ɹə.bæŋ(k)/
+part_of_speech: noun
+meanings:
+  - en: A bus, especially one hired by groups for pleasure outings, what was later
+      called a coach.
+    examples:
+      - text: |-
+          Oh shit, there goes the charabanc!
+          Looks like I'm gonna be stuck here the whole summer
+      - text: Mum had worked there as a teenager and once recalled her duty of having to
+          meet the charabancs that brought the well-heeled to the baths from
+          Droitwich station before the war.
+  - en: A vehicle that is slow, overcrowded, or otherwise undesirable.
+    examples:
+      - text: We return to the charabanc of a car to find a swarm of children dancing
+          round it, clambering up the back, jumping on the step; the driver
+          sleeps peacefully at the wheel, oblivious of their shrieks.
+      - text: Just as I'm thinking my plan has failed an old charabanc of a vehicle
+          slows down and starts hooting.
+concept: bus
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/charabanc#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

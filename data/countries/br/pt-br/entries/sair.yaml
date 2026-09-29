@@ -1,0 +1,32 @@
+word: sair
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /saˈi(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to cost (a given amount)
+    examples:
+      - text: Essa bolsa sai por quanto?
+        en: How much for this purse?
+      - text: Comprando duas, tá saindo cada uma por R$ 60.
+        en: If you buy two, they'll cost R$ 60 each.
+  - en: to lead (begin a game, round, or trick)
+    examples:
+      - text: João sai nesta rodada.
+        en: John leads this round.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sair#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

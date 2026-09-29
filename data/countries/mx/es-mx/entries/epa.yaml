@@ -1,0 +1,24 @@
+word: epa
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈepa/
+part_of_speech: intj
+meanings:
+  - en: hey!
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/epa#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

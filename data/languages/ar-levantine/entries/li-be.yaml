@@ -1,0 +1,30 @@
+word: لعبة
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - liʕbe
+part_of_speech: noun
+meanings:
+  - en: doll, toy, plaything
+    examples:
+      - text: يمكن مش ذنبك ولا ذنبي، يمكن نحنا متل اللعبة / وقصتنا على اسم الغربة كانت
+          مكتوبة ومطوية.
+        en: Maybe it’s neither your fault nor mine, maybe we are just like dolls. /
+          Under the title “The Estrangement” was our story written and folded
+          up.
+  - en: game
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D8%B9%D8%A8%D8%A9#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

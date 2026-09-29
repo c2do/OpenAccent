@@ -1,0 +1,42 @@
+word: बदना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - badnā
+pronunciation:
+  ipa: /bəd̪.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to speak, say
+    examples: []
+  - en: to settle, arrange; predestine, ordain
+    examples:
+      - text: जो भाग्य में बदा है वो होना ही है।
+        en: What is destined in fate is bound to happen.
+  - en: to bet, wager, fix (a gamble), be joined (competition, rivalry etc.)
+    examples:
+      - text: शर्त बदना
+        en: to fix a wager
+      - text: होड़ बदना
+        en: to compete
+  - en: to invoke, appoint (as a witness)
+    examples:
+      - text: परन्तु मैं ईश्वर को अपने प्राण पर साक्षी बदता हूँ कि मैंने तुमपर दया की जो
+          अब लों करिन्थ नहीं गया।
+        en: But I invoke God as a witness on my soul that I had compassion on you in
+          that I have not as yet gone to Corinth.
+concept: talk
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%A6%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

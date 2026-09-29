@@ -1,0 +1,24 @@
+word: fresher
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfɹɛʃ.ə/
+part_of_speech: noun
+meanings:
+  - en: A fresh graduate looking for his/her first job.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fresher#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

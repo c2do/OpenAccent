@@ -1,0 +1,28 @@
+word: فارق
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - fārag
+pronunciation:
+  ipa: /faː.raɡ/
+part_of_speech: verb
+meanings:
+  - en: to separate oneself from (someone/something)
+    examples: []
+  - en: to leave, to forsake, to abandon
+    examples: []
+concept: leave
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D8%A7%D8%B1%D9%82#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

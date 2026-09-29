@@ -1,0 +1,24 @@
+word: topper
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtɒpə/
+part_of_speech: noun
+meanings:
+  - en: The student who achieves the highest score in an examination.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/topper#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

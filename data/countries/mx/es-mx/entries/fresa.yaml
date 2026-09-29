@@ -1,0 +1,25 @@
+word: fresa
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfɾesa/
+meanings:
+  - en: snob
+    examples: []
+  - en: someone seen as snobby, or as privileged by means of money or social status.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fresa#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

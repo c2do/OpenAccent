@@ -1,0 +1,26 @@
+word: fühlen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfyːlən/
+part_of_speech: verb
+meanings:
+  - en: to touch (in general)
+    examples:
+      - text: Der Typ hat mir an den Hintern gefühlt.
+        en: That guy touched my butt.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/f%C3%BChlen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

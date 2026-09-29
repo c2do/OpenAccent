@@ -1,0 +1,25 @@
+word: furular
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: (not used with people) to work; to function
+    examples:
+      - text: La cafetera no furula.
+        en: The coffee maker isn't working.
+concept: work_verb
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/furular#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

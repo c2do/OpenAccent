@@ -1,0 +1,32 @@
+word: skookum
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈskuːkəm/
+part_of_speech: adj
+meanings:
+  - en: Excellent, impressive.
+    examples: []
+  - en: Big, strong, durable, reliable, trustworthy, doughty.
+    examples:
+      - text: There was a young, bold freight trainman here who tried using one of his
+          steel-toed boots as a wheel chock. Not quite skookum enough, though.
+          He lost a big part of his foot.
+      - text: I am also configuring for the 18m tip extension, so whatever I do to the
+          winglet attach will need to be skookum enough for the extension.
+concept: big
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/skookum#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: عمل
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ʕmal
+pronunciation:
+  ipa: /ʕmal/
+part_of_speech: verb
+meanings:
+  - en: to do
+    examples: []
+concept: do
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%85%D9%84#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

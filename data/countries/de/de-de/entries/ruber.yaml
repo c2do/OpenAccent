@@ -1,0 +1,30 @@
+word: rüber
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʁyːbəʁ/
+part_of_speech: adv
+meanings:
+  - en: over here
+    examples:
+      - text: Komm mal rüber!
+        en: Come over here!
+  - en: over there
+    examples:
+      - text: Ich geh mal rüber.
+        en: I'm going over there.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/r%C3%BCber#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: gruff
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡɹʌf/
+part_of_speech: adj
+meanings:
+  - en: "Of goods: bulky."
+    examples:
+      - text: "[…] articles that usually compose the gruff cargoes of our outward bound
+          shipping."
+      - text: "[…] which by causing a great export of rice enhances the price of labour,
+          and consequently of all other gruff, piece-goods and raw silk […]"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gruff#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

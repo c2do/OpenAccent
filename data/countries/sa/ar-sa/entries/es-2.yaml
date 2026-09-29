@@ -1,0 +1,30 @@
+word: إيش
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ʔēš
+pronunciation:
+  ipa: /ʔeːʃ/
+part_of_speech: pron
+meanings:
+  - en: what?
+    examples:
+      - text: إيش اسمَك؟
+        en: What's your name?
+      - text: إيش اسمِك؟
+        en: What's your name?
+concept: what
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A5%D9%8A%D8%B4#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

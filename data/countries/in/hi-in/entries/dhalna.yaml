@@ -1,0 +1,32 @@
+word: ढालना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ḍhālnā
+pronunciation:
+  ipa: /ɖʱɑːl.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to pour; cause to fall out
+    examples: []
+  - en: to cast metal, mint
+    examples:
+      - text: लोहार रुपए ढाल रहा है।
+        en: The blacksmith is minting coins.
+  - en: to drink (especial alcohol)
+    examples: []
+concept: drink
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A2%E0%A4%BE%E0%A4%B2%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

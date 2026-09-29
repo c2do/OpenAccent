@@ -1,0 +1,27 @@
+word: guapo
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡwapo/
+part_of_speech: adj
+meanings:
+  - en: cool
+    examples:
+      - text: Esa nueva peli está guapísima, tío.
+        en: That new movie is so cool, dude.
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/guapo#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

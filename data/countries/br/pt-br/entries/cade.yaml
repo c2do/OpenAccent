@@ -1,0 +1,26 @@
+word: cadê
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kaˈde/
+part_of_speech: adv
+meanings:
+  - en: where is (it)?
+    examples:
+      - text: Cadê meu patinho de borracha? É sério, cadê?
+        en: Where's my rubber duck? I'm serious, where is it?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cad%C3%AA#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

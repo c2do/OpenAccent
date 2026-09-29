@@ -1,0 +1,33 @@
+word: falar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /faˈla(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to say something
+    examples:
+      - text: Para de falar bobagens.
+        en: Stop talking nonsense.
+      - text: "Os pensamentos que fervilhavam em seus cérebros era: afinal, homens é que
+          podiam falar palavrão e baixarias, não suas distintas esposas criadas
+          em colégio de freiras."
+  - en: to tell (to convey by speech)
+    examples:
+      - text: Vou falar para você.
+        en: I’m going to tell you.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/falar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

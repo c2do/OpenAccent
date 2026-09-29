@@ -1,0 +1,25 @@
+word: mungaree
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /mʌnˈdʒɑː.ɹi/
+part_of_speech: noun
+meanings:
+  - en: food
+    examples: []
+concept: food
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mungaree#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

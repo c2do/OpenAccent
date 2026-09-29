@@ -1,0 +1,24 @@
+word: cuarta
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkwaɾta/
+part_of_speech: noun
+meanings:
+  - en: synonym of látigo (a short horse whip)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cuarta#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: قصة
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʔuṣṣa
+  - ʔiṣṣa
+part_of_speech: noun
+meanings:
+  - en: story
+    examples:
+      - text: "Near-synonyms: خَبْرِيّة (ḵabriyye), حْكَاية (ḥkāye)"
+      - text: هالقصة ما سمعتا ولا مرة بحياتي
+        en: I’ve never heard this story in all my life.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%B5%D8%A9#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

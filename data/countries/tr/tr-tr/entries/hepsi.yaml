@@ -1,0 +1,25 @@
+word: hepsi
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /hepˈsi/
+part_of_speech: pron
+meanings:
+  - en: all, all of it, the whole.
+    examples: []
+concept: all
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hepsi#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

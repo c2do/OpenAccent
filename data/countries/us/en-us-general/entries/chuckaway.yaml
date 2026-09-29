@@ -1,0 +1,26 @@
+word: chuckaway
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: Food.
+    examples:
+      - text: Chuckaway too no good. Heap water, little chuckaway. Heap sticks, and
+          still little chuckaway.
+      - text: No chuckaway, no pig, no corn, no cow, no hay, no pony.
+concept: food
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chuckaway#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

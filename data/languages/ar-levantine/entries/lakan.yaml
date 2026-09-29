@@ -1,0 +1,34 @@
+word: لكن
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - lakan
+pronunciation:
+  ipa: /ˈla.kan/
+meanings:
+  - en: then (as in if... then)
+    examples: []
+  - en: large copper bowl used for laundry or other household tasks; washbasin
+    examples:
+      - text: |-
+          دِسْتِكْ لَكَنِكْ عَيّْرِينَا
+          تَنغسِّل تياب ريما
+          وننشرهن عالياسمينة
+        en: |-
+          Lend us your cauldron and your washbasin
+          So we can wash Rima's clothes
+          And hang them on the jasmine bush to dry
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D9%83%D9%86#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

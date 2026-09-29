@@ -1,0 +1,27 @@
+word: أوتوبيس
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ʔotubīs
+  - ʔutubīs
+pronunciation:
+  ipa: /ʔo.tu.ˈbiːs/
+part_of_speech: noun
+meanings:
+  - en: bus
+    examples: []
+concept: bus
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D9%88%D8%AA%D9%88%D8%A8%D9%8A%D8%B3#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

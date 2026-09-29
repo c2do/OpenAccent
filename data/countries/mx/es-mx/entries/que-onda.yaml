@@ -1,0 +1,29 @@
+word: qué onda
+dialect: es-mx
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˌke ˈonda/
+part_of_speech: phrase
+meanings:
+  - en: what's up?
+    examples: []
+  - en: what's up?; what's up?, what's wrong?, what's up with (...) ?
+    examples:
+      - text: ¿Qué onda (con) el metro hoy? Están todos de mal humor.
+        en: What's up with the metro today? Everyone's in a bad mood.
+concept: whats_up
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/qu%C3%A9_onda#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

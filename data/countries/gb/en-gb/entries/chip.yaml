@@ -1,0 +1,30 @@
+word: chip
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃɪp/
+part_of_speech: verb
+meanings:
+  - en: To contribute.
+    examples:
+      - text: Everyone needs to chip in £1 for George's leaving collection.
+  - en: To leave.
+    examples:
+      - text: ‘Lloyd, I’m gonna chip.’ ‘You just got here!’ ‘I know–but I gotta chip.
+          Got shit to do.’
+concept: leave
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chip#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

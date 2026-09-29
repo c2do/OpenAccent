@@ -1,0 +1,27 @@
+word: house
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /haʊz/
+part_of_speech: verb
+meanings:
+  - en: To eat; especially, to scarf down.
+    examples:
+      - text: All you wanna do is drink a fifth, house a lasagna, and hide in a dumpster
+          until that baby stops crying.
+concept: eat
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/house#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: bill
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɪl/
+part_of_speech: noun
+meanings:
+  - en: One hundred pounds sterling.
+    examples: []
+  - en: A list of pupils to be disciplined for breaking school rules.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bill#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

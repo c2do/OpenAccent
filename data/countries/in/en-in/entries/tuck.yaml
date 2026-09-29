@@ -1,0 +1,27 @@
+word: tuck
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tʌk/
+part_of_speech: noun
+meanings:
+  - en: Food, especially snack food.
+    examples:
+      - text: "'What on earth do Coker and his parcel of tuck matter to us? You're not
+          thinking of snooping his tuck, I suppose, like Bunter.'"
+concept: food
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tuck#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

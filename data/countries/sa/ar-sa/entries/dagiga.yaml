@@ -1,0 +1,27 @@
+word: دقيقة
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - dagīga
+pronunciation:
+  ipa: /da.ɡiː.ɡa/
+part_of_speech: noun
+meanings:
+  - en: minute
+    examples: []
+  - en: a short time
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AF%D9%82%D9%8A%D9%82%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

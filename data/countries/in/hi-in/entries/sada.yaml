@@ -1,0 +1,31 @@
+word: सदा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - sadā
+pronunciation:
+  ipa: /sə.d̪ɑː/
+meanings:
+  - en: always
+    examples: []
+  - en: perpetually, continually
+    examples: []
+  - en: forever, eternally
+    examples: []
+  - en: night and day, to end of chapter
+    examples: []
+concept: always
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%A6%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

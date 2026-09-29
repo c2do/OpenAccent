@@ -1,0 +1,26 @@
+word: paro
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpaɾo/
+part_of_speech: noun
+meanings:
+  - en: unemployment
+    examples:
+      - text: en paro
+        en: unemployed
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/paro#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

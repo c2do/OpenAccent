@@ -1,0 +1,25 @@
+word: naranja
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /naˈɾanxa/
+meanings:
+  - en: Pertaining to Ciudadanos, a Spanish political party
+    examples: []
+  - en: a member or supporter of Ciudadanos, a Spanish political party
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/naranja#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: auto
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɔːtəʊ/
+part_of_speech: noun
+meanings:
+  - en: An autorickshaw.
+    examples:
+      - text: Users are often unable to note down the number of the taxi or the auto as
+          the driver will just zoom past.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/auto#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

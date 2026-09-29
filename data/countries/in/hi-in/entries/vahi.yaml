@@ -1,0 +1,31 @@
+word: वही
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - vahī
+pronunciation:
+  ipa: /ʋə.ɦiː/
+meanings:
+  - en: that, that very one
+    examples: []
+  - en: the same
+    examples:
+      - text: वह वही आदमी है जो मैंने दुकान में देखा था।
+        en: He is the same man that I saw in shop.
+  - en: identical
+    examples: []
+concept: that
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A4%B9%E0%A5%80#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

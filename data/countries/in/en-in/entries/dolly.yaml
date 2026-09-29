@@ -1,0 +1,27 @@
+word: dolly
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdɑli/
+part_of_speech: noun
+meanings:
+  - en: An offering of fruit or flowers.
+    examples:
+      - text: In some parts of India the dolly has grown into an extravagance consisting
+          sometimes of bushels of fruit, nuts, and confectionery, with bottles
+          of champagne and liqueurs.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dolly#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: conecte
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /koˈneɡte/
+part_of_speech: noun
+meanings:
+  - en: an influential person who offers a job position without merit
+    examples:
+      - text: Tengo un conecte en el Parlamento.
+        en: I have an influential contact in the Parliament.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/conecte#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: comer
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /koˈmeɾ/
+part_of_speech: verb
+meanings:
+  - en: to have lunch
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/comer#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

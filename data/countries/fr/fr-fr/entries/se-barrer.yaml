@@ -1,0 +1,23 @@
+word: se barrer
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: to leave, clear off
+    examples: []
+concept: leave
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/se_barrer#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

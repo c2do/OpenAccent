@@ -1,0 +1,26 @@
+word: cracking
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkɹækɪŋ/
+part_of_speech: adv
+meanings:
+  - en: Very, usually associated with praise.
+    examples:
+      - text: It was a cracking good show.
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cracking#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

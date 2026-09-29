@@ -1,0 +1,43 @@
+word: etmek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /etˈmec/
+part_of_speech: verb
+meanings:
+  - en: to do; to make
+    examples: []
+  - en: to equal, make
+    examples:
+      - text: Sonunda Parti iki ile ikinin beş ettiğini anons eder, senin de buna
+          inanman gerekir.
+        en: In the end, the Party would announce that two and two makes five from now
+          on, and you would have to believe it.
+  - en: to leave somebody deprived of something
+    examples:
+      - text: |-
+          Ümitlerim kırıldı, bitti,
+          Hayallerim yıkıldı, gitti,
+          Bu dert beni benden etti,
+          Sevdim, sevdim, bak ne hâle geldim!
+        en: |-
+          My hopes were broken, lost,
+          My dreams were dashed, gone,
+          This pain deprived me of myself,
+          I loved, I loved, look what I became!
+concept: do
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/etmek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: hoss
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /hɔːs/
+part_of_speech: noun
+meanings:
+  - en: A car.
+    examples: []
+concept: car
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hoss#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: head
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /hɛd/
+part_of_speech: noun
+meanings:
+  - en: The topmost, foremost, or leading part.; Deposits near the top of a
+      geological succession.
+    examples: []
+  - en: The topmost, foremost, or leading part.; A headland.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/head#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

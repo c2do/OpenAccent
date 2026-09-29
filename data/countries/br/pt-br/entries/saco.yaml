@@ -1,0 +1,33 @@
+word: saco
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈsa.ku/
+part_of_speech: noun
+meanings:
+  - en: patience, tolerance
+    examples:
+      - text: Não tenho saco para isso.
+        en: I don't have patience for that.
+  - en: something very tedious or annoying; a hassle
+    examples:
+      - text: Esta aula está um saco.
+        en: This class is boring.
+      - text: Meu deus, que saco! Não posso fazer nada que você já vem brigar comigo!
+        en: My goodness, that's so annoying! I can't do anything without you telling me
+          off!
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/saco#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

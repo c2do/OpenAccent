@@ -1,0 +1,30 @@
+word: بطبط
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - baṭbaṭ
+pronunciation:
+  ipa: /batˤ.batˤ/
+part_of_speech: verb
+meanings:
+  - en: to quack
+    examples: []
+  - en: to talk
+    examples:
+      - text: كيبطبط بحال شي بطة ولكن ما كنفهموهش
+        en: He talks but we don't understand what he means
+concept: talk
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%B7%D8%A8%D8%B7#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

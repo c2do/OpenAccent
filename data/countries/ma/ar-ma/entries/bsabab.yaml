@@ -1,0 +1,25 @@
+word: بسبب
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - bsabab
+pronunciation:
+  ipa: /bsa.bab/
+part_of_speech: prep
+meanings:
+  - en: because of
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%B3%D8%A8%D8%A8#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

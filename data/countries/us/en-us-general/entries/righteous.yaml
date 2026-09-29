@@ -1,0 +1,33 @@
+word: righteous
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɹaɪt͡ʃəs/
+part_of_speech: adj
+meanings:
+  - en: Awesome; great.
+    examples:
+      - text: The sportos, the motorheads, geeks, sluts, bloods, wastoids, dweebies,
+          dickheads - they all adore him. They think he's a righteous dude.
+      - text: He sold me a bulging paper sack full of Cambodian Red for two dolla' MPC.
+          A strange experience, copping from a kid, but it was righteous weed.
+  - en: Major; large; significant.
+    examples:
+      - text: He found Richard in one piece near a large circular container, thankfully,
+          staring at a righteous mess of blood and gore.
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/righteous#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

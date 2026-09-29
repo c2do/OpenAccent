@@ -1,0 +1,24 @@
+word: chefe
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃɛ.fi/
+part_of_speech: noun
+meanings:
+  - en: A term of address for someone, typically a waiter
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chefe#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

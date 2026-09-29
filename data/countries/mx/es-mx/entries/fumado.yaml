@@ -1,0 +1,24 @@
+word: fumado
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fuˈmado/
+part_of_speech: adj
+meanings:
+  - en: crazy
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fumado#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

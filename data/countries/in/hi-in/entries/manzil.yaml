@@ -1,0 +1,36 @@
+word: मंज़िल
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - manzil
+pronunciation:
+  ipa: /mən.zɪl/
+part_of_speech: noun
+meanings:
+  - en: storey, floor (of a building)
+    examples:
+      - text: उनका फ़्लैट दो मंज़िल नीचे है।
+        en: Their flat is two floors down.
+  - en: destination; stage (of a journey)
+    examples:
+      - text: यह इमारत मेरी अन्तिम मंज़िल है।
+        en: This building is my final destination.
+      - text: यात्रा की मंज़िल पर पहुँचकर वह विश्राम कर रहा था।
+        en: He was resting upon reaching the destination of the journey.
+  - en: house
+    examples: []
+concept: house
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AE%E0%A4%82%E0%A4%9C%E0%A4%BC%E0%A4%BF%E0%A4%B2#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: colonia
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /koˈlonja/
+part_of_speech: noun
+meanings:
+  - en: neighbourhood
+    examples:
+      - text: Dos trabajadores de un car wash fueron asesinados la tarde de este sábado
+          durante un ataque armado registrado en la colonia Las Cruces, en la
+          delegación San Antonio de los Buenos.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/colonia#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

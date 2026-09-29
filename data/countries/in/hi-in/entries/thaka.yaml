@@ -1,0 +1,32 @@
+word: थका
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - thakā
+pronunciation:
+  ipa: /t̪ʰə.kɑː/
+part_of_speech: adj
+meanings:
+  - en: tired
+    examples: []
+  - en: exhausted
+    examples: []
+  - en: weary
+    examples: []
+  - en: forworn
+    examples: []
+concept: tired
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A5%E0%A4%95%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

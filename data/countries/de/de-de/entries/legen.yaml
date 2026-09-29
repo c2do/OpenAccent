@@ -1,0 +1,29 @@
+word: legen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈleːɡən/
+part_of_speech: verb
+meanings:
+  - en: to slay, to defeat
+    examples: []
+  - en: to cause great amusement, to make someone collapse in laughter, to kill, to
+      slay
+    examples:
+      - text: Bei dem zweiten Witz hat's ihn komplett gelegt.
+        en: The second joke totally killed him.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/legen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

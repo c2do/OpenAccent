@@ -1,0 +1,24 @@
+word: gonk out
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: To sleep.
+    examples:
+      - text: He gonked out on the bed.
+concept: sleep
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gonk_out#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

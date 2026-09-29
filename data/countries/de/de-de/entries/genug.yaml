@@ -1,0 +1,25 @@
+word: genug
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡəˈnuːk/
+part_of_speech: adj
+meanings:
+  - en: enough, sufficient, in an adequate way
+    examples: []
+concept: enough
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/genug#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

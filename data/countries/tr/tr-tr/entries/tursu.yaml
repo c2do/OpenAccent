@@ -1,0 +1,36 @@
+word: turşu
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tuɾˈʃu/
+meanings:
+  - en: pickle, any vegetable preserved in vinegar and consumed as relish
+    examples: []
+  - en: tired, exhausted, drained, worn out
+    examples:
+      - text: Yok, eğer emrediyorsanız yatakları da buraya getirsinler... Otura otura
+          turşu olduk... Korkuyorum ki Mazhar Bey de uyuyakalacak.
+        en: Unless, if you order it, they can bring the beds here too... We're exhausted
+          from sitting around... I'm afraid Mr. Mazhar will fall asleep too.
+      - text: Çalışa çalışa turşuya döndük bir yandan. Hoca, ille de burada diyor. Kitap
+          böyle gösteriyor, diyor. Ula neresinde bu kitabın, hani?
+        en: We're completely exhausted from working. Hodja insists it's right here. He
+          says the book shows this way. Where the hell in the book is it, where?
+  - en: very drunk
+    examples: []
+concept: tired
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tur%C5%9Fu#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

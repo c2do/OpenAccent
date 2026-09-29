@@ -1,0 +1,25 @@
+word: ocó
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /oˈkɔ/
+part_of_speech: noun
+meanings:
+  - en: man
+    examples: []
+concept: man
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/oc%C3%B3#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

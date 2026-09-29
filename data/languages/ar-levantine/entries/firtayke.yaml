@@ -1,0 +1,28 @@
+word: فرتيكة
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - firtayke
+part_of_speech: noun
+meanings:
+  - en: fork
+    examples: []
+  - en: spoon
+    examples: []
+  - en: car
+    examples: []
+concept: car
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D8%B1%D8%AA%D9%8A%D9%83%D8%A9#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

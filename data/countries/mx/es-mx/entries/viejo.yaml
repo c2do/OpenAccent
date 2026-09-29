@@ -1,0 +1,32 @@
+word: viejo
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbjexo/
+part_of_speech: noun
+meanings:
+  - en: guy or man, especially an adult or a male close to adulthood
+    examples:
+      - text: Me gusta el viejo de bigote.
+        en: I like the guy with the moustache.
+      - text: Los tacos más ricos son los del viejo de camisa negra.
+        en: The most delicious tacos are those from the guy with the black shirt.
+  - en: substitute for a male name (sweetheart, honey)
+    examples:
+      - text: Ya regresé, viejo.
+        en: I'm back, dear.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/viejo#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

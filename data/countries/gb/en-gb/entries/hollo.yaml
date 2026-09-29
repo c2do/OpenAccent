@@ -1,0 +1,25 @@
+word: hollo
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+part_of_speech: intj
+meanings:
+  - en: hello (expressing puzzlement or discovery)
+    examples:
+      - text: ‘Hollo!’ he cried. ‘The blind’s down!’ I had noticed, when we were
+          outside, that the blind was down at the front room window.
+concept: hello
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hollo#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: لأ
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - laʔʔa
+  - laʔ
+part_of_speech: particle
+meanings:
+  - en: "no"
+    examples: []
+concept: "no"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D8%A3#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

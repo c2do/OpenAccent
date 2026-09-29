@@ -1,0 +1,28 @@
+word: gym
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /d͡ʒɪm/
+part_of_speech: verb
+meanings:
+  - en: To go to the gym.
+    examples:
+      - text: The only thing that can make you susceptible to this condition
+          pre-marriage is crash dieting or mindless gymming and exercise.)
+      - text: I have tried everything from yoga to dancing to gymming, but I can't be
+          consistent with anything. Actually, I'm okay without working out.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gym#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

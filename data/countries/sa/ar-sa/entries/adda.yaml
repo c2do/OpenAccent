@@ -1,0 +1,26 @@
+word: أدى
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ʔadda
+pronunciation:
+  ipa: /ʔad.da/
+part_of_speech: verb
+meanings:
+  - en: to give
+    examples: []
+concept: give
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D8%AF%D9%89#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

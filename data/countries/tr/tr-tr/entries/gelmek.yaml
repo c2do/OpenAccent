@@ -1,0 +1,39 @@
+word: gelmek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɟelˈmec/
+part_of_speech: verb
+meanings:
+  - en: to come, move closer
+    examples:
+      - text: eve gelmek
+        en: to come home
+  - en: to come, to appear, to manifest
+    examples:
+      - text: ağzına geleni söylemek
+        en: to say whatever crosses one's mind
+  - en: to weigh (have a certain weight)
+    examples: []
+  - en: to seem, to appear
+    examples:
+      - text: bana çok soğuk geldi
+        en: it is too cold for me
+      - text: bana öyle geliyor ki ...
+        en: it seems to me that ...
+concept: come
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gelmek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

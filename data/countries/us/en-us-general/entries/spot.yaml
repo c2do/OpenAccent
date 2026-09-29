@@ -1,0 +1,32 @@
+word: spot
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /spɒt/
+meanings:
+  - en: A bill of five-dollar or ten-dollar denomination in dollars.
+    examples:
+      - text: Here's the twenty bucks I owe you, a ten spot and two five spots.
+  - en: A brief advertisement or program segment on television.
+    examples:
+      - text: Did you see the spot on the news about the shoelace factory?
+  - en: To loan a small amount of money to someone.
+    examples:
+      - text: I’ll spot you ten dollars for lunch.
+      - text: “It’s close to payday, but you’re welcome to what I have. Maybe Wickliffe
+          can spot me a few.”
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/spot#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

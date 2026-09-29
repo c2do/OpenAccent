@@ -1,0 +1,28 @@
+word: pain
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpeɪ̯n/
+part_of_speech: verb
+meanings:
+  - en: To feel pain; to hurt.
+    examples:
+      - text: "Please help me: I am paining hard."
+      - text: Oh my head is aching, oh Lord Damodara [Visnu], give me "kazhi". The neck
+          is paining, oh Lord Kamadeva give me relief. My chest is paining, oh
+          Lord Madhava, give me relief.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pain#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

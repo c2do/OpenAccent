@@ -1,0 +1,29 @@
+word: هو
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - huwwa
+  - -u
+pronunciation:
+  ipa: /huw.wa/
+part_of_speech: pron
+meanings:
+  - en: he (subject pronoun)
+    examples: []
+  - en: it (subject pronoun, referring to animals and inanimate nouns of masculine
+      gender)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D9%88#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

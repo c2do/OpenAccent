@@ -1,0 +1,27 @@
+word: आज
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - āj
+pronunciation:
+  ipa: /ɑːd͡ʒ/
+meanings:
+  - en: today
+    examples:
+      - text: आज मैं हवाई-जहाज़ से पहली बार यात्रा करूँगा।
+        en: Today I will travel by plane for the first time.
+concept: today
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%86%E0%A4%9C#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: suã
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /suˈɐ̃/
+part_of_speech: noun
+meanings:
+  - en: backbone or vertebrae of any animal
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/su%C3%A3#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: بنوب
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - bnōb
+pronunciation:
+  ipa: /bnɔːb/
+part_of_speech: adv
+meanings:
+  - en: never
+    examples: []
+  - en: at all, whatsoever
+    examples:
+      - text: مَا عَم كَذِّب بنوب.
+        en: I'm not lying at all.
+concept: never
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D9%86%D9%88%D8%A8#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

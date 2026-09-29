@@ -1,0 +1,33 @@
+word: packen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpakən/
+part_of_speech: verb
+meanings:
+  - en: to manage, to stand, to cope
+    examples:
+      - text: Ich pack das alles nich’...
+        en: I can’t manage all of this...
+      - text: Wir packen das.
+        en: We've got this covered.
+  - en: to take (a bus, train, etc.)
+    examples:
+      - text: Lass den Bus packen!
+        en: Let’s take the bus!
+concept: take
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/packen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

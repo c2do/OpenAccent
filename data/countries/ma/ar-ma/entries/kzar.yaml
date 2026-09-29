@@ -1,0 +1,28 @@
+word: خزر
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ḵzar
+pronunciation:
+  ipa: /xzar/
+part_of_speech: verb
+meanings:
+  - en: to look
+    examples:
+      - text: خزر في
+        en: Look at me!
+concept: see
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AE%D8%B2%D8%B1#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

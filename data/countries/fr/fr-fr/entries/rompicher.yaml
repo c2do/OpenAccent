@@ -1,0 +1,27 @@
+word: rompicher
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʁɔ̃.pi.ʃe/
+part_of_speech: verb
+meanings:
+  - en: To sleep.
+    examples: []
+  - en: To snore.
+    examples: []
+concept: sleep
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rompicher#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

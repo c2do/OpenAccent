@@ -1,0 +1,36 @@
+word: सस्ता
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - sastā
+pronunciation:
+  ipa: /səs.t̪ɑː/
+part_of_speech: adj
+meanings:
+  - en: cheap, inexpensive
+    examples:
+      - text: स्थानीय प्रकाशक की छपी हुई पुस्तकें सस्ती होतीं हैं।
+        en: The books printed by the local publisher are inexpensive.
+      - text: >-
+          उन्हें लिखा था कि मैंने बहुत सस्ता समझ कर इस समय एक गांव साठ हज़ार
+          रुपए में ख़रीद लिया है […]
+
+          unhẽ likhā thā ki ma͠ine bahut sastā samajh kar is samay ek gāmv sāṭh
+          hazār rupae mẽ xarīd liyā hai […]
+        en: They wrote to them saying that at this time I had bought a town for seven
+          thousand rupees thinking it to be very cheap.
+concept: cheap
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

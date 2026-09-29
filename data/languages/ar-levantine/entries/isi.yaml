@@ -1,0 +1,29 @@
+word: قشع
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʔišiʕ
+  - ʔašaʕ
+part_of_speech: verb
+meanings:
+  - en: to see, (especially) to perceive, to make out
+    examples:
+      - text: "Near-synonym: شاف (šāf, “to see”) (more literal)"
+      - text: انا عم حبك هلق / انا بعيونك عم بتعلق / بالايام الي جاية / حدي عم بقشعك
+        en: I’m falling in love with you now / I’m becoming fond of your eyes / In the
+          coming days / I'm seeing you by my side.
+concept: see
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%B4%D8%B9#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

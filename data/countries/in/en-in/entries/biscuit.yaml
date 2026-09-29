@@ -1,0 +1,28 @@
+word: biscuit
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɪs.kɪt/
+part_of_speech: noun
+meanings:
+  - en: A small, flat, baked good which is either hard and crisp or else soft but
+      firm; a cookie.
+    examples:
+      - text: Weighed myself at the gym and have hit 10st 8lb, a sure sign of things
+          getting out of control—so I can’t even console myself with a chocolate
+          biscuit.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/biscuit#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

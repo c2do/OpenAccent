@@ -1,0 +1,32 @@
+word: مكنة
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - makana
+  - makane
+pronunciation:
+  ipa: /ma.ka.na/
+part_of_speech: noun
+meanings:
+  - en: machine
+    examples: []
+  - en: car
+    examples:
+      - text: kint it3illamt is-swaa?a mnizmaan law ba3rif ?innu rah̄ isiir 3inna makana
+        en: I would have learnt to drive long ago, had I known that we were going to
+          have a car
+concept: car
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D9%83%D9%86%D8%A9#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

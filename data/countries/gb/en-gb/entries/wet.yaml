@@ -1,0 +1,28 @@
+word: wet
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /wɛt/
+part_of_speech: adj
+meanings:
+  - en: Ineffectual, feeble, showing no strength of character.
+    examples:
+      - text: I think it’s time we stopped our cringing embarrassment about our history,
+          about our traditions, and about our culture, and we stopped this
+          general fight of self-recrimination and wetness.
+      - text: Don’t be so wet.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wet#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

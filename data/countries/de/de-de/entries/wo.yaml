@@ -1,0 +1,31 @@
+word: wo
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /voː/
+part_of_speech: adv
+meanings:
+  - en: when, that (on which; at which time)
+    examples:
+      - text: Das war der Tag, wo wir uns kennen gelernt haben.
+        en: That was the day when we got to know each other.
+  - en: somewhere (in or to an uncertain or unspecified location)
+    examples:
+      - text: Ich wär gern wo, wo's wärmer ist.
+        en: I'd like to be somewhere where it's warmer.
+concept: when
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wo#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

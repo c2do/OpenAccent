@@ -1,0 +1,24 @@
+word: tight
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /taɪt/
+part_of_speech: adj
+meanings:
+  - en: With understeer, primarily used to describe NASCAR stock cars.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tight#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

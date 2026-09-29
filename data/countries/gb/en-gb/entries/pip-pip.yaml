@@ -1,0 +1,34 @@
+word: pip-pip
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˌpɪpˈpɪp/
+part_of_speech: intj
+meanings:
+  - en: Goodbye; cheerio, toodle-oo, toodle-pip (mostly used by the upper classes).
+    examples:
+      - text: "\"In that case,\" said Archie, relieved, \"cheerio, good luck, pip-pip,
+          toodle-oo, and good-bye-ee! I'll be shifting!\""
+      - text: Gee-Gee struck a Fifth Avenue attitude. "Home, James. My car and chauffeur
+          awaits me lord in the alley. Pip-pip, big stuff."
+  - en: A general greeting (mostly used by the upper classes)..
+    examples:
+      - text: Pip-pip! What's going on here?
+      - text: I can do a French accent or a German accent or a British accent. (Doing
+          British accent) Pip, pip! Lovely day, isn't it?
+concept: bye
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pip-pip#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

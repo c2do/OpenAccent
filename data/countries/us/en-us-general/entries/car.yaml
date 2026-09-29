@@ -1,0 +1,31 @@
+word: car
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɑː/
+part_of_speech: noun
+meanings:
+  - en: Any vehicle designed to run on rails, especially an unpowered one towed by
+      being connected to others.; An unpowered unit in a railroad train, used to
+      hold either passengers or cargo.
+    examples:
+      - text: The conductor coupled the cars to the locomotive.
+  - en: A floating perforated box for living fish.
+    examples: []
+  - en: A clique or gang.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/car#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

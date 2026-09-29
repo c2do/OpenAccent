@@ -1,0 +1,38 @@
+word: tie
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /taɪ/
+meanings:
+  - en: A horizontal wooden or concrete structural member that supports and ties
+      together rails.
+    examples: []
+  - en: An equalizer, a run, goal, point, etc which causes participants in a
+      competition to be placed equally or have the same score(s).
+    examples: []
+  - en: To have the same score or position as (another) in a competition or
+      ordering.
+    examples:
+      - text: He tied me for third place.
+  - en: To believe; to credit.
+    examples:
+      - text: |-
+          […] It seems they have sort of betrothal teas — can you tie it?"
+          "Heavens!" said Mary […]
+      - text: As the door slammed Pete turned to Hally, fuming. "Can you tie that? A
+          little twopenny cold frightening him off."
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tie#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

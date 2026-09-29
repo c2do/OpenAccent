@@ -1,0 +1,31 @@
+word: henüz
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhe.nyz/
+part_of_speech: adv
+meanings:
+  - en: just, just now
+    examples:
+      - text: Leyla henüz gitti.
+        en: Leyla just left.
+  - en: still, yet
+    examples:
+      - text: Henüz hazır değilim.
+        en: I'm not ready yet.
+concept: still
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hen%C3%BCz#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

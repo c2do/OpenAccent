@@ -1,0 +1,24 @@
+word: entertain
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˌɛntəˈteɪn/
+part_of_speech: verb
+meanings:
+  - en: To help; to assist; to answer a phone call.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/entertain#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,33 @@
+word: co-ed
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˌkoʊˈɛd/
+part_of_speech: noun
+meanings:
+  - en: A young woman who attends college.
+    examples:
+      - text: To many a student the most appealing subject in college is a coed. A coed
+          is usually less interested in what she gets out of college than whom.
+      - text: I gazed wistfully at the pretty coeds.
+  - en: A (generally young) woman, especially on the campus of a college or other
+      educational institute.
+    examples:
+      - text: "1959: A coed is exotic with mascara on her eye lashes, demureness in a
+          sweater, and 'the future homemaker' with a can opener."
+concept: woman
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/co-ed#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: guita
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡita/
+part_of_speech: noun
+meanings:
+  - en: money
+    examples: []
+concept: money
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/guita#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

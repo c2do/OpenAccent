@@ -1,0 +1,27 @@
+word: spare
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /spɛə(ɹ)/
+part_of_speech: adj
+meanings:
+  - en: Very angry; frustrated or distraught.
+    examples:
+      - text: When he found out that someone had broken the window, he went spare.
+      - text: The poor girl is going spare, stuck in the house all day with the kids
+          like that.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/spare#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

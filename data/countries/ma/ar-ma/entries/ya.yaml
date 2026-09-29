@@ -1,0 +1,32 @@
+word: يا
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - yā
+meanings:
+  - en: Hey
+    examples:
+      - text: يا داك لولد، أش كاتدير؟
+        en: Hey you kid, what are you doing?
+  - en: already
+    examples:
+      - text: مشيت يا للبحر
+        en: I already went to the sea.
+  - en: either...or
+    examples:
+      - text: يا غاتعطيني شنو بغيت، يا غانمشي فحالي
+        en: Either you give me what I want, or I will leave.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%8A%D8%A7#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

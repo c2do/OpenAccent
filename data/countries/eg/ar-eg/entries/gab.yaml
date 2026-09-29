@@ -1,0 +1,26 @@
+word: جاب
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - gāb
+pronunciation:
+  ipa: /ɡaːb/
+part_of_speech: verb
+meanings:
+  - en: to bring
+    examples: []
+concept: bring
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AC%D8%A7%D8%A8#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

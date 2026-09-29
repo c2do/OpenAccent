@@ -1,0 +1,27 @@
+word: عقد
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʕaʔʔad
+part_of_speech: verb
+meanings:
+  - en: to complicate
+    examples: []
+  - en: to be great, very good, stunning
+    examples:
+      - text: كتير حلوة هالصورة، والله بتعقد!
+        en: This picture is so nice, it's really stunning!
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%82%D8%AF#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

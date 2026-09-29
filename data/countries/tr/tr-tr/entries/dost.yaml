@@ -1,0 +1,32 @@
+word: dost
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+meanings:
+  - en: friend
+    examples: []
+  - en: paramour; an illicit male or female lover
+    examples: []
+  - en: friendly, compatible with, or not damaging to (the compounded noun).
+    examples:
+      - text: Elektrikli araçların karbondioksit salınımına neden olmaması sebebiyle
+          çevre dostu bir araç olarak kabul edilmektedir.
+        en: Since electric vehicles do not cause carbon dioxide emissions, they are
+          considered an environmentally friendly vehicle.
+      - text: esnek ve kullanıcı dostu arayüze sahip bir yazılım
+        en: software with a flexible and user-friendly interface
+concept: friend
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dost#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

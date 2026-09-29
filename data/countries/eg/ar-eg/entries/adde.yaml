@@ -1,0 +1,24 @@
+word: قد إيه
+dialect: ar-eg
+type: phrase
+spellings: []
+romanized:
+  - ʔaddē
+part_of_speech: adv
+meanings:
+  - en: how much, how many
+    examples: []
+concept: how_much
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%AF_%D8%A5%D9%8A%D9%87#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

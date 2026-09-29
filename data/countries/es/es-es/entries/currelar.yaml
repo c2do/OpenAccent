@@ -1,0 +1,25 @@
+word: currelar
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kureˈlaɾ/
+part_of_speech: verb
+meanings:
+  - en: to work
+    examples: []
+concept: work_verb
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/currelar#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

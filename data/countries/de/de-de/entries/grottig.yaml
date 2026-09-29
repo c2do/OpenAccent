@@ -1,0 +1,25 @@
+word: grottig
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡʁɔtɪç/
+part_of_speech: adj
+meanings:
+  - en: bad, unpleasant
+    examples: []
+concept: bad
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/grottig#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

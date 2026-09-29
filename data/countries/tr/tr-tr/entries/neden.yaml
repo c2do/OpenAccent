@@ -1,0 +1,30 @@
+word: neden
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /neˈdæn/
+meanings:
+  - en: why
+    examples:
+      - text: Neden Türkçe öğrenmek istiyorsunuz?
+        en: Why do you want to learn Turkish?
+      - text: Neden Türkçe öğrenmek istiyorsun?
+        en: Why do you want to learn Turkish?
+  - en: reason
+    examples: []
+concept: why
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/neden#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

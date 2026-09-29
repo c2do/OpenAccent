@@ -1,0 +1,29 @@
+word: scharf
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʃarf/
+part_of_speech: adj
+meanings:
+  - en: keen on; excited for; strongly looking forward to
+    examples: []
+  - en: hot; sexy; attractive
+    examples: []
+  - en: hot; aroused; horny
+    examples: []
+concept: hot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/scharf#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

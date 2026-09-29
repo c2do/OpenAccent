@@ -1,0 +1,29 @@
+word: maneiro
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /maˈne(j).ɾu/
+part_of_speech: adj
+meanings:
+  - en: agile (moving quick and easily)
+    examples: []
+  - en: nice, cool
+    examples:
+      - text: "Bree: Bom, o seu black é muito maneiro também."
+        en: "Bree: Well, your afro is really cool too."
+concept: beautiful
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/maneiro#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

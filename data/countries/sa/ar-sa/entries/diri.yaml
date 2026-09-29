@@ -1,0 +1,26 @@
+word: دري
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - diri
+pronunciation:
+  ipa: /diri/
+part_of_speech: verb
+meanings:
+  - en: to know
+    examples: []
+concept: know
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AF%D8%B1%D9%8A#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

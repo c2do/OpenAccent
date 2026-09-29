@@ -1,0 +1,25 @@
+word: ايمتى
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʔēmta
+  - ʔaymata
+part_of_speech: pron
+meanings:
+  - en: when?
+    examples: []
+concept: when
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%8A%D9%85%D8%AA%D9%89#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: maya
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmaʝa/
+part_of_speech: noun
+meanings:
+  - en: Yucatec Maya language.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/maya#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

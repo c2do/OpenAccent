@@ -1,0 +1,25 @@
+word: wer
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /veːr/
+part_of_speech: pron
+meanings:
+  - en: what, which (one) (see usage notes)
+    examples: []
+concept: what
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wer#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

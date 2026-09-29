@@ -1,0 +1,25 @@
+word: يوم
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - yōm
+pronunciation:
+  ipa: /joːm/
+part_of_speech: noun
+meanings:
+  - en: day
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%8A%D9%88%D9%85#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

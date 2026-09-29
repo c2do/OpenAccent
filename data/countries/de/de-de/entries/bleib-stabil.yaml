@@ -1,0 +1,30 @@
+word: bleib stabil
+dialect: de-de
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: phrase
+meanings:
+  - en: goodbye, take it easy; A general purpose parting greeting
+    examples:
+      - text: Mit jungen Leuten kommt er schnell ins Gespräch, er beherrscht ihre
+          Sprache. „Bleib stabil, Brudi“, sagt er zu einem jungen Mann, der ihn
+          ein wenig schüchtern anspricht.
+        en: He talks easily with young people and masters their slang. "Take it easy,
+          bro", he tells a young man who speaks to him a little shyly.
+  - en: don't worry, stay the course
+    examples: []
+concept: bye
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bleib_stabil#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: pelusa
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /peˈlusa/
+part_of_speech: noun
+meanings:
+  - en: jealousy
+    examples:
+      - text: Tengo pelusa.
+        en: I'm jealous.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pelusa#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

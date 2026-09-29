@@ -1,0 +1,29 @@
+word: pasta
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpasta/
+part_of_speech: noun
+meanings:
+  - en: money, dough
+    examples:
+      - text: No está tan engreído como de costumbre; parece bien jodido. «No lo
+          entiendo, Spud. Pensé que me quedaba mucha pasta para las vacaciones;
+          tenía previsto llevarme a mi hija por ahí.[…]»
+        en: (please add an English translation of this quotation)
+concept: money
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pasta#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

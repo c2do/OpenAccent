@@ -1,0 +1,27 @@
+word: yam
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /jæm/
+part_of_speech: verb
+meanings:
+  - en: To eat.
+    examples:
+      - text: “If I was that snake I’d just open my jaw and yam that fool up in one
+          bite!”
+concept: eat
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/yam#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

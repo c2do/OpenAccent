@@ -1,0 +1,26 @@
+word: praia
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpɾaj.ɐ/
+part_of_speech: noun
+meanings:
+  - en: one's object or area of interest or fondness
+    examples:
+      - text: Matemática não é minha praia.
+        en: I'm not keen on mathematics.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/praia#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

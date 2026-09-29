@@ -1,0 +1,26 @@
+word: salle
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sal/
+part_of_speech: noun
+meanings:
+  - en: gym
+    examples:
+      - text: aller à la salle
+        en: to go to the gym
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/salle#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

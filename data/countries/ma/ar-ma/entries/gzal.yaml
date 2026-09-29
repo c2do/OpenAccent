@@ -1,0 +1,27 @@
+word: غزال
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ḡzāl
+pronunciation:
+  ipa: /ɣzaːl/
+meanings:
+  - en: gazelle
+    examples: []
+  - en: beautiful
+    examples: []
+concept: beautiful
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%BA%D8%B2%D8%A7%D9%84#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

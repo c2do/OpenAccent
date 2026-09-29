@@ -1,0 +1,24 @@
+word: velha
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈvɛ.ʎɐ/
+part_of_speech: noun
+meanings:
+  - en: a tie in a tic-tac-toe game
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/velha#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

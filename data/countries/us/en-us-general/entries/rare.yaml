@@ -1,0 +1,36 @@
+word: rare
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɹɛə/
+meanings:
+  - en: Cool; excellent.
+    examples:
+      - text: I whistled for a cab and when it came near / The license plate said
+          ‘fresh’ and it had dice in the mirror. / If anything I could say that
+          this cab was rare.
+  - en: To rear, rise up, start backwards.
+    examples:
+      - text: Frank pretended to rare back as if bedazzled, shielding his eyes with a
+          forearm.
+  - en: To rear, bring up, raise.
+    examples:
+      - text: Here I have to say that I was walking along dark-hearted, my nose out of
+          joint about Audie's notice of her, for just as quickly as my feelings
+          kindled, my old envy rared.
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rare#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

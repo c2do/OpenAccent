@@ -1,0 +1,29 @@
+word: si ça se trouve
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /si sa sə tʁuv/
+part_of_speech: phrase
+meanings:
+  - en: maybe, perhaps
+    examples:
+      - text: Je comprends pas pourquoi on se dépêche comme ça. Si ça se trouve, ils ne
+          sont même pas encore partis.
+        en: I don't understand why we're in such a hurry. They might not even have left
+          yet.
+concept: maybe
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/si_%C3%A7a_se_trouve#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

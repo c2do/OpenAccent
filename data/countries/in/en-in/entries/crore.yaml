@@ -1,0 +1,27 @@
+word: crore
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɹoɹ/
+part_of_speech: noun
+meanings:
+  - en: "ten million (10⁷): 10,000,000, that is, with Indian digit grouping,
+      1,00,00,000."
+    examples:
+      - text: "Meronym: lakh"
+      - text: The population of Gujarat is 3.39 crores.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/crore#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

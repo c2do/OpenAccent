@@ -1,0 +1,30 @@
+word: قتل
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - gatal
+  - gattal
+  - gatil
+pronunciation:
+  ipa: /ɡa.tal/
+meanings:
+  - en: to kill, to murder
+    examples: []
+  - en: to kill, to massacre
+    examples: []
+  - en: killing, manslaughter, homicide, murder
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%AA%D9%84#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

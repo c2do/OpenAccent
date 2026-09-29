@@ -1,0 +1,25 @@
+word: conejo
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /koˈnexo/
+part_of_speech: noun
+meanings:
+  - en: type of bedpan (specially shaped bottle used to collect urine from bedridden
+      men)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/conejo#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

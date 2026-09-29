@@ -1,0 +1,28 @@
+word: أحبك
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ʼaḥubbak
+  - ʼaḥubbik
+pronunciation:
+  ipa: /ʔaħubbak/
+part_of_speech: phrase
+meanings:
+  - en: I love you (to a male)
+    examples: []
+  - en: I love you (to a female)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D8%AD%D8%A8%D9%83#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

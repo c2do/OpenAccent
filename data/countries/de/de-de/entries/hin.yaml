@@ -1,0 +1,32 @@
+word: hin
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /hɪn/
+part_of_speech: adj
+meanings:
+  - en: gone (somewhere), left, situated
+    examples:
+      - text: Ich sehe mal nach, wo die Pakete hin sind.
+        en: I'll check where the packages went.
+  - en: gone (somewhere), left, situated; dead or out of order, kaput
+    examples: []
+  - en: gone (somewhere), left, situated; exhausted, depleted
+    examples: []
+  - en: captivated, hooked
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hin#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

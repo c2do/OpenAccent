@@ -1,0 +1,28 @@
+word: عيش
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ʕēš
+  - ʕayyaš
+pronunciation:
+  ipa: /ʕeːʃ/
+meanings:
+  - en: bread
+    examples: []
+  - en: to cause to live
+    examples: []
+concept: bread
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%8A%D8%B4#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

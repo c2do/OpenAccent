@@ -1,0 +1,39 @@
+word: foutre
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /futʁ/
+part_of_speech: verb
+meanings:
+  - en: to give
+    examples:
+      - text: Fous-moi la paix !
+        en: Give me a break!
+  - en: to put on/in (quickly), to shove, to stick, to stash
+    examples:
+      - text: Fous-la dans ton sac.
+        en: Stick it in your bag.
+      - text: Fous ta cagoule !
+        en: Get your balaclava on!
+  - en: to tease, to make fun of, to mock, to not take seriously or to dismiss
+    examples:
+      - text: Est-ce que vous vous foutez de ma sœur ?
+        en: Are you teasing/making fun of my sister?
+      - text: Se foutraient-ils de sa gueule ?
+        en: Would they make fun of him?
+concept: give
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/foutre#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

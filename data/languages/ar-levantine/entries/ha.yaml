@@ -1,0 +1,36 @@
+word: حق
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ḥaʔʔ
+pronunciation:
+  ipa: /ħaʔʔ/
+part_of_speech: noun
+meanings:
+  - en: justice, rightness, fairness
+    examples: []
+  - en: truth, right
+    examples: []
+  - en: a right, something to which one is entitled (both in a legal and non-legal
+      sense)
+    examples:
+      - text: بعرف حقوقي!
+        en: I know my rights!
+      - text: زعلانة وبالحق! بعد ما أخدت سكربينتي الحلوة...
+        en: She's upset and rightly so! After taking my good heels...
+  - en: value, worth
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D9%82#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

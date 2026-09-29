@@ -1,0 +1,32 @@
+word: عرف
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ʕirif
+pronunciation:
+  ipa: /ʕi.rif/
+part_of_speech: verb
+meanings:
+  - en: to know
+    examples: []
+  - en: to recognize, to distinguish
+    examples: []
+  - en: to discover, to find out
+    examples: []
+  - en: to show consideration for
+    examples: []
+concept: know
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D8%B1%D9%81#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

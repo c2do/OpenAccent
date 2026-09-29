@@ -1,0 +1,28 @@
+word: انت
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ʔinta
+  - ʔinti
+pronunciation:
+  ipa: /(ʔ)in.ta/
+part_of_speech: pron
+meanings:
+  - en: you (second-person masculine singular subject pronoun)
+    examples: []
+  - en: you (second-person feminine singular subject pronoun)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%86%D8%AA#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

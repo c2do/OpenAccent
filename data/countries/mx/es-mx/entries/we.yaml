@@ -1,0 +1,24 @@
+word: we
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈwe/
+part_of_speech: noun
+meanings:
+  - en: chump, punk, dumbass, idiot, jerk
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/we#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

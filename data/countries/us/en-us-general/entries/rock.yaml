@@ -1,0 +1,34 @@
+word: rock
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɹɒk/
+part_of_speech: noun
+meanings:
+  - en: An unintelligent person, especially one who repeats mistakes.
+    examples: []
+  - en: An extremely conservative player who is willing to play only the very
+      strongest hands.
+    examples: []
+  - en: A basketball.
+    examples:
+      - text: Yo homie, pass the rock!
+  - en: A mistake.
+    examples:
+      - text: Now, you should never make the last out of an inning at third, and when a
+          player does it, everyone knows he pulled a rock.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rock#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: أوكي
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ʔōkē
+pronunciation:
+  ipa: /ʔoːkeː/
+part_of_speech: intj
+meanings:
+  - en: okay, OK
+    examples: []
+concept: okay
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D9%88%D9%83%D9%8A#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

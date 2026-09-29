@@ -1,0 +1,26 @@
+word: nish
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+part_of_speech: pron
+meanings:
+  - en: Nothing.
+    examples:
+      - text: If you like the director you do it for nish, so Marcus Thompson got us all
+          to do it for nothing.
+      - text: I've got nish to say to you. You can save your breath.
+concept: nothing
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nish#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: mueble
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmweble/
+part_of_speech: noun
+meanings:
+  - en: in the reality show Big Brother, a contestant who does not generate content,
+      who isn't the source of so many comments and who wanders around the house
+      without generating any interest in the viewer
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mueble#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

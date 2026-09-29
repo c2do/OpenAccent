@@ -1,0 +1,38 @@
+word: squizz
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /skwɪz/
+meanings:
+  - en: A look.
+    examples:
+      - text: The building itself is worth a squizz; its modern metal forms and
+          structures evoke maritime themes.
+      - text: “That lot heard about the place and came in here on their way to an
+          Antarctic research station. But mostly, it′s just curious folks that
+          drop by for a squizz—like you, for instance.”
+  - en: To look, to examine.
+    examples:
+      - text: He liked to see them laughing, enjoying themselves, squizzing at the
+          antics of whitefellers in party mood.
+      - text: >-
+          2010, Linzy Harris, Perdita, Paragon Publishing, UK, page 79,
+
+          She presented me with a bag, and when I squizzed inside I saw it
+          contained five boxes of cigarettes.
+concept: see
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/squizz#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

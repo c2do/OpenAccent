@@ -1,0 +1,25 @@
+word: comment ça va
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɔ.mɑ̃ sa va/
+part_of_speech: phrase
+meanings:
+  - en: how are you
+    examples: []
+concept: how_are_you
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/comment_%C3%A7a_va#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

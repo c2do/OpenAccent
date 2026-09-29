@@ -1,0 +1,26 @@
+word: schlecht
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʃlɛçt/
+part_of_speech: adj
+meanings:
+  - en: sick, nauseated
+    examples:
+      - text: Von zu vielen Süßigkeiten wird mir immer schlecht.
+        en: I always get sick from too many sweets.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/schlecht#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

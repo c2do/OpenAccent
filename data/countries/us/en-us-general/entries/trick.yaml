@@ -1,0 +1,25 @@
+word: trick
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtɹɪk/
+part_of_speech: adj
+meanings:
+  - en: Stylish or cool.
+    examples:
+      - text: Wow, your new sportscar is so trick.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/trick#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

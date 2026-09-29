@@ -1,0 +1,35 @@
+word: carrément
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ka.ʁe.mɑ̃/
+part_of_speech: adv
+meanings:
+  - en: really, completely
+    examples:
+      - text: Il est carrément stupide.
+        en: He is really stupid.
+      - text: Je veux carrément aller au Japon
+        en: I really want to go to Japan.
+  - en: straight out, bluntly (of asking, speaking etc.)
+    examples: []
+  - en: right, slap-bang, smack-dab
+    examples:
+      - text: La poste se trouve carrément au centre de la ville
+        en: The post office is right smack in the middle of the town.
+concept: really
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/carr%C3%A9ment#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

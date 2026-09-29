@@ -1,0 +1,27 @@
+word: babalık
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ba.baˈɫɯk/
+part_of_speech: noun
+meanings:
+  - en: fatherhood
+    examples: []
+  - en: dad, daddy, pappa
+    examples: []
+concept: dad
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/babal%C4%B1k#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,32 @@
+word: espabilar
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /espabiˈlaɾ/
+part_of_speech: verb
+meanings:
+  - en: to snuff a candle (to remove any excedent portion of a candle's wick that is
+      charred)
+    examples: []
+  - en: to brighten up, to enliven, to make smart or smarter
+    examples: []
+  - en: to wake up
+    examples: []
+  - en: to pay attention, watch out
+    examples: []
+concept: hurry_up
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/espabilar#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: major
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmeɪ.d͡ʒə(ɹ)/
+meanings:
+  - en: Indicating the elder of two brothers (or the eldest of three), appended to a
+      surname in public schools.
+    examples: []
+  - en: An elder brother (especially at a public school).
+    examples: []
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/major#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

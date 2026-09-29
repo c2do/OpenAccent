@@ -1,0 +1,37 @@
+word: capisce
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kəˈpiːʃ/
+meanings:
+  - en: "Used by a listener to confirm that they have understood something said to
+      them: I got it, I heard you, I understand."
+    examples:
+      - text: "\"I have a niece.\" / \"No children?\" / \"Not married.\" / \"What is the
+          problem?\" / \"I'm single. No wife, no kids. No problem.\" /
+          \"Capisce.\" / \"Yeah, capisce.\""
+      - text: "\"It’s simple. Here's the rules: One of us says 'Never Have I Ever' and
+          finishes the sentence. If you've done whatever the thing is, you
+          drink. Yeah?\" / \"Capisce.\" I salute and he laughs."
+  - en: To understand (someone or something).
+    examples: []
+  - en: To understand.
+    examples:
+      - text: "\"Shoo, shoo, shoo, go help Pierfranco. He'll be bringing up heavy
+          baskets, capisce?\" I certainly capisced."
+concept: understand
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/capisce#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

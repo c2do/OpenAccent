@@ -1,0 +1,37 @@
+word: सोना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - sonā
+pronunciation:
+  ipa: /soː.nɑː/
+meanings:
+  - en: gold
+    examples:
+      - text: सोना प्रायः खान से खोदकर निकाला जाता है।
+        en: Gold is usually dug out from a mine.
+  - en: to sleep
+    examples:
+      - text: सो जाना
+        en: to fall asleep
+      - text: सोने जाना
+        en: to go to bed, head to bed
+  - en: to repose
+    examples: []
+  - en: to die
+    examples: []
+concept: sleep
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A5%8B%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

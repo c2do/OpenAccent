@@ -1,0 +1,27 @@
+word: ocupar
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /okuˈpaɾ/
+part_of_speech: verb
+meanings:
+  - en: to need
+    examples:
+      - text: Ocupo ayuda.
+        en: I need help.
+concept: need
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ocupar#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

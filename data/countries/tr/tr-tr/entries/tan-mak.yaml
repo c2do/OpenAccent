@@ -1,0 +1,33 @@
+word: tanımak
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ta.nɯˈmak/
+part_of_speech: verb
+meanings:
+  - en: to know (someone)
+    examples:
+      - text: Sizi tanıyor muyum?
+        en: Do I know you?
+  - en: to recognise
+    examples: []
+  - en: to give, recognise
+    examples:
+      - text: Trenden inenlere lütfen öncelik tanıyın.
+        en: Please give priority to those who are getting off the train.
+concept: know
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tan%C4%B1mak#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

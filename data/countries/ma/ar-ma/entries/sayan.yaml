@@ -1,0 +1,26 @@
+word: ساين
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - sāyan
+pronunciation:
+  ipa: /saː.jan/
+part_of_speech: verb
+meanings:
+  - en: to wait
+    examples: []
+concept: wait
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B3%D8%A7%D9%8A%D9%86#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

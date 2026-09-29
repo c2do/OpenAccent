@@ -1,0 +1,25 @@
+word: çok
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[tʃɔk]"
+part_of_speech: adv
+meanings:
+  - en: very, too
+    examples: []
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A7ok#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

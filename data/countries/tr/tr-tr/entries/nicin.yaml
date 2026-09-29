@@ -1,0 +1,25 @@
+word: niçin
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈniː.t͡ʃin/
+part_of_speech: adv
+meanings:
+  - en: why
+    examples: []
+concept: why
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ni%C3%A7in#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: pek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpec/
+meanings:
+  - en: very
+    examples:
+      - text: Pek zorlu yollardan geçtiler.
+        en: They went through some very difficult times.
+  - en: firm, strong, durable
+    examples:
+      - text: Bu nesne taştan pektir.
+        en: This object is firmer than a stone.
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

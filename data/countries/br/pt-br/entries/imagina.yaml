@@ -1,0 +1,25 @@
+word: imagina
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /i.maˈʒĩ.nɐ/
+part_of_speech: intj
+meanings:
+  - en: no problem; don't mention it (polite response to a thank you)
+    examples: []
+concept: no_problem
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/imagina#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

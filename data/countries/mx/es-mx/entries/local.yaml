@@ -1,0 +1,24 @@
+word: local
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /loˈkal/
+part_of_speech: noun
+meanings:
+  - en: store or other retail unit in a shopping center
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/local#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: क्या
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kyā
+pronunciation:
+  ipa: /kjɑː/
+part_of_speech: pron
+meanings:
+  - en: what?
+    examples:
+      - text: आम का दाम क्या है?
+        en: What is the price of mangoes?
+      - text: क्या हुआ?
+        en: What happened?
+concept: what
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%AF%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

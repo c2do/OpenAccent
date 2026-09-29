@@ -1,0 +1,29 @@
+word: muy
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /mʊi/
+part_of_speech: adv
+meanings:
+  - en: Very.
+    examples:
+      - text: In her rosy two-piece traveling outfit, Adela looks muy cute as she walks
+          toward us.
+      - text: But such is the case with Enrique Iglesias, the muy handsome son of Julio,
+          who is known to his fans these days simply as Enrique.
+concept: a_lot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/muy#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

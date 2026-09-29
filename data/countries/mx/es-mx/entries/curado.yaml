@@ -1,0 +1,26 @@
+word: curado
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kuˈɾado/
+part_of_speech: adj
+meanings:
+  - en: funny, goofy, ridiculous, silly
+    examples:
+      - text: Se ve bien curado.
+        en: He looks so funny.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/curado#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: shower
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃaʊ.ə(ɹ)/
+part_of_speech: noun
+meanings:
+  - en: A group of people perceived as incompetent or worthless.
+    examples:
+      - text: "But when I tweeted it out, most of the responses (from the more than one
+          million viewers) were along the lines of: 'what do you expect from
+          this shower?"
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/shower#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

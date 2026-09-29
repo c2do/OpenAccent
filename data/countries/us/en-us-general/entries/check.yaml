@@ -1,0 +1,38 @@
+word: check
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃɛk/
+meanings:
+  - en: "A mark (especially a checkmark: ✓) used as an indicator."
+    examples:
+      - text: Norton had made a neat, lawyerly check beside each of the items he and
+          Billy had picked up—half a dozen or so, including the milk and a
+          six-pack of Coke.
+  - en: An order to a bank to pay money to a named person or entity.
+    examples:
+      - text: I was not carrying cash, so I wrote a check for the amount.
+  - en: A bill, particularly in a restaurant.
+    examples:
+      - text: I summoned the waiter, paid the check, and hurried to leave.
+  - en: To mark items on a list (with a checkmark or by crossing them out) that have
+      been chosen for keeping or removal or that have been dealt with (for
+      example, completed or verified as correct or satisfactory).
+    examples:
+      - text: Check the items on the list that interest you.
+      - text: Check the correct answer to each question.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/check#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

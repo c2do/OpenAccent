@@ -1,0 +1,29 @@
+word: job
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈd͡ʒɔ.bi/
+part_of_speech: noun
+meanings:
+  - en: a gig (a job, especially freelance or temporary)
+    examples:
+      - text: Arranjei um job numa empresa alemã.
+        en: I got myself a gig working for a German company.
+  - en: a job (task carried out in batch mode)
+    examples: []
+concept: work
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/job#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

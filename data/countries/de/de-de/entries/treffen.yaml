@@ -1,0 +1,28 @@
+word: treffen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtʁɛfən/
+part_of_speech: verb
+meanings:
+  - en: to hit the mark, to suit, to be convenient or fortunate
+    examples:
+      - text: Das trifft sich schlecht.
+        en: That’s unfortunate.
+      - text: Es trifft sich ausgezeichnet, dass...
+        en: It is entirely fitting that...
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/treffen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

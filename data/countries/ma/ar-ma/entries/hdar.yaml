@@ -1,0 +1,29 @@
+word: هدر
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - hdar
+  - haddar
+pronunciation:
+  ipa: /hdar/
+part_of_speech: verb
+meanings:
+  - en: to talk, to speak
+    examples: []
+  - en: to cause to talk
+    examples: []
+concept: talk
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D8%AF%D8%B1#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

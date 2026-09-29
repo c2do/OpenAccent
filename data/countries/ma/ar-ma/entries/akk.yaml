@@ -1,0 +1,28 @@
+word: أخ
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ʔaḵḵ
+pronunciation:
+  ipa: /ʔaxː/
+part_of_speech: noun
+meanings:
+  - en: brother, male sibling
+    examples:
+      - text: ولد خاها
+        en: her fraternal nephew
+concept: brother
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D8%AE#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

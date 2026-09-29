@@ -1,0 +1,24 @@
+word: matrícula
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /maˈtɾikula/
+part_of_speech: noun
+meanings:
+  - en: number plate, license plate
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/matr%C3%ADcula#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

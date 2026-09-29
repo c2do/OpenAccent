@@ -1,0 +1,25 @@
+word: luschern
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈluːʃɐn/
+part_of_speech: verb
+meanings:
+  - en: to look, glance; (especially) to peek, spy
+    examples: []
+concept: see
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/luschern#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

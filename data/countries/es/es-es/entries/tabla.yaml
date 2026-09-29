@@ -1,0 +1,24 @@
+word: tabla
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtabla/
+part_of_speech: noun
+meanings:
+  - en: skirt pleat
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tabla#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

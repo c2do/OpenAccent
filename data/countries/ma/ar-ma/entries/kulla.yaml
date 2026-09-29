@@ -1,0 +1,31 @@
+word: كل
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - kulla
+  - kull
+pronunciation:
+  ipa: /kul.la/
+meanings:
+  - en: each, every (with following indefinite noun)
+    examples:
+      - text: كل مواطن عنده الحق يصوت.
+        en: Every citizen has the right to vote.
+  - en: whole, all (attached to an object pronoun after following definite noun)
+    examples:
+      - text: وكلت الناس كلها فالعرس.
+        en: I've fed all the people in the wedding.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D9%84#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

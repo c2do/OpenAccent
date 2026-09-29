@@ -1,0 +1,26 @@
+word: lift
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /lɪft/
+part_of_speech: noun
+meanings:
+  - en: A mechanical device for vertically transporting goods or people between
+      floors in a building.
+    examples:
+      - text: Take the lift to the fourth floor.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/lift#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

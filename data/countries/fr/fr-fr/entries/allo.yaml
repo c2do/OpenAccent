@@ -1,0 +1,25 @@
+word: allô
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a.lo/
+part_of_speech: intj
+meanings:
+  - en: hello! (implying someone is not paying attention to the obvious)
+    examples: []
+concept: hello
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/all%C3%B4#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

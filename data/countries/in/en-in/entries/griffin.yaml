@@ -1,0 +1,27 @@
+word: griffin
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡɹɪf.ɪn/
+part_of_speech: noun
+meanings:
+  - en: A person who has just arrived from Europe.
+    examples:
+      - text: Tables were laid out in the palace, profusely covered with wines and
+          refreshments, in the European style; old hands and griffins, fair sex
+          and civilians, seemed all determined to enjoy themselves[…]
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/griffin#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

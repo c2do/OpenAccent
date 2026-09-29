@@ -1,0 +1,26 @@
+word: لو
+dialect: ar-eg
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[læw]"
+part_of_speech: conj
+meanings:
+  - en: if
+    examples:
+      - text: هو لو كان هنا كان قتلك
+        en: If he were here, he would've killed you.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D9%88#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

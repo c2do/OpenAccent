@@ -1,0 +1,28 @@
+word: reminisce
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˌɹɛm.əˈnɪs/
+part_of_speech: verb
+meanings:
+  - en: To remember fondly; to reminisce about.
+    examples:
+      - text: |-
+          And now when life begins to get the best of me
+          I reminisce these childhood memories
+      - text: He reminisced the old Parvati who was now this Parvati.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/reminisce#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: hit the gas
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: To go; go faster.
+    examples:
+      - text: They're gaining on you; you'd better hit the gas, now!
+      - text: Impera's right below us. I'm pointing her straight down and hitting the
+          gas. There's a military base down there that'll try to blow us apart
+          before we hit. Let's not be here when that happens.
+concept: go
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hit_the_gas#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

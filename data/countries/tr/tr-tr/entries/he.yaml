@@ -1,0 +1,30 @@
+word: he
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /he/
+meanings:
+  - en: The name of the Latin script letter H/h.
+    examples: []
+  - en: "Letter of the Arabic alphabet: ه"
+    examples: []
+  - en: yes; yeah
+    examples:
+      - text: Geliyor musun? — He, geliyorum.
+        en: Are you coming? — Yes, I'm coming.
+concept: "yes"
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/he#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

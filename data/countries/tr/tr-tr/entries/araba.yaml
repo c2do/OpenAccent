@@ -1,0 +1,29 @@
+word: araba
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɑ.ɾɑ.ˈbɑ/
+part_of_speech: noun
+meanings:
+  - en: car
+    examples: []
+  - en: cart
+    examples: []
+  - en: carriage
+    examples: []
+concept: car
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/araba#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

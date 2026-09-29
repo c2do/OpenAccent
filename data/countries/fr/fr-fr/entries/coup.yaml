@@ -1,0 +1,28 @@
+word: coup
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ku/
+part_of_speech: noun
+meanings:
+  - en: lay
+    examples:
+      - text: Cette meuf, c'était le meilleur coup de ma vie.
+        en: This bird was the best shag of my life.
+      - text: un bon coup
+        en: a good lay
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/coup#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

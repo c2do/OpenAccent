@@ -1,0 +1,38 @@
+word: نفس
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - naffas
+  - nafs
+pronunciation:
+  ipa: /naf.fas/
+meanings:
+  - en: to vent, to air
+    examples: []
+  - en: to let out air
+    examples: []
+  - en: to fart on (someone)
+    examples:
+      - text: نفستينا يا صاحبي!
+        en: You farted on us, dude!
+  - en: same used in the construct state, with a modifying noun, or after the noun
+      with an enclitic pronoun attached to it
+    examples:
+      - text: نفس الشي
+        en: the same thing
+      - text: فنفس اليوم، فاليوم نفسه
+        en: on the same day
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%86%D9%81%D8%B3#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

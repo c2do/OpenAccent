@@ -1,0 +1,29 @@
+word: عمى
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʕama
+pronunciation:
+  ipa: /ˈʕa.ma/
+part_of_speech: verb
+meanings:
+  - en: to blind
+    examples:
+      - text: ليك ضواوها لهالسيارة شي بيعمي العيون
+        en: Look at that car's lights, they're blinding
+  - en: blindness
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%85%D9%89#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

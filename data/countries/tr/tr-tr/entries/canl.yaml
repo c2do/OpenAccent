@@ -1,0 +1,30 @@
+word: canlı
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /d͡ʒanˈɫɯ/
+meanings:
+  - en: living, animate, not dead
+    examples: []
+  - en: vivid, lively, energetic
+    examples: []
+  - en: strong, effective
+    examples: []
+  - en: bright, vibrant
+    examples: []
+concept: money
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/canl%C4%B1#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

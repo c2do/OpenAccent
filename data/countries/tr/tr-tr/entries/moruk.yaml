@@ -1,0 +1,25 @@
+word: moruk
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: geezer, old man
+    examples: []
+  - en: dude, pal
+    examples: []
+concept: buddy
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/moruk#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

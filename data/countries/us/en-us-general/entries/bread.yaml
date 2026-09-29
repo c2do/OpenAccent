@@ -1,0 +1,29 @@
+word: bread
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /brɛd/
+part_of_speech: noun
+meanings:
+  - en: Money.
+    examples:
+      - text: Maybe somebody would see him and recognize him, maybe one of the guys
+          would lay enough bread on him for a meal or at least subway fare.
+      - text: "[…] save up all your bread, and fly Trans-Love Airways to San Francisco,
+          USA."
+concept: money
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bread#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

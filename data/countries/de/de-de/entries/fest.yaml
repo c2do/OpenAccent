@@ -1,0 +1,29 @@
+word: fest
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fɛst/
+part_of_speech: adj
+meanings:
+  - en: firm; steadfast; of a long-term romantic relationship
+    examples:
+      - text: Ein One-Night-Stand ist mir genug, ich möchte gerade noch nichts Festes.
+        en: A one-night stand is enough for me, I'm not looking for anything long-term
+          right now.
+      - text: fester Freund
+        en: boyfriend (as opposed to a platonic friend)
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fest#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

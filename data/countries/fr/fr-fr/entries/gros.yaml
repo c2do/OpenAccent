@@ -1,0 +1,29 @@
+word: gros
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡʁo/
+part_of_speech: noun
+meanings:
+  - en: "term of address between males: buddy, mate, bro, man (affectionate between
+      friends, but risky with strangers)"
+    examples:
+      - text: Salut, gros !
+        en: Hey, bro!
+      - text: Ça va, gros ?
+        en: How’s it going, man?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gros#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

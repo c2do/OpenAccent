@@ -1,0 +1,26 @@
+word: ave
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈabe/
+part_of_speech: noun
+meanings:
+  - en: high-speed train
+    examples:
+      - text: Cogeremos el ave el día 23 por la tarde.
+        en: We will take the train on the 23rd in the afternoon.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ave#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

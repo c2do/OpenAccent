@@ -1,0 +1,26 @@
+word: billete
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /biˈʝete/
+part_of_speech: noun
+meanings:
+  - en: ticket
+    examples:
+      - text: ¿Ya reservaste los billetes del tren?
+        en: Have you already booked the train tickets?
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/billete#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

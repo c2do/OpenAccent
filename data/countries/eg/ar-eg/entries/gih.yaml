@@ -1,0 +1,26 @@
+word: جه
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - gih
+pronunciation:
+  ipa: "[ɡɪ(h)]"
+part_of_speech: verb
+meanings:
+  - en: to come
+    examples: []
+concept: come
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AC%D9%87#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

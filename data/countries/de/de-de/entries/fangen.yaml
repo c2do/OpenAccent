@@ -1,0 +1,30 @@
+word: fangen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfaŋən/
+part_of_speech: verb
+meanings:
+  - en: to catch (a disease; something unpleasant)
+    examples:
+      - text: Ich hab mir auf der Kirmes nur ’ne Grippe gefangen.
+        en: All I caught at the fun fair was a flu.
+  - en: to be slapped
+    examples:
+      - text: Sag das noch mal und du fängst dir eine.
+        en: Say that again and you’ll catch it.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fangen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

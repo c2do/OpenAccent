@@ -1,0 +1,26 @@
+word: bucket
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbʌkɪt/
+part_of_speech: verb
+meanings:
+  - en: To make, or cause to make (the recovery), with a certain hurried or
+      unskillful forward swing of the body.
+    examples: []
+concept: do
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bucket#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

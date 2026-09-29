@@ -1,0 +1,31 @@
+word: krass
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kʁas/
+part_of_speech: adj
+meanings:
+  - en: amazing, incredible, remarkable
+    examples:
+      - text: Das ist ja krass! Das hat der echt zu dir gesagt?!
+        en: That’s incredible! He really said this to you?!
+  - en: awesome, phat, cool
+    examples:
+      - text: Krasse Schuhe, Alter!
+        en: Cool shoes, mate!
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/krass#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: ثانية
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ṯānya
+pronunciation:
+  ipa: /θaːn.ja/
+part_of_speech: noun
+meanings:
+  - en: second (unit of time)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AB%D8%A7%D9%86%D9%8A%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

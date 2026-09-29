@@ -1,0 +1,23 @@
+word: corporation pop
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: Water, specifically drinking water supplied by a public utility company.
+    examples: []
+concept: water
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/corporation_pop#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

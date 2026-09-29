@@ -1,0 +1,30 @@
+word: déjà
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /de.ʒa/
+part_of_speech: adv
+meanings:
+  - en: again (following a question)
+    examples:
+      - text: Comment il s'appelle, déjà ?
+        en: What's his name again?
+  - en: for a start, firstly
+    examples:
+      - text: Déjà, tu pourrais t'arrêter.
+        en: For one thing, you could stop.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/d%C3%A9j%C3%A0#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

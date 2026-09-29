@@ -1,0 +1,30 @@
+word: बख़्शना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - baxśanā
+pronunciation:
+  ipa: /bəx.ʃnɑː/
+part_of_speech: verb
+meanings:
+  - en: to give, donate, bestow
+    examples: []
+  - en: to release, let go
+    examples:
+      - text: भाई मुझे बख़्शो, मैंने कुछ नहीं किया!
+        en: Let me go, I didn't do anything man!
+concept: give
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%96%E0%A4%BC%E0%A5%8D%E0%A4%B6%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

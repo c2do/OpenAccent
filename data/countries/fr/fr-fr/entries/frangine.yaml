@@ -1,0 +1,28 @@
+word: frangine
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fʁɑ̃.ʒin/
+part_of_speech: noun
+meanings:
+  - en: sis, sister
+    examples:
+      - text: Ah, t'as de la chance ! Ma frangine c'est une vraie chieuse.
+  - en: woman, girl
+    examples: []
+concept: woman
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/frangine#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

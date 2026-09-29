@@ -1,0 +1,30 @@
+word: jimmy
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈd͡ʒɪmi/
+part_of_speech: noun
+meanings:
+  - en: A jemmy; a crowbar used by burglars to open windows and doors.
+    examples: []
+  - en: A condom.
+    examples:
+      - text: We moved to the futon and started fooling around. He rolled on a jimmy and
+          I sat on top of him.
+      - text: '"The next time you hook up with somebody," Lovie was saying, "you better
+          wear a jimmy, boy. With spermicide on it. […]'
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jimmy#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

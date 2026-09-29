@@ -1,0 +1,32 @@
+word: avail
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /əˈveɪl/
+part_of_speech: verb
+meanings:
+  - en: To provide; to make available.
+    examples:
+      - text: With this initiative, Valucard becomes an open system that is not limited
+          to point of sale (POS) transactions, but now avails cash to its
+          holders in various locations nationwide.
+  - en: To use or take advantage of (an opportunity or resource).
+    examples:
+      - text: You can avail discounts on food.
+      - text: Over 85.3% of all persons who have adopted this method of contraception
+          availed this service from government facilities.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/avail#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

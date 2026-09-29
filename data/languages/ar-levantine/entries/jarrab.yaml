@@ -1,0 +1,36 @@
+word: جرب
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - jarrab
+  - jarab
+pronunciation:
+  ipa: /ˈʒar.rab/
+meanings:
+  - en: to try; to try out, to give a try
+    examples: []
+  - en: to try; to strive
+    examples: []
+  - en: to experience
+    examples:
+      - text: جَرَّبْتُوا مَرَّة تْحِسُّوا حَالْكُن ضَايْعِين بين غْرَاضْكُن
+          وْشِغْلْكُن؟
+        en: Have you ever experienced feeling lost between your stuff and your job?
+  - en: mange
+    examples:
+      - text: العَرَب جَرَب
+        en: Arabs are a disease
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AC%D8%B1%D8%A8#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

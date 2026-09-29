@@ -1,0 +1,24 @@
+word: dançar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dɐ̃ˈsa(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to fail, be unsuccessful
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dan%C3%A7ar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

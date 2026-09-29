@@ -1,0 +1,30 @@
+word: lütfen
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈlyt.fɛn/
+part_of_speech: adv
+meanings:
+  - en: please
+    examples:
+      - text: |-
+          Lütfen, lütfen, cam bardak olsun lütfen
+           Alın üstümden lütfen, sen püflesen ben küsmem, ya
+  - en: unwillingly, halfheartedly
+    examples: []
+concept: please
+register: formal
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/l%C3%BCtfen#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

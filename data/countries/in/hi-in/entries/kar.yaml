@@ -1,0 +1,32 @@
+word: कार
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kār
+pronunciation:
+  ipa: /kɑːɾ/
+part_of_speech: noun
+meanings:
+  - en: tax
+    examples: []
+  - en: action, doing
+    examples: []
+  - en: work
+    examples: []
+  - en: doer
+    examples: []
+concept: car
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

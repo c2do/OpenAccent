@@ -1,0 +1,25 @@
+word: camión
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kaˈmjon/
+part_of_speech: noun
+meanings:
+  - en: bus
+    examples: []
+concept: bus
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cami%C3%B3n#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

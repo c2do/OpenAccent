@@ -1,0 +1,28 @@
+word: झकास
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - jhakās
+part_of_speech: adj
+meanings:
+  - en: cool, epic, awesome
+    examples:
+      - text: कल की फ़िल्म बिलकुल झकास थी।
+        en: Yesterday's movie was completely awesome.
+      - text: मस्का है मस्का, एकदम झकास।
+        en: She is like butter, absolutely awesome.
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9D%E0%A4%95%E0%A4%BE%E0%A4%B8#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

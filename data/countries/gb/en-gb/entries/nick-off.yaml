@@ -1,0 +1,27 @@
+word: nick off
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+meanings:
+  - en: To leave, especially in a hurry.
+    examples:
+      - text: ‘I got somethin ta tell ya. Young Trilby's knicked off.’
+      - text: I'm in for the strap tomorrow anyway when Dickie sees my sums. Got to nick
+          off now.
+  - en: Go away; get lost.
+    examples: []
+concept: leave
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nick_off#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

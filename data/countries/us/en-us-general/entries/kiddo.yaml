@@ -1,0 +1,28 @@
+word: kiddo
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkɪdoʊ/
+part_of_speech: noun
+meanings:
+  - en: A close friend; especially used as a form of address.
+    examples:
+      - text: Okay, kiddo, I gotta run.
+  - en: A child.
+    examples: []
+concept: child
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/kiddo#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

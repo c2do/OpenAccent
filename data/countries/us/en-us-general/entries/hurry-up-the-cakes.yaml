@@ -1,0 +1,23 @@
+word: hurry up the cakes
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: Hurry up; get a move on.
+    examples: []
+concept: hurry_up
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hurry_up_the_cakes#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

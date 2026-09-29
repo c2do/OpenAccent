@@ -1,0 +1,28 @@
+word: doss
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dɒs/
+part_of_speech: verb
+meanings:
+  - en: To sleep, especially in the open or in a makeshift bed, commonly in a
+      derelict building because one is homeless.
+    examples:
+      - text: I normally have to doss in shop doorways or on park benches.
+      - text: '"You can doss on the floor.'
+concept: sleep
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/doss#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

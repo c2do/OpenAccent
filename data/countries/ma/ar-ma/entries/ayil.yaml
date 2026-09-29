@@ -1,0 +1,26 @@
+word: عايل
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ʕāyil
+pronunciation:
+  ipa: /ʕaː.jil/
+part_of_speech: noun
+meanings:
+  - en: child, kid
+    examples: []
+concept: child
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D9%8A%D9%84#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

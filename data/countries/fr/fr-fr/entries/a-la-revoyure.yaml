@@ -1,0 +1,25 @@
+word: à la revoyure
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a la ʁə.vwa.jyʁ/
+part_of_speech: intj
+meanings:
+  - en: goodbye
+    examples: []
+concept: bye
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A0_la_revoyure#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

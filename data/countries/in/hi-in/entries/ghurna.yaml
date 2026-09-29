@@ -1,0 +1,30 @@
+word: घूरना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ghūrnā
+pronunciation:
+  ipa: /ɡʱuːɾ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to look, stare, ogle
+    examples:
+      - text: कुत्ता घुरके बिल्ली को देखता रहा।
+        en: The dog remained, staring at the cat.
+      - text: घूर-घुरके देखना
+        en: to stare
+concept: see
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%98%E0%A5%82%E0%A4%B0%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

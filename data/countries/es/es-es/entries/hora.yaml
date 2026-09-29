@@ -1,0 +1,24 @@
+word: hora
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈoɾa/
+part_of_speech: noun
+meanings:
+  - en: appointment (e.g. with the doctor)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hora#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

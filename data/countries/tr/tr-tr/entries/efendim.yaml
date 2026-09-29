@@ -1,0 +1,30 @@
+word: efendim
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+part_of_speech: intj
+meanings:
+  - en: excuse me?; come again? (request to repeat)
+    examples: []
+  - en: excuse me! (request for attention)
+    examples: []
+  - en: hello! (greeting used when answering the telephone)
+    examples: []
+  - en: sir; madam (respectful term of address to an adult used predominantly for
+      addressing men)
+    examples: []
+concept: hello
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/efendim#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

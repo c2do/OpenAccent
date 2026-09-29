@@ -1,0 +1,26 @@
+word: möglich
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmøːklɪç/
+part_of_speech: adj
+meanings:
+  - en: a whole bunch of; a great deal of; a lot of; many
+    examples:
+      - text: Mein Freund hat mir gestern alle möglichen Reggaesongs vorgespielt.
+        en: My boyfriend made me listen to a whole bunch of reggae songs yesterday.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/m%C3%B6glich#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

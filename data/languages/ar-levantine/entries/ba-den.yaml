@@ -1,0 +1,32 @@
+word: بعدين
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - baʕdēn
+pronunciation:
+  ipa: /baʕˈdeːn/
+part_of_speech: adv
+meanings:
+  - en: later, afterwards
+    examples: []
+  - en: then
+    examples:
+      - text: ma kanits̄ h̄aabbi tiji l 3inna bass ba3dayn 3aadit ?ijit
+        en: She did not want to come to our house, but then she came
+  - en: not to mention; and another thing
+    examples: []
+concept: later
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%B9%D8%AF%D9%8A%D9%86#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

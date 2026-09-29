@@ -1,0 +1,29 @@
+word: treehouse
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtɹiːˌhaʊs/
+part_of_speech: noun
+meanings:
+  - en: A house, or similar structure within a tree, or several trees, built with
+      light materials.
+    examples:
+      - text: so that I am high and dry, and have all the better view too, quite a grand
+          flight of steps-a broad ladder-up into my house. The Mahaga lads and I
+          call it my tree-house.
+concept: house
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/treehouse#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

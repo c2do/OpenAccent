@@ -1,0 +1,26 @@
+word: نام
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - nām
+pronunciation:
+  ipa: /naːm/
+part_of_speech: verb
+meanings:
+  - en: to sleep
+    examples: []
+concept: sleep
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%86%D8%A7%D9%85#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

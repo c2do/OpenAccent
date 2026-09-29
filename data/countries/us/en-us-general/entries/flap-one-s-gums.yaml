@@ -1,0 +1,27 @@
+word: flap one's gums
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: To speak (idly); to talk without effect.
+    examples:
+      - text: What's that old coot flapping his gums about this time?
+      - text: It’s a relief in director Johannes Roberts’ horror movie that there are no
+          actual chimps flapping their gums while voiceover actors dub corny
+          dialogue.
+concept: talk
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/flap_one's_gums#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

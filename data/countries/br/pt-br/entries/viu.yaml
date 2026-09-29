@@ -1,0 +1,29 @@
+word: viu
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈviw/
+part_of_speech: intj
+meanings:
+  - en: used at the beginning or end of a sentence, especially imperative ones, as
+      filler
+    examples:
+      - text: Viu, venha aqui quando puder.
+        en: So, come here when you can.
+      - text: Não faça isso, viu.
+        en: Don’t do that, OK?
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/viu#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

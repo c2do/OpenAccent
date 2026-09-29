@@ -1,0 +1,25 @@
+word: wait up
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: To wait.
+    examples:
+      - text: Hey, wait up! I forgot my umbrella.
+      - text: We have to wait up for Steve.
+concept: wait
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wait_up#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

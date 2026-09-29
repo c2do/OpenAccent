@@ -1,0 +1,30 @@
+word: bunda
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbũ.dɐ/
+part_of_speech: noun
+meanings:
+  - en: ass, butt
+    examples:
+      - text: Em janeiro deste ano, ela disse que não colocaria apenas “a mão no fogo”
+          por ele, mas “a bunda também”.
+        en: This past January, she said she would not only put “her hand in the fire”
+          for him, but “her ass, too”.
+  - en: asshole
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bunda#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: kriegen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkriːɡən/
+part_of_speech: verb
+meanings:
+  - en: to get
+    examples: []
+  - en: to catch, to come down with
+    examples: []
+  - en: to get (something to a desired state)
+    examples:
+      - text: Wirst du es heute fertig kriegen?
+        en: Will you get it ready today?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/kriegen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

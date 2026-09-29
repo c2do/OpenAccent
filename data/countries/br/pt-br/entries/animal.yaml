@@ -1,0 +1,27 @@
+word: animal
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a.niˈmaw/
+part_of_speech: adj
+meanings:
+  - en: cool; awesome
+    examples:
+      - text: É, tava animal mesmo — Bia mal consegue falar.
+        en: Yeah, it really was wild — Bia can barely speak.
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/animal#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

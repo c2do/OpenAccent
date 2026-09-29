@@ -1,0 +1,25 @@
+word: dar um prego numa barra de sabão
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈda(ʁ) ˈpɾɛ.ɡu ˈnũ.mɐ ˈba.ʁɐ d͡ʒi saˈbɐ̃w̃/
+part_of_speech: verb
+meanings:
+  - en: to work
+    examples: []
+concept: work_verb
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dar_um_prego_numa_barra_de_sab%C3%A3o#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

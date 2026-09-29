@@ -1,0 +1,30 @@
+word: nippy
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnɪpi/
+part_of_speech: adj
+meanings:
+  - en: Fast; speedy.
+    examples:
+      - text: A Rolls Royce will not do if you need an economical, nippy car that is
+          easy to park.
+      - text: Small, nippy and ever present in the England set-up, the Fulham winger
+          [Rachel Yankey] is one of the the^([sic]) most recognisable faces in
+          the game.
+concept: fast
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nippy#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

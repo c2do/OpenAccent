@@ -1,0 +1,27 @@
+word: filzen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfɪltsn̩/
+part_of_speech: verb
+meanings:
+  - en: to frisk (search someone by feeling their clothes)
+    examples: []
+  - en: to sleep, rest
+    examples: []
+concept: sleep
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/filzen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

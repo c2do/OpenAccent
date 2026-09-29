@@ -1,0 +1,25 @@
+word: conejo
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /koˈnexo/
+part_of_speech: noun
+meanings:
+  - en: contracted biceps (having athletic or semi-athletic features, specially when
+      exhibiting, intentionally or not)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/conejo#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

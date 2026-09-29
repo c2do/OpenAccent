@@ -1,0 +1,36 @@
+word: soft
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sɒft/
+part_of_speech: adj
+meanings:
+  - en: Foolish.
+    examples:
+      - text: He made soft fellows stark noddies, and such as were foolish quite mad.
+  - en: Effeminate.
+    examples:
+      - text: A longing after sensual pleasures is a dissolution of the spirit of a man,
+          and makes it loose, soft, and wandering.
+  - en: Agreeable generally; pleasant.
+    examples:
+      - text: And then there'll be the insurance people. And then a young man
+          introducing himself as "The Press". I'll tell you what, sergeant, this
+          being burgled isn't such a soft thing after all.
+  - en: Fake; counterfeit.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/soft#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

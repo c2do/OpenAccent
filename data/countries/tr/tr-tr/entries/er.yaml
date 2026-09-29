@@ -1,0 +1,30 @@
+word: er
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɛɾ/
+meanings:
+  - en: suhur
+    examples: []
+  - en: man, male
+    examples: []
+  - en: warrior, hero, noble
+    examples: []
+  - en: conscript, private (soldier of the lowest rank of the army)
+    examples: []
+concept: man
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/er#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

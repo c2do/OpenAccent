@@ -1,0 +1,35 @@
+word: أبو
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʔabu
+  - ʔabáw
+  - ʔabaww
+pronunciation:
+  ipa: /ˈʔa.bu/ [ˈʔæbu]
+meanings:
+  - en: forms a kunya (used even by speakers who have بَيّ (bayy) for etymology 1,
+      noun sense 1)
+    examples:
+      - text: أَبُو أَحْمَد
+  - en: forms nicknames from a characteristic trait, somewhat like Mister
+    examples:
+      - text: ليك ليك هيدا أبو كرش
+        en: Look, check out that guy with the belly
+  - en: wow!, oh my!
+    examples: []
+concept: wow
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D8%A8%D9%88#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

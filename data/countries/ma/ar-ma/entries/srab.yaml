@@ -1,0 +1,33 @@
+word: شرب
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - šrab
+  - šarrab
+pronunciation:
+  ipa: /ʃrab/
+part_of_speech: verb
+meanings:
+  - en: to drink
+    examples: []
+  - en: to take medicine
+    examples:
+      - text: شربت دواك ولا مازال؟
+        en: Have you taken your medicine yet?
+  - en: to cause to drink
+    examples: []
+concept: drink
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D8%B1%D8%A8#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,32 @@
+word: तर
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - tar
+pronunciation:
+  ipa: /t̪əɾ/
+part_of_speech: adj
+meanings:
+  - en: wet, soaked, moist
+    examples: []
+  - en: fresh
+    examples: []
+  - en: cool, cold
+    examples: []
+  - en: splendid, great
+    examples: []
+concept: cool
+register: neutral
+familiarity: rare
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

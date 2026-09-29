@@ -1,0 +1,27 @@
+word: فلوس
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - fulūs
+  - filūs
+pronunciation:
+  ipa: /fu.luːs/
+part_of_speech: noun
+meanings:
+  - en: money
+    examples: []
+concept: money
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D9%84%D9%88%D8%B3#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

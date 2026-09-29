@@ -1,0 +1,24 @@
+word: whacked
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: Tired; fatigued.
+    examples:
+      - text: After that all-night party, we were all whacked.
+concept: tired
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/whacked#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: الله
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - allā
+pronunciation:
+  ipa: "[(ʔ)ɑɫˈɫɑː(h)]"
+part_of_speech: intj
+meanings:
+  - en: "Signals amazement, approval, or admiration: wow, amazing!"
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%84%D9%84%D9%87#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

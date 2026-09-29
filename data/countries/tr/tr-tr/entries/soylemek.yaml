@@ -1,0 +1,33 @@
+word: söylemek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /søj.leˈmec/
+part_of_speech: verb
+meanings:
+  - en: to say, to tell
+    examples:
+      - text: Kapıyı açmamızı söyledin.
+        en: You told us to open the door.
+  - en: to mention
+    examples: []
+  - en: to sing
+    examples: []
+  - en: to tell a lie
+    examples: []
+concept: say
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/s%C3%B6ylemek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

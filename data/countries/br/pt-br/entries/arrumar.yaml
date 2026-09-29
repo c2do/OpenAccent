@@ -1,0 +1,30 @@
+word: arrumar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a.ʁuˈma(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to get, obtain, acquire
+    examples:
+      - text: arrumar um emprego
+        en: get a job
+  - en: to find (a way of)
+    examples:
+      - text: Arrumei um jeito melhor de ganhar dinheiro.
+        en: I found a better way to make money.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/arrumar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

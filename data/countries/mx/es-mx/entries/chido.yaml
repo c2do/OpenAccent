@@ -1,0 +1,25 @@
+word: chido
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈt͡ʃido/
+part_of_speech: adj
+meanings:
+  - en: cool, awesome
+    examples: []
+concept: cool
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chido#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

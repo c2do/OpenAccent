@@ -1,0 +1,33 @@
+word: pagar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /paˈɡa(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to do (exercises, physical activities), especially as punishment
+    examples:
+      - text: O cadete que tropeçou teve que pagar duas voltas ao redor do campo.
+        en: The cadet who tripped had to do two laps around the field.
+  - en: to pretend to be, to feign an attribute or style
+    examples:
+      - text: pagar de inteligente
+        en: to pretend to be smart
+      - text: pagar de rico
+        en: to pretend to be rich
+concept: do
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pagar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,35 @@
+word: konuşmak
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ko.nuʃˈmak/
+part_of_speech: verb
+meanings:
+  - en: to speak, to talk, to use verbal language
+    examples:
+      - text: Toplantıda Türkçe mi konuşmalıyım yoksa İngilizce mi?
+        en: Should I speak Turkish or English in the meeting?
+      - text: Konuş benimle!
+        en: Talk to me!
+  - en: to mention, to speak about
+    examples: []
+  - en: to converse with, to chat with
+    examples: []
+  - en: to make or give a speech
+    examples: []
+concept: talk
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/konu%C5%9Fmak#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

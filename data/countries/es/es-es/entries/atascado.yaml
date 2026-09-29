@@ -1,0 +1,24 @@
+word: atascado
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /atasˈkado/
+part_of_speech: adj
+meanings:
+  - en: pig-headed
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/atascado#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

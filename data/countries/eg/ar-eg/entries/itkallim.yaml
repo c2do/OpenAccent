@@ -1,0 +1,29 @@
+word: اتكلم
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - itkallim
+  - itkallam
+pronunciation:
+  ipa: /it.kal.lim/
+part_of_speech: verb
+meanings:
+  - en: to speak
+    examples:
+      - text: أنا ما بتكلّمش عربي
+        en: I don't speak Arabic
+concept: talk
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D8%AA%D9%83%D9%84%D9%85#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

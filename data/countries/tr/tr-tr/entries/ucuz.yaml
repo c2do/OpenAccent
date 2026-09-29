@@ -1,0 +1,25 @@
+word: ucuz
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /udʒuz/
+part_of_speech: adj
+meanings:
+  - en: cheap (near all senses)
+    examples: []
+concept: cheap
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ucuz#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

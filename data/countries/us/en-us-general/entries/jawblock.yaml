@@ -1,0 +1,27 @@
+word: jawblock
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdʒɔːblɒk/
+part_of_speech: verb
+meanings:
+  - en: To talk.
+    examples:
+      - text: The first time we began to jawblock we found out that we were all from the
+          jazz school, and that made us friends right away.
+concept: talk
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jawblock#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

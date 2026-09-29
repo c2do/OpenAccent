@@ -1,0 +1,26 @@
+word: unterwegs
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʊntərˈveːks/
+part_of_speech: adv
+meanings:
+  - en: out, not there
+    examples:
+      - text: Ist der Peter zu Hause? — Nee, der ist unterwegs.
+        en: Is Peter home? — No, he’s out. (Does not imply he is on his way back.)
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/unterwegs#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import
