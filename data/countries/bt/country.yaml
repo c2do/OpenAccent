@@ -1,0 +1,9 @@
+code: bt
+name: { en: "Bhutan", ar: "بوتان" }
+population: 884546
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: dz, name: { en: "Dzongkha", ar: "دزونكا" }, percent: 47, official: true }
+  - { code: ne, name: { en: "Nepali", ar: "النيبالية" }, percent: 17 }
+  - { code: tsj, name: { en: "Tshangla", ar: "Tshangla" }, percent: 15 }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 11 }

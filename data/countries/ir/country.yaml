@@ -1,0 +1,7 @@
+code: ir
+name: { en: "Iran", ar: "إيران" }
+population: 88386900
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fa, name: { en: "Persian", ar: "الفارسية" }, percent: 75, official: true }
+  - { code: az_Arab, name: { en: "Azerbaijani", ar: "الأذربيجانية" }, percent: 24 }

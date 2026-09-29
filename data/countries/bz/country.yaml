@@ -1,0 +1,8 @@
+code: bz
+name: { en: "Belize", ar: "بليز" }
+population: 415789
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 77, official: true }
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 55 }
+  - { code: bzj, name: { en: "Belize Kriol English", ar: "Belize Kriol English" }, percent: 50 }

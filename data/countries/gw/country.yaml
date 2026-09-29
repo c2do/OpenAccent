@@ -1,0 +1,7 @@
+code: gw
+name: { en: "Guinea-Bissau", ar: "غينيا بيساو" }
+population: 2132330
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: pt, name: { en: "Portuguese", ar: "البرتغالية" }, percent: 100, official: true }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 15 }

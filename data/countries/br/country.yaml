@@ -1,0 +1,7 @@
+code: br
+name: { en: "Brazil", ar: "البرازيل" }
+population: 220052000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: pt, name: { en: "Portuguese", ar: "البرتغالية" }, percent: 91, official: true }
+  - { code: vec, name: { en: "Venetian", ar: "البندقية" }, percent: 0.24, official: true }

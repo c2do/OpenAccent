@@ -1,0 +1,6 @@
+code: aq
+name: { en: "Antarctica", ar: "أنتاركتيكا" }
+population: 300
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: und, name: { en: "Unknown language", ar: "لغة غير معروفة" }, percent: 100 }

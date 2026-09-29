@@ -1,0 +1,8 @@
+code: bn
+name: { en: "Brunei", ar: "بروناي" }
+population: 491900
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ms, name: { en: "Malay", ar: "الماليزية" }, percent: 93, official: true }
+  - { code: zh_Hant, name: { en: "Chinese", ar: "الصينية" }, percent: 11 }
+  - { code: ms_Arab, name: { en: "Malay", ar: "الماليزية" }, percent: 5, official: true }

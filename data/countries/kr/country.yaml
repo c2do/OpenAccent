@@ -1,0 +1,6 @@
+code: kr
+name: { en: "South Korea", ar: "كوريا الجنوبية" }
+population: 52081800
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ko, name: { en: "Korean", ar: "الكورية" }, percent: 100, official: true }

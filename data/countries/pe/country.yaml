@@ -1,0 +1,7 @@
+code: pe
+name: { en: "Peru", ar: "بيرو" }
+population: 32600200
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 73, official: true }
+  - { code: qu, name: { en: "Quechua", ar: "كيشوا" }, percent: 15, official: true }

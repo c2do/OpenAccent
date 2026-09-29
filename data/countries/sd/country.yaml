@@ -1,0 +1,8 @@
+code: sd
+name: { en: "Sudan", ar: "السودان" }
+population: 50467300
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: apd, name: { en: "Sudanese Arabic", ar: "العربية السودانية" }, percent: 61 }
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 61, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 61, official: true }

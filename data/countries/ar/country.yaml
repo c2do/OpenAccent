@@ -1,0 +1,6 @@
+code: ar
+name: { en: "Argentina", ar: "الأرجنتين" }
+population: 46994400
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 100, official: true }

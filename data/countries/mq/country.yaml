@@ -1,0 +1,6 @@
+code: mq
+name: { en: "Martinique", ar: "جزر المارتينيك" }
+population: 436131
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 81, official: true }

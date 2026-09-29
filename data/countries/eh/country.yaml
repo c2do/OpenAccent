@@ -1,0 +1,6 @@
+code: eh
+name: { en: "Western Sahara", ar: "الصحراء الغربية" }
+population: 652271
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 100, official: true }

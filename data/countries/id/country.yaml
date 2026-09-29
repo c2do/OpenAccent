@@ -1,0 +1,8 @@
+code: id
+name: { en: "Indonesia", ar: "إندونيسيا" }
+population: 281562000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: id, name: { en: "Indonesian", ar: "الإندونيسية" }, percent: 64, official: true }
+  - { code: jv, name: { en: "Javanese", ar: "الجاوية" }, percent: 34 }
+  - { code: su, name: { en: "Sundanese", ar: "السوندانية" }, percent: 12 }

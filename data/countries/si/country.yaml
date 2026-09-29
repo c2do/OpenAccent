@@ -1,0 +1,10 @@
+code: si
+name: { en: "Slovenia", ar: "سلوفينيا" }
+population: 2097890
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: sl, name: { en: "Slovenian", ar: "السلوفانية" }, percent: 87, official: true }
+  - { code: hr, name: { en: "Croatian", ar: "الكرواتية" }, percent: 61 }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 59 }
+  - { code: de, name: { en: "German", ar: "الألمانية" }, percent: 42 }
+  - { code: vec, name: { en: "Venetian", ar: "البندقية" }, percent: 1.4, official: true }

@@ -1,0 +1,6 @@
+code: kw
+name: { en: "Kuwait", ar: "الكويت" }
+population: 3138360
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 100, official: true }

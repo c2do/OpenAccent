@@ -1,0 +1,10 @@
+code: lu
+name: { en: "Luxembourg", ar: "لوكسمبورغ" }
+population: 671254
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 92, official: true }
+  - { code: lb, name: { en: "Luxembourgish", ar: "اللكسمبورغية" }, percent: 67, official: true }
+  - { code: de, name: { en: "German", ar: "الألمانية" }, percent: 63, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 56 }
+  - { code: pt, name: { en: "Portuguese", ar: "البرتغالية" }, percent: 16 }

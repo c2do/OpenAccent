@@ -1,0 +1,6 @@
+code: cr
+name: { en: "Costa Rica", ar: "كوستاريكا" }
+population: 5265580
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 95, official: true }

@@ -1,0 +1,8 @@
+code: gm
+name: { en: "Gambia", ar: "غامبيا" }
+population: 2523330
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 40, official: true }
+  - { code: man, name: { en: "Mandingo", ar: "الماندينغ" }, percent: 29 }
+  - { code: man_Nkoo, name: { en: "Mandingo", ar: "الماندينغ" }, percent: 29 }

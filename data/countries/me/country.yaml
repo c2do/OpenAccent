@@ -1,0 +1,6 @@
+code: me
+name: { en: "Montenegro", ar: "الجبل الأسود" }
+population: 599849
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: sr_Latn, name: { en: "Serbian", ar: "الصربية" }, percent: 100, official: true }

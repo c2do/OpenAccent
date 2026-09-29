@@ -1,0 +1,6 @@
+code: co
+name: { en: "Colombia", ar: "كولومبيا" }
+population: 49588400
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 93, official: true }

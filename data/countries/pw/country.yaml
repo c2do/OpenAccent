@@ -1,0 +1,7 @@
+code: pw
+name: { en: "Palau", ar: "بالاو" }
+population: 21864
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: pau, name: { en: "Palauan", ar: "البالوان" }, percent: 74, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 8.6, official: true }

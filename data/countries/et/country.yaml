@@ -1,0 +1,8 @@
+code: et
+name: { en: "Ethiopia", ar: "إثيوبيا" }
+population: 118550000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 43 }
+  - { code: am, name: { en: "Amharic", ar: "الأمهرية" }, percent: 33, official: true }
+  - { code: om, name: { en: "Oromo", ar: "الأورومية" }, percent: 32 }

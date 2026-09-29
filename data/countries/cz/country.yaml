@@ -1,0 +1,9 @@
+code: cz
+name: { en: "Czechia", ar: "التشيك" }
+population: 10837900
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: cs, name: { en: "Czech", ar: "التشيكية" }, percent: 98, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 27 }
+  - { code: sk, name: { en: "Slovak", ar: "السلوفاكية" }, percent: 16 }
+  - { code: de, name: { en: "German", ar: "الألمانية" }, percent: 15 }

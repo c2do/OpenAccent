@@ -1,0 +1,6 @@
+code: cl
+name: { en: "Chile", ar: "تشيلي" }
+population: 18664700
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 98, official: true }

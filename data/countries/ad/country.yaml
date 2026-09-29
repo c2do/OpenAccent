@@ -1,0 +1,7 @@
+code: ad
+name: { en: "Andorra", ar: "أندورا" }
+population: 85370
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ca, name: { en: "Catalan", ar: "الكتالانية" }, percent: 51, official: true }
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 43 }

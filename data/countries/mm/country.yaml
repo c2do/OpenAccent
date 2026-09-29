@@ -1,0 +1,6 @@
+code: mm
+name: { en: "Myanmar", ar: "ميانمار (بورما)" }
+population: 57527100
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: my, name: { en: "Burmese", ar: "البورمية" }, percent: 64, official: true }

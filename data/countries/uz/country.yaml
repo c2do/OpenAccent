@@ -1,0 +1,8 @@
+code: uz
+name: { en: "Uzbekistan", ar: "أوزبكستان" }
+population: 36520600
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: uz, name: { en: "Uzbek", ar: "الأوزبكية" }, percent: 85, official: true }
+  - { code: uz_Cyrl, name: { en: "Uzbek", ar: "الأوزبكية" }, percent: 15, official: true }
+  - { code: ru, name: { en: "Russian", ar: "الروسية" }, percent: 14 }

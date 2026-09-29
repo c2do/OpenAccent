@@ -1,0 +1,9 @@
+code: lt
+name: { en: "Lithuania", ar: "ليتوانيا" }
+population: 2628190
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: lt, name: { en: "Lithuanian", ar: "الليتوانية" }, percent: 86, official: true }
+  - { code: ru, name: { en: "Russian", ar: "الروسية" }, percent: 80 }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 38 }
+  - { code: de, name: { en: "German", ar: "الألمانية" }, percent: 14 }

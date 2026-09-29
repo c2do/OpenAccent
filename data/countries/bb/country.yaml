@@ -1,0 +1,6 @@
+code: bb
+name: { en: "Barbados", ar: "بربادوس" }
+population: 304139
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 100, official: true }

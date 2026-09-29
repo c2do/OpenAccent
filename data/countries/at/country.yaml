@@ -1,0 +1,11 @@
+code: at
+name: { en: "Austria", ar: "النمسا" }
+population: 8967980
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: de, name: { en: "German", ar: "الألمانية" }, percent: 97, official: true }
+  - { code: bar, name: { en: "Bavarian", ar: "البافارية" }, percent: 95 }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 73 }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 13 }
+  - { code: hr, name: { en: "Croatian", ar: "الكرواتية" }, percent: 1.2, official: true }
+  - { code: sl, name: { en: "Slovenian", ar: "السلوفانية" }, percent: 0.37, official: true }

@@ -1,0 +1,7 @@
+code: nu
+name: { en: "Niue", ar: "نيوي" }
+population: 2000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 56, official: true }
+  - { code: niu, name: { en: "Niuean", ar: "النيوي" }, percent: 56, official: true }

@@ -1,0 +1,7 @@
+code: tl
+name: { en: "Timor-Leste", ar: "تيمور - ليشتي" }
+population: 1506910
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: pt, name: { en: "Portuguese", ar: "البرتغالية" }, percent: 59, official: true }
+  - { code: tet, name: { en: "Tetum", ar: "التيتم" }, percent: 59, official: true }

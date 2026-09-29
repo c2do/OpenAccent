@@ -1,0 +1,6 @@
+code: tf
+name: { en: "French Southern Territories", ar: "الأقاليم الجنوبية الفرنسية" }
+population: 140
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 100 }

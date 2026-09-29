@@ -1,0 +1,6 @@
+code: fo
+name: { en: "Faroe Islands", ar: "جزر فارو" }
+population: 52933
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fo, name: { en: "Faroese", ar: "الفاروية" }, percent: 95, official: true }

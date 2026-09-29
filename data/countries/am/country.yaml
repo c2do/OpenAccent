@@ -1,0 +1,7 @@
+code: am
+name: { en: "Armenia", ar: "أرمينيا" }
+population: 2976770
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: hy, name: { en: "Armenian", ar: "الأرمنية" }, percent: 99, official: true }
+  - { code: ru, name: { en: "Russian", ar: "الروسية" }, percent: 65 }

@@ -1,0 +1,9 @@
+code: no
+name: { en: "Norway", ar: "النرويج" }
+population: 5509730
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: nb, name: { en: "Norwegian Bokmål", ar: "النرويجية بوكمال" }, percent: 100, official: true }
+  - { code: no, name: { en: "Norwegian", ar: "النرويجية" }, percent: 100, official: true }
+  - { code: nn, name: { en: "Norwegian Nynorsk", ar: "النرويجية نينورسك" }, percent: 25, official: true }
+  - { code: se, name: { en: "Northern Sami", ar: "سامي الشمالية" }, percent: 0.29, official: true }

@@ -1,0 +1,6 @@
+code: ve
+name: { en: "Venezuela", ar: "فنزويلا" }
+population: 31250300
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 82, official: true }

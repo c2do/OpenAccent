@@ -1,0 +1,7 @@
+code: as
+name: { en: "American Samoa", ar: "ساموا الأمريكية" }
+population: 43895
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: sm, name: { en: "Samoan", ar: "الساموائية" }, percent: 99, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 97, official: true }

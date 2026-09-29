@@ -1,0 +1,7 @@
+code: mh
+name: { en: "Marshall Islands", ar: "جزر مارشال" }
+population: 82011
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 93, official: true }
+  - { code: mh, name: { en: "Marshallese", ar: "المارشالية" }, percent: 73, official: true }

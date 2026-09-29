@@ -1,0 +1,9 @@
+code: er
+name: { en: "Eritrea", ar: "إريتريا" }
+population: 6343960
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ti, name: { en: "Tigrinya", ar: "التغرينية" }, percent: 60, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 59, official: true }
+  - { code: tig, name: { en: "Tigre", ar: "التيغرية" }, percent: 18 }
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 4.9, official: true }

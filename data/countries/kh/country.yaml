@@ -1,0 +1,6 @@
+code: kh
+name: { en: "Cambodia", ar: "كمبوديا" }
+population: 17063700
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: km, name: { en: "Khmer", ar: "الخميرية" }, percent: 89, official: true }

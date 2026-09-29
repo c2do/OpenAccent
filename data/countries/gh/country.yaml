@@ -1,0 +1,9 @@
+code: gh
+name: { en: "Ghana", ar: "غانا" }
+population: 34589100
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ak, name: { en: "Akan", ar: "الأكانية" }, percent: 39, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 21, official: true }
+  - { code: ee, name: { en: "Ewe", ar: "الإيوي" }, percent: 11, official: true }
+  - { code: gaa, name: { en: "Ga", ar: "الجا" }, percent: 2.8, official: true }

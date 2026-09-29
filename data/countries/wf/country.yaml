@@ -1,0 +1,8 @@
+code: wf
+name: { en: "Wallis & Futuna", ar: "جزر والس وفوتونا" }
+population: 15964
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 83, official: true }
+  - { code: wls, name: { en: "Wallisian", ar: "Wallisian" }, percent: 59 }
+  - { code: fud, name: { en: "East Futuna", ar: "East Futuna" }, percent: 30 }

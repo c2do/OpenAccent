@@ -1,0 +1,6 @@
+code: pn
+name: { en: "Pitcairn", ar: "جزر بيتكيرن" }
+population: 50
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 92, official: true }

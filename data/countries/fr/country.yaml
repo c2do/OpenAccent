@@ -1,0 +1,8 @@
+code: fr
+name: { en: "France", ar: "فرنسا" }
+population: 68374600
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 97, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 39 }
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 13 }

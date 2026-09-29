@@ -1,0 +1,11 @@
+code: ca
+name: { en: "Canada", ar: "كندا" }
+population: 38794800
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 87, official: true }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 29, official: true }
+  - { code: iu, name: { en: "Inuktitut", ar: "الإينكتيتت" }, percent: 0.11, official: true }
+  - { code: iu_Latn, name: { en: "Inuktitut", ar: "الإينكتيتت" }, percent: 0.11, official: true }
+  - { code: crk, name: { en: "Plains Cree", ar: "البلينز-كري" }, percent: 0.033, official: true }
+  - { code: chp, name: { en: "Chipewyan", ar: "الشيباوايان" }, percent: 0.032, official: true }

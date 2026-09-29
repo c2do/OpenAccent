@@ -1,0 +1,10 @@
+code: be
+name: { en: "Belgium", ar: "بلجيكا" }
+population: 11977600
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 59 }
+  - { code: nl, name: { en: "Dutch", ar: "الهولندية" }, percent: 55, official: true }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 38, official: true }
+  - { code: de, name: { en: "German", ar: "الألمانية" }, percent: 22, official: true }
+  - { code: vls, name: { en: "West Flemish", ar: "West Flemish" }, percent: 10 }

@@ -1,0 +1,7 @@
+code: cw
+name: { en: "Curaçao", ar: "كوراساو" }
+population: 153289
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: pap, name: { en: "Papiamento", ar: "البابيامينتو" }, percent: 81, official: true }
+  - { code: nl, name: { en: "Dutch", ar: "الهولندية" }, percent: 8, official: true }

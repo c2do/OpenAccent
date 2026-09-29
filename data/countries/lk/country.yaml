@@ -1,0 +1,8 @@
+code: lk
+name: { en: "Sri Lanka", ar: "سريلانكا" }
+population: 21982600
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: si, name: { en: "Sinhala", ar: "السنهالية" }, percent: 68, official: true }
+  - { code: ta, name: { en: "Tamil", ar: "التاميلية" }, percent: 15, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 10 }

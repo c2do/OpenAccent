@@ -1,0 +1,6 @@
+code: is
+name: { en: "Iceland", ar: "آيسلندا" }
+population: 364036
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: is, name: { en: "Icelandic", ar: "الأيسلندية" }, percent: 100, official: true }

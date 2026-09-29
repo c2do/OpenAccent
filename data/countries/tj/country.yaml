@@ -1,0 +1,7 @@
+code: tj
+name: { en: "Tajikistan", ar: "طاجيكستان" }
+population: 10394100
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: tg, name: { en: "Tajik", ar: "الطاجيكية" }, percent: 100, official: true }
+  - { code: ru, name: { en: "Russian", ar: "الروسية" }, percent: 12 }

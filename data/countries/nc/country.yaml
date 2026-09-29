@@ -1,0 +1,6 @@
+code: nc
+name: { en: "New Caledonia", ar: "كاليدونيا الجديدة" }
+population: 304167
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 99, official: true }

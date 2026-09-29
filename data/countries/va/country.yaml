@@ -1,0 +1,7 @@
+code: va
+name: { en: "Vatican City", ar: "الفاتيكان" }
+population: 1000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: it, name: { en: "Italian", ar: "الإيطالية" }, percent: 82, official: true }
+  - { code: la, name: { en: "Latin", ar: "اللاتينية" }, percent: 82 }

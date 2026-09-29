@@ -1,0 +1,11 @@
+code: sn
+name: { en: "Senegal", ar: "السنغال" }
+population: 18847500
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: wo, name: { en: "Wolof", ar: "الولوفية" }, percent: 70, official: true }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 26, official: true }
+  - { code: ff, name: { en: "Fula", ar: "الفولانية" }, percent: 21, official: true }
+  - { code: srr, name: { en: "Serer", ar: "السرر" }, percent: 11, official: true }
+  - { code: dyo, name: { en: "Jola-Fonyi", ar: "جولا فونيا" }, percent: 2.6, official: true }
+  - { code: sav, name: { en: "Saafi-Saafi", ar: "Saafi-Saafi" }, percent: 1.5, official: true }

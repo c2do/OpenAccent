@@ -1,0 +1,7 @@
+code: ws
+name: { en: "Samoa", ar: "ساموا" }
+population: 208853
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: sm, name: { en: "Samoan", ar: "الساموائية" }, percent: 100, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 2.1, official: true }

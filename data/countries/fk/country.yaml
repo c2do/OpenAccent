@@ -1,0 +1,6 @@
+code: fk
+name: { en: "Falkland Islands", ar: "جزر فوكلاند" }
+population: 3662
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 77, official: true }

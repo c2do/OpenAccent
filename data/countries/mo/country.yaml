@@ -1,0 +1,9 @@
+code: mo
+name: { en: "Macao", ar: "مكاو" }
+population: 644426
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: zh_Hant, name: { en: "Chinese", ar: "الصينية" }, percent: 98, official: true }
+  - { code: yue, name: { en: "Cantonese", ar: "الكَنْتُونية" }, percent: 86, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 23 }
+  - { code: pt, name: { en: "Portuguese", ar: "البرتغالية" }, percent: 2.3, official: true }

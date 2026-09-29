@@ -1,0 +1,6 @@
+code: cg
+name: { en: "Congo - Brazzaville", ar: "الكونغو - برازافيل" }
+population: 6097670
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 61, official: true }

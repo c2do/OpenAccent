@@ -1,0 +1,11 @@
+code: ph
+name: { en: "Philippines", ar: "الفلبين" }
+population: 118277000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 64, official: true }
+  - { code: fil, name: { en: "Filipino", ar: "الفلبينية" }, percent: 60, official: true }
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 31 }
+  - { code: ceb, name: { en: "Cebuano", ar: "السيبيوانية" }, percent: 24, official: true }
+  - { code: ilo, name: { en: "Iloko", ar: "الإيلوكو" }, percent: 9.6, official: true }
+  - { code: hil, name: { en: "Hiligaynon", ar: "الهيليجينون" }, percent: 8.4, official: true }

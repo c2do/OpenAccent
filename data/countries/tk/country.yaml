@@ -1,0 +1,8 @@
+code: tk
+name: { en: "Tokelau", ar: "توكيلاو" }
+population: 1647
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: tkl, name: { en: "Tokelauan", ar: "التوكيلاو" }, percent: 69, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 38, official: true }
+  - { code: sm, name: { en: "Samoan", ar: "الساموائية" }, percent: 20 }

@@ -1,0 +1,8 @@
+code: hk
+name: { en: "Hong Kong", ar: "هونغ كونغ" }
+population: 7297820
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: zh_Hant, name: { en: "Chinese", ar: "الصينية" }, percent: 95, official: true }
+  - { code: yue, name: { en: "Cantonese", ar: "الكَنْتُونية" }, percent: 90 }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 51, official: true }

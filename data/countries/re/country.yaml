@@ -1,0 +1,8 @@
+code: re
+name: { en: "Réunion", ar: "روينيون" }
+population: 787584
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 89, official: true }
+  - { code: rcf, name: { en: "Réunion Creole French", ar: "Réunion Creole French" }, percent: 71 }
+  - { code: ta, name: { en: "Tamil", ar: "التاميلية" }, percent: 15 }

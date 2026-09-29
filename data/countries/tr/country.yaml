@@ -1,0 +1,7 @@
+code: tr
+name: { en: "Türkiye", ar: "تركيا" }
+population: 84119500
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: tr, name: { en: "Turkish", ar: "التركية" }, percent: 93, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 17 }

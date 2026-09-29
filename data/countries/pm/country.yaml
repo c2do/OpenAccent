@@ -1,0 +1,6 @@
+code: pm
+name: { en: "St. Pierre & Miquelon", ar: "سان بيير ومكويلون" }
+population: 5132
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 100, official: true }

@@ -1,0 +1,9 @@
+code: sl
+name: { en: "Sierra Leone", ar: "سيراليون" }
+population: 9121050
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: kri, name: { en: "Krio", ar: "Krio" }, percent: 95 }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 35, official: true }
+  - { code: men, name: { en: "Mende", ar: "الميند" }, percent: 27 }
+  - { code: tem, name: { en: "Timne", ar: "التيمن" }, percent: 26 }

@@ -1,0 +1,6 @@
+code: ye
+name: { en: "Yemen", ar: "اليمن" }
+population: 32140400
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 74, official: true }

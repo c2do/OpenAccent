@@ -1,0 +1,6 @@
+code: cx
+name: { en: "Christmas Island", ar: "جزيرة كريسماس" }
+population: 1692
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 83, official: true }

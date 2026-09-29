@@ -1,0 +1,9 @@
+code: hr
+name: { en: "Croatia", ar: "كرواتيا" }
+population: 4150120
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: hr, name: { en: "Croatian", ar: "الكرواتية" }, percent: 99, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 49 }
+  - { code: it, name: { en: "Italian", ar: "الإيطالية" }, percent: 1.6, official: true }
+  - { code: vec, name: { en: "Venetian", ar: "البندقية" }, percent: 0.7, official: true }

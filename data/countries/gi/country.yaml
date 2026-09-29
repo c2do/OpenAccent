@@ -1,0 +1,7 @@
+code: gi
+name: { en: "Gibraltar", ar: "جبل طارق" }
+population: 29683
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 80, official: true }
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 50 }

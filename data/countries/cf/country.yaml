@@ -1,0 +1,7 @@
+code: cf
+name: { en: "Central African Republic", ar: "جمهورية أفريقيا الوسطى" }
+population: 5650960
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: sg, name: { en: "Sango", ar: "السانجو" }, percent: 49, official: true }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 29, official: true }

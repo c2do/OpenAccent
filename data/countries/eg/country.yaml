@@ -1,0 +1,8 @@
+code: eg
+name: { en: "Egypt", ar: "مصر" }
+population: 111247000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 94, official: true }
+  - { code: arz, name: { en: "Egyptian Arabic", ar: "العربية المصرية" }, percent: 64 }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 35 }

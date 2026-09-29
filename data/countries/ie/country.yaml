@@ -1,0 +1,8 @@
+code: ie
+name: { en: "Ireland", ar: "أيرلندا" }
+population: 5233460
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 98, official: true }
+  - { code: ga, name: { en: "Irish", ar: "الأيرلندية" }, percent: 22, official: true }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 13 }

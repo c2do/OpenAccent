@@ -1,0 +1,6 @@
+code: tc
+name: { en: "Turks & Caicos Islands", ar: "جزر توركس وكايكوس" }
+population: 60439
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 98, official: true }

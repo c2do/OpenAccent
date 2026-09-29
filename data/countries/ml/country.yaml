@@ -1,0 +1,7 @@
+code: ml
+name: { en: "Mali", ar: "مالي" }
+population: 21990600
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: bm, name: { en: "Bambara", ar: "البامبارا" }, percent: 46 }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 17, official: true }

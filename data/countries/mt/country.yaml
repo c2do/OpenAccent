@@ -1,0 +1,9 @@
+code: mt
+name: { en: "Malta", ar: "مالطا" }
+population: 469730
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: mt, name: { en: "Maltese", ar: "المالطية" }, percent: 100, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 88, official: true }
+  - { code: it, name: { en: "Italian", ar: "الإيطالية" }, percent: 56 }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 13 }

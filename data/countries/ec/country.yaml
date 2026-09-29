@@ -1,0 +1,7 @@
+code: ec
+name: { en: "Ecuador", ar: "الإكوادور" }
+population: 18310000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: es, name: { en: "Spanish", ar: "الإسبانية" }, percent: 96, official: true }
+  - { code: qu, name: { en: "Quechua", ar: "كيشوا" }, percent: 17, official: true }

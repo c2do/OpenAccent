@@ -1,0 +1,7 @@
+code: bd
+name: { en: "Bangladesh", ar: "بنغلاديش" }
+population: 168697000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: bn, name: { en: "Bangla", ar: "البنغالية" }, percent: 98, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 18 }

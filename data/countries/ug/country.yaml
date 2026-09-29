@@ -1,0 +1,8 @@
+code: ug
+name: { en: "Uganda", ar: "أوغندا" }
+population: 49283000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: sw, name: { en: "Swahili", ar: "السواحلية" }, percent: 75, official: true }
+  - { code: lg, name: { en: "Ganda", ar: "الغاندا" }, percent: 13 }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 3.9, official: true }

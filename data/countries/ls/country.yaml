@@ -1,0 +1,8 @@
+code: ls
+name: { en: "Lesotho", ar: "ليسوتو" }
+population: 2227550
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: st, name: { en: "Southern Sotho", ar: "السوتو الجنوبية" }, percent: 98, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 27, official: true }
+  - { code: zu, name: { en: "Zulu", ar: "الزولو" }, percent: 14 }

@@ -1,0 +1,7 @@
+code: cm
+name: { en: "Cameroon", ar: "الكاميرون" }
+population: 30966100
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 68, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 38, official: true }

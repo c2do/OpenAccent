@@ -1,0 +1,6 @@
+code: sa
+name: { en: "Saudi Arabia", ar: "المملكة العربية السعودية" }
+population: 36544400
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 100, official: true }

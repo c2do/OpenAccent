@@ -1,0 +1,7 @@
+code: sj
+name: { en: "Svalbard & Jan Mayen", ar: "سفالبارد وجان ماين" }
+population: 2926
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: nb, name: { en: "Norwegian Bokmål", ar: "النرويجية بوكمال" }, percent: 51, official: true }
+  - { code: ru, name: { en: "Russian", ar: "الروسية" }, percent: 41 }

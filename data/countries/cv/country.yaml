@@ -1,0 +1,7 @@
+code: cv
+name: { en: "Cape Verde", ar: "الرأس الأخضر" }
+population: 611014
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: kea, name: { en: "Kabuverdianu", ar: "كابوفيرديانو" }, percent: 91 }
+  - { code: pt, name: { en: "Portuguese", ar: "البرتغالية" }, percent: 76, official: true }

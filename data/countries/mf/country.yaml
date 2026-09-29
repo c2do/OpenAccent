@@ -1,0 +1,6 @@
+code: mf
+name: { en: "St. Martin", ar: "سان مارتن" }
+population: 32996
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 84, official: true }

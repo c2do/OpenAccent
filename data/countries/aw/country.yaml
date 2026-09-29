@@ -1,0 +1,7 @@
+code: aw
+name: { en: "Aruba", ar: "أروبا" }
+population: 125063
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: nl, name: { en: "Dutch", ar: "الهولندية" }, percent: 97, official: true }
+  - { code: pap, name: { en: "Papiamento", ar: "البابيامينتو" }, percent: 61, official: true }

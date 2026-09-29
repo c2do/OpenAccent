@@ -1,0 +1,7 @@
+code: np
+name: { en: "Nepal", ar: "نيبال" }
+population: 31122400
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ne, name: { en: "Nepali", ar: "النيبالية" }, percent: 44, official: true }
+  - { code: mai, name: { en: "Maithili", ar: "المايثيلي" }, percent: 11 }

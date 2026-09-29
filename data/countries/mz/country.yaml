@@ -1,0 +1,7 @@
+code: mz
+name: { en: "Mozambique", ar: "موزمبيق" }
+population: 33351000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: pt, name: { en: "Portuguese", ar: "البرتغالية" }, percent: 27, official: true }
+  - { code: vmw, name: { en: "Makhuwa", ar: "الماكوا" }, percent: 13 }

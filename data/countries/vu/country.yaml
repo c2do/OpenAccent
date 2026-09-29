@@ -1,0 +1,8 @@
+code: vu
+name: { en: "Vanuatu", ar: "فانواتو" }
+population: 318007
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: bi, name: { en: "Bislama", ar: "البيسلامية" }, percent: 90, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 83, official: true }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 31, official: true }

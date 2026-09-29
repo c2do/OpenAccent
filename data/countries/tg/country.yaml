@@ -1,0 +1,7 @@
+code: tg
+name: { en: "Togo", ar: "توغو" }
+population: 8917990
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 41, official: true }
+  - { code: ee, name: { en: "Ewe", ar: "الإيوي" }, percent: 17 }

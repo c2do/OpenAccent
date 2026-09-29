@@ -1,0 +1,7 @@
+code: bw
+name: { en: "Botswana", ar: "بوتسوانا" }
+population: 2450670
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 81, official: true }
+  - { code: tn, name: { en: "Tswana", ar: "التسوانية" }, percent: 62, official: true }

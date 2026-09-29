@@ -1,0 +1,6 @@
+code: sh
+name: { en: "St. Helena", ar: "سانت هيلينا" }
+population: 7943
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 68, official: true }

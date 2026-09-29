@@ -1,0 +1,7 @@
+code: mp
+name: { en: "Northern Mariana Islands", ar: "جزر ماريانا الشمالية" }
+population: 51118
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 97, official: true }
+  - { code: ch, name: { en: "Chamorro", ar: "التشامورو" }, percent: 18 }

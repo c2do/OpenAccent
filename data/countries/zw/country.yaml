@@ -1,0 +1,8 @@
+code: zw
+name: { en: "Zimbabwe", ar: "زيمبابوي" }
+population: 17150400
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: sn, name: { en: "Shona", ar: "الشونا" }, percent: 81, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 42, official: true }
+  - { code: nd, name: { en: "North Ndebele", ar: "النديبيل الشمالية" }, percent: 12, official: true }

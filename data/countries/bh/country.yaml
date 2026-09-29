@@ -1,0 +1,6 @@
+code: bh
+name: { en: "Bahrain", ar: "البحرين" }
+population: 1566890
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 87, official: true }

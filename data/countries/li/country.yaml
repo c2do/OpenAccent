@@ -1,0 +1,7 @@
+code: li
+name: { en: "Liechtenstein", ar: "ليختنشتاين" }
+population: 40272
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: de, name: { en: "German", ar: "الألمانية" }, percent: 100, official: true }
+  - { code: gsw, name: { en: "Swiss German", ar: "الألمانية السويسرية" }, percent: 85, official: true }

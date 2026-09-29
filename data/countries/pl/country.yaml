@@ -1,0 +1,11 @@
+code: pl
+name: { en: "Poland", ar: "بولندا" }
+population: 38746300
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: pl, name: { en: "Polish", ar: "البولندية" }, percent: 96, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 33 }
+  - { code: de, name: { en: "German", ar: "الألمانية" }, percent: 19, official: true }
+  - { code: ru, name: { en: "Russian", ar: "الروسية" }, percent: 18 }
+  - { code: csb, name: { en: "Kashubian", ar: "الكاشبايان" }, percent: 0.13, official: true }
+  - { code: lt, name: { en: "Lithuanian", ar: "الليتوانية" }, percent: 0.021, official: true }

@@ -1,0 +1,9 @@
+code: lb
+name: { en: "Lebanon", ar: "لبنان" }
+population: 5364480
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: apc, name: { en: "Levantine Arabic", ar: "العربية الشامية" }, percent: 100 }
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 86, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 40 }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 38 }

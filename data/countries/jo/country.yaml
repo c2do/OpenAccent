@@ -1,0 +1,8 @@
+code: jo
+name: { en: "Jordan", ar: "الأردن" }
+population: 11174000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 100, official: true }
+  - { code: apc, name: { en: "Levantine Arabic", ar: "العربية الشامية" }, percent: 66 }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 45 }

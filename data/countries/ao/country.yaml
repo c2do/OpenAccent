@@ -1,0 +1,8 @@
+code: ao
+name: { en: "Angola", ar: "أنغولا" }
+population: 37202100
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: pt, name: { en: "Portuguese", ar: "البرتغالية" }, percent: 67, official: true }
+  - { code: umb, name: { en: "Umbundu", ar: "الأمبندو" }, percent: 29 }
+  - { code: kmb, name: { en: "Kimbundu", ar: "الكيمبندو" }, percent: 25 }

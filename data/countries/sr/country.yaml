@@ -1,0 +1,7 @@
+code: sr
+name: { en: "Suriname", ar: "سورينام" }
+population: 646758
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: nl, name: { en: "Dutch", ar: "الهولندية" }, percent: 90, official: true }
+  - { code: srn, name: { en: "Sranan Tongo", ar: "السرانان تونجو" }, percent: 68 }

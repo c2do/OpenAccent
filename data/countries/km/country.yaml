@@ -1,0 +1,9 @@
+code: km
+name: { en: "Comoros", ar: "جزر القمر" }
+population: 900141
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ar, name: { en: "Arabic", ar: "العربية" }, percent: 66, official: true }
+  - { code: zdj, name: { en: "Ngazidja Comorian", ar: "Ngazidja Comorian" }, percent: 37, official: true }
+  - { code: wni, name: { en: "Ndzwani Comorian", ar: "Ndzwani Comorian" }, percent: 34, official: true }
+  - { code: fr, name: { en: "French", ar: "الفرنسية" }, percent: 26, official: true }

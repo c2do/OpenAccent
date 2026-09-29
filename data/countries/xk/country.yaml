@@ -1,0 +1,9 @@
+code: xk
+name: { en: "Kosovo", ar: "كوسوفو" }
+population: 1977090
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: sq, name: { en: "Albanian", ar: "الألبانية" }, percent: 92, official: true }
+  - { code: aln, name: { en: "Gheg Albanian", ar: "Gheg Albanian" }, percent: 74 }
+  - { code: sr, name: { en: "Serbian", ar: "الصربية" }, percent: 5, official: true }
+  - { code: sr_Latn, name: { en: "Serbian", ar: "الصربية" }, percent: 5, official: true }

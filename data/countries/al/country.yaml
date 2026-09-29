@@ -1,0 +1,6 @@
+code: al
+name: { en: "Albania", ar: "ألبانيا" }
+population: 3107100
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: sq, name: { en: "Albanian", ar: "الألبانية" }, percent: 100, official: true }

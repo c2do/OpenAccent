@@ -1,0 +1,11 @@
+code: pk
+name: { en: "Pakistan", ar: "باكستان" }
+population: 252364000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ur, name: { en: "Urdu", ar: "الأوردية" }, percent: 95, official: true }
+  - { code: pa_Arab, name: { en: "Punjabi", ar: "البنجابية" }, percent: 70 }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 50, official: true }
+  - { code: lah, name: { en: "Western Panjabi", ar: "اللاهندا" }, percent: 40 }
+  - { code: ps, name: { en: "Pashto", ar: "البشتو" }, percent: 16 }
+  - { code: sd, name: { en: "Sindhi", ar: "السندية" }, percent: 15 }

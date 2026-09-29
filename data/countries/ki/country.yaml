@@ -1,0 +1,7 @@
+code: ki
+name: { en: "Kiribati", ar: "كيريباتي" }
+population: 116545
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 100, official: true }
+  - { code: gil, name: { en: "Gilbertese", ar: "لغة أهل جبل طارق" }, percent: 60, official: true }

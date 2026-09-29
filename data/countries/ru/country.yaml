@@ -1,0 +1,11 @@
+code: ru
+name: { en: "Russia", ar: "روسيا" }
+population: 140821000
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: ru, name: { en: "Russian", ar: "الروسية" }, percent: 94, official: true }
+  - { code: tt, name: { en: "Tatar", ar: "التترية" }, percent: 1.4, official: true }
+  - { code: ba, name: { en: "Bashkir", ar: "الباشكيرية" }, percent: 1.3, official: true }
+  - { code: ce, name: { en: "Chechen", ar: "الشيشانية" }, percent: 0.66, official: true }
+  - { code: av, name: { en: "Avaric", ar: "الأوارية" }, percent: 0.39, official: true }
+  - { code: udm, name: { en: "Udmurt", ar: "الأدمرت" }, percent: 0.38, official: true }

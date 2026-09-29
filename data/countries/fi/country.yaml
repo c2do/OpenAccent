@@ -1,0 +1,10 @@
+code: fi
+name: { en: "Finland", ar: "فنلندا" }
+population: 5626410
+# Main languages, from Unicode CLDR territoryInfo (share of the population, %).
+languages:
+  - { code: fi, name: { en: "Finnish", ar: "الفنلندية" }, percent: 94, official: true }
+  - { code: en, name: { en: "English", ar: "الإنجليزية" }, percent: 70 }
+  - { code: sv, name: { en: "Swedish", ar: "السويدية" }, percent: 44, official: true }
+  - { code: de, name: { en: "German", ar: "الألمانية" }, percent: 18 }
+  - { code: sms, name: { en: "Skolt Sami", ar: "السكولت سامي" }, percent: 0.011, official: true }
