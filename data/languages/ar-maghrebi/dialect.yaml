@@ -1,0 +1,7 @@
+id: ar-maghrebi
+parent: ar
+name: { en: Maghrebi Arabic, ar: الدارجة المغاربية }
+region: { en: "Morocco, Algeria, Tunisia, Libya", ar: المغرب والجزائر وتونس وليبيا }
+script: arab
+reviewers: []
+status: proposed

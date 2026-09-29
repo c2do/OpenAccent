@@ -1,0 +1,8 @@
+id: ar-sd
+parent: ar
+name: { en: "Sudanese Arabic", ar: "العربية السودانية" }
+region: { en: "Sudan", ar: "السودان" }
+script: arab
+codes: { bcp47: apd, iso639_3: apd }
+reviewers: []   # needs a native reviewer
+status: proposed

@@ -1,0 +1,7 @@
+id: ar-jo
+parent: ar-levantine
+name: { en: "Jordanian Arabic", ar: "العربية الأردنية" }
+region: { en: "Jordan", ar: "الأردن" }
+script: arab
+reviewers: []   # needs a native reviewer
+status: proposed
