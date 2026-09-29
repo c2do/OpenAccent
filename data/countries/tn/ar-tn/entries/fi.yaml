@@ -1,0 +1,39 @@
+word: في
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - fi
+  - fī
+pronunciation:
+  ipa: /fi/
+meanings:
+  - en: in
+    examples:
+      - text: تسكن عايلتي في سوسة
+        en: My family lives in Sousse
+      - text: هي باش تجي في مارس
+        en: She will come in March
+    sensitive: []
+  - en: sits between a non-past verb or a non-past second partite and the object of
+      a sentence to indicated an ongoing action. Excepted are future tense
+      partites.
+    examples:
+      - text: نُشرِب فِي حلِيب
+        en: I am drinking milk
+      - text: كُنت نُشرِب فِي حلِيب
+        en: I was drinking milk
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D9%8A#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,38 @@
+word: برى
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - bra
+  - bre
+  - barrə
+pronunciation:
+  ipa: "[brɐ]"
+part_of_speech: verb
+meanings:
+  - en: to heal, to recover
+    examples:
+      - text: اُشرِب الدّوَا تَو تَبْرَى
+        en: Take your medicine and you'll recover soon
+    sensitive: []
+  - en: to sharpen
+    examples:
+      - text: اِبرِي القلَم
+        en: Sharpen the pencil
+    sensitive: []
+  - en: to shapen pencils
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%B1%D9%89#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

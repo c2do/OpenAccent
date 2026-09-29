@@ -1,0 +1,29 @@
+word: شراب
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - šrāb
+pronunciation:
+  ipa: "[ʃrɐːb]"
+part_of_speech: noun
+meanings:
+  - en: alcoholic beverage
+    examples: []
+    sensitive: []
+  - en: any beverage
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D8%B1%D8%A7%D8%A8#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,34 @@
+word: وين
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - wīn
+pronunciation:
+  ipa: "[wiːn]"
+meanings:
+  - en: where?
+    examples: []
+    sensitive: []
+  - en: where, the place that
+    examples: []
+    sensitive: []
+  - en: a while, a very long period of time
+    examples:
+      - text: بَعد وِين ووِين
+        en: After a very long time
+    sensitive: []
+concept: where
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88%D9%8A%D9%86#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

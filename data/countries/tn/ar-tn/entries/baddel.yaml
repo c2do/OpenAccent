@@ -1,0 +1,29 @@
+word: بدل
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - baddel
+pronunciation:
+  ipa: "[ˈbæd.dɘl]"
+part_of_speech: verb
+meanings:
+  - en: to change, to morph
+    examples: []
+    sensitive: []
+  - en: to replace, to substitute
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%AF%D9%84#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

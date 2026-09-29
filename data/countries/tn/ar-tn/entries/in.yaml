@@ -1,0 +1,39 @@
+word: عين
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ʕīn
+pronunciation:
+  ipa: "[ʕiːn]"
+part_of_speech: noun
+meanings:
+  - en: eye (organ)
+    examples: []
+    sensitive: []
+  - en: envy, the evil eye
+    examples:
+      - text: خذَاه بعِين، مِسكِين
+        en: He gave him the evil eye, poor thing
+    sensitive: []
+  - en: desire (usually in negative form)
+    examples:
+      - text: مَا عِينِيش نَبقَى فِي تُونِس
+        en: I don't want to stay in Tunisia
+    sensitive: []
+  - en: spring (of water)
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%8A%D9%86#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

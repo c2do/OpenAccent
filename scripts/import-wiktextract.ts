@@ -72,7 +72,7 @@ export const WAVE_1: DialectImport[] = [
   // (inherited by Syrian and Lebanese), and the few tagged senses go to the country dialects.
   {
     dialect: 'ar-levantine',
-    languages: ['North Levantine Arabic'],
+    languages: ['North Levantine Arabic', 'South Levantine Arabic'],
     excludeTags: ['Syria', 'Syrian', 'Lebanon', 'Lebanese', 'Palestine', 'Palestinian', 'Jordan', 'Jordanian'],
     freq: 'ar',
     script: 'arab',
@@ -80,7 +80,13 @@ export const WAVE_1: DialectImport[] = [
   },
   { dialect: 'ar-sy', languages: ['North Levantine Arabic'], regionTags: ['Syria', 'Syrian'], freq: 'ar', script: 'arab', keepFunctionWords: true },
   { dialect: 'ar-lb', languages: ['North Levantine Arabic'], regionTags: ['Lebanon', 'Lebanese'], freq: 'ar', script: 'arab', keepFunctionWords: true },
+  { dialect: 'ar-jo', languages: ['South Levantine Arabic', 'North Levantine Arabic'], regionTags: ['Jordan', 'Jordanian'], freq: 'ar', script: 'arab', keepFunctionWords: true },
   { dialect: 'ar-ma', languages: ['Moroccan Arabic'], freq: 'ar', script: 'arab', keepFunctionWords: true },
+  { dialect: 'ar-dz', languages: ['Algerian Arabic'], freq: 'ar', script: 'arab', keepFunctionWords: true },
+  { dialect: 'ar-tn', languages: ['Tunisian Arabic'], freq: 'ar', script: 'arab', keepFunctionWords: true },
+  // Wiktionary has used both names for acm; a missing one is only a warning in the import workflow.
+  { dialect: 'ar-iq', languages: ['Iraqi Arabic', 'Mesopotamian Arabic'], freq: 'ar', script: 'arab', keepFunctionWords: true },
+  { dialect: 'ar-sd', languages: ['Sudanese Arabic'], freq: 'ar', script: 'arab', keepFunctionWords: true },
 ];
 
 export const kaikkiUrl = (language: string) =>

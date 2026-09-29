@@ -1,0 +1,44 @@
+word: حب
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ḥæbb
+  - ḥobb
+pronunciation:
+  ipa: "[ħæbː]"
+meanings:
+  - en: to love, to like
+    examples:
+      - text: نحِبِّك بَرشَا
+        en: I love/like you so much
+    sensitive: []
+  - en: to want
+    examples:
+      - text: نحِبّ كَرهبَة
+        en: I want a car
+    sensitive: []
+  - en: to need
+    examples:
+      - text: نحِبّ علَى كلِيم
+        en: I need AC
+    sensitive: []
+  - en: to be owed
+    examples:
+      - text: نحِبّ علَيك مَليُون
+        en: You owe me Dt1k
+    sensitive: []
+concept: like
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D8%A8#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

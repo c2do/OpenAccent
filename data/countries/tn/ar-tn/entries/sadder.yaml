@@ -1,0 +1,30 @@
+word: صدر
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ṣadder
+  - zder
+pronunciation:
+  ipa: "[sˤɐd.dɘr]"
+part_of_speech: verb
+meanings:
+  - en: to export
+    examples: []
+    sensitive: []
+  - en: chest
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B5%D8%AF%D8%B1#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

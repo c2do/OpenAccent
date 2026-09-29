@@ -1,0 +1,27 @@
+word: آمس
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - āmis
+pronunciation:
+  ipa: "[ˈe̞ː.mɘs]"
+part_of_speech: adv
+meanings:
+  - en: yesterday
+    examples: []
+    sensitive: []
+concept: yesterday
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A2%D9%85%D8%B3#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

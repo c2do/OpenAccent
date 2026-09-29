@@ -1,0 +1,26 @@
+word: نوفمبر
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - novōmbr
+pronunciation:
+  ipa: /nɔvɔ̃ːbr/
+part_of_speech: noun
+meanings:
+  - en: November
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%86%D9%88%D9%81%D9%85%D8%A8%D8%B1#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

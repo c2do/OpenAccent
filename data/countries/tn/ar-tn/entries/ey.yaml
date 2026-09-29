@@ -1,0 +1,31 @@
+word: إي
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ey
+  - i
+pronunciation:
+  ipa: "[(ʔ)ɘj]"
+part_of_speech: adv
+meanings:
+  - en: "yes"
+    examples: []
+    sensitive: []
+  - en: I know (but)
+    examples: []
+    sensitive: []
+concept: "yes"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A5%D9%8A#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

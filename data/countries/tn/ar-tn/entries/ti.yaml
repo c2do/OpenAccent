@@ -1,0 +1,30 @@
+word: تي
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ti
+pronunciation:
+  ipa: "[ti]"
+part_of_speech: intj
+meanings:
+  - en: heck, dammit
+    examples:
+      - text: كِيفَاش بِاش تمِدّهِالو؟ تِي مِا تُسكِنش اَصلًا غَادي
+        en: How would you give it to him? Heck, you don't even live there
+      - text: تِي لِا
+        en: Dammit, no
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AA%D9%8A#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

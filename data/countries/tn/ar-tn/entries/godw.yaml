@@ -1,0 +1,27 @@
+word: غدوة
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ḡodwə
+pronunciation:
+  ipa: "[ˈʁʊd.wə]"
+part_of_speech: adv
+meanings:
+  - en: tomorrow
+    examples: []
+    sensitive: []
+concept: tomorrow
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%BA%D8%AF%D9%88%D8%A9#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

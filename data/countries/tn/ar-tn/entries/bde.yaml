@@ -1,0 +1,31 @@
+word: بدا
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - bde
+pronunciation:
+  ipa: "[bde̞]"
+part_of_speech: verb
+meanings:
+  - en: to start, to begin
+    examples: []
+    sensitive: []
+  - en: would be
+    examples:
+      - text: مِا تِبدِاش حَارَّة هَكِّاكَة
+        en: It wouldn't be spicy that way
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%AF%D8%A7#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

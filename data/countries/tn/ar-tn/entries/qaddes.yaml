@@ -1,0 +1,44 @@
+word: قداش
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - qaddēš
+  - ʕlēš
+pronunciation:
+  ipa: "[qad.ˈde̞ːʃ]"
+meanings:
+  - en: how much?, how many?
+    examples: []
+    sensitive: []
+  - en: (when followed by a noun) how + (adjective)...?
+    examples:
+      - text: قَدِّاش عُلوُو
+        en: How high is it?
+    sensitive: []
+  - en: to ask for any numerically measured quality
+    examples:
+      - text: قَدِّاش الوَقت
+        en: What time is it?
+      - text: قَدِّاش السّخَانَة
+        en: How hot/cold is it?
+    sensitive: []
+  - en: how much
+    examples:
+      - text: هِاكَة قَدِّاش نحِبِّك
+        en: That's how much I love you
+    sensitive: []
+concept: how_much
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%AF%D8%A7%D8%B4#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

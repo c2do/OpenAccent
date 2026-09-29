@@ -1,0 +1,30 @@
+word: نقص
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - nqoṣ
+pronunciation:
+  ipa: "[nqʊsˤ]"
+part_of_speech: verb
+meanings:
+  - en: to become less, to decrease
+    examples: []
+    sensitive: []
+  - en: (followed by مِا) to urinate, to take a piss
+    examples: []
+    sensitive:
+      - vulgar
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%86%D9%82%D8%B5#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

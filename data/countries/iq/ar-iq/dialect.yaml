@@ -1,0 +1,8 @@
+id: ar-iq
+parent: ar
+name: { en: "Iraqi Arabic", ar: "العربية العراقية" }
+region: { en: "Iraq (Baghdadi and southern varieties)", ar: "العراق (البغدادي والجنوبي)" }
+script: arab
+codes: { bcp47: acm, iso639_3: acm }
+reviewers: []   # needs a native reviewer
+status: proposed

@@ -1,0 +1,28 @@
+word: باي
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - bāy
+pronunciation:
+  ipa: "[bɐːj]"
+part_of_speech: noun
+meanings:
+  - en: one's share
+    examples:
+      - text: كُلّ وِاحِد وبَايُو
+        en: Everyone's got an equal share
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D9%8A#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

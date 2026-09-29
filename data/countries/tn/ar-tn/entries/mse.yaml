@@ -1,0 +1,36 @@
+word: مشى
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - mše
+pronunciation:
+  ipa: "[mʃe̞]"
+part_of_speech: verb
+meanings:
+  - en: to go
+    examples: []
+    sensitive: []
+  - en: to walk
+    examples: []
+    sensitive: []
+  - en: to function, to work
+    examples: []
+    sensitive: []
+  - en: to fare
+    examples: []
+    sensitive: []
+concept: go
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%B4%D9%89#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,8 @@
+id: ar-tn
+parent: ar-maghrebi
+name: { en: "Tunisian Arabic (Derja)", ar: "الدارجة التونسية" }
+region: { en: "Tunisia", ar: "تونس" }
+script: arab
+codes: { bcp47: aeb, iso639_3: aeb }
+reviewers: []   # needs a native reviewer
+status: proposed

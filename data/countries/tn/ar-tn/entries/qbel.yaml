@@ -1,0 +1,36 @@
+word: قبل
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - qbel
+  - qabbel
+  - qbal
+pronunciation:
+  ipa: "[qbɘl]"
+meanings:
+  - en: to accept, to approve
+    examples: []
+    sensitive: []
+  - en: to reorient oneself, to realign
+    examples: []
+    sensitive: []
+  - en: before...
+    examples: []
+    sensitive: []
+  - en: before, then
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%A8%D9%84#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

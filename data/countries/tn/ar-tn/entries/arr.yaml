@@ -1,0 +1,32 @@
+word: حار
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ħārr
+pronunciation:
+  ipa: "[ħɐːrː]"
+part_of_speech: adj
+meanings:
+  - en: spicy
+    examples: []
+    sensitive: []
+  - en: hot, painful
+    examples:
+      - text: وَالله مُوش كِي تهَبِّطهُم حيَار
+        en: Not even if you cry painfully
+    sensitive: []
+concept: hot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D8%A7%D8%B1#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

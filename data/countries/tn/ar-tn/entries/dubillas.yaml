@@ -1,0 +1,25 @@
+word: دوبلاش
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - dūbillāš
+part_of_speech: adv
+meanings:
+  - en: a little, a little bit, slightly, to a small extent
+    examples: []
+    sensitive: []
+concept: a_little
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AF%D9%88%D8%A8%D9%84%D8%A7%D8%B4#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

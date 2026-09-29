@@ -1,0 +1,40 @@
+word: آما
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ēmə
+pronunciation:
+  ipa: "[e̞ːmə]"
+meanings:
+  - en: which
+    examples: []
+    sensitive: []
+  - en: "آمَا خِير: كُسكسِي وَالَا مَقَرُونَة؟"
+    examples: []
+    sensitive: []
+  - en: |-
+      آمَا خِير: كُسكسِي وَالَا مَقَرُونَة؟
+      ēmə ḵīr: kosksi wēlə maqarūnə?
+      Which is better: couscous or pasta?; ēmə ḵīr: kosksi wēlə maqarūnə?
+    examples: []
+    sensitive: []
+  - en: |-
+      آمَا خِير: كُسكسِي وَالَا مَقَرُونَة؟
+      ēmə ḵīr: kosksi wēlə maqarūnə?
+      Which is better: couscous or pasta?; Which is better: couscous or pasta?
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A2%D9%85%D8%A7#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

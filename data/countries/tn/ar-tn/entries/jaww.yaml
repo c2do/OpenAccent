@@ -1,0 +1,25 @@
+word: جو
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - jaww
+pronunciation:
+  ipa: "[ʒæwː]"
+meanings:
+  - en: fun
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AC%D9%88#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import
