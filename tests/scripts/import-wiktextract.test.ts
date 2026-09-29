@@ -155,7 +155,7 @@ describe('quality filters and core concepts', () => {
     expect(selectSenses({ lang: 'Egyptian Arabic', word: 'ايه', pos: 'pron', senses: [{ glosses: ['what'] }] }, eg)).toHaveLength(1);
   });
 
-  it('links core concepts (by gloss, or by headword for English) and ranks them first', async () => {
+  it('links core concepts by gloss and ranks them first', async () => {
     const lines = [
       line({ word: 'camión', pos: 'noun', senses: [{ glosses: ['bus'], tags: ['Mexico'] }] }),
       line({ word: 'ahorita', pos: 'adv', senses: [{ glosses: ['now; right now'], tags: ['Mexico', 'colloquial'] }] }),
@@ -163,8 +163,28 @@ describe('quality filters and core concepts', () => {
     const ranks = readFrequency('camión 9\nahorita 1\n', 'latn');
     const out = toEntries((await collect(lines, [esMx], concepts)).get('es-mx')!, esMx, { limit: 1, ranks });
     expect(out[0]?.entry).toMatchObject({ word: 'ahorita', concept: 'now' });
-    const dude = await collect([JSON.stringify(en({ word: 'dude', senses: [{ glosses: ['A man, a guy.'], tags: ['US', 'slang'] }] }))], [enUs], concepts);
-    expect(dude.get('en-us-general')!.get('dude')?.concept).toBe('buddy');
+    const us = await collect(
+      [
+        JSON.stringify(en({ word: 'bread', senses: [{ glosses: ['Money.'], tags: ['US', 'slang'] }] })),
+        JSON.stringify(en({ word: 'can', senses: [{ glosses: ['Buttocks.'], tags: ['US', 'slang'] }] })),
+        JSON.stringify(en({ word: 'dude', senses: [{ glosses: ['A dude; a buddy.'], tags: ['US', 'slang'] }] })),
+      ],
+      [enUs],
+      conceptIndex({ money: { en: 'money' }, can: { en: 'can' }, buddy: { en: 'buddy, dude (addressing a man)' } }),
+    );
+    expect(us.get('en-us-general')!.get('bread')?.concept).toBe('money');
+    expect(us.get('en-us-general')!.get('can')?.concept).toBeUndefined();
+    expect(us.get('en-us-general')!.get('dude')?.concept).toBe('buddy');
+  });
+
+  it('keeps at most three words per concept', async () => {
+    const lines = ['muy', 'harto', 'bien', 'súper', 'bastante'].map((w) =>
+      line({ word: w, pos: 'adv', senses: [{ glosses: ['very'], tags: ['Mexico', 'colloquial'] }] }),
+    );
+    lines.push(line({ word: 'camión', pos: 'noun', senses: [{ glosses: ['bus'], tags: ['Mexico'] }] }));
+    const out = toEntries((await collect(lines, [esMx], conceptIndex({ very: { en: 'very' } }))).get('es-mx')!, esMx, { limit: 10 });
+    expect(out.filter((o) => o.entry.concept === 'very')).toHaveLength(3);
+    expect(out.map((o) => o.entry.word)).toContain('camión');
   });
 
   it('sends untagged North Levantine entries to the shared Levantine level', () => {
