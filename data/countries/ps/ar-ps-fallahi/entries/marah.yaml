@@ -2,13 +2,13 @@ word: مَرَة
 dialect: ar-ps-fallahi
 type: word
 romanized:
-- marah
-- mara
+  - marah
+  - mara
 meanings:
-- ar: امرأة، زوجة
-  en: woman; wife
-  examples:
-  - text: مرتُه من البلد
+  - ar: امرأة، زوجة
+    en: woman; wife
+    examples:
+      - text: مرتُه من البلد
 concept: woman
 register: casual
 familiarity: common
@@ -16,3 +16,6 @@ status: draft
 verified_by: []
 source:
   kind: ai-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

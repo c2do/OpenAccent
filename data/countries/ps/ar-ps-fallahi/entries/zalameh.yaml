@@ -2,13 +2,13 @@ word: زلمة
 dialect: ar-ps-fallahi
 type: word
 romanized:
-- zalameh
-- zalame
+  - zalameh
+  - zalame
 meanings:
-- ar: رجل
-  en: man
-  examples:
-  - text: في زلمة بستنّاك برّا
+  - ar: رجل
+    en: man
+    examples:
+      - text: في زلمة بستنّاك برّا
 concept: man
 register: casual
 familiarity: common
@@ -17,3 +17,6 @@ status: draft
 verified_by: []
 source:
   kind: ai-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

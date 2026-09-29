@@ -2,13 +2,13 @@ word: إيش
 dialect: ar-ps-fallahi
 type: word
 romanized:
-- esh
-- eish
+  - esh
+  - eish
 meanings:
-- ar: ماذا
-  en: what
-  examples:
-  - text: إيش بتعمل؟
+  - ar: ماذا
+    en: what
+    examples:
+      - text: إيش بتعمل؟
 concept: what
 register: casual
 familiarity: common
@@ -17,3 +17,6 @@ status: draft
 verified_by: []
 source:
   kind: ai-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

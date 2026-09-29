@@ -23,3 +23,6 @@ source:
   ref: https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D8%B7%D9%84#North_Levantine_Arabic
   license: CC-BY-SA-4.0
 added_by: wiktionary-import
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

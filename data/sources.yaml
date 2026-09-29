@@ -8,12 +8,19 @@ allowed:
     license: CC-BY-SA-4.0
     url: https://sites.google.com/nyu.edu/palestine-lexicon
     attribution: "Dibas, Khairallah, Habash et al. (2022), Maknuune: A Large Open Palestinian Arabic Lexicon"
-    note: License must be confirmed by the owner on the official download page before importing.
-  curras:
-    title: Curras — Palestinian Arabic annotated corpus (Birzeit University)
-    license: CC-BY-4.0
-    url: https://sina.birzeit.edu/currasat/
-    attribution: "Jarrar et al. (2017), Curras: an annotated corpus for the Palestinian Arabic dialect"
+    note: License confirmed in the dictionary's own source (maknuune_dict/dictionary.tex, CC BY-SA 4.0). Parsed from github.com/CAMeL-Lab/maknuune_lexicon.
+  unimorph:
+    title: UniMorph Gulf (afb) and Egyptian (arz) lemma glosses (CAMeL Lab)
+    license: CC-BY-SA-3.0
+    url: https://github.com/unimorph
+    attribution: "UniMorph project; Khalifa et al., CAMeL Lab. Glosses from github.com/unimorph/afb and github.com/unimorph/arz"
+    note: Built from annotated corpora that also contain MSA, and glosses are sometimes rough, so it is used only to confirm words another source already lists (attested_by), never on its own.
+  doda-v1:
+    title: Darija Open Dataset (DODa), version 1 (branch doda_v1)
+    license: MIT
+    url: https://github.com/darija-open-dataset/dataset/tree/doda_v1
+    attribution: DODa contributors (Aissam Outchakoucht et al.)
+    note: Only the doda_v1 branch is MIT; later versions are CC BY-NC 4.0 and must not be used. Latin-script (Arabizi) words, used to confirm Moroccan entries.
   wiktionary:
     title: Wiktionary (English edition), machine-readable via wiktextract / kaikki.org
     license: CC-BY-SA-4.0
@@ -36,13 +43,14 @@ allowed:
     attribution: Glottolog, Max Planck Institute for Evolutionary Anthropology
 
 blocked:
+  curras: Custom license (non-commercial), per the Masader catalog and the download page; earlier listed as CC BY 4.0 by mistake.
   madar: Research-only license; no redistribution or modification.
   nadi: Registration required; research/non-commercial only.
   living-arabic: All rights reserved; reproduction prohibited without authorization.
   qabas: CC BY-ND 4.0 (no derivatives) — link to IDs only, never copy data.
   padic: GPLv3 — incompatible with CC BY-SA data.
   dare: Dictionary of American Regional English — copyrighted.
-  doda: Darija Open Dataset — CC BY-NC 4.0 (non-commercial), incompatible with CC BY-SA.
+  doda: Darija Open Dataset after version 1 — CC BY-NC 4.0 (non-commercial), incompatible with CC BY-SA. Version 1 (doda-v1) is MIT and allowed.
   kenet: Turkish WordNet — GPL-3.0, incompatible (and derived from the TDK dictionary).
   hindi-wordnet: IndoWordNet / Hindi WordNet — GFDL, incompatible with CC BY-SA.
   openthesaurus: LGPL — poor fit for CC BY-SA data.

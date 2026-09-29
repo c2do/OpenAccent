@@ -2,13 +2,13 @@ word: امبارح
 dialect: ar-ps-fallahi
 type: word
 romanized:
-- imbare7
-- mbare7
+  - imbare7
+  - mbare7
 meanings:
-- ar: أمس
-  en: yesterday
-  examples:
-  - text: امبارح كنّا عند ستّي
+  - ar: أمس
+    en: yesterday
+    examples:
+      - text: امبارح كنّا عند ستّي
 concept: yesterday
 register: casual
 familiarity: common
@@ -16,3 +16,6 @@ status: draft
 verified_by: []
 source:
   kind: ai-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

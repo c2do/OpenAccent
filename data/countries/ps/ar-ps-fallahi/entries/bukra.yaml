@@ -2,12 +2,12 @@ word: بُكرة
 dialect: ar-ps-fallahi
 type: word
 romanized:
-- bukra
+  - bukra
 meanings:
-- ar: غداً
-  en: tomorrow
-  examples:
-  - text: بُكرة بنروح عالكرم
+  - ar: غداً
+    en: tomorrow
+    examples:
+      - text: بُكرة بنروح عالكرم
 concept: tomorrow
 register: casual
 familiarity: common
@@ -15,3 +15,6 @@ status: draft
 verified_by: []
 source:
   kind: ai-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon
