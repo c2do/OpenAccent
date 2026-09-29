@@ -42,6 +42,8 @@ Hiçbir zaman memleketinden gerçek biriyle konuşuyormuş gibi hissettirmiyor.
 | 🧠 **Kişisel hafıza** | Ağzın, kelimelerin, düzeltmelerin. Bilgisayarında kalır ve düzeltmelerin sözlüğün önüne geçer. |
 | 🗣️ **Nasıl konuştuğunu öğrenir** | Birden fazla ağız mı konuşuyorsun? Araya İngilizce mi katıyorsun? Kısa mı yazıyorsun, yoksa Arabizi ile mi? OpenAccent bunu kendi mesajlarından öğrenir (yalnızca sayımlar, mesajların kendisi asla) ve yapay zekâya sana uymasını söyler. |
 | 🔍 **Cevap kontrolü** | Yanlış ağızdan kelimeleri, nadir kelimeleri, okunduğu gibi yazılmış kelimeleri ve daha önce düzelttiğin kelimeleri işaretler. |
+| 🎭 **Ağız kartları** | Hikâyeler, şarkılar, senaryolar ve oyun diyalogları için: her ağızdan karakterleri seslendir, her yazı türü için ayrı kurallarla. |
+| 📋 **Taşınabilir istem** | Herhangi bir yapay zekânın özel talimatları (Claude, ChatGPT, …) için kısa bir metin, kendi bilgisayarında üretilir: `openaccent-mcp export <dialect>`. |
 
 ## Sohbetin ötesinde: hikâyeler, şarkılar, senaryolar ve oyunlar
 
@@ -102,7 +104,7 @@ Kod yazmana gerek yok.
 
 - **Bu ağızlardan birini mi konuşuyorsun?** En çok **gözden geçirenlere** ihtiyacımız var. Bir issue aç ve hangisini konuştuğunu söyle. Her ağzın kısa bir rehberi var (nasıl duyulduğu, yapay zekânın onda yaptığı hatalar); taslak olarak yazıldı ve o ağızla büyümüş birini bekliyor.
 - **Kelime ya da ağız mı eklemek istiyorsun?** Kolay formlar yakında. Şimdilik [`data/README.md`](../../data/README.md) dosyasına bak.
-- **Bu çeviriyi düzeltebilir misin?** Lütfen!
+- **Bu çeviriyi düzeltebilir misin?** Lütfen! Bir yapay zekâ tarafından hazırlandı; bu proje de tam olarak bu tür şeyleri düzeltmek için var.
 
 ## Lisans
 

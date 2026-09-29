@@ -42,6 +42,8 @@ Es fühlt sich nie an wie ein Gespräch mit einem echten Menschen von daheim.
 | 🧠 **Persönliches Gedächtnis** | Dein Dialekt, deine Wörter, deine Korrekturen. Es bleibt auf deinem Rechner, und deine Korrekturen haben Vorrang vor dem Wörterbuch. |
 | 🗣️ **Lernt, wie du sprichst** | Du sprichst mehr als einen Dialekt? Mischst Englisch hinein? Schreibst kurz oder in Arabizi? OpenAccent erkennt das an deinen eigenen Nachrichten (nur Zählungen, nie die Nachrichten selbst) und sagt der KI, sich dir anzupassen. |
 | 🔍 **Antwort-Check** | Markiert Wörter aus dem falschen Dialekt, seltene Wörter, Wörter, die so geschrieben sind, wie man sie spricht, und Wörter, die du schon korrigiert hast. |
+| 🎭 **Dialektkarten** | Für Geschichten, Songs, Drehbücher und Spieldialoge: Gib Figuren aus jedem Dialekt eine Stimme, mit Regeln für jede Textart. |
+| 📋 **Mitnehm-Prompt** | Ein kurzer Text für die benutzerdefinierten Anweisungen jeder KI (Claude, ChatGPT, …), erzeugt auf deinem Rechner: `openaccent-mcp export <dialect>`. |
 
 ## Mehr als Chat: Geschichten, Songs, Drehbücher und Spiele
 
@@ -102,7 +104,7 @@ Programmieren ist nicht nötig.
 
 - **Du sprichst einen dieser Dialekte?** Am dringendsten brauchen wir **Prüfer**. Eröffne ein Issue und sag uns, welchen. Jeder Dialekt hat einen kurzen Leitfaden (wie er klingt, welche Fehler KI darin macht), als Entwurf geschrieben, der auf jemanden wartet, der mit diesem Dialekt aufgewachsen ist.
 - **Du willst ein Wort oder einen Dialekt hinzufügen?** Einfache Formulare kommen bald. Bis dahin: [`data/README.md`](../../data/README.md).
-- **Du kannst diese Übersetzung verbessern?** Sehr gern!
+- **Du kannst diese Übersetzung verbessern?** Sehr gern! Sie wurde von einer KI entworfen – genau die Art von Sache, die dieses Projekt beheben will.
 
 ## Lizenz
 

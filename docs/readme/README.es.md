@@ -42,6 +42,8 @@ Nunca se siente como hablar con una persona real de tu tierra.
 | 🧠 **Memoria personal** | Tu dialecto, tus palabras, tus correcciones. Se queda en tu equipo, y tus correcciones mandan sobre el diccionario. |
 | 🗣️ **Aprende cómo hablas** | ¿Hablas más de un dialecto? ¿Mezclas con inglés? ¿Escribes corto, o en arabizi? OpenAccent lo aprende de tus propios mensajes (solo guarda recuentos, nunca los mensajes) y le pide a la IA que se adapte a ti. |
 | 🔍 **Revisión de respuestas** | Señala palabras del dialecto equivocado, palabras raras, palabras escritas como se pronuncian y palabras que ya corregiste. |
+| 🎭 **Tarjetas de dialecto** | Para cuentos, canciones, guiones y diálogos de juegos: da voz a personajes de cualquier dialecto, con reglas para cada tipo de escritura. |
+| 📋 **Prompt portátil** | Un texto breve para las instrucciones personalizadas de cualquier IA (Claude, ChatGPT, …), generado en tu equipo: `openaccent-mcp export <dialect>`. |
 
 ## Más allá del chat: cuentos, canciones, guiones y juegos
 
@@ -102,7 +104,7 @@ No hace falta programar.
 
 - **¿Hablas uno de estos dialectos?** Lo que más necesitamos son **revisores**. Abre un issue y dinos cuál hablas. Cada dialecto tiene una guía breve (cómo suena, los errores que comete la IA en él) escrita como borrador, que espera a alguien que haya crecido hablándolo.
 - **¿Quieres añadir una palabra o un dialecto?** Pronto habrá formularios sencillos. Por ahora, mira [`data/README.md`](../../data/README.md).
-- **¿Puedes mejorar esta traducción?** ¡Por favor!
+- **¿Puedes mejorar esta traducción?** ¡Por favor! La redactó una IA, que es justo el tipo de cosa que este proyecto existe para arreglar.
 
 ## Licencia
 

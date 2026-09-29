@@ -42,6 +42,8 @@ Nunca parece uma conversa com uma pessoa de verdade da sua terra.
 | 🧠 **Memória pessoal** | Seu dialeto, suas palavras, suas correções. Fica no seu computador, e suas correções valem mais que o dicionário. |
 | 🗣️ **Aprende como você fala** | Fala mais de um dialeto? Mistura com inglês? Escreve curto, ou em arabizi? O OpenAccent aprende com as suas próprias mensagens (só contagens, nunca as mensagens) e pede para a IA acompanhar você. |
 | 🔍 **Checagem de resposta** | Aponta palavras do dialeto errado, palavras raras, palavras escritas como se pronunciam e palavras que você já corrigiu. |
+| 🎭 **Cartões de dialeto** | Para histórias, músicas, roteiros e diálogos de jogos: dê voz a personagens de qualquer dialeto, com regras para cada tipo de escrita. |
+| 📋 **Prompt portátil** | Um texto curto para as instruções personalizadas de qualquer IA (Claude, ChatGPT, …), gerado no seu computador: `openaccent-mcp export <dialect>`. |
 
 ## Além do chat: histórias, músicas, roteiros e jogos
 
@@ -102,7 +104,7 @@ Não precisa programar.
 
 - **Fala um desses dialetos?** O que mais precisamos são **revisores**. Abra uma issue e conte qual você fala. Cada dialeto tem um guia curto (como soa, os erros que a IA comete nele) escrito como rascunho, esperando alguém que cresceu falando esse dialeto.
 - **Quer adicionar uma palavra ou um dialeto?** Formulários simples vêm aí. Por enquanto, veja [`data/README.md`](../../data/README.md).
-- **Consegue melhorar esta tradução?** Por favor!
+- **Consegue melhorar esta tradução?** Por favor! Ela foi rascunhada por uma IA, que é exatamente o tipo de coisa que este projeto existe para consertar.
 
 ## Licença
 
