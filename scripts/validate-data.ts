@@ -2,6 +2,7 @@ import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import type { z } from 'zod';
 import { loadRawData, type DataError } from '../src/core/data-loader.js';
+import { BARE_CLITICS, letterCount, sensitiveLabels } from './quality.js';
 import { ConceptSchema, CountrySchema, DialectSchema, EntrySchema, SampleSchema, type Dialect, type Entry } from '../src/core/schema.js';
 
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
@@ -139,6 +140,19 @@ export function validateData(root: string): DataError[] {
         errors.push({ file, message: `Dataset "${entry.source.name}" is blocked (see data/sources.yaml)` });
       } else if (!allowed.has(entry.source.name)) {
         errors.push({ file, message: `Dataset "${entry.source.name}" is not listed in data/sources.yaml` });
+      }
+    }
+    // Imported drafts nobody has reviewed: every offensive or sexual meaning must be labelled (so models
+    // never use it on their own), and a single letter is never a word.
+    if (entry.source.kind === 'dataset' && entry.status !== 'verified') {
+      entry.meanings.forEach((m, i) => {
+        const needed = sensitiveLabels({ glosses: [m.en, m.ar].filter((g): g is string => Boolean(g)) });
+        if (needed.length > 0 && m.sensitive.length === 0) {
+          errors.push({ file, message: `meanings.${i} looks ${needed.join('/')} but has no "sensitive" label` });
+        }
+      });
+      if (letterCount(entry.word) < 2 || BARE_CLITICS.has(entry.word)) {
+        errors.push({ file, message: 'Imported draft is a single letter or a bare clitic' });
       }
     }
     entries.push({ file, id: `${folder}/${slug}`, entry });

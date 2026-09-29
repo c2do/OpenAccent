@@ -56,6 +56,25 @@ describe('validateData', () => {
     expect(messages()).toEqual([]);
   });
 
+  it('requires a label on offensive or sexual meanings of unreviewed imported drafts, and refuses stray letters', () => {
+    baseTree();
+    const imported = { status: 'draft', source: { kind: 'dataset', name: 'maknuune' } };
+    write(entryFile('ar-ps', 'unlabelled'), entry({ word: 'كلمة', meanings: [{ en: 'garden' }, { en: 'an ethnic slur' }], ...imported }));
+    write(entryFile('ar-ps', 'labelled'), entry({ word: 'كلمتين', meanings: [{ en: 'an ethnic slur', sensitive: ['slur'] }], ...imported }));
+    write(entryFile('ar-ps', 'bi'), entry({ word: 'ب', meanings: [{ en: 'with' }], ...imported }));
+    expect(messages()).toEqual([
+      expect.stringMatching(/bi\.yaml: Imported draft is a single letter/),
+      expect.stringMatching(/unlabelled\.yaml: meanings\.1 looks slur but has no "sensitive" label/),
+    ]);
+  });
+
+  it('leaves verified and hand-written entries to people', () => {
+    baseTree();
+    write(entryFile('ar-ps', 'verified'), entry({ word: 'كلمة', meanings: [{ en: 'a slur' }], status: 'verified', verified_by: ['rev'], source: { kind: 'dataset', name: 'maknuune' } }));
+    write(entryFile('ar-ps', 'handwritten'), entry({ word: 'كلمتين', meanings: [{ en: 'a slur' }], source: { kind: 'contributor' } }));
+    expect(messages()).toEqual([]);
+  });
+
   it('reports schema errors with the file path', () => {
     baseTree();
     write(entryFile('ar-ps', 'bad'), entry({ meanings: [] }));

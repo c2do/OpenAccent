@@ -164,6 +164,7 @@ meanings:
     examples:
       - text: روحي اقطفي شوية نعنع من الحاكورة
         en: Go pick some mint from the garden
+    sensitive: []              # vulgar | sexual | offensive | slur — only for meanings like that
 register: casual               # casual | neutral | formal | vulgar
 familiarity: common            # common (everyone understands) | regional | rare | dated
 regions: []                    # optional finer locations
@@ -186,6 +187,7 @@ added_by: ""
 - `status: verified` requires at least one handle in `verified_by`, and that handle must be listed in the dialect's `reviewers`. CI enforces this.
 - **Tools never present `draft` as fact.** Draft results are labeled "unverified" and ranked below verified ones.
 - `familiarity` defaults to `common`. Tools warn when a reply uses `rare` or `dated` words.
+- **Vulgar and offensive words are part of the language, so they are in the dictionary** (owner decision, 2026-09-29). Each such meaning carries a `sensitive` label (`vulgar`, `sexual`, `offensive`, `slur`). Lookups find them and show the label, since users ask what words mean. But a model must never use them on its own: they are never core words (so never in briefings, dialect cards or portable prompts), a labelled meaning never links a core concept, and `check_reply` flags a word that is sensitive in every sense (stories, songs and scripts may swear; a slur is always flagged). A word with an everyday sense too (Spanish *tío*) keeps that sense first and its register. CI requires the label on unreviewed imported meanings that look sensitive.
 - An entry's ID is `<dialect>/<slug>`. The slug is ASCII, derived from the first romanized form (or a transliteration), with `-2`, `-3`… added on collision.
 
 ### 4.2b Core concepts and voice samples (owner decision, 2026-09-29)

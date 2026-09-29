@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { collect, conceptIndex, isRealExample, kaikkiUrl, readFrequency, selectSenses, toEntries, WAVE_1 } from '../../scripts/import-wiktextract.js';
+import { sensitiveLabels } from '../../scripts/quality.js';
+import { collect, conceptFor, conceptIndex, isRealExample, kaikkiUrl, readFrequency, selectSenses, toEntries, WAVE_1 } from '../../scripts/import-wiktextract.js';
 
 const esMx = WAVE_1.find((c) => c.dialect === 'es-mx')!;
 const arEg = WAVE_1.find((c) => c.dialect === 'ar-eg')!;
@@ -196,6 +197,106 @@ describe('quality filters and core concepts', () => {
     expect(selectSenses(shared, sy)).toEqual([]);
     expect(selectSenses(syrian, lev)).toEqual([]);
     expect(selectSenses(syrian, sy)).toHaveLength(1);
+  });
+});
+
+describe('safety and precision (review of import run 36565047004)', () => {
+  const enUs = WAVE_1.find((c) => c.dialect === 'en-us-general')!;
+  const esEs = WAVE_1.find((c) => c.dialect === 'es-es')!;
+  const lev = WAVE_1.find((c) => c.dialect === 'ar-levantine')!;
+  const de = WAVE_1.find((c) => c.dialect === 'de-de')!;
+  const en = (o: { word: string; pos?: string; senses: object[] }) => ({ lang: 'English', pos: 'noun', ...o });
+
+  it('imports offensive, sexual and slur senses, labelled', async () => {
+    const lines = [
+      en({ word: 'slant', senses: [{ glosses: ['An East Asian person.'], tags: ['US', 'ethnic', 'slur'] }] }),
+    ].map((o) => JSON.stringify(o));
+    const [slant] = toEntries((await collect(lines, [enUs])).get('en-us-general')!, enUs, { limit: 5 });
+    expect(slant?.entry).toMatchObject({ word: 'slant', register: 'vulgar', meanings: [{ sensitive: ['slur'] }] });
+    expect(sensitiveLabels({ glosses: ['to fuck'] })).toEqual(['sexual']);
+    expect(sensitiveLabels({ glosses: ['gang of rapists'] })).toEqual(['sexual']);
+    expect(sensitiveLabels({ glosses: ['a term for an Indian person'], tags: ['derogatory'] })).toEqual(['offensive']);
+    expect(sensitiveLabels({ glosses: ['bus'], tags: ['Mexico'] })).toEqual([]);
+  });
+
+  it('keeps the everyday sense first and its register; a vulgar sense never links a core concept', async () => {
+    const tio = JSON.stringify({
+      lang: 'Spanish',
+      word: 'tío',
+      pos: 'noun',
+      senses: [
+        { glosses: ['penis'], tags: ['Spain', 'vulgar'] },
+        { glosses: ['dude, guy'], tags: ['Spain', 'colloquial'] },
+      ],
+    });
+    const polla = JSON.stringify({ lang: 'Spanish', word: 'polla', pos: 'noun', senses: [{ glosses: ['penis'], tags: ['Spain', 'vulgar'] }] });
+    const concepts = conceptIndex({ buddy: { en: 'dude, guy', category: 'people' }, penis: { en: 'penis', category: 'things' } });
+    const out = toEntries((await collect([tio, polla], [esEs], concepts)).get('es-es')!, esEs, { limit: 5 });
+    const byWord = Object.fromEntries(out.map((o) => [o.entry.word, o.entry]));
+    expect(byWord['tío']).toMatchObject({ register: 'casual', concept: 'buddy' });
+    expect(byWord['tío']!.meanings.map((m) => m.sensitive)).toEqual([[], ['sexual', 'vulgar']]);
+    expect(byWord['polla']).toMatchObject({ register: 'vulgar' });
+    expect(byWord['polla']!.concept).toBeUndefined();
+  });
+
+  it('skips single letters and bare clitics in every script', () => {
+    for (const word of ['ب', 'و', 'ال', 'بِ', 'क']) {
+      expect(selectSenses({ lang: 'North Levantine Arabic', word, pos: 'prep', senses: [{ glosses: ['with'] }] }, lev), word).toEqual([]);
+    }
+  });
+
+  it('drops words that are also grammar words unless they express a core concept', async () => {
+    const lines = [
+      { word: 'da', pos: 'conj', senses: [{ glosses: ['because'] }] },
+      { word: 'da', pos: 'adv', senses: [{ glosses: ['there'], tags: ['colloquial'] }] },
+      { word: 'pennen', pos: 'verb', senses: [{ glosses: ['to sleep'], tags: ['colloquial'] }] },
+    ].map((o) => JSON.stringify({ lang: 'German', ...o }));
+    const out = toEntries((await collect(lines, [de])).get('de-de')!, de, { limit: 10 });
+    expect(out.map((o) => o.entry.word)).toEqual(['pennen']);
+  });
+
+  it('links a concept only through a meaning the entry keeps', async () => {
+    const hi = WAVE_1.find((c) => c.dialect === 'hi-in')!;
+    const kar = JSON.stringify({
+      lang: 'Hindi',
+      word: 'कार',
+      pos: 'noun',
+      senses: ['tax', 'action, doing', 'work', 'doer', 'car'].map((g) => ({ glosses: [g] })),
+    });
+    const c = (await collect([kar], [hi], conceptIndex({ car: { en: 'car', category: 'things' } }))).get('hi-in')!.get('कार')!;
+    expect(c.meanings).toHaveLength(5);
+    expect(c.concept).toBeUndefined();
+  });
+
+  describe('links concepts by main meaning and part of speech', () => {
+    const concepts = conceptIndex({
+      fast: { en: 'fast', category: 'describing' },
+      can: { en: 'can', category: 'verbs' },
+      fine: { en: 'fine, well', category: 'greetings' },
+      car: { en: 'car', category: 'things' },
+      go: { en: 'go', category: 'verbs' },
+      a_lot: { en: 'a lot', category: 'amounts' },
+    });
+    const link = (glosses: string[], pos: string) => conceptFor('x', { glosses }, lev, concepts, pos);
+
+    it('rejects a concept whose category does not fit the part of speech', () => {
+      expect(link(['to fast'], 'verb')).toBeUndefined(); // صام
+      expect(link(['can, tin'], 'noun')).toBeUndefined(); // علبة
+      expect(link(['well (for water)'], 'noun')).toBeUndefined(); // بير
+    });
+
+    it('looks only at the main meaning', () => {
+      expect(link(['stove; (by extension) car'], 'noun')).toBeUndefined(); // بابور
+      expect(link(['lot, fate'], 'noun')).toBeUndefined(); // قسمة is not "a lot"
+    });
+
+    it('still links the right ones', () => {
+      expect(link(['a car'], 'noun')).toBe('car');
+      expect(link(['to go'], 'verb')).toBe('go');
+      expect(link(['fine, well'], 'adj')).toBe('fine');
+      expect(link(['a lot; very much'], 'adv')).toBe('a_lot');
+      expect(link(['fast, quick'], 'adj')).toBe('fast');
+    });
   });
 });
 

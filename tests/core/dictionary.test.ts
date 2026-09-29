@@ -92,6 +92,12 @@ describe('Dictionary.lookup', () => {
     expect(dict.lookup('Año', { dialect: 'es-mx' }).items[0]?.match).toBe('normalized');
   });
 
+  it('finds vulgar words (users ask what they mean) but keeps them out of core words', () => {
+    expect(ids(dict.lookup('شرموطة'))).toEqual(['ar-eg/sharmoota']);
+    const coreIds = (d: string) => dict.coreWords(d).flatMap((c) => c.entries.map((e) => e.id));
+    expect(coreIds('ar-eg')).not.toContain('ar-eg/sharmoota');
+  });
+
   it('paginates', () => {
     const all = dict.lookup('now');
     const page = dict.lookup('now', { limit: 2, offset: 0 });

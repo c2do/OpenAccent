@@ -118,6 +118,7 @@ export function fixtureBundle(): Bundle {
         meanings: [{ en: 'ultimately' }],
         familiarity: 'dated',
       }),
+      e('ar-eg/sharmoota', { word: 'شرموطة', meanings: [{ en: 'whore', sensitive: ['offensive', 'sexual'] }], register: 'vulgar' }),
       e('fr-fr/amour', { word: 'amour', meanings: [{ en: 'love' }] }),
       e('es-mx/ano-year', { word: 'año', meanings: [{ en: 'year' }] }),
       e('en-us-general/delve', {
