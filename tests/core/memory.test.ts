@@ -2,7 +2,7 @@ import { existsSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSy
 import { homedir, tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
-import { FileMemoryStore, resolveMemoryPath } from '../../src/core/memory.js';
+import { FileMemoryStore, resolveMemoryPath } from '../../src/core/memory/index.js';
 
 let dir: string;
 let path: string;

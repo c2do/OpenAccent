@@ -5,7 +5,7 @@ import { Client } from '@modelcontextprotocol/client';
 import { InMemoryTransport } from '@modelcontextprotocol/server';
 import type { Bundle } from '../../src/core/bundle.js';
 import { Dictionary } from '../../src/core/dictionary.js';
-import { FileMemoryStore } from '../../src/core/memory.js';
+import { FileMemoryStore } from '../../src/core/memory/index.js';
 import { createServer } from '../../src/server/server.js';
 import { fixtureBundle } from '../fixtures/bundle.js';
 

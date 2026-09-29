@@ -1,6 +1,8 @@
 import type { McpServer } from '@modelcontextprotocol/server';
 import { z } from 'zod';
-import type { RememberInput } from '../../core/memory.js';
+import { MEMORY_LIMITS, type RememberInput } from '../../core/memory/index.js';
+
+const max = MEMORY_LIMITS.chars;
 import type { ServerContext } from '../context.js';
 import { fail, guard, ok } from '../respond.js';
 
@@ -16,16 +18,16 @@ export function registerRemember(server: McpServer, ctx: ServerContext) {
         'kind="correction": a wrong word and the right one. kind="style": a short preference.',
       inputSchema: z.object({
         kind: z.enum(['profile', 'word', 'correction', 'style']),
-        dialect: z.string().optional().describe('profile: dialect ID, e.g. "ar-ps-fallahi"'),
-        region: z.string().optional().describe('profile: town, village or region'),
-        notes: z.string().optional().describe('profile: anything else worth knowing'),
-        say: z.string().optional().describe('word: the word the user says'),
-        instead_of: z.string().optional().describe('word: the word they use it instead of'),
-        meaning: z.string().optional().describe('word: what it means'),
-        wrong: z.string().optional().describe('correction: what you said'),
-        right: z.string().optional().describe('correction: what the user says instead'),
-        context: z.string().optional().describe('correction: when it applies'),
-        text: z.string().optional().describe('style: the preference, e.g. "prefers short replies"'),
+        dialect: z.string().max(max.dialect).optional().describe('profile: dialect ID, e.g. "ar-ps-fallahi"'),
+        region: z.string().max(max.region).optional().describe('profile: town, village or region'),
+        notes: z.string().max(max.notes).optional().describe('profile: anything else worth knowing'),
+        say: z.string().max(max.say).optional().describe('word: the word the user says'),
+        instead_of: z.string().max(max.instead_of).optional().describe('word: the word they use it instead of'),
+        meaning: z.string().max(max.meaning).optional().describe('word: what it means'),
+        wrong: z.string().max(max.wrong).optional().describe('correction: what you said'),
+        right: z.string().max(max.right).optional().describe('correction: what the user says instead'),
+        context: z.string().max(max.context).optional().describe('correction: when it applies'),
+        text: z.string().max(max.text).optional().describe('style: the preference, e.g. "prefers short replies"'),
       }),
       outputSchema: z.looseObject({ created: z.boolean(), item: z.looseObject({ id: z.string() }) }),
       annotations: { readOnlyHint: false, destructiveHint: false, idempotentHint: true, openWorldHint: false },

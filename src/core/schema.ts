@@ -133,45 +133,11 @@ export const SampleSchema = z.object({
   added_by: z.string().optional(),
 });
 
-const timestamp = z.string().datetime();
-
-export const MemorySchema = z.object({
-  version: z.literal(1, { error: 'Unsupported memory file version (this OpenAccent reads version 1)' }),
-  profile: z
-    .object({
-      dialect: DialectIdSchema.optional(),
-      region: z.string().optional(),
-      notes: z.string().optional(),
-    })
-    .default({}),
-  words: z
-    .array(
-      z.object({
-        id: z.string(),
-        say: z.string().min(1),
-        instead_of: z.string().optional(),
-        meaning: z.string().optional(),
-        created_at: timestamp,
-      }),
-    )
-    .default([]),
-  corrections: z
-    .array(
-      z.object({
-        id: z.string(),
-        wrong: z.string().min(1),
-        right: z.string().min(1),
-        context: z.string().optional(),
-        created_at: timestamp,
-      }),
-    )
-    .default([]),
-  style: z.array(z.object({ id: z.string(), text: z.string().min(1), created_at: timestamp })).default([]),
-});
+// Personal memory has its own versioned formats: see src/core/memory/.
+export { MemorySchema, type Memory } from './memory/types.js';
 
 export type Dialect = z.infer<typeof DialectSchema>;
 export type Country = z.infer<typeof CountrySchema>;
 export type Concept = z.infer<typeof ConceptSchema>;
 export type Sample = z.infer<typeof SampleSchema>;
 export type Entry = z.infer<typeof EntrySchema>;
-export type Memory = z.infer<typeof MemorySchema>;
