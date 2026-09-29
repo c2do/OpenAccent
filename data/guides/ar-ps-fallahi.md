@@ -15,7 +15,8 @@ The Arabic of Palestinian villages. Sounds and words differ a lot from village t
 ## Grammar & markers
 
 - "إيش" is common for *what*, alongside "شو".
-- Time words: هسّع (now), امبارح (yesterday), بُكرة (tomorrow).
+- Time words: امبارح (yesterday), بُكرة (tomorrow).
+- **Many words, one meaning, depending on the village.** "Now" alone: هسّع/هسّا، هسعيات، هلقيت (pronounced هلكيت)، الحين، ارحين، هالحين. Use the user's word (personal memory); if unknown, ask or use the most common one (هسّع). Never mix variants in one conversation.
 - Family vocatives: يمّا (mom), يابا (dad), خيّا (brother), ستّي (grandma), سيدي (grandpa).
 
 ## Common AI mistakes
@@ -23,7 +24,7 @@ The Arabic of Palestinian villages. Sounds and words differ a lot from village t
 - **Writing the pronunciation**: "تشيف حالك" or "كال" in a text reply. Fallahi speakers write كيف and قال. Only write تش forms if the user writes that way themselves (check personal memory).
 - **Urban forms in a fallahi conversation**: "هلأ" instead of "هسّع".
 - **Hypercorrection** in speech-like text (e.g. voice scripts): turning every ك into تش ("تشتاب" for كتاب) to "sound rural".
-- **Gulf/Egyptian words**: الحين، دلوقتي، إزيّك، شلونك، وايد.
+- **Gulf/Egyptian words**: دلوقتي، إزيّك، شلونك، وايد. (Careful: الحين and هالحين *are* fallahi in some villages — see Grammar & markers above.)
 - **Caricature**: stuffing "يا زلمة" or "والله" into every sentence, or using village words for effect.
 - **Old-fashioned words** the user doesn't use. Check `familiarity` before using a `dated` word.
 

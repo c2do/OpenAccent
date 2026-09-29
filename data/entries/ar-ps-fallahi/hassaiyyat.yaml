@@ -1,22 +1,18 @@
-word: هسّع
+word: هسعيات
 dialect: ar-ps-fallahi
 type: word
 spellings:
-- هسّا
-- هسا
-- هسع
+- هسّعيات
 romanized:
-- hassa3
-- hassa
+- hassa3iyyat
+- has3iyyat
 meanings:
 - ar: الآن
   en: now
-  examples:
-  - text: هسّع بجيك
 register: casual
-familiarity: common
+familiarity: regional
 related:
-- ar-ps-fallahi/hassaiyyat
+- ar-ps-fallahi/hassa
 - ar-ps-fallahi/halqeet
 - ar-ps-fallahi/ilhin
 - ar-ps-fallahi/irhin

@@ -16,7 +16,7 @@ General notes shared by all Palestinian dialects. Sub-dialect guides (fallahi, m
 
 ## Common AI mistakes
 
-- Mixing in Gulf or Egyptian words (الحين، دلوقتي، إزيّك، وايد، أوي).
+- Mixing in Gulf or Egyptian words (دلوقتي، إزيّك، وايد، أوي).
 - Mixing in Modern Standard Arabic mid-sentence (سوف، لماذا، ليس).
 - Treating "Levantine" as one dialect: Syrian and Lebanese forms are not Palestinian.
 

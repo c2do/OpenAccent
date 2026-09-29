@@ -1,26 +1,22 @@
-word: هسّع
+word: هالحين
 dialect: ar-ps-fallahi
 type: word
 spellings:
-- هسّا
-- هسا
-- هسع
+- هلحين
 romanized:
-- hassa3
-- hassa
+- halhin
+- hal7in
 meanings:
 - ar: الآن
   en: now
-  examples:
-  - text: هسّع بجيك
 register: casual
-familiarity: common
+familiarity: regional
 related:
+- ar-ps-fallahi/hassa
 - ar-ps-fallahi/hassaiyyat
 - ar-ps-fallahi/halqeet
 - ar-ps-fallahi/ilhin
 - ar-ps-fallahi/irhin
-- ar-ps-fallahi/halhin
 notes: 'One of several village words for ''now'' (هسّع/هسّا، هسعيات، هلقيت، الحين،
   ارحين، هالحين). Which one depends on the village: use the user''s own word and don''t
   mix them in one conversation.'
