@@ -5,8 +5,12 @@
 > ## ملخص بالعربي
 > **OpenAccent** مشروع مفتوح المصدر لقاموس لهجات بيبنيه المجتمع، ومعه ذاكرة شخصية، والاثنين موصولين بـ Claude (أو أي ذكاء اصطناعي) عن طريق MCP.
 >
+> **الهدف:** الشخص يحس إنه بيحكي مع إنسان حقيقي من بلده، مش مع AI. وهاد لكل الدول واللهجات.
+>
 > **المشكلة:**
 > - الموديلات بتلخبط اللهجات، يعني بتخلط فلاحي بمدني بمصري.
+> - كل شوي بتغيّر كلماتها ولهجتها بنص المحادثة.
+> - بتحكي مصطلحات نادرة أو مش مفهومة.
 > - وما بتتعلم من تصحيحاتك من محادثة للتانية.
 >
 > **الحل، 4 قطع:**
@@ -15,8 +19,11 @@
 > 3. **ذاكرة شخصية** على جهازك: لهجتك، كلماتك، تصحيحاتك، وأسلوبك. وتصحيحك بيغلب القاموس.
 > 4. **نظام مساهمة:** فورمات GitHub بالعربي والإنجليزي، وبوت بيفحص، ومراجعين لكل لهجة.
 >
-> **البداية:**
-> - اللهجة الفلسطينية الفلاحية. أول مسودة من قاموس "مكنونة" المفتوح ومن اقتراحات Claude، وصاحب المشروع بيأكّد.
+> **البداية (بالتوازي):**
+> - اللهجة الفلسطينية الفلاحية، وإنت المراجع.
+> - الإنجليزي الأمريكي العام. Claude بيجهّز المسودة، وبتضل "مسودة" لحد ما نلاقي مراجع أمريكي.
+> - أداة `check_reply` بتفحص رد الموديل: في كلمات من لهجة تانية؟ مصطلحات غريبة؟ غيّر كلمة؟
+> - الفلاحي: أول مسودة من قاموس "مكنونة" المفتوح ومن اقتراحات Claude، وصاحب المشروع بيأكّد.
 > - المشروع بيشتغل أولاً على Claude Desktop، وبعدين على الإنترنت للموبايل.
 >
 > **الرخص:** الكود MIT، والقاموس CC BY-SA 4.0.
@@ -30,7 +37,11 @@ LLMs are weak at dialects, especially rural and under-represented ones:
 - **They mix dialects.** A single reply can blend rural Palestinian (fallahi) with urban Palestinian, Egyptian and Gulf forms.
 - **They invent words** and state them confidently.
 - **They exaggerate.** Stereotyped slang gets stuffed into every sentence.
+- **They drift.** The model switches words and dialect mid-conversation.
+- **They use obscure terms.** Rare, dated or overly literary words the user wouldn't say or understand.
 - **They don't retain corrections.** A user corrects the model and the same mistake comes back in the next chat.
+
+The result: talking to the model never feels like talking to a real person from your place. That feeling is the product goal, in every country and dialect.
 
 Existing open-source work covers pieces of this: pronunciation trainers, accent classifiers, research corpora. Nothing combines a **verified, community-built dialect dictionary** with **per-user dialect memory**, exposed to AI assistants.
 
@@ -38,11 +49,14 @@ Existing open-source work covers pieces of this: pronunciation trainers, accent 
 
 **Goals**
 
-1. A community-built dictionary that scales to *all world dialects*, starting with Palestinian **fallahi** Arabic.
+1. A community-built dictionary that scales to *all world dialects*. Two starting points in parallel:
+   - Palestinian **fallahi** Arabic, reviewed by the owner.
+   - **General American** English, drafted by Claude and kept `draft` until a native reviewer joins.
 2. Trust by construction: nothing is presented as fact unless a native speaker of that dialect verified it.
 3. **Contribution is the #1 priority for v0.1.** A non-technical person can add a word in under 3 minutes, and anyone can add a new dialect by following a written guide.
 4. Personal memory: the user's dialect, words, corrections and style persist across conversations. Personal corrections override the dictionary for that user.
-5. One core, two deployments: a local stdio server first (Claude Desktop), then a remote Streamable-HTTP server (Claude web and mobile).
+5. **Consistency and naturalness.** Once the user's dialect is known, the model stays in it (the "dialect lock": the profile dialect is the default for every tool). Every entry carries a `familiarity` level, so rare or dated words are flagged. `openaccent_check_reply` lets the model check a draft reply before sending it.
+6. One core, two deployments: a local stdio server first (Claude Desktop), then a remote Streamable-HTTP server (Claude web and mobile).
 
 **Non-goals (for now)**
 
@@ -88,6 +102,12 @@ ar                      Arabic
         ├── ar-ps-madani    Urban (madani)
         ├── ar-ps-khalili   Hebron
         └── ar-ps-gazawi    Gaza
+
+en                      English
+└── en-us               American
+    ├── en-us-general   General American   ← v0.1 focus (draft until a native reviewer joins)
+    ├── en-us-south     Southern
+    └── en-us-nyc       New York
 ```
 
 ```yaml
@@ -107,7 +127,8 @@ status: active              # proposed | active
 
 - Our own readable slugs (`ar-ps-fallahi`) are the primary key. Standard codes go in `codes` as metadata.
 - Input `ajp` is accepted and mapped to `apc`.
-- New languages follow the same pattern, e.g. `en` → `en-gb` → `en-gb-scouse`.
+- Every language follows the same pattern, e.g. `en` → `en-gb` → `en-gb-scouse`.
+- Each dialect declares its `script` (`arab`, `latn`, …). Search normalization and romanization are chosen per script (§8).
 
 ### 4.2 Entry
 
@@ -118,7 +139,7 @@ word: حاكورة
 dialect: ar-ps-fallahi
 type: word                     # word | phrase | expression | proverb
 spellings: [حاكوره]            # alternative spellings
-arabizi: [7akoura, hakoura]    # Latin-script input people actually type
+romanized: [7akoura, hakoura]  # other-script input people actually type (Arabizi for Arabic); optional
 pronunciation: { simple: "ḥā-kō-ra" }   # optional: ipa
 part_of_speech: noun           # optional
 meanings:
@@ -127,7 +148,8 @@ meanings:
     examples:
       - text: روحي اقطفي شوية نعنع من الحاكورة
         en: Go pick some mint from the garden
-register: casual               # casual | neutral | formal | vulgar | dated
+register: casual               # casual | neutral | formal | vulgar
+familiarity: common            # common (everyone understands) | regional | rare | dated
 regions: []                    # optional finer locations
 related: [ar-ps-madani/jneineh]   # equivalents in other dialects (entry IDs)
 notes: ""
@@ -145,7 +167,8 @@ added_by: ""
 - Required fields: `word`, `dialect`, `type`, `status`, `source`, and at least one meaning with `ar` or `en`.
 - `status: verified` requires at least one handle in `verified_by`, and that handle must be listed in the dialect's `reviewers`. CI enforces this.
 - **Tools never present `draft` as fact.** Draft results are labeled "unverified" and ranked below verified ones.
-- An entry's ID is `<dialect>/<slug>`. The slug is ASCII, derived from the first Arabizi form (or a transliteration), with `-2`, `-3`… added on collision.
+- `familiarity` defaults to `common`. Tools warn when a reply uses `rare` or `dated` words.
+- An entry's ID is `<dialect>/<slug>`. The slug is ASCII, derived from the first romanized form (or a transliteration), with `-2`, `-3`… added on collision.
 
 ### 4.3 Dialect guide
 
@@ -153,7 +176,9 @@ added_by: ""
 
 - `## Pronunciation`: e.g. fallahi ك → تش (تشيف حالك), ق → ك (كال).
 - `## Grammar & markers`: distinctive forms and function words.
-- `## Common AI mistakes`: e.g. mixing in Egyptian or urban forms, over-using slang, inventing words. **This section is the heart of the project.**
+- `## Common AI mistakes`: **this section is the heart of the project.** Examples:
+  - fallahi: mixing in Egyptian or urban forms, over-using slang, inventing words.
+  - General American: overly formal phrasing, words people rarely say ("delve", "tapestry"), British spellings, forced or dated slang.
 - `## Natural usage`: mirror the user's register, and prefer a plain word over an invented dialect word.
 
 A guide inherits from its parent guide, the same way entries do.
@@ -184,7 +209,7 @@ Memory is stored as local, human-readable JSON:
 - `openaccent_forget` deletes items.
 - Sharing to the public dictionary only happens through an explicit, user-approved link (§6).
 
-## 5. MCP tools (v0.1)
+## 5. MCP tools (v0.1) — 8 tools
 
 All tools are prefixed `openaccent_`, accept Arabic, English and Arabizi, and return both text and `structuredContent`. Every result ends with a one-line **profile footer** (the user's dialect plus their top corrections), so the model learns who the user is even if it skipped the briefing.
 
@@ -196,7 +221,19 @@ All tools are prefixed `openaccent_`, accept Arabic, English and Arabizi, and re
 | `openaccent_list_dialects` | Dialect tree with entry counts and verified %. | read-only |
 | `openaccent_remember` | Save a profile field, word, correction or style note. | write, idempotent-ish |
 | `openaccent_forget` | Delete memory items by ID or text match. | destructive |
+| `openaccent_check_reply` | Check a draft reply before sending. Flags words from other dialects, `rare`/`dated` words, and words the user corrected or replaced. Returns suggested swaps. | read-only |
 | `openaccent_suggest_entry` | Build a pre-filled GitHub issue-form URL (add or fix a word) for the user to open. Only after the user agrees. | read-only (no network) |
+
+### `check_reply` in detail
+
+It works at the word level, from data we already have. It needs no conversation state and no LLM call:
+
+1. Tokenize the reply and look up each token (and 2–3-word phrases) with the normal search keys.
+2. Flag a match whose dialect is **outside** the user's dialect branch (neither the dialect nor its ancestors), when the user's branch has an equivalent (via `related` or a shared gloss).
+3. Flag `familiarity: rare | dated`.
+4. Flag words that appear as `wrong` in personal corrections or `instead_of` in personal words. This is how "don't switch back to the word I replaced" works.
+
+The output is a list of `{ word, reason, suggestion }` plus a one-line verdict. Limits: it cannot judge grammar or tone. The dialect guide covers those.
 
 ### Why tools, not server instructions
 
@@ -257,21 +294,28 @@ Form rules:
 3. **Fallahi drafts from Claude:** about 150 fallahi-specific words and phrases, `source.kind: ai-draft`, `draft`.
 4. **Owner verification:** @c2do verifies fallahi entries. The v0.2 target is 200 verified.
 5. **Fallahi guide:** Claude drafts it, and @c2do reviews it before it's marked verified.
+6. **General American (parallel track):**
+   - Tree nodes `en`, `en-us` and three children. `en-us-general` is `active` only once it has a native reviewer; until then it is `proposed` but still served, clearly labeled draft.
+   - ~150 Claude-drafted entries focused on everyday words and on the `Common AI mistakes` list (e.g. entries for words to avoid, with natural alternatives), plus an `en-us` guide.
+   - Recruit a native American reviewer through the `become-reviewer` form and the README.
 
 **Sources**
 
 | | Sources |
 |---|---|
 | Allowed | Maknuune (CC BY-SA 4.0); Curras (CC BY 4.0, with attribution); Wiktionary / kaikki (CC BY-SA); Tatoeba (CC BY); Glottolog metadata (CC BY) |
-| **Blocked** (in `data/sources.yaml`, enforced by review) | MADAR, NADI (research-only); Living Arabic Project (all rights reserved); Qabas (no derivatives); PADIC (GPL, incompatible). Print dictionaries are references only, never copied. |
+| **Blocked** (in `data/sources.yaml`, enforced by review) | MADAR, NADI (research-only); Living Arabic Project (all rights reserved); Qabas (no derivatives); PADIC (GPL, incompatible); DARE (*Dictionary of American Regional English*, copyrighted). Print dictionaries are references only, never copied. |
+| To check before use | Harvard Dialect Survey / Cambridge dialect survey data: licenses unconfirmed |
 
 ## 8. Search
 
-Every entry is indexed under several keys:
+Normalization is chosen by the dialect's `script`. Every entry is indexed under several keys:
 
-1. **Normalized Arabic.** Strip diacritics (U+064B–U+0652, U+0670) and tatweel; unify إأآٱ→ا, ى→ي, ة→ه, ؤ→و, ئ→ي; convert Arabic-Indic digits to ASCII.
-2. **Dialect-sound key.** Fallahi-aware folding: تش/چ ~ ك, and ق ~ ك ~ ء ~ گ. So `تشيف` finds `كيف`.
-3. **Arabizi keys.** Digits 2 3 5 6 7 8 9 and the digraphs gh, kh, sh, ch/tsh map to candidate Arabic spellings, which are matched against keys 1 and 2.
+1. **Normalized text.**
+   - Latin script: lowercase, strip accents (NFKD), fold US/UK spelling pairs (`-our/-or`, `-ise/-ize`), straight quotes.
+   - Arabic script: Strip diacritics (U+064B–U+0652, U+0670) and tatweel; unify إأآٱ→ا, ى→ي, ة→ه, ؤ→و, ئ→ي; convert Arabic-Indic digits to ASCII.
+2. **Dialect-sound key** (optional, from the dialect's `sound_rules`). Fallahi-aware folding: تش/چ ~ ك, and ق ~ ك ~ ء ~ گ. So `تشيف` finds `كيف`.
+3. **Romanization keys** (Arabic: Arabizi). Digits 2 3 5 6 7 8 9 and the digraphs gh, kh, sh, ch/tsh map to candidate Arabic spellings, which are matched against keys 1 and 2.
 4. **English and MSA glosses**, for `express`.
 
 **Ranking:** exact match first, then normalized, then sound-folded, then gloss. Verified entries rank above drafts, and the requested dialect ranks above its ancestors. The normalizer is written in-house with tests, not taken from a third-party library.
@@ -306,6 +350,7 @@ Every entry is indexed under several keys:
 **Behavioural evaluation** (`evals/`)
 
 - 20 fallahi prompts. Claude answers each with and without OpenAccent, and @c2do judges which is more natural and correct.
+- 10 General American prompts, same method, judged by a native speaker when one is available.
 - Plus 10 Q&A tool-use evaluations in the `mcp-builder` XML format.
 
 **v0.1 is done when**
@@ -313,15 +358,17 @@ Every entry is indexed under several keys:
 1. A non-technical tester adds a word via the form in under 3 minutes.
 2. A tester adds a new dialect using only `docs/adding-a-dialect.md`.
 3. With OpenAccent, Claude uses fallahi forms consistently and retains a correction across two separate chats.
+3b. In a 20-turn conversation, Claude doesn't drift out of the user's dialect, and `check_reply` catches planted cross-dialect and `rare` words.
 4. CI is green, and the `.mcpb` installs and runs in Claude Desktop.
 
 ## 12. Roadmap
 
 | Version | Scope |
 |---|---|
-| **v0.1** | Data format and validator, issue forms and bot, Maknuune subset import, ~150 fallahi drafts, fallahi guide, 7-tool stdio server, file memory, `.mcpb` |
-| **v0.2** | 200 verified fallahi entries; reviewers for madani, khalili and gazawi; behavioural eval run; tool polish from eval findings |
+| **v0.1** | Data format and validator, issue forms and bot, Maknuune subset import, ~150 fallahi drafts + fallahi guide, ~150 General American drafts + guide, 8-tool stdio server (incl. `check_reply`), file memory, `.mcpb` |
+| **v0.2** | 200 verified fallahi entries; first native American reviewer; reviewers for madani, khalili and gazawi; behavioural eval run; tool polish from eval findings |
 | **v0.3** | Remote HTTP server for Claude web/mobile; OAuth memory; simple website that files issues for people without GitHub |
+| After v0.2 | "Hook" features that make people *want* to use it, chosen from `docs/ideas.md` once the base is proven |
 | Later | Consented audio pronunciations; other languages' dialects; `openaccent_verify` flow for reviewers from chat |
 
 ## 13. Risks and open questions
@@ -333,4 +380,7 @@ Every entry is indexed under several keys:
 | Draft data seen as truth | `draft` labeling in every result; ranking; the guide's "prefer plain words" rule |
 | Few reviewers per dialect | A dialect stays `proposed` until it has a reviewer; recruit through the `become-reviewer` form |
 | Claude Desktop's bundled Node version vs SDK v2 (needs Node 20+) | Verify early (plan task 1); v1 SDK fallback |
+| No native reviewer for General American yet | Everything stays `draft` and labeled; recruit via README and `become-reviewer` |
+| Caricaturing dialects tied to specific communities (e.g. African American English, Southern) | Such dialects are added only with reviewers from that community; guides describe, never mock |
+| `check_reply` false positives (a word shared by many dialects) | Only flag when the user's branch has an equivalent; show reasons, never auto-rewrite |
 | Pre-filled links on phones | "Open in browser" hint; keep URLs short |
