@@ -15,6 +15,7 @@ import { pathToFileURL } from 'node:url';
 import { stringify } from 'yaml';
 import { loadRawData } from '../src/core/data-loader.js';
 import { normalize, type NormalizeOptions } from '../src/core/normalize.js';
+import { BARE_CLITICS, FUNCTION_POS, isSensitive, letterCount } from './quality.js';
 import { EntrySchema, type Entry } from '../src/core/schema.js';
 
 export interface DialectImport {
@@ -92,16 +93,6 @@ const SKIP_POS = new Set(['name', 'character', 'symbol', 'prefix', 'suffix', 'in
 const EVERYDAY_TAGS = ['colloquial', 'informal', 'slang', 'familiar'];
 // Senses we never import.
 const SKIP_TAGS = new Set(['obsolete', 'archaic', 'historical', 'form-of', 'alt-of', 'misspelling', 'nonstandard-spelling', 'dialectal', 'rare-form', 'auxiliary']);
-// Offensive, sexual and slur senses are never imported automatically: models read these words as
-// "how people talk here", and a draft slur is worse than a missing word. Contributors can still add
-// vulgar words by hand, with a reviewer.
-const SENSITIVE_TAGS = new Set(['vulgar', 'offensive', 'derogatory', 'slur', 'ethnic', 'pejorative', 'sexual', 'sexuality']);
-const SENSITIVE_GLOSS =
-  /\b(slurs?|offensive|derogatory|pejorative|racist|sex(ual(ly)?)?|intercourse|fuck\w*|cunt|penis|vagina|vulva|testic\w*|scrotum|anus|buttocks?|breasts?|masturbat\w*|orgasm|erection|semen|prostitut\w*|whores?|sluts?|rap(e|es|ed|ing|ist|ists)|p(a)?edophil\w*|homosexual\w*|gay|lesbian\w*|fag\w*|heroin|cocaine|marijuana|drugs?|suicide|kill (oneself|himself|herself)|diarrh\w*|excrement|f(a)?eces|shit\w*|urinat\w*|piss\w*|menstrua\w*|nigg\w*|retard\w*|untouchables?|caste)\b/i;
-/** Words that are only a clitic, however they are tagged. */
-const BARE_CLITICS = new Set(['ال', 'لل']);
-// Grammar words: not what makes a dialect recognisable, unless they express a core concept.
-const FUNCTION_POS = new Set(['article', 'det', 'prep', 'postp', 'conj', 'particle', 'pron', 'contraction']);
 // Glosses that describe grammar or spelling rather than a meaning.
 const GRAMMAR_GLOSS =
   /^(used (to|before|after|as|in|with|for)\b|(alternative|obsolete|archaic|dated|nonstandard) (form|spelling)|(plural|form|spelling|clipping|ellipsis|contraction|abbreviation|initialism|acronym) of\b|misspelling|eye dialect|pronunciation spelling|the (name of the )?letter\b)/i;
@@ -196,8 +187,8 @@ export function conceptFor(_word: string, sense: Sense, _cfg: DialectImport, con
   if (!main) return undefined;
   // "to go" is the verb go; "a car" is the noun car. Other articles stay: "a lot" is its own concept.
   const keys = [main];
-  if (pos === 'verb') keys.push(main.replace(/^to /, ''));
-  if (pos === 'noun') keys.push(main.replace(/^(a|an|the) /, ''));
+  if (pos === 'verb' || !pos) keys.push(main.replace(/^to /, ''));
+  if (pos === 'noun' || !pos) keys.push(main.replace(/^(a|an|the) /, ''));
   for (const key of keys) {
     const hit = concepts.get(key);
     if (!hit) continue;
@@ -208,13 +199,7 @@ export function conceptFor(_word: string, sense: Sense, _cfg: DialectImport, con
   return undefined;
 }
 
-/** A sense we would never want a model to pick up as everyday speech. */
-export function isSensitive(sense: Sense): boolean {
-  return (sense.tags ?? []).some((t) => SENSITIVE_TAGS.has(t)) || (sense.glosses ?? []).some((g) => SENSITIVE_GLOSS.test(g));
-}
-
-/** Letters in a word, ignoring marks (harakat, accents) and tatweel. */
-const letterCount = (word: string) => [...word.replace(/[\p{M}ـ]/gu, '')].filter((c) => /\p{L}/u.test(c)).length;
+export { isSensitive };
 
 /** Selects the senses a dialect wants from one kaikki entry. */
 export function selectSenses(entry: KaikkiEntry, cfg: DialectImport, concepts?: ConceptIndex): Sense[] {

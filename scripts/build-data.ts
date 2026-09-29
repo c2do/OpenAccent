@@ -8,23 +8,35 @@ import { validateData } from './validate-data.js';
 
 export type { Bundle, BundledEntry } from '../src/core/bundle.js';
 
-/** Validates a data root and compiles it into a single bundle. Throws if the data is invalid. */
-export function buildBundle(root: string): Bundle {
-  const errors = validateData(root);
+/**
+ * Validates a data root and compiles it into a single bundle. Throws if the data is invalid, unless
+ * `validate` is false (the audit reads data that may break the rules): then files that don't parse
+ * are left out.
+ */
+export function buildBundle(root: string, opts: { validate?: boolean } = {}): Bundle {
+  const errors = opts.validate === false ? [] : validateData(root);
   if (errors.length > 0) {
     throw new Error(`Data is invalid:\n${errors.map((e) => `  ${e.file}: ${e.message}`).join('\n')}`);
   }
   const raw = loadRawData(root);
+  // With validation off, keep only what parses; otherwise everything parses already.
+  const parseAll = <T, F extends { data: unknown }>(files: F[], parse: (f: F) => T): T[] =>
+    files.flatMap((f) => {
+      try {
+        return [parse(f)];
+      } catch (err) {
+        if (opts.validate === false) return [];
+        throw err;
+      }
+    });
 
   const countries = raw.countries.map((f) => CountrySchema.parse(f.data)).sort((a, b) => a.code.localeCompare(b.code));
   const dialects = raw.dialects
     .map((f) => ({ ...DialectSchema.parse(f.data), ...(f.country ? { country: f.country } : {}) }))
     .sort((a, b) => a.id.localeCompare(b.id));
-  const entries = raw.entries
-    .map((f) => ({ id: `${f.folder}/${f.slug}`, ...EntrySchema.parse(f.data) }))
+  const entries = parseAll(raw.entries, (f) => ({ id: `${f.folder}/${f.slug}`, ...EntrySchema.parse(f.data) }))
     .sort((a, b) => a.id.localeCompare(b.id));
-  const samples = raw.samples
-    .map((f) => ({ id: `${f.folder}/${f.slug}`, dialect: f.folder, ...SampleSchema.parse(f.data) }))
+  const samples = parseAll(raw.samples, (f) => ({ id: `${f.folder}/${f.slug}`, dialect: f.folder, ...SampleSchema.parse(f.data) }))
     .sort((a, b) => a.id.localeCompare(b.id));
   const concepts = Object.fromEntries(
     Object.entries((raw.concepts ?? {}) as Record<string, unknown>).map(([id, c]) => [id, ConceptSchema.parse(c)]),

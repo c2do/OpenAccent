@@ -67,6 +67,10 @@ jobs:
             echo "::endgroup::"
           done
 
+      - name: Audit
+        # The per-dialect quality report goes into the run summary, even if validation fails next.
+        run: npm run -s audit >> "$GITHUB_STEP_SUMMARY"
+
       - name: Validate
         run: npm run validate
 
