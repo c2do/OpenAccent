@@ -1,0 +1,29 @@
+word: bizu
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /biˈzu/
+part_of_speech: noun
+meanings:
+  - en: tip, hint (piece of advice)
+    examples: []
+  - en: rumor
+    examples: []
+  - en: look, glance
+    examples: []
+concept: see
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bizu#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

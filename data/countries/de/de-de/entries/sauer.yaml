@@ -1,0 +1,32 @@
+word: sauer
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈzaʊ̯ər/
+part_of_speech: adj
+meanings:
+  - en: upset; annoyed; angry
+    examples:
+      - text: Meine Kollegen sehen immer sehr sauer aus, wenn ich komme.
+        en: My colleagues always look very angry when I arrive.
+  - en: unpleasant
+    examples:
+      - text: eine saure Erfahrung
+        en: an unpleasant experience
+      - text: Warum sollen wir uns das Leben noch sauerer machen, als es schon ist?
+concept: angry
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sauer#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,41 @@
+word: gnarly
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnɑːli/
+part_of_speech: adj
+meanings:
+  - en: Dangerous; difficult.
+    examples:
+      - text: a gnarly problem
+      - text: When the swell struck, the North Shore got gnarly, and the wise ones hit
+          the outer islands where the energy was just as juicy but a bit more
+          organized.
+  - en: Unpleasant, awful, ugly.
+    examples:
+      - text: We're not talking about a lame chick and a gnarly guy. We're talking about
+          a couple of far-out dudes.
+      - text: "Funky Kong: 'Those Snowmads are a gnarly bunch! I hear they're enjoyin'
+          your island. Go get 'em, DK!'"
+  - en: "Unpleasant, awful, ugly.; Of music or a sound: harsh."
+    examples:
+      - text: "Near-synonyms: cacophonic, discordant, jarring"
+      - text: "[She] displays the same love of gnarly fuzztones and shout-it-out-loud
+          choruses that began back in her daze^([sic]) with local all-girl
+          rockers the Runaways."
+concept: hard
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gnarly#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

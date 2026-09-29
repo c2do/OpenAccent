@@ -1,0 +1,28 @@
+word: قليل
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - galīl
+pronunciation:
+  ipa: /ɡa.liːl/
+part_of_speech: adj
+meanings:
+  - en: few, little
+    examples: []
+  - en: rarely
+    examples: []
+concept: a_little
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D9%84%D9%8A%D9%84#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

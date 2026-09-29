@@ -1,0 +1,30 @@
+word: slant
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈslɑːnt/
+part_of_speech: noun
+meanings:
+  - en: A look, a glance.
+    examples:
+      - text: All batters looked alike to him—I don't believe he ever took a slant at
+          the averages;
+      - text: "`What do you want?' `Just a slant at the weapon,' said Fenner."
+  - en: A person with epicanthi, particularly an East Asian.
+    examples: []
+concept: see
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/slant#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

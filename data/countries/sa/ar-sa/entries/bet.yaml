@@ -1,0 +1,32 @@
+word: بيت
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - bēt
+  - bayyat
+pronunciation:
+  ipa: /beːt/
+meanings:
+  - en: house, building
+    examples: []
+  - en: commercial house
+    examples: []
+  - en: family, dynasty
+    examples: []
+  - en: to stay out overnight
+    examples: []
+concept: house
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D9%8A%D8%AA#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

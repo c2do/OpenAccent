@@ -1,0 +1,27 @@
+word: feiern
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfaɪ̯ɐn/
+part_of_speech: verb
+meanings:
+  - en: to love; to adore
+    examples:
+      - text: Alter, ich feier das Lied voll!
+        en: I just love this song, mate!
+concept: like
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/feiern#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: zilch
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /zɪlt͡ʃ/
+meanings:
+  - en: No, zero, non-existent.
+    examples:
+      - text: Zilch, adj. Nothing, zero...
+      - text: ...gorgeous faces but zilch talent...
+  - en: To cause to score nothing, to thoroughly defeat.
+    examples:
+      - text: We zilched them on that rubber.
+      - text: My favorite film of 1989 got zilched... That would be Field of Dreams.
+concept: "no"
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/zilch#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

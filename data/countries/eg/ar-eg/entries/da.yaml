@@ -1,0 +1,27 @@
+word: ده
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - da
+pronunciation:
+  ipa: /da/
+meanings:
+  - en: this, that
+    examples:
+      - text: قريت الكتاب ده
+        en: I read this book
+concept: this
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AF%D9%87#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

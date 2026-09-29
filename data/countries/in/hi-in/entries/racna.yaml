@@ -1,0 +1,33 @@
+word: रचना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - racnā
+pronunciation:
+  ipa: /ɾət͡ʃ.nɑː/
+meanings:
+  - en: to be made, composed
+    examples: []
+  - en: to be initiated
+    examples: []
+  - en: synonym of रचाना (racānā):; to compose
+    examples:
+      - text: इसने बहुत मज़ेदार गाना रचा है।
+        en: He has composed a wonderful song.
+  - en: synonym of रचाना (racānā):; to stain
+    examples: []
+concept: work_verb
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B0%E0%A4%9A%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

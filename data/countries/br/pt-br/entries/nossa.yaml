@@ -1,0 +1,32 @@
+word: nossa
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnɔ.sɐ/
+part_of_speech: intj
+meanings:
+  - en: oh, my God!; goodness! (said in excitement, shock, awe or dismay)
+    examples:
+      - text: |-
+          Benge percebeu o clima tenso e resolveu dar mais uma das suas:
+          — Nossa! O Chefinho tá-que-tá! Uma fera!
+        en: >-
+          Benge noticed the tense atmosphere and decided to give one more of his
+          own phrases:
+
+          — Goodness! The little boss got fired up! What a beast!
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nossa#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

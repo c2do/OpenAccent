@@ -1,0 +1,34 @@
+word: bootleg
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbutˌlɛɡ/
+part_of_speech: verb
+meanings:
+  - en: To engage in bootlegging.; To make, transport and/or sell illegal alcoholic
+      liquor.
+    examples:
+      - text: In the 1930s, Grandpa used to bootleg to make ends meet.
+      - text: In the 1930s, Grandpa used to bootleg whiskey from a still hidden in the
+          backwoods.
+  - en: To engage in bootlegging.; To operate a mine illicitly.
+    examples:
+      - text: In the 1930s, Grandpa used to bootleg to make ends meet.
+      - text: In the 1930s, Grandpa used to bootleg coal from a shaft hidden in the
+          backwoods.
+concept: do
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bootleg#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

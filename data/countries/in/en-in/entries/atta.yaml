@@ -1,0 +1,26 @@
+word: atta
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A type of wholegrain flour from the Indian subcontinent.
+    examples:
+      - text: Kabutri, in the meanwhile, had kneaded some atta and rolled out a few real
+          rotis.
+      - text: The little bits of atta on her hands turned the water a milky white and
+          that was all she could offer to her children’s hunger.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/atta#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

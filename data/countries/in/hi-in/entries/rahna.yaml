@@ -1,0 +1,40 @@
+word: रहना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - rahnā
+pronunciation:
+  ipa: /ɾəɦ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to stay, remain
+    examples:
+      - text: यहीं रहो, मैं अभी आता हूँ।
+        en: Stay here, I'm coming in a second.
+  - en: to live (in a place), to reside
+    examples:
+      - text: मैं शिकागो में रहता हूँ।
+        en: I live in Chicago.
+  - en: to let alone, leave
+    examples:
+      - text: रहने दो।
+        en: Let it be.
+  - en: an aspectual auxiliary, marking the continuous aspect; to keep on ...
+    examples:
+      - text: अपना काम करते रहो, मैं टीवी कम आवाज़ पे लगाता हूँ।
+        en: Keep on doing your work, I'll put the TV on low volume.
+concept: leave
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B0%E0%A4%B9%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

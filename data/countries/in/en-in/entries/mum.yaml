@@ -1,0 +1,29 @@
+word: mum
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /mʌm/
+part_of_speech: noun
+meanings:
+  - en: mother
+    examples:
+      - text: From the Marvel Mixmaster to the Miracle Microwave, every time a
+          new-fangled gadget has lobbed into the Aussie kitchen, Aussie mums
+          have changed their cooking styles accordingly.
+      - text: "'Ooh Mum, Auntie don′t allow smokin’ - Pat′s eyes were round with awe as
+          Mum struck a match."
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mum#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

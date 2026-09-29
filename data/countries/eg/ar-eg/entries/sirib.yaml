@@ -1,0 +1,28 @@
+word: شرب
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - širib
+  - širb
+pronunciation:
+  ipa: /ʃi.rib/
+meanings:
+  - en: to drink
+    examples: []
+  - en: gross clods of earth on the field after ploughing
+    examples: []
+concept: drink
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D8%B1%D8%A8#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

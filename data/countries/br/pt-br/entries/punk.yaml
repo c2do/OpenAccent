@@ -1,0 +1,27 @@
+word: punk
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpɐ̃.ki/
+part_of_speech: adj
+meanings:
+  - en: complicated; difficult, tense
+    examples:
+      - text: Hoje o dia vai ser punk.
+        en: Today is going to be complicated.
+concept: hard
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/punk#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

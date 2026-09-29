@@ -1,0 +1,29 @@
+word: billo
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: cheap (implying the lowest tier of quality)
+    examples:
+      - text: Genauso sollte es doch jedes billo Micro tun, oder?
+        en: Any cheap mic should also do just as fine, shouldn't it?
+      - text: Sie fläzt sich aufs Sofa. Ihr Rock ist ein bisschen zu kurz dafür. Aber
+          das sieht überhaupt nicht billo aus. Eher so nach Plakat.
+        en: She lounges onto the couch. Her skirt is a bit too short for that. But it
+          doesn't look cheap at all. More like poster-style.
+concept: cheap
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/billo#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

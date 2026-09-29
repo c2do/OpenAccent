@@ -1,0 +1,29 @@
+word: good egg
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡʊd ɛɡ/
+part_of_speech: noun
+meanings:
+  - en: A good person, someone to be trusted; a friend.
+    examples:
+      - text: "Tom speaks: \"I have a girl friend I want you to meet. She's a good
+          egg.\""
+      - text: Johnny Parker is in town. I like Johnny. He's a big shot in pictures and
+          he's a good egg.
+concept: friend
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/good_egg#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

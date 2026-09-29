@@ -1,0 +1,34 @@
+word: خلق
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ḵalag
+  - ḵilg
+  - ḵulg
+  - ḵalg
+pronunciation:
+  ipa: /xa.laɡ/
+meanings:
+  - en: to create, to make
+    examples: []
+  - en: to shape, to form
+    examples: []
+  - en: manner
+    examples: []
+  - en: morals, morality
+    examples: []
+concept: do
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AE%D9%84%D9%82#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

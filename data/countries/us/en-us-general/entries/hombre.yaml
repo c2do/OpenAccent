@@ -1,0 +1,30 @@
+word: hombre
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɒmbɹeɪ/
+part_of_speech: noun
+meanings:
+  - en: A man, a chap, a guy; especially a Hispanic or Spanish man.
+    examples:
+      - text: "[W]e're glad to learn that the Yankee bullet has not quite stopped your
+          breath. You're all right, hombre!"
+      - text: That hombre now with the worn out hat, tattered shirt, and fragmentary
+          breeches, wears a sword. Bless you, his dignity would suffer greatly
+          without it!
+concept: man
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hombre#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

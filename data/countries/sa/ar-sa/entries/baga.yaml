@@ -1,0 +1,28 @@
+word: بغى
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - baḡa
+pronunciation:
+  ipa: /ba.ɣa/
+part_of_speech: verb
+meanings:
+  - en: to want
+    examples:
+      - text: أبغى أروح الملاهي
+        en: I want to go to the amusement park
+concept: want
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%BA%D9%89#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

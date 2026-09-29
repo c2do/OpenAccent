@@ -1,0 +1,28 @@
+word: mancar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /mɐ̃ˈka(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to make oneself scarce; to leave
+    examples: []
+  - en: to notice one's own actions as appropriate or not; to read the room.
+    examples:
+      - text: Se manca!
+concept: leave
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mancar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

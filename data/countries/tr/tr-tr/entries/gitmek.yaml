@@ -1,0 +1,41 @@
+word: gitmek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɟitˈmec/
+part_of_speech: verb
+meanings:
+  - en: to go
+    examples:
+      - text: Uzun ince bir yoldayım / Gidiyorum gündüz gece / Bilmiyorum ne haldeyim /
+          Gidiyorum gündüz gece
+        en: I am on a long, thin road / I go day and night / I do not know what state I
+          am in / I go day and night
+  - en: to lead
+    examples:
+      - text: Bu cadde sahile gider.
+        en: This street leads to the coast.
+  - en: to deteriorate; to grow worse
+    examples:
+      - text: Kadının sağlığı kötüye gidiyor.
+        en: The woman's health is deteriorating.
+  - en: to suit; to be suitable or apt for one's image
+    examples:
+      - text: Mor bana gitmez.
+        en: Purple doesn't suit me.
+concept: go
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gitmek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

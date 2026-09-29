@@ -1,0 +1,27 @@
+word: morar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /moˈɾa(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to get it; to understand
+    examples:
+      - text: Você não manda em mim, morou?
+        en: I don't take orders from you, got it?
+concept: understand
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/morar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

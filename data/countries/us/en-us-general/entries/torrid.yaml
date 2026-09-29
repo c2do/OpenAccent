@@ -1,0 +1,25 @@
+word: torrid
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtɒɹɪd/
+part_of_speech: adj
+meanings:
+  - en: "[of a streak, form, etc.] Good; impressive; hot."
+    examples: []
+concept: hot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/torrid#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

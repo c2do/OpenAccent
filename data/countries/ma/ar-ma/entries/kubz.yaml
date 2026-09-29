@@ -1,0 +1,28 @@
+word: خبز
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ḵubz
+  - ḵbaz
+pronunciation:
+  ipa: /xubz/
+meanings:
+  - en: bread
+    examples: []
+  - en: to bake
+    examples: []
+concept: bread
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AE%D8%A8%D8%B2#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

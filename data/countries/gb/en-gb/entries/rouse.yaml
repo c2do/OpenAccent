@@ -1,0 +1,29 @@
+word: rouse
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɹaʊz/
+part_of_speech: noun
+meanings:
+  - en: "Often in the form Rouse and preceded by the: the sounding of a call,
+      usually on the bugle in the morning after reveille, to signal that
+      soldiers are to rise from bed; also, the reveille."
+    examples:
+      - text: The ‘rouse’ sounded at 2.45 a.m., and by four o’clock tents had been
+          struck, baggage loaded up, and everything was ready for a start.
+concept: also
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rouse#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: chiquihuite
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃikiˈwite/
+part_of_speech: noun
+meanings:
+  - en: a small, handleless woven wicker or reed basket
+    examples: []
+concept: small
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chiquihuite#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

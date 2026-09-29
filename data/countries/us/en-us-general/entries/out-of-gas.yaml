@@ -1,0 +1,25 @@
+word: out of gas
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: prep_phrase
+meanings:
+  - en: Tired; lacking energy or motivation.
+    examples:
+      - text: After twelve hours straight at the office, he was about out of gas and
+          decided to go home and rest.
+concept: tired
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/out_of_gas#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: wickedly
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈwɪkɪdli/
+part_of_speech: adv
+meanings:
+  - en: very
+    examples:
+      - text: The film was wickedly funny.
+      - text: This wasn’t the first time I held Isaacson’s judgment in low regard. […]
+          Linda Yaccarino, Musk’s almost comically bumbling CEO of X is
+          “wickedly smart”.
+concept: a_lot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wickedly#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

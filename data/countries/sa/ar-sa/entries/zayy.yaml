@@ -1,0 +1,28 @@
+word: زي
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - zayy
+pronunciation:
+  ipa: /ˈzajj/
+part_of_speech: prep
+meanings:
+  - en: like
+    examples:
+      - text: جِبْ / جيب لي قلم زي هذا
+        en: bring me a pen like this one
+concept: like
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B2%D9%8A#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

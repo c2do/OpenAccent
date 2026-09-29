@@ -1,0 +1,30 @@
+word: rich kid
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɹɪt͡ʃ ˌkɪd/
+part_of_speech: noun
+meanings:
+  - en: A child, adolescent or young adult from a wealthy family, especially one who
+      flaunts his or her wealth or privilege.
+    examples:
+      - text: They were very happy, these poor little folks, to be invited to a dinner
+          party, given by “that rich kid, Alex.”
+      - text: The defendant, Albert Butler Chatham, in the words of his attorney, is a
+          spoiled rich kid with a mania for automobiles.
+concept: child
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rich_kid#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

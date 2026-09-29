@@ -1,0 +1,29 @@
+word: ev
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈev/
+part_of_speech: noun
+meanings:
+  - en: A building for a family to reside in; house, home, abode.
+    examples: []
+  - en: A building inhabited by a person or a family; household.
+    examples: []
+  - en: family
+    examples: []
+concept: house
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ev#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

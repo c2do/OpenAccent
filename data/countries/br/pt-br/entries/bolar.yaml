@@ -1,0 +1,35 @@
+word: bolar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /boˈla(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to elaborate, to plan, to devise, to invent
+    examples:
+      - text: Vou bolar um plano.
+        en: I will devise a plan.
+  - en: to figure out, to understand
+    examples:
+      - text: Preciso bolar um jeito de pagar minhas dívidas.
+        en: I need to figure out a way to pay my bills.
+  - en: to be successful
+    examples: []
+  - en: to roll (a joint)
+    examples: []
+concept: understand
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bolar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

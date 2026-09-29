@@ -1,0 +1,42 @@
+word: छोटा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - choṭā
+pronunciation:
+  ipa: /t͡ʃʰoː.ʈɑː/
+part_of_speech: adj
+meanings:
+  - en: little, small
+    examples:
+      - text: बाहर एक छोटा बच्चा खड़ा है।
+        en: There's a small child standing outside.
+      - text: छोटी सी दुकान
+        en: a small shop
+  - en: younger, junior, minor, lesser
+    examples:
+      - text: छोटा भाई
+        en: younger brother
+      - text: छोटी बहन
+        en: younger sister
+  - en: subordinate, inferior, common
+    examples: []
+  - en: trivial, trifling, unimportant, of no consequence
+    examples:
+      - text: छोटी बात
+        en: trivial matter
+concept: a_little
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9B%E0%A5%8B%E0%A4%9F%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

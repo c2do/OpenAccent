@@ -1,0 +1,25 @@
+word: mouais
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /mwɛ/
+part_of_speech: intj
+meanings:
+  - en: not really; okay
+    examples: []
+concept: okay
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mouais#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

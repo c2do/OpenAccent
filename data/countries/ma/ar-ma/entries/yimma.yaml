@@ -1,0 +1,30 @@
+word: يما
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - yimma
+pronunciation:
+  ipa: /jim.ma/
+part_of_speech: noun
+meanings:
+  - en: mother, mom
+    examples:
+      - text: مشات يما للسوق تتقدى.
+        en: Mom went to the souk to get groceries.
+      - text: ينعل يمّاك!
+        en: Fuck you
+concept: mom
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%8A%D9%85%D8%A7#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

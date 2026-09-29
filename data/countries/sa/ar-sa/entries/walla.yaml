@@ -1,0 +1,32 @@
+word: ولا
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - walla
+  - wala
+pronunciation:
+  ipa: /wal.la/
+part_of_speech: conj
+meanings:
+  - en: or
+    examples:
+      - text: تبغى هذا؟ وَلَّا هذا؟
+        en: do you want this? or that?
+  - en: nor, neither
+    examples:
+      - text: لا هدا ,ولا هداك
+        en: not this, nor that
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88%D9%84%D8%A7#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

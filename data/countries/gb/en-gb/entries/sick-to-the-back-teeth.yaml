@@ -1,0 +1,25 @@
+word: sick to the back teeth
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: phrase
+meanings:
+  - en: Extremely annoyed, fed up, tired (of or with something).
+    examples:
+      - text: '"Passengers are sick to their back teeth of paying for boardroom largesse
+          and eye-watering fares."'
+concept: tired
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sick_to_the_back_teeth#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: bunk
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bʌŋk/
+part_of_speech: verb
+meanings:
+  - en: To fail to attend school or work without permission; to play truant (usually
+      'to bunk off').
+    examples:
+      - text: The naughty boys decided to bunk school and visit the comic shop.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bunk#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

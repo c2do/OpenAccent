@@ -1,0 +1,40 @@
+word: sugar
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃʊɡə/
+meanings:
+  - en: Effeminacy in a male, often implying homosexuality.
+    examples:
+      - text: I think John has a little bit of sugar in him.
+      - text: There are depths and heights of beauty in him beyond tears - but there is
+          no sugar, not even any honey.
+  - en: Heroin.
+    examples: []
+  - en: Money.
+    examples: []
+  - en: In making maple sugar, to complete the process of boiling down the syrup
+      till it is thick enough to crystallize; to approach or reach the state of
+      granulation; with the preposition off.
+    examples:
+      - text: A long time ago my grandmother and I used to boil maple sap. When she
+          sugared off, I stood there.
+      - text: During the spring in Quebec and Ontario, maple syrup is harvested, or
+          "sugared off," a process which is usually celebrated as a social
+          event.
+concept: money
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sugar#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

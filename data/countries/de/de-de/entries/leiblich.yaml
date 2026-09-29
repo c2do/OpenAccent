@@ -1,0 +1,28 @@
+word: leiblich
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈlaɪ̯plɪç/
+part_of_speech: adj
+meanings:
+  - en: bodily, physical, now chiefly in specific contexts:; related to food, drink,
+      refreshments
+    examples:
+      - text: Für das leibliche Wohl wird gesorgt.
+        en: There will be plenty to eat and drink.
+concept: drink
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/leiblich#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

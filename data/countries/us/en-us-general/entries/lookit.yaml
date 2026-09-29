@@ -1,0 +1,33 @@
+word: lookit
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈlʊkɪt/
+part_of_speech: intj
+meanings:
+  - en: look, listen; see here, pay attention; the thing is, to be honest
+    examples:
+      - text: Ah lookit deputy, with all due respect to you, if you come in here and act
+          like an ass that's exactly the label that you'll gain
+      - text: Lookit! I'm old enough now, I'll wear what I want!
+  - en: behold!; look at that; look here or there; look!
+    examples:
+      - text: He went right on cackling, "Lookit lookit lookit. Oh Jesus, lookit. Lookit
+          lookit." The blast had shattered all the windows, and flames were
+          shooting out of all of them.
+concept: see
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/lookit#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

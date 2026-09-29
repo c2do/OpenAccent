@@ -1,0 +1,29 @@
+word: rüberwachsen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: to grow over, grow in some direction
+    examples:
+      - text: Der Busch ist hier von der Nachbarseite rübergewachsen.
+        en: The shrub has grown over here from the neighbours' side.
+  - en: to be handed over; (usually with lassen) to give, hand over
+    examples:
+      - text: Geil, Erdnüsse! Lass ma' rüberwachsen!
+        en: Great, peanuts! Give us some of those!
+concept: give
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/r%C3%BCberwachsen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

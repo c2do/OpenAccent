@@ -1,0 +1,33 @@
+word: حوحو
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ḥūḥu
+pronunciation:
+  ipa: /ħuːħu/
+meanings:
+  - en: cold
+    examples: []
+  - en: brrr!
+    examples:
+      - text: حُوْ حُوْ يابَرْدي قَشقوشِة حَطَب ما عِندي!
+        en: >-
+          Brrr, I'm freezing, and I don't have the tiniest piece of firewood!
+
+          [original: Ach, ach, ich friere, und dabei habe ich nicht ein Hälmchen
+          Holz!]
+concept: cold
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D9%88%D8%AD%D9%88#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

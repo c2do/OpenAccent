@@ -1,0 +1,30 @@
+word: वाटर
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - vāṭar
+pronunciation:
+  ipa: /ʋɑː.ʈəɾ/
+part_of_speech: noun
+meanings:
+  - en: water
+    examples:
+      - text: वाटर हीटर
+        en: water heater
+      - text: वाटर सप्लाई
+        en: water supply
+concept: water
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A4%BE%E0%A4%9F%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

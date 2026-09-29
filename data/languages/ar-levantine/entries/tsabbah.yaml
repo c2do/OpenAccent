@@ -1,0 +1,23 @@
+word: تصبح
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - tṣabbaḥ
+part_of_speech: verb
+meanings:
+  - en: to meet at morning (whom بـ)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AA%D8%B5%D8%A8%D8%AD#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

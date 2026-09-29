@@ -1,0 +1,30 @@
+word: ل
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - la
+  - la-
+meanings:
+  - en: to, towards
+    examples: []
+  - en: for
+    examples:
+      - text: "Near-synonym: كِرْمَال (kirmāl, “for the sake of”)"
+  - en: by; pertaining to; belonging to
+    examples: []
+  - en: in order to; so that
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

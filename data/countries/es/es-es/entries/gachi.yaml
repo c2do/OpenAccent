@@ -1,0 +1,23 @@
+word: gachí
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A woman, especially if young and physically attractive; chick, bitch.
+    examples: []
+concept: woman
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gach%C3%AD#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

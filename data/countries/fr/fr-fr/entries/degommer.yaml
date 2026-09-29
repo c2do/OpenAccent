@@ -1,0 +1,29 @@
+word: dégommer
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /de.ɡɔ.me/
+part_of_speech: verb
+meanings:
+  - en: to sack, can, fire
+    examples: []
+  - en: to unseat
+    examples: []
+  - en: to hit, strike, zap (a target)
+    examples: []
+concept: can
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/d%C3%A9gommer#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

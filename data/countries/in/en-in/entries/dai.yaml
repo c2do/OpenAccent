@@ -1,0 +1,24 @@
+word: dai
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A wet nurse; a midwife.
+    examples:
+      - text: Kausalya, she learnt, was his dai, the one who had breast-fed and looked
+          after him.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dai#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: सकना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - saknā
+pronunciation:
+  ipa: /sək.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to be able
+    examples: []
+  - en: can
+    examples:
+      - text: मैं अपने आप कर सकता हूँ!
+        en: I can do it by myself!
+concept: can
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%95%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

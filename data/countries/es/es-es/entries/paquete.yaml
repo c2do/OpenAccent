@@ -1,0 +1,26 @@
+word: paquete
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /paˈkete/
+part_of_speech: noun
+meanings:
+  - en: chump, useless, butterfingers (an incompetent person)
+    examples: []
+  - en: lunchbox (male genitals enclosed in clothing)
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/paquete#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

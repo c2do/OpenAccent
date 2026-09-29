@@ -1,0 +1,26 @@
+word: scatter
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈskætə/
+part_of_speech: verb
+meanings:
+  - en: To leave.
+    examples:
+      - text: When the police showed up, I scattered.
+concept: leave
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/scatter#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: correct
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɔ.ʁɛkt/
+part_of_speech: adj
+meanings:
+  - en: passable, okay
+    examples:
+      - text: Le restaurant auquel nous sommes allés était correct, sans plus.
+        en: The restaurant we went to was okay, but nothing more.
+concept: okay
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/correct#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

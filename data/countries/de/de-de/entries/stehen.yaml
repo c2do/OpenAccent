@@ -1,0 +1,28 @@
+word: stehen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃteː.ən/
+part_of_speech: verb
+meanings:
+  - en: to have a thing for, to fancy
+    examples:
+      - text: Ich glaube, sie steht nicht auf dich.
+        en: I don't think she fancies you.
+      - text: Neben mir wohnt ein Philosoph / Fenster auf, ich hör Türkenmelodien / Ich
+          fühl mich gut / Ich steh auf Berlin
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/stehen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

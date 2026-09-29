@@ -1,0 +1,26 @@
+word: عيل
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ʕayyil
+pronunciation:
+  ipa: /ʕaj.jil/ [ˈʕæjːel]
+part_of_speech: noun
+meanings:
+  - en: child
+    examples: []
+concept: child
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%8A%D9%84#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

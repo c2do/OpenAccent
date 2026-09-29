@@ -1,0 +1,28 @@
+word: كار
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - kār
+part_of_speech: noun
+meanings:
+  - en: job, profession
+    examples:
+      - text: Ktīr ᵊl-kā̊ṛā̊ṭ ʾalīl ᵊl-bā̊ṛā̊ṭ
+        en: |-
+          Many-jobbed, little-monied.
+          [original: Beaucoup de métiers, peu de sous !]
+concept: work
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D8%A7%D8%B1#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

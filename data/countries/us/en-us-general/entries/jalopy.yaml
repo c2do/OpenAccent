@@ -1,0 +1,30 @@
+word: jalopy
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /d͡ʒəˈlɒ.pi/
+part_of_speech: noun
+meanings:
+  - en: An old, dilapidated or unpretentious automobile.
+    examples:
+      - text: Dean is the perfect guy for the road because he was actually born on the
+          road, when his parents were passing through Salt Lake City in 1926, in
+          a jalopy, on their way to Los Angeles.
+      - text: There's only a rough track and I doubt if that jalopy of yours will make
+          it.
+concept: old_thing
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jalopy#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

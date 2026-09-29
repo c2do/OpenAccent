@@ -1,0 +1,30 @@
+word: फोकट
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - phokaṭ
+pronunciation:
+  ipa: /pʰoː.kəʈ/
+part_of_speech: adj
+meanings:
+  - en: worthless, valueless
+    examples: []
+  - en: free, cheap
+    examples:
+      - text: नौकरी फोकट में थोड़ी मिलती है?
+        en: You don't just get a job for doing nothing.
+concept: cheap
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AB%E0%A5%8B%E0%A4%95%E0%A4%9F#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

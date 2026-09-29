@@ -1,0 +1,25 @@
+word: dunnarf
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+part_of_speech: contraction
+meanings:
+  - en: do/does to a great extent.
+    examples:
+      - text: I dunnarf feel ill.
+      - text: I knock it every time we kneel for prayers, it dunnarf hurt.
+concept: do
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dunnarf#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

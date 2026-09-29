@@ -1,0 +1,27 @@
+word: gostoso
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡosˈto.zu/
+part_of_speech: adj
+meanings:
+  - en: attractive, hot, sexy
+    examples:
+      - text: Fiquei com um cara bem gostoso ontem à noite.
+        en: I hooked up with a really hot guy last night.
+concept: hot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gostoso#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

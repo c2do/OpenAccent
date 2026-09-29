@@ -1,0 +1,27 @@
+word: kebab
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kəˈbæb/
+part_of_speech: noun
+meanings:
+  - en: A dish usually made of cut meat roasted on a skewer or spit, especially one
+      based on Middle Eastern or South Asian cuisine.; A dish made from shaped
+      minced meat, usually grilled on a skewer but sometimes formed into a patty
+      and fried or baked.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/kebab#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

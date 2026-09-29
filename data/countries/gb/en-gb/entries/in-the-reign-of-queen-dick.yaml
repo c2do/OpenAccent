@@ -1,0 +1,23 @@
+word: in the reign of Queen Dick
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: prep_phrase
+meanings:
+  - en: when pigs fly; never
+    examples: []
+concept: never
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/in_the_reign_of_Queen_Dick#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

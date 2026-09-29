@@ -1,0 +1,30 @@
+word: قلوة
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - qalwa
+pronunciation:
+  ipa: /qal.wa/
+part_of_speech: noun
+meanings:
+  - en: testicle
+    examples: []
+  - en: thing
+    examples:
+      - text: ما عندي حتى قلوة فجيبي
+        en: I don't have anything in my pocket
+concept: something
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D9%84%D9%88%D8%A9#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

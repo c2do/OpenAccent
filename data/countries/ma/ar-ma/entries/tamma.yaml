@@ -1,0 +1,26 @@
+word: تمة
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - tamma
+pronunciation:
+  ipa: /tam.ma/
+part_of_speech: adv
+meanings:
+  - en: there
+    examples: []
+concept: there
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AA%D9%85%D8%A9#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

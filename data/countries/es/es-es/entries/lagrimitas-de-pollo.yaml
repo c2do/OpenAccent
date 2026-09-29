@@ -1,0 +1,31 @@
+word: lagrimitas de pollo
+dialect: es-es
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /laɡɾiˌmitas de ˈpoʝo/
+part_of_speech: noun
+meanings:
+  - en: small, bite-sized strips or chunks of chicken breast, usually marinated
+      (often with lemon, garlic, and parsley), then breaded and deep-fried.
+    examples:
+      - text: Para los niños vamos a pedir unas lagrimitas de pollo con patatas fritas.
+        en: For the kids, we're going to order some chicken lagrimitas with french
+          fries.
+      - text: En este bar de tapas hacen las mejores lagrimitas de pollo de toda Málaga.
+        en: In this tapas bar they make the best chicken lagrimitas in all of Malaga.
+concept: small
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/lagrimitas_de_pollo#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

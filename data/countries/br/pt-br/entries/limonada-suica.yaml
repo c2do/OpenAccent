@@ -1,0 +1,24 @@
+word: limonada suíça
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: "Brazilian lemonade: a type of Brazilian limeade made of lime pieces with
+      peel, ice cubes, sugar, water, and sometimes condensed milk."
+    examples: []
+concept: water
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/limonada_su%C3%AD%C3%A7a#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

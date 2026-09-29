@@ -1,0 +1,34 @@
+word: बशर
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - baśar
+pronunciation:
+  ipa: /bə.ʃəɾ/
+part_of_speech: noun
+meanings:
+  - en: human, man
+    examples:
+      - text: |-
+          तन में लहू का नाम नहीं ज़र्द रंग है
+          गोया बशर नहीं कोई तस्वीर-ए-संग है
+        en: |-
+          On the body there is not a trace of blood, it is all pale
+          As if not a human but a figure of stone.
+  - en: mankind
+    examples: []
+concept: man
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%B6%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: chop
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃɒp/
+meanings:
+  - en: A stamp or seal; a mark, imprint or impression on a document (or other
+      object or material) made by stamping or sealing a design with ink or wax,
+      respectively, or by other methods.
+    examples: []
+  - en: To stamp or seal (a document); to mark, impress or otherwise place a design
+      or symbol on paper or other material, usually, but not necessarily, to
+      indicate authenticity.
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chop#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

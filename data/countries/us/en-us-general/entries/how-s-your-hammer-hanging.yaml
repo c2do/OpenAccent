@@ -1,0 +1,33 @@
+word: how's your hammer hanging
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: phrase
+meanings:
+  - en: How are you? (generally used between male speakers)
+    examples:
+      - text: “Hello, Pop,” a young clammer said to the man in an adjoining boat, a
+          sullen old man in wet overalls, “how’s your hammer hanging?”
+      - text: Porter, the only other colored guy on the shift, used to hail him—“Hey,
+          Fred, how’s your hammer hanging?” And he’d mount the stool and holler
+          back, “It ain’t ruined my crease none.”
+  - en: How’s your sex life?
+    examples:
+      - text: “Hey, Sam, you gettin’ much?” ¶ “Huh?” I said. […] ¶ “I said, ‘How’s your
+          hammer hanging?’” ¶ “It’s hanging,” I said, pulling myself back to the
+          present. “That’s the trouble.”
+concept: how_are_you
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/how's_your_hammer_hanging#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

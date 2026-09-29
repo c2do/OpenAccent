@@ -1,0 +1,34 @@
+word: dandy
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdæn.di/
+part_of_speech: noun
+meanings:
+  - en: A boatman, a rower.
+    examples:
+      - text: Our Dandees (or boatmen) boyled their rice.
+  - en: A Shaiva mendicant who carries a small rod.
+    examples:
+      - text: ...the Dandis, distinguished by carrying a small dand or wand...
+  - en: An open sedan chair formed by suspending a rudimentary frame or strong cloth
+      from a pole or set of poles.
+    examples:
+      - text: "1870, Constance Frederica Gordon-Cumming, Good Words, p. 135:"
+      - text: As the darkness closed in... I had to give up the attempt to use the
+          dandy, and struggle on on foot.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dandy#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

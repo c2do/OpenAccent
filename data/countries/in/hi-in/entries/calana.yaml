@@ -1,0 +1,40 @@
+word: चलाना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - calānā
+pronunciation:
+  ipa: /t͡ʃə.lɑː.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to cause to move, go, or proceed
+    examples: []
+  - en: to cause to move, go, or proceed; to drive or ride a vehicle or animal
+    examples:
+      - text: वह बहुत तेज़ी से गाड़ी चलाता है।
+        en: He drives very fast.
+      - text: घोड़ा चलाना
+        en: to ride a horse.
+  - en: to operate, work, or run; to operate a machine, tool, or implement
+    examples:
+      - text: मेरी माँ चरखा चला रही हैं।
+        en: My mother is spinning the spinning wheel.
+  - en: to operate, work, or run; to start, to run, to turn on
+    examples:
+      - text: पानी के मोटर को चला दो।
+        en: Turn on the water pump.
+concept: go
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A4%B2%E0%A4%BE%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

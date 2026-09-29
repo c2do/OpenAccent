@@ -1,0 +1,26 @@
+word: purely
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpjʊəli/
+part_of_speech: adv
+meanings:
+  - en: Wholly; really, completely.
+    examples:
+      - text: I am fascinated by the entire scene, I purely am.
+concept: really
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/purely#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

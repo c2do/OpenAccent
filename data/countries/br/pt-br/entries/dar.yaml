@@ -1,0 +1,26 @@
+word: dar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈda(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to put out, to allow to be sexually penetrated
+    examples:
+      - text: Dei pra ele.
+        en: I put out for him.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

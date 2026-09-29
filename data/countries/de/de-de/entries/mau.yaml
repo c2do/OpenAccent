@@ -1,0 +1,41 @@
+word: mau
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /maʊ̯/
+meanings:
+  - en: unwell, queasy, poorly, ill
+    examples:
+      - text: Mir ist mau.
+        en: I feel queasy/ill/poorly.
+      - text: Ich fühle mich mau.
+        en: I feel queasy/ill/poorly.
+  - en: disappointing, bad, meagre (below expectations, either in quantity or
+      quality, though typically not catastrophic)
+    examples:
+      - text: Die Lage ist mau.
+        en: The situation is bad.
+      - text: Die Ergebnisse sind mau.
+        en: The results are poor.
+  - en: badly, bad
+    examples: []
+  - en: slack
+    examples:
+      - text: Die Geschäfte gehen mau.
+        en: Business is slack.
+concept: bad
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mau#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

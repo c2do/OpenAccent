@@ -1,0 +1,25 @@
+word: cookie
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkʊki/
+part_of_speech: noun
+meanings:
+  - en: A small, flat, baked good which is either crisp or soft but firm.
+    examples: []
+concept: small
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cookie#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

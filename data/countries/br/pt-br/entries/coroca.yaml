@@ -1,0 +1,25 @@
+word: coroca
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /koˈɾɔ.kɐ/
+part_of_speech: adj
+meanings:
+  - en: old, decrepit
+    examples: []
+concept: old_thing
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/coroca#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

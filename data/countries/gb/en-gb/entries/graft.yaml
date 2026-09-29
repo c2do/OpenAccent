@@ -1,0 +1,28 @@
+word: graft
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡɹɑːft/
+part_of_speech: noun
+meanings:
+  - en: Work; labor requiring effort.
+    examples:
+      - text: We had to put in a lot of hard graft to get the job done.
+  - en: A job or trade.
+    examples: []
+concept: work_verb
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/graft#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

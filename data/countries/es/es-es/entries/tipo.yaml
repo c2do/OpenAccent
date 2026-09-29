@@ -1,0 +1,25 @@
+word: tipo
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtipo/
+part_of_speech: particle
+meanings:
+  - en: like
+    examples: []
+concept: like
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tipo#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,31 @@
+word: não
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnɐ̃w̃/
+part_of_speech: adv
+meanings:
+  - en: not; don't; haven't (negates the meaning of the verb or adverb); used to
+      emphasise or reinforce (in the case that there is a previous unstressed
+      adverb não, see above) sentences containing a negative pronoun as the
+      subject or already containing não
+    examples:
+      - text: Ninguém vai ser preso não.
+        en: Nobody is really going to be arrested.
+      - text: Não vi o João não.
+        en: I haven’t seen John, no.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/n%C3%A3o#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

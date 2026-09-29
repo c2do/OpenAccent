@@ -1,0 +1,27 @@
+word: cross
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɹɒs/
+part_of_speech: adj
+meanings:
+  - en: (of someone) Bad-tempered, angry, annoyed; (of words) tinged with anger.
+    examples:
+      - text: They exchanged a few cross words.
+      - text: She was rather cross about missing her train on the first day of the job.
+concept: angry
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cross#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,33 @@
+word: وحش
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - waḥaš
+  - waḥš
+  - wiḥiš
+pronunciation:
+  ipa: /wa.ħaʃ/
+meanings:
+  - en: to miss, to cause longing
+    examples:
+      - text: وَحَشْتَنِي من زمان عنك
+        en: I missed you long time no see
+  - en: monster, beast
+    examples: []
+  - en: bad
+    examples: []
+concept: bad
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88%D8%AD%D8%B4#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

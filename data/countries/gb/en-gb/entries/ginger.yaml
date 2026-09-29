@@ -1,0 +1,30 @@
+word: ginger
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdʒɪndʒə/
+part_of_speech: adj
+meanings:
+  - en: Very careful or cautious; also, delicate, sensitive.
+    examples:
+      - text: He’s going to get an interview about ten o’clock, making the old gentleman
+          predict war, and we’ll get out the gingerest kind of a special on the
+          strength of it!
+      - text: They, the Rabbis, for better or for worse, were very ginger with this
+          question.
+concept: also
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ginger#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,32 @@
+word: तेवर
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - tevar
+pronunciation:
+  ipa: /t̪eː.ʋəɾ/
+part_of_speech: noun
+meanings:
+  - en: expression, look
+    examples: []
+  - en: look of anger
+    examples:
+      - text: तल्ख़ तेवर
+        en: a look of acrimonious anger
+  - en: eyebrow, brow
+    examples: []
+concept: see
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A5%87%E0%A4%B5%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

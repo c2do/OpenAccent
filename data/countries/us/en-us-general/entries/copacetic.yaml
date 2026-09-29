@@ -1,0 +1,29 @@
+word: copacetic
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kəʊ.pəˈsɛt.ɪk/
+part_of_speech: adj
+meanings:
+  - en: Fine, excellent, OK, in excellent order.
+    examples:
+      - text: Extract of lemon and ginger ale / Sweet pertuna with shoe polish, then
+          you're bound for jail / "Copacetic" was the password for one and all /
+          The new Jump Steady ball
+      - text: Molly-squally, Miss Molly / Yeah, everything copacetic, now
+concept: fine
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/copacetic#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

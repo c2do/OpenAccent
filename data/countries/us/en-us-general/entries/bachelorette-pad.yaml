@@ -1,0 +1,27 @@
+word: bachelorette pad
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A nice, well-furnished dwelling where an unmarried woman lives, usually by
+      herself, but sometimes with other women.
+    examples:
+      - text: The summer I answered my first personals, I was a 19-year-old dyke living
+          alone in a three-room bachelorette pad, scant blocks from Main Street,
+          Waltham, Massachusetts.
+concept: beautiful
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bachelorette_pad#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

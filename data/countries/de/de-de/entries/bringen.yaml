@@ -1,0 +1,32 @@
+word: bringen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbrɪŋən/
+part_of_speech: verb
+meanings:
+  - en: to be of use; to be helpful
+    examples:
+      - text: „Lass mich noch mal mit dem Löffel versuchen, diese verflixte Dose
+          aufzukriegen.“―„Ja, das bringt’s ganz bestimmt …“
+        en: “Let me have another go with the spoon to get this darned tin can
+          open.”―“Yeah, that’ll help for sure …”
+  - en: to deliver; to perform well
+    examples:
+      - text: Wenn man seine Leute ordentlich behandelt, dann bringen die auch.
+        en: If you treat your staff decently, then they actually deliver.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bringen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

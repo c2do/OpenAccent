@@ -1,0 +1,28 @@
+word: dreckly
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+part_of_speech: adv
+meanings:
+  - en: directly
+    examples: []
+  - en: Soon; next; when it becomes convenient.
+    examples:
+      - text: '"You know, pretty quick, soon — dreckly!" She said in frustration'
+      - text: I'll be over there dreckly ' '; which could mean in the next hour or two ,
+          or "I'll be down in a bit". It's a real Cornish thing.
+concept: soon
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dreckly#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

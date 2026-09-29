@@ -1,0 +1,32 @@
+word: bonico
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /boˈniko/
+part_of_speech: adj
+meanings:
+  - en: pretty, cute, lovely (often implies a sense of affection or charm beyond
+      just physical beauty)
+    examples:
+      - text: ¡Mira qué niño más bonico!
+        en: Look at that cute little boy!
+  - en: nice, kind (referring to someone's character)
+    examples:
+      - text: Es una persona muy bonica.
+        en: They are a very nice person.
+concept: beautiful
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bonico#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: original
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /oʁiɡiˈnaːl/
+part_of_speech: adv
+meanings:
+  - en: really, actually
+    examples:
+      - text: Wo ist jetzt diese verdammte Schachtel? Hier finde ich original nichts
+          wieder.
+concept: really
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/original#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

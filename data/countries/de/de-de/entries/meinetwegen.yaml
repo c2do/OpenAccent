@@ -1,0 +1,31 @@
+word: meinetwegen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmaɪ̯nətˌveːɡən/
+part_of_speech: adv
+meanings:
+  - en: as far as I'm concerned (I don't mind if); for all I care
+    examples:
+      - text: Meinetwegen können Sie mitkommen.
+        en: As far as I am concerned, you can come with us.
+  - en: say; for example
+    examples:
+      - text: wenn man sehr viel verdient, meinetwegen 400.000 € im Jahr, …
+        en: when you really make a lot, say, €400,000 a year, …
+concept: say
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/meinetwegen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

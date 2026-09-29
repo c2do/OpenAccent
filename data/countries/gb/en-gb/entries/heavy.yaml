@@ -1,0 +1,26 @@
+word: heavy
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhɛv.i/
+part_of_speech: adj
+meanings:
+  - en: Good.
+    examples:
+      - text: This film is heavy.
+concept: good
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/heavy#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

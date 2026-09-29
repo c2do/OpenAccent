@@ -1,0 +1,33 @@
+word: mom
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /mɒm/
+meanings:
+  - en: Mother.
+    examples:
+      - text: "To find out what moms really want this year, we turned to the best source
+          possible: our own mothers."
+      - text: At a very early age, Knowles says she was taught not to draw any attention
+          to herself. “Pretty is as pretty does,” her mom used to say.
+  - en: Mother.; used as a term of address for one's wife
+    examples:
+      - text: (spoken by the father) I don't share it with mom! Right, mom?
+  - en: To care for in a motherly way.
+    examples:
+      - text: He tried to tell me how to live, to mom me, I told him fuck off, […]
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mom#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

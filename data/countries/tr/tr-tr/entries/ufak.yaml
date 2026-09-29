@@ -1,0 +1,31 @@
+word: ufak
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /uˈfak/
+part_of_speech: adj
+meanings:
+  - en: Not large, not having great dimensions; small, little.
+    examples:
+      - text: Bu, benden ufak bir hediye, lütfen kabul edin.
+        en: This is a small gift from me, please accept it!
+  - en: Young, relatively younger.
+    examples: []
+  - en: Insignificant, infinitesimal.
+    examples: []
+concept: small
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ufak#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

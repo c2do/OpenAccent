@@ -1,0 +1,29 @@
+word: verzählen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fərˈtsɛːlən/
+part_of_speech: verb
+meanings:
+  - en: to tell something, to talk (often in a negative context)
+    examples:
+      - text: Ach komm, verzähl mir doch nich’ so’n Unsinn!
+        en: Come on! Don’t tell me such nonsense!
+      - text: Die sind den ganzen Abend von ihren Autos am Verzählen.
+        en: They’re just talking about their cars all night long.
+concept: talk
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/verz%C3%A4hlen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

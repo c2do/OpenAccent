@@ -1,0 +1,31 @@
+word: ज़रूर
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - zarūr
+pronunciation:
+  ipa: /zə.ɾuːɾ/
+meanings:
+  - en: certainly, surely
+    examples:
+      - text: जो कुछ कि जहान में होता है उसे ग़ौर से देखने और उसके सबब को सोचने से
+          ज़ुरूर बड़ा फ़ायदा होता है।
+        en: It is certainly beneficial to closely examine and think about the causes for
+          everything that occurs in the world.
+  - en: definitely; of course!
+    examples: []
+concept: of_course
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9C%E0%A4%BC%E0%A4%B0%E0%A5%82%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

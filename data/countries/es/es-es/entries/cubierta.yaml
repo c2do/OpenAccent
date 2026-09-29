@@ -1,0 +1,24 @@
+word: cubierta
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kuˈbjeɾta/
+part_of_speech: noun
+meanings:
+  - en: tire
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cubierta#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

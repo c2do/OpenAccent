@@ -1,0 +1,28 @@
+word: abliefern
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈapliːfɐn/
+part_of_speech: verb
+meanings:
+  - en: to bring, to hand over, to return someone somewhere (especially into the
+      care or custody of a guardian or authority)
+    examples: []
+  - en: to deliver (a good result, show, etc.), to live up to expectations
+    examples: []
+concept: bring
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/abliefern#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

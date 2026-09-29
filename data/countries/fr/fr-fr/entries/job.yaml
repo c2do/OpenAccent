@@ -1,0 +1,27 @@
+word: job
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dʒɔb/
+part_of_speech: noun
+meanings:
+  - en: job (employment role)
+    examples: []
+  - en: work
+    examples: []
+concept: work
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/job#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

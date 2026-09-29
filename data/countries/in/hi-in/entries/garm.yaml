@@ -1,0 +1,36 @@
+word: गर्म
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - garm
+pronunciation:
+  ipa: /ɡə.ɾəm/
+part_of_speech: adj
+meanings:
+  - en: warm; hot
+    examples:
+      - text: आज बाहर बहुत गर्म है।
+        en: It's very hot outside today.
+  - en: active, live; fresh
+    examples:
+      - text: गर्म ख़बर
+        en: breaking news, fresh news
+      - text: गर्म तार
+        en: live wire
+  - en: angry, furious
+    examples: []
+concept: hot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%97%E0%A4%B0%E0%A5%8D%E0%A4%AE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

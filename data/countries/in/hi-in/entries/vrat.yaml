@@ -1,0 +1,34 @@
+word: व्रत
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - vrat
+pronunciation:
+  ipa: /ʋɾət̪/
+part_of_speech: noun
+meanings:
+  - en: fast
+    examples:
+      - text: व्रत रखना
+        en: to fast
+  - en: vow
+    examples:
+      - text: व्रत लेना
+        en: to take a vow
+      - text: व्रत करना
+        en: to make a vow
+concept: fast
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A5%8D%E0%A4%B0%E0%A4%A4#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

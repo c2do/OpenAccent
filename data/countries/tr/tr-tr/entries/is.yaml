@@ -1,0 +1,31 @@
+word: iş
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /iʃ/
+part_of_speech: noun
+meanings:
+  - en: work, task, deed
+    examples: []
+  - en: work, task, deed; energy expended on moving an object, force times distance
+    examples: []
+  - en: job, employment
+    examples: []
+  - en: matter, affair, business, activity
+    examples: []
+concept: work_verb
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/i%C5%9F#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

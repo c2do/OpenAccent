@@ -1,0 +1,36 @@
+word: साल
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - sāl
+pronunciation:
+  ipa: /sɑːl/
+part_of_speech: noun
+meanings:
+  - en: year
+    examples:
+      - text: मेरा भाई अगले साल भारत लौटेगा।
+        en: My brother will return to India next year.
+      - text: हर साल मुझे एक दस्तावेज़ बरख़ुदारोव से मिलता है।
+        en: Every year I get a document from Barkhudarov.
+  - en: sal tree and its wood (Shorea robusta)
+    examples: []
+  - en: thorn
+    examples: []
+  - en: house
+    examples: []
+concept: house
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%BE%E0%A4%B2#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

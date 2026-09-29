@@ -1,0 +1,26 @@
+word: هذا
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - hāda
+pronunciation:
+  ipa: /haː.da/
+part_of_speech: pron
+meanings:
+  - en: this
+    examples: []
+concept: this
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D8%B0%D8%A7#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

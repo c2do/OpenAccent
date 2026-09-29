@@ -1,0 +1,45 @@
+word: genre
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʒɑ̃ʁ/
+meanings:
+  - en: like, kind of (approximation, softener, filler in informal speech)
+    examples:
+      - text: Y avait genre 200 personnes à la fête.
+        en: There were like 200 people at the party.
+      - text: C’est genre pas si grave.
+        en: It’s kind of not that serious.
+  - en: like (introducing a quotation, reaction, or imitation)
+    examples:
+      - text: "Elle était genre: « Occupe-toi de tes affaires »."
+        en: "She was like: “Mind your own business.”"
+      - text: "J’étais genre: « Quoi ?! »."
+        en: "I was like: “What?!”"
+  - en: for example, such as
+    examples:
+      - text: On va faire des activités, genre ciné, bowling, resto.
+        en: We’ll do activities like movies, bowling, restaurants.
+  - en: expresses disbelief, irony or dismissal; used ironically (≈ yeah right, as
+      if, no way)
+    examples:
+      - text: — Il a tout compris à la réunion. — Genre !
+        en: — He understood everything at the meeting. — Yeah right!
+      - text: Genre, tu le connais vraiment ?
+        en: No way, you actually know him?
+concept: like
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/genre#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: as well
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /æzwɛl/
+part_of_speech: adv
+meanings:
+  - en: An intensifier. Actually; really.
+    examples:
+      - text: ―Would you though? ―I would as well.
+      - text: ―She looks so much like her mum, don't you think? ―Oh my god, she does as
+          well!
+concept: really
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/as_well#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

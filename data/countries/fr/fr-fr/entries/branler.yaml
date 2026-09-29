@@ -1,0 +1,35 @@
+word: branler
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bʁɑ̃.le/
+part_of_speech: verb
+meanings:
+  - en: to do
+    examples:
+      - text: Qu'est-ce que tu branles ?
+        en: What the fuck are you up to?
+  - en: to masturbate (another person)
+    examples:
+      - text: Il m'a branlé, puis j'ai joui.
+        en: He wanked me off, then I came.
+  - en: to masturbate
+    examples:
+      - text: Samedi je vais me branler toute la journée.
+        en: On Saturday I’m gonna jerk it all day.
+concept: do
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/branler#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

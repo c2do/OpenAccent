@@ -1,0 +1,46 @@
+word: savour
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈseɪvə/
+meanings:
+  - en: An aroma or smell.
+    examples:
+      - text: Then Melfoil beat, and Honey-ſuckles pound, / VVith theſe alluring Savours
+          ſtrevv the Ground; […]
+      - text: "[M]ethought I smelled the agreeable savour of roast beef; […]"
+  - en: The quality which the sense of taste detects; also (countable), a specific
+      flavour or taste, especially one different from the predominant one.
+    examples:
+      - text: Cyders differ one from another eſpecially in colour and ſauour or reliſh.
+      - text: A Table richly ſpred, in regal mode, / VVith diſhes pill'd, and meats of
+          nobleſt ſort / And ſavour, […]
+  - en: The quality which the sense of taste detects; also (countable), a specific
+      flavour or taste, especially one different from the predominant one.; An
+      appealing or appetizing flavour, especially one which is savoury or
+      strong.
+    examples:
+      - text: "Ye are the ſalte of the earth: but if the ſalte haue loſt his ſauour,
+          vvherevvith ſhal it be ſalted? It is thenceforthe good for nothing,
+          but to be caſt out, & to be troden vnder fote of men."
+      - text: His houſe is as empty of Religion, as the vvhite of an Egg is of ſavour.
+  - en: A distinctive sensation like a flavour or taste, or an aroma or smell.
+    examples:
+      - text: "[W]hy is not my life a continual Joy? and the ſavor of Heaven perpetually
+          upon my ſpirit?"
+concept: also
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/savour#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

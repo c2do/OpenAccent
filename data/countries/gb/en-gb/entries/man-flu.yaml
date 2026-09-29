@@ -1,0 +1,24 @@
+word: man flu
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A cold, influenza, or similar minor ailment as suffered by a male seen as
+      wildly exaggerating the severity of his symptoms.
+    examples: []
+concept: cold
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/man_flu#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

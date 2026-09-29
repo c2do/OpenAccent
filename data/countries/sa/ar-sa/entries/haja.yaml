@@ -1,0 +1,32 @@
+word: حاجة
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ḥāja
+pronunciation:
+  ipa: /ˈħaː.d͡ʒa/
+part_of_speech: noun
+meanings:
+  - en: a thing
+    examples: []
+  - en: something
+    examples: []
+  - en: need, necessity (act of needing something)
+    examples: []
+  - en: neediness, poverty
+    examples: []
+concept: something
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D8%A7%D8%AC%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

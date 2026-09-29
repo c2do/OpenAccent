@@ -1,0 +1,29 @@
+word: pissed
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pɪst/
+part_of_speech: adj
+meanings:
+  - en: Annoyed, angry.
+    examples:
+      - text: That one looks pissed, Ms. Gennero...
+      - text: Some women were physically incapable, and the guys would say, “See, I told
+          you women can′t hack it.” The more I saw of that, the more pissed I
+          got, and the more determined I got to stick it out.
+concept: angry
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pissed#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

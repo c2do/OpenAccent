@@ -1,0 +1,31 @@
+word: ahbap
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɑh.bɑp/
+part_of_speech: noun
+meanings:
+  - en: friend
+    examples: []
+  - en: buddy, chap, mate
+    examples: []
+  - en: companion
+    examples: []
+  - en: beggar
+    examples: []
+concept: friend
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ahbap#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

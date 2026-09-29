@@ -1,0 +1,33 @@
+word: up
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʌp/
+meanings:
+  - en: Indicating movement in any other direction visualised as “up”.; To
+      university, especially to Cambridge or Oxford.
+    examples:
+      - text: She's going up to read Classics this September.
+      - text: The son of the Dean of Lichfield was only three years older than Steele,
+          who was a lad of only twelve, when at the age of fifteen, Addison went
+          up to Oxford.
+  - en: At university (especially Oxford or Cambridge).
+    examples:
+      - text: When I was up (1965–68) I had a group of idle friends who occupied their
+          time and mine betting on horses, getting drunk and sprawling about
+          telling creepy tales.
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/up#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

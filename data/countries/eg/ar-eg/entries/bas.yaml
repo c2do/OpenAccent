@@ -1,0 +1,30 @@
+word: بس
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - bas
+  - bass
+pronunciation:
+  ipa: /bass/
+meanings:
+  - en: but
+    examples: []
+  - en: only, just
+    examples: []
+  - en: stop!, enough!
+    examples: []
+concept: enough
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%B3#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

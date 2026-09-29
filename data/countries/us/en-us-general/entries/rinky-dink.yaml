@@ -1,0 +1,48 @@
+word: rinky-dink
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɹɪŋ.kɪ.dɪŋk/
+meanings:
+  - en: A person who is contemptible or insignificant.; An amateur or someone who is
+      underqualified.
+    examples:
+      - text: The point is that SCUBA diving is not for "rinky-dinks" ; it is for well
+          trained people only, and then only in the company of other experienced
+          divers.
+      - text: Of course, most of the great players were at war and there was no need to
+          pay the rinky-dinks, who were merely occupying uniforms until the
+          studs got back.
+  - en: A person who is contemptible or insignificant.; Someone who operates
+      unethically; specifically, a small-time conman or crook.
+    examples:
+      - text: The rinky-dink is the 'no problem' merchant who causes no end of trouble
+          for everyone else in the organisation. He will promise anything to
+          land a sale and in the process lands himself in the drink.
+  - en: Something that is not up to acceptable standards; something of low quality.
+    examples:
+      - text: But when we start getting really into the "rinky-dinks" of this thing is
+          when we get over here in the columns.
+      - text: Soon afterward, the federal government, in effect, outlawed the
+          rinky-dinks by adopting minimum-strength standards.
+  - en: A miscellaneous object or thing; a thingy.
+    examples:
+      - text: Marilyn Monroe who was blonde and beautiful and had a sweet little
+          rinky-dink of a voice and all the cleanliness of all the clean
+          American backyards. She was our angel.
+concept: tired
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rinky-dink#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

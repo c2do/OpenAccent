@@ -1,0 +1,40 @@
+word: را
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - rā
+pronunciation:
+  ipa: /raː/
+meanings:
+  - en: to see
+    examples:
+      - text: ما شفت ما ريت
+        en: I didn't see anything.
+  - en: to give
+    examples:
+      - text: آرى لي داك الكتاب
+        en: Give me that book.
+      - text: آراوا دوك الخناشي باش ما ننساهمش غدا ملي نكون ماشي للسوق.
+        en: Give me those bags so I don't forget them tomorrow when I'm going to the
+          market.
+  - en: to be + personal pronoun
+    examples:
+      - text: راها ڭالسة على الطابلة
+        en: She is sitting on the table.
+      - text: راني فالطريق ما نجي لعندك.
+        en: I am on the way to come to visit you.
+concept: see
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B1%D8%A7#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

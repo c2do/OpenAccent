@@ -1,0 +1,28 @@
+word: أنغر
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʔangar
+pronunciation:
+  ipa: /ʔan.ɡar/ [ʔaŋ.ɡaɾ]
+part_of_speech: verb
+meanings:
+  - en: to get mad, angry, pissed off
+    examples:
+      - text: ما كان يحل عني قامت أنغرت معي
+        en: He wouldn't leave me alone so I got angry
+concept: angry
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D9%86%D8%BA%D8%B1#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

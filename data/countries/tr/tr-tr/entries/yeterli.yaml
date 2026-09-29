@@ -1,0 +1,27 @@
+word: yeterli
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: adequate
+    examples: []
+  - en: proficient
+    examples: []
+  - en: enough, sufficient
+    examples: []
+concept: enough
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/yeterli#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

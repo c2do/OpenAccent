@@ -1,0 +1,33 @@
+word: drawing room
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: Any room where visitors may be entertained; now, the living room.
+    examples:
+      - text: It was a joy to snatch some brief respite, and find himself in the rectory
+          drawing–room.
+  - en: A multifunctional room that can be used for any purpose in a palace or
+      castle.
+    examples: []
+  - en: A levée where ladies are presented at court or to society.
+    examples:
+      - text: ‘Mrs Vane of Castle Marling is staying with us; she came up to present my
+          child at the last Drawing-room but I think I heard something about her
+          dining out to-day.’
+concept: now
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/drawing_room#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

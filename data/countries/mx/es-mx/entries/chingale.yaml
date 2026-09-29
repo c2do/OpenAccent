@@ -1,0 +1,25 @@
+word: chíngale
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈt͡ʃinɡale/
+part_of_speech: intj
+meanings:
+  - en: get a move on, hurry up
+    examples: []
+concept: hurry_up
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ch%C3%ADngale#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

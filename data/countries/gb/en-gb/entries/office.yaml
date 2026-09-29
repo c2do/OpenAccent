@@ -1,0 +1,32 @@
+word: office
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɒf.ɪs/
+part_of_speech: noun
+meanings:
+  - en: The administrative departments housed in such places; A ministry or other
+      department of government.
+    examples:
+      - text: The secretary of state's British colleague heads the Foreign and
+          Commonwealth Office.
+  - en: A plane's cockpit, particularly an observer's cockpit.
+    examples:
+      - text: I withdraw into ‘the office’, otherwise the observer's cockpit.
+      - text: In the slang of the Royal Air Force man, the cockpit of his plane is the
+          ‘pulpit’ or ‘office’, the glass covering over it the ‘greenhouse’.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/office#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

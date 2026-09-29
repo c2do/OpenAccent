@@ -1,0 +1,27 @@
+word: osteopathic medicine
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A form of scientific medicine whose present-day form scientifically and
+      legally overlaps with non-osteopathic medical science and practice. It
+      developed from origins in osteopathy but diverged therefrom during the
+      20th century; today, an MD degree and a DO degree have professional
+      parity.
+    examples: []
+concept: today
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/osteopathic_medicine#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

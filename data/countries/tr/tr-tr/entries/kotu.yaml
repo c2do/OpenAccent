@@ -1,0 +1,28 @@
+word: kötü
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /cøˈty/
+meanings:
+  - en: bad
+    examples: []
+  - en: bad, evil
+    examples: []
+  - en: villain, knave, rogue
+    examples: []
+concept: bad
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/k%C3%B6t%C3%BC#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

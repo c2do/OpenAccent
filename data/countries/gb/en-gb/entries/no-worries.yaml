@@ -1,0 +1,35 @@
+word: no worries
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: intj
+meanings:
+  - en: A general reassurance not to be concerned further with a subject.; Be
+      reassured that it does not bother me; I am not concerned.
+    examples:
+      - text: Sorry if my music's bothering you. — No worries. I really like classical.
+  - en: A general reassurance not to be concerned further with a subject.; It was no
+      problem; not at all; you're welcome (particularly, though not strictly,
+      when the favour being acknowledged was requested or in response to a
+      difficulty, rather than spontaneous).
+    examples:
+      - text: Thanks so much for the lift. — No worries, I had to go that way anyway.
+  - en: A general reassurance not to be concerned further with a subject.; Do not
+      worry, I will do it.
+    examples:
+      - text: I need this done by closing time. — No worries, I'll have it sorted.
+concept: youre_welcome
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/no_worries#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

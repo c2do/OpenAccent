@@ -1,0 +1,32 @@
+word: خد
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ḵad
+  - ḵadd
+pronunciation:
+  ipa: "[xæd]"
+meanings:
+  - en: to take
+    examples: []
+  - en: to learn (in school)
+    examples: []
+  - en: to be sexually penetrated
+    examples: []
+  - en: to be fucked over
+    examples: []
+concept: take
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AE%D8%AF#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

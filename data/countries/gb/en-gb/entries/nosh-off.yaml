@@ -1,0 +1,25 @@
+word: nosh off
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: To eat (something).
+    examples: []
+  - en: To give oral sex to (usually a male recipient).
+    examples: []
+concept: eat
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nosh_off#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,31 @@
+word: पावन
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - pāvan
+pronunciation:
+  ipa: /pɑː.ʋən/
+meanings:
+  - en: purifying; pure, holy
+    examples:
+      - text: पावन पर्व
+        en: holy festival
+  - en: fire
+    examples: []
+  - en: water
+    examples: []
+concept: water
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%BE%E0%A4%B5%E0%A4%A8#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

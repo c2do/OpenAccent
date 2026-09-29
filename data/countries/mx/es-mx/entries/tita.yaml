@@ -1,0 +1,25 @@
+word: tita
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtita/
+part_of_speech: noun
+meanings:
+  - en: grandma
+    examples: []
+concept: grandma
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tita#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

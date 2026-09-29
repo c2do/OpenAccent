@@ -1,0 +1,27 @@
+word: oseille
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /o.zɛj/
+part_of_speech: noun
+meanings:
+  - en: dough, dosh, bread (money)
+    examples:
+      - text: Tellement d'efforts et pour quels résultats ? / Elle perd de l'oseille au
+          lieu de perdre du poids
+concept: bread
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/oseille#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

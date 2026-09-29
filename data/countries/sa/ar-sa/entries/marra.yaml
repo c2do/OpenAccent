@@ -1,0 +1,31 @@
+word: مرة
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - marra
+pronunciation:
+  ipa: /marra/
+meanings:
+  - en: very, so
+    examples:
+      - text: المُدَرِّب مَرَّة شديد
+        en: the coach is very strict
+  - en: time, instance
+    examples: []
+  - en: once
+    examples: []
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%B1%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

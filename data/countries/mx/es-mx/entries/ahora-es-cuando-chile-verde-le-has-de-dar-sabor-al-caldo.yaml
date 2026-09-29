@@ -1,0 +1,25 @@
+word: ahora es cuando, chile verde, le has de dar sabor al caldo
+dialect: es-mx
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /aˌoɾa ˌes ˌkwando | ˌt͡ʃile ˌbeɾde | le ˌas de ˌdaɾ saˌboɾ al ˈkaldo/
+part_of_speech: proverb
+meanings:
+  - en: the floor is now yours; it's your turn to act/speak/shine
+    examples: []
+concept: talk
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ahora_es_cuando%2C_chile_verde%2C_le_has_de_dar_sabor_al_caldo#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

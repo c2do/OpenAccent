@@ -1,0 +1,32 @@
+word: قرعة
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ṭags
+  - garʕa
+pronunciation:
+  ipa: /ɡur.ʕa/
+meanings:
+  - en: lot
+    examples: []
+  - en: draw
+    examples: []
+  - en: pumpkin, gourd
+    examples: []
+  - en: bald
+    examples: []
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%B1%D8%B9%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

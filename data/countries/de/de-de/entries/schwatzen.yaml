@@ -1,0 +1,27 @@
+word: schwätzen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃvɛtsən/
+part_of_speech: verb
+meanings:
+  - en: to speak, talk
+    examples:
+      - text: Ich muss mal mit ihm drüber schwätzen.
+        en: I’ll have to talk to him about it sometime.
+concept: talk
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/schw%C3%A4tzen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

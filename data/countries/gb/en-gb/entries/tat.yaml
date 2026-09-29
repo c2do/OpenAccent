@@ -1,0 +1,28 @@
+word: tat
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tæt/
+part_of_speech: noun
+meanings:
+  - en: Cheap and vulgar tastelessness; sleaze.
+    examples: []
+  - en: Cheap, tasteless, useless goods; trinkets.
+    examples:
+      - text: tourist tat
+concept: cheap
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tat#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

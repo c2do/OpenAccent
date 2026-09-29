@@ -1,0 +1,38 @@
+word: ادى
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - edda
+pronunciation:
+  ipa: /ɪd.da/
+part_of_speech: verb
+meanings:
+  - en: to take
+    examples:
+      - text: دّي معاك جوج تفاحات باش تاكلهم ف الطريق.
+        en: Take two apples with you to eat on the way.
+      - text: راه خوك دّا الطبلة لعند النجار باش تّصلح.
+        en: Your brother took the table to the carpenter to get it repaired.
+  - en: mind, pay attention
+    examples:
+      - text: دّيها ف قرايتك، و خلّي عليك الأفلام والألعاب.
+        en: Pay attention to your studies, and stay away from movies and games.
+  - en: get worked up over someone's speech or deed (mostly in the negative form)
+    examples:
+      - text: ماتدّيش عليه، راه باقي صغير ومافاهمش الحياة.
+        en: Don't get upset over it, he's still young and doesn't understand life.
+concept: take
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D8%AF%D9%89#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

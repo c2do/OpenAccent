@@ -1,0 +1,34 @@
+word: gibi
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡiˈbi/
+part_of_speech: postp
+meanings:
+  - en: like, similar to
+    examples:
+      - text: Duru bir su gibi, bazen volkan gibi / Bazen bir deli rüzgâr gibi /
+          Gözlerinde telaş, yıllar sence yavaş / Acelen ne? Bekle, Firuze
+        en: Like clear water, sometimes like a volcano / Sometimes like a crazy wind /
+          There’s worry in your eyes, you think the years are slow / What’s the
+          hurry? Wait, Firuze
+      - text: Çok uğraştım inan unutmak için seni / O gün sarıldığımızda söz verdiğim
+          gibi
+        en: Believe me, I tried hard to forget you / Like I promised when we hugged that
+          day
+concept: like
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gibi#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

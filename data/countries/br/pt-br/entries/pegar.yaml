@@ -1,0 +1,36 @@
+word: pegar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /peˈɡa(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to catch; to discover someone doing something
+    examples: []
+  - en: to engage in a romantic and/or sexual relationship with someone for one
+      night or some short period of time
+    examples: []
+  - en: to fight, to beat up, to engage in a physical conflict
+    examples:
+      - text: Eu vou te pegar na porrada!
+        en: I'm going to beat you up!
+  - en: to catch, to take (a transport)
+    examples:
+      - text: Vamos pegar um ônibus.
+        en: Let's take a bus.
+concept: take
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pegar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

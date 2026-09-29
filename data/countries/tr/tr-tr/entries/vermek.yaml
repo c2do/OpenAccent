@@ -1,0 +1,35 @@
+word: vermek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /veɾˈmek/
+part_of_speech: verb
+meanings:
+  - en: to give
+    examples:
+      - text: Bu çocuk bana biraz para verdi.
+        en: This kid gave me some money.
+  - en: to consent for sex, to put out
+    examples:
+      - text: Barış'a verdin mi?
+        en: Did you put out for Barış? (lit. Did you give [it] to Barış?)
+  - en: to give out, to donate
+    examples: []
+  - en: to attribute
+    examples: []
+concept: give
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/vermek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

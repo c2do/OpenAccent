@@ -1,0 +1,31 @@
+word: almak
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /aɫˈmak/
+part_of_speech: verb
+meanings:
+  - en: to take
+    examples: []
+  - en: to buy
+    examples: []
+  - en: to get, to obtain, to receive
+    examples: []
+  - en: to receive (a radio signal)
+    examples: []
+concept: take
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/almak#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

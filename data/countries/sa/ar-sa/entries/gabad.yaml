@@ -1,0 +1,33 @@
+word: قبض
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - gabaḍ
+  - gabbaḍ
+  - gabḍ
+pronunciation:
+  ipa: /ɡa.badˤ/
+meanings:
+  - en: to arrest
+    examples: []
+  - en: to seize, to take, to grab
+    examples: []
+  - en: to take hold of, to take possession of
+    examples: []
+  - en: to hold
+    examples: []
+concept: take
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%A8%D8%B6#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

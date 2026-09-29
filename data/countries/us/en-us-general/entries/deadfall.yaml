@@ -1,0 +1,44 @@
+word: deadfall
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdɛdfɔːl/
+part_of_speech: noun
+meanings:
+  - en: Coarse woody debris; deadwood.
+    examples:
+      - text: Heaver forest growth on the north-facing slopes, together with
+          considerable deadfall and soil cover, makes geologic interpretation
+          there difficult.
+  - en: Coarse woody debris; deadwood.; A fallen tree.
+    examples:
+      - text: We should go up to the forest and see if we can find more dry deadfalls.
+          That green wood you were trying to burn last night was all smoke and
+          no heat.
+  - en: A kind of trap for animals, consisting of a heavy board or log that falls on
+      to the prey.
+    examples:
+      - text: Marten, wolverine, lynx, ermine, fox, mink, beaver, and land otter were
+          plentiful in the general vicinity of Kijik and traps and deadfalls
+          were set for them.
+  - en: A cheap, rough bar or saloon.
+    examples:
+      - text: They had lived down in horse barns, army “A” tents with the old
+          blood-stains onto them, city hotels with canopy beds, woke up in back
+          rooms of deadfalls where the bars had toothmarks end to end.
+concept: cheap
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/deadfall#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

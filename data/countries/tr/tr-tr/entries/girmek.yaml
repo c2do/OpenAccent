@@ -1,0 +1,37 @@
+word: girmek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɟiɾˈmec/
+part_of_speech: verb
+meanings:
+  - en: to enter, to go in
+    examples:
+      - text: Odaya hızla girdim.
+        en: I entered the room quickly.
+      - text: Mermi küçük deliğe kolayca girdi.
+        en: The bullet went in the tiny hole easily.
+  - en: to go in for, to take
+    examples:
+      - text: sınava girmek
+        en: to take an exam
+  - en: (a season, time &c.) to arrive
+    examples:
+      - text: Akşam namazı vakti girdi.
+        en: It is the time for the evening prayer.
+concept: take
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/girmek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

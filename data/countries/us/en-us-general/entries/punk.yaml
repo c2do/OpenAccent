@@ -1,0 +1,39 @@
+word: punk
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpʌŋk/
+meanings:
+  - en: One who engages in sexual intercourse; A passive or effeminate homosexual
+      man.
+    examples: []
+  - en: One who engages in sexual intercourse; A boy who accompanies a hobo,
+      especially as used for sex.
+    examples:
+      - text: They'd pick up youngsters as, well—as their playthings. These kids were
+          called punks.
+  - en: One who engages in sexual intercourse; A male homosexual.
+    examples: []
+  - en: One who engages in sexual intercourse; A man forced or coerced into a
+      homosexual relationship, especially in prison.
+    examples:
+      - text: A punk, if you want it in plain English, is a boy with smooth skin who
+          takes the place of a woman in a jailbird's love life.
+      - text: If he is small and weak, he may decide to become a ‘punk’ and allow
+          himself to be raped by the inmate most likely to protect him.
+concept: bad
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/punk#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

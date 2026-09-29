@@ -1,0 +1,30 @@
+word: spenny
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈspɛni/
+part_of_speech: adj
+meanings:
+  - en: Expensive.
+    examples:
+      - text: "\"Rather a spenny little bundle, I'm afraid,\" he thought, \"but strictly
+          expense account stuff. […]\""
+      - text: My mate Nick's got a Wild Country Voyager that was pretty spenny and
+          obviously high performance but small (having said that he only paid 80
+          quid for it from outside cos it'd been a demo at a show).
+concept: expensive
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/spenny#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

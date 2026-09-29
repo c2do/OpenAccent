@@ -1,0 +1,25 @@
+word: know from a bar of soap
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: To know; to be acquainted with (a person).
+    examples:
+      - text: After she won the lottery, Marge had long-lost relatives she didn't know
+          from a bar of soap come up to her to ask for money.
+concept: know
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/know_from_a_bar_of_soap#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

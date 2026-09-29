@@ -1,0 +1,24 @@
+word: crack onto
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: To flirt with; to approach and speak to (someone), seeking romance, love,
+      sex, etc.
+    examples: []
+concept: like
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/crack_onto#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

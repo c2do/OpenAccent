@@ -1,0 +1,38 @@
+word: उठना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - uṭhnā
+pronunciation:
+  ipa: /ʊʈʰ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to rise, to rise up
+    examples:
+      - text: वह अपनी कुर्सी से बिल्कुल उठता नहीं है।
+        en: He never gets up from his chair.
+  - en: to rise, to rise up; to stand up, to get up
+    examples: []
+  - en: to ascend, to mount
+    examples:
+      - text: गरुड़ आकाश में ऊँचा उठा।
+        en: The eagle soared high in the sky.
+      - text: भारी बारिश के कारण नदी का जलस्तर उठ गया है।
+        en: The river's water level has risen due to heavy rains.
+  - en: to ascend, to mount; to soar
+    examples: []
+concept: leave
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%89%E0%A4%A0%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

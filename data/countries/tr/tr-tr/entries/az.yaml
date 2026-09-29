@@ -1,0 +1,26 @@
+word: az
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈaz/
+meanings:
+  - en: few, little
+    examples: []
+  - en: a bit, a little
+    examples: []
+concept: a_little
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/az#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

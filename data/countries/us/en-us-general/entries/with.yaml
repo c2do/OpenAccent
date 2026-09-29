@@ -1,0 +1,25 @@
+word: with
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /wɪð/
+part_of_speech: adv
+meanings:
+  - en: Along, together with others, in a group, etc.
+    examples:
+      - text: Do you want to come with?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/with#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

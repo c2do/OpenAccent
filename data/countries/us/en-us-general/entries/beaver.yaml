@@ -1,0 +1,37 @@
+word: beaver
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbiːvə/
+part_of_speech: noun
+meanings:
+  - en: Beaver pelts as an article of exchange or as a standard of value.
+    examples: []
+  - en: The pubic hair near a vulva or a vulva itself; (attributively) denoting
+      films or literature featuring nude women.
+    examples:
+      - text: Finally it came on. It was a beauty, a beaver flick made in the late
+          1970s. It was called Big Black Leather Splits.
+      - text: Between you and me, uh, she might have been fifteen, but when you get that
+          little red beaver right up there in front of you, I don’t think it's
+          crazy at all and I don’t think you do either.
+  - en: A woman, especially one who is sexually attractive.
+    examples:
+      - text: “10-4, Beaver [CB talk for a female], we’re all going down to Plains
+          tomorrow after Jimmy Carter wins.”
+concept: woman
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/beaver#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

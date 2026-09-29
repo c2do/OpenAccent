@@ -1,0 +1,25 @@
+word: ese
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɛˌseɪ/
+part_of_speech: noun
+meanings:
+  - en: dude, man. (Usually used vocatively).
+    examples: []
+concept: buddy
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ese#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

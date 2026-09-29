@@ -1,0 +1,33 @@
+word: biscuit
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɪs.kɪt/
+part_of_speech: noun
+meanings:
+  - en: A small, usually soft and flaky bread, generally made with baking soda,
+      which is similar in texture to a scone but which is usually not sweet.
+    examples: []
+  - en: A plastic card bearing the codes for authorizing a nuclear attack.
+    examples: []
+  - en: A handgun, especially a revolver.
+    examples:
+      - text: I shoot my biscuit in the air until the sky is gone
+  - en: A young woman.
+    examples: []
+concept: small
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/biscuit#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

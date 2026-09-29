@@ -1,0 +1,35 @@
+word: yürümek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /jy.ɾyˈmec/
+part_of_speech: verb
+meanings:
+  - en: to walk
+    examples:
+      - text: Yağmurda yalnız yürümeyi severim.
+        en: I like walking alone under the rain.
+  - en: to march, move forward, go forward, go on, advance
+    examples: []
+  - en: to move towards a certain direction
+    examples:
+      - text: asteroit Dünyaya doğru yürüyor
+        en: the asteroid is moving towards the Earth
+  - en: to make haste, hurry, go quickly
+    examples: []
+concept: work_verb
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/y%C3%BCr%C3%BCmek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

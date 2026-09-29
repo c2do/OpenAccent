@@ -1,0 +1,25 @@
+word: centre of mass
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A point, near, or within a body at which the object's mass can be assumed to
+      be concentrated; it coincides with the centroid for a body of uniform
+      density, and with the centre of gravity in a uniform gravitational field.
+    examples: []
+concept: near
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/centre_of_mass#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

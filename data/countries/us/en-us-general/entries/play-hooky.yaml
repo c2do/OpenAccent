@@ -1,0 +1,28 @@
+word: play hooky
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: "To play truant; to avoid (informally: skip) school, work, or other duties
+      (stay away from these without permission nor an excuse); to skive or to
+      bunk off (UK);"
+    examples:
+      - text: Plenty of people played hooky from work to go see the movie on opening
+          day.
+      - text: Next time you play hooky, you might want to take off your school uniform.
+concept: work_verb
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/play_hooky#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

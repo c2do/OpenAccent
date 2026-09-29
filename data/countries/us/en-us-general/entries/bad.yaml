@@ -1,0 +1,25 @@
+word: bad
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bæd/
+part_of_speech: adj
+meanings:
+  - en: Overly promiscuous, licentious.
+    examples:
+      - text: You leave your girl around me; if she's bad she's gonna get stuck.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bad#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

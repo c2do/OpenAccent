@@ -1,0 +1,28 @@
+word: tabii
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /taˈbiː/
+meanings:
+  - en: natural, usual, ordinary
+    examples: []
+  - en: of course
+    examples: []
+  - en: naturally
+    examples: []
+concept: of_course
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tabii#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

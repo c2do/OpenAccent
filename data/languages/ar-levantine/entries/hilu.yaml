@@ -1,0 +1,30 @@
+word: حلو
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ḥilu
+pronunciation:
+  ipa: /ħi.lu/
+part_of_speech: adj
+meanings:
+  - en: sweet
+    examples: []
+  - en: nice, pleasant
+    examples: []
+  - en: beautiful, pretty, handsome
+    examples: []
+concept: beautiful
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D9%84%D9%88#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

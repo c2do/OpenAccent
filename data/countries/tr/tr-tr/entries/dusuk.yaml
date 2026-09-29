@@ -1,0 +1,30 @@
+word: düşük
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dyˈʃyc/
+meanings:
+  - en: Low in height, drooping, fallen.
+    examples: []
+  - en: Low in amount, little, small, nominal.
+    examples: []
+  - en: Fallen or overthrown from power; deposed, toppled.
+    examples: []
+  - en: Not complying with grammar rules.
+    examples: []
+concept: a_little
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/d%C3%BC%C5%9F%C3%BCk#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

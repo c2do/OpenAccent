@@ -1,0 +1,36 @@
+word: कटना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kaṭnā
+pronunciation:
+  ipa: /kəʈ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to be cut; to be bitten
+    examples: []
+  - en: to be written out (of a check)
+    examples:
+      - text: चेक तुम्हारे नाम पे नहीं कटा था।
+        en: The check was not written out in your name.
+  - en: to be cut down in battle, killed
+    examples: []
+  - en: to be struck off (e.g. a list); to disappear, be removed
+    examples:
+      - text: वह क्लास लिस्ट से कट गया।
+        en: He was struck out from the class list.
+concept: leave
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%9F%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

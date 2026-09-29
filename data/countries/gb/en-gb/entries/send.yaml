@@ -1,0 +1,30 @@
+word: send
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sɛnd/
+meanings:
+  - en: To call out or diss a specific person in a diss track.
+    examples:
+      - text: But if you want beef, it's war. I'll rip you to shreds and send once
+          more[…]And you think you can send for Aspin? Sort it, stop gassing.
+  - en: A callout or diss usually aimed at a specific person, often in the form of a
+      diss track.
+    examples:
+      - text: Why you're another bird that's fat again. No competition that's, that's
+          the send.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/send#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

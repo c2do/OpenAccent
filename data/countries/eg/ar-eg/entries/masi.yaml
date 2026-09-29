@@ -1,0 +1,26 @@
+word: ماشي
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - māši
+pronunciation:
+  ipa: /maː.ʃi/
+part_of_speech: intj
+meanings:
+  - en: going well; fine, OK
+    examples: []
+concept: fine
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%A7%D8%B4%D9%8A#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

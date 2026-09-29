@@ -1,0 +1,30 @@
+word: कम
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kam
+pronunciation:
+  ipa: /kəm/
+part_of_speech: adj
+meanings:
+  - en: less (in lower degree; to smaller extent)
+    examples:
+      - text: आज बहुत कम बरसात हुई है।
+        en: Today is has rained less.
+  - en: little (not much)
+    examples: []
+concept: a_little
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%AE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: tía
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtia/
+part_of_speech: noun
+meanings:
+  - en: girl, woman, chick
+    examples:
+      - text: tías buenas
+        en: hot chicks
+concept: woman
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/t%C3%ADa#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

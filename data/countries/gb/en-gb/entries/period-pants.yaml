@@ -1,0 +1,24 @@
+word: period pants
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: Underwear worn by a woman or girl during menstruation, typically old, cheap,
+      or of a dark colour in case of staining.
+    examples: []
+concept: cheap
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/period_pants#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

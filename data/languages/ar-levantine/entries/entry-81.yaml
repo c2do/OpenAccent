@@ -1,0 +1,27 @@
+word: وقت اللي
+dialect: ar-levantine
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /waʔt lli/ [ˈwæʔ‿tə̯lli]
+part_of_speech: conj
+meanings:
+  - en: when
+    examples: []
+  - en: whenever
+    examples: []
+concept: when
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88%D9%82%D8%AA_%D8%A7%D9%84%D9%84%D9%8A#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

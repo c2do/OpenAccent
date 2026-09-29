@@ -1,0 +1,23 @@
+word: أب
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʔabb
+part_of_speech: noun
+meanings:
+  - en: father
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D8%A8#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

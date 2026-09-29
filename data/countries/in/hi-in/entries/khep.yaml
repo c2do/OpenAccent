@@ -1,0 +1,32 @@
+word: खेप
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - khep
+pronunciation:
+  ipa: /kʰeːp/
+part_of_speech: noun
+meanings:
+  - en: consignment, shipment, cargo, lot, load
+    examples:
+      - text: औद्योगिक निर्माण इकाई से नूतन उत्पादों की प्रथम खेप मुख्य विपणन केंद्र
+          भेजी गई।
+        en: The first consignment of new products from the industrial manufacturing unit
+          was sent to the main marketing center.
+  - en: haul, catch
+    examples: []
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%96%E0%A5%87%E0%A4%AA#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

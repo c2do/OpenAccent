@@ -1,0 +1,30 @@
+word: drive
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dɹaɪv/
+part_of_speech: noun
+meanings:
+  - en: Friendly term of address for a bus driver.
+    examples:
+      - text: |-
+          Yeah, thanks, drive!
+          You boyz all goin' shoppin'?
+          We are, drive, says Chip.
+      - text: The coaches dropped us where we had begun, outside the chapel; each child
+          in turn piping up, 'Thank you, drive!' as we disembarked.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/drive#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

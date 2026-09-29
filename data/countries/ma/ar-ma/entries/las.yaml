@@ -1,0 +1,28 @@
+word: علاش
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ʕlāš
+pronunciation:
+  ipa: /ʕlaːʃ/
+part_of_speech: adv
+meanings:
+  - en: why?
+    examples: []
+  - en: about what?
+    examples: []
+concept: why
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%84%D8%A7%D8%B4#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

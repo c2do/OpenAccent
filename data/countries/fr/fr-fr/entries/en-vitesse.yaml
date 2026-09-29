@@ -1,0 +1,25 @@
+word: en vitesse
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɑ̃ vi.tɛs/
+part_of_speech: adv
+meanings:
+  - en: quickly, rapidly, fast
+    examples: []
+concept: fast
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/en_vitesse#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

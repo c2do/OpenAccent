@@ -1,0 +1,25 @@
+word: jarto
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈxaɾto/
+part_of_speech: adv
+meanings:
+  - en: a lot
+    examples: []
+concept: a_lot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jarto#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

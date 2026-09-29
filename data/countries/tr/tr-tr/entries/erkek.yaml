@@ -1,0 +1,30 @@
+word: erkek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /æɾˈcec/
+meanings:
+  - en: male
+    examples: []
+  - en: manly
+    examples: []
+  - en: man of his word, trustable
+    examples: []
+  - en: man
+    examples: []
+concept: man
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/erkek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

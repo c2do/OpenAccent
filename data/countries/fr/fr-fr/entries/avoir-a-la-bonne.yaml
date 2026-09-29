@@ -1,0 +1,28 @@
+word: avoir à la bonne
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a.vwa.ʁ‿a la bɔn/
+part_of_speech: verb
+meanings:
+  - en: to be well-disposed towards, to look kindly on, to have a soft spot for, to
+      like
+    examples:
+      - text: Ma prof m’a à la bonne.
+        en: I’m in my teacher’s good books.
+concept: like
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/avoir_%C3%A0_la_bonne#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

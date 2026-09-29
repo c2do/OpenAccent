@@ -1,0 +1,27 @@
+word: مشى
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - maša
+  - miši
+part_of_speech: verb
+meanings:
+  - en: to walk
+    examples: []
+  - en: to leave
+    examples: []
+concept: leave
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%B4%D9%89#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

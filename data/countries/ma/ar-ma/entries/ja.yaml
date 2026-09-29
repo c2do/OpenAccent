@@ -1,0 +1,38 @@
+word: جا
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - jā
+pronunciation:
+  ipa: /ʒaː/
+part_of_speech: verb
+meanings:
+  - en: to come
+    examples:
+      - text: جيتي انت وياه لعندنا.
+        en: You and he came to us.
+  - en: to suit (to be suitable or apt for one's image)
+    examples:
+      - text: جا معاك هاد السروال.
+        en: Those pants suit you.
+  - en: to arrive
+    examples: []
+  - en: to be located
+    examples:
+      - text: فين جات مصر؟
+        en: Where is Egypt located?
+concept: come
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AC%D8%A7#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

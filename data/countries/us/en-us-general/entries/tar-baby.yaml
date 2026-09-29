@@ -1,0 +1,28 @@
+word: tar baby
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A difficult, abstract problem that worsens as one attempts to handle it; a
+      sticky situation, especially one where attempts to make it better only
+      make it worse.
+    examples:
+      - text: If Dees had indicated any willingness to personally pursue the case, Ed
+          would've immediately had him appointed as a special prosecutor and
+          turned this tar baby of a case over to him on the spot.
+concept: hard
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tar_baby#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

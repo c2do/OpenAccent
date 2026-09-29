@@ -1,0 +1,30 @@
+word: refait
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʁə.fɛ/
+part_of_speech: adj
+meanings:
+  - en: chuffed, happy
+    examples:
+      - text: Je suis refait !
+  - en: who has had plastic surgery, who has had work done
+    examples:
+      - text: Elle est refaite de partout.
+        en: She's had work done everywhere.
+concept: happy
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/refait#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: crummy
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkɹʌmi/
+part_of_speech: noun
+meanings:
+  - en: A small van, bus, or railway car used to transport loggers or other resource
+      workers to and from the worksite.
+    examples: []
+concept: bus
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/crummy#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,42 @@
+word: ass
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /æs/
+meanings:
+  - en: The buttocks.
+    examples: []
+  - en: The anus.
+    examples:
+      - text: "Train compartment: two sick young junkies on their way to Lexington tear
+          their pants down in convulsions of lust. One of them soaps his cock
+          and works it up the other's ass with a corkscrew motion."
+      - text: That does it! Now listen! Why is it that everything today has involved
+          things either going in or coming out of my ass? I’m sick of it! It’s
+          completely immature!
+  - en: Sex; a person to have sex with; with vulgar emphasis on their corporeality
+      (their body) over their personhood.
+    examples:
+      - text: I'm going to go down to the bar and try to get me some ass.
+      - text: piece of ass
+  - en: A person; the self; (reflexively) oneself or one's person, chiefly their
+      body.
+    examples:
+      - text: Get your lazy ass out of bed!
+      - text: We risk our asses out there every day.
+concept: bad
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ass#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

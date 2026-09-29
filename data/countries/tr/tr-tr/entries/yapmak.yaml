@@ -1,0 +1,38 @@
+word: yapmak
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /japˈmak/
+part_of_speech: verb
+meanings:
+  - en: to make; to build, construct, fashion; to create; to manufacture; to
+      produce; to prepare
+    examples:
+      - text: Sana kek yaptım.
+        en: I made you a cake.
+  - en: to do; to busy oneself with, act, behave
+    examples:
+      - text: Ödevini yaptın mı?
+        en: Did you do your homework?
+  - en: to repair, fix
+    examples:
+      - text: Babam bozuk lambayı yaptı.
+        en: My father fixed the defective lamp.
+  - en: to defecate
+    examples: []
+concept: do
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/yapmak#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: bulhufas
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /buˈʎu.fɐs/
+part_of_speech: pron
+meanings:
+  - en: absolutely nothing, nothing, nothing at all (which doesn't exist and has no
+      importance)
+    examples:
+      - text: Não entendo bulhufas do que ele diz.
+        en: I understand nothing of what he says.
+concept: nothing
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bulhufas#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

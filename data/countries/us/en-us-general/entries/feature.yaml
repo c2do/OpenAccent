@@ -1,0 +1,28 @@
+word: feature
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfiː.t͡ʃəː/
+part_of_speech: verb
+meanings:
+  - en: To think about, understand, or imagine.
+    examples:
+      - text: She could feature Charles doing it, but Jerome was the perfect model of an
+          altar boy, who made you wonder after all if there was such a bugaboo
+          as original sin.
+concept: understand
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/feature#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

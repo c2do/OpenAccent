@@ -1,0 +1,26 @@
+word: durch
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dʊʁç/
+part_of_speech: adv
+meanings:
+  - en: past
+    examples:
+      - text: Es ist acht Uhr durch.
+        en: It is past eight o’clock.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/durch#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

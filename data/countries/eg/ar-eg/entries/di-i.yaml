@@ -1,0 +1,32 @@
+word: دقيق
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - diʔīʔ
+  - digīg
+  - dagīg
+  - daqīq
+pronunciation:
+  ipa: /di.ʔiːʔ/
+meanings:
+  - en: flour
+    examples: []
+  - en: precise, accurate, exact.
+    examples: []
+  - en: little, small, tiny, minute.
+    examples: []
+concept: a_little
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AF%D9%82%D9%8A%D9%82#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

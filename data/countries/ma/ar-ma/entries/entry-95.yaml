@@ -1,0 +1,24 @@
+word: حتى حاجة
+dialect: ar-ma
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ħat.ta ħaː.ʒa/
+meanings:
+  - en: nothing
+    examples: []
+concept: nothing
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D8%AA%D9%89_%D8%AD%D8%A7%D8%AC%D8%A9#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

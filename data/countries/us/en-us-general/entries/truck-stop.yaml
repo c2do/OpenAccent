@@ -1,0 +1,30 @@
+word: truck stop
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A roadside service area, usually consisting of a restaurant and service
+      station and sometimes a motel or hotel, where drivers of long-haul trucks
+      can stop to refuel, eat, and rest.
+    examples:
+      - text: Any teamster pulling into a truck stop today will almost surely be vastly
+          outnumbered by nonunion drivers.
+      - text: Nestled in the rolling hills of Lancaster County, the town of Gap is a
+          sprawling collection of clapboard houses, strip malls and a truck stop
+          named Touch O' Home.
+concept: eat
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/truck_stop#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,36 @@
+word: pinche
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpint͡ʃe/
+meanings:
+  - en: fucking, goddamned
+    examples:
+      - text: Este pinche novato no sabe jugar
+        en: This fucking newbie doesn't know how to play
+      - text: Y luego, cuando estos hijos que tanto querías vienen a este pinche mundo,
+          te comienzas a quejar de cómo son, los tratas mal, los adiestras como
+          animales de circo[…]
+        en: And then, when those children that you wanted so much come to this fucking
+          world, you start complaining about how they are, you treat them wrong,
+          you train them like circus animals […]
+  - en: stingy, cheap
+    examples: []
+  - en: a kitchen servant
+    examples: []
+concept: cheap
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pinche#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

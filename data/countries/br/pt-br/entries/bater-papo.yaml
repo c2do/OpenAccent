@@ -1,0 +1,23 @@
+word: bater papo
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: to chat; to talk; to engage in a conversation
+    examples: []
+concept: talk
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bater_papo#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

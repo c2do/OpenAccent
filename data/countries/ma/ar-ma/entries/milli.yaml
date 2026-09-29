@@ -1,0 +1,29 @@
+word: ماللي
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - milli
+pronunciation:
+  ipa: /mil.li/
+part_of_speech: conj
+meanings:
+  - en: when
+    examples:
+      - text: ماللي كنت صغير كان جدي كيشري لي الفانيد وقت ما دزنا من حدا شي حانوت.
+        en: When I was a kid, my grandfather used to buy me sweets whenever we passed by
+          a shop.
+concept: when
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%A7%D9%84%D9%84%D9%8A#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

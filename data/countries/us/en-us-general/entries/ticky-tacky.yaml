@@ -1,0 +1,30 @@
+word: ticky-tacky
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+meanings:
+  - en: Cheap, low-quality building material, especially as that used to make
+      conventional suburban housing of a uniform design.
+    examples:
+      - text: And the boys go into business, and marry and raise a family / In boxes
+          made of ticky-tacky, and they all look just the same.
+  - en: Made of this material; cheaply built, of low quality.
+    examples:
+      - text: My first impression was that Phoenix was another American Dream (a la
+          L.A.) come true—ticky-tacky tract housing complexes and mini-malls
+          stretching boundlessly into the flat desert horizon.
+concept: cheap
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ticky-tacky#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

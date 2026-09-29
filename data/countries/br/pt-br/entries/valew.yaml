@@ -1,0 +1,23 @@
+word: valew
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+part_of_speech: intj
+meanings:
+  - en: expression of gratitude or satisfaction; thank you; thanks
+    examples: []
+concept: thanks
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/valew#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

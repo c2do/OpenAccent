@@ -1,0 +1,36 @@
+word: booger
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbʊɡɚ/
+part_of_speech: noun
+meanings:
+  - en: A piece of solid or semisolid mucus in or removed from a nostril.
+    examples:
+      - text: Mama says you mustn't pick boogers out of your nose with your fingers; you
+          must use your handkerchief.
+      - text: Now in the halls of the necro lord / Flash of fear when he sees my sword /
+          Raped his woman, smoked his bone / Leave a booger underneath his
+          throne!
+  - en: Something suggestive of this material.
+    examples: []
+  - en: A thing; especially a problematic or difficult thing.
+    examples: []
+  - en: A monster, a bogey.
+    examples: []
+concept: something
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/booger#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

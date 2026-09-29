@@ -1,0 +1,33 @@
+word: शीत
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - śīt
+pronunciation:
+  ipa: /ʃiːt̪/
+meanings:
+  - en: cold
+    examples:
+      - text: शीत युद्ध
+        en: Cold War
+  - en: cold, coldness
+    examples: []
+  - en: winter, the cold season
+    examples: []
+  - en: cinnamon
+    examples: []
+concept: cold
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A5%80%E0%A4%A4#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

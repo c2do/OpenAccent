@@ -1,0 +1,34 @@
+word: safe
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈseɪ̯f/
+part_of_speech: adj
+meanings:
+  - en: Great, cool, awesome, respectable; a term of approbation, often as
+      interjection.
+    examples:
+      - text: and you also forgot to mentioned^([sic]) the wheels man you know bmw
+          playing / ragga jungle hip hop tunes / and on the mobile / yeah safe!
+          / nice one / later
+      - text: "Young Mal: Yu can’t. Irie means yer cool, yer safe, everything awright."
+  - en: Supported by evidence and unlikely to be overturned. Usually used in the
+      negative, as unsafe.
+    examples:
+      - text: It is clear that this is not a safe conviction.
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/safe#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

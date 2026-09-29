@@ -1,0 +1,27 @@
+word: hawk
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhɔːk/
+part_of_speech: noun
+meanings:
+  - en: Cold, sharp or biting wind.
+    examples:
+      - text: I wanna learn by Ruby's birthday party." Pride turned up his collar
+          against the hawk blowing from the river."
+concept: cold
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hawk#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

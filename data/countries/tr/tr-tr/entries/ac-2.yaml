@@ -1,0 +1,30 @@
+word: acı
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /aˈd͡ʒɯ/
+meanings:
+  - en: bitter, acrid
+    examples: []
+  - en: hot, spicy
+    examples: []
+  - en: pain, suffering, ache
+    examples: []
+  - en: grief, sorrow
+    examples: []
+concept: hot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ac%C4%B1#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

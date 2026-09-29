@@ -1,0 +1,29 @@
+word: lickety
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈlɪkɪti/
+part_of_speech: adv
+meanings:
+  - en: At full speed, fast.
+    examples:
+      - text: Away they started, “lickety-click,” and arrived at the winning-post within
+          touching distance of each other.
+      - text: Lickity, lickity, switch, we came to the ford, and Chiquita / Buckled
+          right down to her work
+concept: fast
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/lickety#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

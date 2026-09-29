@@ -1,0 +1,33 @@
+word: en plan
+dialect: es-es
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /em ˈplan/
+meanings:
+  - en: just as, like, -like, -style (a filler, implying doing something in a
+      certain way)
+    examples:
+      - text: le acerca para un apretón de manos en plan amigos
+        en: he approaches him to get a handshake, all friendly-like
+      - text: actuar en plan novios
+        en: to act like they were going out together
+  - en: I mean, like
+    examples:
+      - text: En plan, me gustaría ir.
+        en: I mean, I'd like to go.
+concept: like
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/en_plan#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

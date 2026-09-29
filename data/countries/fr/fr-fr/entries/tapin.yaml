@@ -1,0 +1,36 @@
+word: tapin
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ta.pɛ̃/
+part_of_speech: noun
+meanings:
+  - en: daily grind; job
+    examples: []
+  - en: touting; soliciting (for sex work)
+    examples:
+      - text: Raconter mon expérience. C'est difficile. Entrer dans le tapin, à
+          l'époque, l'était beaucoup moins.
+        en: King Kong Theory
+  - en: prostitute
+    examples:
+      - text: "Les gens aimaient prendre des têtes d'incrédules quand on leur annonce
+          qu'on a travaillé comme tapin, mais c'est comme pour le viol : une
+          vaste hypocrisie."
+        en: King Kong Theory
+concept: work
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tapin#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: حب
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ḥabb
+  - ḥubb
+pronunciation:
+  ipa: /ħabː/
+meanings:
+  - en: to love
+    examples: []
+  - en: love
+    examples:
+      - text: آنا والحب صافي صافي / المرار لي دقت منو كافي
+        en: I am done with love / I’ve tasted enough of its bitterness
+concept: like
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D8%A8#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

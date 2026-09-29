@@ -1,0 +1,34 @@
+word: notch
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /nɒtʃ/
+part_of_speech: noun
+meanings:
+  - en: A woman.
+    examples:
+      - text: >-
+          These ladies from the west got game
+
+          Who got the best, VA, DC, Georgia, New York, Texas, Louisiana, or
+          Florida
+
+          The Middwest got some super notches
+
+          You eva seen Cali's finest, man, who could top us
+concept: woman
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/notch#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

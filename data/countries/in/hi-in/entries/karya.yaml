@@ -1,0 +1,34 @@
+word: कार्य
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kārya
+pronunciation:
+  ipa: /kɑːɾ.jᵊ/
+part_of_speech: noun
+meanings:
+  - en: work, task
+    examples:
+      - text: हमारा कार्य आज से शुरू होगा।
+        en: Our work will start from today.
+  - en: action, operation
+    examples: []
+  - en: business
+    examples: []
+  - en: profession, job
+    examples: []
+concept: work_verb
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

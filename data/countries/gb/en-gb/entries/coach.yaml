@@ -1,0 +1,27 @@
+word: coach
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kəʊtʃ/
+part_of_speech: noun
+meanings:
+  - en: A passenger car, either drawn by a locomotive or part of a multiple unit.
+    examples: []
+  - en: A long-distance, or privately hired, bus.
+    examples: []
+concept: bus
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/coach#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

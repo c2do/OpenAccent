@@ -1,0 +1,37 @@
+word: إن
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ʔin
+  - ʔinn
+pronunciation:
+  ipa: /ʔin/
+part_of_speech: conj
+meanings:
+  - en: if
+    examples:
+      - text: إن قلت أه نبقى موافقين
+        en: If you say yes, we're agreed.
+      - text: إن كان كويس ولا وحش
+        en: Whether it be good or bad.
+  - en: that
+    examples:
+      - text: واضح إنه بيحبك
+        en: It's obvious that he loves you.
+      - text: بيصرف مال كإنه غني
+        en: He spends money as if he were rich.
+concept: that
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A5%D9%86#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

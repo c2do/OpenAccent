@@ -1,0 +1,43 @@
+word: joder
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /xoˈdeɾ/
+meanings:
+  - en: to become ruined, fucked (said of a person)
+    examples:
+      - text: ¡Jódete, y que se joda tu madre también!
+        en: Fuck you, and fuck your mother too!
+      - text: Me jodí, parece muy difícil.
+        en: I'm screwed, it looks really hard.
+  - en: to fuck, to have sex
+    examples:
+      - text: Oí a mis amigos jodiendo en la otra habitación.
+        en: I heard my friends fucking in the other room.
+  - en: to fuck up, smash, wreak, break, damage
+    examples:
+      - text: ¡Me jodiste la máquina!
+        en: You fucked up my machine!
+      - text: ¡Me jodiste la computadora!
+        en: You fucked up my computer!
+  - en: fuck!
+    examples:
+      - text: ¡Joder, Hoy es un buen día!
+        en: Fuck, today it's a good day!
+      - text: Joder, qué buena idea.
+        en: Damn, what a good idea.
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/joder#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

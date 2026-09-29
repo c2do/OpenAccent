@@ -1,0 +1,28 @@
+word: toque
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtoke/
+part_of_speech: noun
+meanings:
+  - en: toke, puff of marijuana
+    examples: []
+  - en: toke, puff of marijuana; a blunt
+    examples: []
+  - en: snorting (of cocaine)
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/toque#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

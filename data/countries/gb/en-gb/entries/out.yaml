@@ -1,0 +1,26 @@
+word: out
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈäʊ̯t/
+part_of_speech: adj
+meanings:
+  - en: Containing errors or discrepancies, or in error by a stated amount.
+    examples:
+      - text: Nothing adds up in this report. All these figures are out.
+      - text: The measurement was out by three millimetres.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/out#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

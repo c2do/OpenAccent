@@ -1,0 +1,27 @@
+word: بابور
+dialect: ar-ma
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /baː.buːr/
+part_of_speech: noun
+meanings:
+  - en: a small portable stove with a single burner
+    examples: []
+  - en: a ship, a car, etc.
+    examples: []
+concept: car
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%A8%D9%88%D8%B1#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

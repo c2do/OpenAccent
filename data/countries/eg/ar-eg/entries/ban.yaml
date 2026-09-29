@@ -1,0 +1,27 @@
+word: بان
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - bān
+pronunciation:
+  ipa: /baːn/
+part_of_speech: verb
+meanings:
+  - en: to become obvious, clear, evident
+    examples:
+      - text: وبان الحق.
+        en: The truth is now clear
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D9%86#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

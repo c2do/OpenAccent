@@ -1,0 +1,28 @@
+word: fahrbarer Untersatz
+dialect: de-de
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: wheels, a car, a ride
+    examples:
+      - text: Rath wollte niemanden beeindrucken, er brauchte nur einen fahrbaren
+          Untersatz. Für sein heutiges Tagesprogramm konnte er ein Auto gut
+          gebrauchen.
+        en: Rath didn't want to impress anyone, he just needed a ride. He could
+          certainly use a car for his day's schedule.
+concept: car
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fahrbarer_Untersatz#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

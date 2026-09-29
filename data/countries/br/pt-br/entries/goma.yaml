@@ -1,0 +1,27 @@
+word: goma
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡõ.mɐ/
+part_of_speech: noun
+meanings:
+  - en: home, house
+    examples:
+      - text: Cola na minha goma mais tarde pra gente jogar um pouco de videogame.
+        en: Come to my house later so we can play some video games.
+concept: house
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/goma#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

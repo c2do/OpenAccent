@@ -1,0 +1,35 @@
+word: add
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈa ˈde ˈde/
+part_of_speech: verb
+meanings:
+  - en: to add in certain internet services
+    examples:
+      - text: E se estiver se sentido muito sozinho, e isso puder ajudar, pode me add no
+          Orkut mas não esqueça de deixar um scrap.
+        en: And if you're feeling really lonely, and if it can help, you can add me on
+          Orkut but don’t forget to leave a scrap.
+  - en: to add in certain internet services; to friend (to add as a friend in a
+      social network)
+    examples: []
+  - en: to add in certain internet services; to add (to add as a contact in an
+      instant messenger service)
+    examples: []
+concept: friend
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/add#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: puro
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpuɾo/
+part_of_speech: noun
+meanings:
+  - en: a fine (especially a big one)
+    examples: []
+concept: fine
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/puro#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

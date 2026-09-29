@@ -1,0 +1,34 @@
+word: bake
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /beɪk/
+part_of_speech: noun
+meanings:
+  - en: Any of various baked dishes resembling casserole.
+    examples:
+      - text: A fish bake made with cod chunks, sliced parboiled potatoes, […]
+      - text: If you happen to have small, heat-proof glass or ceramic pots in your
+          kitchen (known as ramekins) then you can make this very easy pasta
+          bake in fun-size, individual portions.
+  - en: A small, flat (or ball-shaped) cake of dough eaten mainly in Barbados,
+      similar in appearance and ingredients to a pancake but fried (or sometimes
+      roasted).
+    examples:
+      - text: For quotations using this term, see Citations:bake.
+concept: small
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bake#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

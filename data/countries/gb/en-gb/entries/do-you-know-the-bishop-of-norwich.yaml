@@ -1,0 +1,23 @@
+word: do you know the Bishop of Norwich
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: phrase
+meanings:
+  - en: Can you pass the port, please?
+    examples: []
+concept: please
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/do_you_know_the_Bishop_of_Norwich#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: a poco
+dialect: es-mx
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a ˈpoko/
+part_of_speech: intj
+meanings:
+  - en: really, seriously (used to express surprise or disbelief)
+    examples: []
+concept: really
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/a_poco#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

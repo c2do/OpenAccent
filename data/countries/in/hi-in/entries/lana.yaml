@@ -1,0 +1,28 @@
+word: लाना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - lānā
+pronunciation:
+  ipa: /lɑː.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to bring
+    examples:
+      - text: मैं खाना लाया।
+        en: I brought food.
+concept: bring
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B2%E0%A4%BE%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

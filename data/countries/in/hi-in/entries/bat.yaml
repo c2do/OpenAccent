@@ -1,0 +1,42 @@
+word: बात
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bāt
+pronunciation:
+  ipa: /bɑːt̪/
+part_of_speech: noun
+meanings:
+  - en: talk
+    examples:
+      - text: मेरी उससे रोचक बात हुई।
+        en: I had an interesting talk with him.
+  - en: word, utterance
+    examples:
+      - text: वह अपनी बात का धनी है।
+        en: He is true to his word.
+  - en: matter, affair
+    examples:
+      - text: बात यहीं पर समाप्त नहीं होती।
+        en: The matter does not end here.
+      - text: क्या बात है?
+        en: What is the matter?
+  - en: thing
+    examples:
+      - text: महत्त्वपूर्ण बात यह है।
+        en: The important thing is this.
+concept: talk
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%BE%E0%A4%A4#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

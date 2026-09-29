@@ -1,0 +1,28 @@
+word: lahm
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /laːm/
+part_of_speech: adj
+meanings:
+  - en: weak, tired (exhausted from strain; of limbs, etc.); lame, weak,
+      unconvincing (of excuses, words of protest or defense, etc.)
+    examples: []
+  - en: weak, tired (exhausted from strain; of limbs, etc.); slow (annoyingly so)
+    examples: []
+concept: tired
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/lahm#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

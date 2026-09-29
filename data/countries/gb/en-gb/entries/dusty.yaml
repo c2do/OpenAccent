@@ -1,0 +1,29 @@
+word: dusty
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdʌsti/
+part_of_speech: adj
+meanings:
+  - en: Ugly, unwell, inadequate, bad.
+    examples:
+      - text: 'One morning, I said to a patient: "How are you today, Mrs. White?" And
+          she replied "Not so dusty - quite well brushed."'
+      - text: "\"Never mind,\" she ventured, \"but thanks for the compliment. You're not
+          so dusty yourself!\""
+concept: bad
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dusty#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

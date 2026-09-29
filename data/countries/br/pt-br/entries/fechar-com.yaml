@@ -1,0 +1,29 @@
+word: fechar com
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: to be fond of, to like
+    examples:
+      - text: Eu fecho com ele.
+        en: I like him.
+  - en: to agree with or accept someone's opinions
+    examples:
+      - text: Eu fecho com os ideais deste partido.
+        en: I agree with this party's ideals.
+concept: like
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fechar_com#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: maverick brand
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A brand originated by a dishonest cattleman, who, without owning any stock,
+      gradually accumulates a herd by finding mavericks.
+    examples: []
+concept: who
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/maverick_brand#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

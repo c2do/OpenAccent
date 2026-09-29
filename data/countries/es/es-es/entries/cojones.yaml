@@ -1,0 +1,27 @@
+word: cojones
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /koˈxones/
+meanings:
+  - en: fuck!, shit!, damn!, damn it!, what the fuck!, bloody hell!, bollocks!
+    examples: []
+  - en: the fuck, the hell
+    examples:
+      - text: ¿Qué cojones?
+        en: What the hell?
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cojones#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

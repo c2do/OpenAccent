@@ -1,0 +1,31 @@
+word: तनिक
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - tanik
+pronunciation:
+  ipa: /t̪ə.nɪk/
+meanings:
+  - en: slight, small, little
+    examples:
+      - text: उसे अपनी गलती पर तनिक भी पछतावा नहीं है।
+        en: He does not have even a slight regret for his mistake.
+  - en: slightly, a little bit, just a bit
+    examples:
+      - text: कृपया तनिक इधर देखिए।
+        en: Please look here just a bit.
+concept: small
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A4%A8%E0%A4%BF%E0%A4%95#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

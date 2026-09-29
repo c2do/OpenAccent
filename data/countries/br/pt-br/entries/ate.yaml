@@ -1,0 +1,26 @@
+word: até
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /aˈtɛ/
+part_of_speech: adv
+meanings:
+  - en: very much; to a great extent (implies a continuation)
+    examples:
+      - text: Quando chegar a/em casa, vou comer e beber até!
+        en: When I get home, I will eat and drink very much!
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/at%C3%A9#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

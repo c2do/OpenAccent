@@ -1,0 +1,36 @@
+word: galán
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡaˈlan/
+meanings:
+  - en: nice, enviable, without worries (said of a situation)
+    examples:
+      - text: >-
+          2012, Maus, Cosecha de Doscientos Soles, published by Palibrio
+          (Mexico), p. 56.
+
+          pero detrás del destello se asomaba un día galán, alegre, brillante...
+        en: but behind the sparkle, a nice, happy, shiny day was appearing...
+  - en: copiously, in a great and unmeasured quantity
+    examples:
+      - text: Después al pastel le echamos azúcar galán, sin pensar que ya tenía
+          suficiente.
+        en: Afterwards, we added sugar to the cake copiously, without thinking it
+          already had enough.
+concept: beautiful
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gal%C3%A1n#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

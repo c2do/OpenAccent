@@ -1,0 +1,32 @@
+word: بين
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - bēn
+  - bayyin
+  - bayyan
+pronunciation:
+  ipa: /beːn/
+meanings:
+  - en: between
+    examples: []
+  - en: among
+    examples: []
+  - en: to reveal, make clear
+    examples: []
+  - en: to state. declare
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D9%8A%D9%86#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

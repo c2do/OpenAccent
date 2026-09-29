@@ -1,0 +1,30 @@
+word: حلو
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ḥelw
+pronunciation:
+  ipa: /ħilw/
+part_of_speech: adj
+meanings:
+  - en: sweet (to taste)
+    examples: []
+  - en: nice, good
+    examples: []
+  - en: pretty, nice, handsome, good-looking
+    examples: []
+concept: beautiful
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D9%84%D9%88#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

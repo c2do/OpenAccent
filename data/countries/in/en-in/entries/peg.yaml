@@ -1,0 +1,27 @@
+word: peg
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpɛɡ/
+part_of_speech: noun
+meanings:
+  - en: A serving of any hard spirit, particularly whisky.
+    examples:
+      - text: This is the sort of drinking that Anna Hazare fought to eradicate from
+          Ralegan Siddhi, as Colonel Phatak explained, after I joked about an
+          army man needing his evening peg of whisky before dinner.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/peg#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

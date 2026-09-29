@@ -1,0 +1,27 @@
+word: أخذ
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ʔakad
+  - ʔaḵað
+pronunciation:
+  ipa: /ʔa.xad/
+part_of_speech: verb
+meanings:
+  - en: to take
+    examples: []
+concept: take
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D8%AE%D8%B0#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: inside
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɪnsaɪd/
+part_of_speech: noun
+meanings:
+  - en: A passenger within a coach or carriage, as distinguished from one upon the
+      outside.
+    examples:
+      - text: So down thy hill, romantic Ashbourne, glides / The Derby dilly, carrying
+          three insides.
+      - text: So, what between Mr. Dowler's stories, and Mrs. Dowler's charms, and Mr.
+          Pickwick's good humour, and Mr. Winkle's good listening, the insides
+          contrived to be very companionable all the way.
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/inside#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

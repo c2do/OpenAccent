@@ -1,0 +1,34 @@
+word: कूप
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kūp
+pronunciation:
+  ipa: /kuːp/
+part_of_speech: noun
+meanings:
+  - en: a well
+    examples:
+      - text: गाँव के बीचों-बीच एक पुराना कूप है।
+        en: There is an old well in the middle of the village.
+  - en: a hole, hollow, cavity
+    examples: []
+  - en: the mast of a ship
+    examples: []
+  - en: a heap, mound
+    examples: []
+concept: fine
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%82%E0%A4%AA#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

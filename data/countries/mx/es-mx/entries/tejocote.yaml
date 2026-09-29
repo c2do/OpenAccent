@@ -1,0 +1,27 @@
+word: tejocote
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /texoˈkote/
+part_of_speech: noun
+meanings:
+  - en: Crataegus mexicana, a species of fruit-bearing hawthorn
+    examples: []
+  - en: the small, yellowish fruit of this tree
+    examples: []
+concept: small
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tejocote#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

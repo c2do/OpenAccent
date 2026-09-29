@@ -1,0 +1,30 @@
+word: أوي
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ʔawi
+  - awi
+pronunciation:
+  ipa: /ʔa.wi/
+meanings:
+  - en: strong
+    examples: []
+  - en: really, so
+    examples:
+      - text: شكلها وحش أوي
+        en: It looks so bad
+concept: really
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D9%88%D9%8A#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

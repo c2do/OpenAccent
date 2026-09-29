@@ -1,0 +1,25 @@
+word: it
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɪt/
+part_of_speech: noun
+meanings:
+  - en: A game of tag.
+    examples:
+      - text: Let's play it at breaktime.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/it#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

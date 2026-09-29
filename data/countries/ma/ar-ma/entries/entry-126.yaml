@@ -1,0 +1,27 @@
+word: كيف ما
+dialect: ar-ma
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kiːf maː/
+part_of_speech: conj
+meanings:
+  - en: as, like
+    examples:
+      - text: كيف ما قلتي لي البارح، ما غنستوردوش اللقاح من فرنسا.
+        en: As you told me yesterday, we won't import the vaccine from France.
+concept: like
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D9%8A%D9%81_%D9%85%D8%A7#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: torta
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtoɾta/
+part_of_speech: noun
+meanings:
+  - en: flatbread
+    examples: []
+  - en: slap in the face, cuff on the ear
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/torta#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

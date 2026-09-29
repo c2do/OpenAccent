@@ -1,0 +1,35 @@
+word: açmak
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɑt͡ʃˈmɑk/
+part_of_speech: verb
+meanings:
+  - en: to open
+    examples:
+      - text: Camı açmadım.
+        en: I didn't open the window.
+  - en: to clear, to unclog, to remove an obstacle
+    examples: []
+  - en: to open; to untie something tied up, knit etc.
+    examples: []
+  - en: to turn on
+    examples:
+      - text: Işıkları açar mısın lütfen?
+        en: Could you turn the lights on, please?
+concept: do
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/a%C3%A7mak#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

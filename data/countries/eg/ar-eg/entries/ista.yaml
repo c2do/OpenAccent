@@ -1,0 +1,26 @@
+word: قشطة
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ʔišṭa
+part_of_speech: noun
+meanings:
+  - en: cream
+    examples: []
+  - en: cool, awesome
+    examples: []
+concept: cool
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%B4%D8%B7%D8%A9#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

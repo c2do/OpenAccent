@@ -1,0 +1,26 @@
+word: librar
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /liˈbɾaɾ/
+part_of_speech: verb
+meanings:
+  - en: to be free; to be off (from work, school, etc.)
+    examples:
+      - text: Mañana libro.
+        en: I'm off tomorrow.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/librar#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

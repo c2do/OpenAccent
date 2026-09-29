@@ -1,0 +1,32 @@
+word: tubelight
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtjuːbˌlaɪt/
+part_of_speech: noun
+meanings:
+  - en: Synonym of fluorescent lamp (“a gas-discharge lamp that uses fluorescence to
+      produce visible light, especially one consisting of a tube filled with
+      mercury vapour which emits ultraviolet radiation when an electric current
+      is passed through it, causing fluorescence when the radiation hits a
+      phosphor coating on the interior of the tube”); also, a light fixture
+      containing one or more fluorescent lamps.
+    examples: []
+  - en: A person who is slow to reply or understand; a dim-witted person.
+    examples: []
+concept: also
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tubelight#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

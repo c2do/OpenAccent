@@ -1,0 +1,28 @@
+word: راح
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - rāḥ
+pronunciation:
+  ipa: /raːħ/
+part_of_speech: verb
+meanings:
+  - en: to go
+    examples: []
+  - en: to leave
+    examples: []
+concept: go
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B1%D8%A7%D8%AD#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

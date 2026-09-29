@@ -1,0 +1,25 @@
+word: ça alors
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sa a.lɔʁ/
+part_of_speech: intj
+meanings:
+  - en: well, I never! well blow me down! my goodness! my word!
+    examples: []
+concept: fine
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A7a_alors#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

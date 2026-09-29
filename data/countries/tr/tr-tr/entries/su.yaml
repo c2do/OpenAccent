@@ -1,0 +1,33 @@
+word: su
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /su/
+part_of_speech: noun
+meanings:
+  - en: water; H₂O
+    examples: []
+  - en: a body of water such as a lake or an ocean
+    examples: []
+  - en: water supplied for drinking, cooking, cleaning, etc.
+    examples:
+      - text: Sular kesildi.
+        en: The water supply was cut off.
+  - en: juice
+    examples: []
+concept: water
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/su#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

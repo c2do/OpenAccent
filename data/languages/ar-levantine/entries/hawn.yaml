@@ -1,0 +1,27 @@
+word: هون
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - hawn
+  - hōn
+pronunciation:
+  ipa: /hawn/
+part_of_speech: adv
+meanings:
+  - en: here
+    examples: []
+concept: here
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D9%88%D9%86#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

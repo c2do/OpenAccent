@@ -1,0 +1,33 @@
+word: jawn
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /d͡ʒɔːn/
+part_of_speech: noun
+meanings:
+  - en: Something; a thing; any object, place, or person.
+    examples:
+      - text: '"Then I started thinking of the Scenario remix and was like yo, that jawn
+          was just as good."'
+  - en: A woman.
+    examples:
+      - text: MY boi in NY, when he first came to Philly, used to tell me the philly
+          jawns were easy.
+      - text: I had a few chicks that I messed around with but this one main jawn stuck
+          out in particular.
+concept: something
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jawn#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

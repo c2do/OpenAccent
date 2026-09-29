@@ -1,0 +1,28 @@
+word: down
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdaʊ̯n/
+meanings:
+  - en: Away from Oxford or Cambridge.
+    examples:
+      - text: He's gone back down to Newcastle for Christmas.
+  - en: A tract of poor, sandy, undulating or hilly land near the sea, covered with
+      fine turf which serves chiefly for the grazing of sheep.
+    examples:
+      - text: Seven thousand broad-taild Sheepe gras'd on his Downes;
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/down#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

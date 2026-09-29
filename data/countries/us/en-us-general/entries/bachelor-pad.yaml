@@ -1,0 +1,26 @@
+word: bachelor pad
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A nice, well-furnished dwelling where an unmarried man lives, usually by
+      himself, but sometimes with other men.
+    examples:
+      - text: Wanna slow dance in my mansion / Shawty wanna stay in my bachelor pad /
+          But I'm a bachelor and I'm happy
+concept: beautiful
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bachelor_pad#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

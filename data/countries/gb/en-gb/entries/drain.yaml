@@ -1,0 +1,34 @@
+word: drain
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dɹeɪn/
+part_of_speech: noun
+meanings:
+  - en: An access point or conduit for rainwater that drains directly downstream in
+      a (drainage) basin without going through sewers or water treatment in
+      order to prevent or belay floods.
+    examples: []
+  - en: A drink.
+    examples:
+      - text: When the play was over, we came out together, and I said, "We've been very
+          companionable and agreeable, and perhaps you wouldn't object to a
+          drain?"
+      - text: What did she want with money, except now and then for a drain of white
+          satin.
+concept: drink
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/drain#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

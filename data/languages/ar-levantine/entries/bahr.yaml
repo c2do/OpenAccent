@@ -1,0 +1,35 @@
+word: بحر
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - baḥr
+pronunciation:
+  ipa: /ˈbaħ(ᵊ)r/
+meanings:
+  - en: ocean, sea
+    examples: []
+  - en: a lot
+    examples:
+      - text: "Near-synonym: خَيْر الله (ḵayr ʔaḷḷa, “an abundance”, adverbial,
+          literally “God's goodness”)"
+      - text: "baḥr « beaucoup »: byeštᵊġel baḥr « il travaille beaucoup ». Dans le
+          Dict. manuscrit de J. Harfouche, l-läi̯mūn fi yāfa baḥr « à Jaffa les
+          oranges se trouvent à foison »."
+        en: "بَحْر (baḥr, “a lot”): بيِشْتِغِل بَحْر (byištiḡil baḥr, “he works a lot”).
+          In the handwritten Dict. of J. Harfouche, اللَّيْمُون فِي يَافَا بَحْر
+          (l-laymūn fi yāfa baḥr, “in Jaffa, oranges abound”)."
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%AD%D8%B1#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

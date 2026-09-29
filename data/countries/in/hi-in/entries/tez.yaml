@@ -1,0 +1,36 @@
+word: तेज़
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - tez
+pronunciation:
+  ipa: /t̪eːz/
+part_of_speech: adj
+meanings:
+  - en: sharp
+    examples:
+      - text: यह चाक़ू काम के लिए काफ़ी तेज़ है।
+        en: This knife is sharp enough for the job.
+      - text: उसकी आवाज़ बहुत तेज़ है।
+        en: His voice is very sharp/shrill.
+  - en: fast, brisk, clever, acrid, strong
+    examples:
+      - text: मेरी घड़ी तीन मिनट भी तेज़ है।
+        en: My watch is three minutes too fast.
+      - text: मेरे लिए कुछ तेज़ चाय बनाओ।
+        en: Make some strong tea for me.
+concept: fast
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A5%87%E0%A4%9C%E0%A4%BC#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

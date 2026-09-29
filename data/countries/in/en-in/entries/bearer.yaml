@@ -1,0 +1,29 @@
+word: bearer
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɛəɹə/
+part_of_speech: noun
+meanings:
+  - en: A domestic servant in charge of household goods and clothing; a valet.
+    examples:
+      - text: The bar of the watch-guard worked through the buttonhole, and the
+          watch—Platte's watch—slid quietly on to the carpet; where the bearer
+          found it next morning and kept it.
+  - en: A waiter in a hotel or restaurant.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bearer#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: brocado
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: hungry
+    examples:
+      - text: Estar brocado de fome.
+        en: To be very hungry.
+concept: hungry
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/brocado#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

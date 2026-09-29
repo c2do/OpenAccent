@@ -1,0 +1,24 @@
+word: bugün
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /buˈɟyn/
+meanings:
+  - en: today
+    examples: []
+concept: today
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bug%C3%BCn#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

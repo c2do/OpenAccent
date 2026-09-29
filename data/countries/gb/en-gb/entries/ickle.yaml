@@ -1,0 +1,26 @@
+word: ickle
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: Little.
+    examples:
+      - text: Izzum's ickle heart a-beatin' so floppity! Um's own mumsy make ums all
+          right, um's p'eshus Flopit!
+      - text: Wasums and didums, then? Was it a ickle birdie, then?
+concept: a_little
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ickle#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

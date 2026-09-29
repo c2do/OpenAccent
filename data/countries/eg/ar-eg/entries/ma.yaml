@@ -1,0 +1,44 @@
+word: ما
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ma
+  - ma-
+pronunciation:
+  ipa: /ma(ː)/
+meanings:
+  - en: what's the matter with, what's with (someone or something) (with لـ (li-))
+    examples: []
+  - en: what has it to do with (someone or something) (with لـ (li-))
+    examples:
+      - text: أنا مالي
+        en: what has it to do with me?, what's my business in this?
+  - en: what has (someone or something) it to do with (someone or something) (with
+      لـ (li-))
+    examples:
+      - text: مالك ومال الولد
+        en: what concern of yours is in he boy? (i.e. why don't you stop interfering
+          with the boy?)
+      - text: مالي ومال البنت
+        en: what have I got to do with the girl?
+  - en: that
+    examples:
+      - text: بعد ما السباق ابتدى
+        en: After the race began.
+      - text: لحد ما
+        en: until
+concept: that
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%A7#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

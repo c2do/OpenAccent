@@ -1,0 +1,33 @@
+word: شغل
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - šuḡl
+  - šaḡal
+  - šaḡḡal
+pronunciation:
+  ipa: /ʃuɣl/
+meanings:
+  - en: work, occupation
+    examples: []
+  - en: work, labour
+    examples: []
+  - en: to occupy, to keep busy
+    examples: []
+  - en: to preoccupy, to distract
+    examples: []
+concept: work_verb
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D8%BA%D9%84#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

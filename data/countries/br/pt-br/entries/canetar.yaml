@@ -1,0 +1,32 @@
+word: canetar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ka.neˈta(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to perform bureaucratic tasks (such as authenticating or sanctioning
+      something) by means of a signature
+    examples: []
+  - en: to underline with a pen
+    examples: []
+  - en: to fine (to issue a fine as punishment)
+    examples: []
+  - en: to report, to snitch
+    examples: []
+concept: fine
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/canetar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

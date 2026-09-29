@@ -1,0 +1,26 @@
+word: qué tanto
+dialect: es-mx
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˌke ˈtanto/
+meanings:
+  - en: how many or how much
+    examples: []
+  - en: how many, how much
+    examples: []
+concept: how_much
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/qu%C3%A9_tanto#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

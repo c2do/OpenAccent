@@ -1,0 +1,33 @@
+word: beach hut
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A small, single-room building above high-water mark on a beach that is used
+      for changing into swimming clothes, for recreation, or for temporary
+      storage.
+    examples:
+      - text: >-
+          2000, Michael Dregni, 101 Uses for an Old Farm Tractor, Voyageur
+          Press, British Columbia, page 29,
+
+          Kenneth Anderson's 1940s John Deere Model H could also double as a
+          beach hut or lifeguard stand.
+      - text: Beach huts, owned or leased, are not habitable but can be used as a
+          shelter and changing room on the beach.
+concept: small
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/beach_hut#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

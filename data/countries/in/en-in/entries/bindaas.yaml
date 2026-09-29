@@ -1,0 +1,28 @@
+word: bindaas
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: Independent and carefree; admirable, cool.
+    examples:
+      - text: |-
+          'So … how come you aren't scared?'
+           Sheila laughed, 'Who me? Forget it. I'm far too bindaas. […]
+      - text: Well, I play Sonia, extremely modern, hip, bindaas, tough and can take
+          care of herself. My look suits the character.
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bindaas#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

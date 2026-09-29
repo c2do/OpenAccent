@@ -1,0 +1,27 @@
+word: botter
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɔ.te/
+part_of_speech: verb
+meanings:
+  - en: to please, to like
+    examples:
+      - text: Ça te botterait d'aller au ciné?
+        en: Would you like to go the cinema?
+concept: please
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/botter#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

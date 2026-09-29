@@ -1,0 +1,32 @@
+word: بلاش
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - balāš
+pronunciation:
+  ipa: /ba.ˈlaːʃ/
+part_of_speech: noun
+meanings:
+  - en: No charge; no money; a price of zero; (in context) for free; gratis.
+    examples:
+      - text: ما في شي ببلاش غير العمى والطراش.
+        en: Nothing is for free except blindness and deafness. (A saying.)
+  - en: nothing
+    examples:
+      - text: أحسن من بلاش
+        en: better than nothing
+concept: nothing
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D9%84%D8%A7%D8%B4#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

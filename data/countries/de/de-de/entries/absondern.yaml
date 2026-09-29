@@ -1,0 +1,28 @@
+word: absondern
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈapˌzɔndɐn/
+part_of_speech: verb
+meanings:
+  - en: to say; to utter (especially repeatedly over some period of time, as though
+      it were a secretion)
+    examples:
+      - text: die Machosprüche, die er ständig absondert
+        en: those macho slogans that he constantly delivers
+concept: say
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/absondern#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

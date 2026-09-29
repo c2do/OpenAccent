@@ -1,0 +1,42 @@
+word: koca
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /koˈd͡ʒa/
+meanings:
+  - en: large, big
+    examples:
+      - text: Koca bir arabayla geldi
+        en: He came with a huge car
+  - en: huge, enormous, whole
+    examples:
+      - text: Koca dağları aşıp buraya gelmiş.
+        en: He crossed the great mountains to get here.
+      - text: Koca evi kendi elleriyle yaptı.
+        en: He built that whole house with his own hands.
+  - en: big, large, whole, often used to emphasize something unusual, unbecoming, or
+      ironic of something or someone given their size, duration, age, or status
+      etc.
+    examples:
+      - text: Koca bir yıl geçti ama hâlâ emekli maaşımı alamadım.
+        en: A good year has passed, but I still haven't received my pension.
+      - text: Koca şehirde bir tane tanıdık bulamadım.
+        en: I couldn't find a single familiar face in the whole city.
+  - en: old, elder
+    examples: []
+concept: big
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/koca#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

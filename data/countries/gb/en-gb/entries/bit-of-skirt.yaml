@@ -1,0 +1,29 @@
+word: bit of skirt
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A woman, when regarded as a sexual object.
+    examples:
+      - text: I never heard a word about a bit of skirt. Not like some blokes you meet —
+          they're born out of one and they try to spend the rest of their lives
+          getting back in.
+      - text: Rosemary overheard him say that he did not usually grace such functions
+          with his presence, but had been dragged along one January evening with
+          the promise of a 'nice bit of skirt'.
+concept: woman
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bit_of_skirt#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

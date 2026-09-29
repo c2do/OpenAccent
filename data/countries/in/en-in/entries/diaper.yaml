@@ -1,0 +1,31 @@
+word: diaper
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdaɪ(ə).pə/
+part_of_speech: noun
+meanings:
+  - en: An absorbent garment worn around the crotch that retains the wearer's urine
+      and feces, often worn by a baby or young child who is not yet toilet
+      trained, by an adult who is incontinent (who wets the bed), or under
+      extreme working conditions without access to a toilet; a nappy.
+    examples:
+      - text: cloth diaper, disposable diaper, nighttime diaper, swim diaper
+      - text: A bag of baby-clothes, containing 1 ſheet, 1 ſhi[r]t, 1 bedgown, 12
+          diapers, 2 child's bedgowns, 2 child's ſhirts, 2 child's robes, 2
+          child's nightcaps and a wrapper.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/diaper#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

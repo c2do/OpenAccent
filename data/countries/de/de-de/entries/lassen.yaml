@@ -1,0 +1,34 @@
+word: lassen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[ˈlasn̩]"
+part_of_speech: verb
+meanings:
+  - en: to let remain, to leave (in a certain state); to let be, to get off
+      someone's back
+    examples:
+      - text: Jetzt lass ihn doch, sowas macht ihm halt Spaß.
+        en: Get off his back already, he likes doing that sort of thing.
+  - en: to stop (doing something), to refrain (from something), to not do
+    examples:
+      - text: Lass den Quatsch und hör zu!
+        en: Cut out the nonsense and listen!
+      - text: Im Nachhinein betrachtet hätte ich es vielleicht lieber lassen sollen.
+        en: In retrospect, maybe I shouldn't have done that.
+concept: leave
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/lassen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

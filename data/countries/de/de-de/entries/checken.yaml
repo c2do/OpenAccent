@@ -1,0 +1,31 @@
+word: checken
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtʃɛkən/
+part_of_speech: verb
+meanings:
+  - en: to grasp, to understand
+    examples:
+      - text: Ich habe gar nichts gecheckt.
+        en: I didn't understand a thing.
+      - text: Ich wollte dich eigentlich immer fragen, wieso du das damals nicht
+          gecheckt hast, dass ich überhaupt nicht zur Verfügung stand.
+        en: Really, I always wanted to ask you why you didn't understand back then that
+          I wasn't available at all.
+concept: understand
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/checken#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

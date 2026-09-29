@@ -1,0 +1,25 @@
+word: sí
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈsi/
+part_of_speech: intj
+meanings:
+  - en: hello? (used when answering a phone call)
+    examples: []
+concept: hello
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/s%C3%AD#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

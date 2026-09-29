@@ -1,0 +1,28 @@
+word: नेक
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - nek
+pronunciation:
+  ipa: /neːk/
+part_of_speech: adj
+meanings:
+  - en: virtuous, pure, good
+    examples:
+      - text: नेक कार्य
+        en: good deed
+concept: good
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A8%E0%A5%87%E0%A4%95#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

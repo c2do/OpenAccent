@@ -1,0 +1,23 @@
+word: by juckies
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: intj
+meanings:
+  - en: Expressing surprise; wow, gosh.
+    examples: []
+concept: wow
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/by_juckies#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

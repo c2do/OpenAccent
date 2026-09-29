@@ -1,0 +1,23 @@
+word: at a rate of knots
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: prep_phrase
+meanings:
+  - en: Quickly; rapidly; fast.
+    examples: []
+concept: fast
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/at_a_rate_of_knots#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

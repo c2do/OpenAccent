@@ -1,0 +1,35 @@
+word: في
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - fi
+  - fiyya
+pronunciation:
+  ipa: /fi/
+meanings:
+  - en: in, within, at
+    examples:
+      - text: نورة في المدرسة/فالمدرسة
+        en: Nura is in the school
+  - en: of, about, in regards to, pertaining to, in the subject or topic of
+    examples: []
+  - en: times, multiplied by, to have a measure of this by this
+    examples: []
+  - en: to feel like
+    examples:
+      - text: ما فِيّ أروح اليوم
+        en: I don't feel like going today
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D9%8A#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

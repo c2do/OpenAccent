@@ -1,0 +1,24 @@
+word: civilian
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sɪˈvɪl.jən/
+part_of_speech: noun
+meanings:
+  - en: An employee of the civil service.
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/civilian#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

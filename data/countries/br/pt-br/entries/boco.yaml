@@ -1,0 +1,28 @@
+word: bocó
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /boˈkɔ/
+meanings:
+  - en: stupid, idiotic
+    examples: []
+  - en: a stupid, idiotic person; a fool; an idiot
+    examples: []
+  - en: a small, untanned saddlebag
+    examples: []
+concept: small
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/boc%C3%B3#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

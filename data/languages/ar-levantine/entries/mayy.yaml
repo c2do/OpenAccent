@@ -1,0 +1,35 @@
+word: مي
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ṃayy
+pronunciation:
+  ipa: /mˤajj/
+meanings:
+  - en: water
+    examples: []
+  - en: liquid, liquidy, watery
+    examples:
+      - text: الشوربا نسيت زدلها نشا قامت طلعت مي
+        en: I forgot to add starch to the soup and it turned out watery
+  - en: wet, damp
+    examples:
+      - text: "Near-synonyms: رِطِب (riṭib, “damp”), مْبَلَّل (mballal, “soaked
+          through”)"
+      - text: إيديي مَيّ احمول عني التليفون
+        en: My hands are wet, hold the phone for me
+concept: water
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D9%8A#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

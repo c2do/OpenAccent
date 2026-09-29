@@ -1,0 +1,24 @@
+word: meal deal
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A sales promotion consisting of a main (often a sandwich), a drink, and a
+      snack (often crisps) for a fixed price.
+    examples: []
+concept: drink
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/meal_deal#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

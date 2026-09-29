@@ -1,0 +1,26 @@
+word: müssen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmʏsən/
+part_of_speech: verb
+meanings:
+  - en: to need to go to the bathroom.
+    examples:
+      - text: Ich muss mal.
+        en: I have to go (to the bathroom).
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/m%C3%BCssen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

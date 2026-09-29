@@ -1,0 +1,31 @@
+word: screw
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈskɹuː/
+meanings:
+  - en: An instructor who examines with great or unnecessary severity; also, a
+      searching or strict examination of a student by an instructor.
+    examples: []
+  - en: To examine (a student) rigidly; to subject to a severe examination.
+    examples: []
+  - en: To leave; to go away; to scram.
+    examples:
+      - text: If you don't like it, fuckin' screw! It's Shit Ass Pet Fuckers. That's the
+          way it's going to be.
+concept: also
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/screw#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

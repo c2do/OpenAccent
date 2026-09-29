@@ -1,0 +1,31 @@
+word: so
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /zoː/
+meanings:
+  - en: roughly, about (according to one's own estimation/memory)
+    examples:
+      - text: Das Teil müsste so 10 cm lang sein.
+        en: The part should be about 10 cm long.
+  - en: expletive; sometimes intensifying, sometimes with no noticeable meaning
+    examples:
+      - text: Wir sind runtergegangen und haben uns hier so hingesetzt.
+        en: We went downstairs and, like, sat down here.
+  - en: alright; a discourse marker indicating a topic having been dealt with
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/so#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

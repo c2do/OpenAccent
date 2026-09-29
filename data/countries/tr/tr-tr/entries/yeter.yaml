@@ -1,0 +1,27 @@
+word: yeter
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /jeˈtæɾ/
+meanings:
+  - en: enough, sufficient
+    examples: []
+  - en: enough! that's enough! that will do! (usually an emphatic interjection used
+      to stop someone talking, to end a debate, etc.)
+    examples: []
+concept: enough
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/yeter#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

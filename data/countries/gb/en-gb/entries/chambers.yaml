@@ -1,0 +1,33 @@
+word: chambers
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈt͡ʃeɪmbəz/
+part_of_speech: noun
+meanings:
+  - en: Originally, a set of rooms at an Inn of Court used by one or more barristers
+      as an office and residence; now, the office of one or more barristers in
+      any building.
+    examples:
+      - text: "[B]e you mannerly to her, becauſe you are to pretend only to be her
+          Squire, to arm her to her Lavvyers Chambers; but I vvill be impudent
+          and baudy, for ſhe muſt love and marry me."
+      - text: "[…] I dismissed my coach at the gate, and tripped it down to my counsel's
+          chambers; for lawyer's fees take up too much of a small disputed
+          jointure to admit any other expenses but mere necessaries."
+concept: now
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chambers#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

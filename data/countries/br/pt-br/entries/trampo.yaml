@@ -1,0 +1,25 @@
+word: trampo
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtɾɐ̃.pu/
+part_of_speech: noun
+meanings:
+  - en: work; job
+    examples: []
+concept: work_verb
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/trampo#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

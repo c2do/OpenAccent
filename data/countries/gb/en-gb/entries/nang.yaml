@@ -1,0 +1,29 @@
+word: nang
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /næŋ/
+part_of_speech: adj
+meanings:
+  - en: excellent; awesome; masterful; deeply satisfying.
+    examples:
+      - text: That was well nang!
+      - text: The wings were seriously a peng ting. The chips were nang. Burger was sick
+          – the assembly was on point. The fillet was a serious ting – the
+          thickness was there. Bossman did well.
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nang#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

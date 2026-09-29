@@ -1,0 +1,25 @@
+word: colony
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkɒl.ə.ni/
+part_of_speech: noun
+meanings:
+  - en: An apartment complex or neighborhood.
+    examples:
+      - text: Our colony is quite small, but each apartment is large.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/colony#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

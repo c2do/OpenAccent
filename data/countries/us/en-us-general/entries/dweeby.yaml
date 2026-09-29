@@ -1,0 +1,28 @@
+word: dweeby
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: Like, or characteristic of, a dweeb; nerdy, uncool.
+    examples:
+      - text: THEY have no shame. That's my first reaction upon hearing that Candlestick
+          Park has been violated by some dweeby Silicon Valley techno-name.
+      - text: "\"Mother,\" Dominica whined, \"Oggie Cooder is the dweebiest dweeb to
+          ever walk the earth. I'll die of embarrassment if he comes to my
+          birthday party.\""
+concept: like
+register: vulgar
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dweeby#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

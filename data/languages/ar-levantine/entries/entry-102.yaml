@@ -1,0 +1,32 @@
+word: ب
+dialect: ar-levantine
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /b/
+part_of_speech: prep
+meanings:
+  - en: in, at, on
+    examples: []
+  - en: with, using
+    examples: []
+  - en: for (in return for)
+    examples: []
+  - en: times
+    examples:
+      - text: أربعة بتنين بيساوي تمانة
+        en: Four times two equals eight
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

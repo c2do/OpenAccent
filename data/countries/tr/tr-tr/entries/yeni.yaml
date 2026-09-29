@@ -1,0 +1,27 @@
+word: yeni
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /jeˈni/
+part_of_speech: adj
+meanings:
+  - en: new
+    examples: []
+  - en: recent
+    examples: []
+concept: new
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/yeni#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

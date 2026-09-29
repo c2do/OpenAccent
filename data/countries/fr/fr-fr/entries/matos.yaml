@@ -1,0 +1,33 @@
+word: matos
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ma.tos/
+part_of_speech: noun
+meanings:
+  - en: gear, stuff
+    examples:
+      - text: On a fait un groupe de hard-rock / On répète le soir dans une cave / Sur
+          des amplis un peu pourris / Sur du matos un peu chourave
+  - en: hashish
+    examples: []
+  - en: junk, genitalia
+    examples: []
+  - en: cunt, woman
+    examples: []
+concept: woman
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/matos#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

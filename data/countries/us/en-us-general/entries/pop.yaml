@@ -1,0 +1,30 @@
+word: pop
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pɒp/
+part_of_speech: noun
+meanings:
+  - en: A small, immature peanut, boiled as a snack.
+    examples:
+      - text: Immature peanuts, called "pops," are often included when the peanuts are
+          boiled at home […]
+      - text: If the peanuts weren't yet mature, boiling them would make the tiny
+          nuts—or “pops,” as they're called at that immature stage—swell up and
+          become more filling.
+concept: small
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pop#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

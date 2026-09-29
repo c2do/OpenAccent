@@ -1,0 +1,28 @@
+word: صام
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ṣām
+pronunciation:
+  ipa: /sˤɑːm/
+part_of_speech: verb
+meanings:
+  - en: to fast
+    examples:
+      - text: المسلمين يصوموا في شهر رمضان.
+        en: Muslims fast in the month of Ramadan.
+concept: fast
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B5%D8%A7%D9%85#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

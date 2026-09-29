@@ -1,0 +1,31 @@
+word: balèze
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ba.lɛz/
+part_of_speech: adj
+meanings:
+  - en: strong, powerful
+    examples:
+      - text: Ce mec est vraiment balèze!
+        en: That guy is really ripped!
+  - en: difficult
+    examples:
+      - text: Le dernier exercice était vraiment balèze !
+        en: The last exercise is really difficult!
+concept: hard
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bal%C3%A8ze#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

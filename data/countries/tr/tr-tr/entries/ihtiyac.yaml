@@ -1,0 +1,29 @@
+word: ihtiyaç
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ih.tiˈjat͡ʃ/
+part_of_speech: noun
+meanings:
+  - en: need
+    examples:
+      - text: Kardeşinin yardımına ihtiyacım yok.
+        en: I don't need your brother's help.
+      - text: Daha iyi bir sözlüğe ihtiyacınız var mı?
+        en: Do you need a better dictionary?
+concept: need
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ihtiya%C3%A7#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

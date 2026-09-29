@@ -1,0 +1,26 @@
+word: walk
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /wɔːk/
+part_of_speech: noun
+meanings:
+  - en: A cheque drawn on a bank that was not a member of the London Clearing and
+      whose sort code was allocated on a one-off basis; they had to be "walked"
+      (hand-delivered by messengers).
+    examples: []
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/walk#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

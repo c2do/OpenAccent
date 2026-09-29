@@ -1,0 +1,27 @@
+word: über
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈyːbɐ/
+part_of_speech: adj
+meanings:
+  - en: left over, remaining, replaces übrig in all its predicative instances,
+      including those lexicalized as verb prefixoids.
+    examples:
+      - text: Hier sind noch zwei Gurken über. Willst du die haben?
+        en: There's two cucumbers left here. Do you want them?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%BCber#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

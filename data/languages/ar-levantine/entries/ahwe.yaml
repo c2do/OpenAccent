@@ -1,0 +1,27 @@
+word: قهوة
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʔahwe
+pronunciation:
+  ipa: /ˈʔah.we/
+part_of_speech: noun
+meanings:
+  - en: coffee
+    examples: []
+  - en: café, coffee shop, coffeehouse
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D9%87%D9%88%D8%A9#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

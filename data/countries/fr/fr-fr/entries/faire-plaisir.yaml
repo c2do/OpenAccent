@@ -1,0 +1,28 @@
+word: faire plaisir
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fɛʁ plɛ.ziʁ/
+part_of_speech: verb
+meanings:
+  - en: to please, to do something nice for, to cheer up, to keep or make (someone)
+      happy
+    examples: []
+  - en: to indulge oneself, to give oneself a treat
+    examples: []
+concept: please
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/faire_plaisir#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: butcher's
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbʊtʃə(ɹ)z/
+part_of_speech: noun
+meanings:
+  - en: Synonym of butchershop.
+    examples: []
+  - en: A look (short form of butcher's hook)
+    examples:
+      - text: Gorblimey, would you ’ave a butcher’s at the bristols on this bird in the
+          currant bun!
+        en: Astonishing, look at this woman's breasts printed in The Sun!
+concept: see
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/butcher's#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

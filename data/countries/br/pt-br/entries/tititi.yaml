@@ -1,0 +1,27 @@
+word: tititi
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃi.t͡ʃiˈt͡ʃi/
+part_of_speech: noun
+meanings:
+  - en: gossip; talk, chatter
+    examples: []
+  - en: confusion, disorder
+    examples: []
+concept: talk
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tititi#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

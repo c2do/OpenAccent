@@ -1,0 +1,34 @@
+word: tits
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tɪts/
+part_of_speech: adj
+meanings:
+  - en: Very good; awesome; amazing.
+    examples:
+      - text: Ah, man, I dunno what you're talking about, to me, beef broccoli pizza is
+          tits!
+      - text: >-
+          2000, "The Tooth Fairy's Tats 2000" (season 4, episode 1), South Park
+
+          Eric Cartman: Yeah! This is so tits!
+
+          Ms. Cartman: Don't say "tits", Eric. Cartman: Oh, I mean this is so
+          cool!
+concept: cool
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tits#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

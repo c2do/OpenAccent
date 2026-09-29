@@ -1,0 +1,25 @@
+word: do one
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: To go away, to leave; to get lost.
+    examples:
+      - text: I am a northerner and if any daft apeth with a cob on wants to mither me
+          about my accent, they can do one.
+concept: leave
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/do_one#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

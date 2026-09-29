@@ -1,0 +1,28 @@
+word: जो
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - jo
+pronunciation:
+  ipa: /d͡ʒoː/
+part_of_speech: pron
+meanings:
+  - en: the relative pronoun:; who; whoever
+    examples:
+      - text: जिसको सेब चाहिये क्या वह अपना हाथ उठा सकता है?
+        en: Whoever wants an apple can they raise their hand?
+concept: who
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9C%E0%A5%8B#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

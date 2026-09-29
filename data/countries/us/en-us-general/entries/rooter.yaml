@@ -1,0 +1,28 @@
+word: rooter
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: One who roots for, or applauds, something.
+    examples:
+      - text: My oldest brother is a hefty twelve years older; we never quite bonded,
+          though he's always been my supporter—a real rooter for me in academic
+          studies.
+      - text: He was a rooter if there ever was one. His enthusiasm was at a boiling
+          heat all the time.
+concept: something
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rooter#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

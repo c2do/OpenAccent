@@ -1,0 +1,26 @@
+word: seed
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /siːd/
+part_of_speech: noun
+meanings:
+  - en: A child.
+    examples:
+      - text: Seeds know what time it is, like it's time for Teletubbies
+concept: child
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/seed#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: méndigo
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmendiɡo/
+meanings:
+  - en: despicable person
+    examples: []
+  - en: damned, fucking
+    examples:
+      - text: ¡No sueltes el méndigo volante!
+        en: Don't let go of the fucking steering wheel!
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/m%C3%A9ndigo#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

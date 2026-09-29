@@ -1,0 +1,30 @@
+word: ايه
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ē
+pronunciation:
+  ipa: /ʔeː/
+part_of_speech: pron
+meanings:
+  - en: what?
+    examples:
+      - text: اسمك ايه؟
+        en: What's your name?
+      - text: بتعمل ايه؟
+        en: What are you doing?
+concept: what
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%8A%D9%87#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

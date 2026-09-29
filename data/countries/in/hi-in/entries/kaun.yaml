@@ -1,0 +1,28 @@
+word: कौन
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kaun
+pronunciation:
+  ipa: /kɔːn/
+part_of_speech: pron
+meanings:
+  - en: who?
+    examples:
+      - text: कौन बोल रहे हैं?
+        en: Who is speaking?
+concept: who
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%8C%E0%A4%A8#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

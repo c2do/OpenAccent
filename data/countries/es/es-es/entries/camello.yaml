@@ -1,0 +1,26 @@
+word: camello
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kaˈmeʝo/
+part_of_speech: noun
+meanings:
+  - en: pusher, drug dealer
+    examples:
+      - text: Existe algún momento divertido enlas aventuras de este camello tardío.
+        en: There is some funny moment in the adventures of this late pusher.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/camello#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: treat
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tɹiːt/
+part_of_speech: verb
+meanings:
+  - en: To commit the offence of providing food, drink, entertainment or provision
+      to corruptly influence a voter.
+    examples: []
+concept: drink
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/treat#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

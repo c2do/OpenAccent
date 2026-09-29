@@ -1,0 +1,30 @@
+word: órale
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈoɾale/
+part_of_speech: intj
+meanings:
+  - en: let's go, come on, hurry (used to exhort)
+    examples: []
+  - en: oh my God, wow, whoa (indicates amazement, astonishment, excitement,
+      surprise, shock, fear)
+    examples: []
+  - en: yes, okay, alright (indicates approbation)
+    examples: []
+concept: lets_go
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%B3rale#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: خدمة
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ḵadma
+pronunciation:
+  ipa: /xad.ma/
+part_of_speech: noun
+meanings:
+  - en: work, job
+    examples: []
+concept: work_verb
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AE%D8%AF%D9%85%D8%A9#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

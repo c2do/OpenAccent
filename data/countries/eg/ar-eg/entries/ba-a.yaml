@@ -1,0 +1,37 @@
+word: بقا
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - baʔa
+  - baga
+pronunciation:
+  ipa: /baʔa/
+meanings:
+  - en: modal particle used for focus; often used at the end of questions, or to
+      express an objection or contrast, as well as other contexts
+    examples:
+      - text: ايه ده بقا؟
+        en: So what’s that? / What’s that, huh?
+  - en: so, then, now
+    examples:
+      - text: روحوا بقا
+        en: leave/go then/ aleady!
+  - en: however
+    examples:
+      - text: انا بفضل القسم الأدبي؛ بابايا بقا عايزني أخش طب
+        en: I prefer the arts sector; however, my dad wants me to go into medicine.
+concept: now
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D9%82%D8%A7#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

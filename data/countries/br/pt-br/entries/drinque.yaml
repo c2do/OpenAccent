@@ -1,0 +1,28 @@
+word: drinque
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdɾĩ.ki/
+part_of_speech: noun
+meanings:
+  - en: drink (a fancy alcoholic beverage)
+    examples:
+      - text: Planeje-se para assistir ao pôr do sol da Estação das Docas, curtindo o
+          vento e a brisa, e um happy hour com petiscos, drinques e chope
+          gelado, além do jantar mais tarde com direito a música ao vivo.
+concept: drink
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/drinque#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

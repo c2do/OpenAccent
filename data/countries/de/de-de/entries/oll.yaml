@@ -1,0 +1,31 @@
+word: oll
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɔl/
+part_of_speech: adj
+meanings:
+  - en: old, shabby (of things)
+    examples:
+      - text: Der olle Teppich hier müsste mal raus.
+        en: This shabby carpet needs to be thrown out.
+  - en: old (used as a mild expletive, mostly before names)
+    examples:
+      - text: der olle Herr Schmidt
+        en: old Mr. Schmidt
+concept: old_thing
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/oll#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

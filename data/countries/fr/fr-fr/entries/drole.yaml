@@ -1,0 +1,27 @@
+word: drôle
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dʁol/
+part_of_speech: noun
+meanings:
+  - en: child, kid, lad
+    examples:
+      - text: Qu’est-ce que tu en sais, mon pauvre drôle ?
+        en: What do you know about it, my poor little thing?
+concept: child
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dr%C3%B4le#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

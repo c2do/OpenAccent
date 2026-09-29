@@ -1,0 +1,37 @@
+word: make out
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /meɪk aʊt/
+part_of_speech: verb
+meanings:
+  - en: To manage, get along; to do (well, badly etc.).
+    examples:
+      - text: Oh, you were on a TV game show? How did you make out?
+      - text: Regarding money—I shall economize and make out probably very well from now
+          on—without any outside help.
+  - en: To get along with (someone).
+    examples:
+      - text: Him and I always make out well.
+  - en: To make an (often temporary) home.
+    examples:
+      - text: I'll make out in this room for the night.
+  - en: To embrace and kiss passionately.
+    examples:
+      - text: We found a secluded spot where we could make out in private.
+concept: do
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/make_out#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

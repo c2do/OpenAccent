@@ -1,0 +1,26 @@
+word: aula magna
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈaw.lɐ ˈma.ɡi.nɐ/
+part_of_speech: noun
+meanings:
+  - en: a talk, generally given by a professor or renowned authority in some area of
+      knowledge, at the beginning of the academic semester
+    examples: []
+concept: talk
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/aula_magna#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

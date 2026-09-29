@@ -1,0 +1,34 @@
+word: حول
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ḥōl
+  - ḥawal
+  - ḥawwal
+pronunciation:
+  ipa: /ħoːl/
+meanings:
+  - en: strength
+    examples:
+      - text: يا حول الله
+        en: by god’s strength!
+  - en: around
+    examples: []
+  - en: cross-eyed
+    examples: []
+  - en: to transform, to turn into
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D9%88%D9%84#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

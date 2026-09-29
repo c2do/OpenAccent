@@ -1,0 +1,26 @@
+word: you got it
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: phrase
+meanings:
+  - en: "As an answer to a request: sure, no problem."
+    examples: []
+  - en: "As an affirmative response to a question or statement: correct, that's
+      right, yes."
+    examples: []
+concept: no_problem
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/you_got_it#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

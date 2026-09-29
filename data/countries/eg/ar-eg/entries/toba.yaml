@@ -1,0 +1,27 @@
+word: توبة
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - tōba
+pronunciation:
+  ipa: /toː.ba/
+meanings:
+  - en: repentance
+    examples: []
+  - en: never
+    examples: []
+concept: never
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AA%D9%88%D8%A8%D8%A9#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

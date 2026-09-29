@@ -1,0 +1,23 @@
+word: two a penny
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: very common; cheap
+    examples: []
+concept: cheap
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/two_a_penny#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

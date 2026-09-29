@@ -1,0 +1,25 @@
+word: slab
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /slæb/
+part_of_speech: noun
+meanings:
+  - en: Any of the several portions or tiers in a tax rate plan.
+    examples:
+      - text: "Near-synonym: tax bracket"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/slab#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

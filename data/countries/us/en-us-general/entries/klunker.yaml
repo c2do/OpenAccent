@@ -1,0 +1,37 @@
+word: klunker
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: Alternative spelling of clunker; a dilapidated, worn-out, or noisy machine.;
+      A beat-up, unreliable car.
+    examples: []
+  - en: Alternative spelling of clunker; a dilapidated, worn-out, or noisy machine.;
+      A machine built purely out of necessity from salvaged, donated, or
+      outdated parts.
+    examples: []
+  - en: Alternative spelling of clunker; a dilapidated, worn-out, or noisy machine.;
+      (computing) A Franken-PC; a Frankensteined system thrown together using
+      mismatched or outdated leftover parts.
+    examples: []
+  - en: Alternative spelling of clunker; a dilapidated, worn-out, or noisy machine.;
+      An old, slow, or decrepit computer; a clunker.
+    examples:
+      - text: The Microsoft ME editor shipped with the MASM 5.0 also seems to be a
+          klunker.
+concept: old_thing
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/klunker#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

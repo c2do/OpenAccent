@@ -1,0 +1,30 @@
+word: herkönnen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhɛɐ̯ˌkœnən/
+part_of_speech: verb
+meanings:
+  - en: to be permitted or be able to move/[go]/come here (in direction towards the
+      speaker)
+    examples:
+      - text: Du kannst hier nicht her.
+        en: You can't come here.
+      - text: Sie haben sich gefreut, dass sie wieder herkönnen.
+        en: They were happy that they could come here again.
+concept: go
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/herk%C3%B6nnen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

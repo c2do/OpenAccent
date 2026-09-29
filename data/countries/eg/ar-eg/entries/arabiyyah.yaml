@@ -1,0 +1,30 @@
+word: عربية
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ʕarabiyyah
+pronunciation:
+  ipa: /ʕa.ra.bij.ja/
+part_of_speech: noun
+meanings:
+  - en: carriage, vehicle
+    examples: []
+  - en: araba, coach
+    examples: []
+  - en: automobile, car
+    examples: []
+concept: car
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

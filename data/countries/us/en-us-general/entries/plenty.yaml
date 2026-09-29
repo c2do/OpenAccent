@@ -1,0 +1,30 @@
+word: plenty
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈplɛnti/
+meanings:
+  - en: More than sufficiently.
+    examples:
+      - text: This office is plenty big enough for our needs.
+      - text: For the likes of her, the down-at-heels support of Hoboken pier was plenty
+          good enough.
+  - en: much, enough
+    examples:
+      - text: There'll be plenty time later for that
+concept: enough
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/plenty#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

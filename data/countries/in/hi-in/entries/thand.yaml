@@ -1,0 +1,30 @@
+word: ठंड
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ṭhaṇḍ
+pronunciation:
+  ipa: /ʈʰəɳɖ/
+part_of_speech: noun
+meanings:
+  - en: cold, coldness
+    examples:
+      - text: मुझे ठंड लग रही है।
+        en: I feel cold.
+  - en: the winter season
+    examples: []
+concept: cold
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A0%E0%A4%82%E0%A4%A1#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

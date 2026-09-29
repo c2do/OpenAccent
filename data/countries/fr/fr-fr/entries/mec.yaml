@@ -1,0 +1,33 @@
+word: mec
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /mɛk/
+part_of_speech: noun
+meanings:
+  - en: guy, fellow, bloke, chap, dude, boyfriend
+    examples:
+      - text: Quel mec a volé mon pantalon ?
+        en: Which guy stole my pants?
+  - en: "term of address between adult males: man, buddy, dude, bro, mate"
+    examples:
+      - text: Mec, t’as vu ça ?
+        en: Bro, did you see that?
+      - text: Hé mec ! Mec, comment t'épelles Paris ?
+        en: Hey dude! Dude, how do ya spell Paris?
+concept: buddy
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mec#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

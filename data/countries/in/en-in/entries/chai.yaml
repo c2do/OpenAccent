@@ -1,0 +1,27 @@
+word: chai
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃaɪ/
+part_of_speech: noun
+meanings:
+  - en: Any tea beverage, but especially milk tea, regardless of whether it is
+      spiced.
+    examples:
+      - text: We were drinking some chai — the ashram version — watered down, boring, no
+          spices, lots of water, just a smidgen of tea and even less milk.
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chai#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

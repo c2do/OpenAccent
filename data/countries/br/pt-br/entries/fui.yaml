@@ -1,0 +1,24 @@
+word: fui
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfuj/
+part_of_speech: intj
+meanings:
+  - en: a farewell
+    examples: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fui#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

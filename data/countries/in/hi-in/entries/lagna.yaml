@@ -1,0 +1,42 @@
+word: लगना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - lagnā
+pronunciation:
+  ipa: /ləɡ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to seem, appear
+    examples:
+      - text: मुझे लगता है कि आज बारिश होगी।
+        en: It seems to me that it will rain today.
+  - en: to be perceived
+    examples:
+      - text: मैं कैसी लग रही हूँ?
+        en: How do I look [to you]?
+  - en: to be hit, shoved
+    examples:
+      - text: चोट लगना
+        en: to get hurt
+      - text: गोली लगना
+        en: to be hit with a bullet
+  - en: to affix, apply
+    examples:
+      - text: तस्वीर इस दीवार पे लगनी चाहिए।
+        en: The photo should be placed on this wall.
+concept: take
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B2%E0%A4%97%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

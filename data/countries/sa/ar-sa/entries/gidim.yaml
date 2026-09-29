@@ -1,0 +1,33 @@
+word: قدم
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - gidim
+  - gaddam
+  - gudum
+pronunciation:
+  ipa: /ɡi.dim/
+meanings:
+  - en: to be old, to be ancient
+    examples: []
+  - en: to introduce (someone to someone else)
+    examples: []
+  - en: to set forth beforehand, to place at the front, to place at the head
+    examples: []
+  - en: to do earlier, to do beforehand
+    examples: []
+concept: give
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%AF%D9%85#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

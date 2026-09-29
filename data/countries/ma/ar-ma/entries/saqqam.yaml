@@ -1,0 +1,28 @@
+word: سقم
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - saqqam
+pronunciation:
+  ipa: /saq.qam/
+part_of_speech: verb
+meanings:
+  - en: to fix
+    examples: []
+  - en: to do
+    examples: []
+concept: do
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B3%D9%82%D9%85#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

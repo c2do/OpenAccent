@@ -1,0 +1,23 @@
+word: trampar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: to work
+    examples: []
+concept: work_verb
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/trampar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: कठिन
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kaṭhin
+pronunciation:
+  ipa: /kə.ʈʰɪn/
+part_of_speech: adj
+meanings:
+  - en: difficult, challenging, arduous
+    examples:
+      - text: प्रत्येक व्यक्ति को प्रसन्न करना बहुत कठिन है।
+        en: It is very difficult to please everybody.
+concept: hard
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%A0%E0%A4%BF%E0%A4%A8#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

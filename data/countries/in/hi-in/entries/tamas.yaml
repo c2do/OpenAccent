@@ -1,0 +1,33 @@
+word: तमस
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - tamas
+pronunciation:
+  ipa: /t̪ə.məs/
+meanings:
+  - en: dark colored, black, dark hued
+    examples: []
+  - en: darkness, gloom
+    examples:
+      - text: ज्ञान का प्रकाश ही अज्ञान के तमस को मिटा सकता है।
+        en: Only the light of knowledge can destroy the darkness of ignorance.
+  - en: ignorance
+    examples: []
+  - en: sin, wickedness
+    examples: []
+concept: fine
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A4%AE%E0%A4%B8#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

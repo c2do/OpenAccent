@@ -1,0 +1,27 @@
+word: sanki
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈsan.ci/
+part_of_speech: conj
+meanings:
+  - en: as if, like
+    examples:
+      - text: Cennetten gelen bir melekti sanki
+        en: As if she was an angel who came from heaven
+concept: like
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sanki#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: sévère
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /se.vɛːʁ/
+part_of_speech: adv
+meanings:
+  - en: really, for real, genuinely, truly
+    examples:
+      - text: Tu commences à me les briser sévère.
+        en: You're about to really piss me off.
+concept: really
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/s%C3%A9v%C3%A8re#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

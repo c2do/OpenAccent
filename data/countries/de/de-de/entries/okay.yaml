@@ -1,0 +1,30 @@
+word: okay
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /oˈkeː/
+part_of_speech: adj
+meanings:
+  - en: OK
+    examples:
+      - text: »Jakon Moormann. Deine Slides waren schon mal besser, aber du bist ein
+          ganz okayer Skater. Bist auch ein ganz okayer Kumpel. Und die Mädchen
+          finden dich superokay.«
+      - text: Die Firma Tiger of Sweden, die heute ihren Berliner Flagshipstore
+          eröffnet, macht voll okaye, insgesamt vollkommen egale Frauen- und
+          Männermode, wie sie in Flughafenboutiquen verkauft wird.
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/okay#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

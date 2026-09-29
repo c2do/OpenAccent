@@ -1,0 +1,26 @@
+word: piso
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpiso/
+part_of_speech: noun
+meanings:
+  - en: flat, apartment
+    examples: []
+  - en: sole
+    examples: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/piso#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

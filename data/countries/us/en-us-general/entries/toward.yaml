@@ -1,0 +1,32 @@
+word: toward
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /təˈwɔːd/
+meanings:
+  - en: Located close to; near (a time or place).
+    examples:
+      - text: Our place is over toward the station.
+      - text: I am toward nine years older since I left you, yet that is the least of my
+          alterations; […]
+  - en: Yielding, pliant; docile; ready or apt to learn; not froward.
+    examples: []
+  - en: Approaching, coming near; impending; present, at hand.
+    examples:
+      - text: Do you heare ought (Sir) of a Battell toward.
+concept: near
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/toward#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,47 @@
+word: gehen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡeːən/
+part_of_speech: verb
+meanings:
+  - en: to leave, to take off (aeroplane, train)
+    examples:
+      - text: Wann geht dein Zug?
+        en: When is your train leaving?
+  - en: to work, to function (of a machine, method or the like)
+    examples:
+      - text: Der Kaffeeautomat geht nicht.
+        en: The coffee dispenser doesn't work.
+      - text: Aber erst in Beirut lernte sie, wie professionelles Kochen geht, die
+          Logistik, das Timing, die Organisation, um mehrere Hundert Mahlzeiten
+          zuzubereiten.
+        en: But only in Beirut did she learn how professional cooking works, the
+          logistics, the timing, the organization for preparing several hundred
+          meals.
+  - en: to last, to go for, to go on, to be in progress
+    examples:
+      - text: Das ging für eine halbe Stunde oder so.
+        en: This went on for half an hour or so.
+      - text: Die Sitzung geht bis ein Uhr.
+        en: The session is scheduled until one o’clock.
+  - en: to be (on); to be paid for (by)
+    examples:
+      - text: Die Getränke gehen auf mich.
+        en: Drinks are on me.
+concept: leave
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gehen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

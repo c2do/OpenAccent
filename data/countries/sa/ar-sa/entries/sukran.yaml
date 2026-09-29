@@ -1,0 +1,26 @@
+word: شكرا
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - šukran
+pronunciation:
+  ipa: /ʃuk.ran/
+part_of_speech: intj
+meanings:
+  - en: thanks, thank you
+    examples: []
+concept: thanks
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D9%83%D8%B1%D8%A7#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

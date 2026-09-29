@@ -1,0 +1,36 @@
+word: مشى
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - mša
+pronunciation:
+  ipa: /mʃa/
+part_of_speech: verb
+meanings:
+  - en: to walk
+    examples:
+      - text: مشيت فهاد الزنقة.
+        en: I walked in this street.
+  - en: to go
+    examples:
+      - text: مشيت للسوق باش نشري ما ناكل.
+        en: I went to the market to buy something to eat.
+  - en: to leave
+    examples:
+      - text: مشى من هنا كيجري.
+        en: He left from here running.
+concept: go
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%B4%D9%89#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

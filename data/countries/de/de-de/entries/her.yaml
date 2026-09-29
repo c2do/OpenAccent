@@ -1,0 +1,26 @@
+word: her
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /heːr/
+part_of_speech: adv
+meanings:
+  - en: along, on this way
+    examples:
+      - text: Wo gehen wir her?
+        en: Which way to do we go?
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/her#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

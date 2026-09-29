@@ -1,0 +1,26 @@
+word: بحلق
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - baḥlag
+pronunciation:
+  ipa: /baħ.laɡ/
+part_of_speech: verb
+meanings:
+  - en: to look
+    examples: []
+concept: see
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%AD%D9%84%D9%82#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

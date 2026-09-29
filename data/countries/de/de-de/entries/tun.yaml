@@ -1,0 +1,45 @@
+word: tun
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tuːn/
+part_of_speech: verb
+meanings:
+  - en: to pretend, to play-act
+    examples:
+      - text: Er hat nur so getan.
+        en: He just faked it.
+      - text: Er tut, als ob er nichts wüsste.
+        en: He pretends to know nothing.
+  - en: to put, to place, to add (especially of smaller objects or ingredients)
+    examples:
+      - text: Tu das hier rein.
+        en: Put it in here.
+      - text: Ich würde noch was Salz an die Kartoffeln tun.
+        en: I'd add some more salt to the potatoes.
+  - en: to work, to function
+    examples:
+      - text: Die Uhr tut’s nicht mehr.
+        en: The clock doesn’t work anymore.
+  - en: to make a difference; to be different
+    examples:
+      - text: Tut sich das viel?
+        en: Does that make much of a difference?
+      - text: Die beiden Kameras tun sich nichts.
+        en: The two cameras are no different [i.e. neither better than the other].
+concept: work_verb
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tun#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: hergehen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈheːrˌɡeːən/
+part_of_speech: verb
+meanings:
+  - en: to go along (a path), to take (a route)
+    examples:
+      - text: Wo sind wir denn letztes Mal hergegangen?
+        en: Which way did we take last time?
+concept: take
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hergehen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

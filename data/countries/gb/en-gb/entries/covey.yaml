@@ -1,0 +1,28 @@
+word: covey
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkəʊvi/
+part_of_speech: noun
+meanings:
+  - en: A male person, a man; a chap, a chappie.
+    examples:
+      - text: I don't know what would become of these here young chaps, if it wasn't for
+          such careful old coveys as we are— […]
+      - text: Hullo! my covey, what's the row?
+concept: man
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/covey#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,34 @@
+word: قبيح
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - qbīḥ
+pronunciation:
+  ipa: /qbiːħ/
+part_of_speech: adj
+meanings:
+  - en: ugly
+    examples:
+      - text: هاد الدار قبيحة
+        en: this house is ugly
+  - en: infamous
+    examples: []
+  - en: abominable
+    examples: []
+  - en: bad
+    examples: []
+concept: bad
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%A8%D9%8A%D8%AD#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

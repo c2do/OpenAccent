@@ -1,0 +1,26 @@
+word: goose egg
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: Zero; nothing.
+    examples:
+      - text: I missed every question on the quiz and got a goose egg.
+      - text: Grandmaster and grand duffer alike prefer the all-important point to the
+          ignominious goose egg.
+concept: nothing
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/goose_egg#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

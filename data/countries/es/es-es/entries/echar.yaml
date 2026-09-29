@@ -1,0 +1,33 @@
+word: echar
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /eˈt͡ʃaɾ/
+part_of_speech: verb
+meanings:
+  - en: to take (a nap)
+    examples:
+      - text: Cuando llegue a casa me voy a echar una siesta que no veas.
+        en: When I get home I'm going to take a nap so fat you couldn't even imagine.
+  - en: lie, lie down (on a bed, etc.)
+    examples: []
+  - en: sleep, take a nap
+    examples:
+      - text: Deberías echarte un rato que te veo cansado.
+        en: You should sleep for a bit. You look tired.
+concept: take
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/echar#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

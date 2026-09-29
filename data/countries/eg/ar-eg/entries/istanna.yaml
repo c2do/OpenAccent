@@ -1,0 +1,24 @@
+word: استنى
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - istanna
+part_of_speech: verb
+meanings:
+  - en: to wait (for)
+    examples: []
+concept: wait
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D8%AA%D9%86%D9%89#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: chouïa
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʃu.ja/
+part_of_speech: adv
+meanings:
+  - en: little, bit
+    examples:
+      - text: Moi, déclara Zazie, je veux aller à l'école jusqu'à soixante-cinq ans. −
+          Jusqu'à soixante-cinq ans? répéta Gabriel un chouïa surpris.
+        en: "\"I want to go to school until I'm sixty-five,\" announced Zazie. \"Until
+          you're sixty-five?\" repeated Gabriel, a tad surprised."
+concept: a_little
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chou%C3%AFa#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

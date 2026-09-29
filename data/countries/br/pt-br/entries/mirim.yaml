@@ -1,0 +1,32 @@
+word: mirim
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /miˈɾĩ/
+meanings:
+  - en: tiny, little, wee; often in compound animal names of Tupi origin
+    examples: []
+  - en: childish (having childlike, juvenile characteristics)
+    examples: []
+  - en: suitable for children or made for them
+    examples:
+      - text: a escola tem um jardim mirim
+        en: the school has a kindergarten
+  - en: a category for players in the 14-year age group
+    examples: []
+concept: a_little
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mirim#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

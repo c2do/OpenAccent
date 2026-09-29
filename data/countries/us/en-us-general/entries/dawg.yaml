@@ -1,0 +1,28 @@
+word: dawg
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dɔːɡ/
+part_of_speech: noun
+meanings:
+  - en: Term of address for a close, usually male, friend.
+    examples:
+      - text: Sup, dawg?
+      - text: All up in my phone, lookin' at pictures from the other night / She gon' be
+          upset if she keep scrollin' to the left, dawg
+concept: friend
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dawg#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

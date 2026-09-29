@@ -1,0 +1,25 @@
+word: collaborative creation
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A form of theater where the script is not written in advance, but develops
+      from collaborative, usually improvisatory, work, often by the performers
+      themselves.
+    examples: []
+concept: work_verb
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/collaborative_creation#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

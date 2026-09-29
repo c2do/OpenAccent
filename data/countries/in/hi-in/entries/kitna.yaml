@@ -1,0 +1,30 @@
+word: कितना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kitnā
+pronunciation:
+  ipa: /kɪt̪.nɑː/
+part_of_speech: det
+meanings:
+  - en: how much
+    examples: []
+  - en: such, how
+    examples:
+      - text: वह कितना अच्छा बेटा है!
+        en: He is such a wonderful son!
+concept: how_much
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BF%E0%A4%A4%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

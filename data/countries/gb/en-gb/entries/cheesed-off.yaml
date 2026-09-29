@@ -1,0 +1,27 @@
+word: cheesed off
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: Annoyed, upset, angry.
+    examples:
+      - text: I'm really cheesed off about the lack of hand dryers in this washroom!
+      - text: You have no reason to be mad at me. I mean, you know, you broke my heart.
+          I should be royally ticked off at you, you know. I should be really
+          cheesed off. I shouldn’t wanna talk to you anymore.
+concept: angry
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cheesed_off#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

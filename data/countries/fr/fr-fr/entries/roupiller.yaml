@@ -1,0 +1,28 @@
+word: roupiller
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʁu.pi.je/
+part_of_speech: verb
+meanings:
+  - en: to (get some) sleep, to kip
+    examples:
+      - text: Si lassé des voisins qui roupillent / Par la vitre baissée, tu te
+          dessilles / En comptant les points d'or de la nuit / E Pericoloso
+          Sporgersi
+concept: sleep
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/roupiller#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

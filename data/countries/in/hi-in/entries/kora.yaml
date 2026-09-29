@@ -1,0 +1,32 @@
+word: कोरा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - korā
+pronunciation:
+  ipa: /koː.ɾɑː/
+part_of_speech: adj
+meanings:
+  - en: blank, empty; unused, new
+    examples: []
+  - en: flat out, complete, thorough
+    examples:
+      - text: उसने बिना सोचके मुझको कोरा झूठ कहा।
+        en: He thoughtlessly told me a flat out lie.
+  - en: senseless, meaningless
+    examples: []
+concept: new
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%8B%E0%A4%B0%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

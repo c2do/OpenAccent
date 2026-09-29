@@ -1,0 +1,29 @@
+word: goodo
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+part_of_speech: intj
+meanings:
+  - en: Good; used to show approval or satisfaction.
+    examples:
+      - text: >-
+          “Now we′re cooking! It works!” crowed Bob. “And now before it grows
+          dark let′s pour it off into our storage tanks.”
+
+          “Goodo, Bob. We rich now!” Ebony gloated.
+      - text: “Goodo,” Picnic said, blinking. “Man, look at the quail.”
+concept: good
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/goodo#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import
