@@ -85,6 +85,9 @@ function push(index: Index, key: string, ix: IndexedEntry) {
 
 const collator = new Intl.Collator();
 
+/** Every meaning of the entry is labelled vulgar, sexual, offensive or slur. */
+export const isFullySensitive = (e: BundledEntry) => e.meanings.length > 0 && e.meanings.every((m) => m.sensitive.length > 0);
+
 function levenshtein(a: string, b: string): number {
   const row = Array.from({ length: b.length + 1 }, (_, i) => i);
   for (let i = 1; i <= a.length; i++) {
@@ -346,7 +349,8 @@ export class Dictionary {
     const out: { concept: string; gloss: string; entries: BundledEntry[] }[] = [];
     for (const [concept, c] of Object.entries(this.bundle.concepts ?? {})) {
       const matches = (this.byConcept.get(concept) ?? [])
-        .filter((ix) => branch.includes(ix.entry.dialect))
+        // Core words go into briefings and prompts: never a word that is vulgar or offensive in every sense.
+        .filter((ix) => branch.includes(ix.entry.dialect) && !isFullySensitive(ix.entry))
         .map((ix) => ({ entry: ix.entry, match: 'exact' as const, inherited: ix.entry.dialect !== dialect }));
       if (matches.length) out.push({ concept, gloss: c.en, entries: this.rank(matches, branch).map((m) => m.entry) });
     }

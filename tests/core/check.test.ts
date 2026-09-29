@@ -107,4 +107,19 @@ describe('checkReply', () => {
     const r = checkReply(dict, memory, 'اعمل على قد ما بتقدر يا زلمة', 'ar-ps-fallahi');
     expect(r.issues).toEqual([expect.objectContaining({ kind: 'correction', text: 'على قد ما بتقدر يا زلمة' })]);
   });
+
+  it('flags a word that is vulgar or offensive in every sense, in chat', () => {
+    const r = checkReply(dict, empty, 'يا شرموطة', 'ar-ps-fallahi');
+    expect(r.issues).toEqual([expect.objectContaining({ text: 'شرموطة', kind: 'sensitive' })]);
+    expect(r.issues[0]!.reason).toMatch(/offensive, sexual.*unless the user does/);
+  });
+
+  it('lets stories, songs and scripts swear, but never use a slur unprompted', () => {
+    expect(checkReply(dict, empty, 'يا شرموطة', 'ar-ps-fallahi', { purpose: 'story' }).issues).toEqual([]);
+    const slurDict = new Dictionary({
+      ...fixtureBundle(),
+      entries: [...fixtureBundle().entries, { ...fixtureBundle().entries[0]!, id: 'ar-eg/slur', dialect: 'ar-eg', word: 'عبد', spellings: [], meanings: [{ en: 'a slur', examples: [], sensitive: ['slur'] }] }],
+    });
+    expect(checkReply(slurDict, empty, 'عبد', 'ar-ps-fallahi', { purpose: 'song' }).issues[0]?.kind).toBe('sensitive');
+  });
 });

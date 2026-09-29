@@ -12,12 +12,12 @@ import { pathToFileURL } from 'node:url';
 import type { Bundle, BundledEntry } from '../src/core/bundle.js';
 import { buildBundle } from './build-data.js';
 import { conceptFor, conceptIndex, WAVE_1 } from './import-wiktextract.js';
-import { BARE_CLITICS, FUNCTION_POS, isSensitive, letterCount } from './quality.js';
+import { BARE_CLITICS, FUNCTION_POS, letterCount, sensitiveLabels } from './quality.js';
 
-export type FindingKind = 'sensitive' | 'too_short' | 'function_word' | 'concept_mismatch' | 'crowded_concept';
+export type FindingKind = 'unlabeled_sensitive' | 'too_short' | 'function_word' | 'concept_mismatch' | 'crowded_concept';
 
 /** Findings that must never reach main in unreviewed data. */
-export const BLOCKING: FindingKind[] = ['sensitive', 'too_short'];
+export const BLOCKING: FindingKind[] = ['unlabeled_sensitive', 'too_short'];
 
 export interface Finding {
   kind: FindingKind;
@@ -32,6 +32,8 @@ export interface DialectAudit {
   verified: number;
   /** Distinct core concepts this dialect's own entries cover. */
   concepts: number;
+  /** Entries with at least one meaning labelled vulgar, sexual, offensive or slur. */
+  sensitive: number;
   findings: Finding[];
 }
 
@@ -52,8 +54,10 @@ export function auditBundle(bundle: Bundle, dialects?: string[]): DialectAudit[]
 
     for (const e of own) {
       if (!unreviewed(e)) continue;
-      const glosses = e.meanings.flatMap((m) => [m.en, m.ar]).filter((g): g is string => Boolean(g));
-      if (e.register === 'vulgar' || isSensitive({ glosses })) add('sensitive', e, glosses.join(' | ').slice(0, 120));
+      for (const m of e.meanings) {
+        const needed = sensitiveLabels({ glosses: [m.en, m.ar].filter((g): g is string => Boolean(g)) });
+        if (needed.length > 0 && m.sensitive.length === 0) add('unlabeled_sensitive', e, `looks ${needed.join('/')}: ${(m.en ?? m.ar ?? '').slice(0, 100)}`);
+      }
       if (letterCount(e.word) < 2 || BARE_CLITICS.has(e.word)) add('too_short', e, 'a single letter or a bare clitic');
       if (e.part_of_speech && FUNCTION_POS.has(e.part_of_speech) && !e.concept && !keepFunctionWords.has(dialect)) {
         add('function_word', e, `part of speech: ${e.part_of_speech}`);
@@ -78,6 +82,7 @@ export function auditBundle(bundle: Bundle, dialects?: string[]): DialectAudit[]
       entries: own.length,
       verified: own.filter((e) => e.status === 'verified').length,
       concepts: perConcept.size,
+      sensitive: own.filter((e) => e.meanings.some((m) => m.sensitive.length > 0)).length,
       findings,
     };
   });
@@ -88,13 +93,13 @@ export function renderAudit(audits: DialectAudit[], totalConcepts: number): stri
   const lines = [
     '# Data audit',
     '',
-    '| Dialect | Entries | Verified | Core concepts | Sensitive | Too short | Function words | Concept mismatch | Crowded concepts |',
-    '|---|---|---|---|---|---|---|---|---|',
+    '| Dialect | Entries | Verified | Core concepts | Labelled sensitive | Unlabelled sensitive | Too short | Function words | Concept mismatch | Crowded concepts |',
+    '|---|---|---|---|---|---|---|---|---|---|',
     ...audits
       .filter((a) => a.entries > 0)
       .map(
         (a) =>
-          `| ${a.dialect} | ${a.entries} | ${a.verified} | ${a.concepts}/${totalConcepts} | ${count(a, 'sensitive')} | ${count(a, 'too_short')} | ${count(a, 'function_word')} | ${count(a, 'concept_mismatch')} | ${count(a, 'crowded_concept')} |`,
+          `| ${a.dialect} | ${a.entries} | ${a.verified} | ${a.concepts}/${totalConcepts} | ${a.sensitive} | ${count(a, 'unlabeled_sensitive')} | ${count(a, 'too_short')} | ${count(a, 'function_word')} | ${count(a, 'concept_mismatch')} | ${count(a, 'crowded_concept')} |`,
       ),
   ];
   for (const a of audits) {

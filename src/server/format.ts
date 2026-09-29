@@ -9,7 +9,8 @@ const statusLabel = (e: BundledEntry) =>
 export function formatEntry(e: BundledEntry, extra = ''): string {
   const lines = [`**${e.word}** — \`${e.id}\` · ${statusLabel(e)}${extra}`];
   for (const m of e.meanings) {
-    lines.push(`- ${[m.en, m.ar].filter(Boolean).join(' / ')}`);
+    const warning = m.sensitive.length ? ` ⚠ ${m.sensitive.join(', ')}: never use it unless the user does` : '';
+    lines.push(`- ${[m.en, m.ar].filter(Boolean).join(' / ')}${warning}`);
     for (const ex of m.examples) lines.push(`  - e.g. ${ex.text}${ex.en ? ` (${ex.en})` : ''}`);
   }
   const facts = [

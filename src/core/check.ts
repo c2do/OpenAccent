@@ -1,5 +1,6 @@
 export type { CheckResult, IssueKind, ReplyIssue } from './results.js';
 import type { BundledEntry } from './bundle.js';
+import { isFullySensitive } from './dictionary.js';
 import type { Dictionary } from './dictionary.js';
 import { languageOf } from './normalize.js';
 import type { CheckResult, ReplyIssue } from './results.js';
@@ -56,6 +57,20 @@ export function checkReply(
     const entries = dict.findByForm(form, dialect);
     if (entries.length === 0) return undefined;
     const mine = entries.filter((e) => branch.includes(e.dialect));
+
+    // Vulgar or offensive in every sense? Stories, songs and scripts may swear; nothing uses a slur unprompted.
+    const relevant = mine.length > 0 ? mine : entries;
+    if (relevant.every(isFullySensitive)) {
+      const labels = [...new Set(relevant.flatMap((e) => e.meanings.flatMap((m) => m.sensitive)))].sort();
+      const creative = purpose === 'story' || purpose === 'song' || purpose === 'script';
+      if (!creative || labels.includes('slur')) {
+        return {
+          text: form,
+          kind: 'sensitive',
+          reason: `This word is ${labels.join(', ')}. Don't use it unless the user does.`,
+        };
+      }
+    }
     const writtenInBranch = mine.some((e) => norm(e.word) === form);
 
     // Written the way it's pronounced (e.g. تشيف for كيف)? Wrong in any dialect's writing.

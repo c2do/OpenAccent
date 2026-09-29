@@ -59,11 +59,20 @@ const ExampleSchema = z.object({
   ar: z.string().optional(),
 });
 
+/**
+ * Labels for meanings a model must never use on its own: the words stay in the dictionary (people
+ * say them, and users ask what they mean), but OpenAccent keeps them out of briefings and flags
+ * them in replies.
+ */
+export const SensitiveLabelSchema = z.enum(['vulgar', 'sexual', 'offensive', 'slur']);
+export type SensitiveLabel = z.infer<typeof SensitiveLabelSchema>;
+
 const MeaningSchema = z
   .object({
     ar: z.string().min(1).optional(),
     en: z.string().min(1).optional(),
     examples: z.array(ExampleSchema).default([]),
+    sensitive: z.array(SensitiveLabelSchema).default([]),
   })
   .refine((m) => m.ar !== undefined || m.en !== undefined, {
     message: 'Each meaning needs at least an "ar" or an "en" gloss',

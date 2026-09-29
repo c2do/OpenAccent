@@ -63,6 +63,12 @@ describe('openaccent_lookup', () => {
     expect(r.text).toContain('👤 User dialect: ar-ps-fallahi');
   });
 
+  it('shows the sensitive label on a vulgar meaning', async () => {
+    const r = await h.call('openaccent_lookup', { query: 'شرموطة' });
+    expect(r.text).toMatch(/⚠ offensive, sexual: never use it unless the user does/);
+    expect(r.data.items[0].meanings[0].sensitive).toEqual(['offensive', 'sexual']);
+  });
+
   it('explains an empty result', async () => {
     const r = await h.call('openaccent_lookup', { query: 'غريبة', dialect: 'ar-ps-fallahi' });
     expect(r.data.total).toBe(0);

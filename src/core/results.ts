@@ -8,7 +8,7 @@
 import { z } from 'zod';
 import { ISSUE_FIELD_IDS } from './links.js';
 import { MemorySchema } from './memory/types.js';
-import { DialectIdSchema, PurposeSchema } from './schema.js';
+import { DialectIdSchema, PurposeSchema, SensitiveLabelSchema } from './schema.js';
 
 // --- Building blocks ---------------------------------------------------------------------
 
@@ -43,6 +43,8 @@ export const EntryDataSchema = z.strictObject({
       ar: z.string().optional(),
       en: z.string().optional(),
       examples: z.array(z.strictObject({ text: z.string(), en: z.string().optional(), ar: z.string().optional() })),
+      /** Never use this meaning unless the user does. */
+      sensitive: z.array(SensitiveLabelSchema),
     }),
   ),
   pronunciation: z.strictObject({ simple: z.string().optional(), ipa: z.string().optional() }).optional(),
@@ -57,7 +59,7 @@ export const MatchKindSchema = z.enum(['exact', 'normalized', 'fuzzy', 'romanize
 
 // --- check_reply -------------------------------------------------------------------------
 
-export const IssueKindSchema = z.enum(['correction', 'personal_word', 'pronunciation', 'other_dialect', 'rare', 'dated']);
+export const IssueKindSchema = z.enum(['correction', 'personal_word', 'sensitive', 'pronunciation', 'other_dialect', 'rare', 'dated']);
 export type IssueKind = z.infer<typeof IssueKindSchema>;
 
 export const ReplyIssueSchema = z

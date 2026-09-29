@@ -15,7 +15,8 @@ import { pathToFileURL } from 'node:url';
 import { stringify } from 'yaml';
 import { loadRawData } from '../src/core/data-loader.js';
 import { normalize, type NormalizeOptions } from '../src/core/normalize.js';
-import { BARE_CLITICS, FUNCTION_POS, isSensitive, letterCount } from './quality.js';
+import { BARE_CLITICS, FUNCTION_POS, letterCount, sensitiveLabels } from './quality.js';
+import type { SensitiveLabel } from '../src/core/schema.js';
 import { EntrySchema, type Entry } from '../src/core/schema.js';
 
 export interface DialectImport {
@@ -116,8 +117,10 @@ interface KaikkiEntry {
 
 interface Candidate {
   word: string;
-  meanings: { en: string; examples: { text: string; en?: string }[] }[];
+  meanings: { en: string; examples: { text: string; en?: string }[]; sensitive: SensitiveLabel[] }[];
   tags: Set<string>;
+  /** Tags of the ordinary (not sensitive) senses: they set the word's register. */
+  ordinaryTags: Set<string>;
   allRare: boolean;
   allDated: boolean;
   ipa?: string;
@@ -199,8 +202,6 @@ export function conceptFor(_word: string, sense: Sense, _cfg: DialectImport, con
   return undefined;
 }
 
-export { isSensitive };
-
 /** Selects the senses a dialect wants from one kaikki entry. */
 export function selectSenses(entry: KaikkiEntry, cfg: DialectImport, concepts?: ConceptIndex): Sense[] {
   if (SKIP_POS.has(entry.pos)) return [];
@@ -210,7 +211,6 @@ export function selectSenses(entry: KaikkiEntry, cfg: DialectImport, concepts?: 
     const tags = s.tags ?? [];
     if (!s.glosses?.length || s.form_of || s.alt_of) return false;
     if (tags.some((t) => SKIP_TAGS.has(t) || cfg.excludeTags?.includes(t))) return false;
-    if (isSensitive(s)) return false;
     if (s.glosses.every((g) => GRAMMAR_GLOSS.test(g.trim()))) return false;
     if (FUNCTION_POS.has(entry.pos) && !cfg.keepFunctionWords && !conceptFor(entry.word, s, cfg, concepts, entry.pos)) return false;
     if (!cfg.regionTags) return true;
@@ -253,6 +253,7 @@ export async function collect(lines: AsyncIterable<string> | Iterable<string>, c
         word: entry.word,
         meanings: [],
         tags: new Set(),
+        ordinaryTags: new Set(),
         allRare: true,
         allDated: true,
         romanized: new Set(),
@@ -269,7 +270,10 @@ export async function collect(lines: AsyncIterable<string> | Iterable<string>, c
         if (!tags.includes('rare')) c.allRare = false;
         if (!tags.includes('dated')) c.allDated = false;
         if (tags.some((t) => EVERYDAY_TAGS.includes(t))) c.everyday = true;
-        c.concept ??= conceptFor(entry.word, s, cfg, concepts, entry.pos);
+        const sensitive = sensitiveLabels(s);
+        if (sensitive.length === 0) tags.forEach((t) => c.ordinaryTags.add(t));
+        // A vulgar or offensive sense never stands for a core concept: core words go into briefings.
+        if (sensitive.length === 0) c.concept ??= conceptFor(entry.word, s, cfg, concepts, entry.pos);
         const en = s.glosses!.join('; ');
         if (c.meanings.some((m) => m.en === en)) continue;
         // Only Wiktionary's own usage examples; quotations from books and papers are left out.
@@ -277,7 +281,7 @@ export async function collect(lines: AsyncIterable<string> | Iterable<string>, c
           .filter((e) => e.text && e.type !== 'quote' && e.text.length <= 200 && isRealExample(e.text))
           .slice(0, 2)
           .map((e) => ({ text: e.text!, ...((e.english ?? e.translation) ? { en: (e.english ?? e.translation)! } : {}) }));
-        c.meanings.push({ en, examples });
+        c.meanings.push({ en, examples, sensitive });
       }
       map.set(entry.word, c);
     }
@@ -363,9 +367,14 @@ export function toEntries(
       romanized,
       ...(c.ipa ? { pronunciation: { ipa: c.ipa } } : {}),
       ...(c.pos.size === 1 ? { part_of_speech: [...c.pos][0] } : {}),
-      meanings: c.meanings.slice(0, 4).map((m) => ({ en: m.en, examples: m.examples })),
+      // Ordinary meanings first, so a word's everyday sense is what readers see first.
+      meanings: [...c.meanings]
+        .sort((a, b) => Number(a.sensitive.length > 0) - Number(b.sensitive.length > 0))
+        .slice(0, 4)
+        .map((m) => ({ en: m.en, examples: m.examples, ...(m.sensitive.length ? { sensitive: m.sensitive } : {}) })),
       ...(c.concept ? { concept: c.concept } : {}),
-      register: registerFrom(c.tags),
+      // A word with an everyday sense keeps that sense's register; only words that are vulgar in every sense are "vulgar".
+      register: c.meanings.every((m) => m.sensitive.length > 0) ? 'vulgar' : registerFrom(c.ordinaryTags),
       familiarity: c.allDated ? 'dated' : c.allRare ? 'rare' : 'common',
       status: 'draft',
       source: {

@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { collect, conceptFor, conceptIndex, isRealExample, isSensitive, kaikkiUrl, readFrequency, selectSenses, toEntries, WAVE_1 } from '../../scripts/import-wiktextract.js';
+import { sensitiveLabels } from '../../scripts/quality.js';
+import { collect, conceptFor, conceptIndex, isRealExample, kaikkiUrl, readFrequency, selectSenses, toEntries, WAVE_1 } from '../../scripts/import-wiktextract.js';
 
 const esMx = WAVE_1.find((c) => c.dialect === 'es-mx')!;
 const arEg = WAVE_1.find((c) => c.dialect === 'ar-eg')!;
@@ -206,17 +207,36 @@ describe('safety and precision (review of import run 36565047004)', () => {
   const de = WAVE_1.find((c) => c.dialect === 'de-de')!;
   const en = (o: { word: string; pos?: string; senses: object[] }) => ({ lang: 'English', pos: 'noun', ...o });
 
-  it('never imports offensive, sexual or slur senses', () => {
-    expect(selectSenses(en({ word: 'slant', senses: [{ glosses: ['An East Asian person.'], tags: ['US', 'ethnic', 'slur'] }] }), enUs)).toEqual([]);
-    expect(selectSenses({ lang: 'Spanish', word: 'tirar', pos: 'verb', senses: [{ glosses: ['to fuck'], tags: ['Spain', 'slang'] }] }, esEs)).toEqual([]);
-    expect(selectSenses({ lang: 'Spanish', word: 'manada', pos: 'noun', senses: [{ glosses: ['gang of rapists'], tags: ['Spain', 'slang'] }] }, esEs)).toEqual([]);
-    expect(isSensitive({ glosses: ['to have sex'] })).toBe(true);
-    expect(isSensitive({ glosses: ['a dated term for an Indian person'], tags: ['derogatory'] })).toBe(true);
+  it('imports offensive, sexual and slur senses, labelled', async () => {
+    const lines = [
+      en({ word: 'slant', senses: [{ glosses: ['An East Asian person.'], tags: ['US', 'ethnic', 'slur'] }] }),
+    ].map((o) => JSON.stringify(o));
+    const [slant] = toEntries((await collect(lines, [enUs])).get('en-us-general')!, enUs, { limit: 5 });
+    expect(slant?.entry).toMatchObject({ word: 'slant', register: 'vulgar', meanings: [{ sensitive: ['slur'] }] });
+    expect(sensitiveLabels({ glosses: ['to fuck'] })).toEqual(['sexual']);
+    expect(sensitiveLabels({ glosses: ['gang of rapists'] })).toEqual(['sexual']);
+    expect(sensitiveLabels({ glosses: ['a term for an Indian person'], tags: ['derogatory'] })).toEqual(['offensive']);
+    expect(sensitiveLabels({ glosses: ['bus'], tags: ['Mexico'] })).toEqual([]);
   });
 
-  it('keeps the harmless senses of a word that also has a vulgar one', () => {
-    const tio = { lang: 'Spanish', word: 'tío', pos: 'noun', senses: [{ glosses: ['dude, guy'], tags: ['Spain', 'colloquial'] }, { glosses: ['penis'], tags: ['Spain', 'vulgar'] }] };
-    expect(selectSenses(tio, esEs).map((s) => s.glosses)).toEqual([['dude, guy']]);
+  it('keeps the everyday sense first and its register; a vulgar sense never links a core concept', async () => {
+    const tio = JSON.stringify({
+      lang: 'Spanish',
+      word: 'tío',
+      pos: 'noun',
+      senses: [
+        { glosses: ['penis'], tags: ['Spain', 'vulgar'] },
+        { glosses: ['dude, guy'], tags: ['Spain', 'colloquial'] },
+      ],
+    });
+    const polla = JSON.stringify({ lang: 'Spanish', word: 'polla', pos: 'noun', senses: [{ glosses: ['penis'], tags: ['Spain', 'vulgar'] }] });
+    const concepts = conceptIndex({ buddy: { en: 'dude, guy', category: 'people' }, penis: { en: 'penis', category: 'things' } });
+    const out = toEntries((await collect([tio, polla], [esEs], concepts)).get('es-es')!, esEs, { limit: 5 });
+    const byWord = Object.fromEntries(out.map((o) => [o.entry.word, o.entry]));
+    expect(byWord['tío']).toMatchObject({ register: 'casual', concept: 'buddy' });
+    expect(byWord['tío']!.meanings.map((m) => m.sensitive)).toEqual([[], ['sexual', 'vulgar']]);
+    expect(byWord['polla']).toMatchObject({ register: 'vulgar' });
+    expect(byWord['polla']!.concept).toBeUndefined();
   });
 
   it('skips single letters and bare clitics in every script', () => {

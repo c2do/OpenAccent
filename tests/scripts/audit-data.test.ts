@@ -22,6 +22,7 @@ describe('auditBundle', () => {
     imported('ar-eg/kafta', { word: 'كفتا', meanings: [{ en: 'kofta' }], concept: 'why', part_of_speech: 'noun' }),
     imported('ar-eg/bi', { word: 'بِ', meanings: [{ en: 'with' }] }),
     imported('ar-eg/rude', { word: 'كلمة', meanings: [{ en: 'offensive term for a woman' }] }),
+    imported('ar-eg/labelled', { word: 'كلمتين', meanings: [{ en: 'offensive term for a man', sensitive: ['offensive'] }] }),
     imported('ar-eg/fi', { word: 'في', meanings: [{ en: 'in' }], part_of_speech: 'prep' }),
     imported('en-us-general/upon', { word: 'upon', meanings: [{ en: 'on' }], part_of_speech: 'prep' }),
     imported('ar-eg/lesh', { word: 'ليه', meanings: [{ en: 'why' }], concept: 'why', part_of_speech: 'adv' }),
@@ -32,7 +33,8 @@ describe('auditBundle', () => {
   it('flags what the review of the first import found', () => {
     expect(kinds('ar-eg/kafta')).toEqual(['concept_mismatch']);
     expect(kinds('ar-eg/bi')).toEqual(['too_short']);
-    expect(kinds('ar-eg/rude')).toEqual(['sensitive']);
+    expect(kinds('ar-eg/rude')).toEqual(['unlabeled_sensitive']);
+    expect(kinds('ar-eg/labelled')).toEqual([]);
     expect(kinds('en-us-general/upon')).toEqual(['function_word']);
     // Arabic dialect imports keep grammar words on purpose (شو, هيك, في give a dialect away).
     expect(kinds('ar-eg/fi')).toEqual([]);
@@ -45,13 +47,14 @@ describe('auditBundle', () => {
   it('counts entries, verified entries and core concepts', () => {
     expect(eg).toMatchObject({ dialect: 'ar-eg', verified: 0 });
     expect(eg!.concepts).toBe(1);
+    expect(eg!.sensitive).toBe(2); // the fixture’s شرموطة and ar-eg/labelled
   });
 
   it('renders a table and lists findings', () => {
     const md = renderAudit([eg!], Object.keys(bundle.concepts).length);
     expect(md).toContain('| ar-eg |');
-    expect(md).toContain('**sensitive** `ar-eg/rude`');
-    expect(BLOCKING).toEqual(['sensitive', 'too_short']);
+    expect(md).toContain('**unlabeled_sensitive** `ar-eg/rude`');
+    expect(BLOCKING).toEqual(['unlabeled_sensitive', 'too_short']);
   });
 });
 
