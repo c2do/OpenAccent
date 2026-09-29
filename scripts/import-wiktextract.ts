@@ -23,6 +23,12 @@ export interface DialectImport {
   languages: string[];
   /** Keep only senses tagged with one of these regions. Omit to keep every sense (dialect-specific files). */
   regionTags?: string[];
+  /**
+   * For a language's "default" variety (French of France, German of Germany), Wiktionary rarely tags
+   * the region. With this set, everyday (colloquial/informal/slang) senses count too, unless they
+   * are tagged with one of these other regions.
+   */
+  otherRegions?: string[];
   /** FrequencyWords list code (content/2018/<code>/<code>_50k.txt), used to rank words. */
   freq?: string;
   script: string;
@@ -35,12 +41,27 @@ export const WAVE_1: DialectImport[] = [
   { dialect: 'es-mx', languages: ['Spanish'], regionTags: ['Mexico'], freq: 'es', script: 'latn' },
   { dialect: 'es-es', languages: ['Spanish'], regionTags: ['Spain'], freq: 'es', script: 'latn' },
   { dialect: 'pt-br', languages: ['Portuguese'], regionTags: ['Brazil'], freq: 'pt_br', script: 'latn' },
-  { dialect: 'fr-fr', languages: ['French'], regionTags: ['France'], freq: 'fr', script: 'latn' },
-  { dialect: 'de-de', languages: ['German'], regionTags: ['Germany'], freq: 'de', script: 'latn' },
+  {
+    dialect: 'fr-fr',
+    languages: ['French'],
+    regionTags: ['France'],
+    otherRegions: ['Quebec', 'Canada', 'Belgium', 'Switzerland', 'Africa', 'Louisiana', 'Acadia', 'Cajun', 'Haiti', 'Réunion', 'Ivory-Coast', 'Senegal', 'Cameroon', 'Congo', 'Morocco', 'Algeria', 'Tunisia', 'New-Caledonia'],
+    freq: 'fr',
+    script: 'latn',
+  },
+  {
+    dialect: 'de-de',
+    languages: ['German'],
+    regionTags: ['Germany'],
+    otherRegions: ['Austria', 'Switzerland', 'Swiss', 'South-Tyrol', 'Liechtenstein', 'Luxembourg', 'Namibia', 'Bavaria', 'Swabia'],
+    freq: 'de',
+    script: 'latn',
+  },
   { dialect: 'tr-tr', languages: ['Turkish'], freq: 'tr', script: 'latn' },
   { dialect: 'hi-in', languages: ['Hindi'], freq: 'hi', script: 'deva' },
   { dialect: 'ar-eg', languages: ['Egyptian Arabic'], freq: 'ar', script: 'arab' },
-  { dialect: 'ar-sa', languages: ['Gulf Arabic', 'Hijazi Arabic', 'Najdi Arabic'], freq: 'ar', script: 'arab' },
+  // Wiktionary has no separate Najdi Arabic dictionary (kaikki returns 404).
+  { dialect: 'ar-sa', languages: ['Hijazi Arabic', 'Gulf Arabic'], freq: 'ar', script: 'arab' },
   { dialect: 'ar-sy', languages: ['North Levantine Arabic'], regionTags: ['Syria', 'Syrian'], freq: 'ar', script: 'arab' },
   { dialect: 'ar-lb', languages: ['North Levantine Arabic'], regionTags: ['Lebanon', 'Lebanese'], freq: 'ar', script: 'arab' },
   { dialect: 'ar-ma', languages: ['Moroccan Arabic'], freq: 'ar', script: 'arab' },
@@ -53,6 +74,8 @@ export const frequencyUrl = (code: string) =>
 
 // Parts of speech that are not dialect vocabulary.
 const SKIP_POS = new Set(['name', 'character', 'symbol', 'prefix', 'suffix', 'infix', 'affix', 'letter', 'num', 'punct', 'romanization']);
+// Senses tagged like this are everyday speech, which is what a dialect dictionary is for.
+const EVERYDAY_TAGS = ['colloquial', 'informal', 'slang', 'familiar'];
 // Senses we never import.
 const SKIP_TAGS = new Set(['obsolete', 'archaic', 'historical', 'form-of', 'alt-of', 'misspelling', 'nonstandard-spelling']);
 
@@ -101,8 +124,12 @@ export function selectSenses(entry: KaikkiEntry, cfg: DialectImport): Sense[] {
     const tags = s.tags ?? [];
     if (!s.glosses?.length || s.form_of || s.alt_of) return false;
     if (tags.some((t) => SKIP_TAGS.has(t))) return false;
-    if (cfg.regionTags && !tags.some((t) => cfg.regionTags!.includes(t))) return false;
-    return true;
+    if (!cfg.regionTags) return true;
+    if (tags.some((t) => cfg.regionTags!.includes(t))) return true;
+    // Default variety: untagged-for-region everyday senses belong to it.
+    return Boolean(
+      cfg.otherRegions && tags.some((t) => EVERYDAY_TAGS.includes(t)) && !tags.some((t) => cfg.otherRegions!.includes(t)),
+    );
   });
 }
 
@@ -111,9 +138,6 @@ export function isRealExample(text: string): boolean {
   if (/\((alternative|obsolete|dated|rare) form|\bform of\b/i.test(text)) return false;
   return text.trim().split(/\s+/).length >= 2;
 }
-
-// Senses tagged like this are everyday speech, which is what a dialect dictionary is for.
-const EVERYDAY_TAGS = ['colloquial', 'informal', 'slang', 'familiar'];
 
 /** Collects candidates per word from a stream of kaikki JSONL lines. */
 export async function collect(lines: AsyncIterable<string> | Iterable<string>, cfgs: DialectImport[]) {
@@ -197,8 +221,13 @@ export function toEntries(
   // obscure (e.g. Mexican "ante" = tapir) should not beat a slang word everyone uses there.
   const EVERYDAY_BOOST = 0.25;
   const rank = (w: string) => {
-    const r = opts.ranks?.get(normalize(w, cfg.script)) ?? Number.MAX_SAFE_INTEGER;
-    return candidates.get(w)?.everyday ? (r + 1) * EVERYDAY_BOOST : r + 1;
+    const c = candidates.get(w);
+    if (!opts.ranks) {
+      // No frequency list (e.g. Hindi): everyday senses first, then words with examples, then shorter words.
+      return (c?.everyday ? 0 : 2_000) + (c?.meanings.some((m) => m.examples.length) ? 0 : 1_000) + w.length;
+    }
+    const r = opts.ranks.get(normalize(w, cfg.script)) ?? Number.MAX_SAFE_INTEGER;
+    return c?.everyday ? (r + 1) * EVERYDAY_BOOST : r + 1;
   };
   const existing = opts.existingWords ?? new Set<string>();
   const slugs = new Set(opts.existingSlugs ?? []);

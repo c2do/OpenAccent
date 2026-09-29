@@ -106,6 +106,32 @@ describe('example and ranking quality', () => {
   });
 });
 
+describe('default varieties (French of France)', () => {
+  const frFr = WAVE_1.find((c) => c.dialect === 'fr-fr')!;
+  const fr = (o: { word: string; senses: object[] }) => ({ lang: 'French', pos: 'noun', ...o });
+
+  it('keeps France-tagged senses and untagged everyday senses, but not other regions’ slang', () => {
+    expect(selectSenses(fr({ word: 'a', senses: [{ glosses: ['x'], tags: ['France'] }] }), frFr)).toHaveLength(1);
+    expect(selectSenses(fr({ word: 'b', senses: [{ glosses: ['x'], tags: ['colloquial'] }] }), frFr)).toHaveLength(1);
+    expect(selectSenses(fr({ word: 'c', senses: [{ glosses: ['x'], tags: ['Quebec', 'colloquial'] }] }), frFr)).toEqual([]);
+    expect(selectSenses(fr({ word: 'd', senses: [{ glosses: ['x'] }] }), frFr)).toEqual([]);
+  });
+});
+
+describe('ranking without a frequency list', () => {
+  it('prefers everyday senses, then words with examples', async () => {
+    const hi = WAVE_1.find((c) => c.dialect === 'hi-in')!;
+    const h = (word: string, sense: object) => JSON.stringify({ lang: 'Hindi', word, pos: 'noun', senses: [sense] });
+    const lines = [
+      h('कक', { glosses: ['plain'] }),
+      h('खख', { glosses: ['with example'], examples: [{ text: 'एक दो', type: 'example' }] }),
+      h('गगगग', { glosses: ['slang'], tags: ['slang'] }),
+    ];
+    const out = toEntries((await collect(lines, [hi])).get('hi-in')!, hi, { limit: 3 });
+    expect(out.map((o) => o.entry.word)).toEqual(['गगगग', 'खख', 'कक']);
+  });
+});
+
 describe('kaikkiUrl', () => {
   it('builds per-language download URLs', () => {
     expect(kaikkiUrl('Egyptian Arabic')).toBe(
