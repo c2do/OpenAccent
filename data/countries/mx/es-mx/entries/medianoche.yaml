@@ -1,0 +1,25 @@
+word: medianoche
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /medjaˈnot͡ʃe/
+part_of_speech: noun
+meanings:
+  - en: hot dog bun
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/medianoche#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

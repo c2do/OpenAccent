@@ -1,0 +1,25 @@
+word: super
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈzuːpɐ/
+part_of_speech: adj
+meanings:
+  - en: super, great, awesome
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/super#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

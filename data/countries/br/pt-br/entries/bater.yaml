@@ -1,0 +1,37 @@
+word: bater
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /baˈte(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to snap (to create a photograph)
+    examples:
+      - text: Pedi a um turista para bater uma foto de nós.
+        en: I asked a tourist to snap a photo of us.
+    sensitive: []
+  - en: to get (a feeling, especially one that is not very strong)
+    examples:
+      - text: Corri uns dez quilómetros antes de bater um cansaço.
+        en: I ran for ten kilometres/kilometers before I got a little tired.
+    sensitive: []
+  - en: to pick; to pickpocket (to steal something by sleight of hand)
+    examples:
+      - text: Uns pivetes batiam carteiras na praia.
+        en: Some urchins were picking wallets at the beach.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bater#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,43 @@
+word: koymak
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[kojˈmɑk]"
+part_of_speech: verb
+meanings:
+  - en: to put
+    examples:
+      - text: Şu şişeyi masanın üstüne koy.
+        en: Put that bottle atop the table.
+    sensitive: []
+  - en: to put, to add
+    examples:
+      - text: yemeğe biber koymak
+        en: to add pepper to the food
+    sensitive: []
+  - en: to prepare or serve a food or a drink
+    examples:
+      - text: şarap koymak
+        en: to pour wine
+      - text: kendi için balık koymak
+        en: to prepare fish for oneself
+    sensitive: []
+  - en: to appoint, to assign
+    examples: []
+    sensitive: []
+concept: leave
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/koymak#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

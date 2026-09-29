@@ -1,0 +1,36 @@
+word: tio
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈt͡ʃi.u/
+part_of_speech: noun
+meanings:
+  - en: uncle (term of address for any adult); guy; bloke
+    examples:
+      - text: Tinha dois tiozinhos no ponto.
+        en: There were two guys at the bus stop.
+    sensitive: []
+  - en: uncle (term of address for any adult); an employee who performs a given
+      activity
+    examples:
+      - text: tio da limpeza
+        en: janitor
+    sensitive: []
+  - en: an informal form of address for males of any age; bro
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tio#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

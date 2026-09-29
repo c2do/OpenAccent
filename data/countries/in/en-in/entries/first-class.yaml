@@ -1,0 +1,24 @@
+word: first class
+dialect: en-in
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: Great, very enjoyable.
+    examples:
+      - text: "- How was your holiday? - It was first class."
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/first_class#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

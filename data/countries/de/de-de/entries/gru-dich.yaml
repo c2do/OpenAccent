@@ -1,0 +1,24 @@
+word: grüß dich
+dialect: de-de
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: intj
+meanings:
+  - en: hello, hi
+    examples: []
+    sensitive: []
+concept: hello
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gr%C3%BC%C3%9F_dich#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

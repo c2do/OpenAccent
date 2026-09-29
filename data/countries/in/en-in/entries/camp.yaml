@@ -1,0 +1,29 @@
+word: camp
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkæmp/
+part_of_speech: noun
+meanings:
+  - en: Anywhere that a colonist stayed when away from their permanent residence;
+      such places collectively.
+    examples:
+      - text: Then the Rains came, when no one could go into camp, and the Narkarra Road
+          was washed away by the Kasun River, and in the cup-like pastures of
+          Kashima the cattle waded knee-deep.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/camp#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

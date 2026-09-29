@@ -1,0 +1,33 @@
+word: tenso
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtẽ.su/
+part_of_speech: adj
+meanings:
+  - en: difficult; complicated
+    examples:
+      - text: Eu acho tensa essa matéria na escola.
+        en: I find this subject at school to be complicated.
+    sensitive: []
+  - en: derisively different; weird
+    examples:
+      - text: O estilo dos punks é bem tenso.
+        en: Punk people's style is quite weird.
+    sensitive: []
+concept: hard
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tenso#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

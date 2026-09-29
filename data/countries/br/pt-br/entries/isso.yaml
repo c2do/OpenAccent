@@ -1,0 +1,28 @@
+word: isso
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈi.su/
+part_of_speech: pron
+meanings:
+  - en: this (the thing near me; the thing mentioned that concerns me)
+    examples:
+      - text: Isso é muito difícil.
+        en: This is very difficult.
+    sensitive: []
+concept: this
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/isso#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

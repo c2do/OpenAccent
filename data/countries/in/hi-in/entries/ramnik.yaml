@@ -1,0 +1,30 @@
+word: रमणीक
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ramṇīk
+pronunciation:
+  ipa: /ɾəm.ɳiːk/
+part_of_speech: adj
+meanings:
+  - en: beautiful, charming, pleasing, picturesque
+    examples:
+      - text: झील के किनारे स्थित वह छोटा सा गाँव बेहद रमणीक और शांत स्थान है।
+        en: That small village situated on the bank of the lake is an extremely
+          picturesque and peaceful place.
+    sensitive: []
+concept: beautiful
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B0%E0%A4%AE%E0%A4%A3%E0%A5%80%E0%A4%95#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

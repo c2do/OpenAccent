@@ -1,0 +1,31 @@
+word: runter
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /rʊntɐ/
+part_of_speech: adv
+meanings:
+  - en: down, down here, downstairs (towards the speaker)
+    examples:
+      - text: Er kommt jetzt runter. -- He's coming downstairs now.
+    sensitive: []
+  - en: down, down there, downstairs (away from the speaker)
+    examples:
+      - text: Er geht runter zu den andern. -- He's going downstairs to the other
+          people.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/runter#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

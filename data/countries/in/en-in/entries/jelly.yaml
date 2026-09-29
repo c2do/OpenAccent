@@ -1,0 +1,26 @@
+word: jelly
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈd͡ʒɛli/
+part_of_speech: noun
+meanings:
+  - en: Vitrified brick refuse used as metal in building roads.
+    examples:
+      - text: Under pinning with jelly in chunam — one square.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jelly#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

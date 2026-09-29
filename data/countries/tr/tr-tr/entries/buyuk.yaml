@@ -1,0 +1,42 @@
+word: büyük
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[byˈjyc]"
+meanings:
+  - en: big, grand, large
+    examples:
+      - text: Büyük elleri kafam kadar büyüktü
+        en: His hands were as big as my head
+    sensitive: []
+  - en: old, elder
+    examples:
+      - text: Amcam annemden daha büyük
+        en: My uncle is older than my mother
+    sensitive: []
+  - en: important, significant by importance
+    examples:
+      - text: Bu çok büyük bir olay
+        en: This is a very important event
+    sensitive: []
+  - en: strong, powerful
+    examples:
+      - text: Bu ülkeyi ancak büyük insanlar kurtarabilir
+        en: Only strong people can save this country
+    sensitive: []
+concept: big
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/b%C3%BCy%C3%BCk#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

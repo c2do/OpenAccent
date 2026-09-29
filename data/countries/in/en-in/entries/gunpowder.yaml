@@ -1,0 +1,32 @@
+word: gunpowder
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡʌnˌpaʊdə/
+part_of_speech: noun
+meanings:
+  - en: Idli podi/milagai podi; ground-up dry spices mixed with oil and ghee and
+      served alongside idli or dosa.
+    examples:
+      - text: Some restaurants try and give their dosas the "ethnic" touch by slipping
+          along a small dish of mulaga podi-gunpowder mixed with oil as well,
+          but that isn't always enough.
+      - text: It was a hardcore Andhra lunch from a restaurant famous for its lunch
+          meals. And that is where I had my first run-in with 'gunpowder'. And
+          to be honest, I hated it.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gunpowder#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

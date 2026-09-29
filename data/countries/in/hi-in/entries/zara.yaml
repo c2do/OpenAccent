@@ -1,0 +1,34 @@
+word: ज़रा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - zarā
+pronunciation:
+  ipa: /zə.ɾɑː/
+meanings:
+  - en: a little, a small amount of
+    examples: []
+    sensitive: []
+  - en: a little, slightly, just
+    examples: []
+    sensitive: []
+  - en: kindly, would you?, please; used to make a polite request
+    examples:
+      - text: ज़रा दरवाज़ा बंद कर दीजिये
+        en: Close the door, if you may
+    sensitive: []
+concept: a_little
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9C%E0%A4%BC%E0%A4%B0%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

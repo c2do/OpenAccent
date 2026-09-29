@@ -1,0 +1,33 @@
+word: spendy
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈspɛndi/
+part_of_speech: adj
+meanings:
+  - en: Expensive, costly.
+    examples:
+      - text: >-
+          Amy: When I get married, I'm gonna register at the UCLA cadaver lab.
+
+          Penny: Eww, why?
+
+          Amy: Cause I've always wanted a whole human skeleton, and they are
+          really spendy.
+    sensitive: []
+concept: expensive
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/spendy#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

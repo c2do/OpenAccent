@@ -1,0 +1,35 @@
+word: नहीं
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - nahī̃
+pronunciation:
+  ipa: /nə.ɦĩː/
+part_of_speech: particle
+meanings:
+  - en: no, not (negative response to a yes-no question)
+    examples:
+      - text: बिलकुल नहीं
+        en: of course not
+    sensitive: []
+  - en: no, not (used for negation of statements in the indicative and contrafactual
+      moods)
+    examples:
+      - text: यहाँ गाजर नहीं हैं
+        en: there are no carrots here
+    sensitive: []
+concept: "no"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A8%E0%A4%B9%E0%A5%80%E0%A4%82#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

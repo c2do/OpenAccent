@@ -1,0 +1,28 @@
+word: mies
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /miːs/
+part_of_speech: adv
+meanings:
+  - en: very, severely, extremely, insanely
+    examples:
+      - text: Das war doch mies lustig
+        en: Wasn't that extremely funny?
+    sensitive: []
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mies#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

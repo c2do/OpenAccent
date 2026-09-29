@@ -1,0 +1,28 @@
+word: ترى
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - tara
+pronunciation:
+  ipa: /tara/
+part_of_speech: prep_phrase
+meanings:
+  - en: by the way
+    examples:
+      - text: تَرَى مو كِذا تِنْكَتِب
+        en: by the way, it's not written like that.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AA%D8%B1%D9%89#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

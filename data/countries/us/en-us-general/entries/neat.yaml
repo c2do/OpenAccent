@@ -1,0 +1,29 @@
+word: neat
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈniːt/
+part_of_speech: adj
+meanings:
+  - en: Good, excellent, desirable; interesting; cool.
+    examples:
+      - text: Hey, neat convertible, man.
+      - text: '"You can tell that Rory has had this type of talent in him for some time
+          now, and to see him putting it together is pretty neat to see."'
+    sensitive: []
+concept: good
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/neat#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

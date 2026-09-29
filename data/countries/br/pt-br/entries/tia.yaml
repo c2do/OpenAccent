@@ -1,0 +1,27 @@
+word: tia
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈt͡ʃi.ɐ/
+part_of_speech: noun
+meanings:
+  - en: a female clerk who performs a regular activity
+    examples:
+      - text: tia da limpeza
+        en: cleaning woman, janitor
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tia#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,38 @@
+word: ring
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɹɪŋ/
+meanings:
+  - en: A solid object in the shape of a circle.; A bird band, a round piece of
+      metal put around a bird's leg used for identification and studies of
+      migration.
+    examples: []
+    sensitive: []
+  - en: A solid object in the shape of a circle.; A burner on a kitchen stove, hob,
+      or cooktop.
+    examples: []
+    sensitive: []
+  - en: A group of objects arranged in a circle.; A large circular prehistoric stone
+      construction such as Stonehenge.
+    examples: []
+    sensitive: []
+  - en: To telephone (someone).
+    examples:
+      - text: I will ring you when we arrive.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ring#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

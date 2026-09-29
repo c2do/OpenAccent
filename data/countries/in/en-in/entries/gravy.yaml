@@ -1,0 +1,30 @@
+word: gravy
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡɹeɪvi/
+part_of_speech: noun
+meanings:
+  - en: Curry sauce.
+    examples:
+      - text: With this the hostess poured two or three spoonfuls of the gravy of the
+          curry on to the rice opposite to each person.
+      - text: Now it seems that Pa Senik was a little deaf. Awang noticed that his
+          father-in-law sometimes poured the gravy of his curry on his rice and
+          that sometimes he sucked it up.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gravy#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

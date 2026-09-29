@@ -1,0 +1,27 @@
+word: dürfen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdʏrfən/
+part_of_speech: verb
+meanings:
+  - en: must, to have [got] to, gotta
+    examples:
+      - text: Und nun ich darf wieder hinter euch aufräumen.
+        en: And now I gotta clean up after you guys once again.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/d%C3%BCrfen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

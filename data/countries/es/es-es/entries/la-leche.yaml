@@ -1,0 +1,38 @@
+word: la leche
+dialect: es-es
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /la ˈlet͡ʃe/
+part_of_speech: phrase
+meanings:
+  - en: amazing, very good
+    examples:
+      - text: Esta canción es la leche.
+        en: This song is amazing.
+    sensitive: []
+  - en: skillful, impressive
+    examples:
+      - text: Él es la leche.
+        en: He's so impressive.
+    sensitive: []
+  - en: wow (used to express surprise, amazement)
+    examples:
+      - text: ¿Y esta es su casa? ¡La leche!
+        en: Is this his house? Wow!
+    sensitive: []
+concept: wow
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/la_leche#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

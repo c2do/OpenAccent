@@ -1,0 +1,25 @@
+word: cat
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkæt/
+part_of_speech: noun
+meanings:
+  - en: Terms relating to people.; Synonym of itinerant worker.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cat#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

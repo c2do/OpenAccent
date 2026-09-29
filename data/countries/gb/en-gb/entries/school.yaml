@@ -1,0 +1,30 @@
+word: school
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /skuːl/
+part_of_speech: noun
+meanings:
+  - en: An educational institution providing primary and secondary education, prior
+      to tertiary education (college or university).
+    examples: []
+    sensitive: []
+  - en: At Eton College, a period or session of teaching.
+    examples:
+      - text: Divinity, history and geography are studied for two schools per week.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/school#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

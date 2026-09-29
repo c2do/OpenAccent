@@ -1,0 +1,33 @@
+word: تعبان
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - taʕbān
+  - tiʕban
+pronunciation:
+  ipa: /taʕ.baːn/
+meanings:
+  - en: tired
+    examples: []
+    sensitive: []
+  - en: sick
+    examples: []
+    sensitive: []
+  - en: snake
+    examples: []
+    sensitive: []
+concept: tired
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AA%D8%B9%D8%A8%D8%A7%D9%86#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: معصب
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - muʕaṣṣib
+pronunciation:
+  ipa: /mu.ʕasˤ.sˤib/
+part_of_speech: adj
+meanings:
+  - en: angry
+    examples:
+      - text: المدرسات معصبين
+        en: the teachers (f.) are angry
+    sensitive: []
+concept: angry
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%B9%D8%B5%D8%A8#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

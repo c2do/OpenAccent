@@ -1,0 +1,29 @@
+word: girl
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡɜːl/
+part_of_speech: noun
+meanings:
+  - en: Cocaine, especially in powder form.
+    examples:
+      - text: He's the sort of lowlife who snorts coke and refers to it as his girl.
+      - text: She had taught me to snort girl, and almost always when I came to her pad,
+          there would be thin sparkling rows of crystal cocaine on the glass top
+          of the cocktail table.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/girl#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

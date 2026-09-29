@@ -1,0 +1,30 @@
+word: क्या चल रहा है
+dialect: hi-in
+type: phrase
+spellings: []
+romanized:
+  - kyā cal rahā hai?
+pronunciation:
+  ipa: /kjɑː t͡ʃəl ɾə.ɦɑː ɦɛː/
+part_of_speech: intj
+meanings:
+  - en: what's up; what's going on (an informal greeting)
+    examples: []
+    sensitive: []
+  - en: what's going on; what's happening (an expression of concern)
+    examples: []
+    sensitive: []
+concept: whats_up
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%AF%E0%A4%BE_%E0%A4%9A%E0%A4%B2_%E0%A4%B0%E0%A4%B9%E0%A4%BE_%E0%A4%B9%E0%A5%88#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

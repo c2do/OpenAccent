@@ -1,0 +1,27 @@
+word: غضبان
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ḡaḍbān
+pronunciation:
+  ipa: /ɣadˤ.baːn/
+part_of_speech: adj
+meanings:
+  - en: angry, furious, enraged
+    examples: []
+    sensitive: []
+concept: angry
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%BA%D8%B6%D8%A8%D8%A7%D9%86#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

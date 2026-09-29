@@ -1,0 +1,35 @@
+word: कल
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kal
+pronunciation:
+  ipa: /kəl/
+meanings:
+  - en: yesterday
+    examples: []
+    sensitive: []
+  - en: tomorrow
+    examples: []
+    sensitive: []
+  - en: any indefinite time in the past or future
+    examples: []
+    sensitive: []
+  - en: soft, low, sweet (of a sound)
+    examples: []
+    sensitive: []
+concept: yesterday
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%B2#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

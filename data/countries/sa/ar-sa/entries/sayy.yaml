@@ -1,0 +1,32 @@
+word: شي
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - šayy
+pronunciation:
+  ipa: /ʃajj/
+meanings:
+  - en: a thing
+    examples: []
+    sensitive: []
+  - en: object
+    examples: []
+    sensitive: []
+  - en: something, anything
+    examples: []
+    sensitive: []
+concept: something
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D9%8A#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

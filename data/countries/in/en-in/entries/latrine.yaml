@@ -1,0 +1,26 @@
+word: latrine
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ləˈtɹiːn/
+part_of_speech: noun
+meanings:
+  - en: Any facility or device used for urination or defecation, whether toilet,
+      lavatory, or outhouse.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/latrine#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

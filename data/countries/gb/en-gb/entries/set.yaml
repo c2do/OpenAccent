@@ -1,0 +1,29 @@
+word: set
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sɛt/
+meanings:
+  - en: A class group in a subject where pupils are divided by ability.
+    examples: []
+    sensitive: []
+  - en: To divide a class group in a subject according to ability
+    examples:
+      - text: At Amber Hill, setting was a high-profile concept, and the students were
+          frequently reminded of the set to which they belonged.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/set#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: वामा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - vāmā
+pronunciation:
+  ipa: /ʋɑː.mɑː/
+part_of_speech: noun
+meanings:
+  - en: a woman, female
+    examples:
+      - text: कवि ने अपनी रचना में एक अत्यंत सुंदर और सुशील वामा का वर्णन किया है।
+        en: The poet described an exceptionally beautiful and gentle woman in his
+          creation.
+    sensitive: []
+concept: woman
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A4%BE%E0%A4%AE%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

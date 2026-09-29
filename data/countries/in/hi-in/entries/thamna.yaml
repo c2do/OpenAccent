@@ -1,0 +1,35 @@
+word: थमना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - thamnā
+pronunciation:
+  ipa: /t̪ʰəm.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to stop
+    examples: []
+    sensitive: []
+  - en: to cease, end
+    examples:
+      - text: बारिश अभी तक थम नहीं चुकी।
+        en: The rain has not ceased yet.
+    sensitive: []
+  - en: to wait
+    examples: []
+    sensitive: []
+concept: wait
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A5%E0%A4%AE%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

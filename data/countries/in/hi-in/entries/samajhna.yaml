@@ -1,0 +1,40 @@
+word: समझना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - samajhnā
+pronunciation:
+  ipa: /sə.məd͡ʒʱ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to understand
+    examples:
+      - text: मैं आपकी बात नहीं समझा।
+        en: I don't understand what you're talking about.
+    sensitive: []
+  - en: to comprehend
+    examples: []
+    sensitive: []
+  - en: to perceive
+    examples: []
+    sensitive: []
+  - en: to think, consider
+    examples:
+      - text: तुम अपने आप को समझते कौन हो?
+        en: Who do you think you are?
+    sensitive: []
+concept: understand
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%AE%E0%A4%9D%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

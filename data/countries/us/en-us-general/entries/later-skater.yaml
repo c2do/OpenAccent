@@ -1,0 +1,24 @@
+word: later, skater
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: intj
+meanings:
+  - en: Goodbye, see you later.
+    examples: []
+    sensitive: []
+concept: bye
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/later%2C_skater#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

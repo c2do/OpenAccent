@@ -1,0 +1,25 @@
+word: sweet
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /swiːt/
+part_of_speech: noun
+meanings:
+  - en: A confection made from sugar, or high in sugar content; a candy.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sweet#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

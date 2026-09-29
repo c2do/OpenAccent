@@ -1,0 +1,27 @@
+word: yah
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /jʌː/
+part_of_speech: adv
+meanings:
+  - en: Yes.
+    examples:
+      - text: Yah, we did go along but it turned out the wedding was a load of nonsense.
+    sensitive: []
+concept: "yes"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/yah#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

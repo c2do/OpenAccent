@@ -1,0 +1,30 @@
+word: affaire
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a.fɛʁ/
+part_of_speech: noun
+meanings:
+  - en: things; stuff
+    examples:
+      - text: "\"Cibole! C'est pas le genre d'affaire qu'on oublie!\""
+        en: "\"Dangit! It's not the kind of stuff you just forget!\""
+    sensitive: []
+  - en: belonging (something physical that is owned)
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/affaire#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

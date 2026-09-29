@@ -1,0 +1,28 @@
+word: ancestral
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ænˈsɛs.təɹ.əl/
+part_of_speech: noun
+meanings:
+  - en: A descendant of one's ancestors.
+    examples:
+      - text: He considered that the local custom permitted a sister's son to inherit in
+          default of near male ancestrals.
+      - text: But ancestrals cannot be willed away .
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ancestral#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

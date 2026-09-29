@@ -1,0 +1,30 @@
+word: viagem
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /viˈa.ʒẽj̃/
+part_of_speech: noun
+meanings:
+  - en: trip (period of time in which one experiences drug-induced reverie or
+      hallucinations)
+    examples: []
+    sensitive: []
+  - en: nonsense; far-fetchedness
+    examples:
+      - text: Véi, que viagem é essa, véi? Da onde veio essa miséria?
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/viagem#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

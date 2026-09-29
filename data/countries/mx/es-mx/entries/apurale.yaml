@@ -1,0 +1,26 @@
+word: apúrale
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /aˈpuɾale/
+part_of_speech: intj
+meanings:
+  - en: hurry up!
+    examples: []
+    sensitive: []
+concept: hurry_up
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ap%C3%BArale#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

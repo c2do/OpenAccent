@@ -1,0 +1,42 @@
+word: هيك
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - hayk
+  - hēk
+meanings:
+  - en: so, thus, like so
+    examples: []
+    sensitive: []
+  - en: this way (i.e., direction), that way (i.e., direction) (e.g., to look this
+      or that way, i.e., in this or that direction)
+    examples: []
+    sensitive: []
+  - en: this, that; used as a pronominal object of قال (ʔāl, “to say”), فكّر
+      (fakkar, “to think”), and similar transitive verbs of expression, عِمِل
+      (ʕimil, “to do”) and synonyms, and comparative مِن (min, “than”).
+    examples:
+      - text: ليه قلت هيك؟ ليه عملت هيك؟ فكرتك أحسن من هيك
+        en: Why did you say that? Why did you do that? I thought you were better than
+          this.
+    sensitive: []
+  - en: such; such kind, this kind of
+    examples:
+      - text: ما فيي إتحمل هيك حكي منك!
+        en: I can’t stand this kind of talk from you!
+    sensitive: []
+concept: this
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D9%8A%D9%83#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

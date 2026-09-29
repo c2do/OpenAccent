@@ -1,0 +1,30 @@
+word: huhu
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhuːhuː/
+part_of_speech: intj
+meanings:
+  - en: hey (calling out to someone to catch their attention, often across a
+      distance)
+    examples: []
+    sensitive: []
+  - en: hello, hi (as a greeting)
+    examples: []
+    sensitive: []
+concept: hello
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/huhu#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,34 @@
+word: مزيان
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - mizyān
+pronunciation:
+  ipa: /miz.jaːn/
+meanings:
+  - en: good, nice
+    examples: []
+    sensitive: []
+  - en: beautiful
+    examples: []
+    sensitive: []
+  - en: properly, correctly
+    examples:
+      - text: تكلم مع مرتك مزيان.
+        en: Talk properly to your wife.
+    sensitive: []
+concept: good
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%B2%D9%8A%D8%A7%D9%86#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

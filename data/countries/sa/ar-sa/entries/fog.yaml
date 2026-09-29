@@ -1,0 +1,34 @@
+word: فوق
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - fōg
+pronunciation:
+  ipa: /ˈfoːɡ/
+meanings:
+  - en: above
+    examples: []
+    sensitive: []
+  - en: up
+    examples: []
+    sensitive: []
+  - en: above, on top of
+    examples: []
+    sensitive: []
+  - en: more than, over
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D9%88%D9%82#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

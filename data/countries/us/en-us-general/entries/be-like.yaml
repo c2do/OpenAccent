@@ -1,0 +1,28 @@
+word: be like
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: To say.
+    examples:
+      - text: If he’s like “I don’t want to”, then be like “Pretty please! – It means a
+          lot to me”.
+      - text: This weekend he called me up and he’s all “Where were you today?” and I’m
+          like “I’m at my Grandmother’s house” […]
+    sensitive: []
+concept: say
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/be_like#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

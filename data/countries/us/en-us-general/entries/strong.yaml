@@ -1,0 +1,26 @@
+word: strong
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /stɹɒŋ/
+part_of_speech: adj
+meanings:
+  - en: Impressive, good.
+    examples:
+      - text: You're working with troubled youth in your off time? That’s strong!
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/strong#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

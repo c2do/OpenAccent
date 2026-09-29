@@ -1,0 +1,25 @@
+word: deber
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /deˈbeɾ/
+part_of_speech: noun
+meanings:
+  - en: homework
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/deber#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

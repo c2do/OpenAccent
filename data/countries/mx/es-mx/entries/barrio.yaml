@@ -1,0 +1,27 @@
+word: barrio
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbarjo/
+part_of_speech: noun
+meanings:
+  - en: any neighbourhood of the original or ancient part of a city (usually
+      excluding new growth after the 1930s, 40s or 50s, depending on the state
+      or city)
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/barrio#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,32 @@
+word: dran
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+part_of_speech: adv
+meanings:
+  - en: to be someone's turn (in a game, to do household chores, etc.)
+    examples:
+      - text: Du bist dran!
+        en: It's your turn!
+      - text: Wer ist heute mit dem Putzen dran?
+        en: Whose turn is it to do the cleaning today?
+    sensitive: []
+  - en: to get it, to suffer consequences, punishment or retaliation
+    examples:
+      - text: Jetzt bist du dran!
+        en: Now you're gonna get it!
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dran#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

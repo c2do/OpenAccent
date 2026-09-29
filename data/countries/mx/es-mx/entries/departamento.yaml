@@ -1,0 +1,27 @@
+word: departamento
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /depaɾtaˈmento/
+part_of_speech: noun
+meanings:
+  - en: apartment, flat
+    examples:
+      - text: El fiscal Alberto Nisman estaba en el baño de su departamento con un tiro
+          en la cabeza.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/departamento#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: velho
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈvɛ.ʎu/
+meanings:
+  - en: an informal form of address for males of any age; bro
+    examples: []
+    sensitive: []
+  - en: man!, dude! (emphatic interjection)
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/velho#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

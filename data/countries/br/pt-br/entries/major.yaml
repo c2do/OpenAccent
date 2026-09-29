@@ -1,0 +1,28 @@
+word: major
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /maˈʒɔʁ/
+part_of_speech: noun
+meanings:
+  - en: A term of address for someone
+    examples: []
+    sensitive: []
+  - en: brown-chested martin (Progne tapera)
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/major#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

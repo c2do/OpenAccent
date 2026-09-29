@@ -1,0 +1,32 @@
+word: كلة
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - gille
+pronunciation:
+  ipa: /ɡil.le/
+part_of_speech: noun
+meanings:
+  - en: marble (toy)
+    examples: []
+    sensitive: []
+  - en: marbles (game)
+    examples: []
+    sensitive: []
+  - en: shots of a weapon
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D9%84%D8%A9#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

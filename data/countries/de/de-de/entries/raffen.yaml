@@ -1,0 +1,29 @@
+word: raffen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʁafn̩/
+part_of_speech: verb
+meanings:
+  - en: to understand
+    examples:
+      - text: Die Nachbarn haben nichts gerafft / Und fühlten sich gleich angemacht
+      - text: Den wegen Leuten wie dir tu' ich die machen / Leute die mich wegen irgend
+          'ner Scheiße volllabern / Ohne den Inhalt der Texte zu raffen
+    sensitive: []
+concept: understand
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/raffen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

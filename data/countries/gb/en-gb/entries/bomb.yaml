@@ -1,0 +1,34 @@
+word: bomb
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɒm/
+part_of_speech: noun
+meanings:
+  - en: A large amount of money.
+    examples:
+      - text: make a bomb
+      - text: cost a bomb
+    sensitive: []
+  - en: Something highly effective or attractive.; A success; the bomb.
+    examples:
+      - text: Our fabulous new crumpets have been selling like a bomb.
+    sensitive: []
+  - en: Something highly effective or attractive.; A very attractive woman.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bomb#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

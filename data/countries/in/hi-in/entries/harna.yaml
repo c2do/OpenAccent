@@ -1,0 +1,38 @@
+word: हारना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - hārnā
+pronunciation:
+  ipa: /ɦɑːɾ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to be defeated
+    examples:
+      - text: लड़ाई में हारना
+        en: to lose in a fight
+    sensitive: []
+  - en: to be unsuccessful
+    examples: []
+    sensitive: []
+  - en: to become fatigued, tired out; to become dispirited
+    examples: []
+    sensitive: []
+  - en: to become old or feeble
+    examples: []
+    sensitive: []
+concept: give
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

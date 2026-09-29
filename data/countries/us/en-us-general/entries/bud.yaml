@@ -1,0 +1,41 @@
+word: bud
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bʌd/
+part_of_speech: noun
+meanings:
+  - en: Potent cannabis taken from the flowering part of the plant (the "bud"), or
+      marijuana generally.; Cannabis that has been taken from the flowering part
+      of the plant intended to be smoked.
+    examples:
+      - text: You got any buds?
+    sensitive: []
+  - en: Potent cannabis taken from the flowering part of the plant (the "bud"), or
+      marijuana generally.; Marijuana.
+    examples:
+      - text: Hey bro, want to smoke some bud?
+    sensitive: []
+  - en: Buddy, friend.
+    examples:
+      - text: I like to hang out with my buds on Saturday night.
+      - text: Anna's best bud, John (Malcolm Cumming), harbors a secret crush on her,
+          which is indicative of the lazier, more derivative portions of the
+          story that simply repeat tropes rather than comment on them.
+    sensitive: []
+concept: buddy
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bud#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

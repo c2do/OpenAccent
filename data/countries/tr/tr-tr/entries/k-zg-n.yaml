@@ -1,0 +1,39 @@
+word: kızgın
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɯzˈɡɯn/
+part_of_speech: adj
+meanings:
+  - en: very hot, red-hot, heated
+    examples:
+      - text: kızgın yağ
+        en: boiling oil
+    sensitive: []
+  - en: in heat, in search of a mate
+    examples: []
+    sensitive: []
+  - en: angry, furious, enraged
+    examples: []
+    sensitive: []
+  - en: heated
+    examples:
+      - text: kızgın bir tartışma
+        en: a heated argument
+    sensitive: []
+concept: angry
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/k%C4%B1zg%C4%B1n#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

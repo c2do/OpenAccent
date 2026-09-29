@@ -1,0 +1,29 @@
+word: كام
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - kām
+part_of_speech: adv
+meanings:
+  - en: how much, how many
+    examples:
+      - text: عندك كام ولد؟
+        en: How many children do you have?
+      - text: تحتاج الى كام فلوس؟
+        en: How much money do you need?
+    sensitive: []
+concept: how_much
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D8%A7%D9%85#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

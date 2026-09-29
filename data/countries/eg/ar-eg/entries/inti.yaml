@@ -1,0 +1,28 @@
+word: انتي
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - inti
+  - -ik
+  - -kī
+pronunciation:
+  ipa: /in.tiː/
+part_of_speech: pron
+meanings:
+  - en: "Second-person feminine singular subject pronoun: you"
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%86%D8%AA%D9%8A#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: shot
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʃɒt/
+part_of_speech: noun
+meanings:
+  - en: A punch or other physical blow.
+    examples: []
+    sensitive: []
+  - en: A vaccination; an injection for the purpose of vaccination.
+    examples:
+      - text: tetanus shot
+      - text: I went to the doctor to get a shot for malaria.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/shot#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,36 @@
+word: पुरुष
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - puruṣ
+pronunciation:
+  ipa: /pʊ.ɾʊʂ/
+part_of_speech: noun
+meanings:
+  - en: man, male
+    examples:
+      - text: यह स्नानघर केवल पुरुषों के लिए है।
+        en: This bathroom is for men only.
+      - text: पुरुष की तरह लड़ो!
+        en: Fight like a man!
+    sensitive: []
+  - en: person
+    examples:
+      - text: अनेक पुरुष भवन के बाहर हैं।
+        en: Many people are outside the building.
+    sensitive: []
+concept: man
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A5%81%E0%A4%B0%E0%A5%81%E0%A4%B7#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

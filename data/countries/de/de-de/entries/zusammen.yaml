@@ -1,0 +1,25 @@
+word: zusammen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tsuˈzamən/
+part_of_speech: adj
+meanings:
+  - en: in a romantic relationship with each other
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/zusammen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

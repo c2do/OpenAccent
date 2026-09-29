@@ -1,0 +1,31 @@
+word: كيفك
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - kēfak?
+  - kēfik?
+pronunciation:
+  ipa: /ˈkeːfak/
+part_of_speech: phrase
+meanings:
+  - en: how are you? (to a male)
+    examples: []
+    sensitive: []
+  - en: how are you? (to a female)
+    examples: []
+    sensitive: []
+concept: how_are_you
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D9%8A%D9%81%D9%83#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

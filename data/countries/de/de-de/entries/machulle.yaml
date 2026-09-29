@@ -1,0 +1,34 @@
+word: machulle
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /maˈχʊlə/
+part_of_speech: adj
+meanings:
+  - en: bankrupt; broke
+    examples:
+      - text: Es ist mein Geschäft wie das Eure und ich will Machulle gehn, wenn ich
+          mich anführen lasse von Euch.
+    sensitive: []
+  - en: tired, exhausted
+    examples: []
+    sensitive: []
+  - en: crazy
+    examples: []
+    sensitive: []
+concept: tired
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/machulle#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

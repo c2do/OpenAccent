@@ -1,0 +1,24 @@
+word: smeggy
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: Bad, foul, inferior.
+    examples: []
+    sensitive: []
+concept: bad
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/smeggy#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

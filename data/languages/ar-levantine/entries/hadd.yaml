@@ -1,0 +1,34 @@
+word: حد
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ḥadd
+pronunciation:
+  ipa: /ˈħadd/
+meanings:
+  - en: next to, beside
+    examples: []
+    sensitive: []
+  - en: to delimit
+    examples: []
+    sensitive: []
+  - en: to enclose, to confine
+    examples: []
+    sensitive: []
+  - en: limit
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D8%AF#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,33 @@
+word: كفتا
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - kafta
+  - kifta
+pronunciation:
+  ipa: /ˈkaf.ta/ [ˈkæfta]
+meanings:
+  - en: kofta
+    examples: []
+    sensitive: []
+  - en: why?, how come?
+    examples:
+      - text: "Near-synonyms: ليه (lē, “why”), كِيف جَرَى (kīf jara, “how come”)"
+      - text: kifta 3an ti?ziiha b hayk haki
+        en: Why did you hurt her feelings with such words?
+    sensitive: []
+concept: why
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D9%81%D8%AA%D8%A7#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

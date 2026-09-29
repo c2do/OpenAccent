@@ -1,0 +1,28 @@
+word: don
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dɒn/
+part_of_speech: noun
+meanings:
+  - en: A university professor, particularly one at Oxford or Cambridge.
+    examples:
+      - text: No one feeds at the high table except the dons and the
+          gentlemen-commoners, who are undergraduates in velvet caps and silk
+          gowns[.]
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/don#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

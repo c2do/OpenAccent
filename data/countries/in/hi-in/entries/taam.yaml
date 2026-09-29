@@ -1,0 +1,27 @@
+word: तआम
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - taām
+pronunciation:
+  ipa: /t̪ə.ɑːm/
+part_of_speech: noun
+meanings:
+  - en: food, victuals
+    examples: []
+    sensitive: []
+concept: food
+register: neutral
+familiarity: rare
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A4%86%E0%A4%AE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

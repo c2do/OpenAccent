@@ -1,0 +1,27 @@
+word: peaceful
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: a Muslim; especially a violent member of a radical Islamist group.
+    examples:
+      - text: They only have to use a bit of code to name those people; nowadays they
+          call them “peacefuls”. A smirking euphemism is all it takes to sail
+          through Twitter’s filter, and keep the hate-speech flowing.
+    sensitive:
+      - offensive
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/peaceful#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

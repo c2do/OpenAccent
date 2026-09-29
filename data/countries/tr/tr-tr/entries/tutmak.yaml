@@ -1,0 +1,39 @@
+word: tutmak
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tutˈmak/
+part_of_speech: verb
+meanings:
+  - en: to hold; to take hold of; to grip; to grab
+    examples: []
+    sensitive: []
+  - en: to catch, hunt
+    examples:
+      - text: balık tutmak
+        en: to fish
+    sensitive: []
+  - en: to rent, hire, take on, employ
+    examples:
+      - text: temizlikçi tutmak
+        en: to hire a janitor
+    sensitive: []
+  - en: to hold back; to restrain
+    examples: []
+    sensitive: []
+concept: do
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tutmak#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

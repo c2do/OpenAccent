@@ -1,0 +1,29 @@
+word: erzählen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɛɐ̯ˈt͡sɛːlən/
+part_of_speech: verb
+meanings:
+  - en: to talk a lot; to tell nonsense; to gabble
+    examples:
+      - text: Wir haben den ganzen Nachmittag erzählt.
+        en: We talked the whole afternoon.
+      - text: Der erzählt hier wieder einen!
+        en: This guy’s talking some [bullshit] again today!
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/erz%C3%A4hlen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

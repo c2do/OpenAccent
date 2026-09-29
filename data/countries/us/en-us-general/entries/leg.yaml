@@ -1,0 +1,28 @@
+word: leg
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /lɛɡ/
+part_of_speech: noun
+meanings:
+  - en: An army soldier assigned to a paratrooper unit who has not yet been
+      qualified as a paratrooper.
+    examples:
+      - text: Which was lower than whale shit in the eyes of any paratrooper; it would
+          have been a disgrace to be a leg.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/leg#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

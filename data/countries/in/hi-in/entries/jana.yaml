@@ -1,0 +1,52 @@
+word: जाना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - jānā
+pronunciation:
+  ipa: /d͡ʒɑː.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to go, move, travel, leave, depart; to proceed from one place to another
+    examples:
+      - text: हमें अब यहाँ से जाना चाहिए।
+        en: We should leave from here now.
+      - text: |-
+          एक दिन रजिया ने रामू से कहा—मेरे पास साड़ी नहीं है, जाकर ला दो।
+          ek din rajiyā ne rāmū se kahā—mere pās sāṛī nahī̃ hai, jākar lā do.
+        en: One day Rajiya said to Ramu, "I don't have a sari, go and get me one."
+    sensitive: []
+  - en: to lead to, extend to, reach [with तक (tak) ‘to, until’] (of a road, path,
+      river, etc.)
+    examples:
+      - text: यह सड़क सीधी दिल्ली तक जाती है।
+        en: This road leads straight to Delhi.
+      - text: यह नदी पुणे तक जाती है।
+        en: This river extends to Pune.
+    sensitive: []
+  - en: to flow, issue, discharge, leak [with से (se) ‘from’] (of bodily fluids,
+      liquids, etc.)
+    examples:
+      - text: घाव से बहुत ख़ून गया है।
+        en: A lot of blood has flowed (been lost) from the wound.
+    sensitive: []
+  - en: to pass, elapse, spend, go by (of time, periods, seasons)
+    examples:
+      - text: गया वक़्त फिर हाथ आता नहीं।
+        en: Time that has passed never comes back into one's hands.
+    sensitive: []
+concept: go
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

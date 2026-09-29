@@ -1,0 +1,34 @@
+word: şu
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʃu/
+meanings:
+  - en: that, that over there
+    examples:
+      - text: Şu kedi diğerlerinden daha zayıf.
+        en: That cat is thinner than the others.
+    sensitive: []
+  - en: that (that over there)
+    examples:
+      - text: Şuna bak!
+        en: Look at that!
+      - text: Şunlar senin arkadaşların değil mi?
+        en: Aren't those your friends?
+    sensitive: []
+concept: that
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C5%9Fu#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

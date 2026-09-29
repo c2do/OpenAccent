@@ -1,0 +1,25 @@
+word: alright
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɔːlˈɹaɪt/
+part_of_speech: intj
+meanings:
+  - en: A generic greeting; hello; how are you.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/alright#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

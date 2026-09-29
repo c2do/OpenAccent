@@ -1,0 +1,33 @@
+word: ralar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʁaˈla(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to work a lot and excessively
+    examples:
+      - text: Ela teve que ralar muito na vida.
+        en: She had to work hard in life.
+    sensitive: []
+  - en: to leave, to go away, to beat it
+    examples:
+      - text: Rala daqui!
+        en: Get out of here! / Beat it!
+    sensitive: []
+concept: leave
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ralar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: هي
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - hiyye
+part_of_speech: pron
+meanings:
+  - en: she (subject pronoun)
+    examples:
+      - text: "Enclitic form: ـها (-(h/w/y)a)"
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D9%8A#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

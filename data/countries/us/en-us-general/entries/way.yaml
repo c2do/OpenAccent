@@ -1,0 +1,30 @@
+word: way
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /weɪ/
+part_of_speech: noun
+meanings:
+  - en: Acknowledges that a task has been done well, chiefly in expressions of
+      sarcastic congratulation.
+    examples:
+      - text: Way to ruin the moment, guys.
+      - text: Jimmy leaned forward holding his ear, the personification of naïveté,
+          looking as young as a baby with his oh-so-innocent face. “Oh, way to
+          get us busted, Jimmy,” Curt hissed under his breath.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/way#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

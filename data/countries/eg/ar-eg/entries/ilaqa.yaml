@@ -1,0 +1,30 @@
+word: علاقة
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ʕilāqa
+  - ʕallāʔa
+pronunciation:
+  ipa: /ʕi.laː.qa/
+part_of_speech: noun
+meanings:
+  - en: connection, relation, relationship
+    examples: []
+    sensitive: []
+  - en: coat hanger
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%84%D8%A7%D9%82%D8%A9#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

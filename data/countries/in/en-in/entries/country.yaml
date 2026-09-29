@@ -1,0 +1,27 @@
+word: country
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkʌntɹi/
+part_of_speech: adj
+meanings:
+  - en: Originating in India rather than being imported from abroad.
+    examples:
+      - text: We have seen that the Company manufactured silk stuffs at three of its
+          Residencies, but from country-wound silk.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/country#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

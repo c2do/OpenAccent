@@ -1,0 +1,32 @@
+word: truta
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtɾu.tɐ/
+part_of_speech: noun
+meanings:
+  - en: cellmate
+    examples: []
+    sensitive: []
+  - en: a close friend, especially one who helps with illegal activity
+    examples: []
+    sensitive: []
+  - en: dude (general form of address, especially to a male)
+    examples: []
+    sensitive: []
+concept: buddy
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/truta#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

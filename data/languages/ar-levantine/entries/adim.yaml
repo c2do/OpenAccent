@@ -1,0 +1,27 @@
+word: قديم
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʔadīm
+pronunciation:
+  ipa: /ʔaˈdiːm/
+part_of_speech: adj
+meanings:
+  - en: old (of things)
+    examples: []
+    sensitive: []
+concept: old_thing
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%AF%D9%8A%D9%85#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

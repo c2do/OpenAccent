@@ -1,0 +1,29 @@
+word: عند
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ʕand
+pronunciation:
+  ipa: /ʕand/
+part_of_speech: prep
+meanings:
+  - en: at the house of
+    examples: []
+    sensitive: []
+  - en: expresses possession, to have
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%86%D8%AF#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

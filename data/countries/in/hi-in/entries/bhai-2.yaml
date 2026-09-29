@@ -1,0 +1,29 @@
+word: भई
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bhaī
+pronunciation:
+  ipa: /bʱə.iː/
+part_of_speech: noun
+meanings:
+  - en: friend, pal
+    examples:
+      - text: भई, थोड़ा जल्दी कर।
+        en: Hurry up pal.
+    sensitive: []
+concept: friend
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AD%E0%A4%88#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

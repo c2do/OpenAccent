@@ -1,0 +1,32 @@
+word: chuck
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃʌk/
+part_of_speech: noun
+meanings:
+  - en: Food.
+    examples:
+      - text: >-
+          “Hambone, how's for chuck?”
+
+          Hambone removed pipe from mouth, slowly. “Wal, I reckon I still got a
+          few whistleberries left. Some sonofabitch stew mabbe. A few shot
+          biscuits.”
+    sensitive: []
+concept: food
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chuck#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,33 @@
+word: कृश
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kŕś
+pronunciation:
+  ipa: /kɾɪʃ/
+part_of_speech: adj
+meanings:
+  - en: emaciated, lean, slender, skinny, thin
+    examples: []
+    sensitive: []
+  - en: lesser
+    examples: []
+    sensitive: []
+  - en: small
+    examples: []
+    sensitive: []
+concept: small
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%83%E0%A4%B6#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

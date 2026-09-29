@@ -1,0 +1,33 @@
+word: überall
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˌyːbɐˈʔal/
+part_of_speech: adv
+meanings:
+  - en: forms prepositional adverbs of alles (“everything”)
+    examples:
+      - text: Ich hab’s überall mit probiert, aber der Fleck geht nicht raus.
+        en: I’ve tried it with everything, but the stain won’t come out.
+    sensitive: []
+  - en: is added to a prepositional adverb in order to express that the latter
+      includes a wide variety of items
+    examples:
+      - text: Davon hab ich überall noch nie gehört.
+        en: I’ve never heard about all those things.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%BCberall#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

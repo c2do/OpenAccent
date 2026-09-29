@@ -1,0 +1,26 @@
+word: عامل ايه
+dialect: ar-eg
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[ˈʕæːmel.ˌeː]"
+part_of_speech: phrase
+meanings:
+  - en: what's up? (to a man)
+    examples: []
+    sensitive: []
+concept: whats_up
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D9%85%D9%84_%D8%A7%D9%8A%D9%87#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

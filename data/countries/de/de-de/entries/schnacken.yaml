@@ -1,0 +1,29 @@
+word: schnacken
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃnakən/
+part_of_speech: verb
+meanings:
+  - en: to talk, to speak
+    examples:
+      - text: "Nich' lang schnacken: Kopp in Nacken!"
+        en: Don't talk so long, [but get the back of] your head to your nape!
+      - text: Ich würde nicht so schnacken, wären meine Ärmel nicht hochgekrempelt
+    sensitive: []
+concept: talk
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/schnacken#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

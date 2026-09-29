@@ -1,0 +1,26 @@
+word: hızlı
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /hɯzˈɫɯ/
+part_of_speech: adj
+meanings:
+  - en: fast, rapid, quick
+    examples: []
+    sensitive: []
+concept: fast
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/h%C4%B1zl%C4%B1#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,31 @@
+word: lush
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈlʌʃ/
+part_of_speech: adj
+meanings:
+  - en: Beautiful, sexy.
+    examples:
+      - text: Boys with long hair are lush!
+    sensitive: []
+  - en: Amazing, cool, fantastic, wicked.
+    examples:
+      - text: Your voice is lush, Lucy! I could listen to it all day!
+    sensitive: []
+concept: beautiful
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/lush#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

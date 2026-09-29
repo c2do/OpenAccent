@@ -1,0 +1,29 @@
+word: pois não
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: phrase
+meanings:
+  - en: Can I help you? (used when attending customers)
+    examples: []
+    sensitive: []
+  - en: yes; of course (used to confirm a request)
+    examples:
+      - text: “Eu gostaria de uma salada.” — “Pois não, senhor.”
+        en: “I would like a salad.” — “Yes, sir.”
+    sensitive: []
+concept: "yes"
+register: formal
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pois_n%C3%A3o#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

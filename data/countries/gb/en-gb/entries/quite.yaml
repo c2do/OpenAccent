@@ -1,0 +1,26 @@
+word: quite
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kwaɪ̯t/
+part_of_speech: intj
+meanings:
+  - en: Indicates agreement; exactly so.
+    examples:
+      - text: “That's a rather ugly colour for a house, don't you think?” — “Quite.”
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/quite#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

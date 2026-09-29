@@ -1,0 +1,34 @@
+word: oof
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /uːf/
+part_of_speech: noun
+meanings:
+  - en: Money.
+    examples:
+      - text: |-
+          Burlington Bertie's the latest young jay
+          He rents a swell flat somewhere Kensington way
+          He spends the good oof that his pater has made
+          Along with the Brandy and Soda Brigade.
+      - text: What's he after? Oof—oof—oof, that's what he's after. He's for his own
+          pocket, he's for being boss of all the woolly West. He's after keeping
+          us poor and making himself rich.
+    sensitive: []
+concept: money
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/oof#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: mental
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmɛn.təl/
+part_of_speech: noun
+meanings:
+  - en: A mentally challenged person.
+    examples: []
+    sensitive:
+      - offensive
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mental#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

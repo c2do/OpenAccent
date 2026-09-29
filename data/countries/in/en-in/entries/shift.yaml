@@ -1,0 +1,26 @@
+word: shift
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃɪft/
+part_of_speech: verb
+meanings:
+  - en: To change residence; to leave and live elsewhere.
+    examples:
+      - text: We are shifting to America next month.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/shift#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

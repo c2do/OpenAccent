@@ -1,0 +1,26 @@
+word: intimate
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɪn.tɪ.meɪt/
+part_of_speech: verb
+meanings:
+  - en: To notify.
+    examples:
+      - text: I will intimate you when the details are available.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/intimate#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

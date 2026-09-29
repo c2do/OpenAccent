@@ -1,0 +1,36 @@
+word: mondo
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+meanings:
+  - en: Big, large; major, significant.
+    examples:
+      - text: "[…] I mean, me bein' here has caused us some mondo problems, so I shoulda
+          figured out that not bein' here anymore would cause some more problems
+          — \""
+      - text: Younger gorgeous woman marries older, rich man, lives her life solely for
+          him while reaping the bennies of mondo moolah only to end up dumped by
+          older rich man for newer, younger model.
+    sensitive: []
+  - en: Very, extremely, really.
+    examples:
+      - text: "\"This rain is mondo depressing,\" Sam sighed as she stared out the
+          sliding glass doors that led to the Hewitts' deck."
+      - text: This recipe, from someone who really knows her tiramisu, is mondo rich,
+          utterly divine, and simple.
+    sensitive: []
+concept: big
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mondo#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

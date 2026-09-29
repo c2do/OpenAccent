@@ -1,0 +1,26 @@
+word: arrastrado
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /arasˈtɾado/
+part_of_speech: noun
+meanings:
+  - en: groveller, bootlicker, ass-kisser
+    examples: []
+    sensitive:
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/arrastrado#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

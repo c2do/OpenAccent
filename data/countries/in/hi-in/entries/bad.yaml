@@ -1,0 +1,34 @@
+word: बाद
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bād
+pronunciation:
+  ipa: /bɑːd̪/
+part_of_speech: adv
+meanings:
+  - en: after, afterwards
+    examples:
+      - text: उसके बाद
+        en: after that
+    sensitive: []
+  - en: later
+    examples:
+      - text: एक दिन बाद
+        en: one day later
+    sensitive: []
+concept: later
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%BE%E0%A4%A6#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

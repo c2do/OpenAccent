@@ -1,0 +1,29 @@
+word: fit
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fɪt/
+part_of_speech: adj
+meanings:
+  - en: Sexually attractive; good-looking; fanciable.
+    examples:
+      - text: I think the girl working in the office is fit.
+      - text: Got my hands down her jeans and I nearly lost half my arm / But after ten
+          pints, she looked quite fit
+    sensitive:
+      - sexual
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fit#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

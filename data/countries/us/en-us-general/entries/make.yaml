@@ -1,0 +1,30 @@
+word: make
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /meɪk/
+part_of_speech: verb
+meanings:
+  - en: To recognise, identify, spot.
+    examples:
+      - text: I caught sight of him two or three times and then made him turning north
+          into Laurel Canyon Drive.
+      - text: "Linus Caldwell: Well, she just made Danny and Yen, which means in the
+          next 48 hours the three o' your pictures are gonna be in every police
+          station in Europe."
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/make#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

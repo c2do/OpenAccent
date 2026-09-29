@@ -1,0 +1,28 @@
+word: nerede
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈne.ɾe.de/
+part_of_speech: adv
+meanings:
+  - en: where, in what place
+    examples:
+      - text: Ankara Üniversitesi nerede?
+        en: Where is Ankara University?
+    sensitive: []
+concept: where
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nerede#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

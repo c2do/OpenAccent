@@ -1,0 +1,35 @@
+word: click
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /klɪk/
+part_of_speech: verb
+meanings:
+  - en: To take (a photograph) with a camera.
+    examples:
+      - text: Brad immediately took out his Iphone^([sic]) and clicked a picture of the
+          plant and posted it up on Google and clicked search.
+      - text: They clicked some pictures outside his sea facing bungalow and left
+          dejected again.
+    sensitive: []
+  - en: To achieve success in one's career or a breakthrough, often the first time.
+    examples: []
+    sensitive: []
+  - en: Of a film, to be successful at the box office.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/click#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

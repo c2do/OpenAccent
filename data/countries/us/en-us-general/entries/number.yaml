@@ -1,0 +1,31 @@
+word: number
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnʌmbər/
+part_of_speech: noun
+meanings:
+  - en: A marijuana cigarette, or joint; also, a quantity of marijuana bought from a
+      dealer.
+    examples:
+      - text: These were the two that Tommy had chosen to collect a debt owed to his
+          family by a dude named Heath who ran numbers out of a grocery store on
+          131st and Lenox.
+      - text: Back at his place again, Doc rolled a number, put on a late movie, found
+          an old T-shirt, and sat tearing it up into short strips […]
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/number#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

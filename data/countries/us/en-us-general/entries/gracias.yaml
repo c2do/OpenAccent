@@ -1,0 +1,28 @@
+word: gracias
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡɹɑ.θi.əs/
+part_of_speech: intj
+meanings:
+  - en: Thank you.
+    examples:
+      - text: Muchos gracias, my friend. —The girls are in the kitchen, Bimbo told Vera.
+      - text: '"Gracias, my friend. I owe you a great debt.'
+    sensitive: []
+concept: thanks
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gracias#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

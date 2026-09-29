@@ -1,0 +1,38 @@
+word: इधर
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - idhar
+pronunciation:
+  ipa: /ɪ.d̪ʱəɾ/
+part_of_speech: adv
+meanings:
+  - en: here
+    examples:
+      - text: इधर आओ।
+        en: come here.
+    sensitive: []
+  - en: hither
+    examples: []
+    sensitive: []
+  - en: over here
+    examples: []
+    sensitive: []
+  - en: this way
+    examples: []
+    sensitive: []
+concept: here
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%87%E0%A4%A7%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

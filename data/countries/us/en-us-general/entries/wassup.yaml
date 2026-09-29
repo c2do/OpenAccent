@@ -1,0 +1,26 @@
+word: wassup
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /wəˈsʌp/
+part_of_speech: intj
+meanings:
+  - en: what's up? (as a greeting)
+    examples: []
+    sensitive: []
+concept: whats_up
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wassup#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

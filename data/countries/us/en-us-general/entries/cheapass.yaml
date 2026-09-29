@@ -1,0 +1,26 @@
+word: cheapass
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+meanings:
+  - en: Cheap, stingy; unwilling to spend money.
+    examples: []
+    sensitive: []
+  - en: A stingy person; a cheapskate.
+    examples: []
+    sensitive: []
+concept: cheap
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cheapass#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

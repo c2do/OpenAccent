@@ -1,0 +1,30 @@
+word: chicken
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈt͡ʃɪkɪn/
+part_of_speech: noun
+meanings:
+  - en: A kilogram of cocaine.
+    examples:
+      - text: |-
+          Up early in the morning trappin' (Trap-trap)
+          You can get 'em how you askin' (Ask)
+          How many chickens? You can get 'em whichever way
+          Nigga, trap turned Zaxby's (Zax)
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chicken#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

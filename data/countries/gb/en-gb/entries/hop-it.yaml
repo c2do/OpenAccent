@@ -1,0 +1,28 @@
+word: hop it
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: To leave; to go away.
+    examples:
+      - text: It has been rather misty for several mornings, so I told my pal to get
+          ready and we would hop it the next day.
+      - text: ‘[…] But when the others found out about it they got a bit restive, and I
+          had to hop it. One of them pitched a spear at me. […]’
+    sensitive: []
+concept: leave
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hop_it#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

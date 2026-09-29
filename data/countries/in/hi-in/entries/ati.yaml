@@ -1,0 +1,33 @@
+word: अति
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ati
+pronunciation:
+  ipa: /ə.t̪iː/
+meanings:
+  - en: very, greatly
+    examples:
+      - text: अति उत्तम
+        en: very good
+      - text: अति महत्वपूर्ण
+        en: very important
+    sensitive: []
+  - en: excess, surplus
+    examples: []
+    sensitive: []
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%A4%E0%A4%BF#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

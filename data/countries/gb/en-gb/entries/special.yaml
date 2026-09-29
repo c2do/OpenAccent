@@ -1,0 +1,27 @@
+word: special
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈspɛʃ.əl/
+part_of_speech: noun
+meanings:
+  - en: A special constable.
+    examples:
+      - text: And you can't trust a "Special" like the old-time copper when you can't
+          find your way home.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/special#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

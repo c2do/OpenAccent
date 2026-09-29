@@ -1,0 +1,28 @@
+word: cantar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɐ̃ˈta(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to attempt to seduce by flattery
+    examples:
+      - text: As únicas coisas que ele faz o dia todo são comer, dormir, e cantar
+          meninas.
+        en: The only things he does all day are eat, sleep and seduce girls.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cantar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,38 @@
+word: عبكرة
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʕabukra
+pronunciation:
+  ipa: /ʕabukra/
+part_of_speech: adv
+meanings:
+  - en: tomorrow
+    examples:
+      - text: جاي تسلم عبكرة وللا شو؟
+        en: Will you be coming to say hi tomorrow or what?
+      - text: 3a-bukra kaan bikuun katab law mistlim maktuub minna
+        en: He would have written tomorrow had he received a letter from us
+    sensitive: []
+  - en: morning
+    examples:
+      - text: جاي تسلم عبكرة وللا شو؟
+        en: Will you be coming to say hi in the morning or what?
+      - text: أنا من عبكرة وما آخدة نفس
+        en: I haven't been able to take a breath all day
+    sensitive: []
+concept: tomorrow
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D8%A8%D9%83%D8%B1%D8%A9#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

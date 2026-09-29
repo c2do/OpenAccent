@@ -1,0 +1,26 @@
+word: jo
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /joː/
+part_of_speech: intj
+meanings:
+  - en: yes; expresses firm agreement.
+    examples: []
+    sensitive: []
+concept: "yes"
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jo#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

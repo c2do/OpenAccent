@@ -1,0 +1,32 @@
+word: kommen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkɔmən/
+part_of_speech: verb
+meanings:
+  - en: to (try to) bring up, to come up with (and try to convince others of)
+    examples:
+      - text: Er kommt immer wieder mit diesem dummen Vorschlag.
+        en: Time and again he tries bringing up that stupid suggestion.
+    sensitive: []
+  - en: to turn out
+    examples:
+      - text: Am Ende kommt hoffentlich alles gut.
+        en: In the end, hopefully all will turn out well.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/kommen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

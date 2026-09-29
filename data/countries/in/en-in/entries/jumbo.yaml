@@ -1,0 +1,25 @@
+word: jumbo
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈd͡ʒʌmbəʊ/
+part_of_speech: noun
+meanings:
+  - en: An elephant.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jumbo#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

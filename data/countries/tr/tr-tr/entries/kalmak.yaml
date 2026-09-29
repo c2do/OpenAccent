@@ -1,0 +1,35 @@
+word: kalmak
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɑɫmɑk/
+part_of_speech: verb
+meanings:
+  - en: to remain, be left; to be left over
+    examples: []
+    sensitive: []
+  - en: to come to a halt, reach a standstill
+    examples: []
+    sensitive: []
+  - en: to wait, stay, camp
+    examples: []
+    sensitive: []
+  - en: to spoil, go bad, sour
+    examples: []
+    sensitive: []
+concept: wait
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/kalmak#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,49 @@
+word: आना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ānā
+pronunciation:
+  ipa: /ɑː.nɑː/
+meanings:
+  - en: to come, approach, draw near; to arrive, reach (a place or a point)
+    examples:
+      - text: मैं अभी आता हूँ।
+        en: I'll come right now.
+      - text: गाड़ी दो बजे आएगी।
+        en: The train will arrive at two o'clock.
+    sensitive: []
+  - en: to come, approach, draw near; to arrive, reach (a place or a point); to come
+      back, return (after having gone)
+    examples:
+      - text: तुम यहीं खड़े रहो, मैं अभी आता हूँ।
+        en: You stay right here; I'll be back in a moment.
+    sensitive: []
+  - en: to appear, turn up, show up, come into view; to be published, feature (in a
+      paper, a list)
+    examples:
+      - text: आसमान में बादल आ गए हैं।
+        en: Clouds have appeared in the sky.
+      - text: कल के अख़बार में यह ख़बर आई थी।
+        en: This news appeared in yesterday's paper.
+    sensitive: []
+  - en: to be received, be delivered, come in (of a letter, goods, news, money)
+    examples:
+      - text: आज डाक नहीं आई।
+        en: The post did not come today.
+    sensitive: []
+concept: come
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%86%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

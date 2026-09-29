@@ -1,0 +1,29 @@
+word: peça
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpɛ.sɐ/
+part_of_speech: noun
+meanings:
+  - en: gun
+    examples: []
+    sensitive: []
+  - en: cock, dick (penis)
+    examples: []
+    sensitive:
+      - sexual
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pe%C3%A7a#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

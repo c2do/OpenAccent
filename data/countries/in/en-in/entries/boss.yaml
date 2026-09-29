@@ -1,0 +1,27 @@
+word: boss
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɒs/
+part_of_speech: noun
+meanings:
+  - en: One who is in charge of something.; A term of address to a man, especially a
+      customer; sometimes also to a friend or acquaintance of equal standing.
+    examples:
+      - text: Good to see you, boss.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/boss#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

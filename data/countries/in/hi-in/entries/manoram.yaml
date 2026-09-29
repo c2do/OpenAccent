@@ -1,0 +1,30 @@
+word: मनोरम
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - manoram
+pronunciation:
+  ipa: /mə.noː.ɾəm/
+part_of_speech: adj
+meanings:
+  - en: beautiful, pretty, pleasing, lovely, charming, delightful
+    examples:
+      - text: सूर्योदय के समय पहाड़ी वादियों का मनोरम दृश्य पर्यटकों का मन मोह लेता है।
+        en: The beautiful view of the mountain valleys at the time of sunrise captivates
+          the mind of tourists.
+    sensitive: []
+concept: beautiful
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AE%E0%A4%A8%E0%A5%8B%E0%A4%B0%E0%A4%AE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

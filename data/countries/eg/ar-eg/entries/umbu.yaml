@@ -1,0 +1,31 @@
+word: امبو
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ʔumbū
+  - ʔimbū
+pronunciation:
+  ipa: /im.bu(ː)/
+part_of_speech: noun
+meanings:
+  - en: "water (children's language: any drink, but especially water)"
+    examples: []
+    sensitive: []
+  - en: drink
+    examples: []
+    sensitive: []
+concept: water
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%85%D8%A8%D9%88#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

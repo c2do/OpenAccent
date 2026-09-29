@@ -1,0 +1,27 @@
+word: schauen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃaʊ̯ən/
+part_of_speech: verb
+meanings:
+  - en: to decide spontaneously and/or by personal preference; to wait and see
+    examples:
+      - text: Ach, schauen wir einmal, wie sich die Sache entwickelt.
+        en: Well, let's wait and see how things develop.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/schauen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

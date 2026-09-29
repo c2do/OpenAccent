@@ -1,0 +1,29 @@
+word: komisch
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkoːmɪʃ/
+part_of_speech: adj
+meanings:
+  - en: weird, strange, peculiar, funny
+    examples:
+      - text: Das war sowieso ein sehr komischer Kompromiss.
+        en: It was a very weird compromise anyway.
+      - text: Das war echt ein komischer Vogel.
+        en: He was a very peculiar guy.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/komisch#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,24 @@
+word: أنا
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ʔana
+part_of_speech: pron
+meanings:
+  - en: I (first person singular subject pronoun)
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D9%86%D8%A7#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

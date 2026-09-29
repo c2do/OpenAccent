@@ -1,0 +1,30 @@
+word: لسا
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - lissa
+pronunciation:
+  ipa: /lis.sa/
+part_of_speech: adv
+meanings:
+  - en: still
+    examples: []
+    sensitive: []
+  - en: not yet
+    examples: []
+    sensitive: []
+concept: still
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D8%B3%D8%A7#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

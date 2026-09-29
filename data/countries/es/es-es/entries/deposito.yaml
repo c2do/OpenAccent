@@ -1,0 +1,25 @@
+word: depósito
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /deˈposito/
+part_of_speech: noun
+meanings:
+  - en: pound, car pound (UK); impound lot, impound (US)
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dep%C3%B3sito#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

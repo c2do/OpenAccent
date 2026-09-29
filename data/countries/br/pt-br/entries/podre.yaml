@@ -1,0 +1,33 @@
+word: podre
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpo.dɾi/
+meanings:
+  - en: bad, horrible
+    examples:
+      - text: Que filme podre.
+        en: What a bad movie.
+    sensitive: []
+  - en: an embarrassing or compromising piece of information about someone or
+      something; dirt
+    examples:
+      - text: Fiquei sabendo de podres dele.
+        en: I learned some compromising information about him.
+    sensitive: []
+concept: bad
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/podre#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

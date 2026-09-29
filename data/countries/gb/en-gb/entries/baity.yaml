@@ -1,0 +1,30 @@
+word: baity
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbeɪti/
+part_of_speech: adj
+meanings:
+  - en: Angry, bad-tempered.
+    examples:
+      - text: “Oh, sir—uncle is such a batey old chap. It was a spree! I never saw him
+          so mad!”
+      - text: ‘If Jimbug gets baity with me, like that time last week . . .’ Remembering
+          the scene, Anthony frowned; the blood came up into his cheeks.
+    sensitive: []
+concept: angry
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/baity#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

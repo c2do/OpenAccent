@@ -1,0 +1,35 @@
+word: cool
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kuːl/
+part_of_speech: adj
+meanings:
+  - en: cool (in its informal senses)
+    examples:
+      - text: Die Musik war echt cool.
+        en: The music was very cool.
+      - text: Wir treffen Jill und Joe und dessen Bruder Hip / Und auch den Rest der
+          coolen Gang
+    sensitive: []
+  - en: cool, calm, easy-going
+    examples:
+      - text: Als Trainer muss mann ziemlich cool sein.
+        en: As a trainer you have to be quite easy-going.
+    sensitive: []
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cool#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: finch
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fɪnt͡ʃ/
+part_of_speech: noun
+meanings:
+  - en: A woman.
+    examples: []
+    sensitive: []
+concept: woman
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/finch#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

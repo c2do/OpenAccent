@@ -1,0 +1,33 @@
+word: فيه
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - fī
+pronunciation:
+  ipa: /ˈfiː/
+part_of_speech: det
+meanings:
+  - en: there is
+    examples:
+      - text: فيه واحد قُدَّامَك
+        en: there is someone in front of you
+    sensitive: []
+  - en: in him, with him
+    examples:
+      - text: إيش فيه؟
+        en: what's (up) with him? / what's wrong?
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D9%8A%D9%87#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

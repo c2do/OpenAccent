@@ -1,0 +1,30 @@
+word: já, já
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʒaˈʒa/
+part_of_speech: adv
+meanings:
+  - en: soon
+    examples:
+      - text: Estamos em Novembro. Já, já é Natal.
+        en: We are in November. Soon it will be Christmas.
+      - text: Já, já a gente chega.
+        en: We'll arrive soon.
+    sensitive: []
+concept: soon
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/j%C3%A1%2C_j%C3%A1#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

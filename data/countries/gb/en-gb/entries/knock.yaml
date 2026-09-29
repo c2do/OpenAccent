@@ -1,0 +1,26 @@
+word: knock
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /nɒk/
+part_of_speech: verb
+meanings:
+  - en: To impress forcibly or strongly; to astonish; to move to admiration or
+      applause.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/knock#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: ideia
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /iˈdɛj.ɐ/
+part_of_speech: noun
+meanings:
+  - en: head
+    examples:
+      - text: Tomou uma pancada na ideia que chegou a ver estrelas.
+        en: He took a blow to the head and came to see stars.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ideia#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

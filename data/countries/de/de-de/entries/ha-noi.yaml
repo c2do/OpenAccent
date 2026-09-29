@@ -1,0 +1,29 @@
+word: ha noi
+dialect: de-de
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /haˈnɔʏ̯/
+part_of_speech: intj
+meanings:
+  - en: "no"
+    examples: []
+    sensitive: []
+  - en: oh no!, good heavens!
+    examples: []
+    sensitive: []
+concept: "no"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ha_noi#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

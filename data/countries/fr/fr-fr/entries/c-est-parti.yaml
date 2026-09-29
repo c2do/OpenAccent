@@ -1,0 +1,26 @@
+word: c'est parti
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /s‿ɛ paʁ.ti/
+part_of_speech: intj
+meanings:
+  - en: let's go!; we're off! here we go!; off we go!
+    examples: []
+    sensitive: []
+concept: lets_go
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/c'est_parti#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

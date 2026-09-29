@@ -1,0 +1,32 @@
+word: word up
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+meanings:
+  - en: I approve; I agree.
+    examples: []
+    sensitive: []
+  - en: Hello.
+    examples: []
+    sensitive: []
+  - en: What's up?; what's happening?; what's the word?
+    examples: []
+    sensitive: []
+  - en: Listen up; pay attention!.
+    examples: []
+    sensitive: []
+concept: hello
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/word_up#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,34 @@
+word: tiririca
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃi.ɾiˈɾi.kɐ/
+meanings:
+  - en: Cyperus rotundus, a specific herb of that family
+    examples: []
+    sensitive: []
+  - en: pickpocket; a minor thief
+    examples: []
+    sensitive: []
+  - en: a wild agitation of a river's waters
+    examples: []
+    sensitive: []
+  - en: angry; annoyed; furious
+    examples: []
+    sensitive: []
+concept: angry
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tiririca#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

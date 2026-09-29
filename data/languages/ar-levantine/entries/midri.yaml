@@ -1,0 +1,35 @@
+word: مدري
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - midri
+pronunciation:
+  ipa: /midri/
+meanings:
+  - en: I don't know, I have no idea
+    examples: []
+    sensitive: []
+  - en: or (for imprecise estimates or guesses)
+    examples:
+      - text: نطرتو ساعة مدري ساعتين ما كان يبين
+        en: I waited for him for, I don't know, an hour, two hours, he just wouldn't
+          show up
+      - text: ليك أنا برا وفي هيك عقص مدري برغش مدري شو المهم خلصني افتحلي أكلوني
+        en: Listen, I'm outside and there's, I don't know, mosquitoes or gnats or
+          something... point is, come open up, they're eating me up
+    sensitive: []
+concept: i_dont_know
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%AF%D8%B1%D9%8A#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

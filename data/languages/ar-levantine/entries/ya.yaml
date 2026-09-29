@@ -1,0 +1,53 @@
+word: يا
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - yā
+  - yā-
+  - yyā-
+  - ya
+meanings:
+  - en: vocative particle
+    examples: []
+    sensitive: []
+  - en: accusative particle, used with pronominal suffixes to express English object
+      pronouns, like me, him, etc.
+    examples:
+      - text: شو بدك ياني قول؟
+        en: What do you want me to say?
+      - text: رح فرجيك ياهن.
+        en: I'll show them to you.
+    sensitive: []
+  - en: Takes the place of a subject pronoun after و (w, “and”) when coordinating
+      multiple pronouns
+    examples:
+      - text: شو رأيك نروح أنا وياكي سوا؟
+        en: What do you say you and I go together?
+    sensitive: []
+  - en: or
+    examples:
+      - text: يا ... يا
+        en: either ... or
+      - text: |-
+          w ɥa ceffti, lemmin byeṣrak qas,
+          ɥrafli çana l deçtu ya hewwi l daçni...
+        en: >-
+          And on my lips, when a glass cries out,
+
+          “Tell me, am I the one that tasted him or is he the one that tasted
+          me...”
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%8A%D8%A7#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

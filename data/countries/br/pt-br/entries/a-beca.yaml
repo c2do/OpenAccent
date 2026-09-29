@@ -1,0 +1,38 @@
+word: à beça
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a ˈbɛ.sɐ/
+part_of_speech: adv
+meanings:
+  - en: very much; to a great extent
+    examples:
+      - text: Você fala à beça.
+        en: You speak too much.
+    sensitive: []
+  - en: very; really
+    examples:
+      - text: Consegui um livro bom à beça.
+        en: I got a really good book.
+    sensitive: []
+  - en: loads of; a lot of
+    examples:
+      - text: Dinheiro à beça.
+        en: Loads of money.
+    sensitive: []
+concept: a_lot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A0_be%C3%A7a#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

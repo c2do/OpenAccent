@@ -1,0 +1,24 @@
+word: does a bear poop in the woods
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: intj
+meanings:
+  - en: Yes, obviously!
+    examples: []
+    sensitive: []
+concept: "yes"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/does_a_bear_poop_in_the_woods#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

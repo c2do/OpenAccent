@@ -1,0 +1,35 @@
+word: चंड
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - caṇḍ
+pronunciation:
+  ipa: /t͡ʃəɳɖ/
+meanings:
+  - en: fierce, violent, strong, harsh
+    examples: []
+    sensitive: []
+  - en: hot, passionate, raging, wounding, stinging
+    examples: []
+    sensitive: []
+  - en: heat
+    examples: []
+    sensitive: []
+  - en: anger, fury
+    examples: []
+    sensitive: []
+concept: hot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A4%82%E0%A4%A1#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

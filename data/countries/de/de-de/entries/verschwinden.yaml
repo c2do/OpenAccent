@@ -1,0 +1,28 @@
+word: verschwinden
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fɛɐ̯ˈʃvɪndn̩/
+part_of_speech: verb
+meanings:
+  - en: to leave, to go away
+    examples:
+      - text: Ich verschwinde jetzt besser.
+        en: I'd better be going now.
+    sensitive: []
+concept: leave
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/verschwinden#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

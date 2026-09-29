@@ -1,0 +1,37 @@
+word: सरल
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - saral
+pronunciation:
+  ipa: /sə.ɾəl/
+part_of_speech: adj
+meanings:
+  - en: easy
+    examples: []
+    sensitive: []
+  - en: simple, straightforward
+    examples:
+      - text: हिंदी भाषा का व्याकरण सरल है।
+        en: The grammar of Hindi is simple.
+    sensitive: []
+  - en: straight
+    examples:
+      - text: रेत में उसने एक सरल रेखा बनाई।
+        en: He made a straight line in the sand.
+    sensitive: []
+concept: easy
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%B0%E0%A4%B2#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

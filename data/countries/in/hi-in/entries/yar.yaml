@@ -1,0 +1,35 @@
+word: यार
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - yār
+pronunciation:
+  ipa: /jɑːɾ/
+part_of_speech: noun
+meanings:
+  - en: buddy, friend, pal, companion
+    examples: []
+    sensitive: []
+  - en: bro, dude
+    examples:
+      - text: यार, यह सब भूल जाओ और समझौता पूरा करो।
+        en: Dude, just forget all this and finish the deal.
+    sensitive: []
+  - en: paramour, lover
+    examples: []
+    sensitive: []
+concept: buddy
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AF%E0%A4%BE%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

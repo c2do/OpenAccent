@@ -1,0 +1,35 @@
+word: पीर
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - pīr
+pronunciation:
+  ipa: /piːɾ/
+meanings:
+  - en: Pir, spiritual master
+    examples: []
+    sensitive: []
+  - en: Monday
+    examples: []
+    sensitive: []
+  - en: venerable, revered
+    examples: []
+    sensitive: []
+  - en: old, aged
+    examples: []
+    sensitive: []
+concept: old_thing
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A5%80%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

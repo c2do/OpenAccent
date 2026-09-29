@@ -1,0 +1,29 @@
+word: negócio
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /neˈɡɔ.sju/
+part_of_speech: noun
+meanings:
+  - en: thing, stuff
+    examples: []
+    sensitive: []
+  - en: penis
+    examples: []
+    sensitive:
+      - sexual
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/neg%C3%B3cio#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

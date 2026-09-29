@@ -1,0 +1,36 @@
+word: sick
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈsɪk/
+meanings:
+  - en: Vomit.
+    examples:
+      - text: "[…] they're spitting and belching chunks of lentilly gunk. Looks like
+          sick."
+      - text: The bogan, true to form, laps it up like a dog does its own sick.
+    sensitive: []
+  - en: (especially in the phrases on the sick and on long-term sick) Any of various
+      current or former benefits or allowances paid by the Government to support
+      the sick, disabled or incapacitated.
+    examples: []
+    sensitive: []
+  - en: To vomit.
+    examples:
+      - text: I woke up at 4 am and sicked on the floor.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sick#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

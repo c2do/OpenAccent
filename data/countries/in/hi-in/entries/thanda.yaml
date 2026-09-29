@@ -1,0 +1,34 @@
+word: ठंडा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ṭhaṇḍā
+pronunciation:
+  ipa: /ʈʰəɳ.ɖɑː/
+meanings:
+  - en: cold, chilly
+    examples: []
+    sensitive: []
+  - en: extinguished
+    examples:
+      - text: आग ठंडी हो गई।
+        en: The fire fizzled out.
+    sensitive: []
+  - en: cold drink, soft drink, soda
+    examples: []
+    sensitive: []
+concept: cold
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A0%E0%A4%82%E0%A4%A1%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

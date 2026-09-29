@@ -1,0 +1,34 @@
+word: जानना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - jānnā
+pronunciation:
+  ipa: /d͡ʒɑːn.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to know, comprehend, understand
+    examples:
+      - text: मैं हिंदी काफ़ी अच्छी तरह से जानता हूँ।
+        en: I know Hindi quite well.
+    sensitive: []
+  - en: to be familiar with
+    examples:
+      - text: वह मुझे बचपन से जानती है।
+        en: She has known me since childhood.
+    sensitive: []
+concept: know
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%A8%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

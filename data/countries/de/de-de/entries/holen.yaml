@@ -1,0 +1,32 @@
+word: holen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhoːlən/
+part_of_speech: verb
+meanings:
+  - en: to get, to cop (to buy for one's benefit/entertainment)
+    examples:
+      - text: Ich hole mir morgen ’n neuen Fernseher.
+        en: I’m getting me a new TV tomorrow.
+    sensitive: []
+  - en: to catch, to get (an illness or injury)
+    examples:
+      - text: Meine Tochter hat sich einen Schnupfen geholt.
+        en: My daughter caught a cold.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/holen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

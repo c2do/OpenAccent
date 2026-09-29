@@ -1,0 +1,36 @@
+word: علاقة
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ʕallāga
+  - ʕilāga
+pronunciation:
+  ipa: /ʕal.laː.ɡa/
+part_of_speech: noun
+meanings:
+  - en: coat hanger
+    examples: []
+    sensitive: []
+  - en: relationship, kinship
+    examples: []
+    sensitive: []
+  - en: connection, relation
+    examples: []
+    sensitive: []
+  - en: relevance
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%84%D8%A7%D9%82%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

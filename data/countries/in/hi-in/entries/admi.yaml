@@ -1,0 +1,34 @@
+word: आदमी
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ādmī
+pronunciation:
+  ipa: /ɑːd̪.miː/
+part_of_speech: noun
+meanings:
+  - en: human being, person
+    examples:
+      - text: आदमी बहुत स्वार्थी प्राणी है।
+        en: Man is a selfish being.
+    sensitive: []
+  - en: man, male
+    examples:
+      - text: क्या वह आदमी या औरत है?
+        en: Are they a man or a woman?
+    sensitive: []
+concept: man
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%86%E0%A4%A6%E0%A4%AE%E0%A5%80#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

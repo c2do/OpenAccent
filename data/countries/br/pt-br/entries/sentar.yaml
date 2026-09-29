@@ -1,0 +1,32 @@
+word: sentar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sẽˈta(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to land a blow; to hit; to deliver
+    examples: []
+    sensitive: []
+  - en: to ride (to mount someone to have sex with them)
+    examples:
+      - text: Oi, na minha casa tu senta na pica / E tu dá uma rebolada
+        en: Oi, at my home you ride my dick and wiggle.
+    sensitive:
+      - sexual
+      - vulgar
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sentar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

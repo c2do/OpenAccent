@@ -1,0 +1,27 @@
+word: aufhören
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈaʊ̯fˌhøːrən/
+part_of_speech: verb
+meanings:
+  - en: to stop talking about something
+    examples:
+      - text: Kannst du nicht mal davon aufhören? Das ist Jahre her.
+        en: Can’t you stop bringing it up? This was years ago.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/aufh%C3%B6ren#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

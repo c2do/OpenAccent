@@ -1,0 +1,39 @@
+word: gray
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡɹeɪ/
+meanings:
+  - en: Of a color between black and white, having neutral hue and intermediate
+      brightness.
+    examples: []
+    sensitive: []
+  - en: Dreary, gloomy, cloudy.
+    examples:
+      - text: the era of gray, boring banality and stagnation
+      - text: It's a pretty grey outlook for England if these are a sample of the
+          mothers of the coming generation.
+    sensitive: []
+  - en: Of indistinct, disputed or uncertain quality or acceptability.
+    examples: []
+    sensitive: []
+  - en: Gray-haired.
+    examples:
+      - text: I have already gone gray and lost my looks.
+    sensitive: []
+concept: old_thing
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gray#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

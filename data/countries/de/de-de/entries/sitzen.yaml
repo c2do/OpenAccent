@@ -1,0 +1,30 @@
+word: sitzen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈzɪtsn̩/
+part_of_speech: verb
+meanings:
+  - en: to do time; to spend time in jail
+    examples:
+      - text: im Gefängnis sitzen.
+        en: to be in jail.
+    sensitive: []
+  - en: to hit home; to have a significant effect
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sitzen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

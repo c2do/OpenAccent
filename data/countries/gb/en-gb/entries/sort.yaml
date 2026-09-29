@@ -1,0 +1,33 @@
+word: sort
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /soɹt/
+meanings:
+  - en: A good-looking woman.
+    examples: []
+    sensitive: []
+  - en: To fix (a problem) or handle (a task).
+    examples:
+      - text: "‘Does rewilding sort climate change? Yes!’: UK expert says nature can
+          save planet and not harm farming [title]"
+    sensitive: []
+  - en: To attack physically.
+    examples:
+      - text: If he comes nosing around here again I'll sort him!
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sort#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

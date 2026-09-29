@@ -1,0 +1,31 @@
+word: joder
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /xoˈdeɾ/
+part_of_speech: verb
+meanings:
+  - en: to fuck up, smash, wreak, break, damage
+    examples:
+      - text: ¡Me jodiste la máquina!
+        en: You fucked up my machine!
+      - text: ¡Me jodiste la computadora!
+        en: You fucked up my computer!
+    sensitive:
+      - sexual
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/joder#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

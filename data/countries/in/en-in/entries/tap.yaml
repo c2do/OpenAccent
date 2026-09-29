@@ -1,0 +1,33 @@
+word: tap
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tæp/
+part_of_speech: noun
+meanings:
+  - en: A malarial fever.
+    examples:
+      - text: The country, my entertainer informed me, was considered perfectly safe,
+          unless I feared the tap, the bad kind of fever which infests all the
+          country at the base of the hills.
+      - text: |-
+          But, when I heard her speak soft Urdu words,
+           Like a white angel in her pity of us,
+           No whit afraid of sitla, or of tap
+           Fever or pest!
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tap#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

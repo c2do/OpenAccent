@@ -1,0 +1,30 @@
+word: mata
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A respectful title for a female spiritual leader or for a wife, mother, or
+      grandmother of a male spiritual leader.
+    examples: []
+    sensitive: []
+  - en: A Hindu goddess.
+    examples: []
+    sensitive: []
+  - en: A mother (also used as a term of address for a woman).
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mata#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

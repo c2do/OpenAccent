@@ -1,0 +1,27 @@
+word: alliance
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /əˈlaɪ.əns/
+part_of_speech: noun
+meanings:
+  - en: A union or connection of interests between families, states, parties, etc.,
+      especially between families by marriage and states by compact, treaty, or
+      league.; Marriage.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/alliance#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,36 @@
+word: sıcak
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sɯˈdʒɑk/
+meanings:
+  - en: hot, warm
+    examples:
+      - text: Çay çok sıcak.
+        en: The tea is too hot.
+    sensitive: []
+  - en: caring, friendly, warm
+    examples: []
+    sensitive: []
+  - en: hot, flashing, suddenly popular (news, topic etc.)
+    examples: []
+    sensitive: []
+  - en: heat, hot temperature, warmth
+    examples: []
+    sensitive: []
+concept: hot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/s%C4%B1cak#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

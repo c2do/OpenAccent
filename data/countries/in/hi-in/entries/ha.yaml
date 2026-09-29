@@ -1,0 +1,31 @@
+word: हाँ
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - hā̃
+pronunciation:
+  ipa: /ɦɑ̃ː/
+meanings:
+  - en: "yes"
+    examples: []
+    sensitive: []
+  - en: a yes
+    examples:
+      - text: हाँ बोलना
+        en: to say yes
+    sensitive: []
+concept: "yes"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B9%E0%A4%BE%E0%A4%81#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: حنجر
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ḥanjar
+pronunciation:
+  ipa: /ħan.ʒar/
+part_of_speech: verb
+meanings:
+  - en: to eat
+    examples: []
+    sensitive: []
+concept: eat
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D9%86%D8%AC%D8%B1#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

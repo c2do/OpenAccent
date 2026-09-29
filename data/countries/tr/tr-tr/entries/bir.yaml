@@ -1,0 +1,40 @@
+word: bir
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bir/
+meanings:
+  - en: one
+    examples:
+      - text: Allah birdir ve tektir.
+        en: God is one and only.
+    sensitive: []
+  - en: only, solely, merely
+    examples: []
+    sensitive: []
+  - en: briefly, for a minute, momentarily, quickly
+    examples:
+      - text: Bir gelsene buraya, sana bir şey soracağım.
+        en: Can you come over here for a minute? I need to ask you something.
+    sensitive: []
+  - en: When (only used for momentary verbs)
+    examples:
+      - text: Bir odaya girdim ki, çocukları boğuşur halde buldum.
+        en: When I entered the room I found the kids wrestling.
+    sensitive: []
+concept: when
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bir#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

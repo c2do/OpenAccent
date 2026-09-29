@@ -1,0 +1,25 @@
+word: uncle
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʌŋ.kl̩/
+part_of_speech: noun
+meanings:
+  - en: A pawnbroker.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/uncle#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

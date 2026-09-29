@@ -1,0 +1,32 @@
+word: महान
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - mahān
+pronunciation:
+  ipa: /mə.ɦɑːn/
+part_of_speech: adj
+meanings:
+  - en: great, respected, renowned
+    examples:
+      - text: महान व्यक्ति
+        en: renowned individual
+    sensitive: []
+  - en: big, large
+    examples: []
+    sensitive: []
+concept: big
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%A8#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

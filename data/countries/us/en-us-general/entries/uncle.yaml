@@ -1,0 +1,25 @@
+word: uncle
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʌŋ.kl̩/
+part_of_speech: intj
+meanings:
+  - en: A cry used to indicate surrender.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/uncle#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

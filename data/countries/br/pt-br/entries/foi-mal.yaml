@@ -1,0 +1,26 @@
+word: foi mal
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfoj ˈmaw/
+part_of_speech: intj
+meanings:
+  - en: sorry, my bad (expression of regret or sorrow)
+    examples: []
+    sensitive: []
+concept: sorry
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/foi_mal#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

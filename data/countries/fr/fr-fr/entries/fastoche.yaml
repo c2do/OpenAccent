@@ -1,0 +1,28 @@
+word: fastoche
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fas.tɔʃ/
+part_of_speech: adj
+meanings:
+  - en: easy; easy-peasy
+    examples:
+      - text: L'exo était super fastoche
+        en: The exercise was super easy
+    sensitive: []
+concept: easy
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fastoche#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: unmöglich
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʔʊn.ˈmøː.klɪç/
+part_of_speech: adj
+meanings:
+  - en: ridiculous, improper (not aligned with aesthetic or social norms or
+      expectations)
+    examples:
+      - text: Diese laute Musik ist wirklich unmöglich!
+        en: This loud music is truly unbearable!
+      - text: Er stellt die unmöglichsten Fragen.
+        en: He asks the most ridiculous questions.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/unm%C3%B6glich#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

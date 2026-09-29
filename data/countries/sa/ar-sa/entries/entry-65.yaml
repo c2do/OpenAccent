@@ -1,0 +1,29 @@
+word: إيش مسوي
+dialect: ar-sa
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʔeːʃ musawwi/
+part_of_speech: phrase
+meanings:
+  - en: what's up? (to a male)
+    examples: []
+    sensitive: []
+  - en: how are you doing? (to a male)
+    examples: []
+    sensitive: []
+concept: whats_up
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A5%D9%8A%D8%B4_%D9%85%D8%B3%D9%88%D9%8A#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

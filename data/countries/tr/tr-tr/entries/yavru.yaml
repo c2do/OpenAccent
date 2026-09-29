@@ -1,0 +1,40 @@
+word: yavru
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /javˈɾu/
+meanings:
+  - en: young (of an animal)
+    examples: []
+    sensitive: []
+  - en: baby, cub (young animal)
+    examples:
+      - text: Kedimiz Mırnav, o sene dört yavru yavrulamıştı.
+        en: Our cat Mırnav gave birth to four kittens that year.
+    sensitive: []
+  - en: A child
+    examples:
+      - text: Hiç bir anne yavrusunu ateşe atar mı?
+        en: Would a mother ever throw her child to the fire?
+    sensitive: []
+  - en: baby (used to refer to an attractive person, most often female)
+    examples:
+      - text: Gel buraya güzelim, yavruların yavrusu!
+        en: Come here my beauty, [sexy] baby!
+    sensitive: []
+concept: child
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/yavru#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

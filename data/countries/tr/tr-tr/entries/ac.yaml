@@ -1,0 +1,38 @@
+word: aç
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[ɑt͡ʃ]"
+meanings:
+  - en: hungry person
+    examples:
+      - text: Aç ne yemez tok ne demez.
+        en: A hungry one will eat anything, while a sated one will complain.
+    sensitive: []
+  - en: hungry, unfed
+    examples:
+      - text: Aç ayı oynamaz.
+        en: A hungry bear won't dance.
+    sensitive: []
+  - en: greedy, covetous, insatiable
+    examples: []
+    sensitive: []
+  - en: hungrily, in a hungry state
+    examples: []
+    sensitive: []
+concept: hungry
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/a%C3%A7#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

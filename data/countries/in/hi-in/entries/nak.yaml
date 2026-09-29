@@ -1,0 +1,39 @@
+word: नाक
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - nāk
+pronunciation:
+  ipa: /nɑːk/
+meanings:
+  - en: nose
+    examples:
+      - text: मैं नाक से साँस लेता हूँ।
+        en: I breathe through my nose.
+      - text: कई लड़कियों की नाक छिदी होती हैं।
+        en: Many girls have their noses pierced.
+    sensitive: []
+  - en: mucus, phlegm
+    examples: []
+    sensitive: []
+  - en: happy, painless
+    examples: []
+    sensitive: []
+  - en: heaven
+    examples: []
+    sensitive: []
+concept: happy
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A8%E0%A4%BE%E0%A4%95#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

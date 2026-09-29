@@ -1,0 +1,27 @@
+word: lustig
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈlʊstɪç/
+part_of_speech: adj
+meanings:
+  - en: enjoyable, amusing, fun
+    examples:
+      - text: Der Abend war lustig.
+        en: The night was fun.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/lustig#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

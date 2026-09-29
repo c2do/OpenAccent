@@ -1,0 +1,39 @@
+word: कहना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kahnā
+pronunciation:
+  ipa: /kəɦ.nɑː/
+meanings:
+  - en: to say
+    examples:
+      - text: वह उसको क्या कहने वाला है?
+        en: What is he about to say to him?
+    sensitive: []
+  - en: to speak
+    examples: []
+    sensitive: []
+  - en: to tell
+    examples: []
+    sensitive: []
+  - en: utterance, remark
+    examples:
+      - text: उसका कहना है कि ...
+        en: he remarked that ...
+    sensitive: []
+concept: say
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%B9%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

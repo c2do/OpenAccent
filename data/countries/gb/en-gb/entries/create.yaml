@@ -1,0 +1,26 @@
+word: create
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɹiːˈeɪt/
+part_of_speech: verb
+meanings:
+  - en: To make a fuss, complain; to shout.
+    examples:
+      - text: "'What's the time?' she said. 'I must fly. Miss'll start creating.'"
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/create#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

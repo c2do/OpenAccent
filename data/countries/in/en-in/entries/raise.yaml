@@ -1,0 +1,26 @@
+word: raise
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɹeɪz/
+part_of_speech: verb
+meanings:
+  - en: To open, initiate.
+    examples:
+      - text: I will raise a trouble-ticket in order to correct this reporting issue.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/raise#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

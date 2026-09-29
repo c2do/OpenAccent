@@ -1,0 +1,28 @@
+word: aita
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈaita/
+part_of_speech: noun
+meanings:
+  - en: dad
+    examples:
+      - text: Intentó abrir la puerta y no pudo. Aitá, dijo.
+        en: She tried to open the door and couldn't. Dad, she said.
+    sensitive: []
+concept: dad
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/aita#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

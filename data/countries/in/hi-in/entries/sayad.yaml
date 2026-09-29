@@ -1,0 +1,29 @@
+word: शायद
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - śāyad
+pronunciation:
+  ipa: /ʃɑː.jəd̪/
+part_of_speech: adv
+meanings:
+  - en: maybe, perhaps
+    examples:
+      - text: शायद वह तुम्हारी मदद कर सकती है।
+        en: Maybe she can help you.
+    sensitive: []
+concept: maybe
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A4%BE%E0%A4%AF%E0%A4%A6#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

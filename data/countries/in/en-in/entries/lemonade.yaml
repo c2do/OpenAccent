@@ -1,0 +1,33 @@
+word: lemonade
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˌlɛmənˈeɪd/
+part_of_speech: noun
+meanings:
+  - en: A flavored beverage consisting of water, lemon, and sweetener, sometimes
+      ice, served mainly as a refreshment. (In the UK and Ireland, generally
+      specified as still, cloudy, or traditional lemonade.)
+    examples:
+      - text: Mrs. Murphy, who had […] stopped for a few minutes, at Mrs. Loring's
+          invitation, to rest and enjoy the cool glass of lemonade that was very
+          refreshing after her long walk.
+      - text: The tiny flowers on the long skirt and sleeveless halter-top made her look
+          like she belonged in some Southern porch handing out lemonade and
+          sweet tea.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/lemonade#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

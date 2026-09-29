@@ -1,0 +1,27 @@
+word: caô
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kaˈo/
+part_of_speech: noun
+meanings:
+  - en: lie; nonsense talk
+    examples:
+      - text: Ele tá de caô pra cima de mim...
+        en: He's trying to fool me...
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ca%C3%B4#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

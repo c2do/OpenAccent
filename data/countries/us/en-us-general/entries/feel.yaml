@@ -1,0 +1,32 @@
+word: feel
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfiːl/
+meanings:
+  - en: To understand.
+    examples:
+      - text: I don't want you back here, ya feel me?
+      - text: Shoot, errbody have the zipper jacket / And half of these thugs have the
+          glove to match, ya feel me?
+    sensitive: []
+  - en: A feeling; an emotion.
+    examples:
+      - text: I know that feel.
+    sensitive: []
+concept: understand
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/feel#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

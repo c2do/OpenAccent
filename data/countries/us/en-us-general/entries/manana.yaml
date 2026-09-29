@@ -1,0 +1,26 @@
+word: mañana
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /məˈnjɑː.nə/
+part_of_speech: adv
+meanings:
+  - en: Tomorrow.
+    examples: []
+    sensitive: []
+concept: tomorrow
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ma%C3%B1ana#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

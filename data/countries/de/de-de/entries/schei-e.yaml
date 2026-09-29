@@ -1,0 +1,35 @@
+word: scheiße
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃaɪ̯sə/
+part_of_speech: adj
+meanings:
+  - en: shit, bad, ill, poor
+    examples: []
+    sensitive:
+      - vulgar
+  - en: shitty, fucking bad
+    examples:
+      - text: Ich fühle mich scheiße.
+        en: I'm feeling shitty.
+      - text: Du tanzt scheiße.
+        en: You dance shittily.
+    sensitive:
+      - sexual
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/schei%C3%9Fe#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

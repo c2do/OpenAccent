@@ -1,0 +1,27 @@
+word: crap
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɹæp/
+part_of_speech: verb
+meanings:
+  - en: To bullshit.
+    examples:
+      - text: "Don't try to crap me: I know you're lying."
+    sensitive:
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/crap#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

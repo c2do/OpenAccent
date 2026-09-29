@@ -1,0 +1,30 @@
+word: kieken
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkiːkən/
+part_of_speech: verb
+meanings:
+  - en: to look; to glance
+    examples:
+      - text: Wat kiekt der Typ denn so hier rüber?
+        en: Why’s that guy looking over here like that?
+      - text: Kiek mal einer an!
+        en: Well look at that!
+    sensitive: []
+concept: see
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/kieken#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

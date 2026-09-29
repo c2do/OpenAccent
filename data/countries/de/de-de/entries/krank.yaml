@@ -1,0 +1,25 @@
+word: krank
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kʁaŋk/
+part_of_speech: adj
+meanings:
+  - en: very interesting or unusual (in the positive or negative); sick
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/krank#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

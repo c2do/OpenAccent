@@ -1,0 +1,29 @@
+word: पर्याप्त
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - paryāpt
+pronunciation:
+  ipa: "[pəɾˈja(ː)pt̪]"
+part_of_speech: adj
+meanings:
+  - en: enough, sufficient, adequate, ample
+    examples:
+      - text: यह पैसे दिन भर के लिए पर्याप्त है।
+        en: This money is enough for the whole day.
+    sensitive: []
+concept: enough
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AA%E0%A5%8D%E0%A4%A4#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

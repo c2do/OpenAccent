@@ -1,0 +1,28 @@
+word: irgendwie
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɪɐ̯ɡəntˈviː/
+part_of_speech: adv
+meanings:
+  - en: for some reason; used to express uncertainty about the justification for an
+      opinion
+    examples:
+      - text: Die Farben passen irgendwie nicht so richtig zusammen.
+        en: The colors don't really go together for some reason.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/irgendwie#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

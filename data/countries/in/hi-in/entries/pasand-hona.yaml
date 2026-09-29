@@ -1,0 +1,29 @@
+word: पसंद होना
+dialect: hi-in
+type: phrase
+spellings: []
+romanized:
+  - pasand honā
+pronunciation:
+  ipa: /pə.sənd̪ ɦoː.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to like
+    examples:
+      - text: मुझे चीनी खाना पसंद है।
+        en: I like Chinese food (literally "Chinese food pleases me")
+    sensitive: []
+concept: like
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%B8%E0%A4%82%E0%A4%A6_%E0%A4%B9%E0%A5%8B%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: kho
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /xo/
+part_of_speech: noun
+meanings:
+  - en: brother, bro
+    examples:
+      - text: C’est pousser comme une ortie parmi les roses / Et ils sont trop alors
+          j’appelle mes khos les ronces
+        en: It’s growing like a nettle among roses / And there’s too many of them so I
+          call my brothers brambles
+    sensitive: []
+concept: brother
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/kho#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

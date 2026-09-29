@@ -1,0 +1,27 @@
+word: boy
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɔɪ/
+part_of_speech: noun
+meanings:
+  - en: Heroin.
+    examples:
+      - text: "[…] drove by a corner, saw what I thought—no, what I knew—were dealers
+          and asked if they knew where I could get some boy."
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/boy#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

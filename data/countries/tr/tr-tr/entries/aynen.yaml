@@ -1,0 +1,34 @@
+word: aynen
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈaj.nɛn/
+meanings:
+  - en: exactly
+    examples: []
+    sensitive: []
+  - en: correct, right
+    examples: []
+    sensitive: []
+  - en: that's it, that's right
+    examples: []
+    sensitive: []
+  - en: yes, yeah, yep
+    examples: []
+    sensitive: []
+concept: "yes"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/aynen#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

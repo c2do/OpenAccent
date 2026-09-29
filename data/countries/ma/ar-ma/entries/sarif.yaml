@@ -1,0 +1,27 @@
+word: شارف
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - šārif
+pronunciation:
+  ipa: /ʃaː.rif/
+part_of_speech: adj
+meanings:
+  - en: old (of people)
+    examples: []
+    sensitive: []
+concept: old_thing
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D8%A7%D8%B1%D9%81#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

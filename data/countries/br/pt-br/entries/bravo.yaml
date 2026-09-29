@@ -1,0 +1,28 @@
+word: bravo
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɾa.vu/
+meanings:
+  - en: a term akin to English dope, hard; meaning cool or good, usually with an
+      aggressive connotation
+    examples: []
+    sensitive: []
+  - en: a certain part of an oxcart
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bravo#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

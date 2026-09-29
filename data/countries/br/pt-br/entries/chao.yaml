@@ -1,0 +1,27 @@
+word: chão
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃɐ̃w̃/
+part_of_speech: noun
+meanings:
+  - en: a period of time between the present and a future event
+    examples:
+      - text: Ainda tem um chão até o dia de eu me mudar.
+        en: There is still some time until the day I will move.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ch%C3%A3o#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

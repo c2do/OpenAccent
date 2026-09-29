@@ -1,0 +1,26 @@
+word: uó
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /uˈɔ/
+part_of_speech: adj
+meanings:
+  - en: bad, unpleasant
+    examples: []
+    sensitive: []
+concept: bad
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/u%C3%B3#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

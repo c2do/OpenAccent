@@ -1,0 +1,33 @@
+word: مات
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - māt
+pronunciation:
+  ipa: "[mɛːt]"
+meanings:
+  - en: to die
+    examples: []
+    sensitive: []
+  - en: to die, to do something extremely, to death
+    examples:
+      - text: وين كنت لهلأ؟ أنا متت من الخوف!
+        en: Where have you been? I was scared to death!
+    sensitive: []
+  - en: math, mathematics (especially as a school subject)
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%A7%D8%AA#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

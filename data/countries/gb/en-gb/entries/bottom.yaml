@@ -1,0 +1,26 @@
+word: bottom
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɒt.əm/
+part_of_speech: noun
+meanings:
+  - en: Character, reliability, staying power, dignity, integrity or sound judgment.
+    examples:
+      - text: lack bottom
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bottom#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

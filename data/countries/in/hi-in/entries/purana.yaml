@@ -1,0 +1,43 @@
+word: पुराना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - purānā
+pronunciation:
+  ipa: /pʊ.ɾɑː.nɑː/
+part_of_speech: adj
+meanings:
+  - en: old (not of biological age)
+    examples:
+      - text: यह कपड़ा पुराना होकर छीज गया है।
+        en: This cloth has become old and worn out.
+      - text: यह हमारा पुराना नौकर है।
+        en: He is an old servant of ours.
+    sensitive: []
+  - en: ancient
+    examples:
+      - text: विवाह एक बहुत पुरानी प्रथा है।
+        en: Marriage is a very ancient custom.
+      - text: सोमनाथ में एक बहुत पुराना सूर्य-मंदिर है।
+        en: There is a very ancient sun-temple in Somnath.
+    sensitive: []
+  - en: long-standing, old
+    examples:
+      - text: धूम्रपान उसकी पुरानी आदत है।
+        en: Smoking is an old habit of his.
+    sensitive: []
+concept: old_thing
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

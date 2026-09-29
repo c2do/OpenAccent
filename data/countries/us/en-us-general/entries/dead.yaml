@@ -1,0 +1,28 @@
+word: dead
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dɛd/
+part_of_speech: verb
+meanings:
+  - en: To kill.
+    examples:
+      - text: I shoulda deaded it from genesis instead of hittin' the Guinnesses
+      - text: This dude at the club was trying to kill us so I deaded him, and then I
+          had to collect from Spice.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dead#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

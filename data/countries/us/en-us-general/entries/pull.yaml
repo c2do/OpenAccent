@@ -1,0 +1,31 @@
+word: pull
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pʊl/
+part_of_speech: verb
+meanings:
+  - en: Of a railroad car, to pull out from a yard or station; to leave.
+    examples: []
+    sensitive: []
+  - en: To interest (someone) in dating or pursuing one (whether or not this has led
+      to sex).
+    examples:
+      - text: Wow, Joyce pulls, actually.
+    sensitive:
+      - sexual
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pull#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

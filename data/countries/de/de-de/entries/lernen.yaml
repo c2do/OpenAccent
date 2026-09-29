@@ -1,0 +1,32 @@
+word: lernen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈlɛrnən/
+part_of_speech: verb
+meanings:
+  - en: to train to become something
+    examples:
+      - text: Ich lerne Bäcker.
+        en: I’m training to be a baker.
+    sensitive: []
+  - en: to learn (someone) (i.e. to teach)
+    examples:
+      - text: Das lern ich dir.
+        en: That'll learn you!
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/lernen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

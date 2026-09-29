@@ -1,0 +1,27 @@
+word: podunk
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: Small, rural, and unimportant.
+    examples:
+      - text: "\"'A Super Bowl win can legitimize us as a town. We're not some small
+          podunk town anymore,'\" said Spencer Venable of Indianapolis."
+      - text: You might live in a podunk town if...your Wal-Mart has a hitching post.
+    sensitive: []
+concept: small
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/podunk#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

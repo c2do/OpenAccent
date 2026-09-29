@@ -1,0 +1,29 @@
+word: osso
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈo.su/
+part_of_speech: adj
+meanings:
+  - en: difficult
+    examples: []
+    sensitive: []
+  - en: annoying
+    examples: []
+    sensitive: []
+concept: hard
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/osso#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

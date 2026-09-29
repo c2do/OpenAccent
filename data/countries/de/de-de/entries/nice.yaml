@@ -1,0 +1,36 @@
+word: nice
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /naɪ̯s/
+part_of_speech: adj
+meanings:
+  - en: good, nice
+    examples:
+      - text: Na gut. Und auch, wenn ich nur das eine Regal hatte – in der Schule konnte
+          ich durch dich mitreden. Ja, Pax, voll nice und geräumig, der
+          Poäng-Sessel, mega gemütlich.
+        en: Fine. And even if I only had that one shelf – thanks to you, I had a say in
+          conversations at school. Oh, Pax, all nice and spacious, and the Poäng
+          armchair, super comfortable.
+      - text: Ich steh' im Club / Seh' ziemlich nice aus / Ah, wobei, die Schuhe / Ne,
+          scheiß drauf, ich seh' nice aus
+        en: I'm at the club / Lookin' pretty good / Actually, these shoes / Nah, fuck
+          it, I look good
+    sensitive: []
+concept: good
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nice#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

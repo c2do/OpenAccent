@@ -1,0 +1,36 @@
+word: शुभ
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - śubh
+pronunciation:
+  ipa: /ʃʊbʱ/
+meanings:
+  - en: auspicious, favorable, good
+    examples:
+      - text: शुभ रात्रि।
+        en: Good night.
+    sensitive: []
+  - en: happy (conveys the good wishes of the speaker or writer)
+    examples:
+      - text: आप को नववर्ष शुभ हो।
+        en: (I) wish you a happy New Year.
+    sensitive: []
+  - en: good
+    examples: []
+    sensitive: []
+concept: happy
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B6%E0%A5%81%E0%A4%AD#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

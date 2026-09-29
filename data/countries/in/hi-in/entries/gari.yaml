@@ -1,0 +1,38 @@
+word: गाड़ी
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - gāṛī
+pronunciation:
+  ipa: /ɡɑː.ɽiː/
+part_of_speech: noun
+meanings:
+  - en: car, truck, bus
+    examples:
+      - text: प्यार की गाड़ी, डेट चलाओ!
+        en: Let's go on a date with the car of love!
+    sensitive: []
+  - en: carriage
+    examples: []
+    sensitive: []
+  - en: cart
+    examples: []
+    sensitive: []
+  - en: train
+    examples: []
+    sensitive: []
+concept: car
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%97%E0%A4%BE%E0%A4%A1%E0%A4%BC%E0%A5%80#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

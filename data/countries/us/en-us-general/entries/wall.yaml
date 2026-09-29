@@ -1,0 +1,25 @@
+word: wall
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /wɔːl/
+part_of_speech: noun
+meanings:
+  - en: A doctor who tries to admit as few patients as possible.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wall#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

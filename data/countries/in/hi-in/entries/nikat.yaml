@@ -1,0 +1,34 @@
+word: निकट
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - nikaṭ
+pronunciation:
+  ipa: /nɪ.kəʈ/
+meanings:
+  - en: near, close (within a short distance)
+    examples: []
+    sensitive: []
+  - en: close, dear
+    examples:
+      - text: निकट साथी
+        en: close friend
+    sensitive: []
+  - en: near, close
+    examples: []
+    sensitive: []
+concept: near
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A8%E0%A4%BF%E0%A4%95%E0%A4%9F#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

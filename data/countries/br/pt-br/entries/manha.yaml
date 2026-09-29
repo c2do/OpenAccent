@@ -1,0 +1,27 @@
+word: manha
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmɐ̃.ɲɐ/
+part_of_speech: noun
+meanings:
+  - en: tantrum (of kids)
+    examples:
+      - text: A criança está fazendo manha de novo.
+        en: The kid is throwing a tantrum again.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/manha#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

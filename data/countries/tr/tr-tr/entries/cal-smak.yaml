@@ -1,0 +1,47 @@
+word: çalışmak
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[t͡ʃɑ.ɫɯʃ.ˈmɑk]"
+part_of_speech: verb
+meanings:
+  - en: to work
+    examples:
+      - text: üç yıldır bu okulda çalışıyorum
+        en: I have been working in this school for three years
+    sensitive: []
+  - en: to study (lessons)
+    examples:
+      - text: matematik çalışacağım/matematiğe çalışacağım
+        en: I will study maths
+      - text: logaritma çalıştım/logaritmaya çalıştım
+        en: I studied logarithm
+    sensitive: []
+  - en: to try to
+    examples:
+      - text: İyi bir insan olmaya çalışıyorum.
+        en: I'm trying to be a good person.
+      - text: Çalışmaya çalışıyorum.
+        en: I'm trying to study.
+    sensitive: []
+  - en: to work out, to hit
+    examples:
+      - text: Haftada kaç gün bacak çalışıyorsun?
+        en: How many days a week do you work out your legs?
+    sensitive: []
+concept: work_verb
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A7al%C4%B1%C5%9Fmak#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

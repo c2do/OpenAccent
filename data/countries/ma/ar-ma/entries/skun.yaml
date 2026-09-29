@@ -1,0 +1,30 @@
+word: سخون
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - sḵūn
+pronunciation:
+  ipa: /sxuːn/
+part_of_speech: adj
+meanings:
+  - en: hot
+    examples: []
+    sensitive: []
+  - en: horny
+    examples: []
+    sensitive: []
+concept: hot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B3%D8%AE%D9%88%D9%86#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

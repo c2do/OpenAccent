@@ -1,0 +1,39 @@
+word: لقم
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - laʔum
+pronunciation:
+  ipa: "[ˈlaʔom]"
+part_of_speech: adv
+meanings:
+  - en: maybe, perhaps
+    examples:
+      - text: Mau̯te͕t ᵊfransai̯s. ʾōle͕t-lau̯n bīʸ nəzel ta i̯žib ᵊḥšai̯š ləl-baʾra̠
+          w-ma sarrå̠b, laʾom əthawwo̠ṛ, ʾəssa ma sarrab, daḫᵊlkon brumū-li
+          ʿloi̯.
+        en: >-
+          The death of Francis. She told them My father went down to gather feed
+          for the cow and he hasn't come back, there's a chance he collapsed, he
+          still hasn't come back, please search for him for me.
+
+          [original: La mort de Francis. Elle leur dit: « Mon père est descendu
+          pour chercher de l’herbe pour la vache et il n’est pas revenu,
+          peut-être qu’il est tombé, il n’est pas encore revenu. Je vous en
+          prie, cherchez-le moi. »]
+    sensitive: []
+concept: maybe
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D9%82%D9%85#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

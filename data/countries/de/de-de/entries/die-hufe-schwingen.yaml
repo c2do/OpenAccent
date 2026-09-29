@@ -1,0 +1,32 @@
+word: die Hufe schwingen
+dialect: de-de
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: to hurry up
+    examples:
+      - text: Schwing die Hufe!
+        en: Hurry up!
+    sensitive: []
+  - en: to dance
+    examples:
+      - text: "Das sei mit ihm wie mit dem berühmten alten Zirkusgaul, sagte Ottmar
+          Schreiner und lächelte mit gespitztem Mund: „Wenn die Musik erklingt,
+          schwinge ich die Hufen.“"
+    sensitive: []
+concept: hurry_up
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/die_Hufe_schwingen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

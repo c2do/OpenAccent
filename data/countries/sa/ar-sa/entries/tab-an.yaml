@@ -1,0 +1,30 @@
+word: طبعا
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ṭabʕan
+pronunciation:
+  ipa: /tˤab.ʕan/
+part_of_speech: adv
+meanings:
+  - en: naturally
+    examples: []
+    sensitive: []
+  - en: of course
+    examples: []
+    sensitive: []
+concept: of_course
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B7%D8%A8%D8%B9%D8%A7#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,34 @@
+word: bucket
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbʌkɪt/
+part_of_speech: verb
+meanings:
+  - en: To engage in an illegal practice where a broker confirms a client's trade
+      order without actually executing it on the free market.
+    examples:
+      - text: In United States v. Ficken (N.D. Ohio) the defendant was sentenced to 18
+          years imprisonment after pleading guilty to charges of converting
+          clients' funds by "bucketing" their orders.
+    sensitive: []
+  - en: To make, or cause to make (the recovery), with a certain hurried or
+      unskillful forward swing of the body.
+    examples: []
+    sensitive: []
+concept: do
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bucket#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

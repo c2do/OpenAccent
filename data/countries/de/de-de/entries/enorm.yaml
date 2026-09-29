@@ -1,0 +1,32 @@
+word: enorm
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /eˈnɔʁm/
+part_of_speech: adj
+meanings:
+  - en: very, so
+    examples:
+      - text: enorm viel
+        en: so many
+      - text: „Enorm,“ sagte Hans Castorp, „enorm anschaulich ist sie gemalt, die Haut.
+          Ich glaube, ähnlich gut gemalte ist mir nie vorgekommen. Man meint die
+          Poren zu sehen.“
+        en: The Magic Mountain
+    sensitive: []
+concept: a_lot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/enorm#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

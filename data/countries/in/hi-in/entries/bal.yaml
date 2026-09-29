@@ -1,0 +1,37 @@
+word: बाल
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bāl
+pronunciation:
+  ipa: /bɑːl/
+part_of_speech: noun
+meanings:
+  - en: hair
+    examples:
+      - text: इस लड़की के पास बहुत लंबे-लंबे बाल हैं।
+        en: This girl has very long hair.
+      - text: बालों की ज़ुल्फ़ें
+        en: tresses of the hair
+    sensitive: []
+  - en: child, boy
+    examples: []
+    sensitive: []
+  - en: wing
+    examples: []
+    sensitive: []
+concept: child
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%BE%E0%A4%B2#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

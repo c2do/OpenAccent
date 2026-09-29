@@ -1,0 +1,39 @@
+word: bottle
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɒtəl/
+meanings:
+  - en: To feed (an infant) baby formula.
+    examples:
+      - text: Because of complications she can't breast feed her baby and so she bottles
+          him.
+    sensitive: []
+  - en: To refrain from doing (something) at the last moment because of a sudden
+      loss of courage.
+    examples:
+      - text: The rider bottled the big jump.
+    sensitive: []
+  - en: To throw away a leading position.
+    examples:
+      - text: Arsenal bottled the Premier League.
+    sensitive: []
+  - en: To strike (someone) with a bottle.
+    examples:
+      - text: He was bottled at a nightclub and had to have facial surgery.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bottle#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

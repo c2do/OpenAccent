@@ -1,0 +1,34 @@
+word: mahal
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /məˈhəl/
+part_of_speech: noun
+meanings:
+  - en: A summerhouse.
+    examples: []
+    sensitive: []
+  - en: Private lodgings.
+    examples: []
+    sensitive: []
+  - en: A division of a farm.
+    examples: []
+    sensitive: []
+  - en: A division of a hunting preserve.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mahal#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

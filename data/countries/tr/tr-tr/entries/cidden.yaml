@@ -1,0 +1,26 @@
+word: cidden
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdʒid.dɛn/
+part_of_speech: adv
+meanings:
+  - en: really, seriously, truly; greatly
+    examples: []
+    sensitive: []
+concept: really
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cidden#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

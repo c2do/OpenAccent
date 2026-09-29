@@ -1,0 +1,28 @@
+word: dress
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dɹes/
+part_of_speech: noun
+meanings:
+  - en: An item of outer clothing or set of such clothes (worn by people of all
+      sexes) which is generally decorative and appropriate for a particular
+      occasion, profession, etc.; Any item of clothing, or an outfit.
+    examples:
+      - text: He wore a bright orange dress to the office yesterday.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dress#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

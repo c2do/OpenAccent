@@ -1,0 +1,26 @@
+word: chico
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: white-nosed coati (Nasua Narica)
+    examples: []
+    sensitive: []
+  - en: raccoon (Procyon lotor)
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chico#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

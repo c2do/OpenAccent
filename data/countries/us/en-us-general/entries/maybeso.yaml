@@ -1,0 +1,26 @@
+word: maybeso
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+part_of_speech: adv
+meanings:
+  - en: Maybe; perhaps.
+    examples:
+      - text: Maybeso the old man had not died of his terrible wounds; maybeso prowling
+          Injuns had killed him—or white-fanged wolves.
+    sensitive: []
+concept: maybe
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/maybeso#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

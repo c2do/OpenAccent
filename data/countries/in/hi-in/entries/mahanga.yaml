@@ -1,0 +1,32 @@
+word: महंगा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - mahaṅgā
+pronunciation:
+  ipa: /mə.ɦəŋ.ɡɑː/
+part_of_speech: adj
+meanings:
+  - en: expensive, costly
+    examples:
+      - text: यह समान मेरे लिए बहुत महंगा पड़ेगा।
+        en: This stuff will be pretty expensive for me.
+    sensitive: []
+  - en: dear, precious
+    examples: []
+    sensitive: []
+concept: expensive
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AE%E0%A4%B9%E0%A4%82%E0%A4%97%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: reem
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɹiːm/
+part_of_speech: adj
+meanings:
+  - en: cool, excellent; desirable; sexy.
+    examples:
+      - text: The cast of The Only Way Is Essex have tried every fake tan in the
+          universe and insist this is best before a reem night out.
+      - text: "Room service: The reemest way to get food! […] The party royal is the
+          most reem though because he goes to Vegas."
+    sensitive: []
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/reem#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

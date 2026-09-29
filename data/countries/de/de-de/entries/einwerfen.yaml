@@ -1,0 +1,31 @@
+word: einwerfen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[ˈʔaɪ̯nˌvɛʁfn̩]"
+part_of_speech: verb
+meanings:
+  - en: to pop (a pill, drugs etc.)
+    examples:
+      - text: Tabletten einwerfen
+    sensitive: []
+  - en: to eat (indifferently, often fast food)
+    examples:
+      - text: Pommes einwerfen
+    sensitive: []
+concept: eat
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/einwerfen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

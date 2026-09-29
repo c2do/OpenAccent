@@ -1,0 +1,26 @@
+word: tommy
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtɑmi/
+part_of_speech: noun
+meanings:
+  - en: A British infantryman, especially one from World War I. Ellipsis of Tommy
+      Atkins.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tommy#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

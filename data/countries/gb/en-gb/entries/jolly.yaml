@@ -1,0 +1,36 @@
+word: jolly
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈd͡ʒɒli/
+meanings:
+  - en: A pleasure trip or excursion; especially, an expenses-paid or unnecessary
+      one.
+    examples:
+      - text: If you know what it means to be a “fidlet” going for a “jolly” in your
+          “doo”, then you are part of an exclusive club that speaks colloquial
+          Antarctic English.
+    sensitive: []
+  - en: Very, extremely.
+    examples:
+      - text: It’s jolly hot in here, isn’t it?
+      - text: “Put these on,” said Carrot firmly, anticipating resistance. “What is it?”
+          said Catweazle in horror. “Coms. Combinations. A vest and long pants
+          all in one,” explained Carrot. “They're jolly warm.”
+    sensitive: []
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jolly#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

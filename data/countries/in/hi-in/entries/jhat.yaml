@@ -1,0 +1,27 @@
+word: झट
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - jhaṭ
+pronunciation:
+  ipa: /d͡ʒʱəʈ/
+part_of_speech: adj
+meanings:
+  - en: fast, quick
+    examples: []
+    sensitive: []
+concept: fast
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9D%E0%A4%9F#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

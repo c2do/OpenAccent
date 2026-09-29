@@ -1,0 +1,28 @@
+word: chick
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A screen or blind made of finely slit bamboo and twine, hung in doorways or
+      windows.
+    examples:
+      - text: "[…] at this time of day all the verandas were curtained with green bamboo
+          chicks."
+      - text: Outside I could hear the bamboo chick tapping on the door like a blind
+          man's stick on a kerbstone.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chick#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

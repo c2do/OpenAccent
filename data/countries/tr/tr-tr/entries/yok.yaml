@@ -1,0 +1,38 @@
+word: yok
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈjok/
+meanings:
+  - en: absent, nonexistent, not there
+    examples:
+      - text: Kitapta 150 sayfa yok.
+        en: There aren't 150 pages in the book.
+    sensitive: []
+  - en: prohibited, forbidden
+    examples:
+      - text: Sigara içmek yok!
+        en: No smoking (cigarettes)!
+    sensitive: []
+  - en: something that doesn't exist
+    examples: []
+    sensitive: []
+  - en: nonexistence
+    examples: []
+    sensitive: []
+concept: "no"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/yok#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

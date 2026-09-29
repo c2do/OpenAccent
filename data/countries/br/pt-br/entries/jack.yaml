@@ -1,0 +1,34 @@
+word: jack
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈd͡ʒɛ.ki/
+part_of_speech: noun
+meanings:
+  - en: rapist
+    examples: []
+    sensitive:
+      - sexual
+  - en: pedophile
+    examples: []
+    sensitive:
+      - sexual
+  - en: sex criminal
+    examples: []
+    sensitive:
+      - sexual
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jack#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

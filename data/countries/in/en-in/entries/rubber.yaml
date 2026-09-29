@@ -1,0 +1,27 @@
+word: rubber
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɹʌbə/
+part_of_speech: noun
+meanings:
+  - en: An eraser.
+    examples:
+      - text: Stan stole a diary and some pens, pencils, ink and rubbers during his
+          early days as a POW working on the Singapore docks.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rubber#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

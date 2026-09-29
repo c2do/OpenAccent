@@ -1,0 +1,43 @@
+word: dire
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /diʁ/
+part_of_speech: verb
+meanings:
+  - en: to call out (to denounce)
+    examples:
+      - text: Aïe ! J'le dirai !
+        en: Ouch! I'mma call him out!
+    sensitive: []
+  - en: to be of interest to, to interest [with à ‘someone’], to be up for, to be
+      interested, to like to, to feel like (to be okay with, to be tempted by)
+    examples:
+      - text: Ça te dit de regarder un film de science-fiction?
+        en: Do you want to watch a science fiction movie? What do you say to watching a
+          science fiction movie?
+      - text: Ça vous dit ?
+        en: Are you interested [in doing this]? Are you up [for it]?
+    sensitive: []
+  - en: to sound familiar
+    examples:
+      - text: Ça me dit quelque chose.
+        en: It rings a bell.
+      - text: Ça ne me dit rien.
+        en: It doesn't ring a bell.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dire#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

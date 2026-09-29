@@ -1,0 +1,27 @@
+word: reach
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɹiːt͡ʃ/
+part_of_speech: verb
+meanings:
+  - en: To arrive at a particular destination.
+    examples:
+      - text: The particulars that reach from Eastern Bengal require corroboration.
+      - text: I reached at the right time.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/reach#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

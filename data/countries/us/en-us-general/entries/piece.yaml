@@ -1,0 +1,37 @@
+word: piece
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /piːs/
+part_of_speech: noun
+meanings:
+  - en: A gun.
+    examples:
+      - text: He's packin' a piece!
+      - text: I wanted peace, but now my piece is clearing out the block.
+    sensitive: []
+  - en: A toupee or wig, especially when worn by a man.
+    examples:
+      - text: The announcer is wearing a new piece.
+    sensitive: []
+  - en: A cannabis pipe.
+    examples: []
+    sensitive: []
+  - en: A pacifier; a dummy.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/piece#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

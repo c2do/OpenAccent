@@ -1,0 +1,31 @@
+word: motorhead
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈməʊtə(ɹ)ˌhɛd/
+part_of_speech: noun
+meanings:
+  - en: A car, truck, or motorcycle enthusiast.
+    examples:
+      - text: The sportos, the motorheads, geeks, sluts, bloods, wastoids, dweebies,
+          dickheads - they all adore him. They think he's a righteous dude.
+      - text: Amelia may soon return to her roots in TV production as she completes an
+          exciting pilot about car culture, a nice integration of vocation and
+          avocation for this particular motorhead.
+    sensitive: []
+concept: car
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/motorhead#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

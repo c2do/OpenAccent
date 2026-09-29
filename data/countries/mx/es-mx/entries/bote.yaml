@@ -1,0 +1,28 @@
+word: bote
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbote/
+part_of_speech: noun
+meanings:
+  - en: jail
+    examples: []
+    sensitive: []
+  - en: butt, booty
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bote#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

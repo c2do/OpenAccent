@@ -1,0 +1,29 @@
+word: nu
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[nɵ]"
+part_of_speech: intj
+meanings:
+  - en: yes; yeah; expresses agreement or understanding
+    examples: []
+    sensitive: []
+  - en: well; fills pause
+    examples: []
+    sensitive: []
+concept: "yes"
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nu#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: compa
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkompa/
+part_of_speech: noun
+meanings:
+  - en: buddy
+    examples:
+      - text: ¡Oye, compa, qué te pasa?
+        en: Hey buddy, what's up?
+    sensitive: []
+concept: buddy
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/compa#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: picture
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpɪk.t͡ʃə/
+part_of_speech: noun
+meanings:
+  - en: A motion picture.
+    examples:
+      - text: Casablanca is my all-time favorite picture.
+      - text: "\"You make moving pictures. In jungles and places.\" \"That's me. And
+          I've picked you for the lead in my next picture.\""
+    sensitive: []
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/picture#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

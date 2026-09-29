@@ -1,0 +1,29 @@
+word: mmm
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[m̩ː]"
+part_of_speech: intj
+meanings:
+  - en: Yes.
+    examples:
+      - text: |-
+          Danny: Have you got any food?
+          I: Mmm! As a matter of fact, got a saveloy.
+    sensitive: []
+concept: "yes"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mmm#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,34 @@
+word: bolo
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbo.lu/
+part_of_speech: noun
+meanings:
+  - en: something said or done to mislead or deceive
+    examples: []
+    sensitive: []
+  - en: disarray, disorder chaos
+    examples: []
+    sensitive: []
+  - en: the act of standing someone up (missing an appointment)
+    examples: []
+    sensitive: []
+  - en: group bet
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bolo#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

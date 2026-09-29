@@ -1,0 +1,37 @@
+word: jodido
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /xoˈdido/
+part_of_speech: adj
+meanings:
+  - en: fucking, darned, crappy
+    examples: []
+    sensitive:
+      - sexual
+      - vulgar
+  - en: fucked, screwed
+    examples: []
+    sensitive:
+      - sexual
+      - vulgar
+  - en: fucked up, screwed up
+    examples: []
+    sensitive:
+      - sexual
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jodido#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

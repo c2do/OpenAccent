@@ -1,0 +1,27 @@
+word: ways
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /weɪz/
+part_of_speech: noun
+meanings:
+  - en: A distance.
+    examples:
+      - text: a little ways out
+      - text: Stuck in traffic... and still a good ways to go.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ways#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,34 @@
+word: anfangen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈanˌfaŋən/
+part_of_speech: verb
+meanings:
+  - en: to begin something; to start something
+    examples:
+      - text: Wann hast du das Rauchen angefangen?
+        en: When did you start smoking?
+      - text: Morgen fangen wir das Projekt an.
+        en: Tomorrow we are starting the project.
+    sensitive: []
+  - en: to put (something) to good use, to do
+    examples:
+      - text: Haben Sie nichts Besseres mit Ihrer Zeit anzufangen?
+        en: Don't you have anything better to do with your time?
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/anfangen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

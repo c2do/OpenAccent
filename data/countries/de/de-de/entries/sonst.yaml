@@ -1,0 +1,34 @@
+word: sonst
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /zɔnst/
+part_of_speech: adv
+meanings:
+  - en: so; then; consecutive, but directed against an explicit or implicit
+      alternative
+    examples:
+      - text: Wenn wir jetzt losgehen, sind wir eh zu spät. Sonst lass uns morgen noch
+          mal wiederkommen.
+        en: If we go there now, we’ll be late anyway. So [let’s not do that but instead]
+          let’s come back again tomorrow.
+      - text: Wir gehen grad in die Stadt. Also, wenn du Lust hast... sonst komm doch
+          mit!
+        en: We’re headed for the city. So, if you’re interested... [maybe you’re not,
+          but if you are] then come along!
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sonst#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

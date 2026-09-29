@@ -1,0 +1,30 @@
+word: à deux balles
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a dø bal/
+part_of_speech: adj
+meanings:
+  - en: cheap, lousy, tasteless
+    examples:
+      - text: blague à deux balles
+        en: tasteless joke
+      - text: humour à deux balles
+        en: two-bit humor
+    sensitive: []
+concept: cheap
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A0_deux_balles#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

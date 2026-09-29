@@ -1,0 +1,30 @@
+word: feed
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fiːd/
+part_of_speech: noun
+meanings:
+  - en: A meal.
+    examples:
+      - text: "\"There won't be any more blessed concerts for a million years or so;
+          there won't be any Royal Academy of Arts, and no nice little feeds at
+          restaurants.\""
+      - text: ‘Still hungry! Well, we’ll see if Larry can find you a feed of beef when
+          the billy’s boiled.’
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/feed#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

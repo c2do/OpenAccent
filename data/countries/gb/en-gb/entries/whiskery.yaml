@@ -1,0 +1,25 @@
+word: whiskery
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: Old.
+    examples:
+      - text: I checked it out, and there were some good—if whiskery—stories.
+    sensitive: []
+concept: old_thing
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/whiskery#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

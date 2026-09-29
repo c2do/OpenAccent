@@ -1,0 +1,26 @@
+word: cuñado
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kuˈɲado/
+part_of_speech: noun
+meanings:
+  - en: know-all, (US, Canada) blowhard
+    examples: []
+    sensitive:
+      - offensive
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cu%C3%B1ado#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,25 @@
+word: granary bread
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: bread, not made from white or brown flour, that contains wheatgerm, whole
+      grains and malt.
+    examples: []
+    sensitive: []
+concept: bread
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/granary_bread#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

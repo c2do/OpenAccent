@@ -1,0 +1,37 @@
+word: encaisser
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɑ̃.kɛ.se/
+part_of_speech: verb
+meanings:
+  - en: to take
+    examples:
+      - text: encaisser un coup
+        en: to take a blow
+    sensitive: []
+  - en: to stand, to tolerate
+    examples:
+      - text: Je ne peux pas l'encaisser.
+        en: I can't stand him.
+      - text: Jusque-là, je m'étais dit que j'avais bien encaissé, que j'avais la peau
+          dure et autre chose à foutre dans la vie que laisser trois ploucs me
+          traumatiser.
+        en: King Kong Theory
+    sensitive: []
+concept: take
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/encaisser#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

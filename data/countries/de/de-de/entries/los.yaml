@@ -1,0 +1,27 @@
+word: los
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /loːs/
+part_of_speech: adv
+meanings:
+  - en: open
+    examples:
+      - text: Die Tür stand los.
+        en: The door stood open.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/los#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

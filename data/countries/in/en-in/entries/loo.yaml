@@ -1,0 +1,28 @@
+word: loo
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /luː/
+part_of_speech: noun
+meanings:
+  - en: A hot dust-bearing wind found in Bihar, Uttar Pradesh and the Punjab.
+    examples:
+      - text: It was a pitchy black night, as stifling as a June night can be, and the
+          loo, the red-hot wind from the westward, was booming among the
+          tinder-dry trees and pretending that the rain was on its heels.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/loo#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

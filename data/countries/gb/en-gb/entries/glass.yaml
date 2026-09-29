@@ -1,0 +1,32 @@
+word: glass
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡlɑːs/
+part_of_speech: verb
+meanings:
+  - en: To strike (someone), particularly in the face, with a drinking glass with
+      the intent of causing injury.
+    examples:
+      - text: |-
+          JUDD. Any trouble last night?
+          LES. Usual. Couple of punks got glassed.
+      - text: I often mused on what the politicians or authorities would say if they
+          could see for themselves the horrendous consequences of someone who’d
+          been glassed, or viciously assaulted.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/glass#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

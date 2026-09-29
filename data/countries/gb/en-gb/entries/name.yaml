@@ -1,0 +1,25 @@
+word: name
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /neɪm/
+part_of_speech: noun
+meanings:
+  - en: An investor in Lloyd's of London bearing unlimited liability.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/name#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

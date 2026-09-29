@@ -1,0 +1,33 @@
+word: سمع
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - simiʕ
+  - samiʕ
+meanings:
+  - en: to hear
+    examples: []
+    sensitive: []
+  - en: to hear of
+    examples: []
+    sensitive: []
+  - en: to listen to, to pay attention to, to hear someone out
+    examples: []
+    sensitive: []
+  - en: hearing, sense of hearing
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B3%D9%85%D8%B9#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

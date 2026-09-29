@@ -1,0 +1,30 @@
+word: alles
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈaləs/
+part_of_speech: pron
+meanings:
+  - en: all (as in "we all" etc.)
+    examples:
+      - text: Ihr seid alles Idioten.
+        en: You're all idiots.
+      - text: Die Politiker haben alles keine Ahnung.
+        en: The politicians all don’t have a clue.
+    sensitive: []
+concept: all
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/alles#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

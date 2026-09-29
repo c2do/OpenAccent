@@ -1,0 +1,32 @@
+word: هم
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - humma
+  - hamm
+pronunciation:
+  ipa: /ˈhum.ma/
+meanings:
+  - en: they (masculine plural subject pronoun)
+    examples: []
+    sensitive: []
+  - en: anxiety, concern, worry, care
+    examples: []
+    sensitive: []
+  - en: sorrow, grief, affliction, distress
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D9%85#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

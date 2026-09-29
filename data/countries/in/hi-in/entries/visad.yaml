@@ -1,0 +1,38 @@
+word: विशद
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - viśad
+pronunciation:
+  ipa: /ʋɪ.ʃəd̪/
+part_of_speech: adj
+meanings:
+  - en: pure
+    examples: []
+    sensitive: []
+  - en: clean, clear
+    examples: []
+    sensitive: []
+  - en: lucid, perspicuous
+    examples: []
+    sensitive: []
+  - en: elaborate, detailed
+    examples:
+      - text: विशद विवरण
+        en: detailed description
+    sensitive: []
+concept: beautiful
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A4%A6#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

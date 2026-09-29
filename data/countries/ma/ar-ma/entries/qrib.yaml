@@ -1,0 +1,27 @@
+word: قريب
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - qrīb
+pronunciation:
+  ipa: /qriːb/
+part_of_speech: adj
+meanings:
+  - en: near, close, adjacent
+    examples: []
+    sensitive: []
+concept: near
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%B1%D9%8A%D8%A8#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

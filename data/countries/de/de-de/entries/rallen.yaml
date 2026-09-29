@@ -1,0 +1,32 @@
+word: rallen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʁalən/
+part_of_speech: verb
+meanings:
+  - en: to understand, get
+    examples:
+      - text: Der Typ rallt mal wieder gar nix.
+        en: This guy doesn't understand anything, as usual.
+      - text: Wenn sie am Samstag Abend im Escort von daddy zur Disko fahren haben sie
+          es noch immer nicht gerallt.
+        en: When they drive to the disco in daddy's Escort Saturday night, they still
+          won't have understood.
+    sensitive: []
+concept: understand
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rallen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

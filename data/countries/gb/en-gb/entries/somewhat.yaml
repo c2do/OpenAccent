@@ -1,0 +1,27 @@
+word: somewhat
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈsʌmwɒt/
+part_of_speech: adv
+meanings:
+  - en: Very.
+    examples:
+      - text: That hat seems somewhat small for him.
+    sensitive: []
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/somewhat#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

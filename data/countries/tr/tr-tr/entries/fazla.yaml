@@ -1,0 +1,32 @@
+word: fazla
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fɑzɫɑ/
+meanings:
+  - en: much, many
+    examples:
+      - text: O buraya taşınalı on yıldan fazla oldu.
+        en: It has been more than ten years since he/she has moved here.
+    sensitive: []
+  - en: too
+    examples:
+      - text: Koşmak için fazla yaşlıyım.
+        en: I am too old to run.
+    sensitive: []
+concept: also
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fazla#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

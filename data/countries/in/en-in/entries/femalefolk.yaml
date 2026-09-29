@@ -1,0 +1,35 @@
+word: femalefolk
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: Womenfolk; female people collectively.
+    examples:
+      - text: In the meantime, the femalefolk of the house, after taking bath and
+          wearing clean clothes, clean and arrange the articles of the pujā near
+          the Thān.
+      - text: While in Chango and Rogi more femalefolk are participating as the working
+          units than the malefolk, in Kongos the reverse is the case.
+    sensitive: []
+  - en: A woman; a female person.
+    examples:
+      - text: All the houses, numbering 42, were levelled to the ground, the male and
+          femalefolks having taken shelter in the neighbouring jungles for fear
+          of oppression.
+    sensitive: []
+concept: woman
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/femalefolk#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

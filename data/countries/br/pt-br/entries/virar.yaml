@@ -1,0 +1,55 @@
+word: virar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /viˈɾa(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to become, to turn into, to transform, to convert
+    examples:
+      - text: Ela ter aparecido na TV fez com que ela virasse uma espécie de
+          subcelebridade entre os amigos.
+        en: Her appearing on TV made her becoming a sort of subcelebrity among her
+          friends.
+      - text: O cara era o maior vida louca, sério, e ainda assim virou evangélico, do
+          nada!
+        en: The dude was a plain gangsta, really, and even so turned into a born-again
+          Christian, all of a sudden!
+    sensitive: []
+  - en: to make do, to deal with
+    examples:
+      - text: Ainda não sei muito bem como é que eu vou fazer, mas pode deixar que eu me
+          viro assim mesmo.
+        en: I still don't know how exactly I'm gonna make it, but don't worry, I'll
+          handle it anyway.
+      - text: Se vira!
+        en: Deal with it!
+    sensitive: []
+  - en: to get by, to make ends meet, to push forward
+    examples:
+      - text: Que é difícil, é, né? Mas Deus ajuda, e a gente vai se virando como pode.
+        en: Yeah, it's difficult, that's right. But God helps, and we keep pushing
+          forward as we can.
+    sensitive: []
+  - en: to pull an all-nighter, to stay awake all night
+    examples:
+      - text: E aí, bora virar hoje jogando um Warzinho?
+        en: So, how about we spend this night playing some Risk?
+      - text: A nenê chorou a noite inteira, e eu fui trabalhar virada.
+        en: The baby cried all night long, and I went to work without having slept.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/virar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: second
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /səˈkɒnd/
+part_of_speech: verb
+meanings:
+  - en: To transfer temporarily to alternative employment.
+    examples:
+      - text: The army officer was seconded while he held civil office.
+      - text: Things changed quickly from 1892 when Sam Fay was seconded from the
+          L.S.W.R. as General Manager & Secretary.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/second#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: pista
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpista/
+part_of_speech: noun
+meanings:
+  - en: court (field on which tennis, basketball, handball, badminton, etc is
+      played)
+    examples:
+      - text: pista de baloncesto
+        en: basketball court
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pista#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

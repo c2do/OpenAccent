@@ -1,0 +1,34 @@
+word: bilmek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bilˈmec/
+part_of_speech: verb
+meanings:
+  - en: to know, be informed of, be aware of; to understand
+    examples:
+      - text: "Near-synonym: tanımak"
+      - text: Biraz Türkçe biliyorum.
+        en: I know a little Turkish.
+    sensitive: []
+  - en: to know, recognize
+    examples:
+      - text: Bu şarkıyı biliyorum!
+        en: I know this song!
+    sensitive: []
+concept: know
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bilmek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

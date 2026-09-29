@@ -1,0 +1,46 @@
+word: देखना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - dekhnā
+pronunciation:
+  ipa: /d̪eːkʰ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to see, to look, to watch
+    examples:
+      - text: बिना देखे मैं कैसे विश्वास करूँ?
+        en: How can I believe without seeing?
+    sensitive: []
+  - en: to perceive with eyes, to observe, to notice
+    examples:
+      - text: हमने देखा कि उसकी हालत बिगड़ रही है।
+        en: We observed that her condition was worsening.
+    sensitive: []
+  - en: to look for, to search for, to seek
+    examples:
+      - text: पुलिस शहर भर में उसे देख रही है।
+        en: The police are searching for him throughout the city.
+    sensitive: []
+  - en: to see to, to attend to, to guard, to watch over, to look after
+    examples:
+      - text: यह काम मैं देख लूँगा।
+        en: I will see to this task.
+      - text: अपने बच्चों को देखा करो।
+        en: Do look after your children.
+    sensitive: []
+concept: see
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A5%87%E0%A4%96%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

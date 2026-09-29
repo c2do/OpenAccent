@@ -1,0 +1,26 @@
+word: nosh
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /nɑʃ/
+part_of_speech: noun
+meanings:
+  - en: Food.
+    examples: []
+    sensitive: []
+concept: food
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nosh#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: rojo
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈroxo/
+part_of_speech: noun
+meanings:
+  - en: Red; a left-winger, especially communist
+    examples: []
+    sensitive:
+      - offensive
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rojo#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

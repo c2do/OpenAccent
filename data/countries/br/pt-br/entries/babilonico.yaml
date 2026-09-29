@@ -1,0 +1,26 @@
+word: babilônico
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ba.biˈlõ.ni.ku/
+part_of_speech: adj
+meanings:
+  - en: hot; eye-catching; flashy
+    examples: []
+    sensitive: []
+concept: hot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/babil%C3%B4nico#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

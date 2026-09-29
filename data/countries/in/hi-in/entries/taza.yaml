@@ -1,0 +1,35 @@
+word: ताज़ा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - tāzā
+pronunciation:
+  ipa: /t̪ɑː.zɑː/
+part_of_speech: adj
+meanings:
+  - en: fresh, just made
+    examples: []
+    sensitive: []
+  - en: new, breaking
+    examples:
+      - text: ताज़ा ख़बर
+        en: breaking news
+    sensitive: []
+  - en: novel, original
+    examples: []
+    sensitive: []
+concept: new
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A4%BE%E0%A4%9C%E0%A4%BC%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,34 @@
+word: stopper
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /stɔ.pe/
+part_of_speech: verb
+meanings:
+  - en: to take (a hit, a bullet)
+    examples:
+      - text: Il avait stoppé un coquet gnon derrière les oreilles, mais il n’était pas
+          mort.
+        en: He'd taken a nice, hard punch behind his ears, but he wasn't dead.
+    sensitive: []
+  - en: to stop
+    examples:
+      - text: il faut stopper cette hostilité permanente
+        en: This permanent hostility must be stopped.
+    sensitive: []
+concept: take
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/stopper#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

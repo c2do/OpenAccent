@@ -1,0 +1,34 @@
+word: बच्चा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - baccā
+pronunciation:
+  ipa: /bət̪.t͡ʃɑː/
+part_of_speech: noun
+meanings:
+  - en: child
+    examples:
+      - text: यह तो एक बच्चा भी जानता है।
+        en: Even a child knows this.
+    sensitive: []
+  - en: young (of an animal)
+    examples:
+      - text: हिरन के बच्चे घास में छिपते हैं।
+        en: Fawns (the young of deer) hide in the grass.
+    sensitive: []
+concept: child
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%9A%E0%A5%8D%E0%A4%9A%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

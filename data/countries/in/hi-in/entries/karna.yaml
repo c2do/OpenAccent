@@ -1,0 +1,48 @@
+word: करना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - karnā
+pronunciation:
+  ipa: /kəɾ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to do, to perform, to execute
+    examples:
+      - text: अपना सारा काम समय पर कर लो।
+        en: Do all your work on time.
+      - text: कर देना
+        en: to accomplish/complete
+    sensitive: []
+  - en: to work, to engage in a profession
+    examples:
+      - text: उसकी बहन क्या करती है?
+        en: What does his/her sister do(job/work)?
+    sensitive: []
+  - en: to render or convert from one state to another
+    examples:
+      - text: जादूगर ने उस चाँदी के कटोरे को सोना कर दिया।
+        en: The magician turned the silver bowl into gold.
+      - text: कलेक्टर ने उनकी योग्यता देखकर उन्हें तहसीलदार कर दिया।
+        en: The Collector, seeing his merit, made him a Tehsildar.
+    sensitive: []
+  - en: to move, shift, or place
+    examples:
+      - text: इन सामानों को उनके कमरे में कर आओ।
+        en: Put (carry) these things into their room.
+    sensitive: []
+concept: do
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

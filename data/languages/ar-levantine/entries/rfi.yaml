@@ -1,0 +1,30 @@
+word: رفيق
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - rfīʔ
+pronunciation:
+  ipa: /rfiːʔ/
+part_of_speech: noun
+meanings:
+  - en: friend
+    examples: []
+    sensitive: []
+  - en: platonic male friend
+    examples: []
+    sensitive: []
+concept: friend
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B1%D9%81%D9%8A%D9%82#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

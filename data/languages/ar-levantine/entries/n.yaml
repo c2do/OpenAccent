@@ -1,0 +1,30 @@
+word: ان
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - n-
+part_of_speech: conj
+meanings:
+  - en: if
+    examples:
+      - text: |-
+          N ṣaxx el xelem cu ṣār?
+          W mecwar jina ɥa d deni… mecwar…
+        en: |-
+          So what if a dream comes true?
+          And we came to this world on a trip… just a trip…
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%86#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

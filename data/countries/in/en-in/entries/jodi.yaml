@@ -1,0 +1,25 @@
+word: jodi
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: couple, duo, pair
+    examples:
+      - text: For the last seven years, they have been projected as India’s political
+          jodi number one.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jodi#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

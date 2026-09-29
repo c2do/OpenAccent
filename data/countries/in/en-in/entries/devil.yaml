@@ -1,0 +1,25 @@
+word: devil
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdɛvəl/
+part_of_speech: noun
+meanings:
+  - en: A poltergeist that haunts printing works.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/devil#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

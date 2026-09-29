@@ -1,0 +1,26 @@
+word: enjoy
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɛnˈd͡ʒɔɪ/
+part_of_speech: verb
+meanings:
+  - en: To be satisfied or receive pleasure; to have fun.
+    examples:
+      - text: I enjoyed a lot.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/enjoy#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

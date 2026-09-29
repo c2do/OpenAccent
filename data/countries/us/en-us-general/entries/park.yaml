@@ -1,0 +1,39 @@
+word: park
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pɑɹk/
+meanings:
+  - en: A wide, flat-bottomed valley in a mountainous region.
+    examples:
+      - text: The so-called park is a very broad, open valley,between the Sangre de
+          Cristo range on the east, and the volcanic San Juan and Conejos ranges
+          on the west
+      - text: ...the ridges flatten and, higher up, before reaching the upper
+          snow-fields of the mountain, broaden out into high plateaus, the
+          beautiful so-called parks or meadows.
+    sensitive: []
+  - en: To engage in romantic or sexual activities inside a nonmoving vehicle that
+      was driven to a suitable spot for that purpose.
+    examples:
+      - text: They stopped at a romantic overlook, shut off the engine, and parked.
+      - text: Tim and I never went parking when we were dating, but now that we've been
+          married, it's been a fun date once in a while. (OK, we never actually
+          leave the driveway, but the car was still parked.)
+    sensitive:
+      - sexual
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/park#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: josser
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈd͡ʒɒsə(ɹ)/
+part_of_speech: noun
+meanings:
+  - en: A man, especially one who seems foolish or simpleminded.
+    examples:
+      - text: "As I neither answered nor raised my eyes Mahony exclaimed again: 'I say .
+          . . He's a queer old josser!'"
+      - text: A josser like myself from the backwoods of Canada would be making all
+          sorts of bloomers.
+    sensitive: []
+concept: man
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/josser#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

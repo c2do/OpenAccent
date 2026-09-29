@@ -1,0 +1,33 @@
+word: point
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pɔɪnt/
+part_of_speech: noun
+meanings:
+  - en: A small discrete division or individual feature of something.; An electric
+      power socket.
+    examples: []
+    sensitive: []
+  - en: A small discrete division or individual feature of something.; A unit of
+      measure for rain, equal to 0.254 mm or 0.01 of an inch.
+    examples: []
+    sensitive: []
+  - en: A sharp extremity.; A railroad switch.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/point#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

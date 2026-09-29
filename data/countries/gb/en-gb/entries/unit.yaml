@@ -1,0 +1,36 @@
+word: unit
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈjuː.nɪt/
+part_of_speech: noun
+meanings:
+  - en: Any piece of equipment, such as an appliance, power tool, stereo system,
+      computer, tractor, or machinery.
+    examples:
+      - text: This air-conditioner is the most efficient unit we sell.
+    sensitive: []
+  - en: A unit of alcohol.
+    examples: []
+    sensitive: []
+  - en: One kilowatt-hour (as recorded on an electricity meter).
+    examples: []
+    sensitive: []
+  - en: A physically large person.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/unit#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

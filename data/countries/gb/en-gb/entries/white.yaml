@@ -1,0 +1,28 @@
+word: white
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈwaɪt/
+part_of_speech: noun
+meanings:
+  - en: Any object or substance that is of the color white.; Cocaine.
+    examples:
+      - text: I've got to hit the streets; I've got to move this white.
+      - text: "Ten grand a week we were clearing: base, white, meth, weed, anything. I
+          can get you anything to get you high."
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/white#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

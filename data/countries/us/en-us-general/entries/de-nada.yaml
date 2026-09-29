@@ -1,0 +1,32 @@
+word: de nada
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /deɪ ˈnɑdə/
+part_of_speech: intj
+meanings:
+  - en: You're welcome.
+    examples:
+      - text: |-
+          1976, American review: the magazine of new writing: Issue 25, link
+          Mooch-ass grassy-ass! Ha ha, de nada, jefe
+      - text: "\"I'm really grateful to you for being nice to her.\" \"De nada,\" he
+          answered with a small bow and a quick swipe to her behind as she
+          passed."
+    sensitive: []
+concept: youre_welcome
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/de_nada#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

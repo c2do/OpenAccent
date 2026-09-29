@@ -1,0 +1,31 @@
+word: tube
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tyb/
+part_of_speech: noun
+meanings:
+  - en: a hit
+    examples:
+      - text: Chacune de ses chansons était un tube.
+        en: Every one of his/her songs was a hit.
+    sensitive: []
+  - en: money
+    examples: []
+    sensitive: []
+concept: money
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tube#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

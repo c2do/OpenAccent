@@ -1,0 +1,30 @@
+word: görüşmek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: to meet
+    examples: []
+    sensitive: []
+  - en: to talk, to chat
+    examples: []
+    sensitive: []
+  - en: to discuss with each other
+    examples: []
+    sensitive: []
+concept: talk
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/g%C3%B6r%C3%BC%C5%9Fmek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

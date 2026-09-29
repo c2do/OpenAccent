@@ -1,0 +1,39 @@
+word: ten
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tɛn/
+part_of_speech: noun
+meanings:
+  - en: A perfect specimen, (particularly) a physically attractive person.
+    examples:
+      - text: An Office Ten is a person who falls somewhere between average to mildly
+          good-looking in the world at large but skyrockets to wildly attractive
+          within the confines of an open-concept desk plan.
+    sensitive: []
+  - en: A high level of intensity.
+    examples:
+      - text: '"Intensities in 10 Cities"'
+      - text: >-
+          ...
+
+          Marty Di Bergi (Rob Reiner): "Why don't you just make ten louder, and
+          make ten be the top number?"
+
+          Nigel Tufnel (Christopher Guest): "These go to eleven."
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ten#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

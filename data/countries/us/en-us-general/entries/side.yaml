@@ -1,0 +1,26 @@
+word: side
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈsaɪ̯d/
+part_of_speech: noun
+meanings:
+  - en: A dish that accompanies the main course; a side dish.
+    examples:
+      - text: Do you want a side of cole-slaw with that?
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/side#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

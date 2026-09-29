@@ -1,0 +1,27 @@
+word: pelé
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /peˈlɛ/
+part_of_speech: noun
+meanings:
+  - en: king (dominant figure in a field)
+    examples:
+      - text: Ayrton Senna foi o pelé da F1
+        en: Ayrton Senna was the king of F1
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pel%C3%A9#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

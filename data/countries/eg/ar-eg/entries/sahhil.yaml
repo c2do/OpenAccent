@@ -1,0 +1,30 @@
+word: سهل
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - sahhil
+  - sahl
+pronunciation:
+  ipa: /ˈsah.hil/
+meanings:
+  - en: to facilitate
+    examples: []
+    sensitive: []
+  - en: easy, convenient
+    examples: []
+    sensitive: []
+concept: easy
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B3%D9%87%D9%84#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

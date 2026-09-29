@@ -1,0 +1,35 @@
+word: tío
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtio/
+part_of_speech: noun
+meanings:
+  - en: unknown or any male person, dude, guy
+    examples:
+      - text: Y ese tío me gritó.
+        en: And that guy yelled at me.
+      - text: ser tío / ser tía
+        en: be a guy / be a girl
+    sensitive: []
+  - en: friend, mate, pal, man, bro
+    examples:
+      - text: Tío, ¿me puedes ayudar por un momento?
+        en: Can you help me for a moment, mate?
+    sensitive: []
+concept: friend
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/t%C3%ADo#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

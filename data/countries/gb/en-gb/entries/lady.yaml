@@ -1,0 +1,25 @@
+word: lady
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈleɪ.di/
+part_of_speech: noun
+meanings:
+  - en: A five-pound note. (Rhyming slang, Lady Godiva for fiver.)
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/lady#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

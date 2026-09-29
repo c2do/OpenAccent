@@ -1,0 +1,37 @@
+word: ख़ुराक
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - xurāk
+pronunciation:
+  ipa: /xʊ.ɾɑːk/
+part_of_speech: noun
+meanings:
+  - en: food, victuals, rations, provisions
+    examples:
+      - text: साल में हजार बारह सौ मोदी को इसी रसद-खुराक के मद में देने पड़ते हैं।
+        en: Modi would spend a thousand to twelve-hundred [rupees] on the supplies and
+          provisions annually.
+    sensitive: []
+  - en: a dose
+    examples:
+      - text: अपने कमरे में जा कर किसी औषधि की एक खुराक पी और पिस्तौल तथा साँगा लेकर फिर
+          तिलोत्तमा के कमरे में पहुँचे।
+        en: He went to his room and took a dose of some medicine, grabbed his pistol and
+          dagger, and then went to Tilottama's room.
+    sensitive: []
+concept: food
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%96%E0%A4%BC%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%95#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: hello
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /hɛˈloʊ/
+part_of_speech: intj
+meanings:
+  - en: An expression of puzzlement or discovery.
+    examples:
+      - text: Hello! What’s going on here?
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hello#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

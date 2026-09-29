@@ -1,0 +1,27 @@
+word: terrace
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtɛɹəs/
+part_of_speech: noun
+meanings:
+  - en: The roof of a building, especially if accessible to the residents. Often
+      used for drying laundry, sun-drying foodstuffs, exercise, or sleeping
+      outdoors in hot weather.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/terrace#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

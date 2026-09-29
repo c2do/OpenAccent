@@ -1,0 +1,32 @@
+word: tocar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /toˈka(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to kick out, to expulse
+    examples:
+      - text: Alguém precisa tocá-lo daqui
+        en: Someone has to kick him out from here
+    sensitive: []
+  - en: to become aware; to realize or perceive
+    examples:
+      - text: Só me toquei depois.
+        en: I only realized it later.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tocar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

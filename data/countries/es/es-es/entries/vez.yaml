@@ -1,0 +1,28 @@
+word: vez
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbeθ/
+part_of_speech: noun
+meanings:
+  - en: place (in a queue)
+    examples: []
+    sensitive: []
+  - en: turn (a chance to use (something) shared in sequence with others)
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/vez#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

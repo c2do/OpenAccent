@@ -1,0 +1,26 @@
+word: bicho
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbi.ʃu/
+part_of_speech: noun
+meanings:
+  - en: buddy (close friend); also used as a general informal form of address
+    examples: []
+    sensitive: []
+concept: buddy
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bicho#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: اما عاد
+dialect: ar-sa
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʔam.ma ʕaː.d/
+part_of_speech: intj
+meanings:
+  - en: come on, an expression of frustration
+    examples: []
+    sensitive: []
+  - en: really, an expression of surprise
+    examples: []
+    sensitive: []
+concept: really
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%85%D8%A7_%D8%B9%D8%A7%D8%AF#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

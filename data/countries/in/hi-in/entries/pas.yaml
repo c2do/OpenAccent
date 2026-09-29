@@ -1,0 +1,33 @@
+word: पास
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - pās
+pronunciation:
+  ipa: /pɑːs/
+meanings:
+  - en: near, nearby
+    examples:
+      - text: दो चीनी रेस्तोरां पास हैं।
+        en: There are two Chinese restaurants nearby.
+    sensitive: []
+  - en: nearby
+    examples:
+      - text: पास में
+        en: nearby
+    sensitive: []
+concept: near
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AA%E0%A4%BE%E0%A4%B8#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

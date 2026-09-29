@@ -1,0 +1,25 @@
+word: drauf
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[dʁaʊ̯f]"
+part_of_speech: adv
+meanings:
+  - en: high
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/drauf#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

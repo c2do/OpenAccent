@@ -1,0 +1,26 @@
+word: para
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /paˈɾa/
+part_of_speech: noun
+meanings:
+  - en: money
+    examples: []
+    sensitive: []
+concept: money
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/para#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

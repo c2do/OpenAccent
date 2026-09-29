@@ -1,0 +1,41 @@
+word: black
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /blæk/
+meanings:
+  - en: Belonging to or descended from any of various (African, Aboriginal, etc.)
+      ethnic groups which typically have dark pigmentation of the skin. (See
+      usage notes below.); Belonging to or descended from any of various
+      sub-Saharan African ethnic groups which typically have dark pigmentation
+      of the skin.
+    examples: []
+    sensitive: []
+  - en: A type of firecracker that is really more dark brown in colour.
+    examples: []
+    sensitive: []
+  - en: Blackcurrant syrup or crème de cassis used for cocktails.
+    examples:
+      - text: Pernod and black; snakebite and black; cider and black
+    sensitive: []
+  - en: To boycott, usually as part of an industrial dispute.
+    examples:
+      - text: The plants were blacked by the Transport and General Workers' Union and a
+          consumer boycott was organised; both activities contributed to what
+          the union saw as a victory.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/black#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

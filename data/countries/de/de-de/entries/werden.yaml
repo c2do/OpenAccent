@@ -1,0 +1,35 @@
+word: werden
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈveːʁdən/
+part_of_speech: verb
+meanings:
+  - en: to be; to happen; to occur (in the future)
+    examples:
+      - text: Wir werden zusammen glücklich.
+        en: We will be happy together.
+      - text: Was wird aus mir?
+        en: What will become of me?
+    sensitive: []
+  - en: to be acceptable; to function correctly; to have the desired result or
+      effect
+    examples:
+      - text: Das wird so nichts.
+        en: It will not work like that.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/werden#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

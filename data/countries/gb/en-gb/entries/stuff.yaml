@@ -1,0 +1,32 @@
+word: stuff
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /stʌf/
+part_of_speech: verb
+meanings:
+  - en: To break; to destroy.
+    examples:
+      - text: He skidded off the road and totally stuffed his brand new car.
+    sensitive: []
+  - en: To sexually penetrate.
+    examples:
+      - text: His wife came home early and found him on the couch stuffing the maid.
+    sensitive:
+      - sexual
+      - vulgar
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/stuff#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

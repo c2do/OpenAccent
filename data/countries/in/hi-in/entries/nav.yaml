@@ -1,0 +1,30 @@
+word: नव
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - nav
+pronunciation:
+  ipa: /nəʋ/
+part_of_speech: adj
+meanings:
+  - en: new, recent, modern
+    examples: []
+    sensitive: []
+  - en: nine
+    examples: []
+    sensitive: []
+concept: new
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A8%E0%A4%B5#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

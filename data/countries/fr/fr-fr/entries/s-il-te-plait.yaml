@@ -1,0 +1,26 @@
+word: s'il te plaît
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /s‿il tə plɛ/
+part_of_speech: phrase
+meanings:
+  - en: please
+    examples: []
+    sensitive: []
+concept: please
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/s'il_te_pla%C3%AEt#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

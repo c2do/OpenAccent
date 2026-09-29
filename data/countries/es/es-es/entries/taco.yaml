@@ -1,0 +1,38 @@
+word: taco
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtako/
+part_of_speech: noun
+meanings:
+  - en: heel (of a shoe); cleats
+    examples: []
+    sensitive: []
+  - en: curse word, swear word
+    examples:
+      - text: Empezó a soltar tacos.
+        en: He started swearing.
+    sensitive: []
+  - en: a load, a lot
+    examples: []
+    sensitive: []
+  - en: years of age
+    examples:
+      - text: Hoy cumplo veinticinco tacos.
+        en: Today, I turn twenty-five years old.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/taco#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

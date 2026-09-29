@@ -1,0 +1,25 @@
+word: knowledgeable
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnɒl.ɪ.d͡ʒə.bəl/
+part_of_speech: noun
+meanings:
+  - en: A person who has knowledge; an informed party.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/knowledgeable#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

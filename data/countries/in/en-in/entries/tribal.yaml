@@ -1,0 +1,30 @@
+word: tribal
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtɹaɪbəl/
+part_of_speech: noun
+meanings:
+  - en: A member of a tribe.
+    examples:
+      - text: This right had been accepted by relative tribals but misobeyed and effaced
+          by non-tribals and foreign peasants.
+      - text: "[…] the legendary Adivasi leader Jaipal Singh Munda who came to represent
+          the tribals not just of his native plateau, but also of all of India
+          […]"
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tribal#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

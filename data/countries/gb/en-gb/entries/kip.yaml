@@ -1,0 +1,30 @@
+word: kip
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɪp/
+part_of_speech: verb
+meanings:
+  - en: To sleep; often with the connotation of a temporary or charitable situation,
+      or one borne out of necessity.
+    examples:
+      - text: Don’t worry, I’ll kip on the sofabed.
+      - text: "\"Steady on, mate. How was I to know this was your gaff? I was lookin'
+          for somewhere to kip.\""
+    sensitive: []
+concept: sleep
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/kip#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

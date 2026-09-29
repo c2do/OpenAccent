@@ -1,0 +1,29 @@
+word: affûter
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a.fy.te/
+part_of_speech: verb
+meanings:
+  - en: to eat
+    examples: []
+    sensitive: []
+  - en: to dance
+    examples: []
+    sensitive: []
+concept: eat
+register: casual
+familiarity: rare
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/aff%C3%BBter#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

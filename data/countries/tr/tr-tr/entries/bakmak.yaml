@@ -1,0 +1,39 @@
+word: bakmak
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bakˈmak/
+part_of_speech: verb
+meanings:
+  - en: to look (at), gaze
+    examples:
+      - text: Eve bakıyorum.
+        en: I'm looking at the house.
+    sensitive: []
+  - en: to look for
+    examples:
+      - text: Ev bakıyorum.
+        en: I'm looking for a house.
+    sensitive: []
+  - en: to face, view, watch, have a sight of
+    examples: []
+    sensitive: []
+  - en: to examine, investigate, pay attention to, have a look
+    examples: []
+    sensitive: []
+concept: see
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bakmak#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

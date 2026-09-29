@@ -1,0 +1,27 @@
+word: بعدين
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - baʕdēn
+pronunciation:
+  ipa: /baʕdeːn/
+part_of_speech: adv
+meanings:
+  - en: later
+    examples: []
+    sensitive: []
+concept: later
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%B9%D8%AF%D9%8A%D9%86#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

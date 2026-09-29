@@ -1,0 +1,29 @@
+word: عم
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʕamm
+pronunciation:
+  ipa: /ʕamm/
+part_of_speech: noun
+meanings:
+  - en: paternal uncle
+    examples: []
+    sensitive: []
+  - en: term of address to an older person or stranger
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%85#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

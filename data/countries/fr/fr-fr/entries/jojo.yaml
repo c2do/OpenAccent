@@ -1,0 +1,28 @@
+word: jojo
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʒo.ʒo/
+part_of_speech: adj
+meanings:
+  - en: cool, nice, good
+    examples:
+      - text: Ce n'est pas jojo, ça!
+        en: That's not good!
+    sensitive: []
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jojo#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

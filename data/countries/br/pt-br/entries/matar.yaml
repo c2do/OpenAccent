@@ -1,0 +1,32 @@
+word: matar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /maˈta(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to skip (not to be present in a class)
+    examples:
+      - text: Os alunos mataram a aula de geografia.
+        en: The students skipped geography class.
+    sensitive: []
+  - en: to consume something entirely (especially an alcoholic drink); to knock down
+    examples:
+      - text: Matamos uns cascos para relaxar.
+        en: We knocked down a few forties to relax.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/matar#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

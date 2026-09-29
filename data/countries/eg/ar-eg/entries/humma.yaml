@@ -1,0 +1,26 @@
+word: هم
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - humma
+pronunciation:
+  ipa: /hum.ma/
+part_of_speech: pron
+meanings:
+  - en: "Third-person plural subject pronoun: they"
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D9%85#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

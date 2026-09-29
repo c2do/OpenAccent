@@ -1,0 +1,30 @@
+word: fliegen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfliːɡn̩/
+part_of_speech: verb
+meanings:
+  - en: to get the axe, to get kicked out
+    examples:
+      - text: ... könnte von der Akademie fliegen.
+        en: ... could get kicked out of academy.
+    sensitive: []
+  - en: to fall; to fall down
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fliegen#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

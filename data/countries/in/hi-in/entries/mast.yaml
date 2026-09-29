@@ -1,0 +1,50 @@
+word: मस्त
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - mast
+pronunciation:
+  ipa: /məst̪/
+part_of_speech: adj
+meanings:
+  - en: drunk, intoxicated
+    examples: []
+    sensitive: []
+  - en: passionate, lustful
+    examples:
+      - text: मस्त आँखें
+        en: lustful eyes
+    sensitive: []
+  - en: good, fine, nice, cool
+    examples:
+      - text: |-
+          “कैसे हो? कहाँ रहते हो जो तुम्हारे दर्शन ही नहीं होते हैं?”
+          “एकदम स्वस्थ और मस्त हूँ डॉक्टर साहब!”
+        en: |-
+          “How are you? Where do you live that you are never seen?”
+          “Completely healthy and fine, Doctor!”
+    sensitive: []
+  - en: carefree, unworried
+    examples:
+      - text: आँखें उसकी पतंग पर टिकी होती और भागता वह जमीन पर होता था, इसलिए कभी ठोकर
+          खाकर गिर पड़ता तो कभी झाड़ियों या कीचड़ में जा फँसता था। फिर भी वह
+          मस्त था।
+        en: His eyes would be fixed on his kite and he used to be running on the ground,
+          so sometimes he would stumble and fall and sometimes he would get
+          stuck in the bushes or mud. Still he was carefree.
+    sensitive: []
+concept: good
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4#Hindi
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

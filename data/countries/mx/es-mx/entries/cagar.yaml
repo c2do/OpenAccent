@@ -1,0 +1,29 @@
+word: cagar
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kaˈɡaɾ/
+part_of_speech: verb
+meanings:
+  - en: to make a mistake
+    examples:
+      - text: (transitive, colloquial) to bother
+      - text: ¡No la cagues!
+        en: Don't ruin it!
+    sensitive:
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cagar#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

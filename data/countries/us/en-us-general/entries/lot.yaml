@@ -1,0 +1,25 @@
+word: lot
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /lɒt/
+part_of_speech: verb
+meanings:
+  - en: To count or reckon (on or upon).
+    examples: []
+    sensitive: []
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/lot#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

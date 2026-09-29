@@ -1,0 +1,26 @@
+word: old
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /əʊld/
+part_of_speech: adj
+meanings:
+  - en: Of an earlier time.; Being a graduate or alumnus of a school, especially a
+      public school.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/old#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

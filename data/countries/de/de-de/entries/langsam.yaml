@@ -1,0 +1,31 @@
+word: langsam
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈlaŋzaːm/
+part_of_speech: adv
+meanings:
+  - en: it's getting to the point where; just about; used to indicate that an event
+      or evaluation may not have fully come about yet, but is approaching that
+      point.
+    examples:
+      - text: Wir werden uns langsam auf den Weg machen.
+        en: We're about to head out. / We'll be leaving.
+      - text: Ich habe langsam genug von den ganzen Streitereien.
+        en: I've just about had it with all the bickering.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/langsam#German
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

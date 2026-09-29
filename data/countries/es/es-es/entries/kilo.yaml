@@ -1,0 +1,25 @@
+word: kilo
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkilo/
+part_of_speech: noun
+meanings:
+  - en: a million euros
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/kilo#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

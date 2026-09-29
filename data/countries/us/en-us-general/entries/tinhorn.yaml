@@ -1,0 +1,30 @@
+word: tinhorn
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+meanings:
+  - en: Cheap, inferior; pretentious.
+    examples: []
+    sensitive: []
+  - en: A contemptible or pretentious person, especially one who gambles for low
+      stakes.
+    examples:
+      - text: I'm to deliver this treaty, signed by Secretary General Tanduk Timah
+          himself. Heh. 'Tanduk Timah' in Bahasa Malay means 'Tin Horn.' How
+          apt.
+    sensitive: []
+concept: cheap
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tinhorn#English
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

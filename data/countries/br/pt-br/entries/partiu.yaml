@@ -1,0 +1,28 @@
+word: partiu
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /paʁˈt͡ʃiw/
+part_of_speech: intj
+meanings:
+  - en: let's go
+    examples:
+      - text: Partiu cinema!
+        en: Let's go to the movies!
+    sensitive: []
+concept: lets_go
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/partiu#Portuguese
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import
