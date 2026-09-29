@@ -1,0 +1,29 @@
+word: bu
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bu/
+meanings:
+  - en: this
+    examples:
+      - text: Bu bir ev.
+        en: This is a house.
+      - text: Bunu sevmedim.
+        en: I did not like this.
+    sensitive: []
+concept: this
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bu#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

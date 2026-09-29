@@ -1,0 +1,32 @@
+word: قبل
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - qbal
+pronunciation:
+  ipa: /qbal/
+meanings:
+  - en: before, prior to
+    examples: []
+    sensitive: []
+  - en: to accept, to agree to something
+    examples:
+      - text: ضنيت بلي ما كانتش قابلة بهاد الاتفاق.
+        en: I thought she didn't accept this agreement.
+      - text: طلبته وما قبل يشد الصرف.
+        en: He didn't accept to take the change after asking him to.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%A8%D9%84#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

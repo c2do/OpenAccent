@@ -1,0 +1,36 @@
+word: j'sais pas quoi
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʒ‿sɛ pa kwa/
+part_of_speech: phrase
+meanings:
+  - en: something (literally, “I don't know what”)
+    examples:
+      - text: J’ai même pas de bagnole, z’avez pas le droit de me foncer dessus avec vos
+          phares allumés et d’écraser mon matériel, comme si que je roulais trop
+          vite ou j’sais pas quoi !
+        en: I don't even have a car, you don't have the right to rush at me with your
+          headlights on & wreck my equipment, like I was driving too fast or
+          something!
+      - text: Il fallait que j'essaie, sinon j'allais devenir prof d'anglais ou j'sais
+          pas.
+        en: I needed to try, otherwise I was going to become an English teacher or
+          something.
+    sensitive: []
+concept: something
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/j'sais_pas_quoi#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

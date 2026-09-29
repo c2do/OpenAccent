@@ -1,0 +1,33 @@
+word: ڭاع
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - gāʕ
+pronunciation:
+  ipa: /ɡaːʕ/
+meanings:
+  - en: all, every
+    examples:
+      - text: ڭاع الناس من هاد المدينة مشاوا لتمة.
+        en: Every person from this city went there.
+    sensitive: []
+  - en: at all
+    examples:
+      - text: الميترو ما غيجيش ڭاع
+        en: The underground won't come at all.
+    sensitive: []
+concept: all
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%DA%AD%D8%A7%D8%B9#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

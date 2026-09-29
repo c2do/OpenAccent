@@ -1,0 +1,29 @@
+word: tuzlu
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[t̪ʰuz̪ˈɫʊ]"
+part_of_speech: adj
+meanings:
+  - en: briny, salty
+    examples: []
+    sensitive: []
+  - en: expensive
+    examples: []
+    sensitive: []
+concept: expensive
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tuzlu#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

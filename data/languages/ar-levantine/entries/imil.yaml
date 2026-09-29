@@ -1,0 +1,37 @@
+word: عمل
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʕimil
+  - ʕamal
+part_of_speech: verb
+meanings:
+  - en: to do
+    examples:
+      - text: شو عم تعمل؟
+        en: What are you doing?
+    sensitive: []
+  - en: to make
+    examples: []
+    sensitive: []
+  - en: to make oneself (something); (often with the notion) to pretend to be, to
+      give oneself the appearance of
+    examples:
+      - text: كلما شوف مديري بعمل حالي كتير مشغول.
+        en: Whenever I see my boss, I try to look very busy.
+    sensitive: []
+concept: do
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%85%D9%84#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

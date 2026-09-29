@@ -1,0 +1,29 @@
+word: بسرعة
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - bisurʕa
+pronunciation:
+  ipa: /bi.sur.ʕa/
+part_of_speech: adv
+meanings:
+  - en: faster
+    examples: []
+    sensitive: []
+  - en: quickly
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%B3%D8%B1%D8%B9%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,33 @@
+word: ما
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - mā
+  - ma
+pronunciation:
+  ipa: /maː/
+meanings:
+  - en: water
+    examples: []
+    sensitive: []
+  - en: not
+    examples: []
+    sensitive: []
+  - en: that which, what
+    examples: []
+    sensitive: []
+concept: water
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%A7#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

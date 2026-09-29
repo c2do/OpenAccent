@@ -1,0 +1,35 @@
+word: غدا
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ḡadda
+  - ɣadda
+  - ɣda
+pronunciation:
+  ipa: /ɣad.da/
+meanings:
+  - en: tomorrow
+    examples:
+      - text: خدام غدا
+        en: I am working tomorrow.
+    sensitive: []
+  - en: lunch
+    examples:
+      - text: وجد الغدا
+        en: Lunch is ready.
+    sensitive: []
+concept: tomorrow
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%BA%D8%AF%D8%A7#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

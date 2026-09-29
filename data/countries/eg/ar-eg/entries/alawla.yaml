@@ -1,0 +1,31 @@
+word: علاولة
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ʕalāwla
+  - ʕalāwle
+pronunciation:
+  ipa: /ʕa.laːw.la/
+part_of_speech: adv
+meanings:
+  - en: a lot.
+    examples: []
+    sensitive: []
+  - en: (with negative) at all.
+    examples: []
+    sensitive: []
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%84%D8%A7%D9%88%D9%84%D8%A9#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

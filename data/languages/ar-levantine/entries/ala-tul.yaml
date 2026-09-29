@@ -1,0 +1,36 @@
+word: على طول
+dialect: ar-levantine
+type: phrase
+spellings: []
+romanized:
+  - ʕala ṭūl
+part_of_speech: adv
+meanings:
+  - en: always, without interruption
+    examples:
+      - text: على طول براقب احساسي / قلبي بيسمع كلمة راسي / عينيي عليي حراسي / ما بتغدر
+          فيي عينيي
+        en: At all times I control my feelings / My heart listens to what my head says /
+          My eyes are guardians watching over me / And they don’t forsake me
+    sensitive: []
+  - en: forever, without end
+    examples:
+      - text: ودعني و راح سافر / لا لا ما راح، سافر / و بكرا بيرجع اكتر اكتر / يقدملي
+          ورود على طول
+        en: He said good-bye and went on a trip / No, he didn’t go away, he’s on a trip
+          / And tomorrow he’s coming back / To bring me more roses forever.
+    sensitive: []
+concept: always
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%84%D9%89_%D8%B7%D9%88%D9%84#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

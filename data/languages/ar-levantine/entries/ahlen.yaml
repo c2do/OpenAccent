@@ -1,0 +1,28 @@
+word: أهلين
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʾahlēn
+  - ʾahlain
+part_of_speech: intj
+meanings:
+  - en: hello; hi; particularly as a response to أهلا (ʔahlan)
+    examples:
+      - text: "!أهلا يا جوليا! — أهلين يا زينب! وين هالغيبة"
+        en: Hi, Julia! — Hello, Zainab! Long time no see!
+    sensitive: []
+concept: hello
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A3%D9%87%D9%84%D9%8A%D9%86#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

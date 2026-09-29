@@ -1,0 +1,35 @@
+word: quedar
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /keˈdaɾ/
+part_of_speech: verb
+meanings:
+  - en: to fail a school class/course/subject
+    examples:
+      - text: Me quedó Inglés
+        en: I failed English
+    sensitive: []
+  - en: to play for a fool
+    examples:
+      - text: quedarse con Anna
+        en: play Anna for a fool
+    sensitive: []
+  - en: to kid, to pull someone's leg
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/quedar#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

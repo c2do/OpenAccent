@@ -1,0 +1,35 @@
+word: تحت
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - taḥat
+pronunciation:
+  ipa: /ta.ħat/
+part_of_speech: adv
+meanings:
+  - en: down
+    examples: []
+    sensitive: []
+  - en: under
+    examples: []
+    sensitive: []
+  - en: below
+    examples: []
+    sensitive: []
+  - en: downstairs
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AA%D8%AD%D8%AA#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

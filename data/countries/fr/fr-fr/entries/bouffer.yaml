@@ -1,0 +1,43 @@
+word: bouffer
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bu.fe/
+part_of_speech: verb
+meanings:
+  - en: to eat
+    examples:
+      - text: J'ai la dalle, j'ai pas encore bouffé.
+        en: I'm famished, I haven't eaten yet.
+    sensitive: []
+  - en: to eat, to worry
+    examples:
+      - text: Tous ces problèmes avec ma femme, ça me bouffe.
+        en: All these problems with my wife are eating away at me
+    sensitive: []
+  - en: to consume in excess
+    examples:
+      - text: Cette bagnole bouffe quinze litres aux cent facilement.
+        en: This car gobbles fifteen liters per hundred (kilometres) easily.
+    sensitive: []
+  - en: to bash (criticise harshly)
+    examples:
+      - text: Ce soir, on va bouffer du curé.
+        en: Tonight, we will chew up the priest.
+    sensitive: []
+concept: eat
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bouffer#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

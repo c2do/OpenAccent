@@ -1,0 +1,27 @@
+word: بركي
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - barke
+pronunciation:
+  ipa: /bar.ki/
+part_of_speech: adv
+meanings:
+  - en: maybe, perhaps, might
+    examples: []
+    sensitive: []
+concept: maybe
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%B1%D9%83%D9%8A#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: علياش
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ʕlayāš
+pronunciation:
+  ipa: /ʕla.jaːʃ/
+part_of_speech: adv
+meanings:
+  - en: why?
+    examples: []
+    sensitive: []
+  - en: about what?
+    examples: []
+    sensitive: []
+concept: why
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%84%D9%8A%D8%A7%D8%B4#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: eski
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[esˈki]"
+meanings:
+  - en: old (for objects)
+    examples: []
+    sensitive: []
+  - en: old (people who are old; old beings; the older generation, taken as a group)
+    examples: []
+    sensitive: []
+concept: old_thing
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/eski#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

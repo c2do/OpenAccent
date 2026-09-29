@@ -1,0 +1,29 @@
+word: maman
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ma.mɑ̃/
+part_of_speech: noun
+meanings:
+  - en: mummy, mommy, mom, mum
+    examples:
+      - text: Au revoir, maman, je t’appelle demain.
+        en: Bye, Mom, I’ll call you tomorrow.
+      - text: Pleure pas, mon chéri, maman est là.
+        en: Don't cry, sweetie; Mommy’s here.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/maman#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,37 @@
+word: anlamak
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /an.ɫaˈmak/
+part_of_speech: verb
+meanings:
+  - en: To understand, to comprehend, to get.
+    examples:
+      - text: Hiç anlatamadım, hiç anlamadılar.
+        en: I couldn't explain at all, they didn't understand at all.
+    sensitive: []
+  - en: To find something correct and appropriate.
+    examples: []
+    sensitive: []
+  - en: To sense or predict someone's feelings or thoughts.
+    examples: []
+    sensitive: []
+  - en: To have knowledge on something.
+    examples: []
+    sensitive: []
+concept: understand
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/anlamak#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

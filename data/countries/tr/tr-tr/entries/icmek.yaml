@@ -1,0 +1,39 @@
+word: içmek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /it͡ʃˈmɛc/
+part_of_speech: verb
+meanings:
+  - en: to drink, to swallow a liquid
+    examples: []
+    sensitive: []
+  - en: to consume alcohol
+    examples:
+      - text: O akşam saat ikiye kadar içtiler.
+        en: That night they drank until 2 AM in the night.
+    sensitive: []
+  - en: to smoke, to inhale
+    examples:
+      - text: sigara içmek
+        en: to smoke a cigarette
+    sensitive: []
+  - en: to absorb
+    examples: []
+    sensitive: []
+concept: drink
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/i%C3%A7mek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

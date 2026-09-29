@@ -1,0 +1,27 @@
+word: هناك
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - hnāk
+pronunciation:
+  ipa: /hnaːk/
+part_of_speech: adv
+meanings:
+  - en: there
+    examples: []
+    sensitive: []
+concept: there
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D9%86%D8%A7%D9%83#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

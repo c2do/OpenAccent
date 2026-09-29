@@ -1,0 +1,25 @@
+word: frère
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fʁɛʁ/
+part_of_speech: noun
+meanings:
+  - en: bro (male comrade or friend)
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fr%C3%A8re#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

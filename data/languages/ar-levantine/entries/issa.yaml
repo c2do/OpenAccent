@@ -1,0 +1,28 @@
+word: إسا
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʔissa
+part_of_speech: adv
+meanings:
+  - en: now
+    examples: []
+    sensitive: []
+  - en: still; just
+    examples: []
+    sensitive: []
+concept: now
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A5%D8%B3%D8%A7#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

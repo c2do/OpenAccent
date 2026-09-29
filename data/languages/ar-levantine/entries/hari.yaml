@@ -1,0 +1,33 @@
+word: حريق
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ḥarīʔ
+pronunciation:
+  ipa: /ħa.riːʔ/
+meanings:
+  - en: large fire
+    examples: []
+    sensitive: []
+  - en: sweltering (of weather)
+    examples:
+      - text: "Near-synonyms: شَوب (šōb, šawb), نَار (nār, literally “fire”), فطيس
+          (fṭīs, literally “suffocating”)"
+      - text: ولك حريق اشلحلي هالجاكيت فطستني
+        en: Dude, it's sweltering. Take that jacket off, you're making me feel like I'm
+          suffocating
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D8%B1%D9%8A%D9%82#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

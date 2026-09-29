@@ -1,0 +1,31 @@
+word: ficher
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fi.ʃe/
+part_of_speech: verb
+meanings:
+  - en: to make fun
+    examples: []
+    sensitive: []
+  - en: to do, to be up to
+    examples:
+      - text: Qu'est-ce que tu fiches ?
+        en: What are you doing? What are you up to?
+    sensitive: []
+concept: do
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ficher#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

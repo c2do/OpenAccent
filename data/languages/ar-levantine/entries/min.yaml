@@ -1,0 +1,38 @@
+word: مين
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - mīn
+pronunciation:
+  ipa: /miːn/
+part_of_speech: pron
+meanings:
+  - en: who?
+    examples: []
+    sensitive: []
+  - en: who
+    examples:
+      - text: ذكّرني مين جايي معك بدّي حضّر
+        en: Remind me who’s coming with you, I need to prepare
+    sensitive: []
+  - en: someone to; someone who
+    examples:
+      - text: "Near-synonym: حَدَا (ḥada, “someone”)"
+      - text: محسوبتك ختيارة بدها مين تعكّز عليه
+        en: Yours truly is an old lady, she needs somebody to lean on
+    sensitive: []
+concept: who
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D9%8A%D9%86#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

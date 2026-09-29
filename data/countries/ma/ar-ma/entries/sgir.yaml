@@ -1,0 +1,32 @@
+word: صغير
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ṣḡīr
+pronunciation:
+  ipa: /sˤɣiːr/
+part_of_speech: adj
+meanings:
+  - en: small
+    examples:
+      - text: مدينة صغيرة
+        en: a small city
+    sensitive: []
+  - en: young (for a person)
+    examples: []
+    sensitive: []
+concept: small
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B5%D8%BA%D9%8A%D8%B1#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

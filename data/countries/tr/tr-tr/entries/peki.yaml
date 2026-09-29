@@ -1,0 +1,34 @@
+word: peki
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /peˈci/
+meanings:
+  - en: okay
+    examples: []
+    sensitive: []
+  - en: well
+    examples: []
+    sensitive: []
+  - en: so, then
+    examples: []
+    sensitive: []
+  - en: what about
+    examples: []
+    sensitive: []
+concept: okay
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/peki#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: ليلة
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - layla
+  - līla
+pronunciation:
+  ipa: /laj.la/
+part_of_speech: noun
+meanings:
+  - en: a night
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D9%8A%D9%84%D8%A9#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

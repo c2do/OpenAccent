@@ -1,0 +1,37 @@
+word: causer
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ko.ze/
+part_of_speech: verb
+meanings:
+  - en: to speak (a language)
+    examples:
+      - text: Tu causes le céfran, mec ?
+        en: You speak frog, dude?
+    sensitive: []
+  - en: to speak, talk, chat; to be waffling on about
+    examples:
+      - text: De quoi il cause ?
+        en: What's he banging on about?
+      - text: Faut vous dire Monsieur que chez ces gens-là / On ne cause pas Monsieur,
+          on ne cause pas, on compte
+        en: You must know, sir, that with these people / They don't talk, sir, they
+          don't talk, they count
+    sensitive: []
+concept: talk
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/causer#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

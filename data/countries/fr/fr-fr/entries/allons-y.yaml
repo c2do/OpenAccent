@@ -1,0 +1,31 @@
+word: allons-y
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a.lɔ̃.z‿i/
+part_of_speech: phrase
+meanings:
+  - en: first-person plural imperative of y aller; let's go
+    examples: []
+    sensitive: []
+  - en: first-person plural imperative of y aller; let's go there
+    examples: []
+    sensitive: []
+  - en: come with me, follow me
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/allons-y#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

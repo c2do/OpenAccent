@@ -1,0 +1,30 @@
+word: chulo
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈt͡ʃulo/
+meanings:
+  - en: cocky (overly confident, arrogant and boastful)
+    examples:
+      - text: Después de que un tipo se pusiera chulo en el tren porque le pedí que
+          hablara más bajo por el móvil, decidí que mi campaña por el buen uso
+          del celular había concluido.
+    sensitive: []
+  - en: pimp
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chulo#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

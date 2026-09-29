@@ -1,0 +1,32 @@
+word: ايه
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʔē
+pronunciation:
+  ipa: /ʔeː/
+part_of_speech: intj
+meanings:
+  - en: yes, yeah
+    examples:
+      - text: "Near-synonyms: نَعَم (naʕam) (formal), مْبَلَى (mbala) (only in response
+          to a negative), أَيْوَا (ʔaywa) (emphatic)"
+    sensitive: []
+  - en: right, carrying on; said when continuing after an interruption
+    examples: []
+    sensitive: []
+concept: "yes"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%8A%D9%87#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

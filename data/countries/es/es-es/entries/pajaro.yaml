@@ -1,0 +1,25 @@
+word: pájaro
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpaxaɾo/
+part_of_speech: noun
+meanings:
+  - en: person of questionable or shady character, or involved in dubious affairs
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/p%C3%A1jaro#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

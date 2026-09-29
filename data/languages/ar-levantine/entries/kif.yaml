@@ -1,0 +1,38 @@
+word: كيف
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - kīf
+  - kayyaf
+  - kayf
+  - kēf
+meanings:
+  - en: how?
+    examples: []
+    sensitive: []
+  - en: come again?
+    examples: []
+    sensitive: []
+  - en: like how; you know how...?
+    examples:
+      - text: كيف بيك بيشخّر؟ صايرة عم ضل إسمع شخير من عندك
+        en: You know how your dad snores? I keep hearing snoring from your room lately.
+    sensitive: []
+  - en: to get excited
+    examples: []
+    sensitive: []
+concept: how
+register: formal
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D9%8A%D9%81#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

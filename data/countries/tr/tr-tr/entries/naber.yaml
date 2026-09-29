@@ -1,0 +1,28 @@
+word: naber
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[ˈnaːbæɾ]"
+part_of_speech: phrase
+meanings:
+  - en: what's up (greeting used to ask for information)
+    examples:
+      - text: N'aber? Bak bende dert yok, tasa yok
+        en: What's up? Look, I have no problems, no worries
+    sensitive: []
+concept: whats_up
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/naber#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

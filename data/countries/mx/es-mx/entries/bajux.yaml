@@ -1,0 +1,26 @@
+word: bajux
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /baˈxuʃ/
+part_of_speech: adv
+meanings:
+  - en: how much
+    examples: []
+    sensitive: []
+concept: how_much
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bajux#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

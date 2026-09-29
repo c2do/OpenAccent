@@ -1,0 +1,25 @@
+word: ladrón
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /laˈdɾon/
+part_of_speech: noun
+meanings:
+  - en: adapter (device allowing more plugs at an outlet)
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ladr%C3%B3n#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

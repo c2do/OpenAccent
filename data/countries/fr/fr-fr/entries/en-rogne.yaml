@@ -1,0 +1,30 @@
+word: en rogne
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɑ̃ ʁɔɲ/
+part_of_speech: adj
+meanings:
+  - en: angry, mad
+    examples:
+      - text: être en rogne
+        en: to be mad
+      - text: se mettre en rogne
+        en: to get hot under the collar
+    sensitive: []
+concept: angry
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/en_rogne#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

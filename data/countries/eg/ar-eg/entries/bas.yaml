@@ -1,0 +1,26 @@
+word: باس
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - bās
+pronunciation:
+  ipa: /baːs/
+part_of_speech: verb
+meanings:
+  - en: to kiss
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%B3#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

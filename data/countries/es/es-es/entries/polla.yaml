@@ -1,0 +1,28 @@
+word: polla
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpoʝa/
+part_of_speech: noun
+meanings:
+  - en: cock
+    examples:
+      - text: 2006, Irvine Welsh, Federico Corriente Basús transl., Porno, Anagrama
+        en: (please add an English translation of this quotation)
+    sensitive:
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/polla#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

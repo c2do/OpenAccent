@@ -1,0 +1,33 @@
+word: echarse al plato
+dialect: es-mx
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /eˌt͡ʃaɾse al ˈplato/
+part_of_speech: verb
+meanings:
+  - en: to eat, eat up, devour; to consume
+    examples:
+      - text: Ayer me eché cinco quesadillas en la cena.
+        en: Yesterday I ate up five quesadillas.
+    sensitive: []
+  - en: to kill someone or something
+    examples:
+      - text: Ya se echaron al plato al alcalde.
+        en: Now the mayor was killed.
+    sensitive: []
+concept: eat
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/echarse_al_plato#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

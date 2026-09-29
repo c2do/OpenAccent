@@ -1,0 +1,26 @@
+word: وضع
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - waḍʕ
+pronunciation:
+  ipa: /wadˤʕ/
+part_of_speech: noun
+meanings:
+  - en: situation
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88%D8%B6%D8%B9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

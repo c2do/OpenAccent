@@ -1,0 +1,29 @@
+word: وجعان
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - wajaʕān
+pronunciation:
+  ipa: /wa.d͡ʒa.ʕaːn/
+part_of_speech: adj
+meanings:
+  - en: tired, exhausted
+    examples: []
+    sensitive: []
+  - en: unwell, ill, sick
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88%D8%AC%D8%B9%D8%A7%D9%86#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

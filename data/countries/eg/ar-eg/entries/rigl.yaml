@@ -1,0 +1,29 @@
+word: رجل
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - rigl
+pronunciation:
+  ipa: /ri.ɡil/
+part_of_speech: noun
+meanings:
+  - en: foot
+    examples: []
+    sensitive: []
+  - en: leg
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B1%D8%AC%D9%84#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

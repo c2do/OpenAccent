@@ -1,0 +1,30 @@
+word: galère
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡa.lɛʁ/
+meanings:
+  - en: a terrible task, drudge, ordeal, problem
+    examples:
+      - text: c'est une galère
+        en: it's a hassle
+    sensitive: []
+  - en: difficult; hellish
+    examples: []
+    sensitive: []
+concept: hard
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gal%C3%A8re#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

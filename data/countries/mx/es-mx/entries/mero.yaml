@@ -1,0 +1,37 @@
+word: mero
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmeɾo/
+meanings:
+  - en: very, plain, simple (used for emphasis)
+    examples:
+      - text: La mera verdad es...
+        en: The plain truth is...
+    sensitive: []
+  - en: just about, almost
+    examples:
+      - text: Ya mero llegamos.
+        en: We are almost there.
+    sensitive: []
+  - en: exactly, precisely
+    examples:
+      - text: mero adelante
+        en: right ahead
+    sensitive: []
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mero#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

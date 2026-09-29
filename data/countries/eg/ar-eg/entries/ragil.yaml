@@ -1,0 +1,33 @@
+word: راجل
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - rāgil
+pronunciation:
+  ipa: /raː.ɡil/
+part_of_speech: noun
+meanings:
+  - en: man; guy
+    examples: []
+    sensitive: []
+  - en: woman's husband, woman's man
+    examples: []
+    sensitive: []
+  - en: king
+    examples: []
+    sensitive: []
+concept: man
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B1%D8%A7%D8%AC%D9%84#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

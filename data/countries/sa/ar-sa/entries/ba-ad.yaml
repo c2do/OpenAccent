@@ -1,0 +1,29 @@
+word: بعض
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - baʕaḍ
+pronunciation:
+  ipa: /ba.ʕadˤ/
+part_of_speech: pron
+meanings:
+  - en: one another, each other
+    examples: []
+    sensitive: []
+  - en: together
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%B9%D8%B6#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

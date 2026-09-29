@@ -1,0 +1,45 @@
+word: çıkmak
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃɯkˈmɑk/
+part_of_speech: verb
+meanings:
+  - en: to leave, exit, quit, get out
+    examples:
+      - text: Odadan hızla çıktım.
+        en: I left the room quickly.
+    sensitive: []
+  - en: to get out
+    examples:
+      - text: Hayatı asla ciddiye alma, zaten canlı çıkan yok.
+        en: Never take life seriously. Nobody gets out alive anyway.
+      - text: Artık çocukluktan çıktın, delikanlı oldun.
+        en: You are no longer a child, you have become a young man.
+    sensitive: []
+  - en: to happen, occur
+    examples:
+      - text: Savaş bu küçük şehir yüzünden çıktı.
+        en: The war occurred because of this small city.
+    sensitive: []
+  - en: to climb
+    examples:
+      - text: Çocuk düşünmeden ağaca çıktı.
+        en: The child climbed the tree without thinking.
+    sensitive: []
+concept: leave
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A7%C4%B1kmak#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

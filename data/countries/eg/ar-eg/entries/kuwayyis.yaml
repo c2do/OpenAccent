@@ -1,0 +1,33 @@
+word: كويس
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - kuwayyis
+pronunciation:
+  ipa: "[k(u)wæj.jɪs]"
+meanings:
+  - en: good
+    examples:
+      - text: الأكل في المطعم ده كويس.
+        en: The food in this restaurant is good.
+    sensitive: []
+  - en: well
+    examples:
+      - text: نمت كويس؟
+        en: Did you sleep well?
+    sensitive: []
+concept: good
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D9%88%D9%8A%D8%B3#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

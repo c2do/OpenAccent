@@ -1,0 +1,32 @@
+word: عن
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʕan
+pronunciation:
+  ipa: /ʕan/
+part_of_speech: prep
+meanings:
+  - en: away from
+    examples: []
+    sensitive: []
+  - en: by, out of
+    examples: []
+    sensitive: []
+  - en: on behalf of
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%86#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

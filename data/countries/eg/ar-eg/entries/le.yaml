@@ -1,0 +1,27 @@
+word: ليه
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - lē
+pronunciation:
+  ipa: /leː/
+part_of_speech: adv
+meanings:
+  - en: why?
+    examples: []
+    sensitive: []
+concept: why
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D9%8A%D9%87#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: accoucher
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a.ku.ʃe/
+part_of_speech: verb
+meanings:
+  - en: to say, tell something that one hid beforehand
+    examples:
+      - text: Allez, accouche ! On va rien te faire.
+        en: Come on, say it! We won't do nothing to you.
+    sensitive: []
+concept: say
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/accoucher#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

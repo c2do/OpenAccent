@@ -1,0 +1,33 @@
+word: pieuter
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pjø.te/
+part_of_speech: verb
+meanings:
+  - en: to sleep (in bed)
+    examples:
+      - text: Depuis que je me suis fait virer par mes vieux, je pieute chez ma copine.
+        en: Since I got kicked out by my folks, I crash at my girlfriend's place.
+    sensitive: []
+  - en: to go to bed; to crash out, hit the hay
+    examples:
+      - text: Bonne nuit à tous, je vais me pieuter !
+        en: Goodnight everyone, I'm going to hit the hay!
+    sensitive: []
+concept: sleep
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pieuter#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

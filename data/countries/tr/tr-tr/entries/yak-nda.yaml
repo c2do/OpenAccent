@@ -1,0 +1,29 @@
+word: yakında
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ja.kɯnˈda/
+part_of_speech: adv
+meanings:
+  - en: near, nearby
+    examples: []
+    sensitive: []
+  - en: soon, shortly
+    examples: []
+    sensitive: []
+concept: near
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/yak%C4%B1nda#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

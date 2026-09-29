@@ -1,0 +1,26 @@
+word: marrón
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /maˈron/
+part_of_speech: noun
+meanings:
+  - en: mess; bitch (something annoying)
+    examples: []
+    sensitive:
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/marr%C3%B3n#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

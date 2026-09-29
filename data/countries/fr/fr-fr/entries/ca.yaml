@@ -1,0 +1,33 @@
+word: ça
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sa/
+part_of_speech: pron
+meanings:
+  - en: that (distal demonstrative pronoun)
+    examples:
+      - text: J'aimerais ça.
+        en: I'd like that.
+    sensitive: []
+  - en: this (proximal demonstrative pronoun)
+    examples:
+      - text: Je veux ça.
+        en: I want this.
+    sensitive: []
+concept: that
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A7a#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

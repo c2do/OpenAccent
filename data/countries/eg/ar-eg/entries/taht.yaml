@@ -1,0 +1,28 @@
+word: تحت
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - taḥt
+pronunciation:
+  ipa: /taħt/
+meanings:
+  - en: down, downstairs
+    examples: []
+    sensitive: []
+  - en: below, under
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AA%D8%AD%D8%AA#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

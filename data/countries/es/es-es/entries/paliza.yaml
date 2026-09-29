@@ -1,0 +1,34 @@
+word: paliza
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /paˈliθa/
+part_of_speech: noun
+meanings:
+  - en: beating, bashing
+    examples:
+      - text: Le di una paliza.
+        en: I gave him a beating.
+      - text: El vídeo con la brutal paliza a Zecler, sin embargo, parecía haber
+          provocado un punto de inflexión.
+    sensitive: []
+  - en: "rout, hammering, trouncing, beating (the act of completely defeating an
+      army or other enemy force, causing it to retreat in a disorganized manner;
+      (by extension) in politics, sport, etc.: a convincing defeat)"
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/paliza#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

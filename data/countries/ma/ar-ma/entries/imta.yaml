@@ -1,0 +1,27 @@
+word: امتى
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - ʔimta
+pronunciation:
+  ipa: /ʔim.ta/
+part_of_speech: adv
+meanings:
+  - en: when?
+    examples: []
+    sensitive: []
+concept: when
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%85%D8%AA%D9%89#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

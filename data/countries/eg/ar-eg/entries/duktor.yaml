@@ -1,0 +1,29 @@
+word: دكتور
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - duktōr
+pronunciation:
+  ipa: /duk.toːr/
+part_of_speech: noun
+meanings:
+  - en: doctor, physician, medical doctor
+    examples: []
+    sensitive: []
+  - en: professor
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AF%D9%83%D8%AA%D9%88%D8%B1#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

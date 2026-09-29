@@ -1,0 +1,32 @@
+word: على طول
+dialect: ar-eg
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʕala tˤuːl/
+part_of_speech: adv
+meanings:
+  - en: straight ahead
+    examples: []
+    sensitive: []
+  - en: always
+    examples: []
+    sensitive: []
+  - en: immediately
+    examples: []
+    sensitive: []
+concept: always
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%84%D9%89_%D8%B7%D9%88%D9%84#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

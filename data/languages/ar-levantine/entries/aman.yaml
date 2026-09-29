@@ -1,0 +1,24 @@
+word: آمن
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʔāman
+part_of_speech: verb
+meanings:
+  - en: to believe, to have faith (optionally with بِـ (b-, “in”))
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A2%D9%85%D9%86#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

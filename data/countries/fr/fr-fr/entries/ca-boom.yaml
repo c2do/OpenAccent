@@ -1,0 +1,29 @@
+word: ça boom
+dialect: fr-fr
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sa bum/
+part_of_speech: phrase
+meanings:
+  - en: what's up?
+    examples: []
+    sensitive: []
+  - en: what's new?
+    examples: []
+    sensitive: []
+concept: whats_up
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%A7a_boom#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

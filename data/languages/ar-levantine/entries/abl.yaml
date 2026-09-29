@@ -1,0 +1,26 @@
+word: قبل
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʔabl
+pronunciation:
+  ipa: /ˈʔa.b(ɪ)l/
+part_of_speech: prep
+meanings:
+  - en: before, prior to
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%A8%D9%84#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

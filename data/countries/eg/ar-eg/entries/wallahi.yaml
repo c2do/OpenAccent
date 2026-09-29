@@ -1,0 +1,30 @@
+word: والله
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - wallāhi
+pronunciation:
+  ipa: "[wɑˈɫːɑhi]"
+part_of_speech: intj
+meanings:
+  - en: by God, on God; I swear
+    examples: []
+    sensitive: []
+  - en: really?, really!
+    examples: []
+    sensitive: []
+concept: really
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88%D8%A7%D9%84%D9%84%D9%87#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

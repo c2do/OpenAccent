@@ -1,0 +1,37 @@
+word: قد
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - gadd
+  - gid
+  - gad
+pronunciation:
+  ipa: /ɡadd/
+meanings:
+  - en: amount, size, quantity, extent
+    examples: []
+    sensitive: []
+  - en: the same amount as; the same size/age as; as big as; as much as; as many as
+    examples:
+      - text: مَحَمَّد قَدّ أحمد
+        en: Mahammad is as old as Ahmad
+    sensitive: []
+  - en: already
+    examples:
+      - text: قِدْ كَلَّمْتُه عَنْ المَوْضُوع
+        en: I've [already] spoken to him about the topic
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%AF#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

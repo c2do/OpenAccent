@@ -1,0 +1,41 @@
+word: no veas
+dialect: es-es
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˌno ˈbeas/
+part_of_speech: phrase
+meanings:
+  - en: wow, unbelievable, you have no idea (used as an interjection to express
+      surprise, shock, or strong emphasis)
+    examples:
+      - text: ¡Nóve el cochazo que se ha comprado el vecino!
+        en: Wow, look at the huge car the neighbor just bought!
+      - text: |-
+          —¿Había mucha gente en el centro?
+          —¡Uf, no veas!
+        en: |-
+          —Were there a lot of people downtown?
+          —Ugh, you have no idea!
+    sensitive: []
+  - en: incredibly, extremely, like crazy (used as an intensifier, typically
+      preceded by the conjunction que)
+    examples:
+      - text: Hoy hace un frío que no veas.
+        en: It is incredibly cold today. / It's cold as hell today.
+    sensitive: []
+concept: wow
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/no_veas#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

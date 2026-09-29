@@ -1,0 +1,25 @@
+word: dejar
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /deˈxaɾ/
+part_of_speech: verb
+meanings:
+  - en: to cut out (stop)
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dejar#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

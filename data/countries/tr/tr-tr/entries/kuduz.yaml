@@ -1,0 +1,31 @@
+word: kuduz
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kuˈduz/
+meanings:
+  - en: rabies (viral disease)
+    examples: []
+    sensitive: []
+  - en: rabid
+    examples: []
+    sensitive: []
+  - en: angry, furious, jealous
+    examples: []
+    sensitive: []
+concept: angry
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/kuduz#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

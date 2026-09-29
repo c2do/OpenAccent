@@ -1,0 +1,27 @@
+word: fena
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: bad, evil
+    examples: []
+    sensitive: []
+  - en: sick
+    examples: []
+    sensitive: []
+concept: bad
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fena#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

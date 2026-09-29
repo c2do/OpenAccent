@@ -1,0 +1,42 @@
+word: ne
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /nɛ/
+meanings:
+  - en: what
+    examples:
+      - text: Ne istiyorsun?
+        en: What do you want?
+    sensitive: []
+  - en: why
+    examples:
+      - text: Sen ne geldin buraya şimdi?
+        en: Why did you come here now?
+    sensitive: []
+  - en: what, how, such
+    examples:
+      - text: Ne güzel!
+        en: How beautiful!
+      - text: Ne güzel bir gün!
+        en: What a beautiful day!
+    sensitive: []
+  - en: The name of the Latin script letter N/n.
+    examples: []
+    sensitive: []
+concept: what
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ne#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

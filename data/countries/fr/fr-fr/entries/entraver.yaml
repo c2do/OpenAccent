@@ -1,0 +1,26 @@
+word: entraver
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɑ̃.tʁa.ve/
+part_of_speech: verb
+meanings:
+  - en: to understand
+    examples: []
+    sensitive: []
+concept: understand
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/entraver#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

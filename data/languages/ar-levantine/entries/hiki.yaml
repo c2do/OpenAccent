@@ -1,0 +1,36 @@
+word: حكي
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ḥiki
+  - ḥaki
+meanings:
+  - en: to speak, talk
+    examples:
+      - text: عن شو عم تحكي؟
+        en: What are you talking about?
+    sensitive: []
+  - en: to speak to, to talk to
+    examples: []
+    sensitive: []
+  - en: to say
+    examples: []
+    sensitive: []
+  - en: to speak ill of, to trash-talk
+    examples: []
+    sensitive: []
+concept: talk
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D9%83%D9%8A#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

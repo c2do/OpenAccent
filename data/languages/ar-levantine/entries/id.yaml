@@ -1,0 +1,39 @@
+word: عيد
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʕīd
+  - ʕayyad
+  - ʕayadd
+pronunciation:
+  ipa: /ʕiːd/
+meanings:
+  - en: holiday, feast day, festival
+    examples: []
+    sensitive: []
+  - en: to celebrate (a religious holiday)
+    examples: []
+    sensitive: []
+  - en: to greet or congratulate on the occasion of a holiday
+    examples: []
+    sensitive: []
+  - en: to cause to repeat (something)
+    examples:
+      - text: عيدني ياها شي أربع خمس مرات قال تا ما ينسى قام نسي
+        en: He made me repeat it like four or five times so that he 'wouldn’t forget'
+          and then he forgot
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%8A%D8%AF#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: toto
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtoto/
+part_of_speech: noun
+meanings:
+  - en: cunt, pussy, twat
+    examples: []
+    sensitive:
+      - sexual
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/toto#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

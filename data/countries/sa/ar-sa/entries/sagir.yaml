@@ -1,0 +1,30 @@
+word: صغير
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ṣaḡīr
+pronunciation:
+  ipa: /sˤa.ɣiːr/
+part_of_speech: adj
+meanings:
+  - en: small
+    examples: []
+    sensitive: []
+  - en: young (for a person)
+    examples: []
+    sensitive: []
+concept: small
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B5%D8%BA%D9%8A%D8%B1#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

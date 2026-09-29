@@ -1,0 +1,26 @@
+word: feumeu
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fœ.mø/
+part_of_speech: noun
+meanings:
+  - en: woman; girl
+    examples: []
+    sensitive: []
+concept: woman
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/feumeu#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

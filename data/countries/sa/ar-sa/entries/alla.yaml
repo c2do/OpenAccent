@@ -1,0 +1,30 @@
+word: الله
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - aḷḷā
+  - aḷḷa
+pronunciation:
+  ipa: /aɫ.ɫaː(h)/
+part_of_speech: intj
+meanings:
+  - en: oh my God (to something beautiful and exciting)
+    examples: []
+    sensitive: []
+  - en: oh my God (to something shocking)
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%84%D9%84%D9%87#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

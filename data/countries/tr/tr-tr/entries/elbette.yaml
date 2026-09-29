@@ -1,0 +1,24 @@
+word: elbette
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+part_of_speech: adv
+meanings:
+  - en: of course, certainly, naturally, surely
+    examples: []
+    sensitive: []
+concept: of_course
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/elbette#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

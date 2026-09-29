@@ -1,0 +1,27 @@
+word: إيوه
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - ʔīwa
+pronunciation:
+  ipa: /ʔiː.wa/
+part_of_speech: adv
+meanings:
+  - en: "yes"
+    examples: []
+    sensitive: []
+concept: "yes"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A5%D9%8A%D9%88%D9%87#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

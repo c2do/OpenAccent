@@ -1,0 +1,35 @@
+word: bırakmak
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɯ.ɾakˈmak/
+part_of_speech: verb
+meanings:
+  - en: to let go, release, relinquish
+    examples: []
+    sensitive: []
+  - en: to abandon, to leave
+    examples: []
+    sensitive: []
+  - en: to leave, to cause or allow something to remain as available
+    examples: []
+    sensitive: []
+  - en: to put, put down; to postpone, put off
+    examples: []
+    sensitive: []
+concept: leave
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/b%C4%B1rakmak#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

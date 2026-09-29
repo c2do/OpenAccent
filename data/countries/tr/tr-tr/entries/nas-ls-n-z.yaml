@@ -1,0 +1,27 @@
+word: nasılsınız
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[ˈnɑ.sɯɫ.sɯ.nɯz]"
+part_of_speech: phrase
+meanings:
+  - en: how are you?
+    examples:
+      - text: "Coordinate term: (informal) nasılsın?"
+    sensitive: []
+concept: how_are_you
+register: formal
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nas%C4%B1ls%C4%B1n%C4%B1z#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

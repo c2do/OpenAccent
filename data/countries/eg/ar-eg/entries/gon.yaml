@@ -1,0 +1,26 @@
+word: جون
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - gōn
+pronunciation:
+  ipa: /ɡoːn/
+part_of_speech: noun
+meanings:
+  - en: goal
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AC%D9%88%D9%86#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

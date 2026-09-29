@@ -1,0 +1,38 @@
+word: إجا
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - ʔija
+pronunciation:
+  ipa: /ˈʔi.ʒa/ [ˈʔeʒa]
+part_of_speech: verb
+meanings:
+  - en: to come
+    examples: []
+    sensitive: []
+  - en: to arrive
+    examples: []
+    sensitive: []
+  - en: to take a shape, form, or connotation
+    examples:
+      - text: بتجي شوي قوية كلمة أجدب قول عنو مش ذكي
+        en: The word dumbass comes off a little strong, say "not smart"
+      - text: بالفصحى بتجي الألف أو مقصورة أو ممدودة حسب جذر الفعل شو هو
+        en: In Fusha, the letter alif is either an alif maqsura or a long alif depending
+          on what the root of the verb is
+    sensitive: []
+concept: come
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A5%D8%AC%D8%A7#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

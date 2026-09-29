@@ -1,0 +1,27 @@
+word: ساقع
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - sāʔiʕ
+pronunciation:
+  ipa: /saː.ʔiʕ/
+part_of_speech: adj
+meanings:
+  - en: cold
+    examples: []
+    sensitive: []
+concept: cold
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B3%D8%A7%D9%82%D8%B9#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

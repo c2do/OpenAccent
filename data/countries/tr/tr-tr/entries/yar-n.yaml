@@ -1,0 +1,35 @@
+word: yarın
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈjɑ.ɾɯn/
+meanings:
+  - en: tomorrow
+    examples:
+      - text: Yarın okula gideceğim.
+        en: Tomorrow, I will go to the school.
+    sensitive: []
+  - en: morrow, the next or following day
+    examples: []
+    sensitive: []
+  - en: future
+    examples:
+      - text: Çocuklarımız yarınımızdır.
+        en: Our children are our future.
+    sensitive: []
+concept: tomorrow
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/yar%C4%B1n#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: شوية
+dialect: ar-sa
+type: word
+spellings: []
+romanized:
+  - šwayya
+pronunciation:
+  ipa: /ʃu.waj.ja/
+part_of_speech: adv
+meanings:
+  - en: a little, some, a bit
+    examples:
+      - text: حُط شويّة سكّر
+        en: Put a little bit of sugar
+    sensitive: []
+concept: a_little
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D9%88%D9%8A%D8%A9#Hijazi_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

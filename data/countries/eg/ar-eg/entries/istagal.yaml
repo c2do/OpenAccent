@@ -1,0 +1,27 @@
+word: اشتغل
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - ištaḡal
+pronunciation:
+  ipa: /iʃ.ta.ɣal/
+part_of_speech: verb
+meanings:
+  - en: to work (to do a specific task)
+    examples: []
+    sensitive: []
+concept: work_verb
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D8%B4%D8%AA%D8%BA%D9%84#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

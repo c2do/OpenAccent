@@ -1,0 +1,34 @@
+word: وحش
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - wiḥiš
+  - waḥš
+  - waḥaš
+pronunciation:
+  ipa: /wi.ħiʃ/
+meanings:
+  - en: bad
+    examples: []
+    sensitive: []
+  - en: monster
+    examples: []
+    sensitive: []
+  - en: to miss, to cause longing
+    examples: []
+    sensitive: []
+concept: bad
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88%D8%AD%D8%B4#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

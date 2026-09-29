@@ -1,0 +1,25 @@
+word: compris
+dialect: fr-fr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɔ̃.pʁi/
+part_of_speech: intj
+meanings:
+  - en: you hear me? understood?
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/compris#French
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

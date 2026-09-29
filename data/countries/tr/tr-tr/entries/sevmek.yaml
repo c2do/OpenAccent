@@ -1,0 +1,36 @@
+word: sevmek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sev.ˈmec/
+part_of_speech: verb
+meanings:
+  - en: to love
+    examples:
+      - text: Seni seviyorum.
+        en: I love you.
+    sensitive: []
+  - en: to like, enjoy
+    examples:
+      - text: Uyumayı severim.
+        en: I like sleeping.
+    sensitive: []
+  - en: synonym of okşamak (“to caress, fondle, pet”)
+    examples: []
+    sensitive: []
+concept: like
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sevmek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

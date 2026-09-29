@@ -1,0 +1,27 @@
+word: نتفة
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - nitfe
+meanings:
+  - en: a little bit, a small amount
+    examples: []
+    sensitive: []
+  - en: a little, a bit, slightly
+    examples: []
+    sensitive: []
+concept: a_little
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%86%D8%AA%D9%81%D8%A9#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

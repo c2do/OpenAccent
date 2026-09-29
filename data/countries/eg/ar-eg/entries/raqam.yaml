@@ -1,0 +1,35 @@
+word: رقم
+dialect: ar-eg
+type: word
+spellings: []
+romanized:
+  - raqam
+  - raqqam
+pronunciation:
+  ipa: /ra.qam/
+meanings:
+  - en: digit
+    examples: []
+    sensitive: []
+  - en: number
+    examples: []
+    sensitive: []
+  - en: number; phone number
+    examples: []
+    sensitive: []
+  - en: to number
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B1%D9%82%D9%85#Egyptian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

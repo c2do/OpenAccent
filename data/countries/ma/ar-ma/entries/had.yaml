@@ -1,0 +1,31 @@
+word: هاد
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - hād
+pronunciation:
+  ipa: /haːd/
+part_of_speech: det
+meanings:
+  - en: this, those
+    examples:
+      - text: هاد الراجل مريض.
+        en: This man is sick.
+      - text: شريت هاد الدار.
+        en: I bought this house.
+    sensitive: []
+concept: this
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D8%A7%D8%AF#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

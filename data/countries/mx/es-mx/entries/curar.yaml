@@ -1,0 +1,27 @@
+word: curar
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kuˈɾaɾ/
+part_of_speech: verb
+meanings:
+  - en: to laugh, to burst out laughing
+    examples:
+      - text: Me caí y mi amigo se la estaba curando.
+        en: I fell down and my friend was laughing at me.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/curar#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: kadın
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɑˈdɯn/
+part_of_speech: noun
+meanings:
+  - en: woman
+    examples: []
+    sensitive: []
+concept: woman
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/kad%C4%B1n#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

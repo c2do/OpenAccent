@@ -1,0 +1,30 @@
+word: داخلي
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - dāḵli
+pronunciation:
+  ipa: /ˈdaːx.li/
+part_of_speech: adj
+meanings:
+  - en: inner, internal, interior
+    examples:
+      - text: "ʾAʾsǟm əl-madīne əd-dǟḫliyye mnəj-janūb ləš-šmǟl hiyye: Buwwǟbet
+          əl-Ꜧəddǟdīn, əl-Mhǟtṛå, ən-Nūri, ət-Tarbīɛa [...]."
+        en: "The inner quarters of the city are, from the south to the north: Haddadin,
+          Mhatreh, Noury, Tarbi'a …."
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AF%D8%A7%D8%AE%D9%84%D9%8A#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,36 @@
+word: parar
+dialect: es-mx
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /paˈɾaɾ/
+part_of_speech: verb
+meanings:
+  - en: to stand up
+    examples: []
+    sensitive: []
+  - en: to put something in a vertical position
+    examples: []
+    sensitive: []
+  - en: to put someone in a vertical position
+    examples: []
+    sensitive: []
+  - en: to get up (from bed)
+    examples:
+      - text: Me paro a las 6 am
+        en: I get up at 6 am
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/parar#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

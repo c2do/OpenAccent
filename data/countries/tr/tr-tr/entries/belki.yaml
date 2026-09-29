@@ -1,0 +1,26 @@
+word: belki
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɛlˈci/
+part_of_speech: adv
+meanings:
+  - en: maybe, possibly, probably
+    examples: []
+    sensitive: []
+concept: maybe
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/belki#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

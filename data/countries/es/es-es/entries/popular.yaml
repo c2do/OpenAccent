@@ -1,0 +1,27 @@
+word: popular
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /popuˈlaɾ/
+meanings:
+  - en: Pertaining to PP (Partido Popular), a Spanish political party
+    examples: []
+    sensitive: []
+  - en: a member or supporter of PP (Partido Popular), a Spanish political party
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/popular#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,34 @@
+word: ekmek
+dialect: tr-tr
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ecˈmec/
+meanings:
+  - en: bread
+    examples: []
+    sensitive: []
+  - en: one's source of money
+    examples: []
+    sensitive: []
+  - en: daily bread, source of one's sustenance
+    examples: []
+    sensitive: []
+  - en: to sow, to plant
+    examples: []
+    sensitive: []
+concept: bread
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ekmek#Turkish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

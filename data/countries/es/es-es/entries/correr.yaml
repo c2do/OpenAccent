@@ -1,0 +1,30 @@
+word: correr
+dialect: es-es
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /koˈreɾ/
+part_of_speech: verb
+meanings:
+  - en: to have an orgasm
+    examples:
+      - text: Me baja más los pantalones y me come el capullo hasta que estoy al punto
+          de correrme otra vez.
+        en: She pulls my pants down further and sucks my dick until I am at the point of
+          cumming again.
+    sensitive:
+      - sexual
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/correr#Spanish
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

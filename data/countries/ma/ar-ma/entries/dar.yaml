@@ -1,0 +1,35 @@
+word: دار
+dialect: ar-ma
+type: word
+spellings: []
+romanized:
+  - dār
+pronunciation:
+  ipa: /daːr/
+meanings:
+  - en: to do
+    examples: []
+    sensitive: []
+  - en: to turn
+    examples: []
+    sensitive: []
+  - en: to go around
+    examples: []
+    sensitive: []
+  - en: to rotate
+    examples: []
+    sensitive: []
+concept: do
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AF%D8%A7%D8%B1#Moroccan_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import
