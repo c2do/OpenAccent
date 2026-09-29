@@ -8,7 +8,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/code-MIT-0F766E" alt="Code: MIT"></a>
   <a href="data/LICENSE"><img src="https://img.shields.io/badge/data-CC%20BY--SA%204.0-0F766E" alt="Data: CC BY-SA 4.0"></a>
   <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP-server-4338CA" alt="MCP server"></a>
-  <img src="https://img.shields.io/badge/dialects-14%20in%20wave%201-4338CA" alt="14 dialects in wave 1">
+  <img src="https://img.shields.io/badge/focus-Arabic%20dialects-4338CA" alt="Focus: Arabic dialects">
   <img src="https://img.shields.io/badge/status-early%20development-F59E0B" alt="Status: early development">
 </p>
 
@@ -18,7 +18,7 @@
 
 OpenAccent is an open-source, community-built dictionary of the world's dialects, organized by country and verified by native speakers. It also keeps a personal memory of how *you* speak. Both are served to AI assistants like Claude through [MCP](https://modelcontextprotocol.io).
 
-> **Status: early development.** Everything runs locally on your computer. The first 14 dialects are being filled from open sources. Install: [`docs/setup.md`](docs/setup.md).
+> **Status: early development.** Everything runs locally on your computer. We're starting with the most widely spoken Arabic dialects, filled from open sources and reviewed by native speakers. Install: [`docs/setup.md`](docs/setup.md).
 
 ## The problem
 
@@ -38,11 +38,54 @@ It never feels like talking to a real person from your place.
 | 📖 **Dictionary** | One folder per country and one per dialect, one file per word. Every word cites its source, and nothing is marked *verified* until a native speaker approves it. |
 | 🧭 **Dialect guides** | How each dialect sounds and works, and the mistakes AI models commonly make in it. |
 | 🧠 **Personal memory** | Your dialect, your words, your corrections. It stays on your machine, and your corrections beat the dictionary. |
+| 🗣️ **Learns how you speak** | Speak more than one dialect? Mix in English? Write short, or in Arabizi? OpenAccent picks it up from your own messages (counts only, never the messages) and tells the AI to match you. |
 | 🔍 **Reply check** | Flags words from the wrong dialect, rare words, words written the way they sound, and words you've corrected before. |
 | 🎭 **Dialect cards** | For stories, songs, scripts and game dialogue: voice characters from any dialect, with rules for each kind of writing. |
 | 📋 **Portable prompt** | A short text for any AI's custom instructions (Claude, ChatGPT, …), generated on your machine: `openaccent-mcp export <dialect>`. |
 
-## First wave: 14 dialects
+## Beyond chat: stories, songs, scripts and games
+
+Dialect is what makes a character feel real. OpenAccent gives any AI writer the words, sounds and rules of a dialect, then checks every line.
+
+| Write… | What OpenAccent does |
+|---|---|
+| 📚 **Stories and novels** | A grandmother from Cairo and her grandson from Casablanca can share a scene, each in their own dialect: every character gets a dialect card, and each line is checked against that character's dialect. Old or rare words are allowed when a story wants them. |
+| 🎵 **Song lyrics** | Everyday words people actually sing, in one consistent dialect. Rare and old-fashioned words are fine when they fit the song. |
+| 🎬 **Film, TV and podcast scripts** | Lines spelled the way actors should say them (fallahi *تشيف* for كيف). Characters can swear if the scene calls for it; slurs are always flagged. |
+| 🎮 **Game dialogue** | NPCs that sound like they come from somewhere specific, and stay that way across hundreds of lines. |
+
+Try asking Claude with OpenAccent installed:
+
+- *"Write a short scene: an Iraqi taxi driver argues with a Lebanese tourist about the fare. Keep each in their own dialect."*
+- *"Write a chorus for a Moroccan wedding song."*
+- *"Rewrite this dialogue so the characters sound Egyptian, not Modern Standard Arabic."*
+
+### Ideas to build on it
+
+OpenAccent is an MCP server, a CLI and an open dataset (CC BY-SA), so you can build on top of it:
+
+- A lyrics or screenwriting assistant that keeps every character in their dialect.
+- A game-dialogue tool that checks thousands of NPC lines for dialect mixing.
+- Subtitles and dubbing QA: run `check_reply` over a script to catch lines in the wrong dialect.
+- A local-business chatbot that talks like people in that city.
+- A language-learning app that teaches the dialect people actually speak.
+
+**Developers, good first contributions:** a text normalizer for a new language, eval prompts for your dialect, an importer for another openly licensed dataset, or an editor plugin around the CLI. See [`docs/design.md`](docs/design.md).
+
+## Dialects
+
+**Arabic first.** We're starting with the most widely spoken Arabic dialects:
+
+<table>
+  <tr><td align="center" width="20%"><img src="docs/assets/flags/eg.svg" width="44" alt="Egypt"><br><b>Egyptian</b><br><sub>Egypt</sub></td><td align="center" width="20%"><img src="docs/assets/flags/sy.svg" width="44" alt="Syria"><br><b>Levantine</b><br><sub>Syria · Lebanon · Jordan · Palestine</sub></td><td align="center" width="20%"><img src="docs/assets/flags/sa.svg" width="44" alt="Saudi Arabia"><br><b>Saudi and Gulf</b><br><sub>Saudi Arabia · the Gulf</sub></td><td align="center" width="20%"><img src="docs/assets/flags/iq.svg" width="44" alt="Iraq"><br><b>Iraqi</b><br><sub>Iraq</sub></td><td align="center" width="20%"><img src="docs/assets/flags/sd.svg" width="44" alt="Sudan"><br><b>Sudanese</b><br><sub>Sudan</sub></td></tr>
+  <tr><td align="center" width="20%"><img src="docs/assets/flags/ma.svg" width="44" alt="Morocco"><br><b>Moroccan Darija</b><br><sub>Morocco</sub></td><td align="center" width="20%"><img src="docs/assets/flags/dz.svg" width="44" alt="Algeria"><br><b>Algerian Darja</b><br><sub>Algeria</sub></td><td align="center" width="20%"><img src="docs/assets/flags/tn.svg" width="44" alt="Tunisia"><br><b>Tunisian Derja</b><br><sub>Tunisia</sub></td><td align="center" width="20%"><img src="docs/assets/flags/lb.svg" width="44" alt="Lebanon"><br><b>Lebanese</b><br><sub>Lebanon</sub></td><td align="center" width="20%"><img src="docs/assets/flags/jo.svg" width="44" alt="Jordan"><br><b>Jordanian</b><br><sub>Jordan</sub></td></tr>
+</table>
+
+**Also started:** Mexican Spanish, Spanish (Spain), French and Turkish have draft words. General American, British and Indian English, German, Brazilian Portuguese and Hindi are set up and waiting for better sources.
+
+<details>
+<summary>The first world wave (14 dialects)</summary>
+
 
 <table>
   <tr><td align="center" width="20%"><img src="docs/assets/flags/us.svg" width="44" alt="United States"><br><b>General American</b><br><sub>United States</sub></td><td align="center" width="20%"><img src="docs/assets/flags/gb.svg" width="44" alt="United Kingdom"><br><b>British English</b><br><sub>United Kingdom</sub></td><td align="center" width="20%"><img src="docs/assets/flags/in.svg" width="44" alt="India"><br><b>Indian English</b><br><sub>India</sub></td><td align="center" width="20%"><img src="docs/assets/flags/mx.svg" width="44" alt="Mexico"><br><b>Mexican Spanish</b><br><sub>Mexico</sub></td><td align="center" width="20%"><img src="docs/assets/flags/es.svg" width="44" alt="Spain"><br><b>Spanish (Spain)</b><br><sub>Spain</sub></td></tr>
@@ -50,13 +93,15 @@ It never feels like talking to a real person from your place.
   <tr><td align="center" width="20%"><img src="docs/assets/flags/eg.svg" width="44" alt="Egypt"><br><b>Egyptian Arabic</b><br><sub>Egypt</sub></td><td align="center" width="20%"><img src="docs/assets/flags/sa.svg" width="44" alt="Saudi Arabia"><br><b>Saudi Arabic</b><br><sub>Saudi Arabia</sub></td><td align="center" width="20%"><img src="docs/assets/flags/sy.svg" width="44" alt="Syria"><br><b>Syrian Arabic</b><br><sub>Syria</sub></td><td align="center" width="20%"><img src="docs/assets/flags/lb.svg" width="44" alt="Lebanon"><br><b>Lebanese Arabic</b><br><sub>Lebanon</sub></td><td align="center" width="20%"><img src="docs/assets/flags/ma.svg" width="44" alt="Morocco"><br><b>Moroccan Darija</b><br><sub>Morocco</sub></td></tr>
 </table>
 
+</details>
+
 Words come from [Wiktionary](https://en.wiktionary.org) (CC BY-SA 4.0), filtered by region and ranked by how common they are. Every imported word starts as a **draft** until a native speaker reviews it.
 
 ## Contribute
 
 You don't need to code.
 
-- **Native speaker of one of these dialects?** We need **reviewers** most of all. Open an issue and tell us which dialect you speak.
+- **Native speaker of one of these dialects?** We need **reviewers** most of all. Open an issue and tell us which dialect you speak. Every dialect has a short guide (how it sounds, the mistakes AI makes in it) written as a draft and waiting for someone who grew up speaking it.
 - **Want to add a word or a dialect?** Easy forms are coming. For now, see [`data/README.md`](data/README.md).
 - **Can you improve a translation of this page?** Please do. They were drafted by AI, which is exactly the kind of thing this project exists to fix.
 
