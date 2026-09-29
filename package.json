@@ -21,7 +21,8 @@
     "build:data": "tsx scripts/build-data.ts",
     "build": "npm run build:data && tsc -p tsconfig.build.json",
     "eval": "tsx scripts/eval.ts",
-    "pack:mcpb": "bash scripts/pack-mcpb.sh"
+    "pack:mcpb": "bash scripts/pack-mcpb.sh",
+    "bench": "tsx bench/run.ts"
   },
   "repository": {
     "type": "git",
