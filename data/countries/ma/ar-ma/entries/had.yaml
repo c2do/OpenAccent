@@ -29,3 +29,6 @@ source:
   ref: https://en.wiktionary.org/wiki/%D9%87%D8%A7%D8%AF#Moroccan_Arabic
   license: CC-BY-SA-4.0
 added_by: wiktionary-import
+attested_by:
+  - name: doda-v1
+    ref: https://github.com/darija-open-dataset/dataset/tree/doda_v1

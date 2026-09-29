@@ -31,3 +31,6 @@ source:
   ref: https://en.wiktionary.org/wiki/%D8%AD%D9%84%D9%88#Hijazi_Arabic
   license: CC-BY-SA-4.0
 added_by: wiktionary-import
+attested_by:
+  - name: unimorph
+    ref: https://github.com/unimorph/afb

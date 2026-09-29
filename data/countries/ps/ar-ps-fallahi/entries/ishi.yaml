@@ -2,12 +2,12 @@ word: إشي
 dialect: ar-ps-fallahi
 type: word
 romanized:
-- ishi
+  - ishi
 meanings:
-- ar: شيء
-  en: something, a thing
-  examples:
-  - text: بدّك إشي من الدكّان؟
+  - ar: شيء
+    en: something, a thing
+    examples:
+      - text: بدّك إشي من الدكّان؟
 concept: something
 register: casual
 familiarity: common
@@ -15,3 +15,6 @@ status: draft
 verified_by: []
 source:
   kind: ai-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

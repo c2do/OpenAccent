@@ -27,3 +27,6 @@ source:
   ref: https://en.wiktionary.org/wiki/%D8%B7%D8%B1%D9%8A%D9%82#Egyptian_Arabic
   license: CC-BY-SA-4.0
 added_by: wiktionary-import
+attested_by:
+  - name: unimorph
+    ref: https://github.com/unimorph/arz

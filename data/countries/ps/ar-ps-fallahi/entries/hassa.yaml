@@ -2,31 +2,34 @@ word: هسّع
 dialect: ar-ps-fallahi
 type: word
 spellings:
-- هسّا
-- هسا
-- هسع
+  - هسّا
+  - هسا
+  - هسع
 romanized:
-- hassa3
-- hassa
+  - hassa3
+  - hassa
 meanings:
-- ar: الآن
-  en: now
-  examples:
-  - text: هسّع بجيك
+  - ar: الآن
+    en: now
+    examples:
+      - text: هسّع بجيك
 concept: now
 register: casual
 familiarity: common
 related:
-- ar-ps-fallahi/hassaiyyat
-- ar-ps-fallahi/halqeet
-- ar-ps-fallahi/ilhin
-- ar-ps-fallahi/irhin
-- ar-ps-fallahi/halhin
-notes: 'One of several village words for ''now'' (هسّع/هسّا، هسعيات، هلقيت، الحين،
-  ارحين، هالحين). Which one depends on the village: use the user''s own word and don''t
-  mix them in one conversation.'
+  - ar-ps-fallahi/hassaiyyat
+  - ar-ps-fallahi/halqeet
+  - ar-ps-fallahi/ilhin
+  - ar-ps-fallahi/irhin
+  - ar-ps-fallahi/halhin
+notes: 'One of several village words for ''now'' (هسّع/هسّا، هسعيات، هلقيت،
+  الحين، ارحين، هالحين). Which one depends on the village: use the user''s own
+  word and don''t mix them in one conversation.'
 status: verified
 verified_by:
-- c2do
+  - c2do
 source:
   kind: reviewer
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon
