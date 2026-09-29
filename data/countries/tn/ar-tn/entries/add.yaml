@@ -1,0 +1,33 @@
+word: حد
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ħadd
+pronunciation:
+  ipa: "[ħædː]"
+part_of_speech: pron
+meanings:
+  - en: no one, nobody
+    examples:
+      - text: أحد، ما يخدم حد
+        en: "[By] Sunday, nobody works"
+    sensitive: []
+  - en: someone, somebody
+    examples:
+      - text: كان جاء فما حد يحب يمشي، راو انا
+        en: If there's somebody who [deeply] wants to come, that would be me
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AD%D8%AF#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

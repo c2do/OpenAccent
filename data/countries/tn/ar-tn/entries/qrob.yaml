@@ -1,0 +1,37 @@
+word: قرب
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - qrob
+  - qrab
+  - qarreb
+  - qorb
+pronunciation:
+  ipa: "[qrʊb]"
+meanings:
+  - en: to get close, to become nigh
+    examples: []
+    sensitive: []
+  - en: to be close to someone, to interact with someone
+    examples: []
+    sensitive: []
+  - en: to get some(thing/one) closer
+    examples: []
+    sensitive: []
+  - en: closeness
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%82%D8%B1%D8%A8#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

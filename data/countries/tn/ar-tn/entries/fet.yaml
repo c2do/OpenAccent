@@ -1,0 +1,33 @@
+word: فات
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - fēt
+pronunciation:
+  ipa: "[fe̞ːt]"
+part_of_speech: verb
+meanings:
+  - en: to pass up, to overshoot
+    examples:
+      - text: فُتنِاهَا رَانَا الكُوشَة
+        en: We passed up the bakery
+    sensitive: []
+  - en: to pass, to expire, to end
+    examples:
+      - text: اللِّي فِات مِات
+        en: Chalk it up to experience
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D8%A7%D8%AA#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

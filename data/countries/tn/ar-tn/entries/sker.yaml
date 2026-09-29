@@ -1,0 +1,36 @@
+word: سكر
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - sker
+  - sakker
+  - sokker
+pronunciation:
+  ipa: "[skɘk]"
+meanings:
+  - en: to be stoned, to get drunk
+    examples: []
+    sensitive: []
+  - en: to close
+    examples: []
+    sensitive: []
+  - en: sugar
+    examples: []
+    sensitive: []
+  - en: diabetes
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B3%D9%83%D8%B1#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

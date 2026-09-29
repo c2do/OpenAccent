@@ -1,0 +1,28 @@
+word: سيد
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - sīd
+pronunciation:
+  ipa: "[siːd]"
+part_of_speech: noun
+meanings:
+  - en: lion
+    examples:
+      - text: تَو جِبت السِّيد مِن وِذنُو؟
+        en: No way, Sherlock!
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B3%D9%8A%D8%AF#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

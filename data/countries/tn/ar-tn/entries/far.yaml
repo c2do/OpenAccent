@@ -1,0 +1,33 @@
+word: فار
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - fār
+pronunciation:
+  ipa: "[fɐːr]"
+meanings:
+  - en: to boil over
+    examples: []
+    sensitive: []
+  - en: a mouse
+    examples:
+      - text: الفَار يَطلَع لبُوه حَفَّار
+        en: Life father like son
+    sensitive: []
+  - en: a lighthouse
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%81%D8%A7%D8%B1#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

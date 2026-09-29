@@ -1,0 +1,47 @@
+word: ما
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - me
+  - mə
+  - ma
+pronunciation:
+  ipa: "[me̞]"
+meanings:
+  - en: water
+    examples: []
+    sensitive: []
+  - en: a very diluted or watered-down beverage
+    examples: []
+    sensitive: []
+  - en: somthing, which, what
+    examples:
+      - text: عَندِي مَا نقُلِّك
+        en: I've got something to tell you
+      - text: "Note that the colloquial conjugation is nqollek instead of standard
+          nqūllek. It sometimes happens when the verb ends in 'l' and is
+          attached to a dative: ū -> o"
+    sensitive: []
+  - en: (second partite particle being ش, حدّ, شَيّ, كِان, جِملَة, بِالكُلّ,
+      خلَاص...)
+    examples:
+      - text: مَانِيش غَادِي
+        en: I'm not there
+      - text: مَا كلِيتِش
+        en: I didn't eat
+    sensitive: []
+concept: water
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%A7#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

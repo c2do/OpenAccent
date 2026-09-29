@@ -1,0 +1,29 @@
+word: كيفاش
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - kīfēš
+pronunciation:
+  ipa: "[kiː.ˈfe̞ːʃ]"
+meanings:
+  - en: how?
+    examples: []
+    sensitive: []
+  - en: how
+    examples: []
+    sensitive: []
+concept: how
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%83%D9%8A%D9%81%D8%A7%D8%B4#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

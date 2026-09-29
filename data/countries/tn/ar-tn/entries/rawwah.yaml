@@ -1,0 +1,26 @@
+word: روح
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - rawwaḥ
+pronunciation:
+  ipa: "[ˈrɐw.wɐħ]"
+part_of_speech: verb
+meanings:
+  - en: to go home, to go back home
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B1%D9%88%D8%AD#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

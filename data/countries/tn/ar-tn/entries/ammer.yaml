@@ -1,0 +1,38 @@
+word: عمر
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ʕammer
+  - ʕmor
+pronunciation:
+  ipa: "[ˈʕɐm.mɘr]"
+meanings:
+  - en: to load, to reload, to fill discretely
+    examples:
+      - text: "Coordinate term: عَبَّا (ʕabbə)"
+      - text: خَلِّينِي نعَمِّر مُخِّي بسِيڨَارُو
+        en: Let me reload my mind with a cigarette
+    sensitive: []
+  - en: age, lifetime
+    examples:
+      - text: قدِّاش عُمرِك
+        en: How old are you?
+    sensitive: []
+  - en: never
+    examples: []
+    sensitive: []
+concept: never
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B9%D9%85%D8%B1#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: بى
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - be
+pronunciation:
+  ipa: "[be̞]"
+part_of_speech: verb
+meanings:
+  - en: to want, to agree to an offer or proposal
+    examples: []
+    sensitive: []
+concept: want
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D9%89#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

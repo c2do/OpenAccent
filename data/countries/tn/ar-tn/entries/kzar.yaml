@@ -1,0 +1,28 @@
+word: خزر
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ḵzar
+  - ḡzar
+pronunciation:
+  ipa: "[ʁzɐr]"
+part_of_speech: verb
+meanings:
+  - en: to see
+    examples: []
+    sensitive: []
+concept: see
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AE%D8%B2%D8%B1#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

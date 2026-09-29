@@ -1,0 +1,29 @@
+word: جملة
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - jemlə
+pronunciation:
+  ipa: "[ˈʒɘm.lə]"
+meanings:
+  - en: never
+    examples: []
+    sensitive: []
+  - en: never, not at all
+    examples: []
+    sensitive: []
+concept: never
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AC%D9%85%D9%84%D8%A9#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

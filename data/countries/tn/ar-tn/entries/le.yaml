@@ -1,0 +1,35 @@
+word: لا
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - le
+  - lə
+pronunciation:
+  ipa: "[le̞]"
+meanings:
+  - en: "no"
+    examples: []
+    sensitive: []
+  - en: no!
+    examples: []
+    sensitive: []
+  - en: neither... nor...
+    examples:
+      - text: مِا نحِبّ لِا هَٰذِي لِا هِاكِي
+        en: I want neither this nor that
+    sensitive: []
+concept: "no"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D8%A7#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

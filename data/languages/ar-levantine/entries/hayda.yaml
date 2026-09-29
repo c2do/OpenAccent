@@ -1,0 +1,29 @@
+word: هيدا
+dialect: ar-levantine
+type: word
+spellings: []
+romanized:
+  - hayda
+meanings:
+  - en: this (one)
+    examples:
+      - text: قلتلكن من قبل إنو هيدا مش صحيح.
+        en: I told you in advance that this wasn’t true.
+    sensitive: []
+  - en: this
+    examples: []
+    sensitive: []
+concept: this
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D9%8A%D8%AF%D8%A7#North_Levantine_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

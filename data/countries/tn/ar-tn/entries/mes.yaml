@@ -1,0 +1,29 @@
+word: مش
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - meš
+pronunciation:
+  ipa: "[mɘʃ]"
+part_of_speech: particle
+meanings:
+  - en: alternative of مُوش
+    examples: []
+    sensitive: []
+  - en: alternative of مُوش; not
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%85%D8%B4#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

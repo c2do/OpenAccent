@@ -1,0 +1,27 @@
+word: هون
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - hawn
+pronunciation:
+  ipa: "[hɐwn]"
+part_of_speech: adv
+meanings:
+  - en: here
+    examples: []
+    sensitive: []
+concept: here
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D9%88%D9%86#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

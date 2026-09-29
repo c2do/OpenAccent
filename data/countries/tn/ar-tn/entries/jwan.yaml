@@ -1,0 +1,29 @@
+word: جوان
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - jwān
+pronunciation:
+  ipa: /ʒwɑ̃/
+part_of_speech: noun
+meanings:
+  - en: June
+    examples: []
+    sensitive: []
+  - en: joint
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AC%D9%88%D8%A7%D9%86#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

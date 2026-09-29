@@ -1,0 +1,26 @@
+word: الواحد
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - l-wēḥed
+pronunciation:
+  ipa: "[ˈlwe̞ː.ħɘd]"
+part_of_speech: pron
+meanings:
+  - en: one
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A7%D9%84%D9%88%D8%A7%D8%AD%D8%AF#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

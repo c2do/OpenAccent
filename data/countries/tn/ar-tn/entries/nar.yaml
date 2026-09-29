@@ -1,0 +1,34 @@
+word: نار
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - nār
+pronunciation:
+  ipa: "[nɐːr]"
+meanings:
+  - en: fire
+    examples: []
+    sensitive: []
+  - en: a sharp-tongued person
+    examples: []
+    sensitive: []
+  - en: extremely hot
+    examples: []
+    sensitive: []
+  - en: sharp-tongued
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%86%D8%A7%D8%B1#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: هي
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - heyyə
+pronunciation:
+  ipa: "[hɘj.jə]"
+part_of_speech: pron
+meanings:
+  - en: she, (emphasis) her
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%87%D9%8A#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

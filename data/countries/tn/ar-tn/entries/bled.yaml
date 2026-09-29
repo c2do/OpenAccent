@@ -1,0 +1,34 @@
+word: بلاد
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - blēd
+pronunciation:
+  ipa: "[ble̞ːd]"
+part_of_speech: noun
+meanings:
+  - en: country
+    examples:
+      - text: ويا سعد من جانا وهنّانا، بلادي ملك ربي
+        en: Look who's coming to congratulate us, my country is open for everyone
+    sensitive: []
+  - en: hometown
+    examples: []
+    sensitive: []
+  - en: city center, downtown
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D9%84%D8%A7%D8%AF#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

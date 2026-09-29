@@ -1,0 +1,42 @@
+word: لين
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - layn
+  - līn
+  - layyen
+pronunciation:
+  ipa: "[læjn]"
+meanings:
+  - en: why?
+    examples:
+      - text: لَينِ الخَسَارَة
+        en: Why the waste?
+      - text: "Note that in Sfaxi, the 'a' is more back in the mouth, that is [ɑ ~ ɒ]
+          rather than standard [ɐ]. Besides, the first vowel is deleted in
+          Standard Tunisian: ḵsāra"
+    sensitive: []
+  - en: until, to the point that
+    examples: []
+    sensitive: []
+  - en: soft
+    examples: []
+    sensitive: []
+  - en: soften!
+    examples: []
+    sensitive: []
+concept: why
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%84%D9%8A%D9%86#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

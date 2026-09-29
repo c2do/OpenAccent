@@ -1,0 +1,32 @@
+word: ثلج
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ṯelj
+  - ṯlej
+pronunciation:
+  ipa: "[θɘlʒ]"
+meanings:
+  - en: snow
+    examples: []
+    sensitive: []
+  - en: ice pack
+    examples: []
+    sensitive: []
+  - en: to freeze, to be extremely cold
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%AB%D9%84%D8%AC#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

@@ -1,0 +1,42 @@
+word: شوي
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - šwayy
+pronunciation:
+  ipa: "[ʃwæjː]"
+meanings:
+  - en: a little, low amount
+    examples:
+      - text: حُطّلِي كِان شوَيّ كَتشَاپ
+        en: I'd like only a little ketchup
+    sensitive: []
+  - en: few
+    examples: []
+    sensitive: []
+  - en: kinda, lowkey
+    examples:
+      - text: مرِيض شوَيّ
+        en: He's lowkey lame
+    sensitive: []
+  - en: however, but surprise surprise, undesirably
+    examples:
+      - text: فِبالنَا الكراهِب علَى أَعدِادنا. شوَيّ، زَاد جَاب زُوز صحَابُو
+        en: For a moment, we thought we completed the cars' places. But surprise
+          surprise, he brought two more of his friends
+    sensitive: []
+concept: a_little
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B4%D9%88%D9%8A#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

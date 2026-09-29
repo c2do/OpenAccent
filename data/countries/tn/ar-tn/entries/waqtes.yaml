@@ -1,0 +1,29 @@
+word: وقتاش
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - waqtēš
+pronunciation:
+  ipa: "[wɐq.ˈte̞ːʃ]"
+meanings:
+  - en: when?, what time?
+    examples: []
+    sensitive: []
+  - en: when, the time that
+    examples: []
+    sensitive: []
+concept: when
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D9%88%D9%82%D8%AA%D8%A7%D8%B4#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

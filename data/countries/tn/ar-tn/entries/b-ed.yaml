@@ -1,0 +1,37 @@
+word: بعد
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - bʕed
+  - baʕʕed
+  - baʕd
+  - boʕd
+pronunciation:
+  ipa: "[bʕɘd]"
+meanings:
+  - en: to be far, to get further, to go away from location in question
+    examples: []
+    sensitive: []
+  - en: to distance, to make someone to move away
+    examples: []
+    sensitive: []
+  - en: after...
+    examples: []
+    sensitive: []
+  - en: distance, farness
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%B9%D8%AF#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

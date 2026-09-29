@@ -1,0 +1,26 @@
+word: بل
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - ball
+pronunciation:
+  ipa: "[bælː]"
+part_of_speech: verb
+meanings:
+  - en: to [[make] wet
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D9%84#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

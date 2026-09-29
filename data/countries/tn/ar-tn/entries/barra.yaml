@@ -1,0 +1,42 @@
+word: برا
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - barra
+pronunciation:
+  ipa: /ˈbɐr.rɐ/
+meanings:
+  - en: go!, go ahead!
+    examples: []
+    sensitive: []
+  - en: outside, outdoors
+    examples:
+      - text: تِستَنَّى فِينَا البَرَّا
+        en: She's waiting for us outside
+    sensitive: []
+  - en: abroad, overseas
+    examples:
+      - text: '"نحِبّ نَقرَا البَرّا!" "حُطّ كُرسِي فِي الجّنِينَة واَقرَى"'
+        en: "\"I'd like to study abroad!\" \"Set up a chair in the yard and study
+          then\""
+    sensitive: []
+  - en: "an expression used when losing it with someone or something: come on!"
+    examples:
+      - text: بَرّا عَادْ، شبَاشْ يسَلِّكهَا تَوّْ!
+        en: Come one now, What can resolve it now!
+    sensitive: []
+concept: go
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%A8%D8%B1%D8%A7#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import

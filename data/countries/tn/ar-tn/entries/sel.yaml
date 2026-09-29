@@ -1,0 +1,30 @@
+word: سال
+dialect: ar-tn
+type: word
+spellings: []
+romanized:
+  - sēl
+pronunciation:
+  ipa: "[se̞ːl]"
+part_of_speech: verb
+meanings:
+  - en: to be owed
+    examples:
+      - text: نسِالِك سِتِّلِاف
+        en: You owe me 5 bucks
+      - text: مَا يسِالِش
+        en: It's ok
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%D8%B3%D8%A7%D9%84#Tunisian_Arabic
+  license: CC-BY-SA-4.0
+added_by: wiktionary-import
