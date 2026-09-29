@@ -2,6 +2,7 @@ import type { McpServer } from '@modelcontextprotocol/server';
 import { z } from 'zod';
 import { checkReply } from '../../core/check.js';
 import { PurposeSchema } from '../../core/schema.js';
+import { CheckResultSchema } from '../../core/results.js';
 import type { ServerContext } from '../context.js';
 import { fail, guard, ok, resolveDialect } from '../respond.js';
 
@@ -19,7 +20,7 @@ export function registerCheckReply(server: McpServer, ctx: ServerContext) {
         dialect: z.string().optional().describe('Dialect ID. Defaults to the user’s dialect.'),
         purpose: PurposeSchema.default('chat').describe('chat | story | song | script | game. Scripts may spell words as spoken; songs and stories may use old words.'),
       }),
-      outputSchema: z.looseObject({ dialect: z.string(), issues: z.array(z.looseObject({ text: z.string(), start: z.number().int(), end: z.number().int() })), verdict: z.string() }),
+      outputSchema: CheckResultSchema,
       annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
     },
     async ({ text, dialect, purpose }) =>
@@ -30,7 +31,7 @@ export function registerCheckReply(server: McpServer, ctx: ServerContext) {
         const lines = result.issues.map(
           (i) => `- **${i.text}** (${i.kind}): ${i.reason}${i.suggestion ? ` → use **${i.suggestion}**` : ''}`,
         );
-        return ok(ctx, [result.verdict, ...lines].join('\n'), { ...result });
+        return ok(ctx, [result.verdict, ...lines].join('\n'), CheckResultSchema, { ...result });
       }),
   );
 }

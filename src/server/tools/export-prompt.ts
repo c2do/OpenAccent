@@ -1,6 +1,7 @@
 import type { McpServer } from '@modelcontextprotocol/server';
 import { z } from 'zod';
 import { buildPortablePrompt } from '../../core/portable.js';
+import { ExportPromptResultSchema } from '../../core/results.js';
 import type { ServerContext } from '../context.js';
 import { fail, guard, ok, resolveDialect } from '../respond.js';
 
@@ -17,7 +18,7 @@ export function registerExportPrompt(server: McpServer, ctx: ServerContext) {
         dialect: z.string().optional().describe('Dialect ID. Defaults to the user’s dialect.'),
         max_chars: z.number().int().min(200).max(10000).default(1500).describe('Length limit (ChatGPT allows 1500)'),
       }),
-      outputSchema: z.looseObject({ text: z.string(), dialect: z.string() }),
+      outputSchema: ExportPromptResultSchema,
       annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
     },
     async ({ dialect, max_chars }) =>
@@ -25,7 +26,7 @@ export function registerExportPrompt(server: McpServer, ctx: ServerContext) {
         const d = resolveDialect(ctx, dialect);
         if (!d) return fail('No dialect given and the user has no profile yet. Pass "dialect" or call openaccent_get_briefing.');
         const text = buildPortablePrompt(ctx.dictionary, ctx.memory.read(), d, { maxChars: max_chars });
-        return ok(ctx, `Copy this into your AI’s custom instructions:\n\n---\n${text}\n---`, { text, dialect: d, chars: text.length });
+        return ok(ctx, `Copy this into your AI’s custom instructions:\n\n---\n${text}\n---`, ExportPromptResultSchema, { text, dialect: d, chars: text.length });
       }),
   );
 }

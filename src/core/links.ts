@@ -1,3 +1,4 @@
+import type { SuggestionLink } from './results.js';
 /** Pre-filled GitHub issue-form links for contributing to the dictionary. */
 
 export const REPO_URL = 'https://github.com/c2do/OpenAccent';
@@ -18,12 +19,7 @@ export const ISSUE_FIELD_IDS = [
 ] as const;
 export type IssueField = (typeof ISSUE_FIELD_IDS)[number];
 
-export interface SuggestionLink {
-  url: string;
-  /** Fields left out to keep the URL short enough. */
-  dropped: IssueField[];
-  note: string;
-}
+export type { SuggestionLink } from './results.js';
 
 // When the URL is too long, drop the least important fields first.
 const DROP_ORDER: IssueField[] = ['example', 'notes', 'spellings', 'romanized', 'meaning_ar', 'meaning_en'];

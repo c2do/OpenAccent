@@ -2,6 +2,7 @@ import type { McpServer } from '@modelcontextprotocol/server';
 import { z } from 'zod';
 import { buildDialectCard } from '../../core/card.js';
 import { PurposeSchema } from '../../core/schema.js';
+import { DialectCardResultSchema } from '../../core/results.js';
 import type { ServerContext } from '../context.js';
 import { guard, ok } from '../respond.js';
 
@@ -19,10 +20,10 @@ export function registerDialectCard(server: McpServer, ctx: ServerContext) {
         dialect: z.string().describe('Dialect ID, e.g. "ar-eg", "es-mx", "en-gb". See openaccent_list_dialects.'),
         purpose: PurposeSchema.default('story').describe('chat | story | song | script | game'),
       }),
-      outputSchema: z.looseObject({ dialect: z.string(), purpose: z.string() }),
+      outputSchema: DialectCardResultSchema,
       annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
     },
     async ({ dialect, purpose }) =>
-      guard(() => ok(ctx, buildDialectCard(ctx.dictionary, dialect, purpose), { dialect, purpose })),
+      guard(() => ok(ctx, buildDialectCard(ctx.dictionary, dialect, purpose), DialectCardResultSchema, { dialect, purpose })),
   );
 }

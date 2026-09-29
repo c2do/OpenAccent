@@ -1,5 +1,6 @@
 import type { McpServer } from '@modelcontextprotocol/server';
 import { z } from 'zod';
+import { ListDialectsResultSchema } from '../../core/results.js';
 import type { ServerContext } from '../context.js';
 import { guard, ok } from '../respond.js';
 
@@ -12,7 +13,7 @@ export function registerListDialects(server: McpServer, ctx: ServerContext) {
         'List every dialect in the dictionary as a tree, with how many entries each has and how many are verified ' +
         'by native speakers. Use it to find dialect IDs.',
       inputSchema: z.object({}),
-      outputSchema: z.looseObject({ dialects: z.array(z.looseObject({ id: z.string() })) }),
+      outputSchema: ListDialectsResultSchema,
       annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
     },
     async () =>
@@ -30,7 +31,7 @@ export function registerListDialects(server: McpServer, ctx: ServerContext) {
           }
         };
         walk(undefined, 0);
-        return ok(ctx, `Dialects:\n${lines.join('\n')}`, { dialects: list });
+        return ok(ctx, `Dialects:\n${lines.join('\n')}`, ListDialectsResultSchema, { dialects: list });
       }),
   );
 }

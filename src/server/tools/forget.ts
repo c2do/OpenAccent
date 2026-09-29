@@ -1,5 +1,6 @@
 import type { McpServer } from '@modelcontextprotocol/server';
 import { z } from 'zod';
+import { ForgetResultSchema } from '../../core/results.js';
 import type { ServerContext } from '../context.js';
 import { fail, guard, ok } from '../respond.js';
 
@@ -16,7 +17,7 @@ export function registerForget(server: McpServer, ctx: ServerContext) {
         text: z.string().optional().describe('Delete words, corrections and style notes containing this text'),
         profile: z.boolean().optional().describe('Clear the saved dialect and region'),
       }),
-      outputSchema: z.looseObject({ removed: z.array(z.looseObject({ id: z.string() })) }),
+      outputSchema: ForgetResultSchema,
       annotations: { readOnlyHint: false, destructiveHint: true, idempotentHint: true, openWorldHint: false },
     },
     async ({ ids, text, profile }) =>
@@ -24,7 +25,7 @@ export function registerForget(server: McpServer, ctx: ServerContext) {
         if (!ids?.length && !text && !profile) return fail('Pass "ids", "text" or "profile".');
         const removed = ctx.memory.forget({ ...(ids ? { ids } : {}), ...(text ? { text } : {}), ...(profile ? { profile } : {}) });
         const msg = removed.length ? `Forgot ${removed.length} item(s): ${removed.map((r) => r.id).join(', ')}.` : 'Nothing matched.';
-        return ok(ctx, msg, { removed });
+        return ok(ctx, msg, ForgetResultSchema, { removed });
       }),
   );
 }

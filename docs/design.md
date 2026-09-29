@@ -272,7 +272,7 @@ Memory is stored as local, human-readable JSON:
 
 ## 5. MCP tools (v0.1) — 8 tools
 
-All tools are prefixed `openaccent_`, accept Arabic, English and Arabizi, and return both text and `structuredContent`. Every result ends with a one-line **profile footer** (the user's dialect plus their top corrections), so the model learns who the user is even if it skipped the briefing.
+All tools are prefixed `openaccent_`, accept Arabic, English and Arabizi, and return both text and `structuredContent`. The shape of every result is a strict Zod schema in `src/core/results.ts`, shared by the core functions (their TypeScript types are inferred from it), the MCP tools (`outputSchema`, and every result is validated before it is returned) and the tests. A field a schema doesn't declare is an error, not something clients silently receive. Every result ends with a one-line **profile footer** (the user's dialect plus their top corrections), so the model learns who the user is even if it skipped the briefing.
 
 | Tool | Purpose | Annotations |
 |---|---|---|

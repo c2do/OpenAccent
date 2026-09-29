@@ -1,5 +1,6 @@
 import type { McpServer } from '@modelcontextprotocol/server';
 import { z } from 'zod';
+import { LookupResultSchema } from '../../core/results.js';
 import type { ServerContext } from '../context.js';
 import { entryData, formatMatch } from '../format.js';
 import { guard, ok, resolveDialect } from '../respond.js';
@@ -22,7 +23,7 @@ export function registerLookup(server: McpServer, ctx: ServerContext) {
         limit: z.number().int().min(1).max(50).default(10).describe('Max results (default 10)'),
         offset: z.number().int().min(0).default(0).describe('Skip this many results, for paging'),
       }),
-      outputSchema: z.looseObject({ total: z.number(), has_more: z.boolean(), items: z.array(z.looseObject({})) }),
+      outputSchema: LookupResultSchema,
       annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
     },
     async ({ query, dialect, limit, offset }) =>
@@ -35,7 +36,7 @@ export function registerLookup(server: McpServer, ctx: ServerContext) {
             ? `No entries for "${query}" ${scope}. If you know this word, the user can add it with openaccent_suggest_entry.`
             : `${page.total} result(s) for "${query}" ${scope}${page.has_more ? `, showing ${page.offset + 1}–${page.offset + page.count}` : ''}:`;
         const text = [header, ...page.items.map(formatMatch)].join('\n\n');
-        return ok(ctx, text, {
+        return ok(ctx, text, LookupResultSchema, {
           query,
           ...(d ? { dialect: d } : {}),
           total: page.total,

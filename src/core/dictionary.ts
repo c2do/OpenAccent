@@ -1,12 +1,14 @@
 import type { Bundle, BundledEntry, BundledSample } from './bundle.js';
 import { normalize, normalizerFor } from './normalize.js';
 import { arabiziCandidates } from './romanize.js';
+import type { DialectSummary, MatchKindSchema } from './results.js';
 import type { Dialect } from './schema.js';
+import type { z } from 'zod';
 import { detectScript } from './script.js';
 import { soundVariants } from './soundfold.js';
 
 /** How a query matched an entry, best first. */
-export type MatchKind = 'exact' | 'normalized' | 'fuzzy' | 'romanized' | 'sound' | 'gloss';
+export type MatchKind = z.infer<typeof MatchKindSchema>;
 const MATCH_RANK: Record<MatchKind, number> = { exact: 0, normalized: 1, fuzzy: 2, romanized: 3, sound: 4, gloss: 5 };
 const STATUS_RANK = { verified: 0, draft: 1, disputed: 2 } as const;
 const FAMILIARITY_RANK = { common: 0, regional: 1, rare: 2, dated: 3 } as const;
@@ -27,16 +29,7 @@ export interface Page<T> {
   next_offset?: number;
 }
 
-export interface DialectSummary {
-  id: string;
-  parent?: string;
-  name: Dialect['name'];
-  script: string;
-  status: Dialect['status'];
-  entries: number;
-  verified: number;
-  verifiedPercent: number;
-}
+export type { DialectSummary } from './results.js';
 
 interface IndexedGloss {
   /** Whole gloss parts, split on ; , ( ) — "you all; you (plural)" → "you all", "you", "plural". */

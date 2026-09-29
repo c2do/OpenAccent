@@ -1,5 +1,6 @@
 import type { McpServer } from '@modelcontextprotocol/server';
 import { z } from 'zod';
+import { ExpressResultSchema } from '../../core/results.js';
 import type { ServerContext } from '../context.js';
 import { entryData, formatMatch } from '../format.js';
 import { fail, guard, ok, resolveDialect } from '../respond.js';
@@ -21,7 +22,7 @@ export function registerExpress(server: McpServer, ctx: ServerContext) {
           .describe('Dialect IDs to answer for. Defaults to the user’s dialect. Pass several to compare.'),
         limit: z.number().int().min(1).max(50).default(10).describe('Max results per dialect'),
       }),
-      outputSchema: z.looseObject({ results: z.array(z.looseObject({ dialect: z.string() })) }),
+      outputSchema: ExpressResultSchema,
       annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
     },
     async ({ meaning, dialects, limit }) =>
@@ -39,7 +40,7 @@ export function registerExpress(server: McpServer, ctx: ServerContext) {
             return `## ${name} (\`${g.dialect}\`)\n\n${body}`;
           })
           .join('\n\n');
-        return ok(ctx, `Ways to say "${meaning}":\n\n${text}`, {
+        return ok(ctx, `Ways to say "${meaning}":\n\n${text}`, ExpressResultSchema, {
           meaning,
           results: groups.map((g) => ({
             dialect: g.dialect,

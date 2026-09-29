@@ -3,6 +3,7 @@ import { z } from 'zod';
 import { MEMORY_LIMITS, type RememberInput } from '../../core/memory/index.js';
 
 const max = MEMORY_LIMITS.chars;
+import { RememberResultSchema } from '../../core/results.js';
 import type { ServerContext } from '../context.js';
 import { fail, guard, ok } from '../respond.js';
 
@@ -29,7 +30,7 @@ export function registerRemember(server: McpServer, ctx: ServerContext) {
         context: z.string().max(max.context).optional().describe('correction: when it applies'),
         text: z.string().max(max.text).optional().describe('style: the preference, e.g. "prefers short replies"'),
       }),
-      outputSchema: z.looseObject({ created: z.boolean(), item: z.looseObject({ id: z.string() }) }),
+      outputSchema: RememberResultSchema,
       annotations: { readOnlyHint: false, destructiveHint: false, idempotentHint: true, openWorldHint: false },
     },
     async (args) =>
@@ -71,7 +72,7 @@ export function registerRemember(server: McpServer, ctx: ServerContext) {
           args.kind === 'correction' || args.kind === 'word'
             ? ' If this could help others who speak this dialect, you can offer to share it with openaccent_suggest_entry (only if the user agrees).'
             : '';
-        return ok(ctx, `${verb} (${result.item.id}).${hint}`, { created: result.created, item: result.item });
+        return ok(ctx, `${verb} (${result.item.id}).${hint}`, RememberResultSchema, { created: result.created, item: result.item });
       }),
   );
 }

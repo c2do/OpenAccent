@@ -1,6 +1,7 @@
 import type { McpServer } from '@modelcontextprotocol/server';
 import { z } from 'zod';
 import { buildSuggestionUrl } from '../../core/links.js';
+import { SuggestionLinkSchema } from '../../core/results.js';
 import type { ServerContext } from '../context.js';
 import { guard, ok, resolveDialect } from '../respond.js';
 
@@ -23,7 +24,7 @@ export function registerSuggestEntry(server: McpServer, ctx: ServerContext) {
         romanized: z.string().optional().describe('Latin-script forms, comma-separated'),
         notes: z.string().optional(),
       }),
-      outputSchema: z.looseObject({ url: z.string() }),
+      outputSchema: SuggestionLinkSchema,
       annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
     },
     async ({ action, dialect, ...fields }) =>
@@ -31,7 +32,7 @@ export function registerSuggestEntry(server: McpServer, ctx: ServerContext) {
         const d = resolveDialect(ctx, dialect);
         if (d) ctx.dictionary.branch(d);
         const link = buildSuggestionUrl(action === 'fix' ? 'fix-word' : 'add-word', { ...fields, ...(d ? { dialect: d } : {}) });
-        return ok(ctx, `Link for the user to open:\n${link.url}\n\n${link.note}`, { ...link });
+        return ok(ctx, `Link for the user to open:\n${link.url}\n\n${link.note}`, SuggestionLinkSchema, { ...link });
       }),
   );
 }

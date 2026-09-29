@@ -1,18 +1,11 @@
 import type { Dictionary } from './dictionary.js';
 import { mergedGuide } from './guides.js';
 import { displayName } from './names.js';
+import type { BriefingResult } from './results.js';
 import type { Memory } from './schema.js';
 
-export interface Briefing {
-  onboarding: boolean;
-  dialect?: string;
-  profile: Memory['profile'];
-  words: Memory['words'];
-  corrections: Memory['corrections'];
-  style: Memory['style'];
-  /** Markdown for the model to read. */
-  text: string;
-}
+/** The briefing: structured data (see BriefingResultSchema) plus markdown for the model to read. */
+export type Briefing = BriefingResult & { text: string };
 
 function onboardingText(dict: Dictionary, problem?: string): string {
   const dialects = dict
