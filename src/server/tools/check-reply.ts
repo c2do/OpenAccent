@@ -13,13 +13,13 @@ export function registerCheckReply(server: McpServer, ctx: ServerContext) {
       description:
         'Call this before sending any text written in a dialect (replies, stories, songs, scripts). It flags words from other dialects, rare or ' +
         'old-fashioned words, words written the way they sound, and words the user corrected or replaced before, ' +
-        'with a suggested swap for each. It checks words only, not grammar or tone.',
+        'with a suggested swap for each, and where it is in the text (start/end string offsets). It checks words only, not grammar or tone.',
       inputSchema: z.object({
         text: z.string().min(1).describe('Your draft reply'),
         dialect: z.string().optional().describe('Dialect ID. Defaults to the user’s dialect.'),
         purpose: PurposeSchema.default('chat').describe('chat | story | song | script | game. Scripts may spell words as spoken; songs and stories may use old words.'),
       }),
-      outputSchema: z.looseObject({ dialect: z.string(), issues: z.array(z.looseObject({ text: z.string() })), verdict: z.string() }),
+      outputSchema: z.looseObject({ dialect: z.string(), issues: z.array(z.looseObject({ text: z.string(), start: z.number().int(), end: z.number().int() })), verdict: z.string() }),
       annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
     },
     async ({ text, dialect, purpose }) =>

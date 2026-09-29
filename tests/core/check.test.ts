@@ -66,4 +66,45 @@ describe('checkReply', () => {
     const r = checkReply(dict, empty, 'hey you guys', 'en-us-south');
     expect(r.issues[0]).toMatchObject({ text: 'you guys', kind: 'other_dialect', suggestion: "y'all" });
   });
+
+  it('reports where each issue is in the reply', () => {
+    const text = 'طيب، دلوقتي بجيك';
+    const r = checkReply(dict, empty, text, 'ar-ps-fallahi');
+    expect(r.issues).toEqual([expect.objectContaining({ text: 'دلوقتي', start: 5, end: 11 })]);
+    expect(text.slice(r.issues[0]!.start, r.issues[0]!.end)).toBe('دلوقتي');
+  });
+
+  it('reports every occurrence, in order', () => {
+    const r = checkReply(dict, empty, 'دلوقتي؟ آه دلوقتي', 'ar-ps-fallahi');
+    expect(r.issues.map((i) => [i.start, i.end])).toEqual([[0, 6], [11, 17]]);
+  });
+
+  it('finds words behind Arabic clitics (و، ف، ب، ل، ك، ال)', () => {
+    const text = 'وهلّأ بجيك';
+    const r = checkReply(dict, empty, text, 'ar-ps-fallahi');
+    expect(r.issues).toEqual([expect.objectContaining({ text: 'هلّأ', start: 1, end: 5, kind: 'other_dialect' })]);
+    expect(checkReply(dict, empty, 'فدلوقتي', 'ar-ps-fallahi').issues[0]).toMatchObject({ text: 'دلوقتي', start: 1 });
+  });
+
+  it('prefers the whole word to a clitic reading', () => {
+    // الحين is a fallahi word; it must not be read as ال + حين.
+    const r = checkReply(dict, empty, 'الحين بجيك', 'ar-ps-fallahi');
+    expect(r.issues).toEqual([]);
+  });
+
+  it('checks phrases as long as the longest one in the dictionary', () => {
+    expect(dict.maxPhraseTokens).toBeGreaterThanOrEqual(6);
+    const text = 'Well, at the end of the day, it works';
+    const r = checkReply(dict, empty, text, 'en-us-general');
+    expect(r.issues).toEqual([expect.objectContaining({ text: 'at the end of the day', kind: 'dated', start: 6, end: 27 })]);
+  });
+
+  it('checks long phrases from the user’s memory too', () => {
+    const memory = MemorySchema.parse({
+      ...empty,
+      corrections: [{ id: 'c1', wrong: 'على قد ما بتقدر يا زلمة', right: 'قد ما بتقدر', created_at: now }],
+    });
+    const r = checkReply(dict, memory, 'اعمل على قد ما بتقدر يا زلمة', 'ar-ps-fallahi');
+    expect(r.issues).toEqual([expect.objectContaining({ kind: 'correction', text: 'على قد ما بتقدر يا زلمة' })]);
+  });
 });

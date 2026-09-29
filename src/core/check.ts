@@ -1,12 +1,17 @@
 import type { BundledEntry } from './bundle.js';
 import type { Dictionary } from './dictionary.js';
+import { languageOf } from './normalize.js';
 import type { Memory, Purpose } from './schema.js';
+import { readings, tokenize } from './tokenize.js';
 
 export type IssueKind = 'correction' | 'personal_word' | 'pronunciation' | 'other_dialect' | 'rare' | 'dated';
 
 export interface ReplyIssue {
-  /** The words as they appear in the reply. */
+  /** The words as they appear in the reply: `text === reply.slice(start, end)`. */
   text: string;
+  /** Position in the reply, as JavaScript string indexes (UTF-16 code units). */
+  start: number;
+  end: number;
   kind: IssueKind;
   reason: string;
   suggestion?: string;
@@ -17,8 +22,6 @@ export interface CheckResult {
   issues: ReplyIssue[];
   verdict: string;
 }
-
-const MAX_NGRAM = 3;
 
 /**
  * Word-level check of a draft reply against the user's dialect and personal memory.
@@ -34,21 +37,21 @@ export function checkReply(
   const purpose = opts.purpose ?? 'chat';
   const branch = dict.branch(dialect);
   const norm = dict.normalizer(dialect);
-  // Keep each word as written (for display) next to its normalized form (for matching).
-  const pairs = text
-    .split(/\s+/)
-    .map((raw) => ({ raw: raw.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}\u064B-\u065F\u0670]+$/gu, ''), norm: norm(raw) }))
-    .filter((p) => p.norm && !p.norm.includes(' '));
-  const words = pairs.map((p) => p.norm);
-  const surface = (i: number, n: number) => pairs.slice(i, i + n).map((p) => p.raw).join(' ');
+  const script = dict.getDialect(dialect)?.script ?? 'arab';
+  const language = languageOf(dialect);
+  const tokens = tokenize(text)
+    .map((t) => ({ ...t, norm: norm(t.surface) }))
+    .filter((t) => t.norm && !t.norm.includes(' '));
   const issues: ReplyIssue[] = [];
-  const covered = new Array<boolean>(words.length).fill(false);
+  const covered = new Array<boolean>(tokens.length).fill(false);
 
   const corrections = new Map(memory.corrections.map((c) => [norm(c.wrong), c]));
   const replaced = new Map(
     memory.words.filter((w) => w.instead_of).map((w) => [norm(w.instead_of!), w]),
   );
   const ownWords = new Set(memory.words.map((w) => norm(w.say)));
+  const known = (form: string) =>
+    corrections.has(form) || replaced.has(form) || ownWords.has(form) || dict.findByForm(form, dialect).length > 0;
 
   const bestSuggestion = (entries: BundledEntry[]) => {
     const own = entries.find((e) => ownWords.has(norm(e.word)));
@@ -56,7 +59,7 @@ export function checkReply(
     return pick?.word;
   };
 
-  const inspect = (form: string): ReplyIssue | undefined => {
+  const inspect = (form: string): Omit<ReplyIssue, 'start' | 'end'> | undefined => {
     const correction = corrections.get(form);
     if (correction) {
       return { text: form, kind: 'correction', reason: 'The user corrected this before.', suggestion: correction.right };
@@ -124,19 +127,33 @@ export function checkReply(
     return undefined;
   };
 
+  // Look as far as the longest phrase the dictionary or the user's memory knows.
+  const wordsIn = (s: string) => s.split(' ').length;
+  const maxTokens = Math.max(dict.maxPhraseTokens, ...[...corrections.keys(), ...replaced.keys(), ...ownWords].map(wordsIn));
+
   // Longest phrases first, so "ولا إشي" is checked as one unit before its words.
-  for (let n = MAX_NGRAM; n >= 1; n--) {
-    for (let i = 0; i + n <= words.length; i++) {
+  for (let n = Math.min(maxTokens, tokens.length); n >= 1; n--) {
+    for (let i = 0; i + n <= tokens.length; i++) {
       if (covered.slice(i, i + n).some(Boolean)) continue;
-      const form = words.slice(i, i + n).join(' ');
-      const known = n === 1 || dict.findByForm(form, dialect).length > 0 || corrections.has(form) || replaced.has(form);
-      if (!known) continue;
-      const found = inspect(form);
-      if (found || n > 1) covered.fill(true, i, i + n);
-      const issue = found && { ...found, text: surface(i, n) };
-      if (issue && !issues.some((x) => x.text === issue.text)) issues.push(issue);
+      const first = tokens[i]!;
+      const last = tokens[i + n - 1]!;
+      const rest = tokens.slice(i + 1, i + n).map((t) => t.norm);
+      // The words as written, then the first word without its clitics (وبالحاكورة → حاكورة).
+      const candidates = [
+        { form: [first.norm, ...rest].join(' '), start: first.start, end: last.end },
+        ...readings(first, script, language)
+          .filter((r) => n === 1 || r.end === first.end)
+          .map((r) => ({ form: [norm(r.form), ...rest].join(' '), start: r.start, end: n === 1 ? r.end : last.end })),
+      ];
+      const match = candidates.find((c) => c.form && known(c.form));
+      // A single word the dictionary doesn't know may still be a word the user corrected: nothing to check.
+      if (!match) continue;
+      covered.fill(true, i, i + n);
+      const found = inspect(match.form);
+      if (found) issues.push({ ...found, text: text.slice(match.start, match.end), start: match.start, end: match.end });
     }
   }
+  issues.sort((a, b) => a.start - b.start);
 
   const verdict =
     issues.length === 0
