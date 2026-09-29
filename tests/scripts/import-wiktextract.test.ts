@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { collect, conceptIndex, isRealExample, kaikkiUrl, readFrequency, selectSenses, toEntries, WAVE_1 } from '../../scripts/import-wiktextract.js';
+import { collect, conceptFor, conceptIndex, isRealExample, isSensitive, kaikkiUrl, readFrequency, selectSenses, toEntries, WAVE_1 } from '../../scripts/import-wiktextract.js';
 
 const esMx = WAVE_1.find((c) => c.dialect === 'es-mx')!;
 const arEg = WAVE_1.find((c) => c.dialect === 'ar-eg')!;
@@ -196,6 +196,74 @@ describe('quality filters and core concepts', () => {
     expect(selectSenses(shared, sy)).toEqual([]);
     expect(selectSenses(syrian, lev)).toEqual([]);
     expect(selectSenses(syrian, sy)).toHaveLength(1);
+  });
+});
+
+describe('safety and precision (review of import run 36565047004)', () => {
+  const enUs = WAVE_1.find((c) => c.dialect === 'en-us-general')!;
+  const esEs = WAVE_1.find((c) => c.dialect === 'es-es')!;
+  const lev = WAVE_1.find((c) => c.dialect === 'ar-levantine')!;
+  const de = WAVE_1.find((c) => c.dialect === 'de-de')!;
+  const en = (o: { word: string; pos?: string; senses: object[] }) => ({ lang: 'English', pos: 'noun', ...o });
+
+  it('never imports offensive, sexual or slur senses', () => {
+    expect(selectSenses(en({ word: 'slant', senses: [{ glosses: ['An East Asian person.'], tags: ['US', 'ethnic', 'slur'] }] }), enUs)).toEqual([]);
+    expect(selectSenses({ lang: 'Spanish', word: 'tirar', pos: 'verb', senses: [{ glosses: ['to fuck'], tags: ['Spain', 'slang'] }] }, esEs)).toEqual([]);
+    expect(selectSenses({ lang: 'Spanish', word: 'manada', pos: 'noun', senses: [{ glosses: ['gang of rapists'], tags: ['Spain', 'slang'] }] }, esEs)).toEqual([]);
+    expect(isSensitive({ glosses: ['to have sex'] })).toBe(true);
+    expect(isSensitive({ glosses: ['a dated term for an Indian person'], tags: ['derogatory'] })).toBe(true);
+  });
+
+  it('keeps the harmless senses of a word that also has a vulgar one', () => {
+    const tio = { lang: 'Spanish', word: 'tío', pos: 'noun', senses: [{ glosses: ['dude, guy'], tags: ['Spain', 'colloquial'] }, { glosses: ['penis'], tags: ['Spain', 'vulgar'] }] };
+    expect(selectSenses(tio, esEs).map((s) => s.glosses)).toEqual([['dude, guy']]);
+  });
+
+  it('skips single letters and bare clitics in every script', () => {
+    for (const word of ['ب', 'و', 'ال', 'بِ', 'क']) {
+      expect(selectSenses({ lang: 'North Levantine Arabic', word, pos: 'prep', senses: [{ glosses: ['with'] }] }, lev), word).toEqual([]);
+    }
+  });
+
+  it('drops words that are also grammar words unless they express a core concept', async () => {
+    const lines = [
+      { word: 'da', pos: 'conj', senses: [{ glosses: ['because'] }] },
+      { word: 'da', pos: 'adv', senses: [{ glosses: ['there'], tags: ['colloquial'] }] },
+      { word: 'pennen', pos: 'verb', senses: [{ glosses: ['to sleep'], tags: ['colloquial'] }] },
+    ].map((o) => JSON.stringify({ lang: 'German', ...o }));
+    const out = toEntries((await collect(lines, [de])).get('de-de')!, de, { limit: 10 });
+    expect(out.map((o) => o.entry.word)).toEqual(['pennen']);
+  });
+
+  describe('links concepts by main meaning and part of speech', () => {
+    const concepts = conceptIndex({
+      fast: { en: 'fast', category: 'describing' },
+      can: { en: 'can', category: 'verbs' },
+      fine: { en: 'fine, well', category: 'greetings' },
+      car: { en: 'car', category: 'things' },
+      go: { en: 'go', category: 'verbs' },
+      a_lot: { en: 'a lot', category: 'amounts' },
+    });
+    const link = (glosses: string[], pos: string) => conceptFor('x', { glosses }, lev, concepts, pos);
+
+    it('rejects a concept whose category does not fit the part of speech', () => {
+      expect(link(['to fast'], 'verb')).toBeUndefined(); // صام
+      expect(link(['can, tin'], 'noun')).toBeUndefined(); // علبة
+      expect(link(['well (for water)'], 'noun')).toBeUndefined(); // بير
+    });
+
+    it('looks only at the main meaning', () => {
+      expect(link(['stove; (by extension) car'], 'noun')).toBeUndefined(); // بابور
+      expect(link(['lot, fate'], 'noun')).toBeUndefined(); // قسمة is not "a lot"
+    });
+
+    it('still links the right ones', () => {
+      expect(link(['a car'], 'noun')).toBe('car');
+      expect(link(['to go'], 'verb')).toBe('go');
+      expect(link(['fine, well'], 'adj')).toBe('fine');
+      expect(link(['a lot; very much'], 'adv')).toBe('a_lot');
+      expect(link(['fast, quick'], 'adj')).toBe('fast');
+    });
   });
 });
 

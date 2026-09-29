@@ -91,7 +91,15 @@ const SKIP_POS = new Set(['name', 'character', 'symbol', 'prefix', 'suffix', 'in
 // Senses tagged like this are everyday speech, which is what a dialect dictionary is for.
 const EVERYDAY_TAGS = ['colloquial', 'informal', 'slang', 'familiar'];
 // Senses we never import.
-const SKIP_TAGS = new Set(['obsolete', 'archaic', 'historical', 'form-of', 'alt-of', 'misspelling', 'nonstandard-spelling', 'dialectal', 'rare-form']);
+const SKIP_TAGS = new Set(['obsolete', 'archaic', 'historical', 'form-of', 'alt-of', 'misspelling', 'nonstandard-spelling', 'dialectal', 'rare-form', 'auxiliary']);
+// Offensive, sexual and slur senses are never imported automatically: models read these words as
+// "how people talk here", and a draft slur is worse than a missing word. Contributors can still add
+// vulgar words by hand, with a reviewer.
+const SENSITIVE_TAGS = new Set(['vulgar', 'offensive', 'derogatory', 'slur', 'ethnic', 'pejorative', 'sexual', 'sexuality']);
+const SENSITIVE_GLOSS =
+  /\b(slurs?|offensive|derogatory|pejorative|racist|sex(ual(ly)?)?|intercourse|fuck\w*|cunt|penis|vagina|vulva|testic\w*|scrotum|anus|buttocks?|breasts?|masturbat\w*|orgasm|erection|semen|prostitut\w*|whores?|sluts?|rap(e|es|ed|ing|ist|ists)|p(a)?edophil\w*|homosexual\w*|gay|lesbian\w*|fag\w*|heroin|cocaine|marijuana|drugs?|suicide|kill (oneself|himself|herself)|diarrh\w*|excrement|f(a)?eces|shit\w*|urinat\w*|piss\w*|menstrua\w*|nigg\w*|retard\w*|untouchables?|caste)\b/i;
+/** Words that are only a clitic, however they are tagged. */
+const BARE_CLITICS = new Set(['ال', 'لل']);
 // Grammar words: not what makes a dialect recognisable, unless they express a core concept.
 const FUNCTION_POS = new Set(['article', 'det', 'prep', 'postp', 'conj', 'particle', 'pron', 'contraction']);
 // Glosses that describe grammar or spelling rather than a meaning.
@@ -128,6 +136,8 @@ interface Candidate {
   everyday: boolean;
   /** Core concept, if one of the selected senses expresses it. */
   concept?: string;
+  /** Every part of speech the word has in the language, including entries with no selected sense. */
+  allPos: Set<string>;
 }
 
 const REGISTER_ORDER = ['vulgar', 'casual', 'formal'] as const;
@@ -139,49 +149,85 @@ function registerFrom(tags: Set<string>): Entry['register'] {
   return 'neutral';
 }
 
-/** Normalized gloss part → concept id. */
-export type ConceptIndex = Map<string, string>;
+/** Normalized concept gloss part → concept id and category. */
+export type ConceptIndex = Map<string, { id: string; category?: string }>;
+
+// Which parts of speech can express a concept of each category. Without this, Arabic صام "to fast"
+// was linked to fast (quick), علبة "can, tin" to can (be able) and بير "well" (water) to fine.
+const CATEGORY_POS: Record<string, string[]> = {
+  verbs: ['verb'],
+  describing: ['adj', 'adv'],
+  things: ['noun'],
+  people: ['noun'],
+  time: ['adv', 'noun', 'phrase', 'prep_phrase'],
+  greetings: ['intj', 'phrase', 'adv', 'adj', 'particle'],
+  expressions: ['intj', 'phrase', 'adv', 'adj', 'particle', 'verb', 'prep_phrase'],
+  questions: ['pron', 'adv', 'det', 'intj', 'particle', 'phrase'],
+  amounts: ['adv', 'adj', 'det', 'pron', 'num', 'phrase'],
+};
 
 const glossParts = (text: string) =>
   text
     .replace(/\([^)]*\)/g, ' ')
     .split(/[;,/]/)
-    .map((p) => normalize(p, { script: 'latn', dialect: 'en' }).replace(/^(a|an|the|to) /, '').replace(/^(slang|informal) for /, ''))
+    .map((p) => normalize(p, { script: 'latn', dialect: 'en' }).replace(/^(slang|informal|colloquial) for /, ''))
     .filter(Boolean);
 
-/** Builds the lookup from data/concepts.yaml ({ id: { en, ... } }). */
-export function conceptIndex(concepts: Record<string, { en: string }>): ConceptIndex {
+/** Builds the lookup from data/concepts.yaml ({ id: { en, category } }). */
+export function conceptIndex(concepts: Record<string, { en: string; category?: string }>): ConceptIndex {
   const index: ConceptIndex = new Map();
-  for (const [id, c] of Object.entries(concepts)) for (const part of glossParts(c.en)) if (!index.has(part)) index.set(part, id);
+  for (const [id, c] of Object.entries(concepts)) {
+    for (const part of glossParts(c.en)) if (!index.has(part)) index.set(part, { id, ...(c.category ? { category: c.category } : {}) });
+  }
   return index;
 }
 
 /**
- * The core concept a sense expresses, from its English gloss: Mexican "lana" = "money" → money,
- * American "bread" = "Money." → money. (Matching English headwords instead links "can" to the
- * modal verb when its regional sense is slang for something else.)
+ * The core concept a sense expresses. Only the sense's main meaning counts: the first part of its
+ * first gloss ("now; right now" → now, but "stove; (by extension) car" is not car), and the part of
+ * speech must fit the concept's category. Mexican "lana" = "money" → money, American "bread" =
+ * "Money." → money. (Matching English headwords instead links "can" to the modal verb when its
+ * regional sense is slang for something else.)
  */
-export function conceptFor(_word: string, sense: Sense, _cfg: DialectImport, concepts?: ConceptIndex): string | undefined {
+export function conceptFor(_word: string, sense: Sense, _cfg: DialectImport, concepts?: ConceptIndex, pos?: string): string | undefined {
   if (!concepts) return undefined;
-  for (const g of sense.glosses ?? []) {
-    for (const part of glossParts(g)) {
-      const hit = concepts.get(part);
-      if (hit) return hit;
-    }
+  const first = sense.glosses?.[0];
+  const main = first ? glossParts(first)[0] : undefined;
+  if (!main) return undefined;
+  // "to go" is the verb go; "a car" is the noun car. Other articles stay: "a lot" is its own concept.
+  const keys = [main];
+  if (pos === 'verb') keys.push(main.replace(/^to /, ''));
+  if (pos === 'noun') keys.push(main.replace(/^(a|an|the) /, ''));
+  for (const key of keys) {
+    const hit = concepts.get(key);
+    if (!hit) continue;
+    const allowed = hit.category ? CATEGORY_POS[hit.category] : undefined;
+    if (allowed && pos && !allowed.includes(pos)) continue;
+    return hit.id;
   }
   return undefined;
 }
 
+/** A sense we would never want a model to pick up as everyday speech. */
+export function isSensitive(sense: Sense): boolean {
+  return (sense.tags ?? []).some((t) => SENSITIVE_TAGS.has(t)) || (sense.glosses ?? []).some((g) => SENSITIVE_GLOSS.test(g));
+}
+
+/** Letters in a word, ignoring marks (harakat, accents) and tatweel. */
+const letterCount = (word: string) => [...word.replace(/[\p{M}ـ]/gu, '')].filter((c) => /\p{L}/u.test(c)).length;
+
 /** Selects the senses a dialect wants from one kaikki entry. */
 export function selectSenses(entry: KaikkiEntry, cfg: DialectImport, concepts?: ConceptIndex): Sense[] {
   if (SKIP_POS.has(entry.pos)) return [];
-  if (cfg.script === 'latn' && (entry.word.length < 2 || /^\p{Lu}/u.test(entry.word))) return []; // letters, proper nouns
+  if (letterCount(entry.word) < 2 || BARE_CLITICS.has(entry.word)) return []; // letters and bare clitics (ب، ال)
+  if (cfg.script === 'latn' && /^\p{Lu}/u.test(entry.word)) return []; // proper nouns
   return (entry.senses ?? []).filter((s) => {
     const tags = s.tags ?? [];
     if (!s.glosses?.length || s.form_of || s.alt_of) return false;
     if (tags.some((t) => SKIP_TAGS.has(t) || cfg.excludeTags?.includes(t))) return false;
+    if (isSensitive(s)) return false;
     if (s.glosses.every((g) => GRAMMAR_GLOSS.test(g.trim()))) return false;
-    if (FUNCTION_POS.has(entry.pos) && !cfg.keepFunctionWords && !conceptFor(entry.word, s, cfg, concepts)) return false;
+    if (FUNCTION_POS.has(entry.pos) && !cfg.keepFunctionWords && !conceptFor(entry.word, s, cfg, concepts, entry.pos)) return false;
     if (!cfg.regionTags) return true;
     if (tags.some((t) => cfg.regionTags!.includes(t))) return true;
     // Default variety: untagged-for-region everyday senses belong to it.
@@ -200,6 +246,7 @@ export function isRealExample(text: string): boolean {
 /** Collects candidates per word from a stream of kaikki JSONL lines. */
 export async function collect(lines: AsyncIterable<string> | Iterable<string>, cfgs: DialectImport[], concepts?: ConceptIndex) {
   const byDialect = new Map<string, Map<string, Candidate>>(cfgs.map((c) => [c.dialect, new Map()]));
+  const posByDialect = new Map<string, Map<string, Set<string>>>(cfgs.map((c) => [c.dialect, new Map()]));
   for await (const line of lines) {
     if (!line.trim()) continue;
     let entry: KaikkiEntry;
@@ -211,6 +258,9 @@ export async function collect(lines: AsyncIterable<string> | Iterable<string>, c
     if (!entry.word) continue;
     for (const cfg of cfgs) {
       if (entry.lang && !cfg.languages.includes(entry.lang)) continue;
+      const seen = posByDialect.get(cfg.dialect)!;
+      if (!seen.has(entry.word)) seen.set(entry.word, new Set());
+      seen.get(entry.word)!.add(entry.pos);
       const senses = selectSenses(entry, cfg, concepts);
       if (senses.length === 0) continue;
       const map = byDialect.get(cfg.dialect)!;
@@ -223,6 +273,7 @@ export async function collect(lines: AsyncIterable<string> | Iterable<string>, c
         romanized: new Set(),
         pos: new Set(),
         everyday: false,
+        allPos: seen.get(entry.word)!,
       };
       c.pos.add(entry.pos);
       c.ipa ??= entry.sounds?.find((s) => s.ipa)?.ipa;
@@ -233,7 +284,7 @@ export async function collect(lines: AsyncIterable<string> | Iterable<string>, c
         if (!tags.includes('rare')) c.allRare = false;
         if (!tags.includes('dated')) c.allDated = false;
         if (tags.some((t) => EVERYDAY_TAGS.includes(t))) c.everyday = true;
-        c.concept ??= conceptFor(entry.word, s, cfg, concepts);
+        c.concept ??= conceptFor(entry.word, s, cfg, concepts, entry.pos);
         const en = s.glosses!.join('; ');
         if (c.meanings.some((m) => m.en === en)) continue;
         // Only Wiktionary's own usage examples; quotations from books and papers are left out.
@@ -297,6 +348,8 @@ export function toEntries(
   const slugs = new Set(opts.existingSlugs ?? []);
   const sorted = [...candidates.values()]
     .filter((c) => !existing.has(normalize(c.word, cfg)))
+    // A word that is also a grammar word (German "ab", "da", "zu") is mostly used as one.
+    .filter((c) => cfg.keepFunctionWords || c.concept || ![...c.allPos].some((p) => FUNCTION_POS.has(p)))
     .sort((a, b) => rank(a.word) - rank(b.word) || a.word.localeCompare(b.word));
 
   // At most a few words per concept, so eight synonyms for "very" don't crowd out everything else.
@@ -374,7 +427,7 @@ async function main() {
   if (mine.length === 0) throw new Error(`No selected dialect draws on "${language}"`);
 
   const raw = loadRawData(dataRoot);
-  const concepts = raw.concepts ? conceptIndex(raw.concepts as Record<string, { en: string }>) : undefined;
+  const concepts = raw.concepts ? conceptIndex(raw.concepts as Record<string, { en: string; category?: string }>) : undefined;
   const stream = input === '-' ? process.stdin : createReadStream(input);
   const byDialect = await collect(createInterface({ input: stream, crlfDelay: Infinity }), mine, concepts);
 
