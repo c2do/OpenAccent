@@ -1,0 +1,142 @@
+import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+import { connect, type Harness } from './harness.js';
+
+let h: Harness;
+beforeEach(async () => {
+  h = await connect();
+});
+afterEach(async () => h.close());
+
+const setFallahi = () => h.call('openaccent_remember', { kind: 'profile', dialect: 'ar-ps-fallahi' });
+
+describe('server', () => {
+  it('lists the 8 tools with annotations', async () => {
+    const { tools } = await h.client.listTools();
+    expect(tools.map((t) => t.name).sort()).toEqual([
+      'openaccent_check_reply',
+      'openaccent_express',
+      'openaccent_forget',
+      'openaccent_get_briefing',
+      'openaccent_list_dialects',
+      'openaccent_lookup',
+      'openaccent_remember',
+      'openaccent_suggest_entry',
+    ]);
+    const byName = Object.fromEntries(tools.map((t) => [t.name, t]));
+    expect(byName.openaccent_lookup?.annotations?.readOnlyHint).toBe(true);
+    expect(byName.openaccent_forget?.annotations?.destructiveHint).toBe(true);
+    expect(byName.openaccent_get_briefing?.description).toMatch(/FIRST/);
+  });
+});
+
+describe('openaccent_get_briefing', () => {
+  it('onboards when there is no profile', async () => {
+    const r = await h.call('openaccent_get_briefing');
+    expect(r.data.onboarding).toBe(true);
+    expect(r.text).toContain('openaccent_remember');
+    expect(r.text).toContain('No OpenAccent profile yet');
+  });
+
+  it('returns the profile and memory once set', async () => {
+    await setFallahi();
+    await h.call('openaccent_remember', { kind: 'correction', wrong: 'كويس', right: 'منيح' });
+    const r = await h.call('openaccent_get_briefing');
+    expect(r.data).toMatchObject({ onboarding: false, dialect: 'ar-ps-fallahi' });
+    expect(r.text).toContain('كويس → منيح');
+  });
+});
+
+describe('openaccent_lookup', () => {
+  it('uses the profile dialect when none is given (dialect lock)', async () => {
+    await setFallahi();
+    const r = await h.call('openaccent_lookup', { query: 'زلمة' });
+    expect(r.data.dialect).toBe('ar-ps-fallahi');
+    expect(r.data.items.map((i: { id: string }) => i.id)).toEqual(['ar-ps-fallahi/zalameh']);
+  });
+
+  it('labels drafts as unverified and appends the profile footer', async () => {
+    await setFallahi();
+    const r = await h.call('openaccent_lookup', { query: '7akoura' });
+    expect(r.text).toContain('⚠ unverified');
+    expect(r.text).toContain('👤 User dialect: ar-ps-fallahi');
+  });
+
+  it('explains an empty result', async () => {
+    const r = await h.call('openaccent_lookup', { query: 'غريبة', dialect: 'ar-ps-fallahi' });
+    expect(r.data.total).toBe(0);
+    expect(r.text).toContain('openaccent_suggest_entry');
+  });
+
+  it('returns an actionable error for an unknown dialect', async () => {
+    const r = await h.call('openaccent_lookup', { query: 'x', dialect: 'ar-ps-falahi' });
+    expect(r.isError).toBe(true);
+    expect(r.text).toContain('Did you mean: ar-ps-fallahi');
+  });
+});
+
+describe('openaccent_express', () => {
+  it('compares dialects', async () => {
+    const r = await h.call('openaccent_express', { meaning: 'now', dialects: ['ar-ps-fallahi', 'ar-eg'] });
+    expect(r.data.results.map((g: { dialect: string }) => g.dialect)).toEqual(['ar-ps-fallahi', 'ar-eg']);
+    expect(r.text).toContain('دلوقتي');
+  });
+
+  it('needs a dialect when there is no profile', async () => {
+    const r = await h.call('openaccent_express', { meaning: 'now' });
+    expect(r.isError).toBe(true);
+  });
+});
+
+describe('openaccent_list_dialects', () => {
+  it('shows the tree with stats', async () => {
+    const r = await h.call('openaccent_list_dialects');
+    expect(r.text).toMatch(/- `ar` Arabic[\s\S]*  - `ar-ps` Palestinian[\s\S]*    - `ar-ps-fallahi`/);
+    expect(r.data.dialects.length).toBeGreaterThan(5);
+  });
+});
+
+describe('openaccent_remember / openaccent_forget', () => {
+  it('validates required fields per kind', async () => {
+    expect((await h.call('openaccent_remember', { kind: 'correction', wrong: 'x' })).isError).toBe(true);
+    expect((await h.call('openaccent_remember', { kind: 'profile', dialect: 'nope-nope' })).isError).toBe(true);
+  });
+
+  it('round-trips: remember → briefing → forget', async () => {
+    await setFallahi();
+    const saved = await h.call('openaccent_remember', { kind: 'style', text: 'Short replies' });
+    expect(saved.data).toMatchObject({ created: true, item: { id: 's1' } });
+    expect((await h.call('openaccent_get_briefing')).text).toContain('Short replies');
+    const gone = await h.call('openaccent_forget', { ids: ['s1'] });
+    expect(gone.data.removed).toHaveLength(1);
+    expect((await h.call('openaccent_get_briefing')).text).not.toContain('Short replies');
+  });
+
+  it('offers sharing after a correction', async () => {
+    const r = await h.call('openaccent_remember', { kind: 'correction', wrong: 'كويس', right: 'منيح' });
+    expect(r.text).toContain('openaccent_suggest_entry');
+  });
+});
+
+describe('openaccent_suggest_entry', () => {
+  it('returns a pre-filled link with the browser hint', async () => {
+    await setFallahi();
+    const r = await h.call('openaccent_suggest_entry', { word: 'هاض', meaning_en: 'this' });
+    const url = new URL(r.data.url);
+    expect(url.searchParams.get('dialect')).toBe('ar-ps-fallahi');
+    expect(url.searchParams.get('word')).toBe('هاض');
+    expect(r.text).toMatch(/browser/);
+  });
+});
+
+describe('openaccent_check_reply', () => {
+  it('flags other-dialect words with a suggestion', async () => {
+    await setFallahi();
+    const r = await h.call('openaccent_check_reply', { text: 'دلوقتي بجيك' });
+    expect(r.data.issues[0]).toMatchObject({ text: 'دلوقتي', kind: 'other_dialect', suggestion: 'هسّع' });
+    expect(r.text).toContain('→ use **هسّع**');
+  });
+
+  it('needs a dialect when there is no profile', async () => {
+    expect((await h.call('openaccent_check_reply', { text: 'hi' })).isError).toBe(true);
+  });
+});

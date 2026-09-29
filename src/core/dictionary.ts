@@ -78,6 +78,8 @@ function levenshtein(a: string, b: string): number {
 export class Dictionary {
   private readonly dialects = new Map<string, Dialect>();
   private readonly indexed: IndexedEntry[];
+  /** Normalized word/spelling → entries, across all dialects. */
+  private readonly formIndex = new Map<string, BundledEntry[]>();
 
   constructor(readonly bundle: Bundle) {
     for (const d of bundle.dialects) this.dialects.set(d.id, d);
@@ -94,6 +96,44 @@ export class Dictionary {
         },
       };
     });
+    for (const ix of this.indexed) {
+      for (const key of ix.wordKeys) {
+        const list = this.formIndex.get(key) ?? [];
+        list.push(ix.entry);
+        this.formIndex.set(key, list);
+      }
+    }
+  }
+
+  /** Entries in any dialect whose written word or a listed spelling matches this form. */
+  findByForm(form: string, script: string): BundledEntry[] {
+    return this.formIndex.get(normalize(form, script)) ?? [];
+  }
+
+  getEntry(id: string): BundledEntry | undefined {
+    return this.indexed.find((ix) => ix.entry.id === id)?.entry;
+  }
+
+  /** Entries in a dialect branch that mean the same as `entry` (explicit `related` links or a shared gloss). */
+  equivalentsIn(entry: BundledEntry, dialect: string): BundledEntry[] {
+    const branch = this.branch(dialect);
+    const inBranch = this.scope(branch);
+    const related = new Set(entry.related);
+    const glosses = entry.meanings.flatMap((m) => [m.en, m.ar]).filter((g): g is string => Boolean(g));
+    const found = inBranch.filter((ix) => {
+      if (ix.entry.id === entry.id) return false;
+      if (related.has(ix.entry.id) || ix.entry.related.includes(entry.id)) return true;
+      // Same meaning = the two glosses share a whole part ("you all; you (plural)" vs "you all").
+      return glosses.some((g) => {
+        const script = scriptOf(g);
+        const parts = g.split(/[;,()]/).map((p) => normalize(p, script)).filter(Boolean);
+        return ix.glosses[script === 'arab' ? 'ar' : 'en'].some((own) => parts.some((q) => glossScore(q, own, script) === 2));
+      });
+    });
+    return this.rank(
+      found.map((ix) => ({ entry: ix.entry, match: 'gloss' as const, inherited: ix.entry.dialect !== dialect })),
+      branch,
+    ).map((m) => m.entry);
   }
 
   getDialect(id: string): Dialect | undefined {

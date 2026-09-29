@@ -81,6 +81,18 @@ export function fixtureBundle(): Bundle {
       e('en-us-south/yall', { word: "y'all", meanings: [{ en: 'you all; you (plural)' }], familiarity: 'regional' }),
       e('en-us-general/you-guys', { word: 'you guys', type: 'phrase', meanings: [{ en: 'you all; you (plural)' }] }),
       e('en-us-general/color', { word: 'color', meanings: [{ en: 'color' }] }),
+      e('en-us-general/delve', {
+        word: 'delve',
+        meanings: [{ en: 'to look into something in detail' }],
+        familiarity: 'rare',
+        related: ['en-us-general/dig-into'],
+        notes: 'AI-sounding; people rarely say it.',
+      }),
+      e('en-us-general/dig-into', {
+        word: 'dig into',
+        type: 'phrase',
+        meanings: [{ en: 'to look into something in detail' }],
+      }),
     ],
   };
 }
