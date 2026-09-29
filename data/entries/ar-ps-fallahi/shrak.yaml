@@ -1,0 +1,16 @@
+word: شراك
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- shrak
+meanings:
+- ar: خبز رقيق بينخبز عالصاج
+  en: thin bread baked on a saj
+  examples:
+  - text: بدّي رغيف شراك
+register: casual
+familiarity: regional
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

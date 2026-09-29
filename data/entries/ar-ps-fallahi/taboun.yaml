@@ -1,0 +1,17 @@
+word: طابون
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- taboun
+- taboon
+meanings:
+- ar: فرن طين تقليدي، وخبزه
+  en: traditional clay oven, and its bread
+  examples:
+  - text: ستّي بتخبز عالطابون
+register: casual
+familiarity: regional
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

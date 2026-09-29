@@ -1,0 +1,17 @@
+word: عكّوب
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- 3akkoub
+- akkoub
+meanings:
+- ar: نبتة شوكية برية بتنطبخ
+  en: gundelia, a wild edible thistle
+  examples:
+  - text: طلعنا نلمّ عكّوب
+register: casual
+familiarity: regional
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

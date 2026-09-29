@@ -1,0 +1,17 @@
+word: امبارح
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- imbare7
+- mbare7
+meanings:
+- ar: أمس
+  en: yesterday
+  examples:
+  - text: امبارح كنّا عند ستّي
+register: casual
+familiarity: common
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

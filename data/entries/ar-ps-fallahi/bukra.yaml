@@ -1,0 +1,16 @@
+word: بُكرة
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- bukra
+meanings:
+- ar: غداً
+  en: tomorrow
+  examples:
+  - text: بُكرة بنروح عالكرم
+register: casual
+familiarity: common
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

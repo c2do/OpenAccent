@@ -2,22 +2,11 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import { dirname, join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { loadRawData } from '../src/core/data-loader.js';
-import { DialectSchema, EntrySchema, type Dialect, type Entry } from '../src/core/schema.js';
+import type { Bundle } from '../src/core/bundle.js';
+import { DialectSchema, EntrySchema } from '../src/core/schema.js';
 import { validateData } from './validate-data.js';
 
-export interface BundledEntry extends Entry {
-  /** `<dialect>/<slug>` */
-  id: string;
-}
-
-export interface Bundle {
-  formatVersion: 1;
-  builtAt: string;
-  dialects: Dialect[];
-  entries: BundledEntry[];
-  /** Dialect guide markdown, keyed by dialect ID. */
-  guides: Record<string, string>;
-}
+export type { Bundle, BundledEntry } from '../src/core/bundle.js';
 
 /** Validates a data root and compiles it into a single bundle. Throws if the data is invalid. */
 export function buildBundle(root: string): Bundle {

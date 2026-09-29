@@ -1,0 +1,18 @@
+word: زلمة
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- zalameh
+- zalame
+meanings:
+- ar: رجل
+  en: man
+  examples:
+  - text: في زلمة بستنّاك برّا
+register: casual
+familiarity: common
+notes: Using it as a filler in every sentence is a caricature.
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

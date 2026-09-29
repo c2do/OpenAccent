@@ -1,0 +1,22 @@
+word: كرم
+dialect: ar-ps-fallahi-tshaf
+type: word
+spellings:
+- تشرم
+romanized:
+- tsharm
+- charm
+pronunciation:
+  simple: تشرم
+meanings:
+- ar: 'كرم: أرض مزروعة عنب أو شجر'
+  en: vineyard, orchard
+  examples:
+  - text: رحنا عالكرم الصبح
+register: casual
+familiarity: common
+notes: Written كرم, pronounced تشرم (ك is pronounced تش). In writing, use كرم.
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

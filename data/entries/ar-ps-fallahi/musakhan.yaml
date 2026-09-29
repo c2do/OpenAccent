@@ -1,0 +1,17 @@
+word: مسخّن
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- msakhan
+- musakhan
+meanings:
+- ar: 'أكلة: خبز طابون مع بصل وسماق وزيت وجاج'
+  en: 'musakhan: taboon bread with onions, sumac, olive oil and chicken'
+  examples:
+  - text: عملنا مسخّن عالغدا
+register: casual
+familiarity: common
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

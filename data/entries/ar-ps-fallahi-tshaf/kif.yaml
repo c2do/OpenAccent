@@ -1,0 +1,22 @@
+word: كيف
+dialect: ar-ps-fallahi-tshaf
+type: word
+spellings:
+- تشيف
+romanized:
+- tshif
+- chif
+pronunciation:
+  simple: تشيف
+meanings:
+- ar: كيف
+  en: how
+  examples:
+  - text: كيف حالك؟
+register: casual
+familiarity: common
+notes: Written كيف, pronounced تشيف (ك is pronounced تش). In writing, use كيف.
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

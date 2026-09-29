@@ -1,0 +1,21 @@
+word: قال
+dialect: ar-ps-fallahi
+type: word
+spellings:
+- كال
+romanized:
+- kal
+pronunciation:
+  simple: كال
+meanings:
+- ar: قال
+  en: he said
+  examples:
+  - text: قال إنه جاي
+register: casual
+familiarity: common
+notes: Written قال, pronounced كال (ق is pronounced ك). In writing, use قال.
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

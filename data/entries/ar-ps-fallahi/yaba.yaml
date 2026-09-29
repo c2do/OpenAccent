@@ -1,0 +1,16 @@
+word: يابا
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- yaba
+meanings:
+- ar: يا أبي (نداء)
+  en: dad (when calling him)
+  examples:
+  - text: يابا، بدّك إشي؟
+register: casual
+familiarity: common
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

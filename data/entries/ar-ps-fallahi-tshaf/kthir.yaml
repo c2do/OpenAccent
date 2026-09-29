@@ -1,0 +1,22 @@
+word: كثير
+dialect: ar-ps-fallahi-tshaf
+type: word
+spellings:
+- تشثير
+romanized:
+- tshthir
+- chthir
+pronunciation:
+  simple: تشثير
+meanings:
+- ar: كثير
+  en: a lot, very
+  examples:
+  - text: شكراً كثير
+register: casual
+familiarity: common
+notes: Written كثير, pronounced تشثير (ك is pronounced تش). In writing, use كثير.
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

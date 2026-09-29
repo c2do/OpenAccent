@@ -1,0 +1,16 @@
+word: ستّي
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- sitti
+meanings:
+- ar: جدّتي
+  en: grandma
+  examples:
+  - text: ستّي بتحكي قصص حلوة
+register: casual
+familiarity: common
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

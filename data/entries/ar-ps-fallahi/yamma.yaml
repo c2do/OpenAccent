@@ -1,0 +1,16 @@
+word: يمّا
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- yamma
+meanings:
+- ar: يا أمي (نداء)
+  en: mom (when calling her)
+  examples:
+  - text: يمّا، وين المفتاح؟
+register: casual
+familiarity: common
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

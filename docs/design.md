@@ -98,7 +98,9 @@ Dialects form a tree. Every node is one file, `data/dialects/<id>.yaml`. Entries
 ar                      Arabic
 └── ar-levantine        Levantine
     └── ar-ps           Palestinian
-        ├── ar-ps-fallahi   Rural (fallahi)   ← v0.1 focus
+        ├── ar-ps-fallahi   Rural (fallahi): ق said ك   ← v0.1 focus
+        │   ├── ar-ps-fallahi-kaf    keeps ك (كيف)
+        │   └── ar-ps-fallahi-tshaf  ك said تش in some words (تشيف)
         ├── ar-ps-madani    Urban (madani)
         ├── ar-ps-khalili   Hebron
         └── ar-ps-gazawi    Gaza
@@ -166,6 +168,7 @@ added_by: ""
 **Rules**
 
 - Required fields: `word`, `dialect`, `type`, `status`, `source`, and at least one meaning with `ar` or `en`.
+- **`word` is the written form**, the way native speakers write it in chat. How it sounds goes in `pronunciation`. Example: fallahi speakers say "تشيف" but write كيف, so `word: كيف`, `pronunciation.simple: تشيف`, and `تشيف` is listed in `spellings` so search still finds it. (Owner review, 2026-09-29.)
 - `status: verified` requires at least one handle in `verified_by`, and that handle must be listed in the dialect's `reviewers`. CI enforces this.
 - **Tools never present `draft` as fact.** Draft results are labeled "unverified" and ranked below verified ones.
 - `familiarity` defaults to `common`. Tools warn when a reply uses `rare` or `dated` words.
@@ -315,7 +318,7 @@ Normalization is chosen by the dialect's `script`. Every entry is indexed under 
 1. **Normalized text.**
    - Latin script: lowercase, strip accents (NFKD), fold US/UK spelling pairs (`-our/-or`, `-ise/-ize`), straight quotes.
    - Arabic script: Strip diacritics (U+064B–U+0652, U+0670) and tatweel; unify إأآٱ→ا, ى→ي, ة→ه, ؤ→و, ئ→ي; convert Arabic-Indic digits to ASCII.
-2. **Dialect-sound key** (optional, from the dialect's `sound_rules`). Fallahi-aware folding: تش/چ ~ ك, and ق ~ ك ~ ء ~ گ. So `تشيف` finds `كيف`.
+2. **Spoken → written variants** (optional, from the dialect's `sound_rules`, which are `[spoken, written]` pairs). Fallahi: `[تش, ك]` and `[ك, ق]`, so `تشيف` finds `كيف` and `كال` finds `قال`. Each rule applies once per position and is **never chained**, and variants are compared with the written `word` only: `تشال` finds nothing, because the ك that comes from ق is never pronounced تش (owner review, 2026-09-29).
 3. **Romanization keys** (Arabic: Arabizi). Digits 2 3 5 6 7 8 9 and the digraphs gh, kh, sh, ch/tsh map to candidate Arabic spellings, which are matched against keys 1 and 2.
 4. **English and MSA glosses**, for `express`.
 

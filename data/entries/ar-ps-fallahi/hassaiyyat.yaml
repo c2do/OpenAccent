@@ -1,0 +1,27 @@
+word: هسعيات
+dialect: ar-ps-fallahi
+type: word
+spellings:
+- هسّعيات
+romanized:
+- hassa3iyyat
+- has3iyyat
+meanings:
+- ar: الآن
+  en: now
+register: casual
+familiarity: regional
+related:
+- ar-ps-fallahi/hassa
+- ar-ps-fallahi/halqeet
+- ar-ps-fallahi/ilhin
+- ar-ps-fallahi/irhin
+- ar-ps-fallahi/halhin
+notes: 'One of several village words for ''now'' (هسّع/هسّا، هسعيات، هلقيت، الحين،
+  ارحين، هالحين). Which one depends on the village: use the user''s own word and don''t
+  mix them in one conversation.'
+status: verified
+verified_by:
+- c2do
+source:
+  kind: reviewer

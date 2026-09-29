@@ -1,0 +1,17 @@
+word: حاكورة
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- 7akoura
+- hakoura
+meanings:
+- ar: جنينة صغيرة جنب الدار، بتنزرع فيها خضرة وشجر
+  en: small garden next to the house
+  examples:
+  - text: روحي اقطفي شوية نعنع من الحاكورة
+register: casual
+familiarity: common
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

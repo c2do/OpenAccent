@@ -1,0 +1,8 @@
+id: ar-ps-fallahi-kaf
+parent: ar-ps-fallahi
+name: { en: "Palestinian Rural — Kaf (says كيف)", ar: "فلاحي كاف (بيقول كيف)" }
+region: { en: Rural Palestine, ar: قرى فلسطين }
+script: arab
+codes: { bcp47: apc-PS-x-fallahik }
+reviewers: [c2do]
+status: active

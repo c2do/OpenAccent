@@ -1,0 +1,21 @@
+word: قنّ
+dialect: ar-ps-fallahi
+type: word
+spellings:
+- كِنّ
+romanized:
+- kinn
+pronunciation:
+  simple: كِنّ
+meanings:
+- ar: قُنّ الجاج
+  en: chicken coop
+  examples:
+  - text: طعمي الجاج اللي بالقنّ
+register: casual
+familiarity: common
+notes: Written قنّ, pronounced كِنّ (ق is pronounced ك). In writing, use قنّ.
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

@@ -1,0 +1,16 @@
+word: إشي
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- ishi
+meanings:
+- ar: شيء
+  en: something, a thing
+  examples:
+  - text: بدّك إشي من الدكّان؟
+register: casual
+familiarity: common
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

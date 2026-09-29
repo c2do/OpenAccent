@@ -1,0 +1,16 @@
+word: سيدي
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- sidi
+meanings:
+- ar: جدّي
+  en: grandpa
+  examples:
+  - text: سيدي كان فلاح
+register: casual
+familiarity: common
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

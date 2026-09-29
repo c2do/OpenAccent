@@ -1,0 +1,22 @@
+word: كبير
+dialect: ar-ps-fallahi-tshaf
+type: word
+spellings:
+- تشبير
+romanized:
+- tshbir
+- chbir
+pronunciation:
+  simple: تشبير
+meanings:
+- ar: كبير
+  en: big
+  examples:
+  - text: الدار كبيرة
+register: casual
+familiarity: common
+notes: Written كبير, pronounced تشبير (ك is pronounced تش). In writing, use كبير.
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

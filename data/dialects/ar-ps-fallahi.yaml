@@ -6,7 +6,6 @@ script: arab
 codes: { bcp47: apc-PS-x-fallahi, glottocode: fell1238 }
 reviewers: [c2do]
 status: active
-sound_rules:
-  - [تش, ك]
-  - [چ, ك]
-  - [ق, ك]
+# Shared by all fallahi speakers. The ك → تش sound belongs to ar-ps-fallahi-tshaf only.
+sound_rules:   # [spoken, written]
+  - [ك, ق]     # قال is said كال (and never تشال)

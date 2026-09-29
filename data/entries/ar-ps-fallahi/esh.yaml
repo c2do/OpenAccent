@@ -1,0 +1,18 @@
+word: إيش
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- esh
+- eish
+meanings:
+- ar: ماذا
+  en: what
+  examples:
+  - text: إيش بتعمل؟
+register: casual
+familiarity: common
+notes: شو is also used.
+status: draft
+verified_by: []
+source:
+  kind: ai-draft
