@@ -40,7 +40,8 @@ interface LanguageRules {
 const RULES: Record<string, LanguageRules> = {
   en: {
     // Fold British spellings onto American ones: colour→color, realise→realize.
-    canonical: (s) => s.replace(/([a-z]{2,})our/g, '$1or').replace(/([a-z]{3,})is(e|es|ed|ing|ation)\b/g, '$1iz$2'),
+    // Lookbehinds instead of captures, so every occurrence folds in one pass and folding again changes nothing.
+    canonical: (s) => s.replace(/(?<=[a-z]{2})our/g, 'or').replace(/(?<=[a-z]{3})is(?=(?:e|es|ed|ing|ation)\b)/g, 'iz'),
   },
   es: { keep: 'ñ' }, // año ≠ ano
   de: {
@@ -131,21 +132,26 @@ const PLAIN_ASCII = /^[\x20-\x7e]*$/;
 function normalizeLatin(text: string, rules: ResolvedRules, fuzzy: boolean): string {
   // Lowercase before decomposing, so Turkish İ becomes i and not ı.
   // Plain ASCII has nothing to compose or decompose (most English, and most queries).
-  const lowered = PLAIN_ASCII.test(text) ? rules.lower(text) : stripMarks(rules.lower(text.normalize('NFC')), fuzzy ? '' : rules.keep);
+  // Lowercase again after decomposing: compatibility forms decompose to capitals (ℙ → P, Ⅻ → XII).
+  const lowered = PLAIN_ASCII.test(text)
+    ? rules.lower(text)
+    : rules.lower(stripMarks(rules.lower(text.normalize('NFC')), fuzzy ? '' : rules.keep));
   return lowered
     .replace(/œ/g, 'oe')
     .replace(/æ/g, 'ae')
     .replace(/[‘’ʼ`´]/g, "'")
     .replace(/[^\p{L}\p{N}\s']/gu, ' ')
     // Keep apostrophes only inside words (y'all, ain't, aujourd'hui).
-    .replace(/(^|[^\p{L}])'+|'+(?=[^\p{L}]|$)/gu, '$1');
+    .replace(/(?<!\p{L})'+|'+(?!\p{L})/gu, '');
 }
 
 /** Other scripts: case and punctuation only. Marks stay, because in Devanagari and others they are vowels. */
+// NFKC again after lowercasing: lowercasing can leave marks out of canonical order (İ → i + U+0307).
 const normalizeOther = (text: string) =>
   text
     .normalize('NFKC')
     .toLowerCase()
+    .normalize('NFKC')
     .replace(/[^\p{L}\p{M}\p{N}\s]/gu, ' ');
 
 /**
@@ -169,10 +175,10 @@ export function normalize(text: string, opts: string | NormalizeOptions): string
       s = normalizeOther(text);
   }
   for (const fold of rules.canonical) s = fold(s);
-  if (fuzzy) {
-    for (const fold of rules.fuzzy) s = fold(s);
-    s = unstretch(s);
-  }
+  if (fuzzy) for (const fold of rules.fuzzy) s = fold(s);
+  // Other scripts keep their marks, so a fold can leave a letter next to a mark it composes with (ß + ̧ → sş → sş).
+  if (script !== 'arab' && script !== 'latn') s = s.normalize('NFKC');
+  if (fuzzy) s = unstretch(s);
   return collapse(s);
 }
 

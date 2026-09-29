@@ -88,6 +88,16 @@ describe('normalize by language and dialect', () => {
     expect(normalize('colour', { script: 'latn', dialect: 'en-gb' })).toBe('color');
   });
 
+  it('folds every occurrence in one pass (found by property tests)', () => {
+    expect(en('colourour')).toBe('coloror');
+    expect(en(en('colourour'))).toBe(en('colourour'));
+  });
+
+  it('lowercases letters that decompose to capitals (found by property tests)', () => {
+    expect(fr('ℙaris')).toBe('paris');
+    expect(fr('Ⅻ')).toBe('xii');
+  });
+
   it('never applies English folds to other languages', () => {
     expect(fr('amour')).toBe('amour');
     expect(fr('Humour')).toBe('humour');

@@ -407,6 +407,7 @@ Normalization rules stack from general to specific: the dialect's `script`, then
 
 - Schema validation of all data.
 - Unit tests: normalizer, Arabizi, sound folding, inheritance, ranking, memory store (including atomic writes, a corrupt-file recovery path, migrations, newer-version files, limits, and several processes writing at once), URL builder.
+- Property tests (fast-check, `tests/property/`) on messy multilingual text (combining marks, harakat, RTL marks, emoji and ZWJ sequences, lone surrogates): normalization is idempotent and never throws for every script, dialect and level; `detectScript` always returns a code; tokens and readings slice back to the text; `arabiziCandidates` and `soundVariants` stay bounded; every `check_reply` issue satisfies `text === reply.slice(start, end)`, in order, without overlaps, and matches its schema; lookup pages are consistent; remembered items read back. 300 runs per property in CI; `npm run test:fuzz` runs 20,000.
 - MCP integration tests for each tool.
 
 **Behavioural evaluation** (`evals/`)
