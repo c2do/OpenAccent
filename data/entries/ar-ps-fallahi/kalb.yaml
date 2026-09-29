@@ -1,0 +1,17 @@
+word: كلب
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- kalb
+meanings:
+- ar: قلب
+  en: heart
+  examples:
+  - text: كلبي معك
+register: casual
+familiarity: common
+notes: قلب with ق→ك. In fallahi, a dog is تشلب.
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

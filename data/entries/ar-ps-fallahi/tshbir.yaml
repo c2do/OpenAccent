@@ -1,0 +1,18 @@
+word: تشبير
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- tshbir
+- chbir
+meanings:
+- ar: كبير
+  en: big
+  examples:
+  - text: الدار تشبيرة
+register: casual
+familiarity: common
+notes: كبير with ك→تش.
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

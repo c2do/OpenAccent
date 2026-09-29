@@ -1,0 +1,17 @@
+word: عونة
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- 3ouneh
+- ouneh
+meanings:
+- ar: لما أهل البلد بيساعدوا بعض بشغل تشبير زي القطف أو البنا
+  en: communal help (neighbors working together on harvest or building)
+  examples:
+  - text: كل البلد إجت عالعونة
+register: casual
+familiarity: regional
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

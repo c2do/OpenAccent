@@ -1,0 +1,17 @@
+word: كال
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- kal
+meanings:
+- ar: قال
+  en: he said
+  examples:
+  - text: كال إنه جاي
+register: casual
+familiarity: common
+notes: قال with ق→ك.
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

@@ -1,0 +1,18 @@
+word: هسّع
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- hassa3
+- hassa
+meanings:
+- ar: الآن
+  en: now
+  examples:
+  - text: هسّع بجيك
+register: casual
+familiarity: common
+notes: Urban Palestinian says هلأ.
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

@@ -1,0 +1,16 @@
+word: ولا إشي
+dialect: ar-ps-fallahi
+type: phrase
+romanized:
+- wala ishi
+meanings:
+- ar: لا شيء
+  en: nothing
+  examples:
+  - text: ما صار ولا إشي
+register: casual
+familiarity: common
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

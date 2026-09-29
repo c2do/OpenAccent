@@ -1,0 +1,18 @@
+word: تشمان
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- tshman
+- chman
+meanings:
+- ar: كمان، أيضاً
+  en: also, too
+  examples:
+  - text: وأنا تشمان بدّي أجي
+register: casual
+familiarity: common
+notes: كمان with ك→تش.
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

@@ -1,0 +1,18 @@
+word: تشرم
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- tsharm
+- charm
+meanings:
+- ar: 'كرم: أرض مزروعة عنب أو شجر'
+  en: vineyard, orchard
+  examples:
+  - text: رحنا عالتشرم الصبح
+register: casual
+familiarity: common
+notes: كرم with ك→تش.
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

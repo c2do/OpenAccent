@@ -1,0 +1,17 @@
+word: خيّا
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- khayya
+- 5ayya
+meanings:
+- ar: يا أخي (نداء)
+  en: brother (when calling him); buddy
+  examples:
+  - text: خيّا، تعال ساعدني
+register: casual
+familiarity: common
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

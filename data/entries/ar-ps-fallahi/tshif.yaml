@@ -1,0 +1,18 @@
+word: تشيف
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- tshif
+- chif
+meanings:
+- ar: كيف
+  en: how
+  examples:
+  - text: تشيف حالك؟
+register: casual
+familiarity: common
+notes: Fallahi pronunciation of كيف (ك→تش).
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

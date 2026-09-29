@@ -1,0 +1,18 @@
+word: تشثير
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- tshthir
+- chthir
+meanings:
+- ar: كثير
+  en: a lot, very
+  examples:
+  - text: شكراً تشثير
+register: casual
+familiarity: common
+notes: كثير with ك→تش and ث kept.
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

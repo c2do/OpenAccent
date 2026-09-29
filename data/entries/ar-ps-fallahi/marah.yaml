@@ -1,0 +1,17 @@
+word: مَرَة
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- marah
+- mara
+meanings:
+- ar: امرأة، زوجة
+  en: woman; wife
+  examples:
+  - text: مرتُه من البلد
+register: casual
+familiarity: common
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

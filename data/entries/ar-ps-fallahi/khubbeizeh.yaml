@@ -1,0 +1,17 @@
+word: خبّيزة
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- khubbeizeh
+- 5obbeize
+meanings:
+- ar: نبتة برية بتنطبخ
+  en: mallow, a wild edible green
+  examples:
+  - text: إمي طبخت خبّيزة اليوم
+register: casual
+familiarity: regional
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

@@ -1,0 +1,18 @@
+word: بيدر
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- baidar
+- bedar
+meanings:
+- ar: الأرض اللي بيدرسوا فيها القمح
+  en: threshing floor
+  examples:
+  - text: زمان كانوا يدرسوا القمح عالبيدر
+register: casual
+familiarity: dated
+notes: Mostly heard from older generations.
+status: draft
+verified_by: []
+source:
+  kind: ai-draft

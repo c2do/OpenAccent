@@ -1,0 +1,17 @@
+word: كِنّ
+dialect: ar-ps-fallahi
+type: word
+romanized:
+- kinn
+meanings:
+- ar: قُنّ الجاج
+  en: chicken coop
+  examples:
+  - text: طعمي الجاج اللي بالكِنّ
+register: casual
+familiarity: common
+notes: قن with ق→ك.
+status: draft
+verified_by: []
+source:
+  kind: ai-draft
