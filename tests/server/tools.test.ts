@@ -10,10 +10,11 @@ afterEach(async () => h.close());
 const setFallahi = () => h.call('openaccent_remember', { kind: 'profile', dialect: 'ar-ps-fallahi' });
 
 describe('server', () => {
-  it('lists the 9 tools with annotations', async () => {
+  it('lists the 10 tools with annotations', async () => {
     const { tools } = await h.client.listTools();
     expect(tools.map((t) => t.name).sort()).toEqual([
       'openaccent_check_reply',
+      'openaccent_dialect_card',
       'openaccent_export_prompt',
       'openaccent_express',
       'openaccent_forget',
@@ -150,5 +151,20 @@ describe('openaccent_export_prompt', () => {
     expect(r.data.dialect).toBe('ar-ps-fallahi');
     expect(r.data.text).toContain('"منيح" not "كويس"');
     expect(r.data.text.length).toBeLessThanOrEqual(1500);
+  });
+});
+
+describe('openaccent_dialect_card', () => {
+  it('returns a card for any dialect, independent of the profile', async () => {
+    await setFallahi();
+    const r = await h.call('openaccent_dialect_card', { dialect: 'ar-ps-fallahi-tshaf', purpose: 'script' });
+    expect(r.data).toMatchObject({ dialect: 'ar-ps-fallahi-tshaf', purpose: 'script' });
+    expect(r.text).toContain('## Writing for: script');
+    expect(r.text).toContain('كيف → said تشيف');
+  });
+
+  it('check_reply accepts a purpose', async () => {
+    const script = await h.call('openaccent_check_reply', { text: 'تشيف حالك', dialect: 'ar-ps-fallahi-tshaf', purpose: 'script' });
+    expect(script.data.issues).toEqual([]);
   });
 });

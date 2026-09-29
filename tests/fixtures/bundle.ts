@@ -30,6 +30,7 @@ export function fixtureBundle(): Bundle {
         id: 'ar-ps-fallahi/where-are-you',
         dialect: 'ar-ps-fallahi',
         title: 'Where are you?',
+        purpose: 'chat',
         context: 'two friends on WhatsApp',
         turns: [
           { from: 'user', text: 'وينك؟' },

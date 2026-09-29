@@ -1,7 +1,7 @@
 import type { BundledEntry } from './bundle.js';
 import type { Dictionary } from './dictionary.js';
 import { normalize } from './normalize.js';
-import type { Memory } from './schema.js';
+import type { Memory, Purpose } from './schema.js';
 
 export type IssueKind = 'correction' | 'personal_word' | 'pronunciation' | 'other_dialect' | 'rare' | 'dated';
 
@@ -25,7 +25,14 @@ const MAX_NGRAM = 3;
  * Word-level check of a draft reply against the user's dialect and personal memory.
  * Needs no conversation state and no model call. It cannot judge grammar or tone.
  */
-export function checkReply(dict: Dictionary, memory: Memory, text: string, dialect: string): CheckResult {
+export function checkReply(
+  dict: Dictionary,
+  memory: Memory,
+  text: string,
+  dialect: string,
+  opts: { purpose?: Purpose } = {},
+): CheckResult {
+  const purpose = opts.purpose ?? 'chat';
   const branch = dict.branch(dialect);
   const script = dict.getDialect(dialect)?.script ?? 'arab';
   // Keep each word as written (for display) next to its normalized form (for matching).
@@ -70,7 +77,8 @@ export function checkReply(dict: Dictionary, memory: Memory, text: string, diale
     const spoken = entries.find(
       (e) => e.pronunciation?.simple && normalize(e.pronunciation.simple, script) === form && normalize(e.word, script) !== form,
     );
-    if (spoken && !writtenInBranch) {
+    // Scripts are written to be spoken, so spelling words the way they sound is the point there.
+    if (spoken && !writtenInBranch && purpose !== 'script') {
       const ownSound = branch.includes(spoken.dialect);
       return {
         text: form,
@@ -84,7 +92,9 @@ export function checkReply(dict: Dictionary, memory: Memory, text: string, diale
 
     if (mine.length > 0) {
       // In the dialect, but rare or old-fashioned?
-      if (mine.every((e) => e.familiarity === 'rare' || e.familiarity === 'dated')) {
+      // Songs and stories may reach for old or rare words on purpose; chat and scripts should not.
+      const allowOld = purpose === 'song' || purpose === 'story';
+      if (!allowOld && mine.every((e) => e.familiarity === 'rare' || e.familiarity === 'dated')) {
         const e = mine[0]!;
         const alternatives = e.related
           .map((id) => dict.getEntry(id))
