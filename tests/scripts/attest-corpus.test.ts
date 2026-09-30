@@ -60,7 +60,7 @@ describe('readers and attesting', () => {
     const entry = { word: 'هسه', dialect: 'ar-iq', type: 'word', meanings: [{ en: 'now' }], status: 'draft', source: { kind: 'ai-draft' } };
     writeFileSync(join(dir, 'hassa.yaml'), stringify(entry));
     // Three sentences are far too few for the real thresholds; this test is about reading and writing.
-    const loose = { minSupport: 2, minPrecision: 0, minLift: 0 };
+    const loose = { minSupport: 2, minPrecision: 0, minLift: 0, strongSupport: 2, strongLift: 0 };
     const report = attestFromCorpus(data, { ...readFlores(flores), revision: 'abc123' }, { thresholds: loose, runId: '42' });
     expect(report.find((r) => r.dialect === 'ar-iq')).toMatchObject({ pairs: 3, confirmed: ['هسه'] });
     expect(parse(readFileSync(join(dir, 'hassa.yaml'), 'utf8')).attested_by).toEqual([
@@ -85,7 +85,7 @@ const iraqi = (): Corpus => {
   const list: { dialect: string; english: string }[] = [];
   for (let i = 0; i < 7; i++) list.push({ dialect: `الولد لعب ${i}`, english: `The boy played ${i}.` });
   for (let i = 0; i < 3; i++) list.push({ dialect: `الولد بالبيت ${i}`, english: `The boy is in the house ${i}.` });
-  for (let i = 0; i < 2; i++) list.push({ dialect: `البيت كبير ${i}`, english: `The house is big ${i}.` });
+  for (let i = 0; i < 4; i++) list.push({ dialect: `البيت كبير ${i}`, english: `The house is big ${i}.` });
   for (let i = 0; i < 30; i++) list.push({ dialect: `جملة ثانية ${i}`, english: `Another sentence ${i}.` });
   return { name: 'flores', ref: 'https://github.com/facebookresearch/flores', pairs: new Map([['ar-iq', list]]) };
 };
@@ -100,20 +100,41 @@ describe('attestation v2: evidence, not co-occurrence', () => {
 
   it('measures support, occurrences, precision and lift', () => {
     const p = iraqi().pairs.get('ar-iq')!.map((x) => ({ forms: sentenceForms(x.dialect), english: x.english.toLowerCase() }));
-    const boy = corpusEvidence(['ولد'], ['boy'], p, 10 / 42);
-    expect(boy).toMatchObject({ support: 10, occurrences: 10, precision: 1 });
-    expect(boy.lift).toBeCloseTo(4.2, 1);
+    const boy = corpusEvidence(['ولد'], ['boy'], p, 10 / 44);
+    expect(boy).toMatchObject({ support: 10, explained: 0, occurrences: 10, precision: 1 });
+    expect(boy.lift).toBeCloseTo(4.4, 1);
     expect(passes(boy)).toBe(true);
   });
 
   it('rejects a pairing that only co-occurs: ولد is not "house", though they share 3 sentences', () => {
     const p = iraqi().pairs.get('ar-iq')!.map((x) => ({ forms: sentenceForms(x.dialect), english: x.english.toLowerCase() }));
     expect(supportingPairs(['ولد'], ['house'], p)).toBe(3); // v1 would have attested it
-    const wrong = corpusEvidence(['ولد'], ['house'], p, 5 / 42);
+    const wrong = corpusEvidence(['ولد'], ['house'], p, 7 / 44);
     expect(wrong.precision).toBeCloseTo(0.3, 5);
     expect(passes(wrong)).toBe(false);
-    const right = corpusEvidence(['بيت'], ['house'], p, 5 / 42);
+    const right = corpusEvidence(['بيت'], ['house'], p, 7 / 44);
     expect(passes(right)).toBe(true);
+  });
+
+  it('explains a match away when another word with that meaning is in the sentence', () => {
+    const p = iraqi().pairs.get('ar-iq')!.map((x) => ({ forms: sentenceForms(x.dialect), english: x.english.toLowerCase() }));
+    // Even with 3 of 3 (had ولد only appeared next to بيت), بيت explains every match.
+    const wrong = corpusEvidence(['ولد'], ['house'], p, 7 / 44, new Set(['بيت']));
+    expect(wrong).toMatchObject({ support: 0, explained: 3 });
+    expect(passes(wrong)).toBe(false);
+  });
+
+  it('accepts a correct word whose translations often use a synonym, when lift is strong', () => {
+    // كبير "big" appears in 12 sentences; only 4 translations say "big" (others say "large", "great").
+    const p = [
+      ...Array.from({ length: 4 }, (_, i) => ({ forms: sentenceForms(`بيت كبير ${i}`), english: `a big house ${i}` })),
+      ...Array.from({ length: 8 }, (_, i) => ({ forms: sentenceForms(`شي كبير ${i}`), english: `a large thing ${i}` })),
+      ...Array.from({ length: 400 }, (_, i) => ({ forms: sentenceForms(`جملة ${i}`), english: `a sentence ${i}` })),
+    ];
+    const big = corpusEvidence(['كبير'], ['big'], p, 4 / 412);
+    expect(big.precisionLow).toBeLessThan(0.2);
+    expect(big.lift).toBeGreaterThan(20);
+    expect(passes(big)).toBe(true);
   });
 
   it('rejects a meaning that is in every translation anyway (low lift)', () => {

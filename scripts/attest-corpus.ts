@@ -39,12 +39,19 @@ export const METHOD_VERSION = ATTESTATION_METHODS[METHOD].current;
  * docs/attestation.md); change them only with a new sample.
  */
 export const THRESHOLDS = {
-  /** Different sentence pairs with the word and its meaning. */
+  /** Different sentence pairs with the word and its meaning, not explained by another word. */
   minSupport: 2,
-  /** Wilson lower bound (80% one-sided) of support / occurrences. */
-  minPrecision: 0.2,
   /** How much likelier the meaning is next to the word than in any sentence. */
   minLift: 3,
+  /** Wilson lower bound (80% one-sided) of support / occurrences. */
+  minPrecision: 0.2,
+  /**
+   * Or, instead of that precision: this much support with this much lift. Translations often use a
+   * synonym (large for كبير "big"), which lowers precision for correct words; a meaning 20 times
+   * likelier next to the word, in 3+ unexplained pairs, is strong evidence anyway.
+   */
+  strongSupport: 3,
+  strongLift: 20,
 };
 
 export interface Pair {
@@ -173,6 +180,8 @@ export interface PreparedPair {
 
 export interface CorpusEvidence {
   support: number;
+  /** Pairs with the word and its meaning where another word with that meaning explains the match. */
+  explained: number;
   occurrences: number;
   precision: number;
   /** Wilson lower bound of the precision. */
@@ -186,26 +195,41 @@ export const meaningParts = (glosses: string[]) => [...new Set(glosses.flatMap(g
 
 /**
  * The numbers for one entry. `baseRate` is the share of all English sentences that carry one of
- * the meanings (computed by the caller once per set of meanings).
+ * the meanings (computed by the caller once per set of meanings). `rivals` are the keys of other
+ * entries that share one of those meanings: a pair that also contains a rival is explained by it
+ * ("الولد بالبيت" / "the boy is in the house" is evidence that بيت means house, not ولد).
  */
-export function corpusEvidence(keys: string[], parts: string[], pairs: PreparedPair[], baseRate: number): CorpusEvidence {
+export function corpusEvidence(
+  keys: string[],
+  parts: string[],
+  pairs: PreparedPair[],
+  baseRate: number,
+  rivals: ReadonlySet<string> = new Set(),
+): CorpusEvidence {
   let occurrences = 0;
   let support = 0;
+  let explained = 0;
   let example: Pair | undefined;
   for (const p of pairs) {
     if (!keys.some((k) => p.forms.has(k))) continue;
     occurrences++;
-    if (parts.some((g) => inEnglish(p.english, g))) {
-      support++;
-      example ??= p.raw;
+    if (!parts.some((g) => inEnglish(p.english, g))) continue;
+    if ([...p.forms].some((f) => rivals.has(f))) {
+      explained++;
+      continue;
     }
+    support++;
+    example ??= p.raw;
   }
   const precision = occurrences ? support / occurrences : 0;
   const lift = baseRate > 0 ? precision / baseRate : 0;
-  return { support, occurrences, precision, precisionLow: wilsonLow(support, occurrences), lift, ...(example ? { example } : {}) };
+  return { support, explained, occurrences, precision, precisionLow: wilsonLow(support, occurrences), lift, ...(example ? { example } : {}) };
 }
 
-export const passes = (e: CorpusEvidence, t = THRESHOLDS) => e.support >= t.minSupport && e.precisionLow >= t.minPrecision && e.lift >= t.minLift;
+export const passes = (e: CorpusEvidence, t = THRESHOLDS) =>
+  e.support >= t.minSupport &&
+  e.lift >= t.minLift &&
+  (e.precisionLow >= t.minPrecision || (e.support >= t.strongSupport && e.lift >= t.strongLift));
 
 /** Sentence pairs where the word appears and the translation carries one of its meanings (v1's only test). */
 export function supportingPairs(words: string[], glosses: string[], pairs: PreparedPair[], target: { dialect: string; script?: string } = ARABIC): number {
@@ -255,15 +279,25 @@ export function attestFromCorpus(
       return rate;
     };
     const key = keyFor(t);
-    for (const f of readdirSync(dir).filter((x) => x.endsWith('.yaml'))) {
+    type Doc = { word: string; spellings?: string[]; meanings: { en?: string; sensitive?: string[] }[]; source?: { name?: string }; attested_by?: Attestation[] };
+    const files = readdirSync(dir)
+      .filter((x) => x.endsWith('.yaml'))
+      .map((f) => {
+        const doc = parseDocument(readFileSync(join(dir, f), 'utf8'), { version: '1.1' });
+        const e = doc.toJS() as Doc;
+        const parts = meaningParts(e.meanings.filter((m) => m.en && !m.sensitive?.length).map((m) => m.en!));
+        return { f, doc, e, parts, keys: [e.word, ...(e.spellings ?? [])].map(key) };
+      });
+    // Meaning → the words of this dialect that have it, to explain matches away.
+    const byMeaning = new Map<string, Set<string>>();
+    for (const x of files) for (const g of x.parts) for (const k of x.keys) byMeaning.set(g, (byMeaning.get(g) ?? new Set()).add(k));
+    for (const { f, doc, e, parts, keys } of files) {
       const file = join(dir, f);
-      const doc = parseDocument(readFileSync(file, 'utf8'), { version: '1.1' });
-      const e = doc.toJS() as { word: string; spellings?: string[]; meanings: { en?: string; sensitive?: string[] }[]; source?: { name?: string }; attested_by?: Attestation[] };
       row.checked++;
       if (e.source?.name === corpus.name) continue;
-      const parts = meaningParts(e.meanings.filter((m) => m.en && !m.sensitive?.length).map((m) => m.en!));
       if (parts.length === 0) continue;
-      const evidence = corpusEvidence([e.word, ...(e.spellings ?? [])].map(key), parts, pairs, baseRate(parts));
+      const rivals = new Set(parts.flatMap((g) => [...(byMeaning.get(g) ?? [])]).filter((k) => !keys.includes(k)));
+      const evidence = corpusEvidence(keys, parts, pairs, baseRate(parts), rivals);
       const before = e.attested_by ?? [];
       const had = before.some((a) => a.name === corpus.name);
       const ok = passes(evidence, opts.thresholds);
@@ -301,10 +335,10 @@ const tsvCell = (s: string | number) => String(s).replace(/[\t\n]/g, ' ');
 
 /** The --report file: one line per entry the corpus has anything to say about. */
 export function reportTsv(rows: ReportRow[]): string {
-  const head = ['corpus', 'dialect', 'word', 'decision', 'support', 'occurrences', 'precision', 'precision_low', 'lift', 'meanings', 'example_dialect', 'example_english', 'file'];
+  const head = ['corpus', 'dialect', 'word', 'decision', 'support', 'explained', 'occurrences', 'precision', 'precision_low', 'lift', 'meanings', 'example_dialect', 'example_english', 'file'];
   const lines = rows.map((r) =>
     [
-      r.corpus, r.dialect, r.word, r.decision, r.evidence.support, r.evidence.occurrences,
+      r.corpus, r.dialect, r.word, r.decision, r.evidence.support, r.evidence.explained, r.evidence.occurrences,
       round(r.evidence.precision, 3), round(r.evidence.precisionLow, 3), round(r.evidence.lift, 1),
       r.meanings, r.evidence.example?.dialect ?? '', r.evidence.example?.english ?? '', r.file,
     ].map(tsvCell).join('\t'),

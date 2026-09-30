@@ -57,14 +57,20 @@ entries were confirmed by which logic.
 ## parallel-corpus v2
 
 Co-occurrence alone confirms wrong pairings. Take a sentence with "ولد" and "بيت" translated "the boy is in
-the house": after a few such sentences, v1 would confirm ولد = house. v2 needs all three of these:
+the house": after a few such sentences, v1 would confirm ولد = house. v2 has four checks:
 
-- **support ≥ 2**: at least two sentence pairs where the dialect side has the word (clitics removed too) and
-  the English side has one of its meanings as a whole word.
-- **precision**: support / occurrences, judged by its Wilson lower bound (80%, one-sided), so "2 of 2" is not
-  treated as certain. It must be at least `THRESHOLDS.minPrecision`.
-- **lift**: precision divided by the share of *all* English sentences that carry the meaning. A meaning that
-  is in most translations anyway ("go", "be") confirms nothing. It must be at least `THRESHOLDS.minLift`.
+- **Explaining away**: a pair that also contains another word of the dialect with the same meaning (بيت =
+  house) is evidence for that word, not for this one. It counts as `explained`, not as support. If two
+  entries claim the same meaning, each one only gets the pairs the other isn't in.
+- **support ≥ 2**: at least two unexplained sentence pairs where the dialect side has the word (clitics
+  removed too) and the English side has one of its meanings as a whole word.
+- **lift ≥ 3**: precision (support / occurrences) divided by the share of *all* English sentences that carry
+  the meaning. A meaning that is in most translations anyway ("go", "be", "from") confirms nothing.
+- **precision**: the Wilson lower bound (80%, one-sided) of support / occurrences must be at least 0.2, so
+  "2 of 2" is not treated as certain. **Or** strong evidence instead: support ≥ 3 and lift ≥ 20.
+  Translations often use a synonym ("large" for كبير, "quickly" for سريع), which lowers precision for
+  correct words. A meaning 20 times likelier next to the word, in three unexplained pairs, is strong
+  evidence anyway.
 
 Each run recomputes the corpus's attestations: new passes are added, old ones are updated, and ones that no
 longer pass (including every v1 attestation) are removed. A dialect the corpus has no sentences for (a
@@ -78,3 +84,15 @@ sentence pair. To check the thresholds, take a random sample of passing and fail
 hand (is the word really used with this meaning in the sentence?), and record the result below. Change the
 thresholds only with a new sample.
 
+### Sample checks
+
+**Run 36769686596 (first v2 thresholds: support ≥ 2, precision_low ≥ 0.2, lift ≥ 3; no explaining away).**
+v1 had 608 corpus attestations. v2 kept 483 and removed 125.
+- Kept: a systematic sample of 45 (every 11th line) was judged by hand, and about 43 were right. The doubtful
+  two had messy multi-sense glosses (حول "strength; around; cross-eyed…").
+- Removed: most were function words with lift around 1–2 (على، في، من، اللي، انت، هي), which is right,
+  since co-occurrence says nothing about them. But many were correct content words that translations render
+  with a synonym, such as قال say, بعيد far, سريع fast, ليه why, صعب difficult, قديم old.
+- Change: the strong-evidence alternative (support ≥ 3, lift ≥ 20) and explaining away were added. Simulated
+  on this report, the alternative brings back 23 attestations, and all of them looked right (جون goal,
+  شوية little, علاش why, بسرعة quickly, …).
