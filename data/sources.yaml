@@ -33,6 +33,12 @@ allowed:
     url: https://sina.birzeit.edu/currasat/
     attribution: "Haff, Jarrar et al. (2022), Curras + Baladi: Towards a Levantine Corpus"
     note: License on the official page (checked 2026-09-30). Download needs a Google Form.
+  flores:
+    title: FLORES-200 — professionally translated sentences (Meta AI)
+    license: CC-BY-SA-4.0
+    url: https://github.com/facebookresearch/flores
+    attribution: "NLLB Team (2022), No Language Left Behind; FLORES-200 evaluation benchmark"
+    note: About 2,000 sentences per language, parallel with English, for Egyptian, North and South Levantine, Iraqi, Najdi, Moroccan and Tunisian. Used to confirm entries (attested_by), never to create them.
   unimorph:
     title: UniMorph Gulf (afb) and Egyptian (arz) lemma glosses (CAMeL Lab)
     license: CC-BY-SA-3.0

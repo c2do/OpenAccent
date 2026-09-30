@@ -1,0 +1,64 @@
+name: Attest from corpora
+
+# Downloads parallel corpora (FLORES-200, Tatoeba) on GitHub's runners and adds them to
+# `attested_by` for entries they confirm: the word appears in a dialect sentence whose English
+# translation carries its meaning, in at least two sentence pairs. Pushes a branch for review.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  attest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+
+      - name: Download FLORES-200 (CC BY-SA 4.0)
+        run: |
+          curl -sSfL --retry 3 https://dl.fbaipublicfiles.com/nllb/flores200_dataset.tar.gz -o flores.tgz
+          tar xzf flores.tgz
+          ls flores200_dataset/dev | grep -E '^(arz|apc|ajp|acm|ars|ary|aeb|eng)_' | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Download Tatoeba (CC BY 2.0 FR)
+        run: |
+          mkdir -p tatoeba && cd tatoeba
+          base=https://downloads.tatoeba.org/exports
+          for code in arz apc ajp afb acm ary arq aeb apd eng; do
+            if curl -sSfL --retry 3 "$base/per_language/$code/${code}_sentences.tsv.bz2" -o "$code.tsv.bz2"; then
+              bunzip2 -f "$code.tsv.bz2" && mv "$code.tsv" "${code}_sentences.tsv"
+              echo "- Tatoeba $code: $(wc -l < ${code}_sentences.tsv) sentences" >> "$GITHUB_STEP_SUMMARY"
+            else
+              echo "- Tatoeba $code: not available" >> "$GITHUB_STEP_SUMMARY"
+            fi
+          done
+          curl -sSfL --retry 3 "$base/links.tar.bz2" -o links.tar.bz2 && tar xjf links.tar.bz2
+
+      - name: Attest
+        run: |
+          npx tsx scripts/attest-corpus.ts --flores flores200_dataset --tatoeba tatoeba | sed 's/^/- /' | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Validate
+        run: npm run validate
+
+      - name: Push a branch for review
+        run: |
+          if git diff --quiet -- data; then
+            echo "Nothing new confirmed." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          branch="attest/corpora-${GITHUB_RUN_ID}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add data
+          git commit -m "data: attest entries from FLORES-200 and Tatoeba (run ${GITHUB_RUN_ID})"
+          git push origin "$branch"
+          echo "Pushed \`$branch\`." | tee -a "$GITHUB_STEP_SUMMARY"
