@@ -22,5 +22,15 @@ source:
   name: wiktionary
   ref: https://en.wiktionary.org/wiki/banheiro#Portuguese
   license: CC-BY-SA-4.0
-attested_by: []
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 109
+    occurrences: 174
+    precision: 0.626
+    lift: 1513.2
+    run_id: "36773416614"
+    source_revision: exports of 2026-09-30
 added_by: wiktionary-import

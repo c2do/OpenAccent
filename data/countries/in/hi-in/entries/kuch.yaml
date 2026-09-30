@@ -40,5 +40,15 @@ source:
   name: wiktionary
   ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%81%E0%A4%9B#Hindi
   license: CC-BY-SA-4.0
-attested_by: []
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 120
+    occurrences: 333
+    precision: 0.36
+    lift: 24.4
+    run_id: "36773416614"
+    source_revision: exports of 2026-09-30
 added_by: wiktionary-import

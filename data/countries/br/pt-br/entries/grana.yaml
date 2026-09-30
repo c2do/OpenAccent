@@ -23,5 +23,15 @@ source:
   name: wiktionary
   ref: https://en.wiktionary.org/wiki/grana#Portuguese
   license: CC-BY-SA-4.0
-attested_by: []
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 12
+    occurrences: 12
+    precision: 1
+    lift: 143.9
+    run_id: "36773416614"
+    source_revision: exports of 2026-09-30
 added_by: wiktionary-import
