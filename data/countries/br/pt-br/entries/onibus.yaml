@@ -25,5 +25,25 @@ source:
   name: wiktionary
   ref: https://en.wiktionary.org/wiki/%C3%B4nibus#Portuguese
   license: CC-BY-SA-4.0
-attested_by: []
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores
+    method: parallel-corpus
+    method_version: 2
+    support: 12
+    occurrences: 15
+    precision: 0.8
+    lift: 133.9
+    run_id: "36773416614"
+    source_revision: flores200_dataset.tar.gz sha256:b8b0b7678302
+  - name: tatoeba
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 728
+    occurrences: 732
+    precision: 0.995
+    lift: 387.5
+    run_id: "36773416614"
+    source_revision: exports of 2026-09-30
 added_by: wiktionary-import

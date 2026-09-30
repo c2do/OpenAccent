@@ -22,5 +22,15 @@ source:
   name: wiktionary
   ref: https://en.wiktionary.org/wiki/erstmal#German
   license: CC-BY-SA-4.0
-attested_by: []
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 6
+    occurrences: 16
+    precision: 0.375
+    lift: 67.1
+    run_id: "36773416614"
+    source_revision: exports of 2026-09-30
 added_by: wiktionary-import
