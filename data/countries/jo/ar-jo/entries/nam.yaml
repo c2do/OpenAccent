@@ -1,7 +1,7 @@
 word: "نام"
 dialect: ar-jo
 type: word
-romanized: ["nam", "anam"]
+romanized: [ "nam", "anam" ]
 part_of_speech: verb
 meanings:
   - en: "to sleep"
@@ -12,3 +12,6 @@ notes: "Present: ينام."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

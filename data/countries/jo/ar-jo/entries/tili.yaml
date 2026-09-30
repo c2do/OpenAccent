@@ -1,7 +1,7 @@
 word: "طلع"
 dialect: ar-jo
 type: word
-romanized: ["tili3", "atla3"]
+romanized: [ "tili3", "atla3" ]
 part_of_speech: verb
 meanings:
   - en: "to go out, to leave"
@@ -12,3 +12,6 @@ notes: "Present: يطلع."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

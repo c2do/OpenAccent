@@ -1,7 +1,7 @@
 word: "بارد"
 dialect: ar-jo
 type: word
-romanized: ["bared", "barid"]
+romanized: [ "bared", "barid" ]
 part_of_speech: adj
 meanings:
   - en: "cold"
@@ -11,3 +11,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

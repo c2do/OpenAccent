@@ -1,8 +1,8 @@
 word: "أعطى"
 dialect: ar-jo
 type: word
-spellings: ["عطى"]
-romanized: ["a3ta", "3ata"]
+spellings: [ "عطى" ]
+romanized: [ "a3ta", "3ata" ]
 part_of_speech: verb
 meanings:
   - en: "to give"
@@ -13,3 +13,6 @@ notes: "Present: يعطي. عطيني / اعطيني = give me."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

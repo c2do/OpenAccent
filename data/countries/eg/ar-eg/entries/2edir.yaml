@@ -13,3 +13,6 @@ notes: "Usually conjugated: أقدر، تقدر، مقدرش."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: unimorph
+    ref: https://github.com/unimorph/arz

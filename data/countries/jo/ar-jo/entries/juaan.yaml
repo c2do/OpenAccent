@@ -1,7 +1,7 @@
 word: "جوعان"
 dialect: ar-jo
 type: word
-romanized: ["jo3an", "ju3an"]
+romanized: [ "jo3an", "ju3an" ]
 part_of_speech: adj
 meanings:
   - en: "hungry"
@@ -11,3 +11,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

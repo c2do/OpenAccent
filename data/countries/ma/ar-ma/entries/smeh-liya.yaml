@@ -1,8 +1,8 @@
 word: "سمح ليا"
 dialect: ar-ma
 type: phrase
-spellings: ["سمحلي"]
-romanized: ["smeh liya", "sme7 lia", "smahli"]
+spellings: [ "سمحلي" ]
+romanized: [ "smeh liya", "sme7 lia", "smahli" ]
 part_of_speech: intj
 meanings:
   - en: "sorry, excuse me"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: doda-v1
+    ref: https://github.com/darija-open-dataset/dataset/tree/doda_v1

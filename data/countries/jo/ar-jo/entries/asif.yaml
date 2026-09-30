@@ -1,8 +1,8 @@
 word: "آسف"
 dialect: ar-jo
 type: word
-spellings: ["اسف"]
-romanized: ["asif", "aasif"]
+spellings: [ "اسف" ]
+romanized: [ "asif", "aasif" ]
 part_of_speech: intj
 meanings:
   - en: "sorry"
@@ -13,3 +13,6 @@ notes: "Feminine: آسفة."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

@@ -1,7 +1,7 @@
 word: "راح"
 dialect: ar-jo
 type: word
-romanized: ["ra7", "arou7"]
+romanized: [ "ra7", "arou7" ]
 part_of_speech: verb
 meanings:
   - en: "to go"
@@ -12,3 +12,6 @@ notes: "Present: بروح / يروح. Also the future marker راح."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

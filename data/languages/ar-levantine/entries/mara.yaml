@@ -17,3 +17,5 @@ attested_by:
     ref: https://github.com/facebookresearch/flores (2 sentence pairs)
   - name: tatoeba
     ref: https://tatoeba.org (2 sentence pairs)
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

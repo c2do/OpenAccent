@@ -1,8 +1,8 @@
 word: "قديش"
 dialect: ar-jo
 type: word
-spellings: ["قدّيش"]
-romanized: ["addesh", "gaddesh"]
+spellings: [ "قدّيش" ]
+romanized: [ "addesh", "gaddesh" ]
 pronunciation: { simple: "'addeish / gaddeish" }
 part_of_speech: adv
 meanings:
@@ -13,3 +13,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

@@ -1,7 +1,7 @@
 word: "عمل"
 dialect: ar-jo
 type: word
-romanized: ["3amal", "a3mal"]
+romanized: [ "3amal", "a3mal" ]
 part_of_speech: verb
 meanings:
   - en: "to do, to make"
@@ -12,3 +12,6 @@ notes: "Present: بعمل / يعمل."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

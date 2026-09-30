@@ -2,7 +2,7 @@ word: "بصح"
 dialect: ar-ma
 type: word
 spellings: []
-romanized: ["bessah", "bs7", "bessa7"]
+romanized: [ "bessah", "bs7", "bessa7" ]
 part_of_speech: adv
 meanings:
   - en: "really?, seriously?"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: doda-v1
+    ref: https://github.com/darija-open-dataset/dataset/tree/doda_v1

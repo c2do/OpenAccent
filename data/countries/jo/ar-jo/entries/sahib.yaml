@@ -1,7 +1,7 @@
 word: "صاحب"
 dialect: ar-jo
 type: word
-romanized: ["sa7eb", "saheb"]
+romanized: [ "sa7eb", "saheb" ]
 part_of_speech: noun
 meanings:
   - en: "friend"
@@ -12,3 +12,6 @@ notes: "صاحبي = my friend."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

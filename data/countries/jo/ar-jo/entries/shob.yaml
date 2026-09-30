@@ -1,7 +1,7 @@
 word: "شوب"
 dialect: ar-jo
 type: word
-romanized: ["shob", "shoub"]
+romanized: [ "shob", "shoub" ]
 part_of_speech: noun
 meanings:
   - en: "hot (weather), heat"
@@ -12,3 +12,6 @@ notes: "الدنيا شوب = it's hot."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon
