@@ -27,13 +27,13 @@ source:
   license: CC-BY-SA-4.0
 added_by: wiktionary-import
 attested_by:
-  - name: flores
-    ref: https://github.com/facebookresearch/flores (75 sentence pairs)
-    method: parallel-corpus
-    method_version: 1
-    support: 75
   - name: tatoeba
-    ref: https://tatoeba.org (59 sentence pairs)
+    ref: https://tatoeba.org
     method: parallel-corpus
-    method_version: 1
+    method_version: 2
     support: 59
+    occurrences: 75
+    precision: 0.787
+    lift: 6.1
+    run_id: "36769686596"
+    source_revision: exports of 2026-09-30

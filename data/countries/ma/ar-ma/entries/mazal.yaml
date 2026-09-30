@@ -13,12 +13,17 @@ status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
 attested_by:
-  - name: flores
-    ref: https://github.com/facebookresearch/flores (10 sentence pairs)
-    method: parallel-corpus
-    method_version: 1
-    support: 10
   - name: doda-v1
     ref: https://github.com/darija-open-dataset/dataset/tree/doda_v1
     method: dictionary-match
     method_version: 1
+  - name: flores
+    ref: https://github.com/facebookresearch/flores
+    method: parallel-corpus
+    method_version: 2
+    support: 10
+    occurrences: 15
+    precision: 0.667
+    lift: 35.2
+    run_id: "36769686596"
+    source_revision: flores200_dataset.tar.gz sha256:b8b0b7678302

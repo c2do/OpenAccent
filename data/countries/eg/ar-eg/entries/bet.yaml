@@ -13,17 +13,27 @@ status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
 attested_by:
-  - name: flores
-    ref: https://github.com/facebookresearch/flores (4 sentence pairs)
-    method: parallel-corpus
-    method_version: 1
-    support: 4
-  - name: tatoeba
-    ref: https://tatoeba.org (11 sentence pairs)
-    method: parallel-corpus
-    method_version: 1
-    support: 11
   - name: unimorph
     ref: https://github.com/unimorph/arz
     method: dictionary-match
     method_version: 1
+  - name: flores
+    ref: https://github.com/facebookresearch/flores
+    method: parallel-corpus
+    method_version: 2
+    support: 4
+    occurrences: 6
+    precision: 0.667
+    lift: 29.8
+    run_id: "36769686596"
+    source_revision: flores200_dataset.tar.gz sha256:b8b0b7678302
+  - name: tatoeba
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 11
+    occurrences: 11
+    precision: 1
+    lift: 92.4
+    run_id: "36769686596"
+    source_revision: exports of 2026-09-30

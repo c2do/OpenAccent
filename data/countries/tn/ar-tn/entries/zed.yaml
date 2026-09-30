@@ -27,7 +27,12 @@ source:
 added_by: wiktionary-import
 attested_by:
   - name: flores
-    ref: https://github.com/facebookresearch/flores (20 sentence pairs)
+    ref: https://github.com/facebookresearch/flores
     method: parallel-corpus
-    method_version: 1
+    method_version: 2
     support: 20
+    occurrences: 30
+    precision: 0.667
+    lift: 10.4
+    run_id: "36769686596"
+    source_revision: flores200_dataset.tar.gz sha256:b8b0b7678302

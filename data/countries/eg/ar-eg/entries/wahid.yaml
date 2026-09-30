@@ -38,12 +38,22 @@ attested_by:
     method: dictionary-match
     method_version: 1
   - name: flores
-    ref: https://github.com/facebookresearch/flores (37 sentence pairs)
+    ref: https://github.com/facebookresearch/flores
     method: parallel-corpus
-    method_version: 1
+    method_version: 2
     support: 37
+    occurrences: 62
+    precision: 0.597
+    lift: 8.1
+    run_id: "36769686596"
+    source_revision: flores200_dataset.tar.gz sha256:b8b0b7678302
   - name: tatoeba
-    ref: https://tatoeba.org (6 sentence pairs)
+    ref: https://tatoeba.org
     method: parallel-corpus
-    method_version: 1
+    method_version: 2
     support: 6
+    occurrences: 8
+    precision: 0.75
+    lift: 26
+    run_id: "36769686596"
+    source_revision: exports of 2026-09-30

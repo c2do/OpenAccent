@@ -14,7 +14,12 @@ source: { kind: ai-draft }
 added_by: claude-core-draft
 attested_by:
   - name: flores
-    ref: https://github.com/facebookresearch/flores (37 sentence pairs)
+    ref: https://github.com/facebookresearch/flores
     method: parallel-corpus
-    method_version: 1
+    method_version: 2
     support: 37
+    occurrences: 57
+    precision: 0.649
+    lift: 12.3
+    run_id: "36769686596"
+    source_revision: flores200_dataset.tar.gz sha256:b8b0b7678302
