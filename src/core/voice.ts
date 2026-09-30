@@ -1,3 +1,4 @@
+import { createHash } from 'node:crypto';
 import type { Dictionary } from './dictionary.js';
 import { MEMORY_LIMITS, type Memory } from './memory/types.js';
 import { languageOf } from './normalize.js';
@@ -13,10 +14,18 @@ const EMOJI = /\p{Extended_Pictographic}/u;
  * words they use, and how they write (Latin letters, emoji, mixed scripts). Only counts are kept,
  * never the message. Returns the updated voice; the input is not changed.
  */
+/** A short fingerprint of a message (whitespace-insensitive), for telling a repeat from a new message. */
+export const messageFingerprint = (text: string) =>
+  createHash('sha256').update(text.normalize('NFC').replace(/\s+/g, ' ').trim()).digest('hex').slice(0, 12);
+
 export function observeMessage(dict: Dictionary, memory: Memory, text: string, now: Date = new Date()): Voice {
   const voice: Voice = structuredClone(memory.voice);
   const tokens = tokenize(text);
   if (tokens.length === 0) return voice;
+  // Observing is idempotent: a message already counted (a retried or repeated tool call) changes nothing.
+  const fingerprint = messageFingerprint(text);
+  if (voice.recent.includes(fingerprint)) return voice;
+  voice.recent = [...voice.recent, fingerprint].slice(-MEMORY_LIMITS.items.voiceRecent);
 
   const primary = memory.profile.dialect;
   const home = primary ? dict.getDialect(primary)?.script : undefined;

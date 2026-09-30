@@ -20,7 +20,7 @@ export const MEMORY_LIMITS = {
   /** Characters per field. */
   chars: { dialect: 64, region: 200, notes: 2000, say: 200, instead_of: 200, meaning: 300, wrong: 300, right: 300, context: 500, text: 1000 },
   /** Items per list. */
-  items: { words: 500, corrections: 500, style: 50, dialects: 5, voiceOwn: 200, voiceDialects: 50 },
+  items: { words: 500, corrections: 500, style: 50, dialects: 5, voiceOwn: 200, voiceDialects: 50, voiceRecent: 50 },
 } as const;
 
 export type RememberInput =

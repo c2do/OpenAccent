@@ -20,7 +20,7 @@ const store = () => new FileMemoryStore(path, { now: clock });
 
 describe('FileMemoryStore', () => {
   it('starts empty when the file does not exist', () => {
-    expect(store().read()).toEqual({ version: 2, profile: { dialects: [] }, words: [], corrections: [], style: [], voice: { messages: 0, words: 0, latin: 0, emoji: 0, mixed: 0, dialects: {}, own: [] } });
+    expect(store().read()).toEqual({ version: 2, profile: { dialects: [] }, words: [], corrections: [], style: [], voice: { messages: 0, words: 0, latin: 0, emoji: 0, mixed: 0, dialects: {}, own: [], recent: [] } });
     expect(existsSync(path)).toBe(false);
   });
 

@@ -68,10 +68,27 @@ describe('several dialects', () => {
   });
 
   it('shows the other dialects and the learned voice in the briefing', () => {
-    const m = learn(fallahi({ profile: { dialect: 'ar-ps-fallahi', dialects: ['ar-eg'] } }), 'هسّع', 'دلوقتي', 'دلوقتي');
+    const m = learn(fallahi({ profile: { dialect: 'ar-ps-fallahi', dialects: ['ar-eg'] } }), 'هسّع', 'دلوقتي', 'دلوقتي جاي');
     const { text } = buildBriefing(dict, m);
     expect(text).toMatch(/\*\*Also speaks:\*\* Egyptian/);
     expect(text).toMatch(/How the user writes/);
+  });
+});
+
+describe('observing is idempotent', () => {
+  it('counts the same message once, however often it is sent', () => {
+    const once = learn(fallahi(), 'دلوقتي بجيك');
+    const twice = learn(fallahi(), 'دلوقتي بجيك', 'دلوقتي  بجيك ');
+    expect(twice.voice).toEqual(once.voice);
+    expect(twice.voice.messages).toBe(1);
+    expect(twice.voice.recent).toHaveLength(1);
+    expect(twice.voice.recent[0]).not.toContain('دلوقتي'); // a fingerprint, never the text
+  });
+
+  it('keeps only the last fingerprints', () => {
+    const m = learn(fallahi(), ...Array.from({ length: 60 }, (_, i) => `رسالة ${i}`));
+    expect(m.voice.messages).toBe(60);
+    expect(m.voice.recent).toHaveLength(50);
   });
 });
 

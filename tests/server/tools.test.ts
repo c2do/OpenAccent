@@ -28,6 +28,8 @@ describe('server', () => {
     const byName = Object.fromEntries(tools.map((t) => [t.name, t]));
     expect(byName.openaccent_lookup?.annotations?.readOnlyHint).toBe(true);
     expect(byName.openaccent_forget?.annotations?.destructiveHint).toBe(true);
+    // check_reply writes the voice profile when given user_message, so it is not read-only; repeats are not counted twice.
+    expect(byName.openaccent_check_reply?.annotations).toMatchObject({ readOnlyHint: false, destructiveHint: false, idempotentHint: true });
     expect(byName.openaccent_get_briefing?.description).toMatch(/FIRST/);
   });
 });

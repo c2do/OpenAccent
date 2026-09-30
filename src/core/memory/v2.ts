@@ -64,6 +64,11 @@ export const MemoryV2Schema = z.object({
       dialects: z.record(z.string(), count).default({}),
       /** Dialect words the user writes, most frequent first. */
       own: z.array(z.object({ word: z.string().min(1), dialect: z.string(), count })).default([]),
+      /**
+       * Short fingerprints of the last messages observed, so the same message sent twice (a retried
+       * tool call) is counted once. A fingerprint, not the message: the text itself is never stored.
+       */
+      recent: z.array(z.string()).default([]),
       updated_at: timestamp.optional(),
     })
     .prefault({}),
