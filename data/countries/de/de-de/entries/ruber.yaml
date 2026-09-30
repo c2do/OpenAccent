@@ -29,5 +29,15 @@ source:
   name: wiktionary
   ref: https://en.wiktionary.org/wiki/r%C3%BCber#German
   license: CC-BY-SA-4.0
-attested_by: []
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 5
+    occurrences: 50
+    precision: 0.1
+    lift: 131.7
+    run_id: "36772864705"
+    source_revision: exports of 2026-09-30
 added_by: wiktionary-import

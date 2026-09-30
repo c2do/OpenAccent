@@ -33,5 +33,15 @@ source:
   name: wiktionary
   ref: https://en.wiktionary.org/wiki/%E0%A4%96%E0%A4%BC%E0%A5%81%E0%A4%B6#Hindi
   license: CC-BY-SA-4.0
-attested_by: []
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 15
+    occurrences: 16
+    precision: 0.938
+    lift: 52.7
+    run_id: "36772864705"
+    source_revision: exports of 2026-09-30
 added_by: wiktionary-import

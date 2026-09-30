@@ -28,5 +28,15 @@ source:
   name: wiktionary
   ref: https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A4%BE%E0%A4%9F%E0%A4%B0#Hindi
   license: CC-BY-SA-4.0
-attested_by: []
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores
+    method: parallel-corpus
+    method_version: 2
+    support: 2
+    occurrences: 2
+    precision: 1
+    lift: 50.2
+    run_id: "36772864705"
+    source_revision: flores200_dataset.tar.gz sha256:b8b0b7678302
 added_by: wiktionary-import

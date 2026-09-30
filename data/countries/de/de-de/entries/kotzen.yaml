@@ -22,5 +22,15 @@ source:
   name: wiktionary
   ref: https://en.wiktionary.org/wiki/kotzen#German
   license: CC-BY-SA-4.0
-attested_by: []
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 7
+    occurrences: 15
+    precision: 0.467
+    lift: 4135.8
+    run_id: "36772864705"
+    source_revision: exports of 2026-09-30
 added_by: wiktionary-import

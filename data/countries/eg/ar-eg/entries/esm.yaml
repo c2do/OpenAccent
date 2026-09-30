@@ -40,7 +40,7 @@ attested_by:
     occurrences: 24
     precision: 0.375
     lift: 41.9
-    run_id: "36770487152"
+    run_id: "36772864705"
     source_revision: flores200_dataset.tar.gz sha256:b8b0b7678302
   - name: tatoeba
     ref: https://tatoeba.org
@@ -50,5 +50,5 @@ attested_by:
     occurrences: 4
     precision: 0.75
     lift: 104
-    run_id: "36770487152"
+    run_id: "36772864705"
     source_revision: exports of 2026-09-30

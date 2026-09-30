@@ -43,5 +43,25 @@ source:
   name: wiktionary
   ref: https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A5%87%E0%A4%96%E0%A4%A8%E0%A4%BE#Hindi
   license: CC-BY-SA-4.0
-attested_by: []
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores
+    method: parallel-corpus
+    method_version: 2
+    support: 3
+    occurrences: 5
+    precision: 0.6
+    lift: 15.7
+    run_id: "36772864705"
+    source_revision: flores200_dataset.tar.gz sha256:b8b0b7678302
+  - name: tatoeba
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 20
+    occurrences: 21
+    precision: 0.952
+    lift: 35.7
+    run_id: "36772864705"
+    source_revision: exports of 2026-09-30
 added_by: wiktionary-import

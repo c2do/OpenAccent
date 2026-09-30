@@ -22,5 +22,15 @@ source:
   name: wiktionary
   ref: https://en.wiktionary.org/wiki/tsch%C3%BCss#German
   license: CC-BY-SA-4.0
-attested_by: []
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 8
+    occurrences: 24
+    precision: 0.333
+    lift: 3304.7
+    run_id: "36772864705"
+    source_revision: exports of 2026-09-30
 added_by: wiktionary-import

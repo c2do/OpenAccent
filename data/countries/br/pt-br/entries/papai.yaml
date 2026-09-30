@@ -23,5 +23,15 @@ source:
   name: wiktionary
   ref: https://en.wiktionary.org/wiki/papai#Portuguese
   license: CC-BY-SA-4.0
-attested_by: []
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 39
+    occurrences: 108
+    precision: 0.361
+    lift: 586.2
+    run_id: "36772864705"
+    source_revision: exports of 2026-09-30
 added_by: wiktionary-import

@@ -25,5 +25,25 @@ source:
   name: wiktionary
   ref: https://en.wiktionary.org/wiki/%E0%A4%86%E0%A4%9C#Hindi
   license: CC-BY-SA-4.0
-attested_by: []
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores
+    method: parallel-corpus
+    method_version: 2
+    support: 24
+    occurrences: 28
+    precision: 0.857
+    lift: 55.5
+    run_id: "36772864705"
+    source_revision: flores200_dataset.tar.gz sha256:b8b0b7678302
+  - name: tatoeba
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 85
+    occurrences: 124
+    precision: 0.685
+    lift: 111.1
+    run_id: "36772864705"
+    source_revision: exports of 2026-09-30
 added_by: wiktionary-import

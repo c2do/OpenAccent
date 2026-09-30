@@ -25,5 +25,15 @@ source:
   name: wiktionary
   ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BF%E0%A4%A7%E0%A4%B0#Hindi
   license: CC-BY-SA-4.0
-attested_by: []
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 2
+    occurrences: 2
+    precision: 1
+    lift: 80.5
+    run_id: "36772864705"
+    source_revision: exports of 2026-09-30
 added_by: wiktionary-import

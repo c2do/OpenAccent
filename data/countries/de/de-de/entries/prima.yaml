@@ -22,5 +22,15 @@ source:
   name: wiktionary
   ref: https://en.wiktionary.org/wiki/prima#German
   license: CC-BY-SA-4.0
-attested_by: []
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 12
+    occurrences: 20
+    precision: 0.6
+    lift: 206
+    run_id: "36772864705"
+    source_revision: exports of 2026-09-30
 added_by: wiktionary-import
