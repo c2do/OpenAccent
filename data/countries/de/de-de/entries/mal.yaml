@@ -1,0 +1,36 @@
+word: mal
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /maːl/
+part_of_speech: adv
+meanings:
+  - en: well, by the way (serving to introduce new information)
+    examples:
+      - text: Ich geh mal zum Kaffeestand.
+        en: Well, I’m off to the coffee stall.
+    sensitive: []
+  - en: Softening a sentence, thus making a request or command more polite, making
+      an assertion more casual. By extension, indicating a command or request.
+    examples:
+      - text: Haben Sie mal Feuer?
+        en: Do you have a lighter [please]?
+      - text: Haste Feuer?
+        en: D'ya have a lighter?
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mal#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

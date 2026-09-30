@@ -1,0 +1,29 @@
+word: galinha
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡaˈlĩ.ɲɐ/
+meanings:
+  - en: who is virtually always seen with a partner
+    examples: []
+    sensitive: []
+  - en: a person (especially a woman) who is almost never single
+    examples: []
+    sensitive:
+      - offensive
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/galinha#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

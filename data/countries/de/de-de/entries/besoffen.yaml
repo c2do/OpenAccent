@@ -1,0 +1,26 @@
+word: besoffen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bəˈzɔfən/
+part_of_speech: adj
+meanings:
+  - en: drunk
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/besoffen#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

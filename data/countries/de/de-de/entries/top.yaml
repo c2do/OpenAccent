@@ -1,0 +1,29 @@
+word: top
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tɔp/
+part_of_speech: adj
+meanings:
+  - en: top (of the highest quality or rank)
+    examples:
+      - text: hopp oder top
+      - text: “Cinja ist in einer top athletischen Verfassung. Das gilt auch für
+          Svenja”, sagt er.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/top#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

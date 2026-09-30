@@ -1,0 +1,40 @@
+word: bofe
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɔ.fi/
+part_of_speech: noun
+meanings:
+  - en: man, guy
+    examples:
+      - text: Empresário, publicitário, cantor... sei lá mais o quê, mas o bofe tem
+          "aqué" (dinheiro, na gíria gay)!
+        en: Businessman, advertiser, singer... I don't know what else, but the guy's got
+          "aqué" (gay slang for money)!
+    sensitive: []
+  - en: ugly person
+    examples: []
+    sensitive:
+      - offensive
+  - en: old prostitute
+    examples: []
+    sensitive:
+      - offensive
+      - sexual
+concept: man
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bofe#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

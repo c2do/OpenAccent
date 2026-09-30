@@ -1,0 +1,29 @@
+word: ewig
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈeːvɪç/
+part_of_speech: adv
+meanings:
+  - en: always
+    examples:
+      - text: Er ist ewig am Meckern.
+        en: He's always grumping.
+    sensitive: []
+concept: always
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ewig#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

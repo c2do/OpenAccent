@@ -1,0 +1,30 @@
+word: raven
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʁɛɪ̯vn̩/
+part_of_speech: verb
+meanings:
+  - en: to rave (to attend a rave)
+    examples:
+      - text: "Es wird geravt im Funkhaus Nalepastraße. „Kepler 452b“ klingt danach,
+          Lichtjahre von der Realität entfernt zu sein. Motto des
+          Techno-Performance-Festivals: „nonprofit und nomadisch“, Levitation
+          pur."
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/raven#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

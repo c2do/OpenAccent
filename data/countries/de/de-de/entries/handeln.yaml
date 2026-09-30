@@ -1,0 +1,28 @@
+word: handeln
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhɛnd(ə)ln/
+part_of_speech: verb
+meanings:
+  - en: to handle something; to control; to deal with in an organised fashion
+    examples:
+      - text: Wir müssen sehen, wie wir dieses Problem handeln.
+        en: We must find a way of handling this problem.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/handeln#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

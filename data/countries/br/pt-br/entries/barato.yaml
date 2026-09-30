@@ -1,0 +1,33 @@
+word: barato
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /baˈɾa.tu/
+part_of_speech: noun
+meanings:
+  - en: fun (something that brings enjoyment)
+    examples:
+      - text: Esse livro é o maior barato!
+        en: That book is a lot of fun!
+      - text: Ler é um barato!
+        en: Reading is fun!
+    sensitive: []
+  - en: high (period of excitement or relaxation caused by drug use)
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/barato#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

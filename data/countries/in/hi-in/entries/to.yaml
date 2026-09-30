@@ -1,0 +1,43 @@
+word: तो
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - to
+pronunciation:
+  ipa: /t̪oː/
+part_of_speech: intj
+meanings:
+  - en: well, so
+    examples:
+      - text: तो हम क्या करें?
+        en: So what do we do?
+    sensitive: []
+  - en: so...
+    examples: []
+    sensitive: []
+  - en: really, actually
+    examples:
+      - text: सच तो यह है कि आज घर पे ही रहा।
+        en: The truth is, actually, that I stayed at home today.
+    sensitive: []
+  - en: just, at least
+    examples:
+      - text: बोलो तो!
+        en: Say [something] at least!
+    sensitive: []
+concept: fine
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A5%8B#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

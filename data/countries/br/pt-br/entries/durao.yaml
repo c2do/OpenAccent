@@ -1,0 +1,30 @@
+word: durão
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /duˈɾɐ̃w̃/
+part_of_speech: noun
+meanings:
+  - en: a tough guy
+    examples:
+      - text: Ele dá uma de durão, mas no fundo é muito emotivo e chora com qualquer
+          filme comovente.
+        en: He acts like he's the tough guy, but deep down he's very emotional and cries
+          at any moving film.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dur%C3%A3o#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

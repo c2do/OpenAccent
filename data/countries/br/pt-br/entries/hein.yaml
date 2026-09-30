@@ -1,0 +1,30 @@
+word: hein
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈẽj̃/
+part_of_speech: intj
+meanings:
+  - en: huh? hm? (reinforces a question)
+    examples:
+      - text: Onde é que você estava, hein?
+        en: Where were you?
+      - text: Qual foi? Hein?
+        en: What’s your problem? Hmm?
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hein#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

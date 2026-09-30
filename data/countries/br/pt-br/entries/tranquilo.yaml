@@ -1,0 +1,32 @@
+word: tranquilo
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tɾɐ̃ˈkwi.lu/
+part_of_speech: intj
+meanings:
+  - en: OK; no problem; all right
+    examples:
+      - text: |-
+          — Pode buscar os livros?
+          — Tranquilo.
+        en: |-
+          — Can you fetch the books?
+          — No problem.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tranquilo#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: ônibus
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈõ.ni.bus/
+part_of_speech: noun
+meanings:
+  - en: bus (motor vehicle for transporting large numbers of people)
+    examples:
+      - text: Eu vou de ônibus para a escola.
+        en: I take the bus to school.
+    sensitive: []
+concept: bus
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%C3%B4nibus#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

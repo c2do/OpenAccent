@@ -1,0 +1,30 @@
+word: pô
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpo/
+part_of_speech: intj
+meanings:
+  - en: It expresses astonishment, annoyance, boredom
+    examples:
+      - text: Pô, que difícil!
+        en: Damn, how difficult!
+      - text: Isso é legal, pô.
+        en: Damn, this is cool.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/p%C3%B4#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

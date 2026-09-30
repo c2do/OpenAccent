@@ -1,0 +1,36 @@
+word: धन
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - dhan
+pronunciation:
+  ipa: /d̪ʱən/
+part_of_speech: noun
+meanings:
+  - en: money
+    examples: []
+    sensitive: []
+  - en: wealth, riches
+    examples:
+      - text: उसने सारा धन पुत्रों में बाँट दिया।
+        en: He divided all his wealth among his sons.
+    sensitive: []
+  - en: natural resources
+    examples: []
+    sensitive: []
+concept: money
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A7%E0%A4%A8#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

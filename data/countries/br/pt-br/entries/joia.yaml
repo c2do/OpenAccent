@@ -1,0 +1,29 @@
+word: joia
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʒɔj.ɐ/
+part_of_speech: adj
+meanings:
+  - en: good, all right, fine
+    examples:
+      - text: Essa quantidade está joia.
+        en: This amount is fine.
+    sensitive: []
+concept: good
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/joia#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

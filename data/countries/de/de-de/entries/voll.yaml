@@ -1,0 +1,34 @@
+word: voll
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fɔl/
+meanings:
+  - en: full (not hungry anymore)
+    examples: []
+    sensitive: []
+  - en: drunk
+    examples: []
+    sensitive: []
+  - en: very; quite; really
+    examples:
+      - text: Das war voll gut.
+        en: That was really good.
+    sensitive: []
+concept: a_lot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/voll#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

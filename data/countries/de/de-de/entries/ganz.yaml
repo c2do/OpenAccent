@@ -1,0 +1,34 @@
+word: ganz
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡan(t)s/
+part_of_speech: adj
+meanings:
+  - en: all (with definite article or determiner)
+    examples:
+      - text: Ich hab meine ganzen Freunde eingeladen.
+        en: I’ve invited all my friends.
+    sensitive: []
+  - en: whole, intact
+    examples:
+      - text: Ist die Tasse noch ganz?
+        en: Is the cup still whole?
+    sensitive: []
+concept: all
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ganz#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

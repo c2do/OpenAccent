@@ -1,0 +1,31 @@
+word: hallihallo
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /haˈliːhaˌloː/
+part_of_speech: intj
+meanings:
+  - en: hello, hey hey, hideehi
+    examples:
+      - text: Hallihallo! Ich bin die Stefanie!
+        en: Hello! I'm Stefanie!
+      - text: Hallihallo! Sind Sie eingeschlafen?
+        en: Did you fall asleep?
+    sensitive: []
+concept: hello
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hallihallo#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

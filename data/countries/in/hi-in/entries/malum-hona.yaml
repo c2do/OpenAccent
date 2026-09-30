@@ -1,0 +1,30 @@
+word: मालूम होना
+dialect: hi-in
+type: phrase
+spellings: []
+romanized:
+  - mālūm honā
+pronunciation:
+  ipa: /mɑː.luːm ɦoː.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to know; to be aware
+    examples:
+      - text: क्या तुम्हें मालूम है कि अलास्का कनाडा के पास है?
+        en: Did you know that Alaska is near Canada?
+    sensitive: []
+concept: know
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AE%E0%A4%BE%E0%A4%B2%E0%A5%82%E0%A4%AE_%E0%A4%B9%E0%A5%8B%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

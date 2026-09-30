@@ -1,0 +1,35 @@
+word: schwul
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʃvuːl/
+part_of_speech: adj
+meanings:
+  - en: gay
+    examples: []
+    sensitive: []
+  - en: having effeminate or flamboyant qualities; fruity, queer, swishy
+    examples:
+      - text: 'Haupts Definition seiner Geschlechtsidentität lautet: "Klar, man hat sich
+          schwul zu verhalten." Auf eine noch kürzere Formel gebracht: Schwul
+          sein, ohne Schwuchtel zu sein.'
+        en: "Haupt's definition of his gender identity is: \"Sure, you have to act
+          gay.\" Put even more succinctly: Being gay without being a sissy."
+    sensitive:
+      - offensive
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/schwul#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

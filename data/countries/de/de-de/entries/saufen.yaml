@@ -1,0 +1,30 @@
+word: saufen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈzaʊ̯fən/
+part_of_speech: verb
+meanings:
+  - en: to drink, especially in large quantities; to quaff; to swig
+    examples: []
+    sensitive: []
+  - en: to booze; to consume alcohol excessively (in terms of quantity or frequency)
+    examples: []
+    sensitive: []
+concept: drink
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/saufen#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

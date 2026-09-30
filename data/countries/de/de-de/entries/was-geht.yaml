@@ -1,0 +1,27 @@
+word: was geht
+dialect: de-de
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /vas ˈɡeːt/
+part_of_speech: phrase
+meanings:
+  - en: what's up
+    examples: []
+    sensitive: []
+concept: whats_up
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/was_geht#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: lotação
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /lo.taˈsɐ̃w̃/
+part_of_speech: noun
+meanings:
+  - en: bus (public transport)
+    examples: []
+    sensitive: []
+concept: bus
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/lota%C3%A7%C3%A3o#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

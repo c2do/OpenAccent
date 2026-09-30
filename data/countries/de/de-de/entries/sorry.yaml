@@ -1,0 +1,30 @@
+word: sorry
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈzɔʁi/
+part_of_speech: intj
+meanings:
+  - en: sorry (expressing regret)
+    examples:
+      - text: "[…]Armin Laschet und Olaf Scholz wollen vor allem die alte BRD bewahren
+          und die Methode Merkel mit, sorry, schwächeren Mitteln prolongieren;
+          […]"
+    sensitive: []
+concept: sorry
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sorry#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

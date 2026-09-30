@@ -1,0 +1,25 @@
+word: andauernd
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: constant, incessant (occuring very often, not necessarily a strictly ongoing
+      activity)
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/andauernd#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

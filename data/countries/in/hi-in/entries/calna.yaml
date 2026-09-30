@@ -1,0 +1,43 @@
+word: चलना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - calnā
+pronunciation:
+  ipa: /t͡ʃəl.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to go, to move; to walk, stroll
+    examples:
+      - text: मैं दुकान चलके जाऊँगा।
+        en: I will go to shop by walking.
+    sensitive: []
+  - en: to go, to move; to come
+    examples:
+      - text: तुम शाम को ज़रा देर के लिए मेरे घर तक चली चलना।
+        en: In the evening, come over to my house for a little while.
+    sensitive: []
+  - en: to go, to move; to leave, depart, set out
+    examples:
+      - text: अब यहाँ से चलो।
+        en: Let's leave from here now.
+    sensitive: []
+  - en: to go, to move; to be moved or played (in games)
+    examples: []
+    sensitive: []
+concept: go
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A4%B2%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: wie ist es
+dialect: de-de
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /viˈʔɪ.zəs/
+part_of_speech: phrase
+meanings:
+  - en: how are you?; how are things going?
+    examples:
+      - text: Na? Wie ist es?
+        en: Hey! How are you?
+    sensitive: []
+concept: how_are_you
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wie_ist_es#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

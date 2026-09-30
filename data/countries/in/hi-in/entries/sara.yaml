@@ -1,0 +1,30 @@
+word: सारा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - sārā
+pronunciation:
+  ipa: /sɑː.ɾɑː/
+part_of_speech: det
+meanings:
+  - en: all
+    examples:
+      - text: सारे लोग
+        en: all of the people
+    sensitive: []
+concept: all
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: morô
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /moˈɾo/
+part_of_speech: intj
+meanings:
+  - en: alright? OK? understood?
+    examples:
+      - text: Não quero mais vocês andando por aqui, morô?
+        en: I don't want you walking around here anymore, am I clear?
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mor%C3%B4#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: tschüss
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃʏs/
+part_of_speech: intj
+meanings:
+  - en: bye, cheers, ciao
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tsch%C3%BCss#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

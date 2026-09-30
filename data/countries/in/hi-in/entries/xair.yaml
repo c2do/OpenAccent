@@ -1,0 +1,32 @@
+word: ख़ैर
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - xair
+pronunciation:
+  ipa: /xɛːɾ/
+meanings:
+  - en: well, anyway
+    examples:
+      - text: ख़ैर, मैं बहुत अपने बारे बात कर रही हूँ, तुम्हारे वहां क्या चल रहा है?
+        en: Anyway, I'm talking a lot about myself, what's going on with you?
+    sensitive: []
+  - en: well-being, health
+    examples: []
+    sensitive: []
+concept: fine
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%96%E0%A4%BC%E0%A5%88%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

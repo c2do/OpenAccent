@@ -1,0 +1,30 @@
+word: काफ़ी
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kāfī
+pronunciation:
+  ipa: /kɑː.fiː/
+meanings:
+  - en: enough, sufficient
+    examples: []
+    sensitive: []
+  - en: quite
+    examples: []
+    sensitive: []
+concept: enough
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%AB%E0%A4%BC%E0%A5%80#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

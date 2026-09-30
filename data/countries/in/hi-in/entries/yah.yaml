@@ -1,0 +1,30 @@
+word: यह
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - yah
+pronunciation:
+  ipa: /jəɦ/
+part_of_speech: det
+meanings:
+  - en: this
+    examples:
+      - text: यह मकान बहुत बड़ा है।
+        en: This house is large.
+    sensitive: []
+concept: this
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AF%E0%A4%B9#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

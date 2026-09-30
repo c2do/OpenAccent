@@ -1,0 +1,37 @@
+word: बाबा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bābā
+pronunciation:
+  ipa: /bɑː.bɑː/
+part_of_speech: noun
+meanings:
+  - en: dad, papa
+    examples: []
+    sensitive: []
+  - en: paternal grandfather
+    examples: []
+    sensitive: []
+  - en: a male elder
+    examples: []
+    sensitive: []
+  - en: a small child
+    examples: []
+    sensitive: []
+concept: dad
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%BE%E0%A4%AC%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import
