@@ -27,3 +27,6 @@ source:
   ref: https://en.wiktionary.org/wiki/%D9%83%D8%A7%D9%85#Egyptian_Arabic
   license: CC-BY-SA-4.0
 added_by: wiktionary-import
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org (10 sentence pairs)

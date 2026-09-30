@@ -28,3 +28,8 @@ source:
   ref: https://en.wiktionary.org/wiki/%D8%A7%D9%86%D8%AA#Hijazi_Arabic
   license: CC-BY-SA-4.0
 added_by: wiktionary-import
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (2 sentence pairs)
+  - name: tatoeba
+    ref: https://tatoeba.org (2 sentence pairs)

@@ -26,3 +26,5 @@ added_by: wiktionary-import
 attested_by:
   - name: unimorph
     ref: https://github.com/unimorph/arz
+  - name: tatoeba
+    ref: https://tatoeba.org (4 sentence pairs)
