@@ -1,8 +1,8 @@
 word: "منيح"
 dialect: ar-jo
 type: word
-spellings: ["منيحة"]
-romanized: ["mnee7", "mnih"]
+spellings: [ "منيحة" ]
+romanized: [ "mnee7", "mnih" ]
 part_of_speech: adj
 meanings:
   - en: "fine, well"
@@ -14,3 +14,8 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (14 sentence pairs)
+  - name: tatoeba
+    ref: https://tatoeba.org (2 sentence pairs)

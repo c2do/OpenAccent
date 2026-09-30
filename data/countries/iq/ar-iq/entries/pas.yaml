@@ -1,7 +1,7 @@
 word: "باص"
 dialect: ar-iq
 type: word
-romanized: ["pas", "bas"]
+romanized: [ "pas", "bas" ]
 pronunciation: { simple: "paas" }
 part_of_speech: noun
 meanings:
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (5 sentence pairs)

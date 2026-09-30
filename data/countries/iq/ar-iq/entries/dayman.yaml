@@ -1,8 +1,8 @@
 word: "دايماً"
 dialect: ar-iq
 type: word
-spellings: ["دائماً", "دايما"]
-romanized: ["dayman", "da2iman"]
+spellings: [ "دائماً", "دايما" ]
+romanized: [ "dayman", "da2iman" ]
 part_of_speech: adv
 meanings:
   - en: "always"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (8 sentence pairs)

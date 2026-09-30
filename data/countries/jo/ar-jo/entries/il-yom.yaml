@@ -1,7 +1,7 @@
 word: "اليوم"
 dialect: ar-jo
 type: word
-romanized: ["il yom", "elyom"]
+romanized: [ "il yom", "elyom" ]
 part_of_speech: adv
 meanings:
   - en: "today"
@@ -11,3 +11,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (30 sentence pairs)

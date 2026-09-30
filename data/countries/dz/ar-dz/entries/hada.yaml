@@ -1,8 +1,8 @@
 word: هادا
 dialect: ar-dz
 type: word
-spellings: ["هذا"]
-romanized: ["hada"]
+spellings: [ "هذا" ]
+romanized: [ "hada" ]
 part_of_speech: pron
 meanings:
   - en: "this (m.)"
@@ -13,3 +13,6 @@ notes: "Feminine هادي."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org (14 sentence pairs)

@@ -1,8 +1,8 @@
 word: "مرة"
 dialect: ar-jo
 type: word
-spellings: ["مره"]
-romanized: ["mara", "mareh"]
+spellings: [ "مره" ]
+romanized: [ "mara", "mareh" ]
 part_of_speech: noun
 meanings:
   - en: "woman"
@@ -13,3 +13,6 @@ notes: "Also 'wife' (مرته = his wife)."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org (2 sentence pairs)

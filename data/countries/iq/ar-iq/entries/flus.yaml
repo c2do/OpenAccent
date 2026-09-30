@@ -1,7 +1,7 @@
 word: "فلوس"
 dialect: ar-iq
 type: word
-romanized: ["floos", "flus"]
+romanized: [ "floos", "flus" ]
 part_of_speech: noun
 meanings:
   - en: "money"
@@ -11,3 +11,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (4 sentence pairs)

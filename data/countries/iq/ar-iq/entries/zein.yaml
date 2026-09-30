@@ -1,7 +1,7 @@
 word: "زين"
 dialect: ar-iq
 type: word
-romanized: ["zein", "zen"]
+romanized: [ "zein", "zen" ]
 part_of_speech: adj
 meanings:
   - en: "fine, well"
@@ -16,3 +16,6 @@ notes: "Also used alone as 'okay'. Before a noun, خوش is more usual for 'good
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (6 sentence pairs)

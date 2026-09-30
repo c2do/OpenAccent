@@ -1,7 +1,7 @@
 word: "حكى"
 dialect: ar-jo
 type: word
-romanized: ["7aka", "ba7ki"]
+romanized: [ "7aka", "ba7ki" ]
 part_of_speech: verb
 meanings:
   - en: "to talk, to speak, to say"
@@ -12,3 +12,8 @@ notes: "Present: بحكي / يحكي."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (4 sentence pairs)
+  - name: tatoeba
+    ref: https://tatoeba.org (3 sentence pairs)

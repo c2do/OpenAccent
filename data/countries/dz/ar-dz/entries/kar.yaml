@@ -1,7 +1,7 @@
 word: كار
 dialect: ar-dz
 type: word
-romanized: ["kar", "car"]
+romanized: [ "kar", "car" ]
 part_of_speech: noun
 meanings:
   - en: "bus, coach"
@@ -12,3 +12,6 @@ notes: "From French car."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org (6 sentence pairs)

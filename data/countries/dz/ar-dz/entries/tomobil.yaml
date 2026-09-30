@@ -1,8 +1,8 @@
 word: طوموبيل
 dialect: ar-dz
 type: word
-spellings: ["طونوبيل"]
-romanized: ["tomobil", "tonobil"]
+spellings: [ "طونوبيل" ]
+romanized: [ "tomobil", "tonobil" ]
 part_of_speech: noun
 meanings:
   - en: "car"
@@ -13,3 +13,6 @@ notes: "From French automobile."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org (26 sentence pairs)

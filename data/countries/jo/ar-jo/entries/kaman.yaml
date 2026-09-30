@@ -1,7 +1,7 @@
 word: "كمان"
 dialect: ar-jo
 type: word
-romanized: ["kaman", "kamaan"]
+romanized: [ "kaman", "kamaan" ]
 part_of_speech: adv
 meanings:
   - en: "also, too"
@@ -11,3 +11,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (93 sentence pairs)

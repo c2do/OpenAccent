@@ -1,7 +1,7 @@
 word: "بعدين"
 dialect: ar-jo
 type: word
-romanized: ["ba3dein", "ba3den"]
+romanized: [ "ba3dein", "ba3den" ]
 part_of_speech: adv
 meanings:
   - en: "later"
@@ -11,3 +11,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (9 sentence pairs)

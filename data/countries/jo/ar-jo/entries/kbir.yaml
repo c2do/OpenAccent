@@ -1,7 +1,7 @@
 word: "كبير"
 dialect: ar-jo
 type: word
-romanized: ["kbeer", "kabeer"]
+romanized: [ "kbeer", "kabeer" ]
 part_of_speech: adj
 meanings:
   - en: "big"
@@ -11,3 +11,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (3 sentence pairs)

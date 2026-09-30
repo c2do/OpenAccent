@@ -1,7 +1,7 @@
 word: بزاف
 dialect: ar-dz
 type: word
-romanized: ["bezzaf", "bzaf"]
+romanized: [ "bezzaf", "bzaf" ]
 part_of_speech: adv
 meanings:
   - en: "a lot, very"
@@ -11,3 +11,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org (31 sentence pairs)
