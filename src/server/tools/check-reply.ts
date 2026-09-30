@@ -23,12 +23,14 @@ export function registerCheckReply(server: McpServer, ctx: ServerContext) {
           .max(4000)
           .optional()
           .describe(
-            'The user’s last message, as they wrote it. OpenAccent learns how they speak from it (which dialects, their own words, how they write). Only counts are kept, never the message.',
+            'The user’s last message, as they wrote it. OpenAccent learns how they speak from it (which dialects, their own words, how they write). Only counts are kept, never the message; sending the same message again does not count it twice.',
           ),
         purpose: PurposeSchema.default('chat').describe('chat | story | song | script | game. Scripts may spell words as spoken; songs and stories may use old words.'),
       }),
       outputSchema: CheckResultSchema,
-      annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
+      // Not read-only: with user_message it updates the voice profile in memory. Idempotent: the same
+      // message sent again is recognized and not counted twice (see observeMessage).
+      annotations: { readOnlyHint: false, destructiveHint: false, idempotentHint: true, openWorldHint: false },
     },
     async ({ text, dialect, user_message, purpose }) =>
       guard(() => {

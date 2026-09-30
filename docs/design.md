@@ -273,6 +273,8 @@ Memory is stored as local, human-readable JSON:
   - how long their messages are;
   - how often they write in Latin letters (Arabizi), use emoji, or mix scripts.
 
+  Observing is idempotent: the store keeps a 12-character SHA-256 fingerprint of each of the last 50 messages, and a message it has already seen (a retried tool call) changes nothing. So `check_reply` is annotated `idempotentHint: true` but not `readOnlyHint`, since it writes memory when given `user_message`.
+
   After 3 messages the briefing gets a "How the user writes" section (dialect mix, their words, reply length, habits), and a word the user has written twice is never flagged. `openaccent_forget` with `voice: true` clears it all.
 
 **Concurrent writers.** Claude Desktop and the CLI can use the same file. Every change is read-modify-write under a lock file (`memory.json.lock`, created exclusively), then written with an atomic rename, so neither corruption nor lost updates can happen. A lock older than 10 s is treated as abandoned by a crashed process.

@@ -105,7 +105,7 @@ describe('DialectSchema', () => {
 describe('MemorySchema', () => {
   it('parses an empty memory with defaults', () => {
     const m = MemorySchema.parse({ version: CURRENT_MEMORY_VERSION });
-    expect(m).toEqual({ version: 2, profile: { dialects: [] }, words: [], corrections: [], style: [], voice: { messages: 0, words: 0, latin: 0, emoji: 0, mixed: 0, dialects: {}, own: [] } });
+    expect(m).toEqual({ version: 2, profile: { dialects: [] }, words: [], corrections: [], style: [], voice: { messages: 0, words: 0, latin: 0, emoji: 0, mixed: 0, dialects: {}, own: [], recent: [] } });
   });
 
   it('parses items', () => {
