@@ -1,7 +1,7 @@
 word: "سهل"
 dialect: ar-iq
 type: word
-romanized: ["sahil", "sahl"]
+romanized: [ "sahil", "sahl" ]
 part_of_speech: adj
 meanings:
   - en: "easy"
@@ -11,3 +11,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (8 sentence pairs)

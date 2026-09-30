@@ -1,8 +1,8 @@
 word: درك
 dialect: ar-dz
 type: word
-spellings: ["ضرك", "دروك"]
-romanized: ["drk", "dork", "derwek"]
+spellings: [ "ضرك", "دروك" ]
+romanized: [ "drk", "dork", "derwek" ]
 part_of_speech: adv
 meanings:
   - en: "now"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org (9 sentence pairs)

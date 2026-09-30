@@ -1,8 +1,8 @@
 word: "مي"
 dialect: ar-jo
 type: word
-spellings: ["ميّ", "ميه"]
-romanized: ["mayy", "mai"]
+spellings: [ "ميّ", "ميه" ]
+romanized: [ "mayy", "mai" ]
 part_of_speech: noun
 meanings:
   - en: "water"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (16 sentence pairs)

@@ -1,7 +1,7 @@
 word: "عرف"
 dialect: ar-jo
 type: word
-romanized: ["3irif", "ba3ref"]
+romanized: [ "3irif", "ba3ref" ]
 part_of_speech: verb
 meanings:
   - en: "to know"
@@ -12,3 +12,6 @@ notes: "Present: بعرف / يعرف."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (2 sentence pairs)

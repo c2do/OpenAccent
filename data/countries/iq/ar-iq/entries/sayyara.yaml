@@ -1,8 +1,8 @@
 word: "سيارة"
 dialect: ar-iq
 type: word
-spellings: ["سياره"]
-romanized: ["sayyara", "siyara"]
+spellings: [ "سياره" ]
+romanized: [ "sayyara", "siyara" ]
 part_of_speech: noun
 meanings:
   - en: "car"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (16 sentence pairs)

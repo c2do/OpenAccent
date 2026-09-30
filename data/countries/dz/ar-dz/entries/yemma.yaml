@@ -1,7 +1,7 @@
 word: يما
 dialect: ar-dz
 type: word
-romanized: ["yemma", "yma"]
+romanized: [ "yemma", "yma" ]
 part_of_speech: noun
 meanings:
   - en: "mom"
@@ -11,3 +11,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org (2 sentence pairs)

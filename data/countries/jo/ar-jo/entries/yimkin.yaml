@@ -1,7 +1,7 @@
 word: "يمكن"
 dialect: ar-jo
 type: word
-romanized: ["yimkin", "yemken"]
+romanized: [ "yimkin", "yemken" ]
 part_of_speech: adv
 meanings:
   - en: "maybe"
@@ -11,3 +11,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (2 sentence pairs)

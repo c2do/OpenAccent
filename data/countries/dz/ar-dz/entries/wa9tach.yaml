@@ -1,7 +1,7 @@
 word: وقتاش
 dialect: ar-dz
 type: word
-romanized: ["wa9tach", "waqtach"]
+romanized: [ "wa9tach", "waqtach" ]
 part_of_speech: adv
 meanings:
   - en: "when"
@@ -11,3 +11,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org (15 sentence pairs)

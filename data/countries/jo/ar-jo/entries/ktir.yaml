@@ -1,8 +1,8 @@
 word: "كثير"
 dialect: ar-jo
 type: word
-spellings: ["كتير"]
-romanized: ["kteer", "ktheer"]
+spellings: [ "كتير" ]
+romanized: [ "kteer", "ktheer" ]
 pronunciation: { simple: "kteer" }
 part_of_speech: adv
 meanings:
@@ -13,3 +13,8 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (43 sentence pairs)
+  - name: tatoeba
+    ref: https://tatoeba.org (3 sentence pairs)

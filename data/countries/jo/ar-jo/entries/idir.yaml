@@ -1,7 +1,7 @@
 word: "قدر"
 dialect: ar-jo
 type: word
-romanized: ["2idir", "gidir"]
+romanized: [ "2idir", "gidir" ]
 pronunciation: { simple: "'idir / gidir" }
 part_of_speech: verb
 meanings:
@@ -13,3 +13,6 @@ notes: "Present: بقدر / يقدر."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (5 sentence pairs)

@@ -1,8 +1,8 @@
 word: "كلش"
 dialect: ar-iq
 type: word
-spellings: ["كلّش"]
-romanized: ["kullish", "kulish"]
+spellings: [ "كلّش" ]
+romanized: [ "kullish", "kulish" ]
 part_of_speech: adv
 meanings:
   - en: "very"
@@ -13,3 +13,6 @@ notes: "Before adjectives: كلش حلو."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (16 sentence pairs)

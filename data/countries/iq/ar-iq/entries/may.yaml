@@ -1,7 +1,7 @@
 word: "ماي"
 dialect: ar-iq
 type: word
-romanized: ["maay", "mai"]
+romanized: [ "maay", "mai" ]
 part_of_speech: noun
 meanings:
   - en: "water"
@@ -11,3 +11,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (2 sentence pairs)

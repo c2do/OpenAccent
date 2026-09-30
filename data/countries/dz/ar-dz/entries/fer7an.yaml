@@ -1,7 +1,7 @@
 word: فرحان
 dialect: ar-dz
 type: word
-romanized: ["fer7an", "farhan"]
+romanized: [ "fer7an", "farhan" ]
 part_of_speech: adj
 meanings:
   - en: "happy"
@@ -11,3 +11,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org (3 sentence pairs)

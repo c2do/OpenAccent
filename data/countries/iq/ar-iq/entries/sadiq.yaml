@@ -1,7 +1,7 @@
 word: "صديق"
 dialect: ar-iq
 type: word
-romanized: ["sadeeq", "sadiq"]
+romanized: [ "sadeeq", "sadiq" ]
 part_of_speech: noun
 meanings:
   - en: "friend"
@@ -11,3 +11,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (2 sentence pairs)

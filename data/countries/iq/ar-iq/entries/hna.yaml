@@ -1,7 +1,7 @@
 word: "هنا"
 dialect: ar-iq
 type: word
-romanized: ["hna", "hnaa"]
+romanized: [ "hna", "hnaa" ]
 pronunciation: { simple: "hnaa" }
 part_of_speech: adv
 meanings:
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (6 sentence pairs)

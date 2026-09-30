@@ -1,7 +1,7 @@
 word: "اشتغل"
 dialect: ar-iq
 type: word
-romanized: ["ishtighal", "ashtaghil"]
+romanized: [ "ishtighal", "ashtaghil" ]
 part_of_speech: verb
 meanings:
   - en: "to work"
@@ -12,3 +12,6 @@ notes: "Present: يشتغل."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (2 sentence pairs)

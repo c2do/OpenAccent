@@ -1,7 +1,7 @@
 word: شحال
 dialect: ar-dz
 type: word
-romanized: ["ch7al", "chhal"]
+romanized: [ "ch7al", "chhal" ]
 part_of_speech: adv
 meanings:
   - en: "how much, how many"
@@ -11,3 +11,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org (7 sentence pairs)

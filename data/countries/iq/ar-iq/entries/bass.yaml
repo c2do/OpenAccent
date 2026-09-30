@@ -1,7 +1,7 @@
 word: "بس"
 dialect: ar-iq
 type: word
-romanized: ["bass", "bas"]
+romanized: [ "bass", "bas" ]
 part_of_speech: intj
 meanings:
   - en: "enough, stop"
@@ -13,3 +13,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (50 sentence pairs)

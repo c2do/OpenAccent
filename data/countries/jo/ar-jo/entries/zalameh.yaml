@@ -1,8 +1,8 @@
 word: "زلمة"
 dialect: ar-jo
 type: word
-spellings: ["زلمه"]
-romanized: ["zalameh", "zalame"]
+spellings: [ "زلمه" ]
+romanized: [ "zalameh", "zalame" ]
 part_of_speech: noun
 meanings:
   - en: "man"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (3 sentence pairs)

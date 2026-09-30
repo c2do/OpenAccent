@@ -1,7 +1,7 @@
 word: "فهم"
 dialect: ar-jo
 type: word
-romanized: ["fihim", "bafham"]
+romanized: [ "fihim", "bafham" ]
 part_of_speech: verb
 meanings:
   - en: "to understand"
@@ -12,3 +12,6 @@ notes: "Present: بفهم / يفهم."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (7 sentence pairs)

@@ -1,8 +1,8 @@
 word: "لسا"
 dialect: ar-jo
 type: word
-spellings: ["لسّا", "لسه"]
-romanized: ["lissa", "lessa"]
+spellings: [ "لسّا", "لسه" ]
+romanized: [ "lissa", "lessa" ]
 part_of_speech: adv
 meanings:
   - en: "still, (not) yet"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (20 sentence pairs)

@@ -1,8 +1,8 @@
 word: أيا
 dialect: ar-dz
 type: word
-spellings: ["ايا"]
-romanized: ["aya", "ayya"]
+spellings: [ "ايا" ]
+romanized: [ "aya", "ayya" ]
 part_of_speech: interj
 meanings:
   - en: "let's go, come on"
@@ -13,3 +13,6 @@ notes: "Often أيا نروحو."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org (2 sentence pairs)

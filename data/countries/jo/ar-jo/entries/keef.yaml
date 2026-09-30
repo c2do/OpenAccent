@@ -1,7 +1,7 @@
 word: "كيف"
 dialect: ar-jo
 type: word
-romanized: ["keef", "kif"]
+romanized: [ "keef", "kif" ]
 part_of_speech: adv
 meanings:
   - en: "how"
@@ -11,3 +11,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (7 sentence pairs)
