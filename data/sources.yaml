@@ -9,6 +9,30 @@ allowed:
     url: https://sites.google.com/nyu.edu/palestine-lexicon
     attribution: "Dibas, Khairallah, Habash et al. (2022), Maknuune: A Large Open Palestinian Arabic Lexicon"
     note: License confirmed in the dictionary's own source (maknuune_dict/dictionary.tex, CC BY-SA 4.0). Parsed from github.com/CAMeL-Lab/maknuune_lexicon.
+  curras:
+    title: Curras v2 — Palestinian Arabic annotated corpus (Birzeit University)
+    license: CC-BY-4.0
+    url: https://sina.birzeit.edu/currasat/
+    attribution: "Jarrar et al. (2017, 2023), Curras: an annotated corpus for the Palestinian Arabic dialect"
+    note: License stated on the official download page (checked 2026-09-30 with the probe-source workflow). The Masader catalog lists an older version as custom; use version 2. Download needs a Google Form.
+  lisan:
+    title: Lisan — Iraqi, Sudanese, Libyan and Yemeni annotated corpora (Birzeit University)
+    license: CC-BY-4.0
+    url: https://sina.birzeit.edu/currasat/
+    attribution: "Jarrar et al. (2023), Lisan: Yemeni, Iraqi, Libyan, and Sudanese Arabic Dialect Corpora with Morphological Annotations"
+    note: Every token has a dialect lemma, POS and English gloss, annotated by native speakers. License on the official page (checked 2026-09-30). Download needs a Google Form.
+  nabra:
+    title: Nabra — Syrian Arabic annotated corpus (Birzeit University)
+    license: CC-BY-4.0
+    url: https://sina.birzeit.edu/currasat/
+    attribution: "Nayouf, Hammouda, Jarrar et al. (2023), Nabra: Syrian Arabic Dialects with Morphological Annotations"
+    note: License on the official page (checked 2026-09-30). Download needs a Google Form.
+  baladi:
+    title: Baladi — Lebanese Arabic annotated corpus (Birzeit University)
+    license: CC-BY-4.0
+    url: https://sina.birzeit.edu/currasat/
+    attribution: "Haff, Jarrar et al. (2022), Curras + Baladi: Towards a Levantine Corpus"
+    note: License on the official page (checked 2026-09-30). Download needs a Google Form.
   unimorph:
     title: UniMorph Gulf (afb) and Egyptian (arz) lemma glosses (CAMeL Lab)
     license: CC-BY-SA-3.0
@@ -43,7 +67,6 @@ allowed:
     attribution: Glottolog, Max Planck Institute for Evolutionary Anthropology
 
 blocked:
-  curras: Custom license (non-commercial), per the Masader catalog and the download page; earlier listed as CC BY 4.0 by mistake.
   madar: Research-only license; no redistribution or modification.
   nadi: Registration required; research/non-commercial only.
   living-arabic: All rights reserved; reproduction prohibited without authorization.
