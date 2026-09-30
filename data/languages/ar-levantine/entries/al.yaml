@@ -45,8 +45,3 @@ attested_by:
     ref: https://github.com/CAMeL-Lab/maknuune_lexicon
     method: dictionary-match
     method_version: 1
-  - name: flores
-    ref: https://github.com/facebookresearch/flores (7 sentence pairs)
-    method: parallel-corpus
-    method_version: 1
-    support: 7

@@ -28,13 +28,13 @@ attested_by:
     ref: https://github.com/CAMeL-Lab/maknuune_lexicon
     method: dictionary-match
     method_version: 1
-  - name: flores
-    ref: https://github.com/facebookresearch/flores (14 sentence pairs)
-    method: parallel-corpus
-    method_version: 1
-    support: 14
   - name: tatoeba
-    ref: https://tatoeba.org (8 sentence pairs)
+    ref: https://tatoeba.org
     method: parallel-corpus
-    method_version: 1
+    method_version: 2
     support: 8
+    occurrences: 9
+    precision: 0.889
+    lift: 6.8
+    run_id: "36770487152"
+    source_revision: exports of 2026-09-30

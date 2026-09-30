@@ -40,8 +40,3 @@ attested_by:
     ref: https://github.com/unimorph/afb
     method: dictionary-match
     method_version: 1
-  - name: flores
-    ref: https://github.com/facebookresearch/flores (4 sentence pairs)
-    method: parallel-corpus
-    method_version: 1
-    support: 4

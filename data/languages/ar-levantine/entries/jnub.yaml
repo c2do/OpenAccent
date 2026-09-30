@@ -30,7 +30,12 @@ attested_by:
     method: dictionary-match
     method_version: 1
   - name: flores
-    ref: https://github.com/facebookresearch/flores (49 sentence pairs)
+    ref: https://github.com/facebookresearch/flores
     method: parallel-corpus
-    method_version: 1
+    method_version: 2
     support: 49
+    occurrences: 67
+    precision: 0.731
+    lift: 44.5
+    run_id: "36770487152"
+    source_revision: flores200_dataset.tar.gz sha256:b8b0b7678302

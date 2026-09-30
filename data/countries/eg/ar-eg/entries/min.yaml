@@ -27,7 +27,12 @@ source:
 added_by: wiktionary-import
 attested_by:
   - name: tatoeba
-    ref: https://tatoeba.org (21 sentence pairs)
+    ref: https://tatoeba.org
     method: parallel-corpus
-    method_version: 1
-    support: 21
+    method_version: 2
+    support: 19
+    occurrences: 24
+    precision: 0.792
+    lift: 35.4
+    run_id: "36770487152"
+    source_revision: exports of 2026-09-30
