@@ -1,0 +1,13 @@
+word: شحال
+dialect: ar-dz
+type: word
+romanized: ["ch7al", "chhal"]
+part_of_speech: adv
+meanings:
+  - en: "how much, how many"
+    ar: "كم"
+concept: how_much
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

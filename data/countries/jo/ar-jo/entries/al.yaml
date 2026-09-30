@@ -1,0 +1,15 @@
+word: "قال"
+dialect: ar-jo
+type: word
+romanized: ["al", "gal"]
+pronunciation: { simple: "'aal / gaal" }
+part_of_speech: verb
+meanings:
+  - en: "to say"
+    ar: "يقول"
+concept: say
+familiarity: common
+notes: "Present: يقول. حكى is also common for 'say'."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

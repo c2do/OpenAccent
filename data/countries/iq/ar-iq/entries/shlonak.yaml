@@ -1,0 +1,14 @@
+word: "شلونك"
+dialect: ar-iq
+type: expression
+romanized: ["shlonak", "shlonich"]
+part_of_speech: phrase
+meanings:
+  - en: "how are you?"
+    ar: "كيف حالك؟"
+concept: how_are_you
+familiarity: common
+notes: "To a woman: شلونچ / شلونك (shlonich). Plural: شلونكم."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: "هداك"
+dialect: ar-jo
+type: word
+romanized: ["hadak", "hadaak"]
+part_of_speech: pron
+meanings:
+  - en: "that"
+    ar: "ذلك"
+concept: that
+familiarity: common
+notes: "Feminine: هديك."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

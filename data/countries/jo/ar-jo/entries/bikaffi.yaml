@@ -1,0 +1,13 @@
+word: "بكفي"
+dialect: ar-jo
+type: word
+romanized: ["bikaffi", "bekaffi"]
+part_of_speech: verb
+meanings:
+  - en: "enough, that's enough"
+    ar: "كفى"
+concept: enough
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

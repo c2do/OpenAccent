@@ -1,0 +1,13 @@
+word: "مين"
+dialect: ar-jo
+type: word
+romanized: ["meen", "min"]
+part_of_speech: pron
+meanings:
+  - en: "who"
+    ar: "من"
+concept: who
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: داير
+dialect: ar-sd
+type: word
+romanized: ["dayir", "dayer"]
+part_of_speech: adj
+meanings:
+  - en: "wanting (داير أمشي = I want to go)"
+    ar: "يريد"
+concept: want
+familiarity: common
+notes: "Feminine دايرة, plural دايرين."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

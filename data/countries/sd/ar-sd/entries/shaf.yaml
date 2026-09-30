@@ -1,0 +1,13 @@
+word: شاف
+dialect: ar-sd
+type: word
+romanized: ["shaf"]
+part_of_speech: verb
+meanings:
+  - en: "see, look"
+    ar: "يرى"
+concept: see
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,13 @@
+word: بارد
+dialect: ar-sd
+type: word
+romanized: ["barid"]
+part_of_speech: adj
+meanings:
+  - en: "cold"
+    ar: "بارد"
+concept: cold
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

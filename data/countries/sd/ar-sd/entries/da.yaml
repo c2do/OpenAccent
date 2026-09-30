@@ -1,0 +1,15 @@
+word: دا
+dialect: ar-sd
+type: word
+spellings: ["ده"]
+romanized: ["da"]
+part_of_speech: pron
+meanings:
+  - en: "this (m.)"
+    ar: "هذا"
+concept: this
+familiarity: common
+notes: "Feminine دي; follows the noun."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

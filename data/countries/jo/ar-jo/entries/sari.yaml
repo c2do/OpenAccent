@@ -1,0 +1,13 @@
+word: "سريع"
+dialect: ar-jo
+type: word
+romanized: ["saree3", "sari3"]
+part_of_speech: adj
+meanings:
+  - en: "fast"
+    ar: "سريع"
+concept: fast
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

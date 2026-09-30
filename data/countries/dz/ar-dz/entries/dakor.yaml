@@ -1,0 +1,15 @@
+word: داكور
+dialect: ar-dz
+type: word
+spellings: ["دكور"]
+romanized: ["dakor", "d'accord"]
+part_of_speech: interj
+meanings:
+  - en: "okay, agreed"
+    ar: "حسناً"
+concept: okay
+familiarity: common
+notes: "From French d'accord."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

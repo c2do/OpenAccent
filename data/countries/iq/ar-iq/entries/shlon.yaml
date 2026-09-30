@@ -1,0 +1,13 @@
+word: "شلون"
+dialect: ar-iq
+type: word
+romanized: ["shlon"]
+part_of_speech: adv
+meanings:
+  - en: "how"
+    ar: "كيف"
+concept: how
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

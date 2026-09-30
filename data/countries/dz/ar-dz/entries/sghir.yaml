@@ -1,0 +1,13 @@
+word: صغير
+dialect: ar-dz
+type: word
+romanized: ["sghir"]
+part_of_speech: adj
+meanings:
+  - en: "small"
+    ar: "صغير"
+concept: small
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

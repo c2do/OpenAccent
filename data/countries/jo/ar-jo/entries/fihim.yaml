@@ -1,0 +1,14 @@
+word: "فهم"
+dialect: ar-jo
+type: word
+romanized: ["fihim", "bafham"]
+part_of_speech: verb
+meanings:
+  - en: "to understand"
+    ar: "يفهم"
+concept: understand
+familiarity: common
+notes: "Present: بفهم / يفهم."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

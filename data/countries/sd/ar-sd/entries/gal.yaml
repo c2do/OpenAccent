@@ -1,0 +1,14 @@
+word: قال
+dialect: ar-sd
+type: word
+romanized: ["gal", "gaal"]
+pronunciation: { simple: "gaal" }
+part_of_speech: verb
+meanings:
+  - en: "say"
+    ar: "يقول"
+concept: say
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: "لسا"
+dialect: ar-jo
+type: word
+spellings: ["لسّا", "لسه"]
+romanized: ["lissa", "lessa"]
+part_of_speech: adv
+meanings:
+  - en: "still, (not) yet"
+    ar: "ما زال"
+concept: still
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

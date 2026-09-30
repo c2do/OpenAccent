@@ -1,0 +1,14 @@
+word: "عرف"
+dialect: ar-jo
+type: word
+romanized: ["3irif", "ba3ref"]
+part_of_speech: verb
+meanings:
+  - en: "to know"
+    ar: "يعرف"
+concept: know
+familiarity: common
+notes: "Present: بعرف / يعرف."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

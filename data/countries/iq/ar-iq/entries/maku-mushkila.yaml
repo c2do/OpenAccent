@@ -1,0 +1,13 @@
+word: "ماكو مشكلة"
+dialect: ar-iq
+type: expression
+romanized: ["maku mushkila", "mako moshkila"]
+part_of_speech: phrase
+meanings:
+  - en: "no problem"
+    ar: "لا مشكلة"
+concept: no_problem
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

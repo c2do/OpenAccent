@@ -1,0 +1,13 @@
+word: مازال
+dialect: ar-dz
+type: word
+romanized: ["mazal"]
+part_of_speech: adv
+meanings:
+  - en: "still, not yet"
+    ar: "ما زال"
+concept: still
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

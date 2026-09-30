@@ -1,0 +1,17 @@
+word: "أكل"
+dialect: ar-iq
+type: word
+spellings: ["اكل"]
+romanized: ["akal", "akil"]
+part_of_speech: verb
+meanings:
+  - en: "to eat"
+    ar: "يأكل"
+  - en: "food"
+    ar: "طعام"
+concept: eat
+familiarity: common
+notes: "Present: ياكل. As a noun (akil) it also means food."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

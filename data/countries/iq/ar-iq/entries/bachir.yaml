@@ -1,0 +1,15 @@
+word: "باچر"
+dialect: ar-iq
+type: word
+spellings: ["باكر"]
+romanized: ["bachir", "bacher"]
+pronunciation: { simple: "baachir" }
+part_of_speech: adv
+meanings:
+  - en: "tomorrow"
+    ar: "غداً"
+concept: tomorrow
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

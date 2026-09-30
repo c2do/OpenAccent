@@ -1,0 +1,13 @@
+word: شنو
+dialect: ar-sd
+type: word
+romanized: ["shinu", "shnu"]
+part_of_speech: pron
+meanings:
+  - en: "what"
+    ar: "ماذا"
+concept: what
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

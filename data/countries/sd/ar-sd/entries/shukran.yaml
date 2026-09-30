@@ -1,0 +1,13 @@
+word: شكرا
+dialect: ar-sd
+type: word
+romanized: ["shukran", "shokran"]
+part_of_speech: interj
+meanings:
+  - en: "thank you"
+    ar: "شكراً"
+concept: thanks
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

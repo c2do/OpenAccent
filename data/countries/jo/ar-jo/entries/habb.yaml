@@ -1,0 +1,14 @@
+word: "حب"
+dialect: ar-jo
+type: word
+romanized: ["7abb", "ba7eb"]
+part_of_speech: verb
+meanings:
+  - en: "to like, to love"
+    ar: "يحب"
+concept: like
+familiarity: common
+notes: "Present: بحب / يحب."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

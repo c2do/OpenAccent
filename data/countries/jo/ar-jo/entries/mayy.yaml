@@ -1,0 +1,14 @@
+word: "مي"
+dialect: ar-jo
+type: word
+spellings: ["ميّ", "ميه"]
+romanized: ["mayy", "mai"]
+part_of_speech: noun
+meanings:
+  - en: "water"
+    ar: "ماء"
+concept: water
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

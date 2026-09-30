@@ -1,0 +1,13 @@
+word: صعيب
+dialect: ar-dz
+type: word
+romanized: ["s3ib", "sa3ib"]
+part_of_speech: adj
+meanings:
+  - en: "difficult"
+    ar: "صعب"
+concept: hard
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

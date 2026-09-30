@@ -1,0 +1,14 @@
+word: "هم"
+dialect: ar-iq
+type: word
+romanized: ["hamm", "ham"]
+part_of_speech: adv
+meanings:
+  - en: "also, too"
+    ar: "أيضاً"
+concept: also
+familiarity: common
+notes: "آني هم = me too."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

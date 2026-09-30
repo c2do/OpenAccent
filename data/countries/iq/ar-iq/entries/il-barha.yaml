@@ -1,0 +1,14 @@
+word: "البارحة"
+dialect: ar-iq
+type: word
+spellings: ["البارحه"]
+romanized: ["il barha", "albarha"]
+part_of_speech: adv
+meanings:
+  - en: "yesterday"
+    ar: "أمس"
+concept: yesterday
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

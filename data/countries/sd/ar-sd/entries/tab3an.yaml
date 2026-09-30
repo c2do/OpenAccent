@@ -1,0 +1,13 @@
+word: طبعا
+dialect: ar-sd
+type: word
+romanized: ["tab3an"]
+part_of_speech: interj
+meanings:
+  - en: "of course"
+    ar: "طبعاً"
+concept: of_course
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

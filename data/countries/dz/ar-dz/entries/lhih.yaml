@@ -1,0 +1,14 @@
+word: لهيه
+dialect: ar-dz
+type: word
+spellings: ["لهيك"]
+romanized: ["lhih"]
+part_of_speech: adv
+meanings:
+  - en: "there, over there"
+    ar: "هناك"
+concept: there
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

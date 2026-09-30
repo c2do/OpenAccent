@@ -1,0 +1,14 @@
+word: جد
+dialect: ar-sd
+type: word
+romanized: ["jad", "jadd"]
+part_of_speech: interj
+meanings:
+  - en: "really? seriously?"
+    ar: "حقاً؟"
+concept: really
+familiarity: common
+notes: "Also بالجد and والله؟."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,13 @@
+word: العفو
+dialect: ar-sd
+type: word
+romanized: ["al3afu", "el3afw"]
+part_of_speech: interj
+meanings:
+  - en: "you're welcome"
+    ar: "عفواً"
+concept: youre_welcome
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

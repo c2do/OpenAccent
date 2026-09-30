@@ -1,0 +1,14 @@
+word: "فهم"
+dialect: ar-iq
+type: word
+romanized: ["fiham", "afham"]
+part_of_speech: verb
+meanings:
+  - en: "to understand"
+    ar: "يفهم"
+concept: understand
+familiarity: common
+notes: "Present: يفهم."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

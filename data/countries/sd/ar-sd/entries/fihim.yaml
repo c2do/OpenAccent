@@ -1,0 +1,13 @@
+word: فهم
+dialect: ar-sd
+type: word
+romanized: ["fihim"]
+part_of_speech: verb
+meanings:
+  - en: "understand"
+    ar: "يفهم"
+concept: understand
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

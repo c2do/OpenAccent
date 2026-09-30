@@ -1,0 +1,13 @@
+word: اتكلم
+dialect: ar-sd
+type: word
+romanized: ["itkallam"]
+part_of_speech: verb
+meanings:
+  - en: "talk, speak"
+    ar: "يتكلم"
+concept: talk
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,16 @@
+word: "حكى"
+dialect: ar-iq
+type: word
+spellings: ["حچى"]
+romanized: ["hicha", "ahchi"]
+pronunciation: { simple: "hicha" }
+part_of_speech: verb
+meanings:
+  - en: "to talk, to speak"
+    ar: "يتكلم"
+concept: talk
+familiarity: common
+notes: "Present: يحچي / يحكي."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

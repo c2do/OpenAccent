@@ -1,0 +1,14 @@
+word: اصبر
+dialect: ar-sd
+type: word
+romanized: ["asbur", "osbur"]
+part_of_speech: verb
+meanings:
+  - en: "wait"
+    ar: "ينتظر"
+concept: wait
+familiarity: common
+notes: "اصبر شوية = wait a bit."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

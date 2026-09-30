@@ -1,0 +1,14 @@
+word: داك
+dialect: ar-sd
+type: word
+romanized: ["dak"]
+part_of_speech: pron
+meanings:
+  - en: "that (m.)"
+    ar: "ذلك"
+concept: that
+familiarity: common
+notes: "Feminine ديك."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

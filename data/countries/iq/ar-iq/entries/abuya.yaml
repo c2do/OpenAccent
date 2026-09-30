@@ -1,0 +1,14 @@
+word: "أبوي"
+dialect: ar-iq
+type: word
+spellings: ["ابويه", "ابوي"]
+romanized: ["abuya", "aboi"]
+part_of_speech: noun
+meanings:
+  - en: "dad"
+    ar: "أبي"
+concept: dad
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

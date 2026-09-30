@@ -1,0 +1,13 @@
+word: "مش منيح"
+dialect: ar-jo
+type: phrase
+romanized: ["mish mnee7", "mush mni7"]
+part_of_speech: adj
+meanings:
+  - en: "bad, not good"
+    ar: "سيء"
+concept: bad
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

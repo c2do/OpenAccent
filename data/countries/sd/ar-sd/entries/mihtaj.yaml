@@ -1,0 +1,13 @@
+word: محتاج
+dialect: ar-sd
+type: word
+romanized: ["mihtaj", "mehtaj"]
+part_of_speech: adj
+meanings:
+  - en: "needing (محتاج ليها = I need it)"
+    ar: "يحتاج"
+concept: need
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

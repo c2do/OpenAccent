@@ -1,0 +1,14 @@
+word: "عمل"
+dialect: ar-jo
+type: word
+romanized: ["3amal", "a3mal"]
+part_of_speech: verb
+meanings:
+  - en: "to do, to make"
+    ar: "يفعل"
+concept: do
+familiarity: common
+notes: "Present: بعمل / يعمل."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,13 @@
+word: عرف
+dialect: ar-sd
+type: word
+romanized: ["3irif", "irif"]
+part_of_speech: verb
+meanings:
+  - en: "know"
+    ar: "يعرف"
+concept: know
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: "زغير"
+dialect: ar-iq
+type: word
+spellings: ["زغيّر"]
+romanized: ["zgheer", "zghayyir"]
+part_of_speech: adj
+meanings:
+  - en: "small"
+    ar: "صغير"
+concept: small
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

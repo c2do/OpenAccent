@@ -1,0 +1,13 @@
+word: شوية
+dialect: ar-dz
+type: word
+romanized: ["chwiya", "chwia"]
+part_of_speech: adv
+meanings:
+  - en: "a little"
+    ar: "قليلاً"
+concept: a_little
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

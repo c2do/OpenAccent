@@ -1,0 +1,14 @@
+word: "اشتغل"
+dialect: ar-iq
+type: word
+romanized: ["ishtighal", "ashtaghil"]
+part_of_speech: verb
+meanings:
+  - en: "to work"
+    ar: "يعمل"
+concept: work_verb
+familiarity: common
+notes: "Present: يشتغل."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

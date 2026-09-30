@@ -1,0 +1,15 @@
+word: "قدر"
+dialect: ar-jo
+type: word
+romanized: ["2idir", "gidir"]
+pronunciation: { simple: "'idir / gidir" }
+part_of_speech: verb
+meanings:
+  - en: "to be able, can"
+    ar: "يستطيع"
+concept: can
+familiarity: common
+notes: "Present: بقدر / يقدر."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

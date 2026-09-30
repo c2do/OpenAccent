@@ -1,0 +1,14 @@
+word: شال
+dialect: ar-sd
+type: word
+romanized: ["shal"]
+part_of_speech: verb
+meanings:
+  - en: "take, carry"
+    ar: "يأخذ"
+concept: take
+familiarity: common
+notes: "Imperative شيل."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

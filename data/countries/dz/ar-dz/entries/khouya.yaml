@@ -1,0 +1,13 @@
+word: خويا
+dialect: ar-dz
+type: word
+romanized: ["khouya", "khoya"]
+part_of_speech: noun
+meanings:
+  - en: "buddy, bro (addressing a man)"
+    ar: "يا صاحبي"
+concept: buddy
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

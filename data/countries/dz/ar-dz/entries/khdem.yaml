@@ -1,0 +1,13 @@
+word: خدم
+dialect: ar-dz
+type: word
+romanized: ["khdem", "khdam"]
+part_of_speech: verb
+meanings:
+  - en: "work"
+    ar: "يعمل"
+concept: work_verb
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

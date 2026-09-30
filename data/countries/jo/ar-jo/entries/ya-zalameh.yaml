@@ -1,0 +1,13 @@
+word: "يا زلمة"
+dialect: ar-jo
+type: expression
+romanized: ["ya zalameh", "ya zalame"]
+part_of_speech: intj
+meanings:
+  - en: "buddy, dude (addressing a man)"
+    ar: "يا صاحبي"
+concept: buddy
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

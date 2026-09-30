@@ -1,0 +1,13 @@
+word: طيب
+dialect: ar-sd
+type: word
+romanized: ["tayyib", "tayeb"]
+part_of_speech: interj
+meanings:
+  - en: "okay"
+    ar: "حسناً"
+concept: okay
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

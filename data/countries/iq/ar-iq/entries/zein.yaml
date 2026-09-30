@@ -1,0 +1,18 @@
+word: "زين"
+dialect: ar-iq
+type: word
+romanized: ["zein", "zen"]
+part_of_speech: adj
+meanings:
+  - en: "fine, well"
+    ar: "بخير"
+  - en: "good"
+    ar: "جيد"
+  - en: "okay, all right"
+    ar: "حسناً"
+concept: fine
+familiarity: common
+notes: "Also used alone as 'okay'. Before a noun, خوش is more usual for 'good'."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

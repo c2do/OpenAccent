@@ -1,0 +1,14 @@
+word: بورطابل
+dialect: ar-dz
+type: word
+romanized: ["portable", "portabl"]
+part_of_speech: noun
+meanings:
+  - en: "mobile phone"
+    ar: "هاتف"
+concept: phone
+familiarity: common
+notes: "From French portable."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

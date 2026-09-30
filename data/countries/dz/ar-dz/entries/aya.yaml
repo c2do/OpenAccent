@@ -1,0 +1,15 @@
+word: أيا
+dialect: ar-dz
+type: word
+spellings: ["ايا"]
+romanized: ["aya", "ayya"]
+part_of_speech: interj
+meanings:
+  - en: "let's go, come on"
+    ar: "هيا بنا"
+concept: lets_go
+familiarity: common
+notes: "Often أيا نروحو."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

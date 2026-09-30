@@ -1,0 +1,14 @@
+word: "هواية"
+dialect: ar-iq
+type: word
+spellings: ["هوايه"]
+romanized: ["hwaya", "hwaaya"]
+part_of_speech: adv
+meanings:
+  - en: "a lot, many"
+    ar: "كثيراً"
+concept: a_lot
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

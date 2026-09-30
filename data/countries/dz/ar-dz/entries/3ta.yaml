@@ -1,0 +1,13 @@
+word: عطى
+dialect: ar-dz
+type: word
+romanized: ["3ta", "aata"]
+part_of_speech: verb
+meanings:
+  - en: "give"
+    ar: "يعطي"
+concept: give
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

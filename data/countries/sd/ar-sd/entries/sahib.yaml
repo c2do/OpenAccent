@@ -1,0 +1,13 @@
+word: صاحب
+dialect: ar-sd
+type: word
+romanized: ["sahib", "sa7ib"]
+part_of_speech: noun
+meanings:
+  - en: "friend"
+    ar: "صديق"
+concept: friend
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

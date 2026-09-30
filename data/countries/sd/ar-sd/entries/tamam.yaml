@@ -1,0 +1,14 @@
+word: تمام
+dialect: ar-sd
+type: word
+romanized: ["tamam"]
+part_of_speech: adj
+meanings:
+  - en: "fine, well"
+    ar: "بخير"
+concept: fine
+familiarity: common
+notes: "Often تمام الحمد لله."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

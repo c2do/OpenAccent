@@ -1,0 +1,13 @@
+word: حب
+dialect: ar-dz
+type: word
+romanized: ["7ab", "hab"]
+part_of_speech: verb
+meanings:
+  - en: "like, love"
+    ar: "يحب"
+concept: like
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

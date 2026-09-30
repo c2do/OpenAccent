@@ -1,0 +1,13 @@
+word: "غالي"
+dialect: ar-jo
+type: word
+romanized: ["ghali"]
+part_of_speech: adj
+meanings:
+  - en: "expensive"
+    ar: "غالٍ"
+concept: expensive
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

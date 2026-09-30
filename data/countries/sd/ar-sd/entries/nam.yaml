@@ -1,0 +1,13 @@
+word: نام
+dialect: ar-sd
+type: word
+romanized: ["nam"]
+part_of_speech: verb
+meanings:
+  - en: "sleep"
+    ar: "ينام"
+concept: sleep
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

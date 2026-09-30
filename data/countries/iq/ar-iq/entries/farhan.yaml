@@ -1,0 +1,13 @@
+word: "فرحان"
+dialect: ar-iq
+type: word
+romanized: ["farhaan", "farhan"]
+part_of_speech: adj
+meanings:
+  - en: "happy"
+    ar: "سعيد"
+concept: happy
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

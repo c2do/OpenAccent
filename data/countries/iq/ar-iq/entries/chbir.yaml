@@ -1,0 +1,15 @@
+word: "كبير"
+dialect: ar-iq
+type: word
+spellings: ["چبير"]
+romanized: ["chbeer", "kabeer"]
+pronunciation: { simple: "chbeer" }
+part_of_speech: adj
+meanings:
+  - en: "big"
+    ar: "كبير"
+concept: big
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

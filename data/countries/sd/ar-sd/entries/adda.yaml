@@ -1,0 +1,15 @@
+word: أدّى
+dialect: ar-sd
+type: word
+spellings: ["ادى"]
+romanized: ["adda"]
+part_of_speech: verb
+meanings:
+  - en: "give"
+    ar: "يعطي"
+concept: give
+familiarity: common
+notes: "أدّاني = he gave me."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

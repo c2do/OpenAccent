@@ -1,0 +1,14 @@
+word: هسع
+dialect: ar-sd
+type: word
+spellings: ["هسّع"]
+romanized: ["hassa3", "hassa"]
+part_of_speech: adv
+meanings:
+  - en: "now"
+    ar: "الآن"
+concept: now
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

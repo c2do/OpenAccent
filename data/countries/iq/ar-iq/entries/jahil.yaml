@@ -1,0 +1,14 @@
+word: "جاهل"
+dialect: ar-iq
+type: word
+romanized: ["jaahil", "jahil"]
+part_of_speech: noun
+meanings:
+  - en: "child"
+    ar: "طفل"
+concept: child
+familiarity: common
+notes: "Plural: جهّال (kids). Does not mean 'ignorant' in this sense."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

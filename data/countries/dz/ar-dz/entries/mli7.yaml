@@ -1,0 +1,13 @@
+word: مليح
+dialect: ar-dz
+type: word
+romanized: ["mli7", "mlih"]
+part_of_speech: adj
+meanings:
+  - en: "good"
+    ar: "جيد"
+concept: good
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

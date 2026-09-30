@@ -1,0 +1,13 @@
+word: مشى
+dialect: ar-sd
+type: word
+romanized: ["masha"]
+part_of_speech: verb
+meanings:
+  - en: "go"
+    ar: "يذهب"
+concept: go
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

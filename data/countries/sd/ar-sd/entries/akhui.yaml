@@ -1,0 +1,14 @@
+word: أخوي
+dialect: ar-sd
+type: word
+spellings: ["اخوي"]
+romanized: ["akhui", "akhuy"]
+part_of_speech: noun
+meanings:
+  - en: "my brother"
+    ar: "أخي"
+concept: brother
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

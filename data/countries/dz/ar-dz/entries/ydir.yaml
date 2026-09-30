@@ -1,0 +1,14 @@
+word: يدير
+dialect: ar-dz
+type: word
+romanized: ["ydir", "dir"]
+part_of_speech: verb
+meanings:
+  - en: "do, make"
+    ar: "يفعل"
+concept: do
+familiarity: common
+notes: "Past دار."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

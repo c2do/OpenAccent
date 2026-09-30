@@ -1,0 +1,14 @@
+word: "سيارة"
+dialect: ar-jo
+type: word
+spellings: ["سياره"]
+romanized: ["sayyara", "sayara"]
+part_of_speech: noun
+meanings:
+  - en: "car"
+    ar: "سيارة"
+concept: car
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

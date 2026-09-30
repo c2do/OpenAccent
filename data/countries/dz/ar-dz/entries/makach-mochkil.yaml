@@ -1,0 +1,13 @@
+word: ماكاش مشكل
+dialect: ar-dz
+type: phrase
+romanized: ["makach mochkil", "makach mouchkil"]
+part_of_speech: phrase
+meanings:
+  - en: "no problem"
+    ar: "لا مشكلة"
+concept: no_problem
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: "خوش"
+dialect: ar-iq
+type: word
+romanized: ["khosh", "khoush"]
+part_of_speech: adj
+meanings:
+  - en: "good"
+    ar: "جيد"
+concept: good
+familiarity: common
+notes: "Placed before a noun: خوش فكرة, خوش ولد."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

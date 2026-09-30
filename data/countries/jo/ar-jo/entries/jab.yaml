@@ -1,0 +1,14 @@
+word: "جاب"
+dialect: ar-jo
+type: word
+romanized: ["jab", "ajeeb"]
+part_of_speech: verb
+meanings:
+  - en: "to bring"
+    ar: "يحضر"
+concept: bring
+familiarity: common
+notes: "Present: يجيب. جيب = bring (imperative)."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

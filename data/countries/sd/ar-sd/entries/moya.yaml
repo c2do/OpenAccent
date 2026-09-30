@@ -1,0 +1,14 @@
+word: موية
+dialect: ar-sd
+type: word
+spellings: ["مويه"]
+romanized: ["moya", "moyah"]
+part_of_speech: noun
+meanings:
+  - en: "water"
+    ar: "ماء"
+concept: water
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,13 @@
+word: "حبي"
+dialect: ar-iq
+type: word
+romanized: ["habbi", "7abbi"]
+part_of_speech: intj
+meanings:
+  - en: "buddy, dear (addressing someone)"
+    ar: "يا صاحبي"
+concept: buddy
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

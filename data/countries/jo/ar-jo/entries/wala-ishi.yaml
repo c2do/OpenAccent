@@ -1,0 +1,14 @@
+word: "ولا إشي"
+dialect: ar-jo
+type: expression
+spellings: ["ولا اشي"]
+romanized: ["wala ishi", "wala eshi"]
+part_of_speech: phrase
+meanings:
+  - en: "nothing"
+    ar: "لا شيء"
+concept: nothing
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

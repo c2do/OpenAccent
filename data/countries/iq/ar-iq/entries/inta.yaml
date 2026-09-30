@@ -1,0 +1,14 @@
+word: "انطى"
+dialect: ar-iq
+type: word
+romanized: ["inta", "intini"]
+part_of_speech: verb
+meanings:
+  - en: "to give"
+    ar: "يعطي"
+concept: give
+familiarity: common
+notes: "Present: ينطي. انطيني = give me."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

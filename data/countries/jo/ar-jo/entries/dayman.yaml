@@ -1,0 +1,14 @@
+word: "دايماً"
+dialect: ar-jo
+type: word
+spellings: ["دائماً", "دايما"]
+romanized: ["dayman"]
+part_of_speech: adv
+meanings:
+  - en: "always"
+    ar: "دائماً"
+concept: always
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

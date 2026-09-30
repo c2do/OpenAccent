@@ -1,0 +1,15 @@
+word: "هاد"
+dialect: ar-jo
+type: word
+spellings: ["هادا", "هاذا"]
+romanized: ["had", "hada"]
+part_of_speech: pron
+meanings:
+  - en: "this"
+    ar: "هذا"
+concept: this
+familiarity: common
+notes: "Feminine: هاي. Plural: هدول."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: "اشتغل"
+dialect: ar-jo
+type: word
+romanized: ["ishtaghal", "bashtghel"]
+part_of_speech: verb
+meanings:
+  - en: "to work"
+    ar: "يعمل"
+concept: work_verb
+familiarity: common
+notes: "Present: بشتغل / يشتغل."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: أكل
+dialect: ar-sd
+type: word
+spellings: ["اكل"]
+romanized: ["akil", "akl"]
+part_of_speech: noun
+meanings:
+  - en: "food"
+    ar: "طعام"
+concept: food
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

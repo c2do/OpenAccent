@@ -1,0 +1,13 @@
+word: استنى
+dialect: ar-dz
+type: word
+romanized: ["stenna", "stena"]
+part_of_speech: verb
+meanings:
+  - en: "wait"
+    ar: "ينتظر"
+concept: wait
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

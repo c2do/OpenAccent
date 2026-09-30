@@ -1,0 +1,13 @@
+word: "بعيد"
+dialect: ar-jo
+type: word
+romanized: ["b3eed", "ba3eed"]
+part_of_speech: adj
+meanings:
+  - en: "far"
+    ar: "بعيد"
+concept: far
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

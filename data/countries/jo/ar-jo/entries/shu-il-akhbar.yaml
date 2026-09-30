@@ -1,0 +1,14 @@
+word: "شو الأخبار"
+dialect: ar-jo
+type: expression
+spellings: ["شو الاخبار"]
+romanized: ["shu il akhbar", "sho elakhbar"]
+part_of_speech: phrase
+meanings:
+  - en: "what's up?"
+    ar: "ما الأخبار؟"
+concept: whats_up
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

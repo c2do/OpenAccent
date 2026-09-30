@@ -1,0 +1,16 @@
+word: "منيح"
+dialect: ar-jo
+type: word
+spellings: ["منيحة"]
+romanized: ["mnee7", "mnih"]
+part_of_speech: adj
+meanings:
+  - en: "fine, well"
+    ar: "بخير"
+  - en: "good"
+    ar: "جيد"
+concept: fine
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: أبدا
+dialect: ar-sd
+type: word
+spellings: ["ابدا"]
+romanized: ["abadan"]
+part_of_speech: adv
+meanings:
+  - en: "never, not at all"
+    ar: "أبداً"
+concept: never
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

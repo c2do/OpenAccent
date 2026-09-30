@@ -1,0 +1,13 @@
+word: ماعليش
+dialect: ar-dz
+type: word
+romanized: ["ma3lich", "ma3lish"]
+part_of_speech: interj
+meanings:
+  - en: "never mind, it's okay"
+    ar: "لا يهم"
+concept: never_mind
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

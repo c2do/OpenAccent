@@ -1,0 +1,13 @@
+word: "شنو"
+dialect: ar-iq
+type: word
+romanized: ["shinu", "shno"]
+part_of_speech: pron
+meanings:
+  - en: "what"
+    ar: "ماذا"
+concept: what
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

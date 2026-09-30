@@ -1,0 +1,13 @@
+word: باكر
+dialect: ar-sd
+type: word
+romanized: ["bakir", "baakir"]
+part_of_speech: adv
+meanings:
+  - en: "tomorrow"
+    ar: "غداً"
+concept: tomorrow
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

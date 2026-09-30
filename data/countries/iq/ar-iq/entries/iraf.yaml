@@ -1,0 +1,14 @@
+word: "عرف"
+dialect: ar-iq
+type: word
+romanized: ["3iraf", "a3ruf"]
+part_of_speech: verb
+meanings:
+  - en: "to know"
+    ar: "يعرف"
+concept: know
+familiarity: common
+notes: "Present: يعرف. For facts, ما أدري (I don't know) is very common."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

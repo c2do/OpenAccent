@@ -1,0 +1,15 @@
+word: ستحق
+dialect: ar-dz
+type: word
+spellings: ["نستحق"]
+romanized: ["sta7a9", "nesta7a9"]
+part_of_speech: verb
+meanings:
+  - en: "need"
+    ar: "يحتاج"
+concept: need
+familiarity: common
+notes: "Usually راني نستحق."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

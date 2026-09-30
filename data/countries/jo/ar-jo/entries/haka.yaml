@@ -1,0 +1,14 @@
+word: "حكى"
+dialect: ar-jo
+type: word
+romanized: ["7aka", "ba7ki"]
+part_of_speech: verb
+meanings:
+  - en: "to talk, to speak, to say"
+    ar: "يتكلم"
+concept: talk
+familiarity: common
+notes: "Present: بحكي / يحكي."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

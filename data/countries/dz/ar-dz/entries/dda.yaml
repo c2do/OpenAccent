@@ -1,0 +1,15 @@
+word: دّى
+dialect: ar-dz
+type: word
+spellings: ["دا"]
+romanized: ["dda", "ddi"]
+part_of_speech: verb
+meanings:
+  - en: "take (away)"
+    ar: "يأخذ"
+concept: take
+familiarity: common
+notes: "Imperative دّي."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

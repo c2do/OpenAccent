@@ -1,0 +1,14 @@
+word: "إمتى"
+dialect: ar-jo
+type: word
+spellings: ["امتى", "متى"]
+romanized: ["imta", "emta"]
+part_of_speech: adv
+meanings:
+  - en: "when"
+    ar: "متى"
+concept: when
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

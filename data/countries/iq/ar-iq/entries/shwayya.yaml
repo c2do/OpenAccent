@@ -1,0 +1,14 @@
+word: "شوية"
+dialect: ar-iq
+type: word
+spellings: ["شويه", "شوي"]
+romanized: ["shwayya", "shwaya"]
+part_of_speech: adv
+meanings:
+  - en: "a little"
+    ar: "قليلاً"
+concept: a_little
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: "بعد"
+dialect: ar-iq
+type: word
+romanized: ["ba3ad", "ba3d"]
+part_of_speech: adv
+meanings:
+  - en: "still, yet"
+    ar: "ما زال"
+concept: still
+familiarity: common
+notes: "With pronoun suffixes: بعده نايم (he's still asleep), بعدني (I'm still)."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

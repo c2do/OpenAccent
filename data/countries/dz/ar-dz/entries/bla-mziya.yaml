@@ -1,0 +1,13 @@
+word: بلا مزية
+dialect: ar-dz
+type: phrase
+romanized: ["bla mziya", "bla mzia"]
+part_of_speech: phrase
+meanings:
+  - en: "you're welcome"
+    ar: "عفواً"
+concept: youre_welcome
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

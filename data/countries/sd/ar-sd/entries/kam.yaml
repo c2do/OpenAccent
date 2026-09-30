@@ -1,0 +1,14 @@
+word: كم
+dialect: ar-sd
+type: word
+romanized: ["kam"]
+part_of_speech: adv
+meanings:
+  - en: "how much, how many"
+    ar: "كم"
+concept: how_much
+familiarity: common
+notes: "For price: بكم."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft
