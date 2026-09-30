@@ -1,0 +1,15 @@
+word: "قدر"
+dialect: ar-levantine
+type: word
+spellings: [ "أدر" ]
+romanized: [ "2idir", "idir", "eder" ]
+part_of_speech: verb
+meanings:
+  - en: "to be able to, can"
+    ar: "يستطيع"
+concept: can
+familiarity: common
+notes: "Present: بقدر (I can). The ق is a glottal stop in the cities."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,15 @@
+word: "شوب"
+dialect: ar-levantine
+type: word
+spellings: []
+romanized: [ "shob", "shoob" ]
+part_of_speech: adj
+meanings:
+  - en: "hot (of weather)"
+    ar: "حار"
+concept: hot
+familiarity: common
+notes: "For weather: الدنيا شوب."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

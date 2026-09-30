@@ -1,0 +1,14 @@
+word: "معلش"
+dialect: ar-eg
+type: word
+spellings: []
+romanized: [ "ma3lesh" ]
+part_of_speech: intj
+meanings:
+  - en: "never mind; sorry"
+    ar: "لا يهم"
+concept: never_mind
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

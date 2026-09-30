@@ -1,0 +1,15 @@
+word: "تيليفون"
+dialect: ar-ma
+type: word
+spellings: ["تلفون"]
+romanized: ["tilifun", "telephone", "tilifon"]
+part_of_speech: noun
+meanings:
+  - en: "phone"
+    ar: "هاتف"
+concept: "phone"
+familiarity: common
+notes: "From French téléphone."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

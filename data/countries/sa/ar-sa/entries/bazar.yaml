@@ -1,0 +1,15 @@
+word: "بزر"
+dialect: ar-sa
+type: word
+spellings: []
+romanized: [ "bazar", "bizr" ]
+part_of_speech: noun
+meanings:
+  - en: "child, kid"
+    ar: "طفل"
+concept: child
+familiarity: common
+notes: "Plural بزارين. Informal."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

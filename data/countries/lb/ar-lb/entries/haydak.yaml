@@ -1,0 +1,15 @@
+word: "هيداك"
+dialect: ar-lb
+type: word
+spellings: []
+romanized: [ "haydak", "hayda" ]
+part_of_speech: pron
+meanings:
+  - en: "that (m.)"
+    ar: "ذلك"
+concept: that
+familiarity: common
+notes: "Feminine: هيديك. Plural: هيدوليك."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

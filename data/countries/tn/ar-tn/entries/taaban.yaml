@@ -1,0 +1,14 @@
+word: "تعبان"
+dialect: ar-tn
+type: word
+spellings: []
+romanized: ["ta3ban", "taaban", "t3ban"]
+part_of_speech: adj
+meanings:
+  - en: "tired"
+    ar: "متعب"
+concept: "tired"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: "جوعان"
+dialect: ar-levantine
+type: word
+spellings: [ "جوعانة" ]
+romanized: [ "ju3an", "jou3an" ]
+part_of_speech: adj
+meanings:
+  - en: "hungry"
+    ar: "جائع"
+concept: hungry
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,15 @@
+word: "قديش"
+dialect: ar-levantine
+type: word
+spellings: [ "قدّيش", "أديش", "اديش" ]
+romanized: [ "addeish", "2addesh", "adesh" ]
+part_of_speech: adv
+meanings:
+  - en: "how much, how many"
+    ar: "كم"
+concept: how_much
+familiarity: common
+notes: "The ق is a glottal stop in the cities, so it is also written أديش."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: "مبسوط"
+dialect: ar-levantine
+type: word
+spellings: [ "مبسوطة" ]
+romanized: [ "mabsut", "mabsoot" ]
+part_of_speech: adj
+meanings:
+  - en: "happy, pleased"
+    ar: "سعيد"
+concept: happy
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

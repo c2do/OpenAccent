@@ -1,0 +1,14 @@
+word: "الكل"
+dialect: ar-tn
+type: word
+spellings: []
+romanized: ["lkol", "el kol", "kol"]
+part_of_speech: pron
+meanings:
+  - en: "all, everyone"
+    ar: "الكل"
+concept: "all"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

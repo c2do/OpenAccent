@@ -1,0 +1,14 @@
+word: "كل"
+dialect: ar-levantine
+type: word
+spellings: [ "كلّ" ]
+romanized: [ "kill", "kull", "kel" ]
+part_of_speech: det
+meanings:
+  - en: "all, every"
+    ar: "كل"
+concept: all
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

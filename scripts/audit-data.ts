@@ -10,6 +10,7 @@
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import type { Bundle, BundledEntry } from '../src/core/bundle.js';
+import { normalize } from '../src/core/normalize.js';
 import { buildBundle } from './build-data.js';
 import { conceptFor, conceptIndex, WAVE_1 } from './import-wiktextract.js';
 import { BARE_CLITICS, FUNCTION_POS, letterCount, sensitiveLabels } from './quality.js';
@@ -39,6 +40,14 @@ export interface DialectAudit {
 
 const MAX_PER_CONCEPT = 3;
 
+const STOP_WORDS = new Set(['a', 'an', 'the', 'to', 'of', 'for', 'in', 'on', 'one', 'someone', 'something', 'is', 'be', 'you', 'it']);
+/** Lowercase content words, with a plural or third-person -s dropped ("thanks" → "thank"). */
+const contentWords = (text: string) =>
+  normalize(text.replace(/\([^)]*\)/g, ' '), { script: 'latn', dialect: 'en' })
+    .split(' ')
+    .filter((w) => w.length > 2 && !STOP_WORDS.has(w))
+    .map((w) => w.replace(/(?<=[a-z]{3})s$/, ''));
+
 /** Unreviewed entries: drafts from a dataset or an AI. Reviewed ones are a person's decision. */
 const unreviewed = (e: BundledEntry) => e.status !== 'verified' && e.source.kind !== 'reviewer';
 
@@ -66,8 +75,12 @@ export function auditBundle(bundle: Bundle, dialects?: string[]): DialectAudit[]
       if (e.concept && e.source.kind === 'dataset') {
         // The importer links a concept from any ordinary meaning's main sense ("أوي": strong; very).
         const ordinary = e.meanings.filter((m) => m.en && m.sensitive.length === 0).map((m) => m.en!);
-        const linked = ordinary.some((en) => conceptFor(e.word, { glosses: [en] }, WAVE_1[0]!, concepts, e.part_of_speech) === e.concept);
-        if (!linked) add('concept_mismatch', e, `concept "${e.concept}", meanings "${ordinary.join(' | ').slice(0, 100)}"`);
+        const byImporter = ordinary.some((en) => conceptFor(e.word, { glosses: [en] }, WAVE_1[0]!, concepts, e.part_of_speech) === e.concept);
+        // Links made by hand (by a contributor or a draft pass) only need some support in the meanings:
+        // a content word shared with the concept's gloss ("thanks" / "thank you"). No support at all is flagged.
+        const conceptWords = contentWords(bundle.concepts?.[e.concept]?.en ?? '');
+        const supported = byImporter || ordinary.some((en) => contentWords(en).some((w) => conceptWords.includes(w)));
+        if (!supported) add('concept_mismatch', e, `concept "${e.concept}", meanings "${ordinary.join(' | ').slice(0, 100)}"`);
       }
     }
 

@@ -1,0 +1,15 @@
+word: "محتاج"
+dialect: ar-levantine
+type: word
+spellings: [ "محتاجة" ]
+romanized: [ "mi7taj", "mihtaj" ]
+part_of_speech: adj
+meanings:
+  - en: "needing, in need of"
+    ar: "يحتاج"
+concept: need
+familiarity: common
+notes: "محتاج + noun: محتاج مصاري (I need money)."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

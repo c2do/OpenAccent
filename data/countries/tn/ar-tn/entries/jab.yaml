@@ -1,0 +1,14 @@
+word: "جاب"
+dialect: ar-tn
+type: word
+spellings: []
+romanized: ["jeb", "jab"]
+part_of_speech: verb
+meanings:
+  - en: "to bring"
+    ar: "أحضر"
+concept: "bring"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

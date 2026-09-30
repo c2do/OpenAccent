@@ -1,0 +1,14 @@
+word: "طفل"
+dialect: ar-tn
+type: word
+spellings: []
+romanized: ["tfol", "tfel", "tfoul"]
+part_of_speech: noun
+meanings:
+  - en: "child, kid"
+    ar: "طفل"
+concept: "child"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

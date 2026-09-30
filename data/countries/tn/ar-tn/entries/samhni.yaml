@@ -1,0 +1,14 @@
+word: "سامحني"
+dialect: ar-tn
+type: word
+spellings: []
+romanized: ["sama7ni", "samhni", "sam7ni"]
+part_of_speech: intj
+meanings:
+  - en: "sorry, forgive me"
+    ar: "آسف"
+concept: "sorry"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

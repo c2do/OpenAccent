@@ -1,0 +1,15 @@
+word: "لو سمحت"
+dialect: ar-levantine
+type: phrase
+spellings: [ "لو سمحتي" ]
+romanized: [ "law samaht", "low sama7t" ]
+part_of_speech: phrase
+meanings:
+  - en: "please; excuse me (when asking for something)"
+    ar: "من فضلك"
+concept: please
+familiarity: common
+notes: "To a woman: لو سمحتي."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

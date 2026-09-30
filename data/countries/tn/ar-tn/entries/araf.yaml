@@ -1,0 +1,14 @@
+word: "عرف"
+dialect: ar-tn
+type: word
+spellings: []
+romanized: ["3raf", "araf", "3ref"]
+part_of_speech: verb
+meanings:
+  - en: "to know"
+    ar: "عرف"
+concept: "know"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

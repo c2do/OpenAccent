@@ -1,0 +1,14 @@
+word: "مفيش مشكلة"
+dialect: ar-eg
+type: word
+spellings: []
+romanized: [ "mafish moshkela" ]
+part_of_speech: phrase
+meanings:
+  - en: "no problem"
+    ar: "لا مشكلة"
+concept: no_problem
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

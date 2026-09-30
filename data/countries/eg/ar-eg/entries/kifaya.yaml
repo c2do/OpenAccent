@@ -1,0 +1,14 @@
+word: "كفاية"
+dialect: ar-eg
+type: word
+spellings: []
+romanized: [ "kifaya", "kefaya" ]
+part_of_speech: intj
+meanings:
+  - en: "enough"
+    ar: "كفى"
+concept: enough
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

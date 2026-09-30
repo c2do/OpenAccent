@@ -1,0 +1,15 @@
+word: "تيتا"
+dialect: ar-sy
+type: word
+spellings: [ "تيتة" ]
+romanized: [ "teta", "tita" ]
+part_of_speech: noun
+meanings:
+  - en: "grandma"
+    ar: "جدتي"
+concept: grandma
+familiarity: common
+notes: "ستي is also heard."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

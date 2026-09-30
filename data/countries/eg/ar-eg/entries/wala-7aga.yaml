@@ -1,0 +1,14 @@
+word: "ولا حاجة"
+dialect: ar-eg
+type: word
+spellings: []
+romanized: [ "wala 7aga" ]
+part_of_speech: phrase
+meanings:
+  - en: "nothing"
+    ar: "لا شيء"
+concept: nothing
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: "قريب"
+dialect: ar-eg
+type: word
+spellings: []
+romanized: [ "2orayyeb", "2urayyib" ]
+part_of_speech: adj
+meanings:
+  - en: "near, close"
+    ar: "قريب"
+concept: near
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

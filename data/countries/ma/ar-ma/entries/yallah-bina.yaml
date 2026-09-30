@@ -1,0 +1,14 @@
+word: "يالله بينا"
+dialect: ar-ma
+type: phrase
+spellings: []
+romanized: ["yallah bina", "yalla bina"]
+part_of_speech: phrase
+meanings:
+  - en: "let's go"
+    ar: "هيا بنا"
+concept: "lets_go"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

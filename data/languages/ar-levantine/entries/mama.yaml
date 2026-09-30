@@ -1,0 +1,14 @@
+word: "ماما"
+dialect: ar-levantine
+type: word
+spellings: []
+romanized: [ "mama" ]
+part_of_speech: noun
+meanings:
+  - en: "mom"
+    ar: "أمي"
+concept: mom
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

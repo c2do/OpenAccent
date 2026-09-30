@@ -1,0 +1,14 @@
+word: "جدو"
+dialect: ar-lb
+type: word
+spellings: [ "جدّو" ]
+romanized: [ "jeddo", "jiddo" ]
+part_of_speech: noun
+meanings:
+  - en: "grandpa"
+    ar: "جدي"
+concept: grandpa
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

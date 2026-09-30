@@ -1,0 +1,15 @@
+word: "نام"
+dialect: ar-levantine
+type: word
+spellings: []
+romanized: [ "nam" ]
+part_of_speech: verb
+meanings:
+  - en: "to sleep"
+    ar: "ينام"
+concept: sleep
+familiarity: common
+notes: "Present: بنام (I sleep)."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

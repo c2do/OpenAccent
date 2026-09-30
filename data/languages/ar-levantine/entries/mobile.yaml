@@ -1,0 +1,14 @@
+word: "موبايل"
+dialect: ar-levantine
+type: word
+spellings: [ "موبيل" ]
+romanized: [ "mobile", "mobayl" ]
+part_of_speech: noun
+meanings:
+  - en: "mobile phone"
+    ar: "هاتف"
+concept: phone
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

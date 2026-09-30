@@ -1,0 +1,15 @@
+word: "أمي"
+dialect: ar-sa
+type: word
+spellings: [ "امي" ]
+romanized: [ "ummi" ]
+part_of_speech: noun
+meanings:
+  - en: "my mom"
+    ar: "أمي"
+concept: mom
+familiarity: common
+notes: "Vocative يمه."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

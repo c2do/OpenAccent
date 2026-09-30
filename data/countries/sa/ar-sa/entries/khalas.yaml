@@ -1,0 +1,14 @@
+word: "خلاص"
+dialect: ar-sa
+type: word
+spellings: []
+romanized: [ "khalas", "5alas" ]
+part_of_speech: intj
+meanings:
+  - en: "enough, that's it"
+    ar: "كفى"
+concept: enough
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

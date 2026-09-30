@@ -1,0 +1,14 @@
+word: "مبعد"
+dialect: ar-tn
+type: word
+spellings: ["من بعد"]
+romanized: ["mba3d", "mbaad", "mba3ed"]
+part_of_speech: adv
+meanings:
+  - en: "later, afterwards"
+    ar: "لاحقاً"
+concept: "later"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

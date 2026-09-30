@@ -1,0 +1,14 @@
+word: "بابا"
+dialect: ar-eg
+type: word
+spellings: []
+romanized: [ "baba" ]
+part_of_speech: noun
+meanings:
+  - en: "dad"
+    ar: "أبي"
+concept: dad
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

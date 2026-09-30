@@ -1,0 +1,14 @@
+word: "عجل"
+dialect: ar-sa
+type: word
+spellings: []
+romanized: [ "3ajjil" ]
+part_of_speech: intj
+meanings:
+  - en: "hurry up"
+    ar: "أسرع"
+concept: hurry_up
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

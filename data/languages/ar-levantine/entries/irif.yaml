@@ -1,0 +1,15 @@
+word: "عرف"
+dialect: ar-levantine
+type: word
+spellings: []
+romanized: [ "irif", "3eref", "3irif" ]
+part_of_speech: verb
+meanings:
+  - en: "to know"
+    ar: "يعرف"
+concept: know
+familiarity: common
+notes: "Present: بعرف (I know)."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

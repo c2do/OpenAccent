@@ -1,0 +1,14 @@
+word: "معليش"
+dialect: ar-tn
+type: word
+spellings: []
+romanized: ["ma3lich", "maalesh", "ma3lech"]
+part_of_speech: intj
+meanings:
+  - en: "never mind, it's okay"
+    ar: "لا بأس"
+concept: "never_mind"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

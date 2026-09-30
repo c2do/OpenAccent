@@ -1,0 +1,14 @@
+word: "مرة"
+dialect: ar-levantine
+type: word
+spellings: [ "مره" ]
+romanized: [ "mara", "mare" ]
+part_of_speech: noun
+meanings:
+  - en: "woman; wife"
+    ar: "امرأة"
+concept: woman
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

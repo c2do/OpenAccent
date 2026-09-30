@@ -1,0 +1,14 @@
+word: "عطى"
+dialect: ar-tn
+type: word
+spellings: []
+romanized: ["3ta", "a3ta", "ata"]
+part_of_speech: verb
+meanings:
+  - en: "to give"
+    ar: "أعطى"
+concept: "give"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

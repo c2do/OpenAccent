@@ -1,0 +1,15 @@
+word: "يا عم"
+dialect: ar-eg
+type: word
+spellings: []
+romanized: [ "ya 3am" ]
+part_of_speech: intj
+meanings:
+  - en: "buddy, dude (addressing a man)"
+    ar: "يا صاحبي"
+concept: buddy
+familiarity: common
+notes: "Casual address between friends."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

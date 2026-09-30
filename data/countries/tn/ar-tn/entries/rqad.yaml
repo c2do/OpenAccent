@@ -1,0 +1,14 @@
+word: "رقد"
+dialect: ar-tn
+type: word
+spellings: []
+romanized: ["r9ad", "rqad", "rgad"]
+part_of_speech: verb
+meanings:
+  - en: "to sleep"
+    ar: "نام"
+concept: "sleep"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

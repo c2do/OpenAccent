@@ -1,0 +1,15 @@
+word: "محتاج"
+dialect: ar-sa
+type: word
+spellings: []
+romanized: [ "mi7taj", "mu7taj" ]
+part_of_speech: adj
+meanings:
+  - en: "needing, to need"
+    ar: "يحتاج"
+concept: need
+familiarity: common
+notes: "Feminine محتاجة."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

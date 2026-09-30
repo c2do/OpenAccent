@@ -1,0 +1,14 @@
+word: "بعيد"
+dialect: ar-levantine
+type: word
+spellings: []
+romanized: [ "b3id", "ba3id", "baeed" ]
+part_of_speech: adj
+meanings:
+  - en: "far"
+    ar: "بعيد"
+concept: far
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

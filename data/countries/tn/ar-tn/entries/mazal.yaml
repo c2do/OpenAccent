@@ -1,0 +1,14 @@
+word: "مازال"
+dialect: ar-tn
+type: word
+spellings: []
+romanized: ["mazel", "mazal", "mezel"]
+part_of_speech: adv
+meanings:
+  - en: "still, yet"
+    ar: "لا يزال"
+concept: "still"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,15 @@
+word: "صاحب"
+dialect: ar-eg
+type: word
+spellings: []
+romanized: [ "sa7b", "sa7bi" ]
+part_of_speech: noun
+meanings:
+  - en: "friend"
+    ar: "صديق"
+concept: friend
+familiarity: common
+notes: "صاحبي = my friend; feminine صاحبة."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

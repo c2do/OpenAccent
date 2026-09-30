@@ -1,0 +1,14 @@
+word: "آش خبارك"
+dialect: ar-ma
+type: phrase
+spellings: ["اش خبارك"]
+romanized: ["ach khbarek", "ash khbarek", "ach khbar"]
+part_of_speech: phrase
+meanings:
+  - en: "what's up?, what's new?"
+    ar: "ما الأخبار؟"
+concept: "whats_up"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

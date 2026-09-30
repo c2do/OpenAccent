@@ -1,0 +1,14 @@
+word: "خبز"
+dialect: ar-levantine
+type: word
+spellings: []
+romanized: [ "khibz", "5ebez", "khebez" ]
+part_of_speech: noun
+meanings:
+  - en: "bread"
+    ar: "خبز"
+concept: bread
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

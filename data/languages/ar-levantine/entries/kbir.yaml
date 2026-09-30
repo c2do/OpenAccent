@@ -1,0 +1,14 @@
+word: "كبير"
+dialect: ar-levantine
+type: word
+spellings: []
+romanized: [ "kbir", "kbeer" ]
+part_of_speech: adj
+meanings:
+  - en: "big"
+    ar: "كبير"
+concept: big
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

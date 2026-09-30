@@ -1,0 +1,15 @@
+word: "جاب"
+dialect: ar-levantine
+type: word
+spellings: []
+romanized: [ "jab" ]
+part_of_speech: verb
+meanings:
+  - en: "to bring"
+    ar: "يحضر"
+concept: bring
+familiarity: common
+notes: "Present: بجيب (I bring)."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

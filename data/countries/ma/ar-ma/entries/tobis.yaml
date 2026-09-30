@@ -1,0 +1,15 @@
+word: "طوبيس"
+dialect: ar-ma
+type: word
+spellings: ["طوبيص"]
+romanized: ["tobis", "tubis"]
+part_of_speech: noun
+meanings:
+  - en: "bus"
+    ar: "حافلة"
+concept: "bus"
+familiarity: common
+notes: "From French autobus."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

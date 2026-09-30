@@ -1,0 +1,14 @@
+word: "أبد"
+dialect: ar-sa
+type: word
+spellings: [ "أبداً", "ابد" ]
+romanized: [ "abad", "abadan" ]
+part_of_speech: adv
+meanings:
+  - en: "never; not at all"
+    ar: "أبداً"
+concept: never
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

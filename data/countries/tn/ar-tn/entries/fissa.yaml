@@ -1,0 +1,14 @@
+word: "فيسع"
+dialect: ar-tn
+type: word
+spellings: []
+romanized: ["fisa3", "fissa", "fissa3"]
+part_of_speech: intj
+meanings:
+  - en: "hurry up!, quickly"
+    ar: "أسرع"
+concept: "hurry_up"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

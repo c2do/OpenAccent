@@ -1,0 +1,14 @@
+word: "غالي"
+dialect: ar-levantine
+type: word
+spellings: []
+romanized: [ "ghali", "8ali" ]
+part_of_speech: adj
+meanings:
+  - en: "expensive"
+    ar: "غالٍ"
+concept: expensive
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,15 @@
+word: "شرب"
+dialect: ar-levantine
+type: word
+spellings: []
+romanized: [ "shirib", "sherib" ]
+part_of_speech: verb
+meanings:
+  - en: "to drink"
+    ar: "يشرب"
+concept: drink
+familiarity: common
+notes: "Present: بشرب (I drink)."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

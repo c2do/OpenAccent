@@ -1,0 +1,14 @@
+word: "بسرعة"
+dialect: ar-levantine
+type: word
+spellings: []
+romanized: [ "b sir3a", "bsor3a", "bsur3a" ]
+part_of_speech: adv
+meanings:
+  - en: "quickly; hurry up!"
+    ar: "أسرع"
+concept: hurry_up
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

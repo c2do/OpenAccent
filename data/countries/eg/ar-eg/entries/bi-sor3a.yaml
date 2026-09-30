@@ -1,0 +1,14 @@
+word: "بسرعة"
+dialect: ar-eg
+type: word
+spellings: []
+romanized: [ "bsor3a", "bi sor3a" ]
+part_of_speech: intj
+meanings:
+  - en: "hurry up, quickly"
+    ar: "أسرع"
+concept: hurry_up
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

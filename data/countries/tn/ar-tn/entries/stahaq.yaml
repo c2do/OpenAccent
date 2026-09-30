@@ -1,0 +1,15 @@
+word: "ستحق"
+dialect: ar-tn
+type: word
+spellings: ["استحق"]
+romanized: ["st7a9", "ste7ak", "stahaq"]
+part_of_speech: verb
+meanings:
+  - en: "to need"
+    ar: "احتاج"
+concept: "need"
+familiarity: common
+notes: "nest7a99 = I need."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

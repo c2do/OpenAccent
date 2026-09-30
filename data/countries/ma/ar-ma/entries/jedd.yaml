@@ -1,0 +1,14 @@
+word: "جد"
+dialect: ar-ma
+type: word
+spellings: ["جدي"]
+romanized: ["jedd", "jeddi", "jadd"]
+part_of_speech: noun
+meanings:
+  - en: "grandpa"
+    ar: "جد"
+concept: "grandpa"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,15 @@
+word: "قدر"
+dialect: ar-eg
+type: word
+spellings: []
+romanized: [ "2edir" ]
+part_of_speech: verb
+meanings:
+  - en: "to be able to, can"
+    ar: "يستطيع"
+concept: can
+familiarity: common
+notes: "Usually conjugated: أقدر، تقدر، مقدرش."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft
