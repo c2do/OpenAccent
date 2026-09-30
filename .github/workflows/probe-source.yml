@@ -1,0 +1,46 @@
+name: Probe a source
+
+# Reads a web page or file on GitHub's runners (some dataset sites are unreachable from dev
+# sandboxes) and prints its text, license lines and links, so a source's license and download
+# route can be checked before anything is imported. Nothing is committed.
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: Page or file to read
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      URL: ${{ inputs.url }}
+    steps:
+      - name: Fetch
+        run: |
+          curl -sSL --retry 2 -A "Mozilla/5.0 (OpenAccent source check)" -D headers.txt "$URL" -o page || true
+          echo "## $URL" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"; head -20 headers.txt >> "$GITHUB_STEP_SUMMARY"; echo '```' >> "$GITHUB_STEP_SUMMARY"
+      - name: Text, license lines and links
+        run: |
+          python3 - <<'PY' | tee -a "$GITHUB_STEP_SUMMARY"
+          import html, re
+          raw = open('page', 'rb').read()
+          text = raw.decode('utf-8', 'replace')
+          links = sorted(set(re.findall(r'href=["\']([^"\']+)["\']', text)))
+          plain = html.unescape(re.sub(r'<script.*?</script>|<style.*?</style>', ' ', text, flags=re.S))
+          plain = re.sub(r'<[^>]+>', ' ', plain)
+          plain = re.sub(r'\s+', ' ', plain).strip()
+          print('### License lines\n')
+          for m in re.finditer(r'.{0,160}(licen[cs]e|creative commons|CC[ -]BY|non-?commercial|copyright|terms of use).{0,160}', plain, re.I):
+              print('-', m.group(0).strip())
+          print('\n### Links\n')
+          for l in links[:200]:
+              print('-', l)
+          print('\n### Text (first 4000 characters)\n')
+          print(plain[:4000])
+          PY
