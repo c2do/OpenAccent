@@ -31,7 +31,12 @@ attested_by:
     method: dictionary-match
     method_version: 1
   - name: tatoeba
-    ref: https://tatoeba.org (3 sentence pairs)
+    ref: https://tatoeba.org
     method: parallel-corpus
-    method_version: 1
+    method_version: 2
     support: 3
+    occurrences: 4
+    precision: 0.75
+    lift: 346.5
+    run_id: "36770487152"
+    source_revision: exports of 2026-09-30

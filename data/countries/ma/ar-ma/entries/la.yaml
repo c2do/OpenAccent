@@ -30,9 +30,3 @@ source:
   ref: https://en.wiktionary.org/wiki/%D8%B9%D9%84%D9%89#Moroccan_Arabic
   license: CC-BY-SA-4.0
 added_by: wiktionary-import
-attested_by:
-  - name: flores
-    ref: https://github.com/facebookresearch/flores (9 sentence pairs)
-    method: parallel-corpus
-    method_version: 1
-    support: 9

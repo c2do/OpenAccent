@@ -12,17 +12,27 @@ status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
 attested_by:
-  - name: flores
-    ref: https://github.com/facebookresearch/flores (4 sentence pairs)
-    method: parallel-corpus
-    method_version: 1
-    support: 4
-  - name: tatoeba
-    ref: https://tatoeba.org (5 sentence pairs)
-    method: parallel-corpus
-    method_version: 1
-    support: 5
   - name: maknuune
     ref: https://github.com/CAMeL-Lab/maknuune_lexicon
     method: dictionary-match
     method_version: 1
+  - name: flores
+    ref: https://github.com/facebookresearch/flores
+    method: parallel-corpus
+    method_version: 2
+    support: 4
+    occurrences: 4
+    precision: 1
+    lift: 401.8
+    run_id: "36770487152"
+    source_revision: flores200_dataset.tar.gz sha256:b8b0b7678302
+  - name: tatoeba
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 5
+    occurrences: 5
+    precision: 1
+    lift: 52.4
+    run_id: "36770487152"
+    source_revision: exports of 2026-09-30
