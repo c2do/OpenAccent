@@ -96,3 +96,14 @@ v1 had 608 corpus attestations. v2 kept 483 and removed 125.
 - Change: the strong-evidence alternative (support ≥ 3, lift ≥ 20) and explaining away were added. Simulated
   on this report, the alternative brings back 23 attestations, and all of them looked right (جون goal,
   شوية little, علاش why, بسرعة quickly, …).
+
+**Run 36770487152 (current thresholds, with explaining away).** 502 corpus attestations kept, 106 removed.
+- 40 entries had pairs explained away, nearly all of them function words that share glosses ("what", "that",
+  "who": ده، اللي، ايه، هيك، مع). Corpus evidence for those really is ambiguous.
+- All 22 attestations that passed only through the strong-evidence rule looked right (سريع fast, صعب
+  difficult, علاش why, جون goal, …).
+- Known false negatives: correct words with exactly 2 supporting pairs and very high lift (ابن son,
+  لحظة moment, سريع in Jordanian, آسف sorry, بالاك maybe). Two sentences are thin evidence, so they stay out
+  for now. This is the first candidate to revisit with a larger hand-checked sample.
+- High-confidence entries compared with v1: Egyptian 106 → 98, Levantine 132 → 129, Saudi 90 → 83,
+  Moroccan 91 → 86, Tunisian 61 → 45, Jordanian 42 → 37.
