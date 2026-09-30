@@ -2,7 +2,7 @@ word: "مازال"
 dialect: ar-ma
 type: word
 spellings: []
-romanized: ["mazal", "ma zal"]
+romanized: [ "mazal", "ma zal" ]
 part_of_speech: adv
 meanings:
   - en: "still, yet"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (10 sentence pairs)

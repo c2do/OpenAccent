@@ -1,8 +1,8 @@
 word: "طوبيس"
 dialect: ar-ma
 type: word
-spellings: ["طوبيص"]
-romanized: ["tobis", "tubis"]
+spellings: [ "طوبيص" ]
+romanized: [ "tobis", "tubis" ]
 part_of_speech: noun
 meanings:
   - en: "bus"
@@ -13,3 +13,6 @@ notes: "From French autobus."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (3 sentence pairs)

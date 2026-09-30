@@ -2,7 +2,7 @@ word: "قريب"
 dialect: ar-tn
 type: word
 spellings: []
-romanized: ["9rib", "qrib", "grib"]
+romanized: [ "9rib", "qrib", "grib" ]
 part_of_speech: adj
 meanings:
   - en: "near, close"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (9 sentence pairs)

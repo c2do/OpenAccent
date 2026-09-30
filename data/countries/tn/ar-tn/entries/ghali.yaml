@@ -2,7 +2,7 @@ word: "غالي"
 dialect: ar-tn
 type: word
 spellings: []
-romanized: ["ghali", "4ali", "ghalia"]
+romanized: [ "ghali", "4ali", "ghalia" ]
 part_of_speech: adj
 meanings:
   - en: "expensive"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (2 sentence pairs)

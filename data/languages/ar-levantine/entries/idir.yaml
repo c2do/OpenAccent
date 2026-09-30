@@ -13,3 +13,6 @@ notes: "Present: بقدر (I can). The ق is a glottal stop in the cities."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (8 sentence pairs)

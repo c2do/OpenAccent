@@ -2,7 +2,7 @@ word: "ماكلة"
 dialect: ar-tn
 type: word
 spellings: []
-romanized: ["makla", "mekla"]
+romanized: [ "makla", "mekla" ]
 part_of_speech: noun
 meanings:
   - en: "food"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (13 sentence pairs)

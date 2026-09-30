@@ -2,7 +2,7 @@ word: "خدم"
 dialect: ar-ma
 type: word
 spellings: []
-romanized: ["khdem", "khdm", "5dem"]
+romanized: [ "khdem", "khdm", "5dem" ]
 part_of_speech: verb
 meanings:
   - en: "to work"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (2 sentence pairs)

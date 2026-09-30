@@ -13,3 +13,6 @@ notes: "Present: بشتغل (I work)."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (4 sentence pairs)

@@ -1,8 +1,8 @@
 word: "لاباس"
 dialect: ar-tn
 type: word
-spellings: ["لا باس"]
-romanized: ["labes", "labas", "lebes"]
+spellings: [ "لا باس" ]
+romanized: [ "labes", "labas", "lebes" ]
 part_of_speech: adj
 meanings:
   - en: "fine, well"
@@ -13,3 +13,6 @@ notes: "Usually 'labes, el hamdoulillah'."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (2 sentence pairs)

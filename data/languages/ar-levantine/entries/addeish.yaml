@@ -13,3 +13,6 @@ notes: "The ق is a glottal stop in the cities, so it is also written أديش."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: tatoeba
+    ref: https://tatoeba.org (2 sentence pairs)

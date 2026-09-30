@@ -1,8 +1,8 @@
 word: "مرا"
 dialect: ar-tn
 type: word
-spellings: ["مرأة"]
-romanized: ["mra", "mra2a"]
+spellings: [ "مرأة" ]
+romanized: [ "mra", "mra2a" ]
 part_of_speech: noun
 meanings:
   - en: "woman"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (2 sentence pairs)
