@@ -1,0 +1,29 @@
+word: jão
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: dude, guy
+    examples: []
+    sensitive: []
+  - en: zero (unimportant person)
+    examples: []
+    sensitive:
+      - offensive
+concept: buddy
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/j%C3%A3o#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

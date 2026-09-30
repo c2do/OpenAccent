@@ -1,0 +1,44 @@
+word: बनाना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - banānā
+pronunciation:
+  ipa: /bə.nɑː.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to make, create, produce
+    examples:
+      - text: मशीनें बनाना
+        en: to make machines
+      - text: खाने में आज क्या बनाओगे?
+        en: What will you make for dinner today?
+    sensitive: []
+  - en: to cause to be, make
+    examples:
+      - text: उल्लू बनाना
+        en: to make a fool of
+      - text: बुद्धू बनाना
+        en: to make a fool of
+    sensitive: []
+  - en: to turn into, form
+    examples:
+      - text: झूठ को सच बनाना
+        en: to make a lie come true
+    sensitive: []
+concept: do
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%A8%E0%A4%BE%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

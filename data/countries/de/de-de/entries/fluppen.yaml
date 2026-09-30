@@ -1,0 +1,32 @@
+word: fluppen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈflʊpən/
+part_of_speech: verb
+meanings:
+  - en: to work; to work out; to succeed
+    examples:
+      - text: Hat alles gefluppt?
+        en: Has everything worked out?
+    sensitive: []
+  - en: to slip
+    examples: []
+    sensitive: []
+concept: work_verb
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fluppen#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

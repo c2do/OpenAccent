@@ -1,0 +1,31 @@
+word: dufte
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdʊftə/
+part_of_speech: adj
+meanings:
+  - en: good, great, sweet
+    examples:
+      - text: Berlin is’ dufte, Hauptstadt der DDR / Berlin is’ dufte, und die olle
+          Mauer is’ och nich’ mehr
+        en: Berlin is great, capital of East Germany / Berlin is great, and the ol’ wall
+          is gone too
+    sensitive: []
+concept: good
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dufte#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

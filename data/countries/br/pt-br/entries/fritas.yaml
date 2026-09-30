@@ -1,0 +1,26 @@
+word: fritas
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfɾi.tɐs/
+part_of_speech: noun
+meanings:
+  - en: French fries
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fritas#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

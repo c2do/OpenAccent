@@ -1,0 +1,41 @@
+word: boah
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /boːə̯/
+part_of_speech: intj
+meanings:
+  - en: wow, ugh; An expression of annoyance or exasperation or disgust.
+    examples:
+      - text: Boah, halt die Klappe!
+        en: Jeez, shut up!
+      - text: 'Und dann bricht es aus ihm hervor: "Ich sitz’ doch im Rollstuhl, ich kann
+          mich doch nicht wehren! Boah, ey, da krieg’ ich so ’n Hals!"'
+        en: "And then, finally, he cannot hold it back anymore: \"I'm in a wheelchair
+          after all, I can't defend myself! Ugh, dude, that makes me so mad!\""
+    sensitive: []
+  - en: wow, damn; An expression of marvel or surprise.
+    examples:
+      - text: Boah, is der groß!
+        en: Whoa, that one's big!
+      - text: Boah fuck, danke Digga! Hätt es echt vergessen.
+        en: Damn, fucking hell, thanks dude! I'd have completely forgotten about it.
+    sensitive:
+      - vulgar
+concept: wow
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/boah#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

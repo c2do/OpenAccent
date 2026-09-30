@@ -1,0 +1,32 @@
+word: क्यों
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kyõ
+pronunciation:
+  ipa: /kjõː/
+part_of_speech: adv
+meanings:
+  - en: why
+    examples:
+      - text: तूने इस तरह का घर क्यों बनाया?
+        en: Why did you make this kind of house?
+      - text: क्यों नहीं?
+        en: Why not?
+    sensitive: []
+concept: why
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%82#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

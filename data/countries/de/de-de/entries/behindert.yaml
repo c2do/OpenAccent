@@ -1,0 +1,38 @@
+word: behindert
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bəˈhɪndɐt/
+meanings:
+  - en: retarded; stupid, dumb
+    examples: []
+    sensitive:
+      - offensive
+      - slur
+  - en: retarded; bad; messed up; uncool, general derogative
+    examples:
+      - text: Die ganze Situation ist so behindert, Mann!
+        en: The whole situation is so messed up, man!
+    sensitive:
+      - offensive
+      - slur
+  - en: very, extremely, an intensifier
+    examples: []
+    sensitive:
+      - offensive
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/behindert#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

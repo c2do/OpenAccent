@@ -1,0 +1,28 @@
+word: wa
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /va/
+part_of_speech: particle
+meanings:
+  - en: what, huh (expresses that something was extremely hard to understand
+      acoustically or outlandish in content)
+    examples: []
+    sensitive: []
+concept: what
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wa#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

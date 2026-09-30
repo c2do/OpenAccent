@@ -1,0 +1,37 @@
+word: langen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈlaŋən/
+part_of_speech: verb
+meanings:
+  - en: to reach, to grab
+    examples: []
+    sensitive: []
+  - en: to take, to grab
+    examples: []
+    sensitive: []
+  - en: to pass, to hand something to someone
+    examples: []
+    sensitive: []
+  - en: to suffice, to be enough
+    examples:
+      - text: Mir langt's.
+        en: I've had enough
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/langen#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

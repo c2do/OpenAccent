@@ -1,0 +1,28 @@
+word: सॉरी
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - sŏrī
+pronunciation:
+  ipa: /sɔ.ɾiː/
+part_of_speech: intj
+meanings:
+  - en: sorry
+    examples: []
+    sensitive: []
+concept: sorry
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A5%89%E0%A4%B0%E0%A5%80#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

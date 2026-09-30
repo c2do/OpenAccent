@@ -1,0 +1,28 @@
+word: normal
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /nɔrˈmaːl/
+part_of_speech: intj
+meanings:
+  - en: sure, of course, obviously; usually implies that something is trivial
+    examples:
+      - text: Du hast mit zwölf schon geraucht? ― Normal.
+        en: You already smoked at twelve? ― Sure.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/normal#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

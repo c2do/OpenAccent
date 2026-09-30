@@ -1,0 +1,30 @@
+word: dois toques
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: fast; quick (occurring in a short time)
+    examples:
+      - text: Na real, o que eu tenho pra falar é dois toque^([sic]), mesmo. É até
+          melhor assim.
+    sensitive: []
+  - en: easy peasy
+    examples: []
+    sensitive: []
+concept: fast
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dois_toques#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

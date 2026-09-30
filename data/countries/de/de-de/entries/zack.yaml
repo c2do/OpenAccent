@@ -1,0 +1,30 @@
+word: zack
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡sak/
+part_of_speech: intj
+meanings:
+  - en: Onomatopoeia expressing that something happens quickly or suddenly.
+    examples:
+      - text: Jetzt raus aus der Badewanne, aber zack!
+        en: Out of the bathtub, now; chop-chop!
+      - text: Er hörte nur das Wort „Hausaufgaben“ und, zack, war er verschwunden.
+        en: He only heard the word "homework" and, poof, he disappeared.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/zack#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

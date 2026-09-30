@@ -1,0 +1,28 @@
+word: तुम कैसे हो
+dialect: hi-in
+type: phrase
+spellings: []
+romanized:
+  - tum kaise ho?
+pronunciation:
+  ipa: /t̪ʊm kɛː.seː ɦoː/
+part_of_speech: phrase
+meanings:
+  - en: how are you?
+    examples: []
+    sensitive: []
+concept: how_are_you
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A5%81%E0%A4%AE_%E0%A4%95%E0%A5%88%E0%A4%B8%E0%A5%87_%E0%A4%B9%E0%A5%8B#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

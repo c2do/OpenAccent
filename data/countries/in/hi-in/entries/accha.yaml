@@ -1,0 +1,48 @@
+word: अच्छा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - acchā
+pronunciation:
+  ipa: /ət̪.t͡ʃʰɑː/
+meanings:
+  - en: good, nice, fine
+    examples:
+      - text: इस साल क्या आप अच्छे थे?
+        en: Were you good this year?
+      - text: अच्छा बच्चा
+        en: good boy
+    sensitive: []
+  - en: delicious, tasty
+    examples:
+      - text: यह खाना बहुत ही अच्छा है!
+        en: This food is quite delicious!
+      - text: अच्छी मिठाई
+        en: tasty sweets
+    sensitive: []
+  - en: well
+    examples:
+      - text: क्या तुमने अच्छा किया?
+        en: Did you do well?
+    sensitive: []
+  - en: oh! (often with stress on the final syllable)
+    examples:
+      - text: अच्छा! तो मैं सही था!
+        en: Oh! So I was correct!
+    sensitive: []
+concept: good
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%9A%E0%A5%8D%E0%A4%9B%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

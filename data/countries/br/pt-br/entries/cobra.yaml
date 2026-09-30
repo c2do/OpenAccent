@@ -1,0 +1,25 @@
+word: cobra
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkɔ.bɾɐ/
+meanings:
+  - en: pro, expert
+    examples: []
+    sensitive: []
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cobra#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

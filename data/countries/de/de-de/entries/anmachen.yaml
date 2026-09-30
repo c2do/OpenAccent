@@ -1,0 +1,33 @@
+word: anmachen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈanˌmaχən/
+part_of_speech: verb
+meanings:
+  - en: to switch on, to turn on (a lamp, a stove, an electronic device, etc.)
+    examples:
+      - text: Könnt ihr bitte eure Kamera anmachen?
+        en: Could you all please turn on your camera?
+    sensitive: []
+  - en: to start something with (someone), to provoke (someone), to accost,
+      (Internet) to flame (approach aggressively)
+    examples:
+      - text: Die Nachbarn haben nichts gerafft / Und fühlten sich gleich angemacht
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/anmachen#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

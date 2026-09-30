@@ -1,0 +1,28 @@
+word: यहाँ
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - yahā̃
+pronunciation:
+  ipa: /jə.ɦɑ̃ː/
+part_of_speech: adv
+meanings:
+  - en: here
+    examples: []
+    sensitive: []
+concept: here
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AF%E0%A4%B9%E0%A4%BE%E0%A4%81#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

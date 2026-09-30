@@ -1,0 +1,30 @@
+word: सुंदर
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - sundar
+pronunciation:
+  ipa: /sʊn.d̪əɾ/
+part_of_speech: adj
+meanings:
+  - en: beautiful, pretty; good-looking, handsome
+    examples:
+      - text: इस लड़की का लेख बहुत सुन्दर है।
+        en: This girl's handwriting is very beautiful.
+    sensitive: []
+concept: beautiful
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A5%81%E0%A4%82%E0%A4%A6%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,40 @@
+word: चाहना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - cāhnā
+pronunciation:
+  ipa: /t͡ʃɑːɦ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to want, desire
+    examples:
+      - text: तू क्या करना चाहता है?
+        en: What do you want to do?
+      - text: मैं बड़ा होके वैज्ञानिक बनना चाहता हूँ।
+        en: I want to be a scientist when I grow up.
+    sensitive: []
+  - en: to wish
+    examples: []
+    sensitive: []
+  - en: should, ought to
+    examples:
+      - text: मुझे जाना चाहिये।
+        en: I should go.
+    sensitive: []
+concept: want
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

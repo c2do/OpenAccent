@@ -1,0 +1,35 @@
+word: high
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /haɪ̯/
+part_of_speech: adj
+meanings:
+  - en: high (intoxicated with a drug other than alcohol)
+    examples:
+      - text: Aber es ist großartig im Nebel, es ist wie Schweben! Er hebt die Ufer auf,
+          endlich, eine highe Welt.
+        en: But it’s great in the fog, it’s like floating! It dissolves the shores,
+          finally, a high world.
+      - text: Die highsten und abgefahrensten Frauen (und solche gab es auch nicht zu
+          knapp!) griffen den Gedanken auf und machten sich sofort auf die
+          Pirsch [...].
+        en: The highest and spaciest women (and there was no lack of those either!)
+          seized the thought and immediately went hunting ….
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/high#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

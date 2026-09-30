@@ -1,0 +1,27 @@
+word: faça-me o favor
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfa.sɐ.mi u faˈvoʁ/
+part_of_speech: phrase
+meanings:
+  - en: please! (expression of annoyance or disbelief)
+    examples: []
+    sensitive: []
+concept: please
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fa%C3%A7a-me_o_favor#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

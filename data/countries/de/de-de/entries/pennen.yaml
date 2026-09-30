@@ -1,0 +1,37 @@
+word: pennen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpɛnən/
+part_of_speech: verb
+meanings:
+  - en: to sleep
+    examples:
+      - text: Wenn der Frühling kommt und deine Seele brennt / Du wachst nachts auf aus
+          deinen Träumen / Aber da ist niemand, der bei dir pennt
+      - text: |-
+          ... ich weiß nicht, ob ich heute wegdarf.
+          Ach, überleg dir 'ne Ausrede! Sag, dass du bei mir pennst!
+    sensitive: []
+  - en: to be inattentive
+    examples:
+      - text: sie hat im Unterricht gepennt
+        en: she didn't pay attention in class
+    sensitive: []
+concept: sleep
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pennen#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

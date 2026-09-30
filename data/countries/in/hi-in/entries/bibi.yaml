@@ -1,0 +1,37 @@
+word: बीबी
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bībī
+pronunciation:
+  ipa: /biː.biː/
+part_of_speech: noun
+meanings:
+  - en: woman, lady
+    examples:
+      - text: बीबी का मक़बरा
+        en: Bibi Ka Maqbara, "tomb of the lady"
+    sensitive: []
+  - en: wife
+    examples: []
+    sensitive: []
+  - en: "a term of respect or endearment for women: lady, madam; sister;
+      sister-in-law"
+    examples: []
+    sensitive: []
+concept: woman
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A5%80%E0%A4%AC%E0%A5%80#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

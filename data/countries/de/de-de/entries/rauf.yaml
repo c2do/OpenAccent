@@ -1,0 +1,31 @@
+word: rauf
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʁaʊf/
+part_of_speech: adv
+meanings:
+  - en: up, up here, upstairs (towards the speaker)
+    examples:
+      - text: Er kommt jetzt rauf. -- He's coming upstairs now.
+    sensitive: []
+  - en: up, up there, upstairs (away from the speaker)
+    examples:
+      - text: Er geht rauf zu den andern. -- He's going upstairs to the other people.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rauf#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

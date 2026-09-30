@@ -1,0 +1,29 @@
+word: zwiebeln
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtsviːbəln/
+part_of_speech: verb
+meanings:
+  - en: to hassle, harass, bully, torment
+    examples: []
+    sensitive: []
+  - en: to hurt, be painful (mostly of sharp, relatively sudden pain)
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/zwiebeln#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

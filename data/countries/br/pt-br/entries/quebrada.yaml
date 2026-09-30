@@ -1,0 +1,37 @@
+word: quebrada
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /keˈbɾa.dɐ/
+part_of_speech: noun
+meanings:
+  - en: neighborhood
+    examples:
+      - text: Eu tava com meus mano lá na minha quebrada / Chegou o Wanderley e veio dar
+          ideia errada
+        en: I was with my bros at my neighborhood, then Wanderley came with wrong ideas.
+      - text: Lá nas quebrada^([sic]) onde eu moro, mano / Tem um ponto de ônibus e um
+          vendedor de goiaba, né?
+        en: At the neighboohood I live, man, there's a bus stop and a guava salesman,
+          y'know?
+    sensitive: []
+  - en: a place in a town or city where drugs are routinely consumed, often without
+      knowledge of authorities
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/quebrada#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

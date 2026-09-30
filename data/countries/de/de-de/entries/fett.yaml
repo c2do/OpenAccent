@@ -1,0 +1,31 @@
+word: fett
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fɛt/
+part_of_speech: adj
+meanings:
+  - en: awesome, phat
+    examples:
+      - text: Das war echt fett.
+        en: This was really awesome.
+      - text: Sie hat 'nen fetten Vertrag an Land gezogen.
+        en: She got a very profitable contract.
+    sensitive: []
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fett#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: rödeln
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʁøːdl̩n/
+part_of_speech: verb
+meanings:
+  - en: to work (hard, especially to get something)
+    examples: []
+    sensitive: []
+concept: work_verb
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/r%C3%B6deln#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

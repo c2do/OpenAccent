@@ -1,0 +1,29 @@
+word: lieb haben
+dialect: de-de
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈliːpˌhaːbən/
+part_of_speech: verb
+meanings:
+  - en: to love
+    examples:
+      - text: Ich hab dich lieb.
+        en: I love you.
+    sensitive: []
+concept: like
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/lieb_haben#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

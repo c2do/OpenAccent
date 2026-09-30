@@ -1,0 +1,38 @@
+word: gucken
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkʊkən/
+part_of_speech: verb
+meanings:
+  - en: to look, to direct one's gaze at something
+    examples:
+      - text: Ich kann in die Stadt gehen und mich irgendwo hinsetzen und in die Luft
+          gucken.
+        en: I can go into town and sit myself down somewhere and stare into space.
+    sensitive: []
+  - en: to watch, to direct one's gaze at something for some time
+    examples: []
+    sensitive: []
+  - en: to look, to have a certain facial expression
+    examples:
+      - text: Warum guckst du so traurig?
+        en: Why are you looking so sad?
+    sensitive: []
+concept: see
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gucken#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

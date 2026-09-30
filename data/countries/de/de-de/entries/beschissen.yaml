@@ -1,0 +1,31 @@
+word: beschissen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[bəˈʃɪsn̩]"
+part_of_speech: adj
+meanings:
+  - en: shitty
+    examples: []
+    sensitive:
+      - vulgar
+  - en: damn, intensifier, expresses contempt for the modified noun
+    examples: []
+    sensitive:
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/beschissen#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

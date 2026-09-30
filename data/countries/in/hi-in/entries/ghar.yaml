@@ -1,0 +1,34 @@
+word: घर
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ghar
+pronunciation:
+  ipa: /ɡʱəɾ/
+part_of_speech: noun
+meanings:
+  - en: house, home; dwelling
+    examples: []
+    sensitive: []
+  - en: den
+    examples: []
+    sensitive: []
+  - en: nest
+    examples: []
+    sensitive: []
+concept: house
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%98%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

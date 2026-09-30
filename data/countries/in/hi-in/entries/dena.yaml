@@ -1,0 +1,47 @@
+word: देना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - denā
+pronunciation:
+  ipa: /d̪eː.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to give, grant, award
+    examples:
+      - text: मैंने अपने भाई को किताब दी।
+        en: I gave my brother the book.
+      - text: मैं उधार के पैसे नहीं दे पाऊंगा।
+        en: I won't be able to give the money for the loan.
+    sensitive: []
+  - en: to lay (eggs), give birth to
+    examples:
+      - text: मुर्ग़ अंडे देने लगी है।
+        en: The chicken has begun to lay eggs.
+    sensitive: []
+  - en: to orate, deliver
+    examples:
+      - text: प्रोफेसर लेक्चर कितने बजे देंगे?
+        en: When will the professor deliver the lecture?
+    sensitive: []
+  - en: to pay
+    examples:
+      - text: ध्यान दो!
+        en: Pay attention!
+    sensitive: []
+concept: give
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A5%87%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

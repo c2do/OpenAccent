@@ -1,0 +1,26 @@
+word: erstmal
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈeːɐ̯stmaːl/
+part_of_speech: adv
+meanings:
+  - en: first (before anything else)
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/erstmal#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

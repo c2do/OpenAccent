@@ -1,0 +1,36 @@
+word: fertigmachen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: (colloquial) to complete (to finish)
+    examples: []
+    sensitive: []
+  - en: to get ready, dress up
+    examples: []
+    sensitive: []
+  - en: to beat up (hurt someone physically)
+    examples:
+      - text: Ich mach' dich fertig, wenn ich dich noch einmal mit meiner Freundin reden
+          sehe.
+        en: I'll beat your ass if I ever see you talking to my girlfriend again.
+    sensitive: []
+  - en: to defeat, to destroy
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fertigmachen#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

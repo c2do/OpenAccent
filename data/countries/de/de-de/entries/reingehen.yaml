@@ -1,0 +1,24 @@
+word: reingehen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: to go in, to get inside, to go inside
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/reingehen#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,32 @@
+word: droga
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdɾɔ.ɡɐ/
+meanings:
+  - en: crap (something of poor quality)
+    examples:
+      - text: Essa droga não funciona!
+        en: That crap doesn't work!
+    sensitive:
+      - vulgar
+  - en: damn! (expresses anger or irritation)
+    examples: []
+    sensitive:
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/droga#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

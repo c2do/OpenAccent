@@ -1,0 +1,31 @@
+word: pacas
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpa.kɐs/
+part_of_speech: adv
+meanings:
+  - en: a lot; super
+    examples:
+      - text: A festa foi legal pacas!
+        en: The party was super cool!
+      - text: Eu gosto de você pacas.
+        en: I like you a lot.
+    sensitive: []
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pacas#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,32 @@
+word: tapa
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈta.pɐ/
+part_of_speech: noun
+meanings:
+  - en: a slap
+    examples: []
+    sensitive: []
+  - en: argument without a replica
+    examples: []
+    sensitive: []
+  - en: discrete marijuana use
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tapa#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

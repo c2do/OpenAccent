@@ -1,0 +1,29 @@
+word: schlampen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃlampən/
+part_of_speech: verb
+meanings:
+  - en: to work in a careless, sloppy manner; to slack; to botch
+    examples:
+      - text: ich habe beim Reparieren des Rohres geschlampt
+        en: I was sloppy when repairing the pipe
+    sensitive:
+      - offensive
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/schlampen#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

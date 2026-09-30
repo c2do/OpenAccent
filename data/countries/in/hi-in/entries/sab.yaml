@@ -1,0 +1,35 @@
+word: सब
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - sab
+pronunciation:
+  ipa: /səb/
+meanings:
+  - en: all
+    examples: []
+    sensitive: []
+  - en: all; everyone, everybody
+    examples:
+      - text: सब को पता है मैं कौन हूँ।
+        en: Everybody knows who I am.
+    sensitive: []
+  - en: of all
+    examples: []
+    sensitive: []
+concept: all
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%AC#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

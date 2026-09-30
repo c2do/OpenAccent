@@ -1,0 +1,30 @@
+word: जब
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - jab
+pronunciation:
+  ipa: /d͡ʒəb/
+part_of_speech: adv
+meanings:
+  - en: when (relative)
+    examples:
+      - text: जब मैं छोटा था, मैं बहुत तेज़ होता था।
+        en: When I was little, I used to be very mischievous.
+    sensitive: []
+concept: when
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%9C%E0%A4%AC#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,33 @@
+word: raiz
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʁaˈis/
+part_of_speech: adj
+meanings:
+  - en: O.G., true (valid, legitimate)
+    examples:
+      - text: Aquele homem de kilt é um escocês raiz!
+        en: That man over there wearing a kilt is a true Scotsman!
+    sensitive: []
+  - en: traditional, true
+    examples:
+      - text: Este é o método raiz de fazer carne assada.
+        en: This is the traditional way of making a barbecue.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/raiz#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

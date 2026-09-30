@@ -1,0 +1,36 @@
+word: papo reto
+dialect: pt-br
+type: phrase
+spellings: []
+romanized: []
+meanings:
+  - en: an objective, straightforward conversation
+    examples:
+      - text: Não enrola. Manda o papo reto!
+        en: Don't fool around. Be straight to the point!
+    sensitive: []
+  - en: a true information, as opposed to a rumor
+    examples:
+      - text: Papo reto que ele morreu?
+        en: Is it true that he died?
+    sensitive: []
+  - en: really, seriously, real talk
+    examples:
+      - text: Ela disse isso, tipo, papo reto.
+        en: She said that, like, really.
+    sensitive: []
+concept: really
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/papo_reto#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import
