@@ -37,7 +37,15 @@ added_by: wiktionary-import
 attested_by:
   - name: unimorph
     ref: https://github.com/unimorph/arz
+    method: dictionary-match
+    method_version: 1
   - name: flores
     ref: https://github.com/facebookresearch/flores (66 sentence pairs)
+    method: parallel-corpus
+    method_version: 1
+    support: 66
   - name: tatoeba
     ref: https://tatoeba.org (7 sentence pairs)
+    method: parallel-corpus
+    method_version: 1
+    support: 7

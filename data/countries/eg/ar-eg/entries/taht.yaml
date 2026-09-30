@@ -29,5 +29,10 @@ added_by: wiktionary-import
 attested_by:
   - name: unimorph
     ref: https://github.com/unimorph/arz
+    method: dictionary-match
+    method_version: 1
   - name: flores
     ref: https://github.com/facebookresearch/flores (11 sentence pairs)
+    method: parallel-corpus
+    method_version: 1
+    support: 11

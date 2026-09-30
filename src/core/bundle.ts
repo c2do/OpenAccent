@@ -9,6 +9,8 @@ export interface BundledDialect extends Dialect {
 export interface BundledEntry extends Entry {
   /** `<dialect>/<slug>` */
   id: string;
+  /** Independence groups of the datasets behind the entry (see src/core/confidence.ts). */
+  independent_sources?: string[];
 }
 
 export interface BundledSample extends Sample {

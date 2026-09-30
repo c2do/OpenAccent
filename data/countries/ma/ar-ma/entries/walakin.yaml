@@ -27,5 +27,10 @@ added_by: wiktionary-import
 attested_by:
   - name: doda-v1
     ref: https://github.com/darija-open-dataset/dataset/tree/doda_v1
+    method: dictionary-match
+    method_version: 1
   - name: flores
     ref: https://github.com/facebookresearch/flores (85 sentence pairs)
+    method: parallel-corpus
+    method_version: 1
+    support: 85

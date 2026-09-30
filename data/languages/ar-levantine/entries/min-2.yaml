@@ -41,7 +41,15 @@ added_by: wiktionary-import
 attested_by:
   - name: maknuune
     ref: https://github.com/CAMeL-Lab/maknuune_lexicon
+    method: dictionary-match
+    method_version: 1
   - name: flores
     ref: https://github.com/facebookresearch/flores (518 sentence pairs)
+    method: parallel-corpus
+    method_version: 1
+    support: 518
   - name: tatoeba
     ref: https://tatoeba.org (3 sentence pairs)
+    method: parallel-corpus
+    method_version: 1
+    support: 3

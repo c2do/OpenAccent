@@ -28,3 +28,6 @@ added_by: wiktionary-import
 attested_by:
   - name: tatoeba
     ref: https://tatoeba.org (18 sentence pairs)
+    method: parallel-corpus
+    method_version: 1
+    support: 18

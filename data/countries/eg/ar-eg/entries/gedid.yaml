@@ -15,5 +15,10 @@ added_by: claude-core-draft
 attested_by:
   - name: flores
     ref: https://github.com/facebookresearch/flores (16 sentence pairs)
+    method: parallel-corpus
+    method_version: 1
+    support: 16
   - name: unimorph
     ref: https://github.com/unimorph/arz
+    method: dictionary-match
+    method_version: 1

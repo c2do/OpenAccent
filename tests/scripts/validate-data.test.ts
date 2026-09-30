@@ -45,7 +45,10 @@ function baseTree() {
   write(dialectFile('ar'), dialect('ar'));
   write(dialectFile('ar-ps'), dialect('ar-ps', { parent: 'ar' }));
   write(entryFile('ar-ps', 'hakoura'), entry());
-  write('sources.yaml', { allowed: { maknuune: { license: 'CC-BY-SA-4.0' } }, blocked: { madar: 'no' } });
+  write('sources.yaml', {
+    allowed: { maknuune: { title: 'Maknuune', license: 'CC-BY-SA-4.0', url: 'https://example.org/maknuune', independence_group: 'maknuune' } },
+    blocked: { madar: 'no' },
+  });
 }
 
 const messages = () => validateData(root).map((e) => `${e.file}: ${e.message}`);
@@ -77,11 +80,30 @@ describe('validateData', () => {
 
   it('checks that attesting datasets are listed in sources.yaml', () => {
     baseTree();
-    write(entryFile('ar-ps', 'attested'), entry({ word: 'كلمة', attested_by: [{ name: 'maknuune' }, { name: 'madar' }, { name: 'mystery' }] }));
+    const how = { method: 'dictionary-match', method_version: 1 };
+    write(entryFile('ar-ps', 'attested'), entry({ word: 'كلمة', attested_by: [{ name: 'maknuune', ...how }, { name: 'madar', ...how }, { name: 'mystery', ...how }] }));
     expect(messages()).toEqual([
       expect.stringMatching(/attested_by: dataset "madar" is blocked/),
       expect.stringMatching(/attested_by: dataset "mystery" is not listed/),
     ]);
+  });
+
+  it('requires every attestation to say how it was made (the evidence ledger)', () => {
+    baseTree();
+    write(
+      entryFile('ar-ps', 'ledger'),
+      entry({ word: 'كلمة', attested_by: [{ name: 'maknuune' }, { name: 'maknuune', method: 'parallel-corpus', method_version: 9 }] }),
+    );
+    expect(messages()).toEqual([
+      expect.stringMatching(/attested_by\.0: "method" and "method_version" are required/),
+      expect.stringMatching(/attested_by\.1: parallel-corpus has no version 9 yet/),
+    ]);
+  });
+
+  it('requires an independence group for every allowed dataset', () => {
+    baseTree();
+    write('sources.yaml', { allowed: { maknuune: { title: 'Maknuune', license: 'CC-BY-SA-4.0', url: 'https://example.org' } } });
+    expect(messages()).toEqual([expect.stringMatching(/allowed\.maknuune: independence_group/)]);
   });
 
   it('reports schema errors with the file path', () => {

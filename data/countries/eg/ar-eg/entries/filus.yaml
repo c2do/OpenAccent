@@ -30,5 +30,11 @@ added_by: wiktionary-import
 attested_by:
   - name: flores
     ref: https://github.com/facebookresearch/flores (3 sentence pairs)
+    method: parallel-corpus
+    method_version: 1
+    support: 3
   - name: tatoeba
     ref: https://tatoeba.org (5 sentence pairs)
+    method: parallel-corpus
+    method_version: 1
+    support: 5

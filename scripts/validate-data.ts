@@ -3,7 +3,8 @@ import { pathToFileURL } from 'node:url';
 import type { z } from 'zod';
 import { loadRawData, type DataError } from '../src/core/data-loader.js';
 import { BARE_CLITICS, letterCount, sensitiveLabels } from './quality.js';
-import { ConceptSchema, CountrySchema, DialectSchema, EntrySchema, SampleSchema, type Dialect, type Entry } from '../src/core/schema.js';
+import { ATTESTATION_METHODS } from '../src/core/confidence.js';
+import { AllowedSourceSchema, ConceptSchema, CountrySchema, DialectSchema, EntrySchema, SampleSchema, type Dialect, type Entry } from '../src/core/schema.js';
 
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
@@ -68,6 +69,10 @@ export function validateData(root: string): DataError[] {
   // Sources
   const sources = (raw.sources ?? {}) as { allowed?: Record<string, unknown>; blocked?: Record<string, unknown> };
   const allowed = new Set(Object.keys(sources.allowed ?? {}));
+  for (const [name, s] of Object.entries(sources.allowed ?? {})) {
+    const parsed = AllowedSourceSchema.safeParse(s);
+    if (!parsed.success) errors.push({ file: 'sources.yaml', message: `allowed.${name}: ${describeIssues(parsed.error)}` });
+  }
   const blocked = new Set(Object.keys(sources.blocked ?? {}));
 
   // Concepts
@@ -142,10 +147,16 @@ export function validateData(root: string): DataError[] {
         errors.push({ file, message: `Dataset "${entry.source.name}" is not listed in data/sources.yaml` });
       }
     }
-    for (const a of entry.attested_by) {
+    entry.attested_by.forEach((a, i) => {
       if (blocked.has(a.name)) errors.push({ file, message: `attested_by: dataset "${a.name}" is blocked (see data/sources.yaml)` });
       else if (!allowed.has(a.name)) errors.push({ file, message: `attested_by: dataset "${a.name}" is not listed in data/sources.yaml` });
-    }
+      // The evidence ledger: an attestation must say how it was made, so a method version found too loose can be recomputed.
+      if (!a.method || !a.method_version) {
+        errors.push({ file, message: `attested_by.${i}: "method" and "method_version" are required (see ATTESTATION_METHODS in src/core/confidence.ts)` });
+      } else if (a.method_version > ATTESTATION_METHODS[a.method].current) {
+        errors.push({ file, message: `attested_by.${i}: ${a.method} has no version ${a.method_version} yet` });
+      }
+    });
     // Imported drafts nobody has reviewed: every offensive or sexual meaning must be labelled (so models
     // never use it on their own), and a single letter is never a word.
     if (entry.source.kind === 'dataset' && entry.status !== 'verified') {

@@ -15,3 +15,6 @@ added_by: claude-core-draft
 attested_by:
   - name: tatoeba
     ref: https://tatoeba.org (6 sentence pairs)
+    method: parallel-corpus
+    method_version: 1
+    support: 6

@@ -14,5 +14,10 @@ added_by: claude-core-draft
 attested_by:
   - name: tatoeba
     ref: https://tatoeba.org (2 sentence pairs)
+    method: parallel-corpus
+    method_version: 1
+    support: 2
   - name: maknuune
     ref: https://github.com/CAMeL-Lab/maknuune_lexicon
+    method: dictionary-match
+    method_version: 1

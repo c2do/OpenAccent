@@ -18,3 +18,5 @@ source:
 attested_by:
   - name: maknuune
     ref: https://github.com/CAMeL-Lab/maknuune_lexicon
+    method: dictionary-match
+    method_version: 1
