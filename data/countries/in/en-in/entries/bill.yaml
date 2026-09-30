@@ -1,0 +1,27 @@
+word: bill
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɪl/
+part_of_speech: noun
+meanings:
+  - en: A written note of goods sold, services rendered, or work done, listing the
+      price or charge paid; a receipt.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bill#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

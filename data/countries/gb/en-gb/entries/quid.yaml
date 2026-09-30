@@ -1,0 +1,27 @@
+word: quid
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kwɪd/
+part_of_speech: noun
+meanings:
+  - en: Pound (currency). (usually used with a whole number of pounds)
+    examples:
+      - text: Seven quid for a toastie? Are you taking the mick?!
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/quid#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

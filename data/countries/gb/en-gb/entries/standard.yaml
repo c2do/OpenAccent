@@ -1,0 +1,26 @@
+word: standard
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈstændəd/
+part_of_speech: intj
+meanings:
+  - en: An expression of agreement.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/standard#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

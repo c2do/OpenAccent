@@ -1,0 +1,28 @@
+word: wink
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈwɪŋk/
+part_of_speech: noun
+meanings:
+  - en: Synonym of periwinkle (“type of mollusk”).
+    examples:
+      - text: “I buy my winks,” said one, “at Billingsgate, at 3s. and 4s. the wash. A
+          wash is about a bushel. […]”
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wink#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

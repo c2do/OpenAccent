@@ -1,0 +1,46 @@
+word: बस
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bas
+pronunciation:
+  ipa: /bəs/
+meanings:
+  - en: merely, only
+    examples:
+      - text: मैं बस यह कहना चाहता था कि ...
+        en: I only wanted to say that ...
+    sensitive: []
+  - en: enough
+    examples:
+      - text: बस! तमाशा बंद करो!
+        en: Enough! Stop this nonsense!
+      - text: बस, इतना ठीक है
+        en: Enough, this much is fine.
+    sensitive: []
+  - en: enough; ample
+    examples: []
+    sensitive: []
+  - en: power, control, ability
+    examples:
+      - text: यह काम तेरे बस का नहीं है।
+        en: This work is beyond your ability.
+      - text: बस में
+        en: in one's abilities
+    sensitive: []
+concept: enough
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%B8#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

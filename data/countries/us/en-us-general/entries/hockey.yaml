@@ -1,0 +1,28 @@
+word: hockey
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: Feces, excrement.
+    examples:
+      - text: “I thought she'd just gone to pee but I reckon she must be making hockey
+          too.”
+      - text: My anger surged back a pace. “Harry Boone is a lickspittle, butt kissing,
+          hunk of horse hockey,” I said precisely.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hockey#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

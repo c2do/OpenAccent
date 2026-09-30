@@ -1,0 +1,28 @@
+word: card
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɑːd/
+part_of_speech: verb
+meanings:
+  - en: To check IDs, especially against a minimum age requirement.
+    examples:
+      - text: They have to card anybody who looks 21 or younger.
+      - text: I heard you don't get carded at the other liquor store.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/card#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

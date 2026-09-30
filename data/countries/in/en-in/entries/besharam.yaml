@@ -1,0 +1,24 @@
+word: besharam
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: Shameless, brazen.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/besharam#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

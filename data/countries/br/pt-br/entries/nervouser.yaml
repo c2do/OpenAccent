@@ -1,0 +1,33 @@
+word: nervouser
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /neʁˈvuw.zeʁ/
+part_of_speech: adj
+meanings:
+  - en: angry, mad, especially needlessly
+    examples: []
+    sensitive: []
+  - en: dope, cool, rad, impressive
+    examples: []
+    sensitive: []
+  - en: nervous (apprehensive, anxious)
+    examples: []
+    sensitive: []
+concept: angry
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nervouser#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

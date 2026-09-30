@@ -1,0 +1,28 @@
+word: dipper
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdɪpə/
+part_of_speech: noun
+meanings:
+  - en: an Indian-born immigrant residing in Western countries, often born in the
+      1990s or later
+    examples: []
+    sensitive:
+      - offensive
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dipper#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: quebra
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkɛ.bɾɐ/
+part_of_speech: noun
+meanings:
+  - en: in driving school, a bribe given to the instructor in order to pass the
+      driving test
+    examples:
+      - text: Minha maior preocupação era o tão temido “quebra” – o suborno que os
+          alunos dão à autoescola para não serem reprovados nos exames. A famosa
+          “carta comprada”.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/quebra#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

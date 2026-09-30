@@ -1,0 +1,26 @@
+word: chacha
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: An uncle, especially one's father's younger brother.
+    examples:
+      - text: She also admires her chachas—Sajjan's engineering bent of mind, Ratan's
+          financial acumen and Naveen's abilities as a great communicator.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chacha#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

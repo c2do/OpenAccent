@@ -1,0 +1,30 @@
+word: row
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɹaʊ/
+part_of_speech: noun
+meanings:
+  - en: A noisy argument.
+    examples:
+      - text: There was a row among the oarsmen about how to row.
+      - text: The row comes at a time when Africa is supposed to be moving towards
+          greater free trade through the establishment of a continent-wide
+          free-trade area, which began operating four years ago.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/row#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

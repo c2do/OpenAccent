@@ -1,0 +1,26 @@
+word: ok-ok
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: Neither good nor bad; passable.
+    examples:
+      - text: Life was good when Pitchers came, then it was ok ok, but now it will be
+          freaking good again if Pitchers 2 arrives.💓❤
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ok-ok#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

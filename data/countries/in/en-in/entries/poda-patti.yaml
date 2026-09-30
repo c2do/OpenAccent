@@ -1,0 +1,28 @@
+word: poda patti
+dialect: en-in
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: intj
+meanings:
+  - en: "An insult: go away, you dog!"
+    examples:
+      - text: A servant's snot-nosed child smiled up at him before stomping the ground
+          to scare away a straggly cat by shouting, 'Poda patti' - Go away, you
+          miserable dog!
+    sensitive:
+      - offensive
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/poda_patti#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

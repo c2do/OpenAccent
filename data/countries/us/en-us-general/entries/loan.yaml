@@ -1,0 +1,27 @@
+word: loan
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ləʊn/
+part_of_speech: verb
+meanings:
+  - en: To lend (something) to (someone).
+    examples:
+      - text: All the rest—six out of eleven, more than half—were loaned to him.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/loan#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

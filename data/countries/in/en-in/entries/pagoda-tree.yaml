@@ -1,0 +1,30 @@
+word: pagoda tree
+dialect: en-in
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: The opportunity to make money rapidly in British India.
+    examples:
+      - text: India has been transferred from the regions of romance to the realms of
+          fact […] the mines of Golconda no longer pay the cost of working, and
+          the pagoda-tree has been stripped of all its golden fruit.
+      - text: It might be mistaken […] for the work of some modern architect, built for
+          the Nabob of a couple of generations back, who had enriched himself
+          when the pagoda-tree was worth the shaking.
+    sensitive: []
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pagoda_tree#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

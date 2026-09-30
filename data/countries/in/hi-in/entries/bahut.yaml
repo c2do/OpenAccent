@@ -1,0 +1,40 @@
+word: बहुत
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bahut
+pronunciation:
+  ipa: /bə.ɦʊt̪/
+meanings:
+  - en: many
+    examples: []
+    sensitive: []
+  - en: much
+    examples: []
+    sensitive: []
+  - en: too much
+    examples: []
+    sensitive: []
+  - en: very
+    examples:
+      - text: मैं बहुत अच्छा हूँ।
+        en: I'm very well
+      - text: मैं बहुत अच्छी हूँ।
+        en: I'm very well
+    sensitive: []
+concept: a_lot
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%B9%E0%A5%81%E0%A4%A4#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

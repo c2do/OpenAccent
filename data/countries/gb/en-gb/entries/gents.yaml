@@ -1,0 +1,29 @@
+word: gents
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdʒɛnts/
+part_of_speech: noun
+meanings:
+  - en: "A men's room: a lavatory intended for use by men."
+    examples:
+      - text: Where is the gents? I need a slash.
+      - text: London's first 'gents' public toilets were opened in Fleet Street in 1851,
+          followed in 1852 by a 'ladies' toilet at 51 Bedford Street, Strand.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gents#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

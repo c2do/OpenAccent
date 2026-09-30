@@ -1,0 +1,29 @@
+word: assim
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /aˈsĩ/
+part_of_speech: intj
+meanings:
+  - en: well
+    examples:
+      - text: Assim, eu não acho que isso vai te fazer melhorar.
+        en: Well, I don't think that will make you feel better.
+    sensitive: []
+concept: fine
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/assim#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

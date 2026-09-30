@@ -1,0 +1,29 @@
+word: knacken
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: "[ˈknakn̩]"
+part_of_speech: verb
+meanings:
+  - en: to sleep
+    examples:
+      - text: Mach' nicht solchen Lärm, er knackt gerade.
+        en: Don't make such a noise, he's sleeping.
+    sensitive: []
+concept: sleep
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/knacken#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

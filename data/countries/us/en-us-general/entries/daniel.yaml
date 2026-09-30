@@ -1,0 +1,28 @@
+word: daniel
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdænjəl/
+part_of_speech: noun
+meanings:
+  - en: The buttocks.
+    examples:
+      - text: He'd pull the chair out from under some dignified dowager and catch her
+          just before she went to fall on her daniel […]
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/daniel#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

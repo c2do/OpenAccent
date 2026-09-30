@@ -1,0 +1,27 @@
+word: dodger
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdɒd͡ʒ.ə(ɹ)/
+part_of_speech: noun
+meanings:
+  - en: Bread.
+    examples: []
+    sensitive: []
+concept: bread
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dodger#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

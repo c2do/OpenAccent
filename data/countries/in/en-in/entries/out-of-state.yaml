@@ -1,0 +1,25 @@
+word: out-of-state
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: Of, pertaining to, or originating in another state
+    examples:
+      - text: out-of-state plates
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/out-of-state#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,31 @@
+word: scores
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /skɔːz/
+part_of_speech: noun
+meanings:
+  - en: A bag of cannabis worth £20.
+    examples:
+      - text: '"On the phone you said you want a scores, you think I would come all the
+          way here for a benners you prick!!!"'
+      - text: What's that smell in the chеst of drawers? / Young boy sellin' them benz
+          and scores / Gotta get rich in desperate cause / Talk about drill,
+          gotta mention moi
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/scores#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: wie gehts
+dialect: de-de
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /viˈɡeːts/
+part_of_speech: phrase
+meanings:
+  - en: how are you, what's up
+    examples: []
+    sensitive: []
+concept: how_are_you
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wie_gehts#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: emma
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɛmə/
+part_of_speech: noun
+meanings:
+  - en: M in RAF phonetic alphabet
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/emma#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

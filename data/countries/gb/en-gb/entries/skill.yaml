@@ -1,0 +1,30 @@
+word: skill
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /skɪl/
+part_of_speech: adj
+meanings:
+  - en: Great, excellent.
+    examples:
+      - text: Well, unfortunately for you, my dearest Waggipoos, I'm much more skill
+          than you!
+      - text: This game is skill. Remember that because it's going to sound really
+          complicated.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/skill#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

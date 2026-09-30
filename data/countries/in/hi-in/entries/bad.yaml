@@ -1,0 +1,36 @@
+word: बद
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bad
+pronunciation:
+  ipa: /bəd̪/
+meanings:
+  - en: bad
+    examples: []
+    sensitive: []
+  - en: evil, wicked
+    examples: []
+    sensitive: []
+  - en: inauspicious
+    examples: []
+    sensitive: []
+  - en: bubo
+    examples: []
+    sensitive: []
+concept: bad
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%A6#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: happy
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhɛpi/
+part_of_speech: adj
+meanings:
+  - en: glad; satisfied; momentarily happy
+    examples:
+      - text: Dass so viele Menschen gekommen sind, mache ihn „mega happy“.
+        en: That so many people came makes him “mega happy”.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/happy#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,32 @@
+word: ken
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɛn/
+part_of_speech: noun
+meanings:
+  - en: A house, especially a den of thieves.
+    examples:
+      - text: Ben mort, shall you and I heave a bough, mill a ken, or nip a bung, and
+          then we'll couch a hogshead under the ruffmans, and there you shall
+          wap with me, and I'll niggle with you.
+      - text: Up she goes to any likely ken, where she knows there are women that are
+          married or expect to get married, and commences begging.
+    sensitive: []
+concept: house
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ken#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

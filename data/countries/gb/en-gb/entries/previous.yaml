@@ -1,0 +1,38 @@
+word: previous
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpɹi.vi.əs/
+part_of_speech: noun
+meanings:
+  - en: An existing criminal record (short for "previous convictions")
+    examples:
+      - text: It turned out the shoplifter had a lot of previous.
+      - text: "Simmons had eight previouses: robberies, burglaries, a couple of
+          felonious assaults."
+    sensitive: []
+  - en: A track record of similar behaviour, especially bad behaviour.
+    examples:
+      - text: Mitigation will be limited given his previous and as he has already
+          attended tackle school he cannot return.
+    sensitive: []
+  - en: A record of previous hostility or conflict (between people).
+    examples:
+      - text: The two players refused to shake hands — there's a bit of previous there.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/previous#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

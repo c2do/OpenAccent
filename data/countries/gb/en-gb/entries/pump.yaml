@@ -1,0 +1,40 @@
+word: pump
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pʌmp/
+meanings:
+  - en: A low-top shoe with a rubber sole and a canvas upper; a low-top canvas
+      sneaker.
+    examples: []
+    sensitive: []
+  - en: To have sex with; to sexually penetrate, especially with a thrusting motion.
+    examples:
+      - text: Thus to and again to our paſtime we went, / And my Cards I play'd fairly
+          to Jenny's content; / I work'd at her Pump till my Sucker grew dry, /
+          Then I left pumping, a good Reaſon why.
+      - text: Pump my tight hole so long and hard that I can't walk or sit when you're
+          done.
+    sensitive:
+      - sexual
+  - en: To pass gas; to fart quietly.
+    examples:
+      - text: People never pumped, just never never, but sometimes ye got smells.
+    sensitive:
+      - vulgar
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pump#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

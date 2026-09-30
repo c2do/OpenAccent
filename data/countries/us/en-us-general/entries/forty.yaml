@@ -1,0 +1,28 @@
+word: forty
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfɔːti/
+part_of_speech: noun
+meanings:
+  - en: A bottle (of beer) containing forty fluid ounces.
+    examples:
+      - text: It's on, wrap my lips around the forty / And when it comes to getting
+          another stogie […] Grab your forty, let's get keyed
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/forty#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

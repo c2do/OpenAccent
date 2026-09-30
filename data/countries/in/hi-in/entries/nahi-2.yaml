@@ -1,0 +1,28 @@
+word: नहि
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - nahi
+pronunciation:
+  ipa: /nə.ɦiː/
+part_of_speech: intj
+meanings:
+  - en: "no"
+    examples: []
+    sensitive: []
+concept: "no"
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A8%E0%A4%B9%E0%A4%BF#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

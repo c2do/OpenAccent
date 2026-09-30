@@ -1,0 +1,26 @@
+word: mum
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /mʌm/
+part_of_speech: noun
+meanings:
+  - en: A chrysanthemum.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mum#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

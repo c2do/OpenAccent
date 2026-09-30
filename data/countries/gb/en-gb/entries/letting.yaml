@@ -1,0 +1,29 @@
+word: letting
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈlɛtɪŋ/
+part_of_speech: noun
+meanings:
+  - en: Synonym of tenancy.
+    examples:
+      - text: House lettings are holding up despite fears that the buy-to-let boom could
+          be running out of steam, according to specialist lender Paragon
+          Mortgages.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/letting#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

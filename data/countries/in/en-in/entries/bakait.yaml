@@ -1,0 +1,28 @@
+word: bakait
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bəˈkaɪt/
+part_of_speech: noun
+meanings:
+  - en: A boastful, overconfident, or rowdy person who talks or acts with
+      exaggerated bravery, often without substance; a showoff or know-it-all.
+    examples:
+      - text: He's just a bakait — all talk, no real skills.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bakait#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

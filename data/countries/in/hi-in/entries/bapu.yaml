@@ -1,0 +1,28 @@
+word: बापू
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bāpū
+pronunciation:
+  ipa: /bɑː.puː/
+part_of_speech: noun
+meanings:
+  - en: dad, father
+    examples: []
+    sensitive: []
+concept: dad
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%BE%E0%A4%AA%E0%A5%82#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

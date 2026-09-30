@@ -1,0 +1,39 @@
+word: flavor
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfleɪvə/
+meanings:
+  - en: The quality produced by the sensation of taste or, especially, of taste and
+      smell in combined effect.
+    examples:
+      - text: The flavor of this apple pie is delicious.
+    sensitive: []
+  - en: A kind or type.
+    examples:
+      - text: Debian is one flavor of the Linux operating system.
+    sensitive: []
+  - en: Style.
+    examples:
+      - text: Who brings the flavor? / That's me, that's me / Who brings the flavor? /
+          That's me. I got it
+    sensitive: []
+  - en: To add flavoring to something.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/flavor#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

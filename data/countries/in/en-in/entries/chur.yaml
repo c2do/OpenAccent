@@ -1,0 +1,26 @@
+word: chur
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃɜː/
+part_of_speech: noun
+meanings:
+  - en: An island or shoal in a river.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chur#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

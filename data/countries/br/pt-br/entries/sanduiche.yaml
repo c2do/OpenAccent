@@ -1,0 +1,29 @@
+word: sanduíche
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sɐ̃.duˈi.ʃi/
+part_of_speech: noun
+meanings:
+  - en: sandwich (snack)
+    examples: []
+    sensitive: []
+  - en: a situation where there are too many people or objects packed together
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sandu%C3%ADche#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

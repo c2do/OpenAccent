@@ -1,0 +1,33 @@
+word: भूखा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bhūkhā
+pronunciation:
+  ipa: /bʱuː.kʰɑː/
+meanings:
+  - en: hungry, starving
+    examples: []
+    sensitive: []
+  - en: desirous
+    examples: []
+    sensitive: []
+  - en: one who is hungry
+    examples: []
+    sensitive: []
+concept: hungry
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AD%E0%A5%82%E0%A4%96%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

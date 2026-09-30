@@ -1,0 +1,28 @@
+word: bean
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbi(ː)n/
+part_of_speech: noun
+meanings:
+  - en: Money.
+    examples:
+      - text: I haven't got a bean.
+    sensitive: []
+concept: money
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bean#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

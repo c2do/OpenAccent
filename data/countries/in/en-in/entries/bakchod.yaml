@@ -1,0 +1,29 @@
+word: bakchod
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbʌk.tʃoʊd/
+part_of_speech: noun
+meanings:
+  - en: A person who engages in pointless, boastful, or foolish talk; a loudmouth or
+      someone who talks nonsense.
+    examples:
+      - text: Ignore him, he’s just a bakchod with no real ideas.
+    sensitive:
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bakchod#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

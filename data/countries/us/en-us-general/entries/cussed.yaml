@@ -1,0 +1,29 @@
+word: cussed
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkʌsɪd/
+meanings:
+  - en: Ill-tempered, nasty, obstinate.
+    examples: []
+    sensitive: []
+  - en: Very, cussedly, accursedly.
+    examples: []
+    sensitive: []
+concept: a_lot
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cussed#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

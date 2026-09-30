@@ -1,0 +1,44 @@
+word: कुछ
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kuch
+pronunciation:
+  ipa: /kʊt͡ʃʰ/
+meanings:
+  - en: something (inanimate singular)
+    examples:
+      - text: वह कल रात उससे कुछ कह रही थी।
+        en: She was saying something to her last night.
+    sensitive: []
+  - en: something (inanimate singular); nothing, not anything
+    examples:
+      - text: वह कुछ नहीं जानता।
+        en: He doesn't know anything.
+      - text: मुझे और कुछ नहीं कहना।
+        en: I have nothing else to say.
+    sensitive: []
+  - en: a little, a bit
+    examples:
+      - text: मुझे कुछ दीजिए।
+        en: Give me a little.
+    sensitive: []
+  - en: somewhat, a bit, a little
+    examples: []
+    sensitive: []
+concept: something
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%81%E0%A4%9B#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

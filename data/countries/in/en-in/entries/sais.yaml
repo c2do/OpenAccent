@@ -1,0 +1,29 @@
+word: sais
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /saɪs/
+part_of_speech: noun
+meanings:
+  - en: A groom, or servant with responsibility for the horses.
+    examples:
+      - text: 4th Troop 1st Brigade—3 rank and file, 1 syce, 17 horses, killed; […]
+      - text: Then all trace of him was lost, until a sais met me on Simla Mall with
+          this extraordinary note:— […]
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sais#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

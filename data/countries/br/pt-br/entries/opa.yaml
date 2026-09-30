@@ -1,0 +1,36 @@
+word: opa
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈo.pɐ/
+meanings:
+  - en: oops (acknowledging a minor mistake)
+    examples:
+      - text: Opa! Desculpa, foi sem querer.
+        en: Oops! Sorry, it was an accident.
+    sensitive: []
+  - en: a type of cape used by members of the clergy
+    examples: []
+    sensitive: []
+  - en: carousal (noisy feast or social gathering)
+    examples: []
+    sensitive: []
+  - en: bad company
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/opa#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

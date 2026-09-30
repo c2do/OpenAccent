@@ -1,0 +1,32 @@
+word: dude
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /duːd/
+part_of_speech: noun
+meanings:
+  - en: A man, generally a younger man.
+    examples:
+      - text: So we were at the mall and these two dudes just walk up to us and say
+          "hi".
+      - text: At first Europeans didn't realize what chocolate could be—poor guys!
+          [Christopher] Columbus saw cacao beans in 1503, but he didn't have a
+          clue. (No surprise—dude thought he was in India!)
+    sensitive: []
+concept: man
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dude#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

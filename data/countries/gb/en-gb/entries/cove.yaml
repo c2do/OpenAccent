@@ -1,0 +1,29 @@
+word: cove
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kəʊv/
+part_of_speech: noun
+meanings:
+  - en: Man; fellow.
+    examples:
+      - text: At one point, a friendly-looking sort of cove with silver hair and a
+          grandfatherly kind of face beamed at him […]
+    sensitive: []
+concept: man
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cove#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

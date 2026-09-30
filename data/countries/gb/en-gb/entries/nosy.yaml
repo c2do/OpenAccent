@@ -1,0 +1,28 @@
+word: nosy
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnəʊziː/
+part_of_speech: noun
+meanings:
+  - en: A look at something to satisfy one's curiosity.
+    examples:
+      - text: I might wander down to the construction site for a nosy at what they're
+          building.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nosy#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

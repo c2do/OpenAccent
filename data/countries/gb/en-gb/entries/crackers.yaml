@@ -1,0 +1,29 @@
+word: crackers
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: Crazy, insane.
+    examples:
+      - text: “I will call up Demons to destroy thee!” “You're crackers,” said Carrot,
+          backing away.
+      - text: He acknowledges that it must seem "a crackers thing to say", but given the
+          substantial progress which has been made in other areas of the
+          business, his optimism isn't without foundation.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/crackers#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

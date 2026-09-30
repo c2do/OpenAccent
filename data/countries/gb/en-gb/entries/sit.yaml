@@ -1,0 +1,27 @@
+word: sit
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sɪt/
+part_of_speech: verb
+meanings:
+  - en: To take, to undergo or complete (an examination or test).
+    examples: []
+    sensitive: []
+concept: take
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sit#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: adam
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈæd.əm/
+part_of_speech: noun
+meanings:
+  - en: The day or night before an eve; two days or nights before a holiday, most
+      commonly Christmas.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/adam#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

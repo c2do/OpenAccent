@@ -1,0 +1,38 @@
+word: नन्हा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - nanhā
+pronunciation:
+  ipa: /nən.ɦɑː/
+part_of_speech: adj
+meanings:
+  - en: small, little
+    examples:
+      - text: |-
+          नन्हा मुन्ना राही हूँ
+          देश का सिपाही हूँ
+          बोलो मेरे संग
+          जय हिंद, जय हिंद, जय हिंद
+        en: |-
+          I'm a small cute traveller
+          I'm the nation's soldier
+          Now say with me
+          Hail India, Hail India, Hail India
+    sensitive: []
+concept: small
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A8%E0%A4%A8%E0%A5%8D%E0%A4%B9%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

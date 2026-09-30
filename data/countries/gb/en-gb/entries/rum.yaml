@@ -1,0 +1,31 @@
+word: rum
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɹʌm/
+meanings:
+  - en: Strange, peculiar.
+    examples:
+      - text: a rum idea; a rum fellow
+      - text: "\"Lor, Noah!\" said Charlotte, \"What a rum creature you are! Why don't
+          you let the boy alone?\""
+    sensitive: []
+  - en: Any odd person or thing.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rum#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: tanner
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtænɚ/
+part_of_speech: noun
+meanings:
+  - en: A former British coin worth six old pence.
+    examples:
+      - text: "[A]s you are so flash of your money, though you say you are poor, you may
+          give me a tanner to buy a little baccy with; […]"
+      - text: They'd say hello, maybe slip you a tanner.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tanner#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

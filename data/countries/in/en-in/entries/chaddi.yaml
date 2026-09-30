@@ -1,0 +1,32 @@
+word: chaddi
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃəɖ.ɖiː/
+part_of_speech: noun
+meanings:
+  - en: Underwear, shorts, especially knickers.
+    examples: []
+    sensitive: []
+  - en: A member or supporter of the Rashtriya Swayamsevak Sangh; by extension, a
+      member or supporter of an organisation associated or affliated with
+      Rashtriya Swayamsevak Sangh.
+    examples: []
+    sensitive:
+      - offensive
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chaddi#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

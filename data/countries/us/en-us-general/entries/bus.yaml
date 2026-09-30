@@ -1,0 +1,27 @@
+word: bus
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: To clear meal remains from.
+    examples:
+      - text: He bussed tables as the restaurant emptied out.
+      - text: He was hired to bus tables, but after a few incidents they moved him to
+          the kitchen.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bus#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

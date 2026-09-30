@@ -1,0 +1,32 @@
+word: oppo
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɒ.pəʊ/
+part_of_speech: noun
+meanings:
+  - en: A friend, associate or colleague.
+    examples:
+      - text: "'I suppose you're referring to Fluker,' I told him, and he looked at me
+          in stunned amazement when I explained that he was one of my old
+          oppoes."
+      - text: “It's all right, chaps, the decorator's come. This 'ere is me old ’oppo
+          Ginger Vernall.”
+    sensitive: []
+concept: friend
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/oppo#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

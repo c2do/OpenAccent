@@ -1,0 +1,31 @@
+word: mama
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmæmə/
+meanings:
+  - en: Synonym of mother (“a female parent”).
+    examples:
+      - text: I love the cookies which mama bakes me every week.
+      - text: This begets Scorn, hovv can one stand in avve, / Of a vain Tavvdry,
+          Amorous Mamma.
+    sensitive: []
+  - en: "Often preceded by oh: used to express approval, joy, surprise, etc."
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mama#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

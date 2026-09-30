@@ -1,0 +1,28 @@
+word: gora
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡəʊ.ɹə/
+part_of_speech: noun
+meanings:
+  - en: A white person; a European.
+    examples:
+      - text: Every day after that, my parents showed off their daughter's Urdu-speaking
+          gora ‘friend’ to anyone who walked through the door.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gora#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

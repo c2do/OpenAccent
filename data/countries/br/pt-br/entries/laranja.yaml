@@ -1,0 +1,27 @@
+word: laranja
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /laˈɾɐ̃.ʒɐ/
+part_of_speech: noun
+meanings:
+  - en: a front man (one who knowingly allows himself or herself to be used for
+      another's profit, especially in political schemes), a straw man
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/laranja#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

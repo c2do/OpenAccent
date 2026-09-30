@@ -1,0 +1,31 @@
+word: sye
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+part_of_speech: verb
+meanings:
+  - en: To say.
+    examples:
+      - text: hinkin' of whort yer'd liked ter sye, but whort yer 'aven't said,
+      - text: >-
+          Thank yer kindly for mi comfortable tea. That's what you was about to
+          sye, eh'!
+
+          No, 'tain't.
+    sensitive: []
+concept: say
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sye#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

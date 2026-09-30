@@ -1,0 +1,27 @@
+word: dummy
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdʌmi/
+part_of_speech: adv
+meanings:
+  - en: Extremely.
+    examples:
+      - text: It's dummy hot outside.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dummy#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

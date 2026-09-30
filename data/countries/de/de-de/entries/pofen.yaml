@@ -1,0 +1,29 @@
+word: pofen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpoːfn̩/
+part_of_speech: verb
+meanings:
+  - en: to sleep, crash
+    examples:
+      - text: Bitte schmeiß' nicht gleich uns're Liebe weg / Wenn ich mal mit 'ner
+          anderen pof’
+    sensitive: []
+concept: sleep
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pofen#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: verbrechen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fərˈbrɛçən/
+part_of_speech: verb
+meanings:
+  - en: to do (something wrong); to be at fault for
+    examples: []
+    sensitive: []
+concept: do
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/verbrechen#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

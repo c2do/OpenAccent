@@ -1,0 +1,29 @@
+word: barbie
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɑː(ɹ)bi/
+part_of_speech: noun
+meanings:
+  - en: A barbecue (apparatus for grilling).
+    examples: []
+    sensitive: []
+  - en: "A barbecue (event: cookout)."
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/barbie#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

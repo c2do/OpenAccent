@@ -1,0 +1,41 @@
+word: trash
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tɹæʃ/
+meanings:
+  - en: Useless physical things to be discarded; rubbish; refuse.
+    examples:
+      - text: A haunch of venison would be trash to a Brahmin.
+    sensitive: []
+  - en: A fan who is excessively obsessed with their fandom and its fanworks.
+    examples:
+      - text: "Near-synonyms: stan; see also Thesaurus:fan"
+      - text: I am Harry Potter trash.
+    sensitive: []
+  - en: To discard.
+    examples:
+      - text: Fatcat also fails to warn you that unformatting will trash any files
+          copied to the unintentionally formatted disk.
+    sensitive: []
+  - en: People of low social status or class. (See, for example, white trash or
+      Eurotrash.)
+    examples: []
+    sensitive:
+      - offensive
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/trash#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: godown
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡoʊ̯daʊ̯n/
+part_of_speech: noun
+meanings:
+  - en: A warehouse.
+    examples:
+      - text: At last a certain merchant purchased the weedy little garden in the center
+          of the Old Quarter and built godowns and shops upon its flower beds.
+      - text: Sam Vimes awoke from a pig's nightmare to find himself lying on a pile of
+          sacks in a godown in the docks.
+    sensitive: []
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/godown#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

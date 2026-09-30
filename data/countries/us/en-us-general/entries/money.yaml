@@ -1,0 +1,29 @@
+word: money
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmʌn.i/
+part_of_speech: adj
+meanings:
+  - en: Cool; excellent.
+    examples:
+      - text: Seriously, check out pics on my Flickr. This coat is so money, it doesn’t
+          even know how money it is.
+    sensitive: []
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/money#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

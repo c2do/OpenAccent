@@ -1,0 +1,27 @@
+word: sacar
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /saˈka(ʁ)/
+part_of_speech: verb
+meanings:
+  - en: to understand
+    examples: []
+    sensitive: []
+concept: understand
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sacar#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

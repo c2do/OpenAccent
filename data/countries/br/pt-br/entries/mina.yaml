@@ -1,0 +1,32 @@
+word: mina
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmĩ.nɐ/
+part_of_speech: noun
+meanings:
+  - en: girl, gal
+    examples:
+      - text: |-
+          Tô namorando aquela mina
+          Mas não sei se ela me namora
+        en: |-
+          I'm dating that girl
+          But I don't know if she's dating me
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mina#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

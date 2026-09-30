@@ -1,0 +1,30 @@
+word: carfie
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kɑːfi/
+part_of_speech: noun
+meanings:
+  - en: A smartphone-taken picture of oneself in a car.
+    examples:
+      - text: Long time since I took a carfie.
+      - text: Whether she’s walking the red carpet of her movie premieres or sitting in
+          the front rows of award shows or simply clicking a carfie (car
+          selfie), Mahira always offers an effortless take on dressing.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/carfie#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

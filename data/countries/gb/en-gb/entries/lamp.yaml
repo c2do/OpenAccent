@@ -1,0 +1,30 @@
+word: lamp
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈlæ̞mp/
+part_of_speech: verb
+meanings:
+  - en: To hit, clout, belt, wallop.
+    examples:
+      - text: Another man said, “If someone [a customer]^([sic]) gave me loads of
+          hassle, I'd end up lamping them.” Several of them, in fact, had lost
+          their jobs when they lamped the boss.
+      - text: All for the pleasure of lamping a twat in the face.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/lamp#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

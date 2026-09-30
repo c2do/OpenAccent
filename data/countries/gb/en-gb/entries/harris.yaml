@@ -1,0 +1,28 @@
+word: harris
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhæɹɪs/
+part_of_speech: noun
+meanings:
+  - en: A dried preparation of the flowering tops or other parts of the cannabis
+      plant used as a psychotropic drug.
+    examples:
+      - text: I'd rather stay in with some harris than go to the pub after work tonight.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/harris#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,31 @@
+word: toodle-pip
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtuːdl ˌpɪp/
+part_of_speech: intj
+meanings:
+  - en: Goodbye.
+    examples:
+      - text: Right, I'm off. Toodle-pip!
+      - text: Right, that's your gymnastics fill for today - we'll miss the medals
+          ceremony because the footage has switched to the jumping at Greenwich
+          Park. Thanks for joining me, toodle-pip.
+    sensitive: []
+concept: bye
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/toodle-pip#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

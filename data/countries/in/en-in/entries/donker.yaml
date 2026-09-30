@@ -1,0 +1,26 @@
+word: donker
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdɒŋ.kə(ɹ)/
+part_of_speech: noun
+meanings:
+  - en: A people smuggler.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/donker#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

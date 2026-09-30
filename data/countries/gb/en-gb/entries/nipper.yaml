@@ -1,0 +1,32 @@
+word: nipper
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnɪpə(ɹ)/
+part_of_speech: noun
+meanings:
+  - en: A child.
+    examples:
+      - text: Heard what I was saying, and nipped off to the patrols the very next day.
+          Pretty smart for a nipper of seven, eh?
+      - text: "No, this is not a creche: nippers should not be running around, fighting
+          under the pool table or generally creating havoc (this applies to
+          dogs, too)."
+    sensitive: []
+concept: child
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nipper#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

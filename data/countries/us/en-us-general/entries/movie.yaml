@@ -1,0 +1,27 @@
+word: movie
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmuːvi/
+part_of_speech: noun
+meanings:
+  - en: A recorded sequence of images displayed on a screen at a rate sufficiently
+      fast to create the appearance of motion; a film; a video.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/movie#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

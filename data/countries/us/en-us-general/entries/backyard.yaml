@@ -1,0 +1,42 @@
+word: backyard
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bækˈjɑːd/
+part_of_speech: noun
+meanings:
+  - en: A yard to the rear of a house or similar residence.
+    examples:
+      - text: I think when I discovered this republic, which is in Nevada - in one man's
+          house and backyard and front garden - I think I stumbled across what
+          for me really typifies the whole micronational movement.
+    sensitive: []
+  - en: A person's neighborhood, or an area nearby to a person's usual residence or
+      place of work and where the person is likely to go.
+    examples:
+      - text: The entire beach was my backyard, from the Hiltons' house in the south all
+          the way to Steele Hunter's house in the north.
+    sensitive: []
+  - en: An area nearby to a country or other jurisdiction's legal boundaries,
+      particularly an area in which the country feels it has an interest.
+    examples:
+      - text: However, the region was in the United States backyard and Britain should
+          look passively on with acquiescence in whatever policy the United
+          States saw fit to pursue about Mexico.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/backyard#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

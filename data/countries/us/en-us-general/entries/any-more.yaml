@@ -1,0 +1,29 @@
+word: any more
+dialect: en-us-general
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˌɛ.niˈmɔː/
+part_of_speech: adv
+meanings:
+  - en: Now, from now on.
+    examples:
+      - text: I eat fish any more.
+      - text: ‘Quite absurd,’ he said. ‘Suffering bores me, any more.’
+    sensitive: []
+concept: now
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/any_more#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

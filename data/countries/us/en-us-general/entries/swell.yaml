@@ -1,0 +1,38 @@
+word: swell
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /swɛl/
+meanings:
+  - en: Excellent.
+    examples:
+      - text: ...you are my devoted friend too. You do more and work harder and oh shit
+          I'd get maudlin about how damned swell you are. My god I'd like to see
+          you... You're a hell of a good guy.
+      - text: He was telling us all about what a swell guy he was, what a hot-shot and
+          all, […]
+    sensitive: []
+  - en: Very well.
+    examples:
+      - text: “That lousy ring wasn’t worth no grand. I did swell to get two centuries
+          for it.”
+      - text: “[…] Last August, when I left The Walls, I figured I had every chance to
+          start new. I got a job in Olathe, lived with my family, and stayed
+          home nights. I was doing swell—”
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/swell#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

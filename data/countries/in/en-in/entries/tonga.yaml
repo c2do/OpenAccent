@@ -1,0 +1,28 @@
+word: tonga
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A light, two-wheeled, horse-drawn carriage used for transportation in India,
+      Pakistan, and Bangladesh.
+    examples:
+      - text: Coming up along the Cart-Road a tonga passed me, and my pony, tired with
+          standing so long, set off at a canter.
+      - text: When his tyre went flat, he leapt off and shouted for a tonga.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tonga#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

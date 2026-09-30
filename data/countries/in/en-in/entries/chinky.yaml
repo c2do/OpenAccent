@@ -1,0 +1,30 @@
+word: chinky
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈt͡ʃɪŋki/
+part_of_speech: noun
+meanings:
+  - en: A person from Northeast India.
+    examples:
+      - text: However, what matters to them is the intention of such a question,
+          especially when they are invectively referred to as chinky and other
+          remarks that are considered to be derogatory
+    sensitive:
+      - offensive
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chinky#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

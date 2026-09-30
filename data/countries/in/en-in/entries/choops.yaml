@@ -1,0 +1,24 @@
+word: choops
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: intj
+meanings:
+  - en: Keep quiet.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/choops#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

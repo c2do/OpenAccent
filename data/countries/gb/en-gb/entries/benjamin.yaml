@@ -1,0 +1,28 @@
+word: benjamin
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbɛnd͡ʒəmɪn/
+part_of_speech: noun
+meanings:
+  - en: A kind of upper coat for men.
+    examples:
+      - text: something which is not long enough to constitute a benjamin, and too long
+          for a dress coat or spencer
+    sensitive: []
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/benjamin#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

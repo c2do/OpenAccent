@@ -1,0 +1,36 @@
+word: bhakt
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: An ardent right-wing Hindu nationalist netizen.
+    examples:
+      - text: Even if Modi didn't look closely at his tweets, his team and followers
+          certainly did. If the Gandhi family had their political chamchas, Modi
+          had his 'Internet Hindus' (or bhakts, as I called them).
+      - text: For example, I've met Modi myself and interviewed him twice. But these
+          Modi bhakts might pray to him every morning, yet they'll never enjoy
+          such access.
+    sensitive:
+      - offensive
+  - en: An ardent supporter of the Bharatiya Janata Party or its leader Narendra
+      Modi.
+    examples: []
+    sensitive:
+      - offensive
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bhakt#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

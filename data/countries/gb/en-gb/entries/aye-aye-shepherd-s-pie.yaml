@@ -1,0 +1,28 @@
+word: aye aye shepherd's pie
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: intj
+meanings:
+  - en: Yes.
+    examples:
+      - text: Aye-aye, shepherd's pie!
+      - text: The episode quickly entered trading floor legend, and traders and brokers
+          took to hollering "aye aye shepherd's pie" and "get in the bath!".
+    sensitive: []
+concept: "yes"
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/aye_aye_shepherd's_pie#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

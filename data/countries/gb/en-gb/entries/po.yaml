@@ -1,0 +1,28 @@
+word: po
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pəʊ/
+part_of_speech: noun
+meanings:
+  - en: A chamberpot.
+    examples:
+      - text: Ma's out, Pa's out, let's talk rude-- Pee, po, belly, bum, drawers!
+      - text: ‘Pos’ or ‘chamber pots’ were provided under the beds.
+    sensitive: []
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/po#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

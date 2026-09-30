@@ -1,0 +1,33 @@
+word: honor
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɒn.ə/
+meanings:
+  - en: Recognition of importance or value; respect; veneration (of someone, usually
+      for being morally upright or successful).
+    examples:
+      - text: The crowds gave the returning general much honor and praise.
+      - text: A prophet is not without honour, save in his own country.
+    sensitive: []
+  - en: To think of highly, to respect highly; to show respect for; to recognise the
+      importance or spiritual value of.
+    examples:
+      - text: The freedom fighters will be forever remembered and honored by the people.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/honor#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

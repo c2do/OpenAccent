@@ -1,0 +1,31 @@
+word: halt
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /halt/
+part_of_speech: adv
+meanings:
+  - en: Indicating that something is generally known, or cannot be changed, or the
+      like; often untranslatable; so, just, simply, indeed, well
+    examples:
+      - text: Er ist halt ein Idiot.
+        en: Well, he’s an idiot.
+      - text: Dann müssen wir halt härter arbeiten.
+        en: Then we’ll just have to work harder.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/halt#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

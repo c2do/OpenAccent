@@ -1,0 +1,29 @@
+word: bully
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbʊli/
+part_of_speech: adj
+meanings:
+  - en: Very good.
+    examples:
+      - text: a bully horse
+      - text: To sing a bully song I'll try, / Bully for you, bully for you, / Gay as
+          they make them, here I am, / Bully for you, for you.
+    sensitive: []
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bully#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

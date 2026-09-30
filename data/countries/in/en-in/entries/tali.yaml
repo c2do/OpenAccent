@@ -1,0 +1,26 @@
+word: tali
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t̪aːli/
+part_of_speech: noun
+meanings:
+  - en: Synonym of marriage string.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tali#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

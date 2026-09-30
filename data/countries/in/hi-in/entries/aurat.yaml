@@ -1,0 +1,31 @@
+word: औरत
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - aurat
+pronunciation:
+  ipa: /ɔː.ɾət̪/
+part_of_speech: noun
+meanings:
+  - en: woman
+    examples: []
+    sensitive: []
+  - en: wife
+    examples: []
+    sensitive: []
+concept: woman
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%94%E0%A4%B0%E0%A4%A4#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

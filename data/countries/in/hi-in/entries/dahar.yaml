@@ -1,0 +1,36 @@
+word: दहर
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - dahar
+pronunciation:
+  ipa: /d̪ə.ɦəɾ/
+meanings:
+  - en: world
+    examples: []
+    sensitive: []
+  - en: time, age
+    examples: []
+    sensitive: []
+  - en: small, fine, thin
+    examples: []
+    sensitive: []
+  - en: cavity of the heart
+    examples: []
+    sensitive: []
+concept: small
+register: neutral
+familiarity: rare
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A6%E0%A4%B9%E0%A4%B0#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

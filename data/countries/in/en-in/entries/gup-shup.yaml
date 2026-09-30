@@ -1,0 +1,29 @@
+word: gup-shup
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: Gossip or rumor; idle talk.
+    examples:
+      - text: It's not like the old days when Bharat and Sanjay and Madhu and Ding-Dong
+          Surdi and Honky Shah would come every morning and we would all go
+          through the day's gup shup.
+      - text: It takes an afternoon or two for the locals to know you are back so that
+          they can drop in for some gup-shup.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gup-shup#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

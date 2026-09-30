@@ -1,0 +1,32 @@
+word: subway
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈsʌbˌweɪ/
+meanings:
+  - en: An underground railway, especially for mass transit of people in urban
+      areas.
+    examples:
+      - text: He is going to Westminster by subway.
+    sensitive: []
+  - en: To travel by underground railway.
+    examples:
+      - text: I suppose I could have subwayed around town in search of froufrou French
+          pastry shops.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/subway#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

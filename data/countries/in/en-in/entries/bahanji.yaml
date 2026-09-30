@@ -1,0 +1,26 @@
+word: bahanji
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A woman who favours traditional Indian clothing, music, etc. over the
+      Western equivalents.
+    examples: []
+    sensitive:
+      - offensive
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bahanji#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

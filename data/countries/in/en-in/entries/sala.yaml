@@ -1,0 +1,24 @@
+word: sala
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A brother-in-law; a wife's brother.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sala#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

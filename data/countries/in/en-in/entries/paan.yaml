@@ -1,0 +1,32 @@
+word: paan
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pɑːn/
+part_of_speech: noun
+meanings:
+  - en: A psychoactive preparation of betel leaf combined with areca nut and/or
+      cured tobacco, chewed recreationally in Asia; such a preparation served
+      wrapped in the leaf.
+    examples:
+      - text: ‘I am an Indian, it is an Indian habit to take pan. The Civil Surgeon must
+          put up with it.’
+      - text: Perched outside Madhavbagh Temple, decorated with antique mirrors, this
+          100-year-old shop serves up juicy paans, plump with mawa.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/paan#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

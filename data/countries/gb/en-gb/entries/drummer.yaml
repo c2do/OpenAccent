@@ -1,0 +1,28 @@
+word: drummer
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdɹʌmə(ɹ)/
+part_of_speech: noun
+meanings:
+  - en: A housebreaker.
+    examples:
+      - text: Bennett's central figure, Ray, is first and foremost a serial "drummer"
+          (housebreaker in crim-speak), and only secondly a human being, […]
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/drummer#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

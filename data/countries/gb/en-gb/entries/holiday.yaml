@@ -1,0 +1,26 @@
+word: holiday
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhɒlɪˌdeɪ/
+part_of_speech: verb
+meanings:
+  - en: To take a period of time away from work or study.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/holiday#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

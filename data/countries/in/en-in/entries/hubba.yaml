@@ -1,0 +1,26 @@
+word: hubba
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A grain.
+    examples:
+      - text: Diamonds and pearls are sold by hubbas and ruttees; 8 hubbas equal to 1
+          ruttee, about 2 grains troy.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hubba#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

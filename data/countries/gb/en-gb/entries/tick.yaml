@@ -1,0 +1,31 @@
+word: tick
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tɪk/
+part_of_speech: noun
+meanings:
+  - en: Credit, trust.
+    examples:
+      - text: When he had no funds he went on tick. When he could get no credit he went
+          without, and was almost as happy.
+      - text: Immediately he got any money he would pay his debt; if there was any over
+          he would spend it; if there was not—and there seldom was—he would
+          begin to go on tick again.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tick#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

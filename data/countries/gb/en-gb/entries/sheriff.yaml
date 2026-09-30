@@ -1,0 +1,27 @@
+word: sheriff
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃɛɹɪf/
+part_of_speech: noun
+meanings:
+  - en: (High Sheriff) An official of a shire or county office, responsible for
+      carrying out court orders, law enforcement and other duties.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sheriff#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

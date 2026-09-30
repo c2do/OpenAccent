@@ -1,0 +1,30 @@
+word: bummer
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbʌ.mɚ/
+part_of_speech: noun
+meanings:
+  - en: A gay man.
+    examples:
+      - text: You know, the kind of guy who would, if he wasn't gay, probably be
+          shouting ‘Oi, gay boy!’ or ‘You bummer!’ or even ‘Oi, paki!’ or what
+          have you. They're not enlightened.
+    sensitive:
+      - offensive
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bummer#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

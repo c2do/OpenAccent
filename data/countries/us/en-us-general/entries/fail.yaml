@@ -1,0 +1,28 @@
+word: fail
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /feɪl/
+meanings:
+  - en: A failure (something incapable of success).
+    examples: []
+    sensitive: []
+  - en: Unsuccessful; inadequate; unacceptable in some way.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fail#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

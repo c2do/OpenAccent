@@ -1,0 +1,30 @@
+word: congi
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: An ardent supporter of the Indian National Congress.
+    examples: []
+    sensitive:
+      - offensive
+  - en: A Indian national congress or a central leftist, opposing Hindutva, or Hindu
+      nationalism.
+    examples: []
+    sensitive:
+      - offensive
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/congi#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

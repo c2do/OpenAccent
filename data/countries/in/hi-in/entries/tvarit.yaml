@@ -1,0 +1,40 @@
+word: त्वरित
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - tvarit
+pronunciation:
+  ipa: /t̪ʋə.ɾɪt̪/
+meanings:
+  - en: fast, speedy, quick
+    examples: []
+    sensitive: []
+  - en: hasty, hurried
+    examples: []
+    sensitive: []
+  - en: hastily, quickly, soon
+    examples:
+      - text: धरना स्थल पर हुई सभा में डॉ. यज्ञ दत्त शर्मा ने कहा कि जनहित एवं शिक्षाहित
+          में जरूरी है कि सरकार प्रधानाचार्यों की समस्याओं का त्वरित निस्तारण
+          करे।
+        en: In the meeting held at the dharna site, Dr. Yagya Datt Sahrma said that for
+          the well-being of the people and that of education, the problems faced
+          by government principals [principals of government schools] should be
+          hastily resolved.
+    sensitive: []
+concept: fast
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A5%8D%E0%A4%B5%E0%A4%B0%E0%A4%BF%E0%A4%A4#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

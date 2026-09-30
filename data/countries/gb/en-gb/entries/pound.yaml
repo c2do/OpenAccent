@@ -1,0 +1,30 @@
+word: pound
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpaʊ̯nd/
+part_of_speech: verb
+meanings:
+  - en: To wager a pound on.
+    examples:
+      - text: ‘Good-bye, my dear!' said Sleary. 'You'll make your fortun, I hope, and
+          none of our poor folkth will ever trouble you, I'll pound it.’
+      - text: “He's done,” said the Moocher brutally. “He didn't hear nuffin, I'll pound
+          it.”
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pound#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

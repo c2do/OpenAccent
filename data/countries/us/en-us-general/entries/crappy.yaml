@@ -1,0 +1,40 @@
+word: crappy
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkɹæpi/
+part_of_speech: adj
+meanings:
+  - en: Of very poor quality; unpleasant; distasteful.
+    examples:
+      - text: That is such a crappy car.
+      - text: The referee just made a really crappy call.
+    sensitive:
+      - vulgar
+  - en: Bad, sick, or depressed.
+    examples:
+      - text: I'm feeling really crappy - I think I need some fresh air.
+    sensitive:
+      - vulgar
+  - en: Covered in crap (faeces/feces).
+    examples:
+      - text: Put the crappy diapers in the brown pail and the wet ones in the yellow
+          pail.
+    sensitive:
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/crappy#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

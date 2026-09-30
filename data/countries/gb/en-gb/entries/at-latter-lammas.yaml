@@ -1,0 +1,25 @@
+word: at latter Lammas
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: prep_phrase
+meanings:
+  - en: Never.
+    examples: []
+    sensitive: []
+concept: never
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/at_latter_Lammas#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

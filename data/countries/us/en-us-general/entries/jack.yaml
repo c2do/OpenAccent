@@ -1,0 +1,39 @@
+word: jack
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈd͡ʒæk/
+part_of_speech: noun
+meanings:
+  - en: A man.; A man, a fellow; a typical man; men in general.
+    examples: []
+    sensitive: []
+  - en: A man.; A lumberjack.
+    examples: []
+    sensitive: []
+  - en: A non-tool object or thing.; Money, cash.
+    examples:
+      - text: First off Regan carried fifteen grand, packed it in his clothes all the
+          time. Real money, they tell me. Not just a top card and a bunch of
+          hay. That's a lot of jack (or jack-shit) […].
+      - text: Angels come from everywhere with lots of jack, and when you lose it,
+          there's no attack. Where could you get money that you don't give back?
+          Let's go on with the show
+    sensitive: []
+concept: man
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jack#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

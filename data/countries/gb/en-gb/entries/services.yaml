@@ -1,0 +1,29 @@
+word: services
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈsɜː.vɪ.sɪz/
+part_of_speech: noun
+meanings:
+  - en: A service station.
+    examples:
+      - text: There's a services in 10 miles.
+      - text: However, the tedium was a little relieved by the fact that I had to call
+          in every services from Birmingham to Watford Gap.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/services#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: freaking
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈfɹiːkɪŋ/
+meanings:
+  - en: Fucking.
+    examples:
+      - text: You're getting on my freaking nerves!
+    sensitive:
+      - sexual
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/freaking#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

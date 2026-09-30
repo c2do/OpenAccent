@@ -1,0 +1,30 @@
+word: yay
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /jeɪ/
+part_of_speech: noun
+meanings:
+  - en: Cocaine (powder or crack).
+    examples:
+      - text: I'm in charge of a whole city block, and I always wear gloves when I touch
+          the yay, cuz traces of cocaine show up on my u. a., when I touch it
+          with my bare hands.
+      - text: I don't do yay, but if you want to, fine
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/yay#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

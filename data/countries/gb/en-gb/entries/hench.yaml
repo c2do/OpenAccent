@@ -1,0 +1,32 @@
+word: hench
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /hɛnt͡ʃ/
+part_of_speech: adj
+meanings:
+  - en: Big, strong, and muscular.
+    examples:
+      - text: He's well hench.
+      - text: That's a seriously hench doorman.
+    sensitive: []
+  - en: Impressive, good, cool.
+    examples: []
+    sensitive: []
+concept: big
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hench#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

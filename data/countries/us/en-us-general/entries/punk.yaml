@@ -1,0 +1,35 @@
+word: punk
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpʌŋk/
+meanings:
+  - en: A worthless person, particularly
+    examples:
+      - text: This fellow was just a punk... a nobody.
+    sensitive: []
+  - en: A worthless person; Any person, especially a male comrade.
+    examples: []
+    sensitive: []
+  - en: A worthless person; Synonym of amateur.
+    examples: []
+    sensitive: []
+  - en: A worthless person; A young, untrained animal or worker.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/punk#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

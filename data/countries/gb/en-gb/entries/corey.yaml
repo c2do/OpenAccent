@@ -1,0 +1,32 @@
+word: corey
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkɔː.ɹi/
+part_of_speech: noun
+meanings:
+  - en: A penis.
+    examples:
+      - text: She always gets the numbers right, she's got me into maths / I'd take away
+          her pants and add my corey to her gash
+      - text: "'Georgie knows what she's doin', Nan. She says she only lets Ryan touch
+          her titties and she's not gonna touch his cory until he marries her.'"
+    sensitive:
+      - sexual
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/corey#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

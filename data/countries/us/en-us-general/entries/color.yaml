@@ -1,0 +1,36 @@
+word: color
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkʌl.ə/
+meanings:
+  - en: Conveying color, as opposed to shades of gray.
+    examples:
+      - text: Color television and movies were considered a great improvement over black
+          and white.
+    sensitive: []
+  - en: To give something color.
+    examples:
+      - text: We could color the walls red.
+    sensitive: []
+  - en: To attribute a quality to; to portray (as).
+    examples:
+      - text: Color me confused.
+      - text: They tried to colour the industrial unrest as a merely local matter.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/color#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: gina
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈd͡ʒiːnə/
+part_of_speech: noun
+meanings:
+  - en: The female equivalent of a gino.
+    examples: []
+    sensitive:
+      - offensive
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gina#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: hooker
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhʊkə/
+part_of_speech: noun
+meanings:
+  - en: A prostitute.
+    examples:
+      - text: All my life, been hustling / And tonight is my appraisal / 'Cause I'm a
+          hooker selling songs / And my pimp's a record label
+    sensitive:
+      - sexual
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hooker#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

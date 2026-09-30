@@ -1,0 +1,25 @@
+word: tapori
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A street-smart dealer, often associated with a flashy style.
+    examples:
+      - text: The tapori sold me 'Ray-Bans' for ₹200.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tapori#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

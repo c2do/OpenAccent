@@ -1,0 +1,39 @@
+word: copper
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkɒpə/
+meanings:
+  - en: A police officer, especially one in uniform.
+    examples:
+      - text: 'A uniformed copper came in. The chief jerked a thumb at MacSwain and
+          said: "Take this baby down cellar and let the wrecking crew work on
+          him before you lock him up."'
+      - text: One evening as I was lying down in Leicester Square / I was picked up by
+          the coppers and kicked in the balls
+    sensitive: []
+  - en: An informer.; A person working as an informer for the police; a nark
+    examples: []
+    sensitive: []
+  - en: An informer.; A prisoner who informs on fellow prisoners.
+    examples: []
+    sensitive: []
+  - en: To inform on (someone) to the police; to nark.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/copper#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

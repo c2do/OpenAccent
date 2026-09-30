@@ -1,0 +1,53 @@
+word: bhapa
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: a slur, usually but not always casteist, which emerged after Partition and
+      has different connotations depending on the speaker and the context:; a
+      general pejorative term for Khatri Sikhs
+    examples: []
+    sensitive:
+      - offensive
+      - slur
+  - en: a slur, usually but not always casteist, which emerged after Partition and
+      has different connotations depending on the speaker and the context:; used
+      by Jatt Sikhs to single out non-Jatts, especially Khatri Sikhs, usually
+      out of a false sense of superiority
+    examples: []
+    sensitive:
+      - offensive
+      - slur
+  - en: a slur, usually but not always casteist, which emerged after Partition and
+      has different connotations depending on the speaker and the context:; used
+      by Sikhs to denigrate other Sikhs for excessive loyalty to India
+      (especially if they or their ancestors fled Pakistan during Partition) and
+      friendliness with Hindus
+    examples: []
+    sensitive:
+      - offensive
+      - slur
+  - en: a slur, usually but not always casteist, which emerged after Partition and
+      has different connotations depending on the speaker and the context:;
+      denigrates Sikhs living in Delhi, often in combination with the previous
+      definition
+    examples: []
+    sensitive:
+      - offensive
+      - slur
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bhapa#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

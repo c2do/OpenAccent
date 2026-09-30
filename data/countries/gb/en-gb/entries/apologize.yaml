@@ -1,0 +1,31 @@
+word: apologize
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /əˈpɒləˌd͡ʒaɪz/
+part_of_speech: verb
+meanings:
+  - en: To make an apology or excuse; to acknowledge some fault or offense, with
+      expression of regret for it, by way of amends
+    examples:
+      - text: My correspondent apologized for not answering my letter.
+      - text: Barnes was commanded, with Garrett and Jerome, to make a public
+          acknowledgment of his errors; and to apologize especially for his
+          insolent language to Gardiner
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/apologize#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

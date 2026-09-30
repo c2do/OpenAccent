@@ -1,0 +1,24 @@
+word: gopi
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: Any of the milkmaids that were companions of Krishna in Indian mythology.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gopi#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

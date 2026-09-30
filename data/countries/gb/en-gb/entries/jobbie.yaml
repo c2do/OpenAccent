@@ -1,0 +1,29 @@
+word: jobbie
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdʒɔbi/
+part_of_speech: noun
+meanings:
+  - en: A job, normally a task rather than a form of employment for which one is
+      paid.
+    examples:
+      - text: I'll take care of the pasta jobbie, don't worry about that.
+    sensitive: []
+concept: work
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jobbie#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

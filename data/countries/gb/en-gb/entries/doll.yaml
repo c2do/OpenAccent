@@ -1,0 +1,27 @@
+word: doll
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dɒl/
+part_of_speech: verb
+meanings:
+  - en: To place a barrier in front of (a section of the course that is to be
+      omitted from a horse race).
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/doll#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: hen
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /hɛn/
+part_of_speech: noun
+meanings:
+  - en: A woman.; A bride-to-be, particularly in the context of a hen night.
+    examples: []
+    sensitive: []
+  - en: A hen night.
+    examples: []
+    sensitive: []
+concept: woman
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hen#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

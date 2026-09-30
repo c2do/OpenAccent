@@ -1,0 +1,31 @@
+word: sarkari
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: Governmental.
+    examples:
+      - text: Instead of sticking to practices followed aeons ago of sarkari school
+          education, he should have sent him to a good convent where it was
+          mandatory to speak in English even during the lunch break.
+    sensitive: []
+  - en: Supporting the government of India, pro-establishment; specifically, the BJP
+      and Hindutva, against Indian Muslim interests.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sarkari#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

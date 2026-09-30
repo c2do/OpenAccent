@@ -1,0 +1,34 @@
+word: वत्स
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - vats
+pronunciation:
+  ipa: /ʋət̪s/
+part_of_speech: noun
+meanings:
+  - en: child, boy
+    examples: []
+    sensitive: []
+  - en: son
+    examples: []
+    sensitive: []
+  - en: calf
+    examples: []
+    sensitive: []
+concept: child
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A4%A4%E0%A5%8D%E0%A4%B8#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

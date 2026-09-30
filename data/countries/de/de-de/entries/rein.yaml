@@ -1,0 +1,33 @@
+word: rein
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʁaɪn/
+part_of_speech: adv
+meanings:
+  - en: inside, in here
+    examples:
+      - text: Er kommt jetzt rein.
+        en: He's coming inside now.
+    sensitive: []
+  - en: inside, in there
+    examples:
+      - text: Er geht rein zu den andern.
+        en: He's going inside to the other people.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rein#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

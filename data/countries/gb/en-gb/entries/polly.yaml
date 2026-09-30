@@ -1,0 +1,24 @@
+word: polly
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A prefect at Uppingham School in Rutland, England.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/polly#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: show
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃow/
+meanings:
+  - en: an act or performance that demonstrates high skill; spectacle; display; feat
+    examples:
+      - text: Aquela aula foi um show.
+        en: That class was amazing.
+    sensitive: []
+  - en: amazing; awesome
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/show#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

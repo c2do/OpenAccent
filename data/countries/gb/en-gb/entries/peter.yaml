@@ -1,0 +1,34 @@
+word: peter
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpiːtə/
+part_of_speech: noun
+meanings:
+  - en: A safe.
+    examples:
+      - text: It used to be simple to 'crack a peter'. Safe-breaking (blowing or
+          cracking a 'peter') in the past three or four years shows that the
+          expert cracksman knows his job.
+      - text: The forty quid! Gone! ’Ow could she ’ave gotten in there? The peter ain’t
+          broke, no sign of it bein’ bettied, and I the only one w’ the key.
+    sensitive: []
+  - en: A prison cell.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/peter#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

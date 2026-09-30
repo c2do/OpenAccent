@@ -1,0 +1,30 @@
+word: downtown
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdaʊ̯nˌtaʊ̯n/
+part_of_speech: noun
+meanings:
+  - en: The main business part of a city or town, usually located at or near its
+      center.
+    examples: []
+    sensitive: []
+  - en: The human genitalia.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/downtown#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,29 @@
+word: flash
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /flæʃ/
+part_of_speech: adj
+meanings:
+  - en: Expensive-looking and demanding attention; stylish; showy.
+    examples:
+      - text: |-
+          The barber man was small and flash, as barbers mostly are,
+          He wore a strike-your-fancy sash, he smoked a huge cigar;
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/flash#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

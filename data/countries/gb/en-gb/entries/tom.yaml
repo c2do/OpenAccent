@@ -1,0 +1,33 @@
+word: tom
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /tɒm/
+part_of_speech: noun
+meanings:
+  - en: A tomato (the fruit).
+    examples:
+      - text: Toms 90p a pound
+      - text: “I'd like sausage, eggs, bacon, toms, mushies, beans – oh, and some fried
+          bread,” said Mike.
+    sensitive: []
+  - en: A female prostitute.
+    examples: []
+    sensitive:
+      - sexual
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tom#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

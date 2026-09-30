@@ -1,0 +1,31 @@
+word: storm
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /stɔːm/
+part_of_speech: verb
+meanings:
+  - en: "Preceded by the dummy subject it: to have strong winds and usually
+      lightning and thunder, and/or hail, rain, or snow."
+    examples:
+      - text: It stormed throughout the night.
+      - text: Throughout the night it stormed violently—rain, hail, snow, and sleet
+          beating upon the vessel—the wind continuing ahead, and the sea running
+          high.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/storm#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

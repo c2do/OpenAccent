@@ -1,0 +1,29 @@
+word: ground
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡɹaʊnd/
+part_of_speech: verb
+meanings:
+  - en: To connect (an electrical conductor or device) to a ground.
+    examples:
+      - text: These geomagnetically induced currents (GICs) can become a hazard when
+          they flow through conducting infrastructure, usually entering and
+          exiting networks where equipment is grounded to Earth.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ground#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

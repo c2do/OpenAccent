@@ -1,0 +1,35 @@
+word: corre
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkɔ.ʁi/
+part_of_speech: noun
+meanings:
+  - en: strife, fight (hard work)
+    examples:
+      - text: Todo mundo tem o seu corre diário.
+        en: Everyone has their daily fight.
+    sensitive: []
+  - en: a specific job or gig
+    examples: []
+    sensitive: []
+  - en: the act of buying, selling, or transporting illegal drugs or other illicit
+      products, or the product itself
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/corre#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

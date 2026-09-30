@@ -1,0 +1,33 @@
+word: klarkommen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈklaː(ɐ̯)ˌkɔmən/
+part_of_speech: verb
+meanings:
+  - en: to cope; to come to terms, to deal with, to manage, to get along, to get on,
+      to get by
+    examples:
+      - text: Ich komm echt nicht mehr klar auf mein Leben!
+        en: I really can’t cope with my life anymore!
+      - text: Arbeitslosigkeit und Armut waren nun kein Schicksal mehr, mit dem jeder
+          allein klarkommen musste.
+        en: Now unemployment and poverty were no longer a fate that everybody had to
+          deal with on their own.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/klarkommen#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

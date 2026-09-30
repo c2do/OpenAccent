@@ -1,0 +1,29 @@
+word: aiyo
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /aɪˈjoʊ/
+part_of_speech: intj
+meanings:
+  - en: Expressing distress, regret, or fear.
+    examples:
+      - text: "'Are you crying for your father?' 'Aiyo, aiyo!' wailed the girl. 'I shall
+          never see him again!'"
+      - text: Aiyo! aiyo! My little Podi Sinho!
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/aiyo#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

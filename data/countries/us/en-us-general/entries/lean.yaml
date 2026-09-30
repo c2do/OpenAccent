@@ -1,0 +1,33 @@
+word: lean
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈliːn/
+part_of_speech: noun
+meanings:
+  - en: A recreational drug composed of codeine-promethazine cough syrup mixed with
+      usually soda and associated with the hip-hop culture of the Southern
+      United States.
+    examples:
+      - text: Eyes real tight 'cause I'm chokin' the creep; vision messed up 'cause I'm
+          drinkin' the lean.
+      - text: "\"What's in the cup, let me see that / Girl, where the rest of that
+          promethazine at?\" / She said, \"Cool, gotta run out to my Cadillac
+          though / And I'll be like Fat Joe, and bring the lean back\""
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/lean#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

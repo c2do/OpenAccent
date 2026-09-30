@@ -1,0 +1,28 @@
+word: mad
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmæd/
+part_of_speech: adj
+meanings:
+  - en: Insane; crazy; mentally deranged.
+    examples:
+      - text: You want to spend a thousand pounds on a pair of shoes? Are you mad?
+      - text: He's got this mad idea that he's irresistible to women.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mad#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

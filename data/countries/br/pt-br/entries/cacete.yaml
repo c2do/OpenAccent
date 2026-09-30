@@ -1,0 +1,35 @@
+word: cacete
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kaˈse.t͡ʃi/
+meanings:
+  - en: ass beating (act of beating someone up)
+    examples:
+      - text: Dei um cacete nele.
+        en: I gave him an ass beating.
+    sensitive:
+      - vulgar
+  - en: intensifier; demonstrates anger:fuck, goddammit
+    examples:
+      - text: Dizendo, “Pierrô, cacete!” / “Vai tomar sorvete com o arlequim!”
+        en: Saying, “Goddammit, Pierrot!” / “Go get some ice-cream with Arlecchino!”
+    sensitive:
+      - sexual
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cacete#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

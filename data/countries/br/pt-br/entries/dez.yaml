@@ -1,0 +1,29 @@
+word: dez
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdɛ(j)s/
+part_of_speech: adj
+meanings:
+  - en: awesome, amazing; very cool, very nice
+    examples:
+      - text: Você é dez!
+        en: You are awesome!
+    sensitive: []
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dez#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

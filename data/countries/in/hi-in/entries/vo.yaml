@@ -1,0 +1,32 @@
+word: वो
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - vo
+pronunciation:
+  ipa: /ʋoː/
+part_of_speech: pron
+meanings:
+  - en: that
+    examples:
+      - text: वो आदमी अच्छा है।
+        en: That man is nice.
+      - text: वो औरत अच्छी है।
+        en: That woman is nice.
+    sensitive: []
+concept: that
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A5%8B#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

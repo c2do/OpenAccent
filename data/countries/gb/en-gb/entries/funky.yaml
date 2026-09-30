@@ -1,0 +1,34 @@
+word: funky
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fʌŋki/
+part_of_speech: adj
+meanings:
+  - en: Cool; great; excellent.
+    examples:
+      - text: Eight-bit Arkanoid is a funky game — not as sexy as its 16-bit sister, but
+          fun to spend time with. I'm hooked.
+      - text: "I love high heels, and these were totally funky! The coolest part: They
+          actually let me take 'em home!"
+    sensitive: []
+  - en: Relating to, or characterized by, great fear, or funking.
+    examples: []
+    sensitive: []
+concept: cool
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/funky#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

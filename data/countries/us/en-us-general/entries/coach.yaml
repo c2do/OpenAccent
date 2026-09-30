@@ -1,0 +1,28 @@
+word: coach
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /kəʊtʃ/
+part_of_speech: adv
+meanings:
+  - en: Via the part of a commercial passenger airplane or train reserved for those
+      paying the lower standard fares; via the economy section.
+    examples:
+      - text: John flew coach to Vienna, but first-class back home.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/coach#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

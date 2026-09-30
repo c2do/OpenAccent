@@ -1,0 +1,27 @@
+word: gel
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡɛl/
+part_of_speech: noun
+meanings:
+  - en: A girl.
+    examples:
+      - text: "\"Now pray don't be troublesome, my dear gel,\" said Uncle Andrew."
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gel#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

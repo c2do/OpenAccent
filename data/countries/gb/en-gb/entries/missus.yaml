@@ -1,0 +1,35 @@
+word: missus
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmɪs.əz/
+part_of_speech: noun
+meanings:
+  - en: Wife or girlfriend.
+    examples:
+      - text: Harry said he couldn't stop and chat because his missus wanted to go
+          shopping.
+      - text: The missus has a list of chores for me to do this weekend.
+    sensitive: []
+  - en: Term of address for a woman.
+    examples:
+      - text: "'Scuse me missus, but your petticoat's showing."
+      - text: Look ere Missus! Little Joey's me bruvva. E stays wiv me. We aint goin ter
+          be split up.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/missus#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

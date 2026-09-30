@@ -1,0 +1,30 @@
+word: result
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɹɪˈzʌlt/
+part_of_speech: intj
+meanings:
+  - en: An exclamation of joy following a favorable outcome.
+    examples:
+      - text: "'Yes! Result! Game on!' He leans forward to a mike fixed over the desk
+          and presses one of the […]"
+      - text: "'Yes! Result, Nick!' He heard a distant cheer. 'Right, well I'll give you
+          a ring on Saturday, make the arrangements."
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/result#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

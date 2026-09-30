@@ -1,0 +1,29 @@
+word: randy
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɹændi/
+part_of_speech: adj
+meanings:
+  - en: Sexually aroused; full of sexual lust.
+    examples:
+      - text: If you're feeling randy, give me a call and I'll come round and give you
+          some hot lovin'.
+    sensitive:
+      - sexual
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/randy#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

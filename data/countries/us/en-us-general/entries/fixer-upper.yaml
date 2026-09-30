@@ -1,0 +1,29 @@
+word: fixer-upper
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A house, property, car, or other object that needs to be fixed up or
+      repaired, often purchased as an investment.
+    examples:
+      - text: "2003, Jay P. DeCima, Investing in Fixer-Uppers: A Complete Guide to
+          Buying Low, Fixing Smart, Adding Value, and Selling (or Renting) High,
+          McGraw-Hill Professional, →ISBN."
+    sensitive: []
+concept: house
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fixer-upper#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

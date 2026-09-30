@@ -1,0 +1,30 @@
+word: सुखमय
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - sukhmay
+pronunciation:
+  ipa: /sʊkʰ.məj/
+part_of_speech: adj
+meanings:
+  - en: happy, pleasant
+    examples:
+      - text: सुखमय जीवन
+        en: a happy life
+    sensitive: []
+concept: happy
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A5%81%E0%A4%96%E0%A4%AE%E0%A4%AF#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

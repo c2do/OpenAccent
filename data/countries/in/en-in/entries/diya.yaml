@@ -1,0 +1,28 @@
+word: diya
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdiːə/
+part_of_speech: noun
+meanings:
+  - en: A small bowl-shaped oil lamp, usually made from clay, with a cotton wick
+      dipped in ghee or vegetable oil, often used on religious occasions.
+    examples:
+      - text: She is given an aarti plate with a lit diya on it.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/diya#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

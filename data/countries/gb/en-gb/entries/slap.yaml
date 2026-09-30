@@ -1,0 +1,27 @@
+word: slap
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /slæp/
+part_of_speech: adj
+meanings:
+  - en: Very good, excellent, amazing.
+    examples:
+      - text: These cookies are slap.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/slap#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

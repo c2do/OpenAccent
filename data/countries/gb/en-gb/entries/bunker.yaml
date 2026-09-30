@@ -1,0 +1,30 @@
+word: bunker
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbʌŋ.kə/
+meanings:
+  - en: To hit (a golf ball) into a bunker; (chiefly passive voice) to place (a
+      golfer) in the position of having a golf ball in a bunker.; To place
+      (someone) in a position that is difficult to get out of; to hinder.
+    examples: []
+    sensitive: []
+  - en: One who bunks off; a truant from school.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bunker#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

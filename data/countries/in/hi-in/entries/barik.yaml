@@ -1,0 +1,42 @@
+word: बारीक
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - bārīk
+pronunciation:
+  ipa: /bɑː.ɾiːk/
+part_of_speech: adj
+meanings:
+  - en: fine, soft, delicate
+    examples:
+      - text: जीरा भूनने पर इसमें हींग, बारीक कटी हुई हरी मिर्च, हल्दी पाउडर, धनिया
+          पाउडर, बारीक कटे हुए टमाटर डाल कर, मसाले को थोड़ा सा भून लीजिए।
+        en: After roasting the cumin, add asafoetida, finely cut green peppers, tumeric
+          powder, coriander powder, and finely cut tomatoes, and roast the
+          spices for a bit.
+    sensitive: []
+  - en: thin
+    examples: []
+    sensitive: []
+  - en: small
+    examples: []
+    sensitive: []
+  - en: subtle, obscured, abstruse
+    examples: []
+    sensitive: []
+concept: fine
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%80%E0%A4%95#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

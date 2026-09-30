@@ -1,0 +1,27 @@
+word: beetroot
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbi.t͡ʃɹyʔ/
+part_of_speech: noun
+meanings:
+  - en: A normally deep-red-colored root vegetable usually cooked or pickled before
+      eating.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/beetroot#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

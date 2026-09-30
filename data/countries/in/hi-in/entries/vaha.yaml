@@ -1,0 +1,29 @@
+word: वहाँ
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - vahā̃
+pronunciation:
+  ipa: /ʋə.ɦɑ̃ː/
+part_of_speech: adv
+meanings:
+  - en: there (only in the sense of an abstract noun of place. Hindi does not have a
+      word equivalent to the English usage for "there is...")
+    examples: []
+    sensitive: []
+concept: there
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B5%E0%A4%B9%E0%A4%BE%E0%A4%81#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

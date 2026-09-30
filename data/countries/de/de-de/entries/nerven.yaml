@@ -1,0 +1,30 @@
+word: nerven
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnɛʁfən/
+part_of_speech: verb
+meanings:
+  - en: to annoy, to irritate
+    examples:
+      - text: Es nervt mich.
+        en: It bugs me.
+      - text: Das nervt.
+        en: This/That is annoying.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nerven#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

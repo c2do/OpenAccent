@@ -1,0 +1,26 @@
+word: arbit
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: Strange, random or weird.
+    examples:
+      - text: Although he seemed arbit at first, a few minutes of talking exposed a
+          decent and well-mannered human being.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/arbit#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

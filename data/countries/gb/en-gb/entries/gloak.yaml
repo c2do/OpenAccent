@@ -1,0 +1,32 @@
+word: gloak
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡləʊk/
+part_of_speech: noun
+meanings:
+  - en: A man, a guy.
+    examples:
+      - text: You're a prime gloak, an out-and-outer, to get as far as you did before
+          they grabbed you.
+      - text: ‘Brit, by the look of him,’ cries a short, freckl’d seaman in whom Stature
+          and Pugnacity enjoy an inverse relation. ‘– long way from home ain’t
+          you old Gloak?’
+    sensitive: []
+concept: man
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gloak#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: flip
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /flɪp/
+part_of_speech: adj
+meanings:
+  - en: Having the quality of playfulness, or lacking seriousness of purpose.
+    examples:
+      - text: I hate to be flip, but perhaps we could steal a Christmas tree.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/flip#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

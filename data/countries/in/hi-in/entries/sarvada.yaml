@@ -1,0 +1,30 @@
+word: सर्वदा
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - sarvadā
+pronunciation:
+  ipa: /səɾ.ʋə.d̪ɑː/
+part_of_speech: adv
+meanings:
+  - en: always, ever, at all times, perpetually
+    examples:
+      - text: सच्चे मित्र सुख और दुःख दोनों ही परिस्थितियों में सर्वदा साथ निभाते हैं।
+        en: True friends always stand by you in both happy and sorrowful circumstances.
+    sensitive: []
+concept: always
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%A6%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

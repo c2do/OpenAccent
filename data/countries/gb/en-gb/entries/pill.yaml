@@ -1,0 +1,31 @@
+word: pill
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pɪl/
+meanings:
+  - en: To blackball (a potential club member).
+    examples:
+      - text: “I pilled him because he is a liar,” said Thackeray. “He calls himself
+          'ill' when he isn't.”
+    sensitive: []
+  - en: An inlet on the coast; a small tidal pool or bay. Pill can occur in the name
+      of such an inlet.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pill#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

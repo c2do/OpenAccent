@@ -1,0 +1,33 @@
+word: broad
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A woman or girl.
+    examples:
+      - text: They always hook you in the end, them broads. This whole trouble is on
+          account of a dame reads a book.
+      - text: Hey, man, Truck, you got to understand, she's a no class broad and you a
+          gross son of a bitch. Naturally, she don't like you.
+    sensitive: []
+  - en: A prostitute, a woman of loose morals.
+    examples:
+      - text: “Now we go up Bowery Street look at broads. Me pay.”
+    sensitive:
+      - sexual
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/broad#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

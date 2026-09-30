@@ -1,0 +1,40 @@
+word: gandu
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: An arsehole, an idiot.
+    examples:
+      - text: She was almost nice, or trying to be. But that Khushaal. What a gandu! A
+          real ass!
+      - text: See—a gandu, nothing more, just like I said. Surely if it were a plot,
+          they'd send a proper man.
+    sensitive:
+      - vulgar
+  - en: Someone who takes the passive role in anal sex.
+    examples:
+      - text: He is less likely to be considered a gandu (since presumably he can
+          satisfy himself carnally at will with his wife).
+      - text: Calling Nasim a gandu and declaring a jehad against gay Muslims, he
+          allegedly lunged at Nasim while two restaurant employees tried to
+          restrain him.
+    sensitive:
+      - offensive
+      - sexual
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gandu#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

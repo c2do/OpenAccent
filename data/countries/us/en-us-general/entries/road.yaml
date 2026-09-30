@@ -1,0 +1,26 @@
+word: road
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɾoːɖ/
+part_of_speech: adj
+meanings:
+  - en: At the venue of the opposing team or competitor; on the road.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/road#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: tara
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A small silver coin current in South India at the time of the arrival of the
+      Portuguese.
+    examples:
+      - text: The only silver coin of this empire reported so far is a Tara of the time
+          of Pratāpa devaraya.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tara#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

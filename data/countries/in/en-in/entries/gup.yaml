@@ -1,0 +1,29 @@
+word: gup
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡʌp/
+part_of_speech: noun
+meanings:
+  - en: Gossip or rumor; nonsensical or silly talk; blather.
+    examples:
+      - text: The young man faithfully delivered what Jinnah called “the gup”—the day's
+          gossip — and tried vainly to extract a newsworthy quote from the
+          League leader.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gup#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: mam
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /mæm/
+part_of_speech: noun
+meanings:
+  - en: A woman's breast.
+    examples:
+      - text: She focused her entire mind on that moment she had shared with Shan, the
+          softness of her mams, the wetness of her lips.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mam#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

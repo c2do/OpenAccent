@@ -1,0 +1,43 @@
+word: oki
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʔoːki/
+part_of_speech: intj
+meanings:
+  - en: okay, okey-dokey
+    examples:
+      - text: |-
+          Anna14: joah. Hab grad mit meinem dad geschrieben
+          Jana_13: mail oder was?
+          Anna14: nö nich mail. chat
+          […]
+          Jana_13: hier?
+          Anna14: nö anderer chat. für erwachsene.
+          Jana_13: oki
+        en: |-
+          Anna14: yeah. just had a chat with my dad
+          Jana_13: like through email?
+          Anna14: nah not email. chat
+           […]
+          Jana_13: here?
+          Anna14: nah, different one. for adults.
+          Jana_13: okay
+    sensitive: []
+concept: okay
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/oki#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

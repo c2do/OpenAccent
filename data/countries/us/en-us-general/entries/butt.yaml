@@ -1,0 +1,38 @@
+word: butt
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bʌt/
+part_of_speech: noun
+meanings:
+  - en: The larger or thicker end of something; the blunt end, in distinction from
+      the sharp or narrow end.; The buttocks or anus (used as a minced oath in
+      idiomatic expressions; less objectionable than arse/ass).
+    examples:
+      - text: Get up off your butt and get to work.
+    sensitive:
+      - vulgar
+  - en: The larger or thicker end of something; the blunt end, in distinction from
+      the sharp or narrow end.; The buttocks or anus (used as a minced oath in
+      idiomatic expressions; less objectionable than arse/ass).; Body; self.
+    examples:
+      - text: Get your butt to the car.
+      - text: We can't chat today. I have to get my butt to work before I'm late.
+    sensitive:
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/butt#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

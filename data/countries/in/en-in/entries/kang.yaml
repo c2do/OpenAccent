@@ -1,0 +1,27 @@
+word: kang
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkæŋ/
+part_of_speech: verb
+meanings:
+  - en: To appropriate the history of another ethnicity or country, in particular an
+      empire or a civilization.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/kang#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

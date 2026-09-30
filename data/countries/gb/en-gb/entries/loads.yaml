@@ -1,0 +1,28 @@
+word: loads
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ləʊdz/
+part_of_speech: adv
+meanings:
+  - en: Lots, much, plenty, a great deal.
+    examples:
+      - text: The price of living is loads less expensive in Thailand than in Singapore
+      - text: The sequel is loads worse than the original
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/loads#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

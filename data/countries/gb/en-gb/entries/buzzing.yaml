@@ -1,0 +1,33 @@
+word: buzzing
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbʌzɪŋ/
+part_of_speech: adj
+meanings:
+  - en: Very happy; full of joyful excitement.
+    examples:
+      - text: "'She was buzzing, mate, I tell you. She was so funny to listen to. It's
+          the happiest phone call I've had off her in a while.'"
+      - text: >-
+          “Nice one? It's amazing! There's loads like that,” he tells me.
+          “Everyone is raving about you.”
+
+          I'm totally buzzing. It's a shame Mum and Granddad aren't here.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/buzzing#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

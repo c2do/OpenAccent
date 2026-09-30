@@ -1,0 +1,33 @@
+word: amapô
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /a.maˈpo/
+part_of_speech: noun
+meanings:
+  - en: woman
+    examples:
+      - text: Bati o telefone na cara da mulher. Ela retornava — e eu desligava de novo.
+          Mas a insistência da amapô era tão grande que tive que conversar com
+          ela:[…]
+        en: "I hung up the phone on the woman. She called back — and I hung up again.
+          But the persistence of the woman was so great that I had to talk to
+          her: […]"
+    sensitive: []
+concept: woman
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/amap%C3%B4#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

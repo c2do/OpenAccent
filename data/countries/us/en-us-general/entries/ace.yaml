@@ -1,0 +1,35 @@
+word: ace
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈeɪ̯s/
+meanings:
+  - en: A dollar bill.
+    examples:
+      - text: "[…] maybe two or three twenties, a dozen tens, and twenty or thirty fins.
+          The rest is all aces and silver."
+      - text: If they got too many aces (dollar bills) or fives or tens, they turned
+          them in to the vault where they became part of the reserve.
+    sensitive: []
+  - en: To pass (a test, interviews etc.) perfectly.
+    examples: []
+    sensitive: []
+  - en: To defeat (others) in a contest; to outdo (others) in a competition.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ace#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

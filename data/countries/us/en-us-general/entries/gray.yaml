@@ -1,0 +1,48 @@
+word: gray
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡɹeɪ/
+meanings:
+  - en: Of a color between black and white, having neutral hue and intermediate
+      brightness.
+    examples: []
+    sensitive: []
+  - en: Old.
+    examples:
+      - text: |-
+          Two hours, whose mighty circle did embrace
+          More time than might make grey the infant world,
+          Rolled thus, a weary and tumultuous space: […]
+      - text: In a subculture that idealizes youth, being gay and gray does not exactly
+          make one a hot ticket. Older gays and lesbians often relegate
+          themselves to separate and unequal meeting places.
+    sensitive: []
+  - en: To turn gray.
+    examples:
+      - text: My hair is beginning to gray.
+    sensitive: []
+  - en: To turn progressively older, alluding to graying of hair through aging (used
+      in context of the population of a geographic region)
+    examples:
+      - text: the graying of America
+      - text: It’s not what advocates of retrofitting the suburbs may have had in mind,
+          but it’s a logical outcome of the graying of America, and of suburbia
+          in particular.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gray#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

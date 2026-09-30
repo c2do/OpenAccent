@@ -1,0 +1,30 @@
+word: sabiá
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /sa.biˈa/
+part_of_speech: noun
+meanings:
+  - en: true thrush (any songbird of the genus Turdus)
+    examples:
+      - text: Minha terra tem palmeiras, / Onde canta o Sabiá; / As aves, que aqui
+          gorgeião, / Não gorgeião como lá.
+        en: My land has palm trees, where the thrush sings; the birds that warble here,
+          don't warble as [they do] there.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/sabi%C3%A1#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

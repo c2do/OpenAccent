@@ -1,0 +1,37 @@
+word: ओक
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ok
+pronunciation:
+  ipa: /oːk/
+part_of_speech: noun
+meanings:
+  - en: vomit; vomiting
+    examples: []
+    sensitive: []
+  - en: the palm, hollowed to drink (water) from
+    examples: []
+    sensitive: []
+  - en: water (as drunk from the hollowed palm)
+    examples: []
+    sensitive: []
+  - en: house, dwelling, refuge
+    examples: []
+    sensitive: []
+concept: house
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%93%E0%A4%95#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

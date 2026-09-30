@@ -1,0 +1,47 @@
+word: schmeißen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃmaɪ̯sən/
+part_of_speech: verb
+meanings:
+  - en: to throw; to fling; to hurl
+    examples:
+      - text: die Schule schmeißen
+        en: to drop out of school
+      - text: Er schmiss seine Tasche aufs Bett.
+        en: He flung his bag on the bed.
+    sensitive: []
+  - en: to drop accidentally
+    examples:
+      - text: Pass auf, dass du die Flasche nicht auf den Boden schmeißt.
+        en: Watch out, don't drop the bottle on the ground.
+    sensitive: []
+  - en: to manage; to organize; to run
+    examples:
+      - text: Ich muss hier heut den ganzen Laden alleine schmeißen.
+        en: I have to run this whole thing on my own today.
+      - text: Ich schmeiße meine Geschäfte und du deine.
+        en: I'll run my business and you run yours.
+    sensitive: []
+  - en: to flub (a scene), to corpse
+    examples:
+      - text: eine Szene schmeißen
+        en: to flub a scene
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/schmei%C3%9Fen#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

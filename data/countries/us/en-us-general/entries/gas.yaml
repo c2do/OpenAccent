@@ -1,0 +1,29 @@
+word: gas
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɡæs/
+meanings:
+  - en: Gasoline, a light derivative of petroleum used as fuel.
+    examples: []
+    sensitive: []
+  - en: To increase the fuel flow to a vehicle's engine in order to accelerate it.
+    examples:
+      - text: The cops are coming. Gas it!
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/gas#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

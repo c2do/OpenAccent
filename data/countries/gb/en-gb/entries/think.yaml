@@ -1,0 +1,27 @@
+word: think
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈθɪŋk/
+part_of_speech: noun
+meanings:
+  - en: An act of thinking; consideration (of something).
+    examples:
+      - text: I'll have a think about that and let you know.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/think#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

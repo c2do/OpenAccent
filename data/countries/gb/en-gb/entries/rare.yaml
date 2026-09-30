@@ -1,0 +1,31 @@
+word: rare
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ɹɛə/
+part_of_speech: adj
+meanings:
+  - en: Good; enjoyable.
+    examples:
+      - text: |-
+          Sees her reflection in a butcher shop.
+          She finds it all quite rare
+          That her meat's all vanity fair.
+    sensitive: []
+concept: good
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rare#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

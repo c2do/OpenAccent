@@ -1,0 +1,34 @@
+word: stiff
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /stɪf/
+part_of_speech: noun
+meanings:
+  - en: An average person, usually male, of no particular distinction, skill, or
+      education.
+    examples:
+      - text: working stiff
+    sensitive: []
+  - en: A person who leaves (especially a restaurant) without paying the bill.
+    examples: []
+    sensitive: []
+  - en: A customer who does not leave a tip.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/stiff#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

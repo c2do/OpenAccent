@@ -1,0 +1,30 @@
+word: transa
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈtɾɐ̃.zɐ/
+part_of_speech: noun
+meanings:
+  - en: deal, trade, agreement
+    examples: []
+    sensitive: []
+  - en: sex (an act of sexual intercourse)
+    examples: []
+    sensitive:
+      - sexual
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/transa#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

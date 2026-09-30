@@ -1,0 +1,36 @@
+word: jones
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /d͡ʒoʊnz/
+meanings:
+  - en: An addiction or intense craving.
+    examples:
+      - text: I’ve got a basketball jones!
+      - text: ... I've got a jones," and she dropped her head.
+    sensitive: []
+  - en: To have an intense craving for something.
+    examples:
+      - text: I’m jonesing for some basketball.
+      - text: A lot of people they be jonesing just to hear me rock the mic / They'll be
+          staring at the radio, staying up all night
+    sensitive: []
+  - en: To binge on cocaine or alcohol.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jones#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

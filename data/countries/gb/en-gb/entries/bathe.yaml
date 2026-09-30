@@ -1,0 +1,28 @@
+word: bathe
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /beɪð/
+part_of_speech: noun
+meanings:
+  - en: The act of swimming or bathing, especially in the sea, a lake, or a river; a
+      swimming bath.
+    examples:
+      - text: I'm going to have a midnight bathe tonight.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bathe#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

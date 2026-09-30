@@ -1,0 +1,25 @@
+word: shikha
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: The long lock of hair left on the shaved head of an orthodox Hindu,
+      especially a Brahmin or temple priest.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/shikha#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,30 @@
+word: momo
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈməʊməʊ/
+part_of_speech: noun
+meanings:
+  - en: A person from Northeast India.
+    examples:
+      - text: Now, it is a well-known fact that many Northeast Indians are derogatorily
+          called 'momos' after the dish by mainland Indians for their round-ish
+          features.
+    sensitive:
+      - offensive
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/momo#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

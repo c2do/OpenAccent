@@ -1,0 +1,33 @@
+word: behavior
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /bɪˈheɪ.vjə/
+part_of_speech: noun
+meanings:
+  - en: Human conduct relative to social norms.
+    examples:
+      - text: Teachers will probably be on their best behaviour for your visit – but
+          don't be upset if they don't even notice you; they've got enough going
+          on.
+    sensitive: []
+  - en: A state of probation about one's conduct.
+    examples:
+      - text: He was on his best behavior when her family visited.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/behavior#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

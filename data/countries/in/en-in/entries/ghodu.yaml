@@ -1,0 +1,27 @@
+word: ghodu
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A Haryanvi or Punjabi person, usually a Hindu from the Indian states of
+      Haryana or Punjab
+    examples: []
+    sensitive:
+      - offensive
+      - slur
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ghodu#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

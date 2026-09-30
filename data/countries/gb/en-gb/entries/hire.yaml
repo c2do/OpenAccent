@@ -1,0 +1,30 @@
+word: hire
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhaɪ(.)ə/
+part_of_speech: verb
+meanings:
+  - en: To obtain the services of in return for fixed payment.
+    examples:
+      - text: We hired a car for two weeks because ours had broken down.
+      - text: “[…] She takes the whole thing with desperate seriousness. But the others
+          are all easy and jovial—thinking about the good fare that is soon to
+          be eaten, about the hired fly, about anything.”
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hire#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

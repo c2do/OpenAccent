@@ -1,0 +1,30 @@
+word: क्रुद्ध
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - kruddh
+pronunciation:
+  ipa: /kɾʊd̪d̪ʱ/
+part_of_speech: adj
+meanings:
+  - en: angry, furious
+    examples:
+      - text: वह क्रुद्ध होके चिल्लाने लगा।
+        en: He became angry and started to shout.
+    sensitive: []
+concept: angry
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

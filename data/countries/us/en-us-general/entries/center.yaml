@@ -1,0 +1,39 @@
+word: center
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈsɛn.təː/
+meanings:
+  - en: The point in the interior of a circle that is equidistant from all points on
+      the circumference.
+    examples:
+      - text: If a point be taken within a circle, and more than two equal straight
+          lines fall from the point on the circle, the point taken is the centre
+          of the circle.
+    sensitive: []
+  - en: Of, at, or related to a center.
+    examples: []
+    sensitive: []
+  - en: To cause (an object) to occupy the center of an area.
+    examples:
+      - text: |-
+          ????, Matthew Prior, Celia to Damon
+          Thy joys are centred all in me alone.
+      - text: He centered the heading of the document.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/center#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

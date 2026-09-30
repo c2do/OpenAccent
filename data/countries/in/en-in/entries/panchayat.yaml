@@ -1,0 +1,29 @@
+word: panchayat
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /panˈt͡ʃʌɪət/
+part_of_speech: noun
+meanings:
+  - en: A village council or local government.
+    examples:
+      - text: He called a panchayat of the village and asked them if they objected to
+          having a mill go up next to their village.
+      - text: “You're in the panchayat,” she said. “So couldn't you make that official?”
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/panchayat#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

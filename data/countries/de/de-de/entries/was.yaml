@@ -1,0 +1,36 @@
+word: was
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /vas/
+part_of_speech: pron
+meanings:
+  - en: that, which; referring to neuter singular nouns, instead of standard das
+    examples:
+      - text: Siehst du das weiße Haus, was renoviert wird?
+        en: Do you see that white house, which is being renovated?
+    sensitive: []
+  - en: something, anything; instead of standard etwas
+    examples:
+      - text: Ich hab was gefunden.
+        en: I've found something.
+      - text: Er wollte Anna was antun.
+        en: He wanted to do something to Anna.
+    sensitive: []
+concept: that
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/was#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

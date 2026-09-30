@@ -1,0 +1,28 @@
+word: pleite
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: broke
+    examples:
+      - text: pleite sein
+        en: to be broke
+      - text: pleite gehen
+        en: to go broke
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pleite#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,27 @@
+word: cheese
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /t͡ʃiːz/
+part_of_speech: noun
+meanings:
+  - en: The correct thing, of excellent quality; the ticket.
+    examples:
+      - text: These cheroots are the real cheese.
+    sensitive: []
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cheese#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

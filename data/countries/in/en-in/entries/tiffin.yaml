@@ -1,0 +1,36 @@
+word: tiffin
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʈɪ.fɪn/
+meanings:
+  - en: A (light) midday meal or snack; luncheon.
+    examples:
+      - text: He took his tiffin from home and ate the food two hours later in school.
+      - text: "[…] I bought a pine-apple at the same time, which I gave to Sambo. Let's
+          have it for tiffin; very cool and nice this hot weather."
+    sensitive: []
+  - en: To eat a (light) midday meal or snack.
+    examples:
+      - text: Do you know that he tiffins with her three times a week, and every night,
+          after leaving here, he finishes the evening in her society, sitting in
+          the veranda and smoking cigarettes till all hours.
+      - text: Pack had been tiffining by himself to the right of the arch, and had heard
+          everything.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tiffin#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

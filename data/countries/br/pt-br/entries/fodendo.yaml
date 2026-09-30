@@ -1,0 +1,30 @@
+word: fodendo
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fuˈdẽ.du/
+part_of_speech: adj
+meanings:
+  - en: fucking; goddamn (used as an intensifier)
+    examples:
+      - text: Pedi dinheiro pro meu colega e ele me deu um fodendo cheque!
+        en: I asked my workmate for money and he gave me a fucking cheque!
+    sensitive:
+      - sexual
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fodendo#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,37 @@
+word: nonveg
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnɒnˌvɛd͡ʒ/
+part_of_speech: adj
+meanings:
+  - en: Not vegetarian.
+    examples:
+      - text: “You like nonveg?” he probed, extending the coffee cup to her. “I'm a born
+          nonveg.”
+      - text: Most restaurants use the terms veg and non-veg to denote whether they
+          serve meat or not so if you can't manage without your meat then look
+          out for a non-veg sign.
+    sensitive: []
+  - en: Inappropriate, adult; not suitable for children.
+    examples:
+      - text: non-veg joke
+      - text: “Dirty joke? As in toilet joke or non-veg joke?” he asked. “Obviously
+          non-veg” she clarified.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nonveg#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

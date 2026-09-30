@@ -1,0 +1,32 @@
+word: golden
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡəʊl.dən/
+part_of_speech: adj
+meanings:
+  - en: Fine, without problems.
+    examples:
+      - text: Many anti-fog variety goggles are available, but if you don't get that
+          type, just rub a little spit on the lenses before you put them on in
+          the water and you'll be golden.
+      - text: Therefore, the task ahead is easy. When the spotlight is on you, never let
+          the audience down and you'll be golden.
+    sensitive: []
+concept: fine
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/golden#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

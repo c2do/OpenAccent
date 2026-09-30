@@ -1,0 +1,42 @@
+word: dime
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /daɪm/
+meanings:
+  - en: A coin worth one-tenth of a dollar, that is, ten cents.
+    examples: []
+    sensitive: []
+  - en: A beautiful woman (10 on a 10-point scale).
+    examples:
+      - text: Make a couple of nuns a couple of dimes.
+      - text: Wait in line for drinks, it’s another time out / Made out on the floor
+          with a couple dimes
+    sensitive: []
+  - en: To inform on, to turn in to the authorities, to rat on, especially
+      anonymously.
+    examples:
+      - text: Somebody dimed on me and I got arrested for selling marijuana.
+    sensitive: []
+  - en: To operate an audio amplifier (especially an electric guitar amplifier) at
+      level "10" (typically the highest amplification level).
+    examples:
+      - text: I get the best-sounding sustain and smooth harmonic distortion when I run
+          the amp dimed.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dime#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

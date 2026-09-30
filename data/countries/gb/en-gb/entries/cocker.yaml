@@ -1,0 +1,32 @@
+word: cocker
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈkɒkə/
+part_of_speech: noun
+meanings:
+  - en: Friend, mate.
+    examples:
+      - text: I been to see 'im. Not pretty. Ward sister tell me 'e'll be alright but
+          not for a while yet. Concussion. Bloody 'ell! Lucky 'e wasn't killed,
+          lump of lead like that. Lucky for you too, cocker...
+      - text: He said, 'Not my cup of Darjeeling, cocker. I've been more intellectually
+          challenged at a kiddies' swimming gala.'
+    sensitive: []
+concept: friend
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/cocker#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

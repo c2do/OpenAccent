@@ -1,0 +1,30 @@
+word: chamcha
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A sycophant and hanger-on or lackey.
+    examples:
+      - text: "Chamcha Sycophant (lit. ‘spoon’). 1997. Ghulam Nabi Azad. India Today
+          (June 23) p. 13: I have my own standing in the party. I cannot be
+          anybody’s chamcha (stooge)."
+      - text: No doubt, the United Kingdom also had their sycophants—toadys, bachhas,
+          jholichuks and hukkabardars—but chamchas of the modern vintage they
+          had none. Chamchas are a breed apart.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/chamcha#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

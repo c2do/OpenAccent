@@ -1,0 +1,29 @@
+word: panauti
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pəˈnɔːti/
+part_of_speech: noun
+meanings:
+  - en: A person believed to bring bad luck or misfortune, especially through
+      association or timing.
+    examples:
+      - text: Don't let him touch the bat, he's a total panauti — we always lose when
+          he's around.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/panauti#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

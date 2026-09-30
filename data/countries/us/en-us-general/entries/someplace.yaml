@@ -1,0 +1,27 @@
+word: someplace
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈsʌmˌpleɪs/
+part_of_speech: adv
+meanings:
+  - en: Somewhere.
+    examples:
+      - text: We can't find the damned thing, but it must be someplace.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/someplace#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

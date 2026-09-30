@@ -1,0 +1,28 @@
+word: लखना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - lakhnā
+pronunciation:
+  ipa: /ləkʰ.nɑː/
+part_of_speech: verb
+meanings:
+  - en: to understand, fathom
+    examples: []
+    sensitive: []
+concept: understand
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B2%E0%A4%96%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

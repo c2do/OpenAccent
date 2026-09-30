@@ -1,0 +1,32 @@
+word: scheiß
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+meanings:
+  - en: shitty, shit
+    examples:
+      - text: Und deine Mama ist wie ein scheiß Pimpstück am Blasen
+        en: Your mama is giving head like some shit-ass ho
+    sensitive:
+      - vulgar
+  - en: very, damn, piss
+    examples:
+      - text: Es ist scheißkalt hier drin.
+        en: It’s damn cold in here.
+    sensitive:
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/schei%C3%9F#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

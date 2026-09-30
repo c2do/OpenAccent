@@ -1,0 +1,32 @@
+word: bally
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbæli/
+meanings:
+  - en: Bloody (used as a mild intensifier).
+    examples:
+      - text: He's just a bally idiot.
+      - text: “My faith! It’ll be more bally corpse than bride, though, this journey.”
+    sensitive: []
+  - en: Very.
+    examples:
+      - text: That was a bally foolish thing to do, old chap!
+    sensitive: []
+concept: a_lot
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/bally#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

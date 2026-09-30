@@ -1,0 +1,28 @@
+word: jugaadu
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dʒʊˈɡɑːduː/
+part_of_speech: noun
+meanings:
+  - en: A person who finds quick, clever, or low-cost solutions to problems using
+      limited resources; a life-hacker or resourceful fixer.
+    examples:
+      - text: He's such a jugaadu — he fixed the broken fan with just tape and a spoon!
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/jugaadu#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

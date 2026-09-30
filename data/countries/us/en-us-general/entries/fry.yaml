@@ -1,0 +1,30 @@
+word: fry
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fɹaɪ/
+meanings:
+  - en: To affect or be affected by extreme heat or current.; To execute, or be
+      executed, by the electric chair.
+    examples:
+      - text: "He's guilty of murder: he's going to fry."
+    sensitive: []
+  - en: A long, thin fried piece of cut potato.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fry#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

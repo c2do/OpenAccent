@@ -1,0 +1,31 @@
+word: nasty
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈnaː.sti/
+part_of_speech: adj
+meanings:
+  - en: Dirty, filthy.
+    examples:
+      - text: I really don't have any friends at school Mama Mia. They talk about me all
+          the time. They say my hair's nappy and my clothes are nasty.
+    sensitive: []
+  - en: Formidable, terrific; wicked.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/nasty#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

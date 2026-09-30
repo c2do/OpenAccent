@@ -1,0 +1,27 @@
+word: mint sauce
+dialect: en-gb
+type: phrase
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: Money.
+    examples:
+      - text: "'Sure, I do. Joey comes here with me whenever I'm not busy with a flat
+          and he's got the mint-sauce for the entrance fee.'"
+    sensitive: []
+concept: money
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/mint_sauce#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

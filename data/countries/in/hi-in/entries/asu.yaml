@@ -1,0 +1,28 @@
+word: आशु
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - āśu
+pronunciation:
+  ipa: /ɑː.ʃuː/
+part_of_speech: adj
+meanings:
+  - en: fast
+    examples: []
+    sensitive: []
+concept: fast
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%86%E0%A4%B6%E0%A5%81#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

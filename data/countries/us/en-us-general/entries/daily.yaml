@@ -1,0 +1,33 @@
+word: daily
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdeɪli/
+meanings:
+  - en: Something that is produced, consumed, used, or done every day.; A daily
+      driver.
+    examples: []
+    sensitive: []
+  - en: To drive an automobile frequently, on a daily basis, for regular and mundane
+      tasks.
+    examples: []
+    sensitive: []
+  - en: To use, especially of a computer or operating system, for everyday tasks.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/daily#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

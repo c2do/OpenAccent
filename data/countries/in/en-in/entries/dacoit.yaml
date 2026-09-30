@@ -1,0 +1,33 @@
+word: dacoit
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dəˈkɔɪt/
+meanings:
+  - en: A bandit or armed robber, especially in former parts of British India.
+    examples:
+      - text: On the way back Boyles led him down a lampless lane, and sure enough, a
+          pair of dacoits pounced on them.
+      - text: “The notorious forest brigand, bandit, murderer and dacoit, Veerappan,
+          along with his entire gang, has been shot dead,” Jayaram Jayalalithaa,
+          the Chief Minister of Tamil Nadu State, announced.
+    sensitive: []
+  - en: To commit armed robbery.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dacoit#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

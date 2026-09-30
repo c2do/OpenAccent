@@ -1,0 +1,27 @@
+word: hotter
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: One who steals a vehicle in order to joyride.
+    examples:
+      - text: Unable effectively to give chase to the hotters for fear of endangering
+          the lives of pedestrians and motorists, the police had been forced to
+          play a waiting game[…]
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hotter#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

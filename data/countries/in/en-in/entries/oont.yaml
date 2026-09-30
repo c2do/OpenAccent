@@ -1,0 +1,29 @@
+word: oont
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʊnt/
+part_of_speech: noun
+meanings:
+  - en: A camel.
+    examples:
+      - text: Ugliness must not be confused with inutility. Most parts of Northern India
+          and Jammu are infested with Oonts and in the dry sandy regions of
+          Rajasthan and Kutch Oonts proliferate.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/oont#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

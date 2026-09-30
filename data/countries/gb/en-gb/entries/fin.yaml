@@ -1,0 +1,26 @@
+word: fin
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /fɪn/
+part_of_speech: noun
+meanings:
+  - en: a five-pound (£5) note; the sum of five pounds.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/fin#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

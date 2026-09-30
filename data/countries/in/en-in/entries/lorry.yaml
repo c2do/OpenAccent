@@ -1,0 +1,29 @@
+word: lorry
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈlɒɹi/
+part_of_speech: noun
+meanings:
+  - en: A large and heavy motor vehicle designed to carry goods or soldiers; a truck
+    examples:
+      - text: There was also the influx of a third of a million road lorries, sold at
+          giveaway prices after their war roles ceased and used by competing
+          one-man businesses to skim off sundry agricultural freight.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/lorry#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

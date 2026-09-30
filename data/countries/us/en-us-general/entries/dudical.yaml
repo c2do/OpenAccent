@@ -1,0 +1,26 @@
+word: dudical
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: cool, awesome
+    examples:
+      - text: With his mohawk and sunglasses, Josh looked really dudical.
+    sensitive: []
+concept: cool
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dudical#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

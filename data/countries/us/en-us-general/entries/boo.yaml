@@ -1,0 +1,30 @@
+word: boo
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /buː/
+part_of_speech: noun
+meanings:
+  - en: A close acquaintance or significant other.
+    examples:
+      - text: At night I think of you / I want to be your lady, maybe / If your game is
+          on give me a call, boo / If your lovin' strong, gonna give my all to
+          you
+      - text: No matter what I do / All I think about is you / Even when I'm with my boo
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/boo#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

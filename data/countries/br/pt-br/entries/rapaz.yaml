@@ -1,0 +1,27 @@
+word: rapaz
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ʁaˈpa(j)s/
+part_of_speech: intj
+meanings:
+  - en: dude!; damn! (said in awe, excitement, surprise, concern, etc.)
+    examples: []
+    sensitive:
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/rapaz#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

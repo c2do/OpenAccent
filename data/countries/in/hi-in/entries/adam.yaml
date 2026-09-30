@@ -1,0 +1,28 @@
+word: आदम
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - ādam
+pronunciation:
+  ipa: /ɑː.d̪əm/
+part_of_speech: noun
+meanings:
+  - en: man
+    examples: []
+    sensitive: []
+concept: man
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%86%E0%A4%A6%E0%A4%AE#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,46 @@
+word: doll
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dɔl/
+meanings:
+  - en: firm, hard, forceful, strong (of actions, also of emotions)
+    examples:
+      - text: Der Schlag war nicht doll, aber er hat mich genau auf die Nase getroffen.
+        en: The blow wasn't hard, but it hit me right in the nose.
+    sensitive: []
+  - en: good, great, satisfactory
+    examples:
+      - text: Ich geb ja zu, dass es keine dolle Idee war.
+        en: Well, I do admit it wasn't a very good idea.
+    sensitive: []
+  - en: extraordinary, remarkable
+    examples:
+      - text: Na, das is’ ja ’n dolles Ding!
+        en: Now, that is some news!
+    sensitive: []
+  - en: firmly, hard, forcefully, vehemently, strong (of actions, also of emotions)
+    examples:
+      - text: Du musst doller drücken, sonst geht es nicht.
+        en: You need to push harder, otherwise it won't work.
+      - text: Wir feiern laut und doll bis alle auf den Tischen springen / Und am
+          Höhepunkt der Party fangen wir laut an zu singen
+        en: We party hard and loudly until everyone climbs the tables / And in the
+          party's climax we start singing loudly
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/doll#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

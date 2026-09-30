@@ -1,0 +1,29 @@
+word: poker
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpoʊkɚ/
+part_of_speech: noun
+meanings:
+  - en: Any imagined frightful object, especially one supposed to haunt the
+      darkness; a bugbear.
+    examples:
+      - text: The very leaves on the horse-chesnuts[…]cling to the bough as if old poker
+          was coming to take them away.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/poker#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

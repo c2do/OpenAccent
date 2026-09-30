@@ -1,0 +1,28 @@
+word: pinky
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈpɪŋki/
+part_of_speech: noun
+meanings:
+  - en: The smallest finger or toe of a hand or foot.
+    examples:
+      - text: Everyday ^([sic]) as he passes them, the hookers wave at him with their
+          pinkies and say, “Hi there, little boy!”
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pinky#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

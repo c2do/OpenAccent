@@ -1,0 +1,25 @@
+word: movies
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: The cinema
+    examples:
+      - text: We are going to the movies for our anniversary.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/movies#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

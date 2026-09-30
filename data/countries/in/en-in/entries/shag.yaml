@@ -1,0 +1,28 @@
+word: shag
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃæɡ/
+part_of_speech: verb
+meanings:
+  - en: To masturbate.
+    examples: []
+    sensitive:
+      - sexual
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/shag#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

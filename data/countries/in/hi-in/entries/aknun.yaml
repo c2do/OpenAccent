@@ -1,0 +1,28 @@
+word: अकनून
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - aknūn
+pronunciation:
+  ipa: /ək.nuːn/
+part_of_speech: adv
+meanings:
+  - en: now, at this moment, at present
+    examples: []
+    sensitive: []
+concept: now
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%95%E0%A4%A8%E0%A5%82%E0%A4%A8#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

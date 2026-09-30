@@ -1,0 +1,28 @@
+word: stand
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈstænd/
+part_of_speech: noun
+meanings:
+  - en: A container which stands upright, such as a barrel or cask.
+    examples:
+      - text: Item, for a ſtande of small ale - ii s.
+      - text: "[…]one gialfatte, 3 stannes 3s.,[…]"
+    sensitive: []
+register: neutral
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/stand#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

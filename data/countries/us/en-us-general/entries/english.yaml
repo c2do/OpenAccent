@@ -1,0 +1,29 @@
+word: english
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɪŋ.ɡlɪʃ/
+part_of_speech: noun
+meanings:
+  - en: Spinning or rotary motion given to a ball around the vertical axis, as in
+      pool, billiards or bowling; spin, sidespin.
+    examples:
+      - text: You can't hit it directly, but maybe if you give it some english.
+      - text: There was a magical way of putting English on the dice to result in a six.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/english#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

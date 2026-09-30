@@ -1,0 +1,29 @@
+word: hi-fi
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhaɪˌfaɪ/
+part_of_speech: adj
+meanings:
+  - en: modern, fashionable, hi-tech.
+    examples:
+      - text: "If buses could fly: Hi-fi idea to fix traffic woes back on table"
+      - text: It’s about survival and a hi-fi lifestyle, where human life doesn’t
+          count,” said Police Commissioner Bhaskar Rao.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/hi-fi#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

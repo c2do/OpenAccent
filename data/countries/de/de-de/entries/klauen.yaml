@@ -1,0 +1,32 @@
+word: klauen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈklaʊ̯ən/
+part_of_speech: verb
+meanings:
+  - en: to steal
+    examples:
+      - text: Tolle Idee, die werde ich klauen!
+        en: Great idea, I'm gonna steal that!
+      - text: Die Täter klauen nicht nur neue und teure Fahrräder, sondern oft auch
+          ältere, gebrauchte Modelle.
+        en: The perpetrators not only steal new and expensive bicycles, but often also
+          older, used models.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/klauen#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

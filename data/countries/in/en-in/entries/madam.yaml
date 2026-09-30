@@ -1,0 +1,27 @@
+word: madam
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈmædəm/
+part_of_speech: noun
+meanings:
+  - en: A hated or contemptuous woman; used as a general term of abuse
+    examples: []
+    sensitive:
+      - offensive
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/madam#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

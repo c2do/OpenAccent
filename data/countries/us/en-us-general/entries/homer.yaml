@@ -1,0 +1,42 @@
+word: homer
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhəʊmə/
+meanings:
+  - en: A home run.
+    examples:
+      - text: The first baseman hit a homer to lead off the ninth.
+      - text: The Mets got that four-run cushion in the seventh when George Foster
+          stepped in as a pinch-hitter and hit a two-run homer for the 5-1
+          final.
+    sensitive: []
+  - en: To hit a homer; to hit a home run.
+    examples:
+      - text: The Sultan of Swat homered 714 times.
+    sensitive: []
+  - en: Synonym of home run (“sexual intercourse”).
+    examples:
+      - text: Fast forward to Chase's base. Where Chase hit a homer, first at bat. Becca
+          thrived off being sexy, having sex, watching sex.
+      - text: |-
+          “So you hit a homer, huh?” she asked, confused by his misery.
+          Colm nodded. “Best sex I've had in a long time. Maybe ever.”
+    sensitive:
+      - sexual
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/homer#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

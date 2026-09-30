@@ -1,0 +1,38 @@
+word: अशुभ
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - aśubh
+pronunciation:
+  ipa: /ə.ʃʊbʱ/
+meanings:
+  - en: bad; inauspicious
+    examples:
+      - text: अशुभ बातें न करें!
+        en: Don't talk about inauspicious things!
+    sensitive: []
+  - en: evil
+    examples: []
+    sensitive: []
+  - en: bad; evil
+    examples: []
+    sensitive: []
+  - en: sin
+    examples: []
+    sensitive: []
+concept: bad
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%B6%E0%A5%81%E0%A4%AD#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

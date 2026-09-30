@@ -1,0 +1,28 @@
+word: swingorilliant
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+part_of_speech: adj
+meanings:
+  - en: fine; excellent; swinging
+    examples:
+      - text: There's never been a more happening time to have a Speccy or SAM - it's
+          completely swingorilliant!
+      - text: I have Now 1 - Now Smash Hits 30 swingorilliant hits of the '80s
+    sensitive: []
+concept: fine
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/swingorilliant#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

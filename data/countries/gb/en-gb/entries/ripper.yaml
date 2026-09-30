@@ -1,0 +1,33 @@
+word: ripper
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɹɪpə/
+meanings:
+  - en: Something that is an excellent example of its kind.
+    examples:
+      - text: Martin walked around the vehicle, viewing it from all angles and giggling
+          as he did so. “She's a ripper, Bert, a real ripper!”
+      - text: Really, the Strauss Ball was in a category of its own, which is why we are
+          making such a fuss about it; an absolute ripper of a ball whatever the
+          hell it should be called in technical terms.
+    sensitive: []
+  - en: Very good; excellent; fantastic.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/ripper#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

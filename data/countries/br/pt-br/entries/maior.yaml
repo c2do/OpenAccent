@@ -1,0 +1,33 @@
+word: maior
+dialect: pt-br
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /majˈɔʁ/
+meanings:
+  - en: big, great
+    examples:
+      - text: Ele é maior idiota...
+        en: He is a big idiot
+    sensitive: []
+  - en: very, quite
+    examples:
+      - text: Essa comida comida tem um gosto maior ruim.
+        en: That food tastes very bad.
+    sensitive: []
+concept: big
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/maior#Portuguese
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

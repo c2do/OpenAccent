@@ -1,0 +1,35 @@
+word: dick
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /dɪk/
+part_of_speech: noun
+meanings:
+  - en: Absolutely nothing.
+    examples:
+      - text: Last weekend I did dick.
+      - text: Cool, whatever you say, slick, but I need to tell you something about all
+          your skills. As of right now, they mean precisely… dick.
+    sensitive:
+      - vulgar
+  - en: A detective.
+    examples:
+      - text: private dick, railroad dick
+    sensitive:
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dick#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

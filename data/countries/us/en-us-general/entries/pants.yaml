@@ -1,0 +1,33 @@
+word: pants
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /pænts/
+part_of_speech: noun
+meanings:
+  - en: An outer garment that covers the body from the waist downwards, covering
+      each leg separately, usually as far as the ankles; trousers.
+    examples:
+      - text: It's in the evening after dark when the blackleg miner creeps to work.
+          With his moleskin pants and his dirty shirt, there goes the blackleg
+          miner.
+      - text: Look for pants with reinforced seats and knees and full-length side
+          zippers that make it possible to put the pants on while you are
+          wearing boots, crampons, skis, or snowshoes.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/pants#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

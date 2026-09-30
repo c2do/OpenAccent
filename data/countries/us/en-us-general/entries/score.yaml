@@ -1,0 +1,43 @@
+word: score
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /skɔː/
+meanings:
+  - en: A criminal act, especially:; A robbery.
+    examples:
+      - text: Let's pull a score!
+      - text: >-
+          Batman: Dangerous crowd you're stealing from.
+
+          Catwoman: Jesus. Is this how you get your kicks, hon? Sneaking up on
+          girls in the dark?
+
+          Batman: Is that why you work in the club? It was all just a score?
+    sensitive: []
+  - en: A criminal act, especially:; A bribe paid to a police officer.
+    examples: []
+    sensitive: []
+  - en: A criminal act, especially:; An illegal sale, especially of drugs.
+    examples:
+      - text: He made a big score.
+    sensitive: []
+  - en: To obtain something desired.; To extract a bribe.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/score#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

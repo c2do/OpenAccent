@@ -1,0 +1,33 @@
+word: recognize
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɹɛk.əɡ.naɪz/
+part_of_speech: verb
+meanings:
+  - en: To match (something or someone which one currently perceives) to a memory of
+      some previous encounter with the same person or thing.
+    examples:
+      - text: I recognized his face immediately, although his voice was different.
+      - text: Seeing comes before words. The child looks and recognizes before it can
+          speak.
+    sensitive: []
+  - en: to cognize again
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/recognize#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

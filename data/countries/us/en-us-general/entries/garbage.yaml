@@ -1,0 +1,40 @@
+word: garbage
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɡɑː.bɪd͡ʒ/
+meanings:
+  - en: Food waste material of any kind.
+    examples: []
+    sensitive: []
+  - en: An easy shot.
+    examples:
+      - text: Yet, even without the three second rule, where your big man could camp
+          underneath and take those delightful “garbage” shots, there was little
+          or no pivot offense, no cutting off the bucket.
+      - text: '[…] the aging pro, in a much-heralded "boys against the girls" tennis
+          match, annihilated Margaret Court with an array of "garbage shots and
+          cotton balls."'
+    sensitive: []
+  - en: bad, crap, shitty
+    examples:
+      - text: Forget about that garbage advice to “act natural”.
+      - text: half that shit you morons listen to with pride is totally garbage
+    sensitive:
+      - vulgar
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/garbage#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

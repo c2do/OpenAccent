@@ -1,0 +1,31 @@
+word: dame
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /deɪm/
+part_of_speech: noun
+meanings:
+  - en: A woman.
+    examples:
+      - text: I can see that would be the kind of a chap that the dames would stand for
+          everlastingly.
+      - text: There is nothin' like a dame / Nothin' in the world. / There is nothin'
+          you can name / That is anythin' like a dame.
+    sensitive: []
+concept: woman
+register: casual
+familiarity: dated
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/dame#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

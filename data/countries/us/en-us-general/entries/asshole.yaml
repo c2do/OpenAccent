@@ -1,0 +1,30 @@
+word: asshole
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /æshoʊl/
+part_of_speech: noun
+meanings:
+  - en: The anus.
+    examples:
+      - text: That homemade hot sauce of yours got me twice, both coming and going. My
+          asshole is still sore.
+      - text: She said she couldn't wiggle when she had the doorknob in her asshole.
+    sensitive:
+      - vulgar
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/asshole#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

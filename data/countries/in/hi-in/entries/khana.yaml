@@ -1,0 +1,42 @@
+word: खाना
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - khānā
+pronunciation:
+  ipa: /kʰɑː.nɑː/
+meanings:
+  - en: food, meal
+    examples:
+      - text: इस होटल में अच्छा खाना मिल सकता है।
+        en: You can get good food in this hotel.
+    sensitive: []
+  - en: to eat, consume (food)
+    examples:
+      - text: वह रोज़ सुबह नाश्ता खाता है।
+        en: He eats breakfast every morning.
+    sensitive: []
+  - en: to consume, use up, waste (time, resources, effort)
+    examples:
+      - text: ये लालटेन बहुत ही तेल खाती है।
+        en: This lantern consumes too much oil.
+    sensitive: []
+  - en: to devour, ruin, eat away
+    examples: []
+    sensitive: []
+concept: food
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%96%E0%A4%BE%E0%A4%A8%E0%A4%BE#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

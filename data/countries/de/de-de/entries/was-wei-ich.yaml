@@ -1,0 +1,27 @@
+word: was weiß ich
+dialect: de-de
+type: phrase
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˌvas vaɪ̯s ˈɪç/
+part_of_speech: intj
+meanings:
+  - en: I don't know, how would I know, search me, beats me
+    examples: []
+    sensitive: []
+concept: i_dont_know
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/was_wei%C3%9F_ich#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

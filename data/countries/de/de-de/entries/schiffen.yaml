@@ -1,0 +1,35 @@
+word: schiffen
+dialect: de-de
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʃɪfn̩/
+part_of_speech: verb
+meanings:
+  - en: to urinate
+    examples: []
+    sensitive: []
+  - en: to rain heavily
+    examples:
+      - text: "Axel Kurth: […] Seit ich angekommen bin, habe ich die ganze Zeit etwas zu
+          tun, z.B. Interviews geben, so wie jetzt. Ich freue mich aber, dass
+          das Wetter schön ist, dass es nicht geschifft hat."
+        en: "Axel Kurth: […] Since arriving I have things to do all the time, e.g.
+          giving interviews, like now. But I am glad that the weather is nice,
+          that it has not rained."
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/schiffen#German
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

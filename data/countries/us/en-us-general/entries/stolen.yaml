@@ -1,0 +1,32 @@
+word: stolen
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈstəʊ.ln̩/
+part_of_speech: noun
+meanings:
+  - en: Something which has been stolen.
+    examples:
+      - text: |-
+          A island I wanna live somewhere silent
+          I'm shining I'm bout to flood my neck with diamonds
+          Yeah I've been spitting facts these niggas lying
+          I'm driving stolens, foreigns, yeah I'm riding
+      - text: Pray for my soldiers that's ridin’ in stolens
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/stolen#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

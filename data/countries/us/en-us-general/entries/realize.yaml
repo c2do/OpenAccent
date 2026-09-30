@@ -1,0 +1,30 @@
+word: realize
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈɹɪə.laɪz/
+part_of_speech: verb
+meanings:
+  - en: To become aware of, understand, or appreciate (a fact or situation,
+      especially something which has been true for some time).
+    examples:
+      - text: He realized that he had left his umbrella on the train.
+      - text: She desperately yelled at her young daughter, frantic to make her realize
+          what she had done.
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/realize#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

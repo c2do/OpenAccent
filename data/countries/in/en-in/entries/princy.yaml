@@ -1,0 +1,28 @@
+word: princy
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A principal (chief academic officer).
+    examples:
+      - text: Have you taken the principal’s permission? […] We agree[,] let’s meet the
+          princy first thing tomorrow.
+      - text: It’s Monday and the princy has called my dad to school to complain about
+          the fight I got into last week.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/princy#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

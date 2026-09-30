@@ -1,0 +1,37 @@
+word: हीन
+dialect: hi-in
+type: word
+spellings: []
+romanized:
+  - hīn
+pronunciation:
+  ipa: /ɦiːn/
+part_of_speech: adj
+meanings:
+  - en: bad, low, lesser; inferior
+    examples: []
+    sensitive: []
+  - en: empty
+    examples: []
+    sensitive: []
+  - en: lacking, deprived
+    examples: []
+    sensitive: []
+  - en: abandoned
+    examples: []
+    sensitive: []
+concept: bad
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/%E0%A4%B9%E0%A5%80%E0%A4%A8#Hindi
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

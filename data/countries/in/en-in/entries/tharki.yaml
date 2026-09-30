@@ -1,0 +1,28 @@
+word: tharki
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈʈʰər.kiː/
+part_of_speech: noun
+meanings:
+  - en: A lecherous or lustful person, especially a man; a pervert.
+    examples:
+      - text: Stop staring at me! Bloody shameless tharki.
+    sensitive:
+      - offensive
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/tharki#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

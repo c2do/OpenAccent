@@ -1,0 +1,27 @@
+word: matrimonial
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /mætɹɪˈməʊnɪ.əl/
+part_of_speech: noun
+meanings:
+  - en: A classified advertisement describing a person who wishes to find a marriage
+      partner.
+    examples: []
+    sensitive: []
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/matrimonial#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,28 @@
+word: beta
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈbiːtə/
+part_of_speech: noun
+meanings:
+  - en: a term of endearment, used towards someone of equal or lower standing such
+      as a friend or child, similar to brother or son
+    examples:
+      - text: Don't pick that up, beta, it's dirty.
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/beta#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

@@ -1,0 +1,26 @@
+word: desmond
+dialect: en-gb
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈdɛz.mənd/
+part_of_speech: noun
+meanings:
+  - en: A lower second class honours or 2.2 degree.
+    examples: []
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/desmond#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

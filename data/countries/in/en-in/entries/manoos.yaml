@@ -1,0 +1,28 @@
+word: manoos
+dialect: en-in
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A man, especially one who is unlucky or who has a tendency to complain.
+    examples:
+      - text: The use of the word 'outsiders' has radically changed the delicate
+          equation between the 'real' Marathi manoos and those who throng to
+          Mumbai in search of jobs.
+    sensitive: []
+concept: man
+register: neutral
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/manoos#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

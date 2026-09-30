@@ -1,0 +1,27 @@
+word: howdy
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+pronunciation:
+  ipa: /ˈhaʊdi/
+part_of_speech: intj
+meanings:
+  - en: An informal greeting.
+    examples:
+      - text: Howdy folks, and welcome to our ninth annual chili cookoff!
+    sensitive: []
+register: casual
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/howdy#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import

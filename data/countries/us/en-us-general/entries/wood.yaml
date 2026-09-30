@@ -1,0 +1,30 @@
+word: wood
+dialect: en-us-general
+type: word
+spellings: []
+romanized: []
+part_of_speech: noun
+meanings:
+  - en: A peckerwood.
+    examples:
+      - text: He further stated that "I can't remember ever seeing a wood [white inmate]
+          assault a nigger without being provoked".
+      - text: The only thing is, even though there are ways to remain neutral, to just
+          be a wood and not get caught up in the white supremacist gang stuff,
+          you do have to take a side if things get bad.
+    sensitive:
+      - offensive
+register: vulgar
+familiarity: common
+regions: []
+related: []
+notes: ""
+status: draft
+verified_by: []
+source:
+  kind: dataset
+  name: wiktionary
+  ref: https://en.wiktionary.org/wiki/wood#English
+  license: CC-BY-SA-4.0
+attested_by: []
+added_by: wiktionary-import
