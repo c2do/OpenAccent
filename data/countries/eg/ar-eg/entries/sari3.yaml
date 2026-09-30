@@ -15,3 +15,5 @@ added_by: claude-core-draft
 attested_by:
   - name: unimorph
     ref: https://github.com/unimorph/arz
+    method: dictionary-match
+    method_version: 1

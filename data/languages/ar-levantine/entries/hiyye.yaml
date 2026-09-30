@@ -26,7 +26,15 @@ added_by: wiktionary-import
 attested_by:
   - name: maknuune
     ref: https://github.com/CAMeL-Lab/maknuune_lexicon
-  - name: flores
-    ref: https://github.com/facebookresearch/flores (2 sentence pairs)
+    method: dictionary-match
+    method_version: 1
   - name: tatoeba
-    ref: https://tatoeba.org (3 sentence pairs)
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 3
+    occurrences: 6
+    precision: 0.5
+    lift: 12.4
+    run_id: "36770487152"
+    source_revision: exports of 2026-09-30

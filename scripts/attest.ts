@@ -14,6 +14,7 @@ import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from '
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { parseDocument } from 'yaml';
+import { ATTESTATION_METHODS } from '../src/core/confidence.js';
 import { normalize } from '../src/core/normalize.js';
 import { arabiziCandidates } from '../src/core/romanize.js';
 
@@ -117,7 +118,7 @@ export interface AttestResult {
 }
 
 /** Adds `attested_by` to every entry in the source's dialects that one of its words confirms. */
-export function attest(dataRoot: string, source: AttestSource, opts: { dryRun?: boolean } = {}): AttestResult {
+export function attest(dataRoot: string, source: AttestSource, opts: { dryRun?: boolean; runId?: string } = {}): AttestResult {
   const byKey = new Map<string, SourceWord[]>();
   for (const w of source.words) for (const k of w.keys) byKey.set(k, [...(byKey.get(k) ?? []), w]);
   const result: AttestResult = { source: source.name, checked: 0, confirmed: [] };
@@ -143,7 +144,14 @@ export function attest(dataRoot: string, source: AttestSource, opts: { dryRun?: 
       if (!match) continue;
       result.confirmed.push({ file, word: entry.word });
       if (opts.dryRun) continue;
-      const list = (entry.attested_by ?? []).concat({ name: source.name, ...(match.ref ? { ref: match.ref } : {}) } as { name: string });
+      const attestation = {
+        name: source.name,
+        ...(match.ref ? { ref: match.ref } : {}),
+        method: 'dictionary-match',
+        method_version: ATTESTATION_METHODS['dictionary-match'].current,
+        ...(opts.runId ? { run_id: opts.runId } : {}),
+      };
+      const list = [...(entry.attested_by ?? []), attestation];
       doc.set('attested_by', list);
       writeFileSync(file, doc.toString());
     }
@@ -181,7 +189,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
     sources.push({ name: 'doda-v1', dialects: ['ar-ma'], words });
   }
   for (const s of sources) {
-    const r = attest(dataRoot, s, { dryRun });
+    const r = attest(dataRoot, s, { dryRun, ...(arg('run-id') ? { runId: arg('run-id')! } : {}) });
     console.log(`${s.name} (${s.words.length} words → ${s.dialects.join(', ')}): ${r.confirmed.length} of ${r.checked} entries confirmed`);
     for (const c of r.confirmed.slice(0, 15)) console.log(`  ${c.word}  ${c.file.replace(dataRoot + '/', '')}`);
   }

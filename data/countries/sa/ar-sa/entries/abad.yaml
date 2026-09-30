@@ -13,7 +13,7 @@ status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
 attested_by:
-  - name: flores
-    ref: https://github.com/facebookresearch/flores (2 sentence pairs)
   - name: unimorph
     ref: https://github.com/unimorph/afb
+    method: dictionary-match
+    method_version: 1

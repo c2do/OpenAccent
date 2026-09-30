@@ -13,4 +13,12 @@ source: { kind: ai-draft }
 added_by: claude-core-draft
 attested_by:
   - name: tatoeba
-    ref: https://tatoeba.org (118 sentence pairs)
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 118
+    occurrences: 123
+    precision: 0.959
+    lift: 13.3
+    run_id: "36770487152"
+    source_revision: exports of 2026-09-30

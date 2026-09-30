@@ -30,5 +30,15 @@ added_by: wiktionary-import
 attested_by:
   - name: unimorph
     ref: https://github.com/unimorph/arz
+    method: dictionary-match
+    method_version: 1
   - name: tatoeba
-    ref: https://tatoeba.org (3 sentence pairs)
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 3
+    occurrences: 3
+    precision: 1
+    lift: 198
+    run_id: "36770487152"
+    source_revision: exports of 2026-09-30

@@ -1,8 +1,9 @@
 name: Attest from corpora
 
-# Downloads parallel corpora (FLORES-200, Tatoeba) on GitHub's runners and adds them to
-# `attested_by` for entries they confirm: the word appears in a dialect sentence whose English
-# translation carries its meaning, in at least two sentence pairs. Pushes a branch for review.
+# Downloads parallel corpora (FLORES-200, Tatoeba) on GitHub's runners and recomputes their
+# `attested_by` evidence (method parallel-corpus v2: support, precision and lift; see
+# scripts/attest-corpus.ts). Pushes a branch for review, with a report of every entry's numbers
+# in reports/attestation/ for checking a random sample by hand.
 on:
   workflow_dispatch:
 
@@ -24,14 +25,15 @@ jobs:
       - name: Download FLORES-200 (CC BY-SA 4.0)
         run: |
           curl -sSfL --retry 3 https://dl.fbaipublicfiles.com/nllb/flores200_dataset.tar.gz -o flores.tgz
+          echo "FLORES_REV=flores200_dataset.tar.gz sha256:$(sha256sum flores.tgz | cut -c1-12)" >> "$GITHUB_ENV"
           tar xzf flores.tgz
-          ls flores200_dataset/dev | grep -E '^(arz|apc|ajp|acm|ars|ary|aeb|eng)_' | tee -a "$GITHUB_STEP_SUMMARY"
+          ls flores200_dataset/dev | grep -E '^(arz|apc|ajp|acm|ars|ary|aeb|deu|por|hin|eng)_' | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Download Tatoeba (CC BY 2.0 FR)
         run: |
           mkdir -p tatoeba && cd tatoeba
           base=https://downloads.tatoeba.org/exports
-          for code in arz apc ajp afb acm ary arq aeb apd eng; do
+          for code in arz apc ajp afb acm ary arq aeb apd deu por hin eng; do
             if curl -sSfL --retry 3 "$base/per_language/$code/${code}_sentences.tsv.bz2" -o "$code.tsv.bz2"; then
               bunzip2 -f "$code.tsv.bz2" && mv "$code.tsv" "${code}_sentences.tsv"
               echo "- Tatoeba $code: $(wc -l < ${code}_sentences.tsv) sentences" >> "$GITHUB_STEP_SUMMARY"
@@ -40,17 +42,21 @@ jobs:
             fi
           done
           curl -sSfL --retry 3 "$base/links.tar.bz2" -o links.tar.bz2 && tar xjf links.tar.bz2
+          echo "TATOEBA_REV=exports of $(date -u +%F)" >> "$GITHUB_ENV"
 
       - name: Attest
         run: |
-          npx tsx scripts/attest-corpus.ts --flores flores200_dataset --tatoeba tatoeba | sed 's/^/- /' | tee -a "$GITHUB_STEP_SUMMARY"
+          mkdir -p reports/attestation
+          npx tsx scripts/attest-corpus.ts --flores flores200_dataset --tatoeba tatoeba \
+            --run-id "$GITHUB_RUN_ID" --flores-revision "$FLORES_REV" --tatoeba-revision "$TATOEBA_REV" \
+            --report "reports/attestation/corpora-$GITHUB_RUN_ID.tsv" | sed 's/^/- /' | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Validate
         run: npm run validate
 
       - name: Push a branch for review
         run: |
-          if git diff --quiet -- data; then
+          if git diff --quiet -- data && [ ! -s "reports/attestation/corpora-$GITHUB_RUN_ID.tsv" ]; then
             echo "Nothing new confirmed." | tee -a "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
@@ -58,7 +64,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$branch"
-          git add data
+          git add data reports
           git commit -m "data: attest entries from FLORES-200 and Tatoeba (run ${GITHUB_RUN_ID})"
           git push origin "$branch"
           echo "Pushed \`$branch\`." | tee -a "$GITHUB_STEP_SUMMARY"

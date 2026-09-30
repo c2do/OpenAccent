@@ -30,7 +30,13 @@ source:
   license: CC-BY-SA-4.0
 added_by: wiktionary-import
 attested_by:
-  - name: flores
-    ref: https://github.com/facebookresearch/flores (6 sentence pairs)
   - name: tatoeba
-    ref: https://tatoeba.org (56 sentence pairs)
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 48
+    occurrences: 64
+    precision: 0.75
+    lift: 12.5
+    run_id: "36770487152"
+    source_revision: exports of 2026-09-30

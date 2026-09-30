@@ -14,6 +14,22 @@ source: { kind: ai-draft }
 added_by: claude-core-draft
 attested_by:
   - name: flores
-    ref: https://github.com/facebookresearch/flores (10 sentence pairs)
+    ref: https://github.com/facebookresearch/flores
+    method: parallel-corpus
+    method_version: 2
+    support: 10
+    occurrences: 13
+    precision: 0.769
+    lift: 154.5
+    run_id: "36770487152"
+    source_revision: flores200_dataset.tar.gz sha256:b8b0b7678302
   - name: tatoeba
-    ref: https://tatoeba.org (5 sentence pairs)
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 5
+    occurrences: 6
+    precision: 0.833
+    lift: 36.4
+    run_id: "36770487152"
+    source_revision: exports of 2026-09-30

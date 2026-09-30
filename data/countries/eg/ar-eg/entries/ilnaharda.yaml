@@ -27,6 +27,22 @@ source:
 added_by: wiktionary-import
 attested_by:
   - name: flores
-    ref: https://github.com/facebookresearch/flores (21 sentence pairs)
+    ref: https://github.com/facebookresearch/flores
+    method: parallel-corpus
+    method_version: 2
+    support: 21
+    occurrences: 24
+    precision: 0.875
+    lift: 56.7
+    run_id: "36770487152"
+    source_revision: flores200_dataset.tar.gz sha256:b8b0b7678302
   - name: tatoeba
-    ref: https://tatoeba.org (7 sentence pairs)
+    ref: https://tatoeba.org
+    method: parallel-corpus
+    method_version: 2
+    support: 7
+    occurrences: 10
+    precision: 0.7
+    lift: 97
+    run_id: "36770487152"
+    source_revision: exports of 2026-09-30

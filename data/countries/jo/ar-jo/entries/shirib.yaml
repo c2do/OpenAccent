@@ -13,7 +13,17 @@ status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
 attested_by:
-  - name: flores
-    ref: https://github.com/facebookresearch/flores (6 sentence pairs)
   - name: maknuune
     ref: https://github.com/CAMeL-Lab/maknuune_lexicon
+    method: dictionary-match
+    method_version: 1
+  - name: flores
+    ref: https://github.com/facebookresearch/flores
+    method: parallel-corpus
+    method_version: 2
+    support: 6
+    occurrences: 6
+    precision: 1
+    lift: 223.2
+    run_id: "36770487152"
+    source_revision: flores200_dataset.tar.gz sha256:b8b0b7678302

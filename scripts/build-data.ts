@@ -3,6 +3,7 @@ import { dirname, join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { loadRawData } from '../src/core/data-loader.js';
 import type { Bundle } from '../src/core/bundle.js';
+import { independentSourcesOf, sourceGroups } from '../src/core/confidence.js';
 import { ConceptSchema, CountrySchema, DialectSchema, EntrySchema, SampleSchema } from '../src/core/schema.js';
 import { validateData } from './validate-data.js';
 
@@ -34,8 +35,11 @@ export function buildBundle(root: string, opts: { validate?: boolean } = {}): Bu
   const dialects = raw.dialects
     .map((f) => ({ ...DialectSchema.parse(f.data), ...(f.country ? { country: f.country } : {}) }))
     .sort((a, b) => a.id.localeCompare(b.id));
-  const entries = parseAll(raw.entries, (f) => ({ id: `${f.folder}/${f.slug}`, ...EntrySchema.parse(f.data) }))
-    .sort((a, b) => a.id.localeCompare(b.id));
+  const groups = sourceGroups(raw.sources);
+  const entries = parseAll(raw.entries, (f) => {
+    const entry = EntrySchema.parse(f.data);
+    return { id: `${f.folder}/${f.slug}`, ...entry, independent_sources: independentSourcesOf(entry, groups) };
+  }).sort((a, b) => a.id.localeCompare(b.id));
   const samples = parseAll(raw.samples, (f) => ({ id: `${f.folder}/${f.slug}`, dialect: f.folder, ...SampleSchema.parse(f.data) }))
     .sort((a, b) => a.id.localeCompare(b.id));
   const concepts = Object.fromEntries(

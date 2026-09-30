@@ -100,6 +100,50 @@ export const ConceptSchema = z.object({
   category: z.string().min(1),
 });
 
+/**
+ * How an attestation was produced. The version names the algorithm, so every attestation an old,
+ * looser version made can be found, stopped from counting and recomputed (see ATTESTATION_METHODS).
+ *   dictionary-match – another dictionary lists the same word with a shared meaning (scripts/attest.ts)
+ *   parallel-corpus  – dialect sentences with the word translate to English with its meaning (scripts/attest-corpus.ts)
+ */
+export const AttestationMethodSchema = z.enum(['dictionary-match', 'parallel-corpus']);
+
+/** One piece of evidence that another open dataset confirms an entry: an entry in the evidence ledger. */
+export const AttestationSchema = z.object({
+  /** Dataset name as listed in data/sources.yaml. */
+  name: z.string().min(1),
+  ref: z.string().optional(),
+  method: AttestationMethodSchema.optional(),
+  method_version: z.number().int().positive().optional(),
+  /** parallel-corpus: sentence pairs where the word appears and the translation carries its meaning. */
+  support: z.number().int().nonnegative().optional(),
+  /** parallel-corpus: sentence pairs where the word appears at all. */
+  occurrences: z.number().int().nonnegative().optional(),
+  /** parallel-corpus: support / occurrences. */
+  precision: z.number().min(0).max(1).optional(),
+  /** parallel-corpus: P(meaning in translation | word in sentence) / P(meaning in translation). */
+  lift: z.number().nonnegative().optional(),
+  /** The run that produced it (a GitHub Actions run ID for workflow runs). */
+  run_id: z.string().optional(),
+  /** Which version of the dataset was read (a checksum or an export date). */
+  source_revision: z.string().optional(),
+});
+export type Attestation = z.infer<typeof AttestationSchema>;
+
+/** A dataset listed as allowed in data/sources.yaml. */
+export const AllowedSourceSchema = z.object({
+  title: z.string().min(1),
+  license: z.string().min(1),
+  url: z.string().url(),
+  attribution: z.string().optional(),
+  note: z.string().optional(),
+  /**
+   * Datasets derived from each other (or from a common origin) share a group, and count as one
+   * source when they agree: two copies of Wiktionary are not two witnesses.
+   */
+  independence_group: z.string().regex(/^[a-z0-9][a-z0-9-]*$/),
+});
+
 export const EntrySchema = z.object({
   word: z.string().min(1),
   dialect: DialectIdSchema,
@@ -126,7 +170,7 @@ export const EntrySchema = z.object({
   verified_by: z.array(z.string().min(1)).default([]),
   source: SourceSchema,
   /** Other open datasets that list the same word with the same meaning: more sources, more confidence. */
-  attested_by: z.array(z.object({ name: z.string().min(1), ref: z.string().optional() })).default([]),
+  attested_by: z.array(AttestationSchema).default([]),
   added_by: z.string().optional(),
 });
 

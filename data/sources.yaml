@@ -1,74 +1,91 @@
 # Datasets that entries may (or may not) be derived from.
 # Entries with `source.kind: dataset` must name an `allowed` dataset below.
 # The validator rejects blocked or unlisted datasets.
+#
+# independence_group: datasets derived from each other, or made by one annotation project, share a
+# group and count as ONE source when they agree (confidence "high" needs two independent groups).
+# Birzeit's Curras, Lisan, Nabra and Baladi share annotation guidelines and annotators, so they are
+# one group. Give a new dataset its own group only if it was built without copying another one.
 
 allowed:
   maknuune:
     title: Maknuune — Palestinian Arabic lexicon (CAMeL Lab, NYU Abu Dhabi)
     license: CC-BY-SA-4.0
+    independence_group: maknuune
     url: https://sites.google.com/nyu.edu/palestine-lexicon
     attribution: "Dibas, Khairallah, Habash et al. (2022), Maknuune: A Large Open Palestinian Arabic Lexicon"
     note: License confirmed in the dictionary's own source (maknuune_dict/dictionary.tex, CC BY-SA 4.0). Parsed from github.com/CAMeL-Lab/maknuune_lexicon.
   curras:
     title: Curras v2 — Palestinian Arabic annotated corpus (Birzeit University)
     license: CC-BY-4.0
+    independence_group: birzeit-currasat
     url: https://sina.birzeit.edu/currasat/
     attribution: "Jarrar et al. (2017, 2023), Curras: an annotated corpus for the Palestinian Arabic dialect"
     note: License stated on the official download page (checked 2026-09-30 with the probe-source workflow). The Masader catalog lists an older version as custom; use version 2. Download needs a Google Form.
   lisan:
     title: Lisan — Iraqi, Sudanese, Libyan and Yemeni annotated corpora (Birzeit University)
     license: CC-BY-4.0
+    independence_group: birzeit-currasat
     url: https://sina.birzeit.edu/currasat/
     attribution: "Jarrar et al. (2023), Lisan: Yemeni, Iraqi, Libyan, and Sudanese Arabic Dialect Corpora with Morphological Annotations"
     note: Every token has a dialect lemma, POS and English gloss, annotated by native speakers. License on the official page (checked 2026-09-30). Download needs a Google Form.
   nabra:
     title: Nabra — Syrian Arabic annotated corpus (Birzeit University)
     license: CC-BY-4.0
+    independence_group: birzeit-currasat
     url: https://sina.birzeit.edu/currasat/
     attribution: "Nayouf, Hammouda, Jarrar et al. (2023), Nabra: Syrian Arabic Dialects with Morphological Annotations"
     note: License on the official page (checked 2026-09-30). Download needs a Google Form.
   baladi:
     title: Baladi — Lebanese Arabic annotated corpus (Birzeit University)
     license: CC-BY-4.0
+    independence_group: birzeit-currasat
     url: https://sina.birzeit.edu/currasat/
     attribution: "Haff, Jarrar et al. (2022), Curras + Baladi: Towards a Levantine Corpus"
     note: License on the official page (checked 2026-09-30). Download needs a Google Form.
   flores:
     title: FLORES-200 — professionally translated sentences (Meta AI)
     license: CC-BY-SA-4.0
+    independence_group: flores
     url: https://github.com/facebookresearch/flores
     attribution: "NLLB Team (2022), No Language Left Behind; FLORES-200 evaluation benchmark"
     note: About 2,000 sentences per language, parallel with English, for Egyptian, North and South Levantine, Iraqi, Najdi, Moroccan and Tunisian. Used to confirm entries (attested_by), never to create them.
   unimorph:
     title: UniMorph Gulf (afb) and Egyptian (arz) lemma glosses (CAMeL Lab)
     license: CC-BY-SA-3.0
+    independence_group: unimorph-camel
     url: https://github.com/unimorph
     attribution: "UniMorph project; Khalifa et al., CAMeL Lab. Glosses from github.com/unimorph/afb and github.com/unimorph/arz"
     note: Built from annotated corpora that also contain MSA, and glosses are sometimes rough, so it is used only to confirm words another source already lists (attested_by), never on its own.
   doda-v1:
     title: Darija Open Dataset (DODa), version 1 (branch doda_v1)
     license: MIT
+    independence_group: doda
     url: https://github.com/darija-open-dataset/dataset/tree/doda_v1
     attribution: DODa contributors (Aissam Outchakoucht et al.)
     note: Only the doda_v1 branch is MIT; later versions are CC BY-NC 4.0 and must not be used. Latin-script (Arabizi) words, used to confirm Moroccan entries.
   wiktionary:
     title: Wiktionary (English edition), machine-readable via wiktextract / kaikki.org
     license: CC-BY-SA-4.0
+    independence_group: wiktionary
     url: https://en.wiktionary.org
     attribution: Wiktionary contributors; extracted with wiktextract (Tatu Ylonen), https://kaikki.org
   frequencywords:
     title: FrequencyWords (OpenSubtitles 2018 word frequencies), used only to rank words
     license: CC-BY-SA-4.0
+    independence_group: opensubtitles
     url: https://github.com/hermitdave/FrequencyWords
     attribution: Hermit Dave
   tatoeba:
     title: Tatoeba example sentences
     license: CC-BY-2.0-FR
+    independence_group: tatoeba
     url: https://tatoeba.org
     attribution: Tatoeba contributors
   glottolog:
     title: Glottolog (dialect metadata only)
     license: CC-BY-4.0
+    independence_group: glottolog
     url: https://glottolog.org
     attribution: Glottolog, Max Planck Institute for Evolutionary Anthropology
 

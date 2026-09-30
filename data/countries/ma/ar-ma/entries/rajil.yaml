@@ -31,5 +31,15 @@ added_by: wiktionary-import
 attested_by:
   - name: doda-v1
     ref: https://github.com/darija-open-dataset/dataset/tree/doda_v1
+    method: dictionary-match
+    method_version: 1
   - name: flores
-    ref: https://github.com/facebookresearch/flores (4 sentence pairs)
+    ref: https://github.com/facebookresearch/flores
+    method: parallel-corpus
+    method_version: 2
+    support: 4
+    occurrences: 7
+    precision: 0.571
+    lift: 104.4
+    run_id: "36770487152"
+    source_revision: flores200_dataset.tar.gz sha256:b8b0b7678302

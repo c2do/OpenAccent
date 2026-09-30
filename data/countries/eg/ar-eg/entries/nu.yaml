@@ -25,5 +25,15 @@ added_by: wiktionary-import
 attested_by:
   - name: unimorph
     ref: https://github.com/unimorph/arz
+    method: dictionary-match
+    method_version: 1
   - name: flores
-    ref: https://github.com/facebookresearch/flores (12 sentence pairs)
+    ref: https://github.com/facebookresearch/flores
+    method: parallel-corpus
+    method_version: 2
+    support: 12
+    occurrences: 19
+    precision: 0.632
+    lift: 45.3
+    run_id: "36770487152"
+    source_revision: flores200_dataset.tar.gz sha256:b8b0b7678302
