@@ -1,8 +1,8 @@
 word: "معصب"
 dialect: ar-jo
 type: word
-spellings: ["معصّب"]
-romanized: ["m3asseb", "m3assib"]
+spellings: [ "معصّب" ]
+romanized: [ "m3asseb", "m3assib" ]
 part_of_speech: adj
 meanings:
   - en: "angry"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

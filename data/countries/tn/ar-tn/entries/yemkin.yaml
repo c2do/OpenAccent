@@ -2,7 +2,7 @@ word: "يمكن"
 dialect: ar-tn
 type: word
 spellings: []
-romanized: ["yemkin", "ymkn", "yimkin"]
+romanized: [ "yemkin", "ymkn", "yimkin" ]
 part_of_speech: adv
 meanings:
   - en: "maybe"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (3 sentence pairs)

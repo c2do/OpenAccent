@@ -1,8 +1,8 @@
 word: "تيليفون"
 dialect: ar-ma
 type: word
-spellings: ["تلفون"]
-romanized: ["tilifun", "telephone", "tilifon"]
+spellings: [ "تلفون" ]
+romanized: [ "tilifun", "telephone", "tilifon" ]
 part_of_speech: noun
 meanings:
   - en: "phone"
@@ -13,3 +13,8 @@ notes: "From French téléphone."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (2 sentence pairs)
+  - name: doda-v1
+    ref: https://github.com/darija-open-dataset/dataset/tree/doda_v1

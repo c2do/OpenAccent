@@ -1,8 +1,8 @@
 word: "مبعد"
 dialect: ar-tn
 type: word
-spellings: ["من بعد"]
-romanized: ["mba3d", "mbaad", "mba3ed"]
+spellings: [ "من بعد" ]
+romanized: [ "mba3d", "mbaad", "mba3ed" ]
 part_of_speech: adv
 meanings:
   - en: "later, afterwards"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (3 sentence pairs)

@@ -14,3 +14,5 @@ added_by: claude-core-draft
 attested_by:
   - name: tatoeba
     ref: https://tatoeba.org (2 sentence pairs)
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

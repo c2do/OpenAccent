@@ -2,7 +2,7 @@ word: "خاص"
 dialect: ar-ma
 type: word
 spellings: []
-romanized: ["khass", "khas", "5as"]
+romanized: [ "khass", "khas", "5as" ]
 part_of_speech: verb
 meanings:
   - en: "to need, must (khassni = I need)"
@@ -13,3 +13,8 @@ notes: "Takes object suffixes: خاصني، خاصك."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (12 sentence pairs)
+  - name: doda-v1
+    ref: https://github.com/darija-open-dataset/dataset/tree/doda_v1

@@ -2,7 +2,7 @@ word: "قدر"
 dialect: ar-ma
 type: word
 spellings: []
-romanized: ["qder", "9der", "qdar"]
+romanized: [ "qder", "9der", "qdar" ]
 part_of_speech: verb
 meanings:
   - en: "can, to be able to"
@@ -12,3 +12,8 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (3 sentence pairs)
+  - name: doda-v1
+    ref: https://github.com/darija-open-dataset/dataset/tree/doda_v1

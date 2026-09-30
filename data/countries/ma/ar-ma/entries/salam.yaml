@@ -1,8 +1,8 @@
 word: "سلام"
 dialect: ar-ma
 type: phrase
-spellings: ["السلام"]
-romanized: ["salam", "slam"]
+spellings: [ "السلام" ]
+romanized: [ "salam", "slam" ]
 part_of_speech: intj
 meanings:
   - en: "hello, hi"
@@ -13,3 +13,6 @@ notes: "Short for السلام عليكم."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: doda-v1
+    ref: https://github.com/darija-open-dataset/dataset/tree/doda_v1

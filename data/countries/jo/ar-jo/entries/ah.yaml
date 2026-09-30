@@ -1,8 +1,8 @@
 word: "آه"
 dialect: ar-jo
 type: word
-spellings: ["اه", "إه"]
-romanized: ["ah", "aah"]
+spellings: [ "اه", "إه" ]
+romanized: [ "ah", "aah" ]
 part_of_speech: intj
 meanings:
   - en: "yes"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

@@ -1,8 +1,8 @@
 word: "أخذ"
 dialect: ar-jo
 type: word
-spellings: ["اخذ", "اخد"]
-romanized: ["akhad", "akhath"]
+spellings: [ "اخذ", "اخد" ]
+romanized: [ "akhad", "akhath" ]
 part_of_speech: verb
 meanings:
   - en: "to take"
@@ -13,3 +13,6 @@ notes: "Present: ياخذ."
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

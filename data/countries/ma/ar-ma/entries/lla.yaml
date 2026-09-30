@@ -2,7 +2,7 @@ word: "لا"
 dialect: ar-ma
 type: word
 spellings: []
-romanized: ["la", "lla"]
+romanized: [ "la", "lla" ]
 part_of_speech: intj
 meanings:
   - en: "no"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: doda-v1
+    ref: https://github.com/darija-open-dataset/dataset/tree/doda_v1

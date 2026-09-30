@@ -2,7 +2,7 @@ word: "خبز"
 dialect: ar-tn
 type: word
 spellings: []
-romanized: ["khobz", "5obz", "khubz"]
+romanized: [ "khobz", "5obz", "khubz" ]
 part_of_speech: noun
 meanings:
   - en: "bread"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (2 sentence pairs)

@@ -1,8 +1,8 @@
 word: "إمتى"
 dialect: ar-jo
 type: word
-spellings: ["امتى", "متى"]
-romanized: ["imta", "emta"]
+spellings: [ "امتى", "متى" ]
+romanized: [ "imta", "emta" ]
 part_of_speech: adv
 meanings:
   - en: "when"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

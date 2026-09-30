@@ -2,7 +2,7 @@ word: "بابا"
 dialect: ar-ma
 type: word
 spellings: []
-romanized: ["baba"]
+romanized: [ "baba" ]
 part_of_speech: noun
 meanings:
   - en: "dad"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: doda-v1
+    ref: https://github.com/darija-open-dataset/dataset/tree/doda_v1

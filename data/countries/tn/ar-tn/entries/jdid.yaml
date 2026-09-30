@@ -2,7 +2,7 @@ word: "جديد"
 dialect: ar-tn
 type: word
 spellings: []
-romanized: ["jdid", "jdida"]
+romanized: [ "jdid", "jdida" ]
 part_of_speech: adj
 meanings:
   - en: "new"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (14 sentence pairs)

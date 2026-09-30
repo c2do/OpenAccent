@@ -1,8 +1,8 @@
 word: "من بعد"
 dialect: ar-ma
 type: phrase
-spellings: ["منبعد"]
-romanized: ["men b3d", "mn b3d", "men baad"]
+spellings: [ "منبعد" ]
+romanized: [ "men b3d", "mn b3d", "men baad" ]
 part_of_speech: adv
 meanings:
   - en: "later, afterwards"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: doda-v1
+    ref: https://github.com/darija-open-dataset/dataset/tree/doda_v1

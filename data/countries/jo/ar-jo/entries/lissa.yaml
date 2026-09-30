@@ -15,3 +15,5 @@ added_by: claude-core-draft
 attested_by:
   - name: flores
     ref: https://github.com/facebookresearch/flores (20 sentence pairs)
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

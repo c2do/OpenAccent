@@ -1,8 +1,8 @@
 word: "شكراً"
 dialect: ar-jo
 type: word
-spellings: ["شكرا"]
-romanized: ["shukran"]
+spellings: [ "شكرا" ]
+romanized: [ "shukran" ]
 part_of_speech: intj
 meanings:
   - en: "thank you"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon

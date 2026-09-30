@@ -1,8 +1,8 @@
 word: "بكرة"
 dialect: ar-jo
 type: word
-spellings: ["بكره"]
-romanized: ["bukra", "bokra"]
+spellings: [ "بكره" ]
+romanized: [ "bukra", "bokra" ]
 part_of_speech: adv
 meanings:
   - en: "tomorrow"
@@ -12,3 +12,6 @@ familiarity: common
 status: draft
 source: { kind: ai-draft }
 added_by: claude-core-draft
+attested_by:
+  - name: maknuune
+    ref: https://github.com/CAMeL-Lab/maknuune_lexicon
