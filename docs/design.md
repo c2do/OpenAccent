@@ -268,7 +268,7 @@ Memory is stored as local, human-readable JSON:
 
 - `profile.dialects`: other dialects the user speaks. `check_reply` never flags their words, and the briefing tells the model to follow the user's lead on when to use them.
 - `voice`: what OpenAccent learns from the user's own messages. `check_reply` takes the user's last message as `user_message`, so learning costs no extra tool call. Only counts are kept, never the message:
-  - which dialects their words come from (a word counts only when the dictionary files it under one dialect alone);
+  - which dialects their words come from. Only **diagnostic** words count: a word a reviewer marked `distinctive`, or one for a core concept that at least two sister dialects of the same language say with other words (`Dictionary.isDiagnostic`). Being listed under one dialect alone isn't enough, because with incomplete data that often just means nobody has added the word elsewhere yet. Such words still count as the user's own words, which are never flagged;
   - the dialect words they use most (up to 200);
   - how long their messages are;
   - how often they write in Latin letters (Arabizi), use emoji, or mix scripts.

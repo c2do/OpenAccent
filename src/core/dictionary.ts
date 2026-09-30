@@ -1,6 +1,6 @@
 import type { Bundle, BundledEntry, BundledSample } from './bundle.js';
 import { CONFIDENCE_RANK, confidenceOf } from './confidence.js';
-import { normalize, normalizerFor } from './normalize.js';
+import { languageOf, normalize, normalizerFor } from './normalize.js';
 import { arabiziCandidates } from './romanize.js';
 import type { DialectSummary, MatchKindSchema } from './results.js';
 import type { Dialect } from './schema.js';
@@ -13,6 +13,8 @@ export type MatchKind = z.infer<typeof MatchKindSchema>;
 const MATCH_RANK: Record<MatchKind, number> = { exact: 0, normalized: 1, fuzzy: 2, romanized: 3, sound: 4, gloss: 5 };
 const STATUS_RANK = { verified: 0, draft: 1, disputed: 2 } as const;
 const FAMILIARITY_RANK = { common: 0, regional: 1, rare: 2, dated: 3 } as const;
+/** Other dialects that must say a core concept differently before a word for it counts as diagnostic. */
+export const MIN_CONTRAST = 2;
 
 export interface Match {
   entry: BundledEntry;
@@ -111,6 +113,7 @@ export class Dictionary {
   private readonly byId = new Map<string, IndexedEntry>();
   private readonly byDialect: Index = new Map();
   private readonly byConcept: Index = new Map();
+  private readonly diagnostic = new Map<string, boolean>();
   /** Entries that list this id in `related` (the reverse direction of `related`). */
   private readonly relatedFrom: Index = new Map();
   /** Raw word/spelling → entries. */
@@ -197,6 +200,35 @@ export class Dictionary {
 
   getEntry(id: string): BundledEntry | undefined {
     return this.byId.get(id)?.entry;
+  }
+
+  /**
+   * Whether a word gives its dialect away, so that a user writing it says something about how they
+   * speak. Being listed under one dialect only is not enough: with incomplete data that often means
+   * nobody has added the word to the others yet. A word is diagnostic when a reviewer marked it
+   * `distinctive`, or when it expresses a core concept that at least MIN_CONTRAST other dialects of
+   * the same language (not its ancestors or descendants) say with other words, and none with this one.
+   */
+  isDiagnostic(entry: BundledEntry): boolean {
+    const cached = this.diagnostic.get(entry.id);
+    if (cached !== undefined) return cached;
+    let result = entry.distinctive === true;
+    const ix = this.byId.get(entry.id);
+    if (!result && entry.concept && ix) {
+      const lineage = new Set(this.branch(entry.dialect));
+      const others = new Map<string, boolean>(); // dialect → says the concept with this same word
+      for (const o of this.byConcept.get(entry.concept) ?? []) {
+        const d = o.entry.dialect;
+        // Only sister dialects of the same language: Turkish "şimdi" says nothing about Arabic "هسّع".
+        if (languageOf(d) !== languageOf(entry.dialect) || lineage.has(d) || this.branch(d).includes(entry.dialect)) continue;
+        const same = [...o.wordKeys].some((k) => ix.wordKeys.has(k));
+        others.set(d, (others.get(d) ?? false) || same);
+      }
+      const contrast = [...others.values()];
+      result = contrast.length >= MIN_CONTRAST && contrast.every((same) => !same);
+    }
+    this.diagnostic.set(entry.id, result);
+    return result;
   }
 
   /** Entries in a dialect branch that mean the same as `entry` (explicit `related` links, a shared concept, or a shared gloss). */
