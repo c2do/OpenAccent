@@ -30,3 +30,5 @@ added_by: wiktionary-import
 attested_by:
   - name: unimorph
     ref: https://github.com/unimorph/afb
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (2 sentence pairs)

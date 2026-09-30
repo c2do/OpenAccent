@@ -32,3 +32,5 @@ added_by: wiktionary-import
 attested_by:
   - name: unimorph
     ref: https://github.com/unimorph/arz
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (8 sentence pairs)

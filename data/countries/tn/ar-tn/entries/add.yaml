@@ -31,3 +31,6 @@ source:
   ref: https://en.wiktionary.org/wiki/%D8%AD%D8%AF#Tunisian_Arabic
   license: CC-BY-SA-4.0
 added_by: wiktionary-import
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (3 sentence pairs)

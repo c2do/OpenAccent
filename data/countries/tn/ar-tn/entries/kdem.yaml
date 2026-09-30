@@ -28,3 +28,6 @@ source:
   ref: https://en.wiktionary.org/wiki/%D8%AE%D8%AF%D9%85#Tunisian_Arabic
   license: CC-BY-SA-4.0
 added_by: wiktionary-import
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (4 sentence pairs)
