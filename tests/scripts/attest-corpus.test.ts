@@ -161,4 +161,17 @@ describe('attestation v2: evidence, not co-occurrence', () => {
     expect(rows.map((r) => `${r.word}:${r.decision}`).sort()).toEqual(['بيت:kept', 'ولد:removed']);
     expect(reportTsv(rows).split('\n')[0]).toMatch(/^corpus\tdialect\tword\tdecision\tsupport/);
   });
+
+  it('leaves an attestation alone when a rerun finds the same evidence', () => {
+    const data = mkdtempSync(join(tmpdir(), 'oa-v2-'));
+    const dir = join(data, 'countries/iq/ar-iq/entries');
+    mkdirSync(dir, { recursive: true });
+    const base = { dialect: 'ar-iq', type: 'word', status: 'draft', source: { kind: 'ai-draft' } };
+    writeFileSync(join(dir, 'bait.yaml'), stringify({ ...base, word: 'بيت', meanings: [{ en: 'house' }] }));
+    attestFromCorpus(data, iraqi(), { runId: '1' });
+    const first = readFileSync(join(dir, 'bait.yaml'), 'utf8');
+    expect(first).toContain('run_id: "1"');
+    attestFromCorpus(data, iraqi(), { runId: '2' });
+    expect(readFileSync(join(dir, 'bait.yaml'), 'utf8')).toBe(first);
+  });
 });

@@ -310,15 +310,23 @@ export function attestFromCorpus(
       if (decision === 'none' || opts.dryRun) continue;
       const after: Attestation[] = before.filter((a) => a.name !== corpus.name);
       if (ok) {
-        after.push({
-          name: corpus.name,
-          ref: corpus.ref,
+        const numbers = {
           method: METHOD,
           method_version: METHOD_VERSION,
           support: evidence.support,
           occurrences: evidence.occurrences,
           precision: round(evidence.precision, 3),
           lift: round(evidence.lift, 1),
+        };
+        // Same evidence as before: keep the old record, so it still names the run that found it
+        // (and reruns don't rewrite hundreds of files).
+        const old = before.find((a) => a.name === corpus.name);
+        const same = old && (Object.keys(numbers) as (keyof typeof numbers)[]).every((k) => old[k] === numbers[k]);
+        if (same) continue;
+        after.push({
+          name: corpus.name,
+          ref: corpus.ref,
+          ...numbers,
           ...(opts.runId ? { run_id: opts.runId } : {}),
           ...(corpus.revision ? { source_revision: corpus.revision } : {}),
         });
