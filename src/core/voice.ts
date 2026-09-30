@@ -38,8 +38,9 @@ export function observeMessage(dict: Dictionary, memory: Memory, text: string, n
   if (EMOJI.test(text)) voice.emoji += 1;
   if (new Set(scripts).size > 1) voice.mixed += 1;
 
-  // A word counts for a dialect only when the dictionary files it under that one dialect alone:
-  // words every dialect shares say nothing about how this user speaks.
+  // A word the dictionary files under one dialect alone is the user's own word (never flagged once
+  // they use it). It counts toward their dialect mix only if it is diagnostic: listed under one
+  // dialect may just mean nobody added it to the others yet (see Dictionary.isDiagnostic).
   const norm = primary ? dict.normalizer(primary) : dict.normalizer('ar');
   const language = primary ? languageOf(primary) : 'ar';
   for (const token of tokens) {
@@ -51,7 +52,7 @@ export function observeMessage(dict: Dictionary, memory: Memory, text: string, n
       const dialects = new Set(entries.map((e) => e.dialect));
       if (dialects.size === 1) {
         const dialect = [...dialects][0]!;
-        voice.dialects[dialect] = (voice.dialects[dialect] ?? 0) + 1;
+        if (entries.some((e) => dict.isDiagnostic(e))) voice.dialects[dialect] = (voice.dialects[dialect] ?? 0) + 1;
         const word = norm(form);
         const own = voice.own.find((o) => o.word === word && o.dialect === dialect);
         if (own) own.count += 1;

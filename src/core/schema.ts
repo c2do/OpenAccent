@@ -117,6 +117,11 @@ export const EntrySchema = z.object({
   regions: z.array(z.string()).default([]),
   related: z.array(EntryIdSchema).default([]),
   notes: z.string().default(''),
+  /**
+   * A reviewer marked this word as one that gives the dialect away, even without a core concept to
+   * compare (see Dictionary.isDiagnostic).
+   */
+  distinctive: z.boolean().optional(),
   status: z.enum(['draft', 'verified', 'disputed']),
   verified_by: z.array(z.string().min(1)).default([]),
   source: SourceSchema,

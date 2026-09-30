@@ -9,7 +9,10 @@ import { CURRENT_MEMORY_VERSION, FileMemoryStore, MemorySchema, type Memory } fr
 import { describeVoice, observeMessage } from '../../src/core/voice.js';
 import { fixtureBundle } from '../fixtures/bundle.js';
 
-const dict = new Dictionary(fixtureBundle());
+// دلوقتي expresses "now", which two other dialects in the fixture say differently (هسّع, هلّأ): it is diagnostic.
+const bundle = fixtureBundle();
+bundle.entries = bundle.entries.map((e) => (e.id === 'ar-eg/dilwaqti' ? { ...e, concept: 'now' } : e));
+const dict = new Dictionary(bundle);
 const fallahi = (extra: Record<string, unknown> = {}) =>
   MemorySchema.parse({ version: CURRENT_MEMORY_VERSION, profile: { dialect: 'ar-ps-fallahi' }, ...extra });
 const learn = (memory: Memory, ...messages: string[]) => {
@@ -36,6 +39,41 @@ describe('observeMessage', () => {
     const m = learn(before, 'رسالة خاصة جداً فيها أسرار');
     expect(JSON.stringify(m.voice)).not.toContain('أسرار');
     expect(before.voice.messages).toBe(0);
+  });
+});
+
+describe('diagnostic words, not scarcity', () => {
+  it('counts a word toward the dialect mix only when other dialects say its concept differently', () => {
+    const egyptian = dict.getEntry('ar-eg/dilwaqti')!;
+    expect(dict.isDiagnostic(egyptian)).toBe(true);
+    // قنّ is filed under Fallahi alone, but no other dialect has a word for it yet: that proves nothing.
+    expect(dict.isDiagnostic(dict.getEntry('ar-ps-fallahi/qinn')!)).toBe(false);
+    const m = learn(fallahi(), 'قنّ فاضي');
+    expect(m.voice.dialects).toEqual({});
+    expect(m.voice.own).toEqual([{ word: 'قن', dialect: 'ar-ps-fallahi', count: 1 }]); // still the user's own word
+  });
+
+  it('needs at least two contrasting dialects, and none using the same word', () => {
+    const b = fixtureBundle(); // here دلوقتي has no concept, so "now" is only contrasted by Fallahi and Madani for each other
+    const d = new Dictionary(b);
+    expect(d.isDiagnostic(d.getEntry('ar-ps-madani/halla')!)).toBe(false); // only Fallahi to contrast with
+    const shared = fixtureBundle();
+    shared.entries = shared.entries.map((e) => (e.id === 'ar-eg/dilwaqti' ? { ...e, word: 'هلّأ', concept: 'now' } : e));
+    const s = new Dictionary(shared);
+    expect(s.isDiagnostic(s.getEntry('ar-ps-madani/halla')!)).toBe(false); // Egyptian says it with the same word
+  });
+
+  it('compares only dialects of the same language', () => {
+    const b = fixtureBundle();
+    b.entries = b.entries.map((e) => (e.id === 'fr-fr/amour' ? { ...e, word: 'maintenant', concept: 'now' } : e));
+    const d = new Dictionary(b);
+    expect(d.isDiagnostic(d.getEntry('fr-fr/amour')!)).toBe(false); // Arabic words for "now" say nothing about French
+  });
+
+  it('trusts a word a reviewer marked distinctive', () => {
+    const b = fixtureBundle();
+    b.entries = b.entries.map((e) => (e.id === 'ar-ps-fallahi/qinn' ? { ...e, distinctive: true } : e));
+    expect(new Dictionary(b).isDiagnostic(b.entries.find((e) => e.id === 'ar-ps-fallahi/qinn')!)).toBe(true);
   });
 });
 

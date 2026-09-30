@@ -60,7 +60,7 @@ export const MemoryV2Schema = z.object({
       emoji: count.default(0),
       /** Messages that switch scripts (Arabic with English words, for example). */
       mixed: count.default(0),
-      /** Dialect ID → words the user wrote that the dictionary files only under that dialect. */
+      /** Dialect ID → diagnostic words of that dialect the user wrote (see Dictionary.isDiagnostic). */
       dialects: z.record(z.string(), count).default({}),
       /** Dialect words the user writes, most frequent first. */
       own: z.array(z.object({ word: z.string().min(1), dialect: z.string(), count })).default([]),
