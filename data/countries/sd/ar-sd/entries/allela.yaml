@@ -1,0 +1,14 @@
+word: الليلة
+dialect: ar-sd
+type: word
+romanized: ["allela", "allaila"]
+part_of_speech: adv
+meanings:
+  - en: "today"
+    ar: "اليوم"
+concept: today
+familiarity: common
+notes: "In Sudanese الليلة means today, not only tonight."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

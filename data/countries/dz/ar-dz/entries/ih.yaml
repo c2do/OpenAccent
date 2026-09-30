@@ -1,0 +1,14 @@
+word: إيه
+dialect: ar-dz
+type: word
+spellings: ["ايه"]
+romanized: ["ih", "iih"]
+part_of_speech: interj
+meanings:
+  - en: "yes"
+    ar: "نعم"
+concept: yes
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,15 @@
+word: "آسف"
+dialect: ar-iq
+type: word
+spellings: ["اسف"]
+romanized: ["asif", "aasif"]
+part_of_speech: intj
+meanings:
+  - en: "sorry"
+    ar: "آسف"
+concept: sorry
+familiarity: common
+notes: "Feminine: آسفة."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: "ولد"
+dialect: ar-jo
+type: word
+romanized: ["walad"]
+part_of_speech: noun
+meanings:
+  - en: "child, boy"
+    ar: "طفل"
+concept: child
+familiarity: common
+notes: "Plural: ولاد (kids)."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

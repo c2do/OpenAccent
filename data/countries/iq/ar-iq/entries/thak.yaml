@@ -1,0 +1,14 @@
+word: "ذاك"
+dialect: ar-iq
+type: word
+romanized: ["thak", "dhak"]
+part_of_speech: pron
+meanings:
+  - en: "that"
+    ar: "ذلك"
+concept: that
+familiarity: common
+notes: "Feminine: ذيچ / ذيك (thich)."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

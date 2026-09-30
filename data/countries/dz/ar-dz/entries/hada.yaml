@@ -1,0 +1,15 @@
+word: هادا
+dialect: ar-dz
+type: word
+spellings: ["هذا"]
+romanized: ["hada"]
+part_of_speech: pron
+meanings:
+  - en: "this (m.)"
+    ar: "هذا"
+concept: this
+familiarity: common
+notes: "Feminine هادي."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

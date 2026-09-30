@@ -1,0 +1,15 @@
+word: "مرة"
+dialect: ar-jo
+type: word
+spellings: ["مره"]
+romanized: ["mara", "mareh"]
+part_of_speech: noun
+meanings:
+  - en: "woman"
+    ar: "امرأة"
+concept: woman
+familiarity: common
+notes: "Also 'wife' (مرته = his wife)."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,13 @@
+word: "بيبي"
+dialect: ar-iq
+type: word
+romanized: ["beebee", "bibi"]
+part_of_speech: noun
+meanings:
+  - en: "grandma"
+    ar: "جدتي"
+concept: grandma
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

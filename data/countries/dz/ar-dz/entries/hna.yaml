@@ -1,0 +1,13 @@
+word: هنا
+dialect: ar-dz
+type: word
+romanized: ["hna"]
+part_of_speech: adv
+meanings:
+  - en: "here"
+    ar: "هنا"
+concept: here
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

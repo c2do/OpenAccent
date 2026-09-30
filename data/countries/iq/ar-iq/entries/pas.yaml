@@ -1,0 +1,14 @@
+word: "باص"
+dialect: ar-iq
+type: word
+romanized: ["pas", "bas"]
+pronunciation: { simple: "paas" }
+part_of_speech: noun
+meanings:
+  - en: "bus"
+    ar: "حافلة"
+concept: bus
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

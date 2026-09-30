@@ -1,0 +1,14 @@
+word: "شاف"
+dialect: ar-jo
+type: word
+romanized: ["shaf", "ashouf"]
+part_of_speech: verb
+meanings:
+  - en: "to see, to look"
+    ar: "يرى"
+concept: see
+familiarity: common
+notes: "Present: يشوف."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

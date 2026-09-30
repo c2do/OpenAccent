@@ -1,0 +1,13 @@
+word: "شكو ماكو"
+dialect: ar-iq
+type: expression
+romanized: ["shaku maku", "shako mako"]
+part_of_speech: phrase
+meanings:
+  - en: "what's up?"
+    ar: "ما الأخبار؟"
+concept: whats_up
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,13 @@
+word: علاش
+dialect: ar-dz
+type: word
+romanized: ["3lach", "3lech"]
+part_of_speech: adv
+meanings:
+  - en: "why"
+    ar: "لماذا"
+concept: why
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

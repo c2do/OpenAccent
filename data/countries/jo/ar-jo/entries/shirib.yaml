@@ -1,0 +1,14 @@
+word: "شرب"
+dialect: ar-jo
+type: word
+romanized: ["shirib", "ashrab"]
+part_of_speech: verb
+meanings:
+  - en: "to drink"
+    ar: "يشرب"
+concept: drink
+familiarity: common
+notes: "Present: يشرب."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,13 @@
+word: قريب
+dialect: ar-dz
+type: word
+romanized: ["9rib", "qrib"]
+part_of_speech: adj
+meanings:
+  - en: "near"
+    ar: "قريب"
+concept: near
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

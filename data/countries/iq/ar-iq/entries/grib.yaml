@@ -1,0 +1,14 @@
+word: "قريب"
+dialect: ar-iq
+type: word
+romanized: ["greeb", "gareeb"]
+pronunciation: { simple: "greeb" }
+part_of_speech: adj
+meanings:
+  - en: "near"
+    ar: "قريب"
+concept: near
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

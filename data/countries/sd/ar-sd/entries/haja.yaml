@@ -1,0 +1,13 @@
+word: حاجة
+dialect: ar-sd
+type: word
+romanized: ["haja", "7aja"]
+part_of_speech: noun
+meanings:
+  - en: "something, thing"
+    ar: "شيء"
+concept: something
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

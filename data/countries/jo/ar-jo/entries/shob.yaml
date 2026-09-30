@@ -1,0 +1,14 @@
+word: "شوب"
+dialect: ar-jo
+type: word
+romanized: ["shob", "shoub"]
+part_of_speech: noun
+meanings:
+  - en: "hot (weather), heat"
+    ar: "حار"
+concept: hot
+familiarity: common
+notes: "الدنيا شوب = it's hot."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

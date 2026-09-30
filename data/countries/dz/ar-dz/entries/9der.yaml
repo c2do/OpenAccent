@@ -1,0 +1,13 @@
+word: قدر
+dialect: ar-dz
+type: word
+romanized: ["9der", "qder"]
+part_of_speech: verb
+meanings:
+  - en: "can, be able"
+    ar: "يستطيع"
+concept: can
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

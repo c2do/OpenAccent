@@ -1,0 +1,13 @@
+word: "مع السلامة"
+dialect: ar-iq
+type: expression
+romanized: ["ma3a salama", "m3a salama"]
+part_of_speech: intj
+meanings:
+  - en: "goodbye"
+    ar: "مع السلامة"
+concept: bye
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

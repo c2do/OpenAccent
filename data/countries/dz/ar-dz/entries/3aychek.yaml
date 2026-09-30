@@ -1,0 +1,13 @@
+word: عيشك
+dialect: ar-dz
+type: word
+romanized: ["3aychek", "aychek"]
+part_of_speech: interj
+meanings:
+  - en: "please"
+    ar: "من فضلك"
+concept: please
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

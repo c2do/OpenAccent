@@ -1,0 +1,14 @@
+word: "حب"
+dialect: ar-iq
+type: word
+romanized: ["habb", "ahibb"]
+part_of_speech: verb
+meanings:
+  - en: "to like, to love"
+    ar: "يحب"
+concept: like
+familiarity: common
+notes: "Present: يحب."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,13 @@
+word: كيفنك
+dialect: ar-sd
+type: word
+romanized: ["keifinak", "kefinak"]
+part_of_speech: phrase
+meanings:
+  - en: "how are you? (to a man; كيفنِك to a woman)"
+    ar: "كيف حالك؟"
+concept: how_are_you
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

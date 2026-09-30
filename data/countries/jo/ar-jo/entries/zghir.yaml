@@ -1,0 +1,15 @@
+word: "صغير"
+dialect: ar-jo
+type: word
+spellings: ["زغير"]
+romanized: ["zgheer", "sgheer"]
+pronunciation: { simple: "zgheer" }
+part_of_speech: adj
+meanings:
+  - en: "small"
+    ar: "صغير"
+concept: small
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

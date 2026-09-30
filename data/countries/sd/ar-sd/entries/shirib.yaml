@@ -1,0 +1,13 @@
+word: شرب
+dialect: ar-sd
+type: word
+romanized: ["shirib"]
+part_of_speech: verb
+meanings:
+  - en: "drink"
+    ar: "يشرب"
+concept: drink
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

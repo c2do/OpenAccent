@@ -1,0 +1,14 @@
+word: زرب
+dialect: ar-dz
+type: word
+romanized: ["zreb", "zrab"]
+part_of_speech: verb
+meanings:
+  - en: "hurry up"
+    ar: "أسرع"
+concept: hurry_up
+familiarity: common
+notes: "Often زرب روحك."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

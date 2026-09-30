@@ -1,0 +1,13 @@
+word: "العفو"
+dialect: ar-iq
+type: expression
+romanized: ["il3afu", "al3afu"]
+part_of_speech: intj
+meanings:
+  - en: "you're welcome"
+    ar: "عفواً"
+concept: youre_welcome
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

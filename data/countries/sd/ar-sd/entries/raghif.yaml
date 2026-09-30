@@ -1,0 +1,14 @@
+word: رغيف
+dialect: ar-sd
+type: word
+romanized: ["raghif", "rugheif"]
+part_of_speech: noun
+meanings:
+  - en: "bread"
+    ar: "خبز"
+concept: bread
+familiarity: common
+notes: "عيش usually means sorghum/grain in Sudan."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

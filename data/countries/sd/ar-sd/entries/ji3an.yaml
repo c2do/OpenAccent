@@ -1,0 +1,14 @@
+word: جعان
+dialect: ar-sd
+type: word
+spellings: ["جيعان"]
+romanized: ["ji3an", "ja3an"]
+part_of_speech: adj
+meanings:
+  - en: "hungry"
+    ar: "جائع"
+concept: hungry
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

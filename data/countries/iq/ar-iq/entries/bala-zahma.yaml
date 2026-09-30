@@ -1,0 +1,13 @@
+word: "بلا زحمة"
+dialect: ar-iq
+type: phrase
+romanized: ["bala zahma"]
+part_of_speech: phrase
+meanings:
+  - en: "please"
+    ar: "من فضلك"
+concept: please
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

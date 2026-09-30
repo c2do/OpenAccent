@@ -1,0 +1,13 @@
+word: "منو"
+dialect: ar-iq
+type: word
+romanized: ["minu", "mno"]
+part_of_speech: pron
+meanings:
+  - en: "who"
+    ar: "من"
+concept: who
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

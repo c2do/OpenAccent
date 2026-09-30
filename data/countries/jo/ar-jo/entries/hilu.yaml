@@ -1,0 +1,14 @@
+word: "حلو"
+dialect: ar-jo
+type: word
+romanized: ["7elu", "helo"]
+part_of_speech: adj
+meanings:
+  - en: "beautiful, nice"
+    ar: "جميل"
+concept: beautiful
+familiarity: common
+notes: "Feminine: حلوة."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

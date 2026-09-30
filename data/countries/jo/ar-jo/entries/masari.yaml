@@ -1,0 +1,13 @@
+word: "مصاري"
+dialect: ar-jo
+type: word
+romanized: ["masari", "masare"]
+part_of_speech: noun
+meanings:
+  - en: "money"
+    ar: "مال"
+concept: money
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

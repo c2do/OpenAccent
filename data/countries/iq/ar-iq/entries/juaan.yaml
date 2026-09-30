@@ -1,0 +1,13 @@
+word: "جوعان"
+dialect: ar-iq
+type: word
+romanized: ["joo3aan", "ju3an"]
+part_of_speech: adj
+meanings:
+  - en: "hungry"
+    ar: "جائع"
+concept: hungry
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

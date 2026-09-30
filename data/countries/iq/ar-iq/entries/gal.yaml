@@ -1,0 +1,16 @@
+word: "قال"
+dialect: ar-iq
+type: word
+spellings: ["گال"]
+romanized: ["gaal", "gal"]
+pronunciation: { simple: "gaal" }
+part_of_speech: verb
+meanings:
+  - en: "to say"
+    ar: "يقول"
+concept: say
+familiarity: common
+notes: "Present: يگول / يقول."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

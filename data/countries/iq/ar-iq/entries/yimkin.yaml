@@ -1,0 +1,13 @@
+word: "يمكن"
+dialect: ar-iq
+type: word
+romanized: ["yimkin"]
+part_of_speech: adv
+meanings:
+  - en: "maybe"
+    ar: "ربما"
+concept: maybe
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

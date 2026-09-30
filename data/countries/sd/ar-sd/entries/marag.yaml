@@ -1,0 +1,14 @@
+word: مرق
+dialect: ar-sd
+type: word
+romanized: ["marag"]
+pronunciation: { simple: "marag" }
+part_of_speech: verb
+meanings:
+  - en: "go out, leave"
+    ar: "يغادر"
+concept: leave
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

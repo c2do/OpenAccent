@@ -1,0 +1,14 @@
+word: جا
+dialect: ar-sd
+type: word
+romanized: ["ja"]
+part_of_speech: verb
+meanings:
+  - en: "come"
+    ar: "يأتي"
+concept: come
+familiarity: common
+notes: "Imperative تعال."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

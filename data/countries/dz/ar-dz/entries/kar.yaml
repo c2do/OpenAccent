@@ -1,0 +1,14 @@
+word: كار
+dialect: ar-dz
+type: word
+romanized: ["kar", "car"]
+part_of_speech: noun
+meanings:
+  - en: "bus, coach"
+    ar: "حافلة"
+concept: bus
+familiarity: common
+notes: "From French car."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

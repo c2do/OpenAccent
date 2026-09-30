@@ -1,0 +1,13 @@
+word: "محتاج"
+dialect: ar-jo
+type: word
+romanized: ["mi7taj", "mo7taj"]
+part_of_speech: adj
+meanings:
+  - en: "in need of, needing"
+    ar: "يحتاج"
+concept: need
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

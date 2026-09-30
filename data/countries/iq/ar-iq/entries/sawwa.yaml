@@ -1,0 +1,15 @@
+word: "سوّى"
+dialect: ar-iq
+type: word
+spellings: ["سوى"]
+romanized: ["sawwa", "asawwi"]
+part_of_speech: verb
+meanings:
+  - en: "to do, to make"
+    ar: "يفعل"
+concept: do
+familiarity: common
+notes: "Present: يسوّي."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

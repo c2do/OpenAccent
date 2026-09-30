@@ -1,0 +1,13 @@
+word: لو سمحت
+dialect: ar-sd
+type: phrase
+romanized: ["law samaht"]
+part_of_speech: phrase
+meanings:
+  - en: "please"
+    ar: "من فضلك"
+concept: please
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,15 @@
+word: "أخذ"
+dialect: ar-iq
+type: word
+spellings: ["اخذ"]
+romanized: ["akhath", "akhadh"]
+part_of_speech: verb
+meanings:
+  - en: "to take"
+    ar: "يأخذ"
+concept: take
+familiarity: common
+notes: "Present: ياخذ."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

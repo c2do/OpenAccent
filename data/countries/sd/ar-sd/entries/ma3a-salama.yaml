@@ -1,0 +1,13 @@
+word: مع السلامة
+dialect: ar-sd
+type: phrase
+romanized: ["ma3a salama", "ma3asalama"]
+part_of_speech: phrase
+meanings:
+  - en: "goodbye"
+    ar: "مع السلامة"
+concept: bye
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,13 @@
+word: "صديق"
+dialect: ar-iq
+type: word
+romanized: ["sadeeq", "sadiq"]
+part_of_speech: noun
+meanings:
+  - en: "friend"
+    ar: "صديق"
+concept: friend
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

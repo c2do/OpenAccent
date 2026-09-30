@@ -1,0 +1,13 @@
+word: خلاص
+dialect: ar-sd
+type: word
+romanized: ["khalas"]
+part_of_speech: interj
+meanings:
+  - en: "enough, that's it"
+    ar: "كفى"
+concept: enough
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

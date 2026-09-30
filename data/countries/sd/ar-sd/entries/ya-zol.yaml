@@ -1,0 +1,14 @@
+word: يا زول
+dialect: ar-sd
+type: phrase
+romanized: ["ya zol", "ya zoul"]
+part_of_speech: phrase
+meanings:
+  - en: "buddy, man (addressing someone)"
+    ar: "يا صاحبي"
+concept: buddy
+familiarity: common
+notes: "Don't overuse."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

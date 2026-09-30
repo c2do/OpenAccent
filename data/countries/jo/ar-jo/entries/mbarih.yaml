@@ -1,0 +1,14 @@
+word: "مبارح"
+dialect: ar-jo
+type: word
+spellings: ["امبارح", "إمبارح"]
+romanized: ["mbare7", "imbare7"]
+part_of_speech: adv
+meanings:
+  - en: "yesterday"
+    ar: "أمس"
+concept: yesterday
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

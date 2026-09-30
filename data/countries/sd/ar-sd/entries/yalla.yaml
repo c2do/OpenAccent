@@ -1,0 +1,14 @@
+word: يلا
+dialect: ar-sd
+type: word
+romanized: ["yalla"]
+part_of_speech: interj
+meanings:
+  - en: "let's go"
+    ar: "هيا بنا"
+concept: lets_go
+familiarity: common
+notes: "Often يلا بينا."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

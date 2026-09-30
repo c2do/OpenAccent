@@ -1,0 +1,15 @@
+word: صحيت
+dialect: ar-dz
+type: word
+spellings: ["صحّيت"]
+romanized: ["sahit", "sa7it", "saha"]
+part_of_speech: interj
+meanings:
+  - en: "thank you"
+    ar: "شكراً"
+concept: thanks
+familiarity: common
+notes: "Also يعطيك الصحة and French ميرسي."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,13 @@
+word: زعفان
+dialect: ar-dz
+type: word
+romanized: ["za3fan", "z3fan"]
+part_of_speech: adj
+meanings:
+  - en: "angry"
+    ar: "غاضب"
+concept: angry
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

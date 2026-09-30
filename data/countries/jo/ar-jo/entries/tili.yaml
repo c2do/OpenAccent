@@ -1,0 +1,14 @@
+word: "طلع"
+dialect: ar-jo
+type: word
+romanized: ["tili3", "atla3"]
+part_of_speech: verb
+meanings:
+  - en: "to go out, to leave"
+    ar: "يغادر"
+concept: leave
+familiarity: common
+notes: "Present: يطلع."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

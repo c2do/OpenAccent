@@ -1,0 +1,15 @@
+word: "إجا"
+dialect: ar-jo
+type: word
+spellings: ["اجا"]
+romanized: ["ija", "eja"]
+part_of_speech: verb
+meanings:
+  - en: "to come"
+    ar: "يأتي"
+concept: come
+familiarity: common
+notes: "Present: ييجي. Imperative: تعال."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

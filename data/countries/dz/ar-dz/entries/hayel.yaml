@@ -1,0 +1,13 @@
+word: هايل
+dialect: ar-dz
+type: word
+romanized: ["hayel", "hayl"]
+part_of_speech: adj
+meanings:
+  - en: "cool, awesome"
+    ar: "رائع"
+concept: cool
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

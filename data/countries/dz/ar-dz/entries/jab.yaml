@@ -1,0 +1,13 @@
+word: جاب
+dialect: ar-dz
+type: word
+romanized: ["jab", "djab"]
+part_of_speech: verb
+meanings:
+  - en: "bring"
+    ar: "يحضر"
+concept: bring
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

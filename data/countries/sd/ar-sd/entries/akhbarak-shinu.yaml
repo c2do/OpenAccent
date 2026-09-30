@@ -1,0 +1,13 @@
+word: أخبارك شنو
+dialect: ar-sd
+type: phrase
+romanized: ["akhbarak shinu", "akhbarak shnu"]
+part_of_speech: phrase
+meanings:
+  - en: "what's up? how's it going?"
+    ar: "ما الأخبار؟"
+concept: whats_up
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

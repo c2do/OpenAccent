@@ -1,0 +1,13 @@
+word: "ماشي"
+dialect: ar-jo
+type: word
+romanized: ["mashi", "maashi"]
+part_of_speech: intj
+meanings:
+  - en: "okay"
+    ar: "حسناً"
+concept: okay
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

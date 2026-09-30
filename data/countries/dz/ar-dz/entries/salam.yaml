@@ -1,0 +1,13 @@
+word: سلام
+dialect: ar-dz
+type: word
+romanized: ["salam"]
+part_of_speech: interj
+meanings:
+  - en: "hello"
+    ar: "مرحبا"
+concept: hello
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

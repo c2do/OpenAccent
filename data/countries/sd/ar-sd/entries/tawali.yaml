@@ -1,0 +1,14 @@
+word: طوالي
+dialect: ar-sd
+type: word
+romanized: ["tawali", "tawwali"]
+part_of_speech: adv
+meanings:
+  - en: "always, all the time"
+    ar: "دائماً"
+concept: always
+familiarity: common
+notes: "Also means straight ahead / right away."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

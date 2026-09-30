@@ -1,0 +1,14 @@
+word: درك
+dialect: ar-dz
+type: word
+spellings: ["ضرك", "دروك"]
+romanized: ["drk", "dork", "derwek"]
+part_of_speech: adv
+meanings:
+  - en: "now"
+    ar: "الآن"
+concept: now
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

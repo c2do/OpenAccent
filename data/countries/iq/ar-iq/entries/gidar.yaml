@@ -1,0 +1,16 @@
+word: "قدر"
+dialect: ar-iq
+type: word
+spellings: ["گدر"]
+romanized: ["gidar", "agdar"]
+pronunciation: { simple: "gidar" }
+part_of_speech: verb
+meanings:
+  - en: "to be able, can"
+    ar: "يستطيع"
+concept: can
+familiarity: common
+notes: "Present: يگدر / يقدر; أگدر = I can."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

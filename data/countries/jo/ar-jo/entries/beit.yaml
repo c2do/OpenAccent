@@ -1,0 +1,13 @@
+word: "بيت"
+dialect: ar-jo
+type: word
+romanized: ["beit", "bet"]
+part_of_speech: noun
+meanings:
+  - en: "house"
+    ar: "بيت"
+concept: house
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

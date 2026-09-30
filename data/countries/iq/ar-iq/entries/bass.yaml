@@ -1,0 +1,15 @@
+word: "بس"
+dialect: ar-iq
+type: word
+romanized: ["bass", "bas"]
+part_of_speech: intj
+meanings:
+  - en: "enough, stop"
+    ar: "كفى"
+  - en: "only, but"
+    ar: "فقط، لكن"
+concept: enough
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

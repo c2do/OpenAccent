@@ -1,0 +1,13 @@
+word: "اليوم"
+dialect: ar-iq
+type: word
+romanized: ["il yom", "alyoom"]
+part_of_speech: adv
+meanings:
+  - en: "today"
+    ar: "اليوم"
+concept: today
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

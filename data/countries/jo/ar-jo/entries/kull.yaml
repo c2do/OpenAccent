@@ -1,0 +1,13 @@
+word: "كل"
+dialect: ar-jo
+type: word
+romanized: ["kull", "kul"]
+part_of_speech: det
+meanings:
+  - en: "all"
+    ar: "كل"
+concept: all
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

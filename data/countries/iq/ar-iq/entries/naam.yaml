@@ -1,0 +1,14 @@
+word: "نام"
+dialect: ar-iq
+type: word
+romanized: ["naam", "anaam"]
+part_of_speech: verb
+meanings:
+  - en: "to sleep"
+    ar: "ينام"
+concept: sleep
+familiarity: common
+notes: "Present: ينام."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,13 @@
+word: "خبز"
+dialect: ar-iq
+type: word
+romanized: ["khubuz", "khubz"]
+part_of_speech: noun
+meanings:
+  - en: "bread"
+    ar: "خبز"
+concept: bread
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

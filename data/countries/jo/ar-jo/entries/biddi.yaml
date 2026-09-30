@@ -1,0 +1,15 @@
+word: "بدي"
+dialect: ar-jo
+type: word
+spellings: ["بدّي"]
+romanized: ["biddi", "badi"]
+part_of_speech: particle
+meanings:
+  - en: "I want"
+    ar: "يريد"
+concept: want
+familiarity: common
+notes: "بدك (you want), بده (he wants), بدنا (we want)."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

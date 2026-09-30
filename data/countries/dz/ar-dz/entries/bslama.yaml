@@ -1,0 +1,13 @@
+word: بسلامة
+dialect: ar-dz
+type: word
+romanized: ["bslama", "beslama"]
+part_of_speech: interj
+meanings:
+  - en: "goodbye"
+    ar: "مع السلامة"
+concept: bye
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

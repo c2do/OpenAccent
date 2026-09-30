@@ -1,0 +1,13 @@
+word: والو
+dialect: ar-dz
+type: word
+romanized: ["walou", "walo"]
+part_of_speech: pron
+meanings:
+  - en: "nothing"
+    ar: "لا شيء"
+concept: nothing
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: خو
+dialect: ar-dz
+type: word
+romanized: ["kho"]
+part_of_speech: noun
+meanings:
+  - en: "brother"
+    ar: "أخي"
+concept: brother
+familiarity: common
+notes: "My brother: خويا."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: "كيفك"
+dialect: ar-jo
+type: expression
+romanized: ["keefak", "kifak"]
+part_of_speech: phrase
+meanings:
+  - en: "how are you?"
+    ar: "كيف حالك؟"
+concept: how_are_you
+familiarity: common
+notes: "To a woman: كيفك (keefik). Plural: كيفكم."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,13 @@
+word: "مو زين"
+dialect: ar-iq
+type: phrase
+romanized: ["mu zein", "mo zen"]
+part_of_speech: adj
+meanings:
+  - en: "bad, not good"
+    ar: "سيء"
+concept: bad
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

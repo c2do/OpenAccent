@@ -1,0 +1,13 @@
+word: "جدي"
+dialect: ar-iq
+type: word
+romanized: ["jiddi"]
+part_of_speech: noun
+meanings:
+  - en: "grandpa"
+    ar: "جدي"
+concept: grandpa
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

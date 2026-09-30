@@ -1,0 +1,13 @@
+word: سخون
+dialect: ar-dz
+type: word
+romanized: ["skhoun", "sekhoun"]
+part_of_speech: adj
+meanings:
+  - en: "hot"
+    ar: "حار"
+concept: hot
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

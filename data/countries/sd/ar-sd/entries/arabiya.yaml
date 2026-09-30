@@ -1,0 +1,14 @@
+word: عربية
+dialect: ar-sd
+type: word
+spellings: ["عربيه"]
+romanized: ["arabiya", "3arabiya"]
+part_of_speech: noun
+meanings:
+  - en: "car"
+    ar: "سيارة"
+concept: car
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

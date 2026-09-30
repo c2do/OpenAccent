@@ -1,0 +1,15 @@
+word: ذري
+dialect: ar-dz
+type: word
+spellings: ["دري"]
+romanized: ["dri"]
+part_of_speech: noun
+meanings:
+  - en: "child, kid"
+    ar: "طفل"
+concept: child
+familiarity: common
+notes: "Plural ذراري."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

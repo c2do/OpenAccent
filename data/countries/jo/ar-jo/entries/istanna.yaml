@@ -1,0 +1,15 @@
+word: "استنى"
+dialect: ar-jo
+type: word
+spellings: ["استنّى"]
+romanized: ["istanna", "estanna"]
+part_of_speech: verb
+meanings:
+  - en: "to wait"
+    ar: "ينتظر"
+concept: wait
+familiarity: common
+notes: "Present: يستنى. Imperative: استنى!"
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

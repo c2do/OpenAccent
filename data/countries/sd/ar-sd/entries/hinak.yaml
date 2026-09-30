@@ -1,0 +1,13 @@
+word: هناك
+dialect: ar-sd
+type: word
+romanized: ["hinak", "henak"]
+part_of_speech: adv
+meanings:
+  - en: "there"
+    ar: "هناك"
+concept: there
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

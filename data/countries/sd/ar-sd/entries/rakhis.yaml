@@ -1,0 +1,13 @@
+word: رخيص
+dialect: ar-sd
+type: word
+romanized: ["rakhis"]
+part_of_speech: adj
+meanings:
+  - en: "cheap"
+    ar: "رخيص"
+concept: cheap
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: "بكرة"
+dialect: ar-jo
+type: word
+spellings: ["بكره"]
+romanized: ["bukra", "bokra"]
+part_of_speech: adv
+meanings:
+  - en: "tomorrow"
+    ar: "غداً"
+concept: tomorrow
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

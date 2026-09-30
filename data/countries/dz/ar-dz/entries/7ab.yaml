@@ -1,0 +1,14 @@
+word: حاب
+dialect: ar-dz
+type: word
+romanized: ["7ab", "hab"]
+part_of_speech: adj
+meanings:
+  - en: "wanting (راني حاب = I want)"
+    ar: "يريد"
+concept: want
+familiarity: common
+notes: "Also حبيت / نحب."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

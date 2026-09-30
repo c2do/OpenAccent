@@ -1,0 +1,15 @@
+word: ثاني
+dialect: ar-dz
+type: word
+spellings: ["تاني"]
+romanized: ["tani", "thani"]
+pronunciation: { simple: "taani" }
+part_of_speech: adv
+meanings:
+  - en: "also, too"
+    ar: "أيضاً"
+concept: also
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

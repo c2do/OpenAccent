@@ -1,0 +1,15 @@
+word: "صدق"
+dialect: ar-iq
+type: word
+spellings: ["صدگ"]
+romanized: ["sidug", "sidg"]
+pronunciation: { simple: "sidug" }
+part_of_speech: intj
+meanings:
+  - en: "really? (is that true?)"
+    ar: "حقاً؟"
+concept: really
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: "أبداً"
+dialect: ar-jo
+type: word
+spellings: ["ابدا", "أبدا"]
+romanized: ["abadan"]
+part_of_speech: adv
+meanings:
+  - en: "never"
+    ar: "أبداً"
+concept: never
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

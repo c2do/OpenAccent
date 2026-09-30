@@ -1,0 +1,13 @@
+word: "فلوس"
+dialect: ar-iq
+type: word
+romanized: ["floos", "flus"]
+part_of_speech: noun
+meanings:
+  - en: "money"
+    ar: "مال"
+concept: money
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

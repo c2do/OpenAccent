@@ -1,0 +1,13 @@
+word: "ليش"
+dialect: ar-iq
+type: word
+romanized: ["leish", "lesh"]
+part_of_speech: adv
+meanings:
+  - en: "why"
+    ar: "لماذا"
+concept: why
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

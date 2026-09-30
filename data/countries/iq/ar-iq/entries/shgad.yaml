@@ -1,0 +1,15 @@
+word: "شكد"
+dialect: ar-iq
+type: word
+spellings: ["شگد"]
+romanized: ["shgad", "shkad"]
+pronunciation: { simple: "shgad" }
+part_of_speech: adv
+meanings:
+  - en: "how much"
+    ar: "كم"
+concept: how_much
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

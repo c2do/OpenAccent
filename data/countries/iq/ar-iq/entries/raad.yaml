@@ -1,0 +1,14 @@
+word: "راد"
+dialect: ar-iq
+type: word
+romanized: ["raad", "areed"]
+part_of_speech: verb
+meanings:
+  - en: "to want"
+    ar: "يريد"
+concept: want
+familiarity: common
+notes: "Present: يريد; 'I want' is أريد (areed)."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

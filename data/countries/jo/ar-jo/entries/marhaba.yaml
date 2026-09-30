@@ -1,0 +1,13 @@
+word: "مرحبا"
+dialect: ar-jo
+type: word
+romanized: ["marhaba", "mar7aba"]
+part_of_speech: intj
+meanings:
+  - en: "hello"
+    ar: "مرحبا"
+concept: hello
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,13 @@
+word: شباب
+dialect: ar-dz
+type: word
+romanized: ["chbab"]
+part_of_speech: adj
+meanings:
+  - en: "beautiful, nice"
+    ar: "جميل"
+concept: beautiful
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

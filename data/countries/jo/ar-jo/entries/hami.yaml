@@ -1,0 +1,13 @@
+word: "حامي"
+dialect: ar-jo
+type: word
+romanized: ["7ami", "hami"]
+part_of_speech: adj
+meanings:
+  - en: "hot (to the touch)"
+    ar: "حار"
+concept: hot
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

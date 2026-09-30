@@ -1,0 +1,14 @@
+word: "راح"
+dialect: ar-iq
+type: word
+romanized: ["raah", "arooh"]
+part_of_speech: verb
+meanings:
+  - en: "to go"
+    ar: "يذهب"
+concept: go
+familiarity: common
+notes: "Present: يروح. Also the future marker راح."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

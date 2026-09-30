@@ -1,0 +1,14 @@
+word: جا
+dialect: ar-dz
+type: word
+romanized: ["ja", "dja"]
+part_of_speech: verb
+meanings:
+  - en: "come"
+    ar: "يأتي"
+concept: come
+familiarity: common
+notes: "Imperative أرواح."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

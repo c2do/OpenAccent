@@ -1,0 +1,13 @@
+word: سماحلي
+dialect: ar-dz
+type: word
+romanized: ["smahli", "sma7li"]
+part_of_speech: interj
+meanings:
+  - en: "sorry, excuse me"
+    ar: "آسف"
+concept: sorry
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

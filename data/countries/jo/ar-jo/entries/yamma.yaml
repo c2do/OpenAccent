@@ -1,0 +1,14 @@
+word: "يمّا"
+dialect: ar-jo
+type: word
+spellings: ["يما"]
+romanized: ["yamma", "yumma"]
+part_of_speech: intj
+meanings:
+  - en: "mom! (calling or addressing one's mother)"
+    ar: "أمي"
+concept: mom
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

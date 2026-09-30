@@ -1,0 +1,14 @@
+word: "آه"
+dialect: ar-jo
+type: word
+spellings: ["اه", "إه"]
+romanized: ["ah", "aah"]
+part_of_speech: intj
+meanings:
+  - en: "yes"
+    ar: "نعم"
+concept: yes
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

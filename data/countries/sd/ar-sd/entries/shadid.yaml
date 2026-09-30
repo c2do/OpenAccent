@@ -1,0 +1,14 @@
+word: شديد
+dialect: ar-sd
+type: word
+romanized: ["shadid", "shedid"]
+part_of_speech: adv
+meanings:
+  - en: "very (after the adjective)"
+    ar: "كثيراً"
+concept: a_lot
+familiarity: common
+notes: "سمح شديد = very nice."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

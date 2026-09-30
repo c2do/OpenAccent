@@ -1,0 +1,15 @@
+word: "قديش"
+dialect: ar-jo
+type: word
+spellings: ["قدّيش"]
+romanized: ["addesh", "gaddesh"]
+pronunciation: { simple: "'addeish / gaddeish" }
+part_of_speech: adv
+meanings:
+  - en: "how much"
+    ar: "كم"
+concept: how_much
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

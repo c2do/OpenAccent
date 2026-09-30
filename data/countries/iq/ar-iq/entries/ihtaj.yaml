@@ -1,0 +1,14 @@
+word: "احتاج"
+dialect: ar-iq
+type: word
+romanized: ["ihtaaj", "ahtaaj"]
+part_of_speech: verb
+meanings:
+  - en: "to need"
+    ar: "يحتاج"
+concept: need
+familiarity: common
+notes: "Present: يحتاج. محتاج = in need of."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

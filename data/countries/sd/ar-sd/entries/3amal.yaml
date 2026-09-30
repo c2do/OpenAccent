@@ -1,0 +1,13 @@
+word: عمل
+dialect: ar-sd
+type: word
+romanized: ["3amal", "amal"]
+part_of_speech: verb
+meanings:
+  - en: "do, make"
+    ar: "يفعل"
+concept: do
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

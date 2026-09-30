@@ -1,0 +1,13 @@
+word: بركا
+dialect: ar-dz
+type: word
+romanized: ["barka"]
+part_of_speech: interj
+meanings:
+  - en: "enough"
+    ar: "كفى"
+concept: enough
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

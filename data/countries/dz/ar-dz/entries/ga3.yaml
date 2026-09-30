@@ -1,0 +1,16 @@
+word: قاع
+dialect: ar-dz
+type: word
+spellings: ["ڨاع"]
+romanized: ["ga3", "gaa"]
+pronunciation: { simple: "gaa" }
+part_of_speech: adv
+meanings:
+  - en: "all, completely"
+    ar: "كل"
+concept: all
+familiarity: common
+notes: "Pronounced with g even in Algiers."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

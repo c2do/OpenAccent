@@ -1,0 +1,14 @@
+word: "هذا"
+dialect: ar-iq
+type: word
+romanized: ["hatha", "hadha"]
+part_of_speech: pron
+meanings:
+  - en: "this"
+    ar: "هذا"
+concept: this
+familiarity: common
+notes: "Feminine: هاي (hay). Plural: هذوله."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

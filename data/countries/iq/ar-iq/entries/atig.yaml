@@ -1,0 +1,15 @@
+word: "عتيق"
+dialect: ar-iq
+type: word
+spellings: ["عتيگ"]
+romanized: ["3teeg", "atig"]
+pronunciation: { simple: "3teeg" }
+part_of_speech: adj
+meanings:
+  - en: "old (things)"
+    ar: "قديم"
+concept: old_thing
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft
