@@ -1,0 +1,14 @@
+word: "بيجنن"
+dialect: ar-levantine
+type: expression
+spellings: [ "بجنن" ]
+romanized: [ "bijannin", "bi jannen" ]
+part_of_speech: adj
+meanings:
+  - en: "amazing, awesome (lit. drives you crazy)"
+    ar: "رائع"
+concept: cool
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

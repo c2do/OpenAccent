@@ -1,0 +1,14 @@
+word: "موبايل"
+dialect: ar-eg
+type: word
+spellings: []
+romanized: [ "mobile", "mobayl" ]
+part_of_speech: noun
+meanings:
+  - en: "mobile phone"
+    ar: "هاتف"
+concept: phone
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

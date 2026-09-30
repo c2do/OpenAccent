@@ -1,0 +1,15 @@
+word: "هداك"
+dialect: ar-sy
+type: word
+spellings: [ "هاداك" ]
+romanized: [ "hadak", "hadaak" ]
+part_of_speech: pron
+meanings:
+  - en: "that (m.)"
+    ar: "ذلك"
+concept: that
+familiarity: common
+notes: "Feminine: هديك. Plural: هدوليك."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

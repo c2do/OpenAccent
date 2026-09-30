@@ -1,0 +1,14 @@
+word: "زلمة"
+dialect: ar-levantine
+type: word
+spellings: [ "زلمي" ]
+romanized: [ "zalame", "zalameh" ]
+part_of_speech: noun
+meanings:
+  - en: "man"
+    ar: "رجل"
+concept: man
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

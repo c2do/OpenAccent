@@ -1,0 +1,14 @@
+word: "شنحوالك"
+dialect: ar-tn
+type: phrase
+spellings: ["شنية حوالك"]
+romanized: ["chnahwalek", "shnahwalek", "chna7walek"]
+part_of_speech: phrase
+meanings:
+  - en: "how are you?"
+    ar: "كيف حالك؟"
+concept: "how_are_you"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

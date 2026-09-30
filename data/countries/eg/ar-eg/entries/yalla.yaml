@@ -1,0 +1,14 @@
+word: "يلا"
+dialect: ar-eg
+type: word
+spellings: [ "يلّا", "يالا" ]
+romanized: [ "yalla" ]
+part_of_speech: intj
+meanings:
+  - en: "let's go, come on"
+    ar: "هيا بنا"
+concept: lets_go
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

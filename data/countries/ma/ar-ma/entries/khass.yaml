@@ -1,0 +1,15 @@
+word: "خاص"
+dialect: ar-ma
+type: word
+spellings: []
+romanized: ["khass", "khas", "5as"]
+part_of_speech: verb
+meanings:
+  - en: "to need, must (khassni = I need)"
+    ar: "يحتاج"
+concept: "need"
+familiarity: common
+notes: "Takes object suffixes: خاصني، خاصك."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

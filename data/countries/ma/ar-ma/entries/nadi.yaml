@@ -1,0 +1,15 @@
+word: "ناضي"
+dialect: ar-ma
+type: word
+spellings: []
+romanized: ["nadi"]
+part_of_speech: adj
+meanings:
+  - en: "cool, awesome"
+    ar: "رائع"
+concept: "cool"
+familiarity: common
+notes: "Slang."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,15 @@
+word: "سلام"
+dialect: ar-ma
+type: phrase
+spellings: ["السلام"]
+romanized: ["salam", "slam"]
+part_of_speech: intj
+meanings:
+  - en: "hello, hi"
+    ar: "مرحبا"
+concept: "hello"
+familiarity: common
+notes: "Short for السلام عليكم."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

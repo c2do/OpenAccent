@@ -1,0 +1,15 @@
+word: "عايز"
+dialect: ar-eg
+type: word
+spellings: [ "عاوز" ]
+romanized: [ "3ayez", "3awez" ]
+part_of_speech: adj
+meanings:
+  - en: "to want (wanting)"
+    ar: "يريد"
+concept: want
+familiarity: common
+notes: "Participle used as the verb: أنا عايز أروح. Feminine عايزة."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: "صعب"
+dialect: ar-sa
+type: word
+spellings: []
+romanized: [ "sa3b" ]
+part_of_speech: adj
+meanings:
+  - en: "difficult, hard"
+    ar: "صعب"
+concept: hard
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

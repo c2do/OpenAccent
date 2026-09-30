@@ -1,0 +1,14 @@
+word: "خرج"
+dialect: ar-tn
+type: word
+spellings: []
+romanized: ["khraj", "5raj", "khrej"]
+part_of_speech: verb
+meanings:
+  - en: "to go out, to leave"
+    ar: "خرج"
+concept: "leave"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

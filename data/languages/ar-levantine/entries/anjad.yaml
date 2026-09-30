@@ -1,0 +1,14 @@
+word: "عنجد"
+dialect: ar-levantine
+type: word
+spellings: [ "عن جد" ]
+romanized: [ "3anjad", "anjad" ]
+part_of_speech: adv
+meanings:
+  - en: "really?, seriously?"
+    ar: "حقاً؟"
+concept: really
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: "هناك"
+dialect: ar-sa
+type: word
+spellings: []
+romanized: [ "hinak" ]
+part_of_speech: adv
+meanings:
+  - en: "there"
+    ar: "هناك"
+concept: there
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

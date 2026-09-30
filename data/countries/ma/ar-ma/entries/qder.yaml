@@ -1,0 +1,14 @@
+word: "قدر"
+dialect: ar-ma
+type: word
+spellings: []
+romanized: ["qder", "9der", "qdar"]
+part_of_speech: verb
+meanings:
+  - en: "can, to be able to"
+    ar: "استطاع"
+concept: "can"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

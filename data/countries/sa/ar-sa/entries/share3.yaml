@@ -1,0 +1,14 @@
+word: "شارع"
+dialect: ar-sa
+type: word
+spellings: []
+romanized: [ "share3" ]
+part_of_speech: noun
+meanings:
+  - en: "street"
+    ar: "شارع"
+concept: street
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

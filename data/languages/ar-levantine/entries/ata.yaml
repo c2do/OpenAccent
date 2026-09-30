@@ -1,0 +1,15 @@
+word: "عطى"
+dialect: ar-levantine
+type: word
+spellings: [ "أعطى", "اعطى" ]
+romanized: [ "a3ta", "ata" ]
+part_of_speech: verb
+meanings:
+  - en: "to give"
+    ar: "يعطي"
+concept: give
+familiarity: common
+notes: "Present: بعطي (I give)."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

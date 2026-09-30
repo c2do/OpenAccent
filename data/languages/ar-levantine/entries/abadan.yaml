@@ -1,0 +1,15 @@
+word: "أبداً"
+dialect: ar-levantine
+type: word
+spellings: [ "أبدا", "ابدا", "أبد" ]
+romanized: [ "abadan", "abad" ]
+part_of_speech: adv
+meanings:
+  - en: "never; not at all"
+    ar: "أبداً"
+concept: never
+familiarity: common
+notes: "Used with negation: ما بروح أبداً."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

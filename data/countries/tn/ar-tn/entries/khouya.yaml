@@ -1,0 +1,14 @@
+word: "خويا"
+dialect: ar-tn
+type: word
+spellings: []
+romanized: ["khouya", "5ouya", "khoya"]
+part_of_speech: noun
+meanings:
+  - en: "bro, buddy (addressing a man)"
+    ar: "يا أخي"
+concept: "buddy"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

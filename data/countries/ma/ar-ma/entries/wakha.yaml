@@ -1,0 +1,14 @@
+word: "واخا"
+dialect: ar-ma
+type: word
+spellings: []
+romanized: ["wakha", "wakhkha"]
+part_of_speech: intj
+meanings:
+  - en: "okay, alright"
+    ar: "حسناً"
+concept: "okay"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

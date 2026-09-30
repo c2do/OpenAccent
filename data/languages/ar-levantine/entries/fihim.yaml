@@ -1,0 +1,15 @@
+word: "فهم"
+dialect: ar-levantine
+type: word
+spellings: []
+romanized: [ "fihim", "fehem" ]
+part_of_speech: verb
+meanings:
+  - en: "to understand"
+    ar: "يفهم"
+concept: understand
+familiarity: common
+notes: "Present: بفهم (I understand)."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

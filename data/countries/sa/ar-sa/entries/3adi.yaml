@@ -1,0 +1,14 @@
+word: "عادي"
+dialect: ar-sa
+type: word
+spellings: []
+romanized: [ "3adi" ]
+part_of_speech: intj
+meanings:
+  - en: "never mind, it's fine"
+    ar: "لا يهم"
+concept: never_mind
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

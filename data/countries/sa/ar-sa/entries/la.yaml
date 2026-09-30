@@ -1,0 +1,14 @@
+word: "لا"
+dialect: ar-sa
+type: word
+spellings: []
+romanized: [ "la" ]
+part_of_speech: intj
+meanings:
+  - en: "no"
+    ar: "لا"
+concept: no
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: "خدم"
+dialect: ar-ma
+type: word
+spellings: []
+romanized: ["khdem", "khdm", "5dem"]
+part_of_speech: verb
+meanings:
+  - en: "to work"
+    ar: "عمل"
+concept: "work_verb"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

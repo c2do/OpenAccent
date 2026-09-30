@@ -1,0 +1,15 @@
+word: "مريڨل"
+dialect: ar-tn
+type: word
+spellings: ["مريقل"]
+romanized: ["mrigel", "mriguel", "mrigl"]
+part_of_speech: intj
+meanings:
+  - en: "okay, alright, all set"
+    ar: "حسناً"
+concept: "okay"
+familiarity: common
+notes: "From French réglé."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

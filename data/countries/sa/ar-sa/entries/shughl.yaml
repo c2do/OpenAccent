@@ -1,0 +1,14 @@
+word: "شغل"
+dialect: ar-sa
+type: word
+spellings: []
+romanized: [ "shughl", "shoghl" ]
+part_of_speech: noun
+meanings:
+  - en: "work, job"
+    ar: "عمل"
+concept: work
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

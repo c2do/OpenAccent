@@ -1,0 +1,14 @@
+word: "أمس"
+dialect: ar-sa
+type: word
+spellings: [ "امس" ]
+romanized: [ "ams" ]
+part_of_speech: adv
+meanings:
+  - en: "yesterday"
+    ar: "أمس"
+concept: yesterday
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

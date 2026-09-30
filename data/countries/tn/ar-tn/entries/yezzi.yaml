@@ -1,0 +1,14 @@
+word: "يزي"
+dialect: ar-tn
+type: word
+spellings: ["يزّي"]
+romanized: ["yezzi", "yezi", "yizzi"]
+part_of_speech: intj
+meanings:
+  - en: "enough!, stop"
+    ar: "كفى"
+concept: "enough"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

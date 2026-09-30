@@ -1,0 +1,14 @@
+word: "كبير"
+dialect: ar-sa
+type: word
+spellings: []
+romanized: [ "kbir", "kabir" ]
+part_of_speech: adj
+meanings:
+  - en: "big"
+    ar: "كبير"
+concept: big
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

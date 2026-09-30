@@ -1,0 +1,15 @@
+word: "صافي"
+dialect: ar-ma
+type: word
+spellings: []
+romanized: ["safi"]
+part_of_speech: intj
+meanings:
+  - en: "enough, that's it"
+    ar: "كفى"
+concept: "enough"
+familiarity: common
+notes: "Also used as 'okay, done'."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

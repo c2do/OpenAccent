@@ -1,0 +1,14 @@
+word: "جدة"
+dialect: ar-sa
+type: word
+spellings: [ "جدتي" ]
+romanized: [ "jidda", "jiddati" ]
+part_of_speech: noun
+meanings:
+  - en: "grandma"
+    ar: "جدتي"
+concept: grandma
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

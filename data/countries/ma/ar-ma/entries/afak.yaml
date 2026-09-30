@@ -1,0 +1,14 @@
+word: "عافاك"
+dialect: ar-ma
+type: word
+spellings: []
+romanized: ["afak", "3afak"]
+part_of_speech: intj
+meanings:
+  - en: "please"
+    ar: "من فضلك"
+concept: "please"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

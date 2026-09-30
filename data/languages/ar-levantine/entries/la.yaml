@@ -1,0 +1,14 @@
+word: "لأ"
+dialect: ar-levantine
+type: word
+spellings: [ "لا", "لاء" ]
+romanized: [ "la2", "la" ]
+part_of_speech: particle
+meanings:
+  - en: "no"
+    ar: "لا"
+concept: "no"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

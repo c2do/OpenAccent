@@ -1,0 +1,15 @@
+word: "اشتغل"
+dialect: ar-levantine
+type: word
+spellings: [ "إشتغل" ]
+romanized: [ "ishtaghal", "eshta8al" ]
+part_of_speech: verb
+meanings:
+  - en: "to work"
+    ar: "يعمل"
+concept: work_verb
+familiarity: common
+notes: "Present: بشتغل (I work)."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

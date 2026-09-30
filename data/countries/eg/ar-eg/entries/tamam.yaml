@@ -1,0 +1,15 @@
+word: "تمام"
+dialect: ar-eg
+type: word
+spellings: []
+romanized: [ "tamam" ]
+part_of_speech: adj
+meanings:
+  - en: "fine, all good"
+    ar: "بخير"
+concept: fine
+familiarity: common
+notes: "Common reply to ازيك: تمام، الحمد لله."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

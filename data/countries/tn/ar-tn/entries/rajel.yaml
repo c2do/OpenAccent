@@ -1,0 +1,14 @@
+word: "راجل"
+dialect: ar-tn
+type: word
+spellings: []
+romanized: ["rajel", "rajl"]
+part_of_speech: noun
+meanings:
+  - en: "man"
+    ar: "رجل"
+concept: "man"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

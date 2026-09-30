@@ -1,0 +1,14 @@
+word: "بلا مزية"
+dialect: ar-tn
+type: phrase
+spellings: []
+romanized: ["bla mzeya", "bla mziya"]
+part_of_speech: intj
+meanings:
+  - en: "you're welcome"
+    ar: "عفواً"
+concept: "youre_welcome"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

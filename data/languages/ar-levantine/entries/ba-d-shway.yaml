@@ -1,0 +1,14 @@
+word: "بعد شوي"
+dialect: ar-levantine
+type: phrase
+spellings: [ "بعد شوية", "بعد شوي شوي" ]
+romanized: [ "ba3d shway", "baad shwai" ]
+part_of_speech: adv
+meanings:
+  - en: "soon, in a bit"
+    ar: "قريباً"
+concept: soon
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

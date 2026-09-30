@@ -1,0 +1,14 @@
+word: "متغشش"
+dialect: ar-tn
+type: word
+spellings: []
+romanized: ["mitghachich", "met8ashesh", "mtghachech"]
+part_of_speech: adj
+meanings:
+  - en: "angry, upset"
+    ar: "غاضب"
+concept: "angry"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

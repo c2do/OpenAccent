@@ -1,0 +1,14 @@
+word: "يا خوي"
+dialect: ar-sa
+type: word
+spellings: []
+romanized: [ "ya khuy", "ya 5ooy" ]
+part_of_speech: intj
+meanings:
+  - en: "buddy, bro (addressing a man)"
+    ar: "يا صاحبي"
+concept: buddy
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

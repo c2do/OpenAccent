@@ -1,0 +1,14 @@
+word: "مازال"
+dialect: ar-ma
+type: word
+spellings: []
+romanized: ["mazal", "ma zal"]
+part_of_speech: adv
+meanings:
+  - en: "still, yet"
+    ar: "لا يزال"
+concept: "still"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

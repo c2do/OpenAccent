@@ -1,0 +1,14 @@
+word: "باص"
+dialect: ar-levantine
+type: word
+spellings: []
+romanized: [ "bas", "baas" ]
+part_of_speech: noun
+meanings:
+  - en: "bus"
+    ar: "حافلة"
+concept: bus
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

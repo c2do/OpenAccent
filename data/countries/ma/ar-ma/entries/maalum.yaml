@@ -1,0 +1,14 @@
+word: "معلوم"
+dialect: ar-ma
+type: word
+spellings: []
+romanized: ["ma3lum", "maalum", "m3lom"]
+part_of_speech: intj
+meanings:
+  - en: "of course"
+    ar: "طبعاً"
+concept: "of_course"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

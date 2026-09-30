@@ -1,0 +1,14 @@
+word: "عسلامة"
+dialect: ar-tn
+type: word
+spellings: ["اسلامة"]
+romanized: ["aslema", "3aslema", "asslema"]
+part_of_speech: intj
+meanings:
+  - en: "hello, hi"
+    ar: "مرحبا"
+concept: "hello"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

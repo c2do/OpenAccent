@@ -1,0 +1,14 @@
+word: "ويلي"
+dialect: ar-ma
+type: word
+spellings: []
+romanized: ["wili", "wiili"]
+part_of_speech: intj
+meanings:
+  - en: "wow, oh my (surprise)"
+    ar: "يا للعجب"
+concept: "wow"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

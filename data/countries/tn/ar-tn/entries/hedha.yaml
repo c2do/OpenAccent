@@ -1,0 +1,14 @@
+word: "هذا"
+dialect: ar-tn
+type: word
+spellings: ["هاذا"]
+romanized: ["hedha", "hadha", "hetha"]
+part_of_speech: pron
+meanings:
+  - en: "this (masc.)"
+    ar: "هذا"
+concept: "this"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

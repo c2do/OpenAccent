@@ -1,0 +1,15 @@
+word: "بورطابل"
+dialect: ar-tn
+type: word
+spellings: []
+romanized: ["portable", "portabl", "bortabl"]
+part_of_speech: noun
+meanings:
+  - en: "phone, mobile phone"
+    ar: "هاتف"
+concept: "phone"
+familiarity: common
+notes: "From French portable."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

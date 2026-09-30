@@ -1,0 +1,14 @@
+word: "كل"
+dialect: ar-sa
+type: word
+spellings: []
+romanized: [ "kil", "kill" ]
+part_of_speech: det
+meanings:
+  - en: "all, every"
+    ar: "كل"
+concept: all
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

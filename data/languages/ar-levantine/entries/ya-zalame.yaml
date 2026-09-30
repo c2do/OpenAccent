@@ -1,0 +1,14 @@
+word: "يا زلمة"
+dialect: ar-levantine
+type: expression
+spellings: [ "يا زلمي" ]
+romanized: [ "ya zalame", "ya zalameh" ]
+part_of_speech: intj
+meanings:
+  - en: "man!, dude! (addressing a man)"
+    ar: "يا صاحبي"
+concept: buddy
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

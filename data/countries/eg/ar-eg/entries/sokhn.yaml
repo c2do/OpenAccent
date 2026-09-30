@@ -1,0 +1,15 @@
+word: "سخن"
+dialect: ar-eg
+type: word
+spellings: []
+romanized: [ "sokhn" ]
+part_of_speech: adj
+meanings:
+  - en: "hot (to the touch, food, water)"
+    ar: "حار"
+concept: hot
+familiarity: common
+notes: "For weather, الجو حر."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

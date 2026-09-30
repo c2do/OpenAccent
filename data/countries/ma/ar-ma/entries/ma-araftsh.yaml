@@ -1,0 +1,14 @@
+word: "ما عرفتش"
+dialect: ar-ma
+type: phrase
+spellings: ["معرفتش"]
+romanized: ["ma 3reftsh", "ma3reftch", "ma areftsh"]
+part_of_speech: phrase
+meanings:
+  - en: "I don't know"
+    ar: "لا أعرف"
+concept: "i_dont_know"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

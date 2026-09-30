@@ -1,0 +1,15 @@
+word: "زعلان"
+dialect: ar-eg
+type: word
+spellings: []
+romanized: [ "za3lan" ]
+part_of_speech: adj
+meanings:
+  - en: "upset, angry"
+    ar: "غاضب"
+concept: angry
+familiarity: common
+notes: "Feminine زعلانة."
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

@@ -1,0 +1,14 @@
+word: "بالسلامة"
+dialect: ar-tn
+type: phrase
+spellings: ["بسلامة"]
+romanized: ["bslema", "beslema", "bisslema"]
+part_of_speech: intj
+meanings:
+  - en: "goodbye"
+    ar: "مع السلامة"
+concept: "bye"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

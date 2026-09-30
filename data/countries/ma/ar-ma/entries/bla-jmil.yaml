@@ -1,0 +1,14 @@
+word: "بلا جميل"
+dialect: ar-ma
+type: phrase
+spellings: []
+romanized: ["bla jmil", "bla jmel"]
+part_of_speech: intj
+meanings:
+  - en: "you're welcome"
+    ar: "عفواً"
+concept: "youre_welcome"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

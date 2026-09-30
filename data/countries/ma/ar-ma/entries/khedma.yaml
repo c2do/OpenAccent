@@ -1,0 +1,14 @@
+word: "خدمة"
+dialect: ar-ma
+type: word
+spellings: []
+romanized: ["khedma", "khdma", "5edma"]
+part_of_speech: noun
+meanings:
+  - en: "work, job"
+    ar: "عمل"
+concept: "work"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft

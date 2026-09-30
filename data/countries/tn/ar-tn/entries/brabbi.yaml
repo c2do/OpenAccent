@@ -1,0 +1,14 @@
+word: "برّبي"
+dialect: ar-tn
+type: word
+spellings: ["بربي"]
+romanized: ["brabbi", "b'rabbi", "berabbi"]
+part_of_speech: intj
+meanings:
+  - en: "please"
+    ar: "من فضلك"
+concept: "please"
+familiarity: common
+status: draft
+source: { kind: ai-draft }
+added_by: claude-core-draft
