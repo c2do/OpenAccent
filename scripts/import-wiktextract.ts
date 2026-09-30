@@ -35,15 +35,25 @@ export interface DialectImport {
   excludeTags?: string[];
   /** Keep pronouns, particles and other function words (true for dialect-specific files like Egyptian Arabic). */
   keepFunctionWords?: boolean;
-  /** FrequencyWords list code (content/2018/<code>/<code>_50k.txt), used to rank words. */
+  /** FrequencyWords list code (content/<freqYear>/<code>/<code>_50k.txt), used to rank words. */
   freq?: string;
+  /** FrequencyWords edition, when the 2018 one has no list for the language (Hindi). */
+  freqYear?: number;
+  /** Skip words borrowed from these languages (Wiktionary codes): American "gracias" is Spanish, not American English. */
+  skipBorrowedFrom?: string[];
+  /** Skip learned borrowings (tatsama) from these languages: Sanskrit words in Hindi are formal, not everyday speech. */
+  skipLearnedFrom?: string[];
   script: string;
 }
 
+// Borrowings that English speakers use but that belong to another language's voice (Spanish "nada", Italian "capisce").
+const EN_LOANS = ['es', 'it', 'fr', 'yi', 'chn', 'ja', 'haw', 'nv', 'la'];
+
 export const WAVE_1: DialectImport[] = [
-  { dialect: 'en-us-general', languages: ['English'], regionTags: ['US'], excludeTags: ['Southern-US', 'New-England', 'New-York', 'New-York-City', 'African-American-Vernacular', 'AAVE', 'Appalachia', 'Midwest', 'Midwestern-US', 'Pennsylvania', 'Boston', 'California', 'Texas', 'Hawaii', 'Louisiana', 'Western-US'], freq: 'en', script: 'latn' },
-  { dialect: 'en-gb', languages: ['English'], regionTags: ['UK', 'British'], excludeTags: ['Scotland', 'Scottish', 'Northern-England', 'Yorkshire', 'Geordie', 'Cockney', 'West-Country', 'Ireland', 'Irish', 'Northern-Ireland', 'Wales', 'Welsh', 'Liverpool', 'Scouse', 'Manchester', 'Birmingham', 'Cornwall', 'Lancashire', 'East-Anglia', 'Northumbria', 'Newcastle'], freq: 'en', script: 'latn' },
-  { dialect: 'en-in', languages: ['English'], regionTags: ['India', 'Indian-English'], freq: 'en', script: 'latn' },
+  { dialect: 'en-us-general', languages: ['English'], regionTags: ['US', 'North-America'], skipBorrowedFrom: EN_LOANS, excludeTags: ['Southern-US', 'New-England', 'New-York', 'New-York-City', 'African-American-Vernacular', 'AAVE', 'Appalachia', 'Midwest', 'Midwestern-US', 'Pennsylvania', 'Boston', 'California', 'Texas', 'Hawaii', 'Louisiana', 'Western-US'], freq: 'en', script: 'latn' },
+  { dialect: 'en-gb', languages: ['English'], regionTags: ['UK', 'British'], skipBorrowedFrom: EN_LOANS, excludeTags: ['Scotland', 'Scottish', 'Northern-England', 'Yorkshire', 'Geordie', 'Cockney', 'West-Country', 'Ireland', 'Irish', 'Northern-Ireland', 'Wales', 'Welsh', 'Liverpool', 'Scouse', 'Manchester', 'Birmingham', 'Cornwall', 'Lancashire', 'East-Anglia', 'Northumbria', 'Newcastle'], freq: 'en', script: 'latn' },
+  // Indian English keeps its Hindi and Urdu words (yaar, chai): they are what gives it away.
+  { dialect: 'en-in', languages: ['English'], regionTags: ['India', 'Indian-English'], skipBorrowedFrom: ['es', 'it', 'fr'], freq: 'en', script: 'latn' },
   { dialect: 'es-mx', languages: ['Spanish'], regionTags: ['Mexico'], freq: 'es', script: 'latn' },
   { dialect: 'es-es', languages: ['Spanish'], regionTags: ['Spain'], freq: 'es', script: 'latn' },
   { dialect: 'pt-br', languages: ['Portuguese'], regionTags: ['Brazil'], freq: 'pt_br', script: 'latn' },
@@ -60,11 +70,13 @@ export const WAVE_1: DialectImport[] = [
     languages: ['German'],
     regionTags: ['Germany'],
     otherRegions: ['Austria', 'Switzerland', 'Swiss', 'South-Tyrol', 'Liechtenstein', 'Luxembourg', 'Namibia', 'Bavaria', 'Swabia'],
+    // Regional German (Swabian "ha noi", Berlin "kieken") is not the German of Germany as a whole.
+    excludeTags: ['Bavaria', 'Bavarian', 'Swabia', 'Swabian', 'Berlin', 'Northern-Germany', 'Southern-Germany', 'Low-German', 'Saxony', 'Saxon', 'Rhineland', 'Franconia', 'Franconian', 'Ruhr', 'Palatinate', 'Hesse', 'Westphalia', 'Austria', 'Switzerland', 'Swiss'],
     freq: 'de',
     script: 'latn',
   },
   { dialect: 'tr-tr', languages: ['Turkish'], freq: 'tr', script: 'latn' },
-  { dialect: 'hi-in', languages: ['Hindi'], freq: 'hi', script: 'deva' },
+  { dialect: 'hi-in', languages: ['Hindi'], freq: 'hi', freqYear: 2016, skipLearnedFrom: ['sa'], script: 'deva' },
   { dialect: 'ar-eg', languages: ['Egyptian Arabic'], freq: 'ar', script: 'arab', keepFunctionWords: true },
   // Wiktionary has no separate Najdi Arabic dictionary (kaikki returns 404).
   { dialect: 'ar-sa', languages: ['Hijazi Arabic', 'Gulf Arabic'], freq: 'ar', script: 'arab', keepFunctionWords: true },
@@ -91,22 +103,32 @@ export const WAVE_1: DialectImport[] = [
 
 export const kaikkiUrl = (language: string) =>
   `https://kaikki.org/dictionary/${encodeURIComponent(language)}/kaikki.org-dictionary-${language.replace(/[^A-Za-z]/g, '')}.jsonl`;
-export const frequencyUrl = (code: string) =>
-  `https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/${code}/${code}_50k.txt`;
+export const frequencyUrl = (code: string, year = 2018) =>
+  `https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/${year}/${code}/${code}_50k.txt`;
 
 // Parts of speech that are not dialect vocabulary.
 const SKIP_POS = new Set(['name', 'character', 'symbol', 'prefix', 'suffix', 'infix', 'affix', 'letter', 'num', 'punct', 'romanization']);
 // Senses tagged like this are everyday speech, which is what a dialect dictionary is for.
 const EVERYDAY_TAGS = ['colloquial', 'informal', 'slang', 'familiar'];
 // Senses we never import.
-const SKIP_TAGS = new Set(['obsolete', 'archaic', 'historical', 'form-of', 'alt-of', 'misspelling', 'nonstandard-spelling', 'dialectal', 'rare-form', 'auxiliary']);
+const SKIP_TAGS = new Set(['obsolete', 'archaic', 'historical', 'form-of', 'alt-of', 'misspelling', 'nonstandard-spelling', 'dialectal', 'rare-form', 'auxiliary', 'literary', 'poetic']);
+// Senses from a trade or field ("car": a railway car, "long": a paper size, "leg": a paratrooper) are jargon, not the dialect.
+const JARGON_TOPICS = new Set([
+  'aviation', 'banking', 'botany', 'business', 'card-games', 'chemistry', 'chess', 'board-games', 'computing', 'engineering',
+  'finance', 'gambling', 'geography', 'geology', 'law', 'mathematics', 'medicine', 'military', 'mining', 'nautical', 'paper',
+  'physics', 'poker', 'printing', 'rail-transport', 'railways', 'sciences', 'stock-market', 'surveying', 'trading', 'zoology',
+]);
+// Wiktionary templates that mark a borrowing (args["2"] is the source language), and the learned (tatsama) kind.
+const BORROWED = new Set(['bor', 'bor+', 'ubor', 'lbor', 'slbor', 'obor']);
+const LEARNED = new Set(['lbor', 'slbor']);
 // Glosses that describe grammar or spelling rather than a meaning.
 const GRAMMAR_GLOSS =
-  /^(used (to|before|after|as|in|with|for)\b|(alternative|obsolete|archaic|dated|nonstandard) (form|spelling)|(plural|form|spelling|clipping|ellipsis|contraction|abbreviation|initialism|acronym) of\b|misspelling|eye dialect|pronunciation spelling|the (name of the )?letter\b)/i;
+  /^(used (to|before|after|as|in|with|for)\b|(alternative|obsolete|archaic|dated|nonstandard) (form|spelling)|(plural|form|spelling|clipping|ellipsis|contraction|abbreviation|initialism|acronym) of\b|misspelling|eye dialect|pronunciation spelling|the (name of the )?letter\b|a term of address for someone)/i;
 
 interface Sense {
   glosses?: string[];
   tags?: string[];
+  topics?: string[];
   form_of?: unknown;
   alt_of?: unknown;
   examples?: { text?: string; english?: string; translation?: string; type?: string }[];
@@ -119,6 +141,7 @@ interface KaikkiEntry {
   senses?: Sense[];
   sounds?: { ipa?: string }[];
   forms?: { form: string; tags?: string[] }[];
+  etymology_templates?: { name: string; args?: Record<string, string> }[];
 }
 
 interface Candidate {
@@ -138,6 +161,11 @@ interface Candidate {
   concept?: string;
   /** Every part of speech the word has in the language, including entries with no selected sense. */
   allPos: Set<string>;
+  /**
+   * A selected sense is the word's main (first) sense. When it isn't, the word's frequency belongs to
+   * other meanings: "girl" is frequent, but not as slang for cocaine.
+   */
+  main: boolean;
 }
 
 const REGISTER_ORDER = ['vulgar', 'casual', 'formal'] as const;
@@ -208,23 +236,42 @@ export function conceptFor(_word: string, sense: Sense, _cfg: DialectImport, con
   return undefined;
 }
 
+/** Whether the word is borrowed from one of `languages`, by the templates in its etymology. */
+export function borrowedFrom(entry: Pick<KaikkiEntry, 'etymology_templates'>, languages: string[] | undefined, learnedOnly = false): boolean {
+  if (!languages?.length) return false;
+  return (entry.etymology_templates ?? []).some(
+    (t) => (learnedOnly ? LEARNED : BORROWED).has(t.name) && languages.includes(t.args?.['2'] ?? ''),
+  );
+}
+
+/** The word's main sense: its first sense with a meaning. */
+const mainSense = (entry: KaikkiEntry) => entry.senses?.find((s) => s.glosses?.length);
+
 /** Selects the senses a dialect wants from one kaikki entry. */
 export function selectSenses(entry: KaikkiEntry, cfg: DialectImport, concepts?: ConceptIndex): Sense[] {
   if (SKIP_POS.has(entry.pos)) return [];
   if (letterCount(entry.word) < 2 || BARE_CLITICS.has(entry.word)) return []; // letters and bare clitics (ب، ال)
   if (cfg.script === 'latn' && /^\p{Lu}/u.test(entry.word)) return []; // proper nouns
+  if (borrowedFrom(entry, cfg.skipBorrowedFrom) || borrowedFrom(entry, cfg.skipLearnedFrom, true)) return [];
+  const main = mainSense(entry);
   return (entry.senses ?? []).filter((s) => {
     const tags = s.tags ?? [];
     if (!s.glosses?.length || s.form_of || s.alt_of) return false;
     if (tags.some((t) => SKIP_TAGS.has(t) || cfg.excludeTags?.includes(t))) return false;
+    if (s.topics?.some((t) => JARGON_TOPICS.has(t))) return false;
     if (s.glosses.every((g) => GRAMMAR_GLOSS.test(g.trim()))) return false;
-    if (FUNCTION_POS.has(entry.pos) && !cfg.keepFunctionWords && !conceptFor(entry.word, s, cfg, concepts, entry.pos)) return false;
+    const concept = conceptFor(entry.word, s, cfg, concepts, entry.pos);
+    if (FUNCTION_POS.has(entry.pos) && !cfg.keepFunctionWords && !concept) return false;
     if (!cfg.regionTags) return true;
-    if (tags.some((t) => cfg.regionTags!.includes(t))) return true;
+    const everyday = tags.some((t) => EVERYDAY_TAGS.includes(t));
+    if (tags.some((t) => cfg.regionTags!.includes(t))) {
+      // A regionalism is a word whose main meaning is regional (lorry), or a regional everyday sense
+      // (bread = money). A plain regional side sense of a common word ("school" as a fish school
+      // term, "long" as a paper size) is not what the dialect sounds like.
+      return s === main || everyday || Boolean(concept);
+    }
     // Default variety: untagged-for-region everyday senses belong to it.
-    return Boolean(
-      cfg.otherRegions && tags.some((t) => EVERYDAY_TAGS.includes(t)) && !tags.some((t) => cfg.otherRegions!.includes(t)),
-    );
+    return Boolean(cfg.otherRegions && everyday && !tags.some((t) => cfg.otherRegions!.includes(t)));
   });
 }
 
@@ -273,10 +320,14 @@ export async function collect(lines: AsyncIterable<string> | Iterable<string>, c
         pos: new Set(),
         everyday: false,
         allPos: seen.get(entry.word)!,
+        main: false,
       };
       c.pos.add(entry.pos);
       c.ipa ??= entry.sounds?.find((s) => s.ipa)?.ipa;
       for (const f of entry.forms ?? []) if (f.tags?.includes('romanization')) c.romanized.add(f.form);
+      if (senses.includes(mainSense(entry)!)) c.main = true;
+      // Only the first ordinary sense may link a concept: बाल is "hair" first, so it is not the word for "child".
+      const conceptSense = senses.find((s) => sensitiveLabels(s).length === 0);
       for (const s of senses) {
         const tags = s.tags ?? [];
         tags.forEach((t) => c.tags.add(t));
@@ -286,7 +337,7 @@ export async function collect(lines: AsyncIterable<string> | Iterable<string>, c
         const sensitive = sensitiveLabels(s);
         if (sensitive.length === 0) tags.forEach((t) => c.ordinaryTags.add(t));
         // A vulgar or offensive sense never stands for a core concept: core words go into briefings.
-        const concept = sensitive.length === 0 ? conceptFor(entry.word, s, cfg, concepts, entry.pos) : undefined;
+        const concept = s === conceptSense ? conceptFor(entry.word, s, cfg, concepts, entry.pos) : undefined;
         const en = s.glosses!.join('; ');
         if (c.meanings.some((m) => m.en === en)) continue;
         // Only Wiktionary's own usage examples; quotations from books and papers are left out.
@@ -341,13 +392,16 @@ export function toEntries(
     const conceptBonus = c?.concept ? -1e15 : 0;
     return conceptBonus + baseRank(w, c);
   };
+  // Without a frequency (no list, or not in it): everyday senses first, then words with examples, then shorter words.
+  const UNLISTED = 1e12;
+  const heuristic = (w: string, c: Candidate | undefined) =>
+    (c?.everyday ? 0 : 2_000) + (c?.meanings.some((m) => m.examples.length) ? 0 : 1_000) + w.length;
   const baseRank = (w: string, c: Candidate | undefined) => {
-    if (!opts.ranks) {
-      // No frequency list (e.g. Hindi): everyday senses first, then words with examples, then shorter words.
-      return (c?.everyday ? 0 : 2_000) + (c?.meanings.some((m) => m.examples.length) ? 0 : 1_000) + w.length;
-    }
-    const r = opts.ranks.get(normalize(w, cfg)) ?? 1e12;
-    return c?.everyday ? (r + 1) * EVERYDAY_BOOST : r + 1;
+    if (!opts.ranks) return heuristic(w, c);
+    // A word's frequency counts only for its main meaning (see Candidate.main).
+    const listed = c?.main === false ? undefined : opts.ranks.get(normalize(w, cfg));
+    if (listed === undefined) return UNLISTED + heuristic(w, c);
+    return c?.everyday ? (listed + 1) * EVERYDAY_BOOST : listed + 1;
   };
   const existing = opts.existingWords ?? new Set<string>();
   const slugs = new Set(opts.existingSlugs ?? []);
@@ -417,7 +471,7 @@ async function main() {
     console.log(
       JSON.stringify({
         languages: languages.map((l) => ({ language: l, url: kaikkiUrl(l), dialects: cfgs.filter((c) => c.languages.includes(l)).map((c) => c.dialect) })),
-        frequency: [...new Set(cfgs.map((c) => c.freq).filter(Boolean))].map((f) => ({ code: f, url: frequencyUrl(f!) })),
+        frequency: [...new Map(cfgs.filter((c) => c.freq).map((c) => [c.freq!, frequencyUrl(c.freq!, c.freqYear)])).entries()].map(([code, url]) => ({ code, url })),
       }),
     );
     return;
