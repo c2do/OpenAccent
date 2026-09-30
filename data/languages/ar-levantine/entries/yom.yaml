@@ -27,3 +27,5 @@ added_by: wiktionary-import
 attested_by:
   - name: maknuune
     ref: https://github.com/CAMeL-Lab/maknuune_lexicon
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (44 sentence pairs)

@@ -25,3 +25,8 @@ source:
   ref: https://en.wiktionary.org/wiki/%D8%A7%D9%84%D9%86%D9%87%D8%A7%D8%B1%D8%AF%D9%87#Egyptian_Arabic
   license: CC-BY-SA-4.0
 added_by: wiktionary-import
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (21 sentence pairs)
+  - name: tatoeba
+    ref: https://tatoeba.org (7 sentence pairs)

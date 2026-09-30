@@ -28,3 +28,6 @@ source:
   ref: https://en.wiktionary.org/wiki/%D9%87%D9%88%D9%86%D9%8A%D9%83#North_Levantine_Arabic
   license: CC-BY-SA-4.0
 added_by: wiktionary-import
+attested_by:
+  - name: flores
+    ref: https://github.com/facebookresearch/flores (5 sentence pairs)
