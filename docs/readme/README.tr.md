@@ -18,9 +18,9 @@
 
 > 🤖 Bu çeviri bir yapay zekâ tarafından hazırlandı. Türkçe senin dilinse, düzeltmemize yardım et — bu proje tam da bu tür şeyleri düzeltmek için var.
 
-OpenAccent, dünyadaki ağızların ülkelere göre düzenlenmiş, topluluk tarafından oluşturulan ve anadili konuşanlarca doğrulanan açık kaynaklı bir sözlüğüdür. Ayrıca *senin* nasıl konuştuğunu hatırlayan kişisel bir hafıza tutar. İkisi de [MCP](https://modelcontextprotocol.io) üzerinden Claude gibi yapay zekâ asistanlarına sunulur.
+OpenAccent, dünyadaki ağızların ülkelere göre düzenlenmiş, topluluk tarafından oluşturulan açık kaynaklı bir sözlüğüdür. Açık kaynaklardan ve yapay zekâ taslaklarından yola çıkar; anadili konuşanlar onu kelime kelime gözden geçirir: şimdilik yalnızca birkaç kelime doğrulandı ve her yanıt ne kadar emin olduğunu söyler. Ayrıca *senin* nasıl konuştuğunu hatırlayan kişisel bir hafıza tutar. İkisi de [MCP](https://modelcontextprotocol.io) üzerinden Claude gibi yapay zekâ asistanlarına sunulur.
 
-> **Durum: erken geliştirme.** Her şey yerelde, kendi bilgisayarında çalışıyor. En çok konuşulan Arapça ağızlarla başlıyoruz; açık kaynaklardan dolduruluyor ve anadili konuşanlarca gözden geçiriliyor. Kurulum: [`docs/setup.md`](../../docs/setup.md).
+> **Durum: erken geliştirme.** Her şey yerelde, kendi bilgisayarında çalışıyor. En çok konuşulan Arapça ağızlarla başlıyoruz; açık kaynaklardan dolduruluyor ve anadili konuşanların incelemesini bekliyor. Kurulum: [`docs/setup.md`](../../docs/setup.md).
 
 ## Sorun
 

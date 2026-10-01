@@ -103,6 +103,15 @@ export function validateData(root: string): DataError[] {
     }
   };
 
+  // "Not this dialect" markers must name where the word comes from.
+  for (const { dialect, file } of dialects.values()) {
+    dialect.avoid.forEach((a, i) => {
+      if (a.from !== 'msa' && !dialects.has(a.from)) {
+        errors.push({ file, message: `avoid.${i}: unknown dialect "${a.from}" (use a dialect ID, or "msa")` });
+      }
+    });
+  }
+
   // Samples
   for (const { file, data, folder, slug } of raw.samples) {
     if (!SLUG.test(slug)) {

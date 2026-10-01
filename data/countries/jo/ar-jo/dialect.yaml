@@ -5,3 +5,5 @@ region: { en: "Jordan", ar: "الأردن" }
 script: arab
 reviewers: []   # needs a native reviewer
 status: proposed
+avoid:   # words AI slips in that are not this dialect (draft list from guide.md, needs a native reviewer)
+  - { word: هيدا, from: ar-lb, use: [هاد] }

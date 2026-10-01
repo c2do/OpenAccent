@@ -6,3 +6,12 @@ script: arab
 codes: { bcp47: ars }
 reviewers: []   # needs a native reviewer
 status: proposed
+avoid:   # words AI slips in that are not this dialect (draft list from guide.md, needs a native reviewer)
+  - { word: بدي, from: ar-levantine, use: [أبغى] }
+  - { word: هلق, from: ar-levantine, use: [الحين, دحين] }
+  - { word: عايز, from: ar-eg, use: [أبغى] }
+  - { word: دلوقتي, from: ar-eg, use: [الحين, دحين] }
+  - { word: ازيك, from: ar-eg, use: [كيفك, وش لونك] }
+  - { word: اوي, from: ar-eg, use: [مرّة] }
+  - { word: سوف, from: msa, use: [] }
+  - { word: لماذا, from: msa, use: [ليش] }

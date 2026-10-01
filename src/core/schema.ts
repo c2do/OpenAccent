@@ -34,6 +34,23 @@ export const DialectSchema = z.object({
   status: z.enum(['proposed', 'active']),
   /** Optional [spoken, written] pairs for search, e.g. [["تش", "ك"], ["ك", "ق"]] for fallahi. Never chained. */
   sound_rules: z.array(z.tuple([z.string().min(1), z.string()])).optional(),
+  /**
+   * Words people of this dialect know are not theirs, which AI often slips in (Egyptian دلوقتي in a
+   * Levantine reply, MSA سوف). check_reply flags these, and inherits them down the dialect tree.
+   * A hand-kept list: with incomplete data, "the dictionary lists it under another dialect" is not
+   * evidence that a word is foreign (بس, والله and الحين are said almost everywhere).
+   */
+  avoid: z
+    .array(
+      z.object({
+        word: z.string().min(1),
+        /** Where the word comes from: a dialect ID, or "msa" for Modern Standard Arabic. */
+        from: z.string().min(1),
+        /** What to say instead, most common first. */
+        use: z.array(z.string().min(1)).default([]),
+      }),
+    )
+    .default([]),
 });
 
 export const CountrySchema = z.object({

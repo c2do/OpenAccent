@@ -100,6 +100,12 @@ describe('validateData', () => {
     ]);
   });
 
+  it('checks where "avoid" markers come from', () => {
+    baseTree();
+    write(dialectFile('ar-ps'), dialect('ar-ps', { parent: 'ar', avoid: [{ word: 'سوف', from: 'msa' }, { word: 'دلوقتي', from: 'ar-zz' }] }));
+    expect(messages()).toEqual([expect.stringMatching(/avoid\.1: unknown dialect "ar-zz"/)]);
+  });
+
   it('requires an independence group for every allowed dataset', () => {
     baseTree();
     write('sources.yaml', { allowed: { maknuune: { title: 'Maknuune', license: 'CC-BY-SA-4.0', url: 'https://example.org' } } });

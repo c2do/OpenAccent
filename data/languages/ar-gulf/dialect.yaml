@@ -5,3 +5,12 @@ script: arab
 codes: { bcp47: afb, iso639_3: afb, glottocode: gulf1241 }
 reviewers: []
 status: proposed
+avoid:   # words AI slips in that are not this dialect (draft list from guide.md, needs a native reviewer)
+  - { word: بدي, from: ar-levantine, use: [أبي, أبغى] }
+  - { word: هلق, from: ar-levantine, use: [الحين] }
+  - { word: عايز, from: ar-eg, use: [أبي, أبغى] }
+  - { word: دلوقتي, from: ar-eg, use: [الحين] }
+  - { word: ازيك, from: ar-eg, use: [شلونك] }
+  - { word: اوي, from: ar-eg, use: [وايد] }
+  - { word: سوف, from: msa, use: [] }
+  - { word: لماذا, from: msa, use: [ليش] }

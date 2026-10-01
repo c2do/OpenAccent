@@ -123,4 +123,43 @@ describe('checkReply', () => {
     });
     expect(checkReply(slurDict, empty, 'عبد', 'ar-ps-fallahi', { purpose: 'song' }).issues[0]?.kind).toBe('sensitive');
   });
+
+  describe('other dialects: hand-kept markers, not scarcity', () => {
+    it('does not flag a word just because the dictionary lists it only under another dialect', () => {
+      // حالاً (Madani, draft) is not in Fallahi's data, but nothing says Fallahi speakers don't say it.
+      expect(checkReply(dict, empty, 'حالاً بجيك', 'ar-ps-fallahi').issues).toEqual([]);
+    });
+
+    it('lets a word in the user’s own data win over an inherited marker', () => {
+      const b = fixtureBundle();
+      b.dialects = b.dialects.map((x) => (x.id === 'ar-ps' ? { ...x, avoid: [{ word: 'الحين', from: 'ar-eg', use: ['هلّأ'] }] } : x));
+      // الحين is a Fallahi entry, so a Fallahi user is not told to avoid it; a Madani user is.
+      expect(checkReply(new Dictionary(b), empty, 'الحين بجيك', 'ar-ps-fallahi').issues).toEqual([]);
+      expect(checkReply(new Dictionary(b), empty, 'الحين بجيك', 'ar-ps-madani').issues[0]).toMatchObject({ kind: 'other_dialect', suggestion: 'هلّأ' });
+    });
+
+    it('does not flag sub-dialect words for a user of the parent dialect', () => {
+      // كيف is filed under Fallahi tshaf; a Fallahi user is not told it is another dialect.
+      expect(checkReply(dict, empty, 'كيف حالك', 'ar-ps-fallahi').issues).toEqual([]);
+    });
+
+    it('drops markers from a dialect the user also speaks', () => {
+      const both = MemorySchema.parse({ ...empty, profile: { dialect: 'ar-ps-fallahi', dialects: ['ar-eg'] } });
+      expect(checkReply(dict, both, 'دلوقتي بجيك', 'ar-ps-fallahi').issues).toEqual([]);
+    });
+
+    it('flags from data only when native speakers verified both words', () => {
+      const b = fixtureBundle();
+      b.dialects = b.dialects.map((x) => (x.id === 'ar-ps-fallahi' ? { ...x, avoid: [] } : x));
+      const verified = (v: boolean) => {
+        const c = structuredClone(b);
+        c.entries = c.entries.map((x) => (x.id === 'ar-eg/dilwaqti' ? { ...x, concept: 'now', ...(v ? { status: 'verified' as const, verified_by: ['rev'] } : {}) } : x));
+        return new Dictionary(c);
+      };
+      expect(checkReply(verified(false), empty, 'دلوقتي بجيك', 'ar-ps-fallahi').issues).toEqual([]);
+      expect(checkReply(verified(true), empty, 'دلوقتي بجيك', 'ar-ps-fallahi').issues).toEqual([
+        expect.objectContaining({ text: 'دلوقتي', kind: 'other_dialect', suggestion: 'هسّع' }),
+      ]);
+    });
+  });
 });

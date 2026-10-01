@@ -6,3 +6,14 @@ script: arab
 codes: { bcp47: apc, iso639_3: apc, glottocode: nort3139 }
 reviewers: []
 status: proposed
+avoid:   # words AI slips in that are not this dialect (draft list from guide.md, needs a native reviewer)
+  - { word: دلوقتي, from: ar-eg, use: [هلّق, هسّا] }
+  - { word: ازيك, from: ar-eg, use: [كيفك] }
+  - { word: اوي, from: ar-eg, use: [كتير] }
+  - { word: عايز, from: ar-eg, use: [بدّي] }
+  - { word: وايد, from: ar-gulf, use: [كتير] }
+  - { word: ابغى, from: ar-gulf, use: [بدّي] }
+  - { word: الحين, from: ar-gulf, use: [هلّق, هسّا] }
+  - { word: سوف, from: msa, use: [رح] }
+  - { word: لماذا, from: msa, use: [ليش] }
+  - { word: ماذا, from: msa, use: [شو] }

@@ -16,9 +16,9 @@
   🌐 <b>English</b> · <a href="docs/readme/README.ar.md">العربية</a> · <a href="docs/readme/README.es.md">Español</a> · <a href="docs/readme/README.pt-BR.md">Português</a> · <a href="docs/readme/README.fr.md">Français</a> · <a href="docs/readme/README.de.md">Deutsch</a> · <a href="docs/readme/README.hi.md">हिन्दी</a> · <a href="docs/readme/README.tr.md">Türkçe</a>
 </p>
 
-OpenAccent is an open-source, community-built dictionary of the world's dialects, organized by country and verified by native speakers. It also keeps a personal memory of how *you* speak. Both are served to AI assistants like Claude through [MCP](https://modelcontextprotocol.io).
+OpenAccent is an open-source, community-built dictionary of the world's dialects, organized by country. It starts from open sources and AI drafts, and native speakers review it word by word: today only a handful of words are verified, and every answer says how sure it is. It also keeps a personal memory of how *you* speak. Both are served to AI assistants like Claude through [MCP](https://modelcontextprotocol.io).
 
-> **Status: early development.** Everything runs locally on your computer. We're starting with the most widely spoken Arabic dialects, filled from open sources and reviewed by native speakers. Install: [`docs/setup.md`](docs/setup.md).
+> **Status: early development.** Everything runs locally on your computer. We're starting with the most widely spoken Arabic dialects, filled from open sources and waiting for native speakers to review them. Install: [`docs/setup.md`](docs/setup.md).
 
 ## The problem
 
