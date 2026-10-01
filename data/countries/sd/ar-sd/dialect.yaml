@@ -6,3 +6,16 @@ script: arab
 codes: { bcp47: apd, iso639_3: apd }
 reviewers: []   # needs a native reviewer
 status: proposed
+avoid:   # words AI slips in that are not this dialect (draft list from guide.md, needs a native reviewer)
+  - { word: عايز, from: ar-eg, use: [داير] }
+  - { word: ازاي, from: ar-eg, use: [كيف] }
+  - { word: دلوقتي, from: ar-eg, use: [هسّع] }
+  - { word: احنا, from: ar-eg, use: [نحن] }
+  - { word: ماعرفش, from: ar-eg, use: [ما عارف] }
+  - { word: شو, from: ar-levantine, use: [شنو] }
+  - { word: هلق, from: ar-levantine, use: [هسّع] }
+  - { word: بدي, from: ar-levantine, use: [داير] }
+  - { word: وايد, from: ar-gulf, use: [شديد] }
+  - { word: شلونك, from: ar-gulf, use: [كيفك] }
+  - { word: سوف, from: msa, use: [] }
+  - { word: لماذا, from: msa, use: [ليه] }

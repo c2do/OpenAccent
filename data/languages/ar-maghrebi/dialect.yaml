@@ -5,3 +5,14 @@ region: { en: "Morocco, Algeria, Tunisia, Libya", ar: المغرب والجزا�
 script: arab
 reviewers: []
 status: proposed
+avoid:   # words AI slips in that are not this dialect (draft list from guide.md, needs a native reviewer)
+  - { word: عايز, from: ar-eg, use: [] }
+  - { word: دلوقتي, from: ar-eg, use: [] }
+  - { word: ازيك, from: ar-eg, use: [] }
+  - { word: اوي, from: ar-eg, use: [] }
+  - { word: بدي, from: ar-levantine, use: [] }
+  - { word: هلق, from: ar-levantine, use: [] }
+  - { word: وايد, from: ar-gulf, use: [] }
+  - { word: الحين, from: ar-gulf, use: [] }
+  - { word: سوف, from: msa, use: [] }
+  - { word: لماذا, from: msa, use: [] }

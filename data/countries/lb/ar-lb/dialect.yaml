@@ -6,3 +6,6 @@ script: arab
 codes: { bcp47: apc-LB }
 reviewers: []   # needs a native reviewer
 status: proposed
+avoid:   # words AI slips in that are not this dialect (draft list from guide.md, needs a native reviewer)
+  - { word: هسا, from: ar-jo, use: [هلّق] }
+  - { word: اشي, from: ar-jo, use: [شي] }

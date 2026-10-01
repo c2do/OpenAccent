@@ -18,9 +18,9 @@
 
 > 🤖 Diese Übersetzung wurde von einer KI entworfen. Wenn Deutsch deine Sprache ist, hilf uns, sie zu verbessern – genau so etwas will dieses Projekt beheben.
 
-OpenAccent ist ein Open-Source-Wörterbuch der Dialekte der Welt, nach Ländern geordnet, von der Community aufgebaut und von Muttersprachlern geprüft. Dazu kommt ein persönliches Gedächtnis dafür, wie *du* sprichst. Beides steht KI-Assistenten wie Claude über [MCP](https://modelcontextprotocol.io) zur Verfügung.
+OpenAccent ist ein Open-Source-Wörterbuch der Dialekte der Welt, nach Ländern geordnet, von der Community aufgebaut. Es beginnt mit offenen Quellen und KI-Entwürfen, und Muttersprachler prüfen es Wort für Wort: Bisher sind erst wenige Wörter geprüft, und jede Antwort sagt, wie sicher sie ist. Dazu kommt ein persönliches Gedächtnis dafür, wie *du* sprichst. Beides steht KI-Assistenten wie Claude über [MCP](https://modelcontextprotocol.io) zur Verfügung.
 
-> **Status: frühe Entwicklung.** Alles läuft lokal auf deinem Rechner. Wir fangen mit den meistgesprochenen arabischen Dialekten an, gefüllt aus offenen Quellen und von Muttersprachlern geprüft. Installation: [`docs/setup.md`](../../docs/setup.md).
+> **Status: frühe Entwicklung.** Alles läuft lokal auf deinem Rechner. Wir fangen mit den meistgesprochenen arabischen Dialekten an, gefüllt aus offenen Quellen, die noch auf die Prüfung durch Muttersprachler warten. Installation: [`docs/setup.md`](../../docs/setup.md).
 
 ## Das Problem
 

@@ -299,7 +299,9 @@ All tools are prefixed `openaccent_`, accept Arabic, English and Arabizi, and re
 | `openaccent_list_dialects` | Dialect tree with entry counts and verified %. | read-only |
 | `openaccent_remember` | Save a profile field, word, correction or style note. | write, idempotent-ish |
 | `openaccent_forget` | Delete memory items by ID or text match. | destructive |
-| `openaccent_check_reply` | Check a draft reply before sending. Flags words from other dialects, `rare`/`dated` words, and words the user corrected or replaced. Returns suggested swaps. | read-only |
+| `openaccent_check_reply` | Check a draft reply before sending. Flags words from other dialects, `rare`/`dated` words, and words the user corrected or replaced. Returns suggested swaps. | writes the voice profile when given `user_message` (idempotent) |
+
+**Which words count as "another dialect" (decision, 2026-10-01).** The strategy review found that `check_reply` flagged ordinary words (والله, بس, مش, الحين) because the dictionary listed them only under another dialect, and suggested replacements that changed the meaning. With incomplete data, that is not evidence. Now a word is flagged as another dialect only when (1) it is on the hand-kept `avoid` list of the user's dialect or one of its ancestors (`dialect.yaml`), or (2) native speakers verified both the other dialect's word (diagnostic, see `Dictionary.isDiagnostic`) and the user's dialect's word for the same concept. A word in the user's own branch or its sub-dialects is never flagged. `tests/data/check-native.test.ts` runs ordinary sentences in each dialect against the real data and requires zero issues; add a sentence whenever someone reports a false flag.
 | `openaccent_suggest_entry` | Build a pre-filled GitHub issue-form URL (add or fix a word) for the user to open. Only after the user agrees. | read-only (no network) |
 
 ### `check_reply` in detail

@@ -6,3 +6,12 @@ script: arab
 codes: { bcp47: arq, iso639_3: arq }
 reviewers: []   # needs a native reviewer
 status: proposed
+avoid:   # words AI slips in that are not this dialect (draft list from guide.md, needs a native reviewer)
+  - { word: دابا, from: ar-ma, use: [درك] }
+  - { word: ديال, from: ar-ma, use: [تاع] }
+  - { word: مزيان, from: ar-ma, use: [مليح] }
+  - { word: توا, from: ar-tn, use: [درك] }
+  - { word: برشا, from: ar-tn, use: [بزاف] }
+  - { word: باهي, from: ar-tn, use: [مليح] }
+  - { word: متاع, from: ar-tn, use: [تاع] }
+  - { word: شنوة, from: ar-tn, use: [واش] }

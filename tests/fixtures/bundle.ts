@@ -50,6 +50,10 @@ export function fixtureBundle(): Bundle {
         name: { en: 'Fallahi' },
         script: 'arab',
         sound_rules: [['ك', 'ق']],
+        avoid: [
+          { word: 'دلوقتي', from: 'ar-eg', use: ['هسّع'] },
+          { word: 'هلّأ', from: 'ar-ps-madani', use: ['هسّع', 'الحين'] },
+        ],
       }),
       d({ id: 'ar-ps-fallahi-kaf', parent: 'ar-ps-fallahi', name: { en: 'Fallahi kaf' }, script: 'arab' }),
       d({
@@ -63,7 +67,7 @@ export function fixtureBundle(): Bundle {
       d({ id: 'ar-eg', parent: 'ar', name: { en: 'Egyptian' }, script: 'arab' }),
       d({ id: 'en', name: { en: 'English' }, script: 'latn' }),
       d({ id: 'en-us-general', parent: 'en', name: { en: 'General American' }, script: 'latn' }),
-      d({ id: 'en-us-south', parent: 'en', name: { en: 'Southern' }, script: 'latn' }),
+      d({ id: 'en-us-south', parent: 'en', name: { en: 'Southern' }, script: 'latn', avoid: [{ word: 'you guys', from: 'en-us-general', use: ["y'all"] }] }),
       d({ id: 'fr-fr', name: { en: 'French (France)' }, script: 'latn' }),
       d({ id: 'es-mx', name: { en: 'Mexican Spanish' }, script: 'latn' }),
     ],

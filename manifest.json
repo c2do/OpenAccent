@@ -4,7 +4,7 @@
   "display_name": "OpenAccent",
   "version": "0.1.0",
   "description": "Talk to AI like someone from home: a community dialect dictionary and a personal memory of how you speak.",
-  "long_description": "OpenAccent helps Claude speak your dialect without mixing dialects, drifting, or inventing words. It combines a community-built, native-speaker-verified dictionary (organized by country) with a personal memory of your own words and corrections, which stays on your computer. It also gives dialect cards for writing stories, songs, scripts and game dialogue, and exports a short prompt for any AI.",
+  "long_description": "OpenAccent helps Claude speak your dialect without mixing dialects, drifting, or inventing words. It combines a community-built dictionary (organized by country, drawn from open sources and being reviewed by native speakers; most words are still drafts) with a personal memory of your own words and corrections, which stays on your computer. It also gives dialect cards for writing stories, songs, scripts and game dialogue, and exports a short prompt for any AI.",
   "author": {
     "name": "OpenAccent contributors",
     "url": "https://github.com/c2do/OpenAccent"

@@ -6,3 +6,15 @@ script: arab
 codes: { bcp47: arz }
 reviewers: []   # needs a native reviewer
 status: proposed
+avoid:   # words AI slips in that are not this dialect (draft list from guide.md, needs a native reviewer)
+  - { word: شو, from: ar-levantine, use: [إيه] }
+  - { word: هلق, from: ar-levantine, use: [دلوقتي] }
+  - { word: بدي, from: ar-levantine, use: [عايز] }
+  - { word: هيك, from: ar-levantine, use: [كده] }
+  - { word: هاد, from: ar-levantine, use: [ده] }
+  - { word: وايد, from: ar-gulf, use: [أوي, كتير] }
+  - { word: شلونك, from: ar-gulf, use: [إزيك] }
+  - { word: سوف, from: msa, use: [] }
+  - { word: لماذا, from: msa, use: [ليه] }
+  - { word: نحن, from: msa, use: [إحنا] }
+  - { word: الان, from: msa, use: [دلوقتي] }

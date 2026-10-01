@@ -6,3 +6,10 @@ script: arab
 codes: { bcp47: ary }
 reviewers: []   # needs a native reviewer
 status: proposed
+avoid:   # words AI slips in that are not this dialect (draft list from guide.md, needs a native reviewer)
+  - { word: توا, from: ar-tn, use: [دابا] }
+  - { word: برشا, from: ar-tn, use: [بزاف] }
+  - { word: باهي, from: ar-tn, use: [مزيان] }
+  - { word: متاع, from: ar-tn, use: [ديال] }
+  - { word: تاع, from: ar-dz, use: [ديال] }
+  - { word: درك, from: ar-dz, use: [دابا] }

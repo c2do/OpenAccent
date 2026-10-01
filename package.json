@@ -1,7 +1,7 @@
 {
   "name": "openaccent-mcp",
   "version": "0.0.1",
-  "description": "Community-built, native-speaker-verified dialect dictionary with personal dialect memory, served over MCP.",
+  "description": "Community-built dialect dictionary (open sources, being reviewed by native speakers) with personal dialect memory, served over MCP.",
   "license": "MIT",
   "type": "module",
   "engines": {

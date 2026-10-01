@@ -18,9 +18,9 @@
 
 > 🤖 Esta traducción la redactó una IA. Si el español es tu lengua, ayúdanos a mejorarla: es justo el tipo de cosa que este proyecto quiere arreglar.
 
-OpenAccent es un diccionario de código abierto de los dialectos del mundo, organizado por país, construido por la comunidad y verificado por hablantes nativos. También guarda una memoria personal de cómo hablas *tú*. Ambos llegan a asistentes de IA como Claude a través de [MCP](https://modelcontextprotocol.io).
+OpenAccent es un diccionario de código abierto de los dialectos del mundo, organizado por país, construido por la comunidad. Parte de fuentes abiertas y borradores de IA, y hablantes nativos lo revisan palabra por palabra: por ahora solo unas pocas palabras están verificadas, y cada respuesta dice cuán segura es. También guarda una memoria personal de cómo hablas *tú*. Ambos llegan a asistentes de IA como Claude a través de [MCP](https://modelcontextprotocol.io).
 
-> **Estado: desarrollo temprano.** Todo funciona en local, en tu equipo. Empezamos por los dialectos árabes más hablados, llenados con fuentes abiertas y revisados por hablantes nativos. Instalación: [`docs/setup.md`](../../docs/setup.md).
+> **Estado: desarrollo temprano.** Todo funciona en local, en tu equipo. Empezamos por los dialectos árabes más hablados, llenados con fuentes abiertas y a la espera de que los revisen hablantes nativos. Instalación: [`docs/setup.md`](../../docs/setup.md).
 
 ## El problema
 

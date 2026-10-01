@@ -38,8 +38,18 @@ export function checkReply(
   const ownWords = new Set(memory.words.map((w) => norm(w.say)));
   // Words the user keeps writing themselves are theirs too (learned from their messages).
   for (const o of memory.voice.own) if (o.count >= 2) ownWords.add(o.word);
+  // Hand-kept "not this dialect" markers of the user's dialect and its ancestors (see DialectSchema.avoid),
+  // minus words from dialects the user also speaks.
+  const avoid = new Map<string, { word: string; from: string; use: string[] }>();
+  for (const d of dict.branch(dialect)) {
+    for (const a of dict.getDialect(d)?.avoid ?? []) {
+      const key = norm(a.word);
+      if (!branch.includes(a.from) && !avoid.has(key)) avoid.set(key, a);
+    }
+  }
   const known = (form: string) =>
-    corrections.has(form) || replaced.has(form) || ownWords.has(form) || dict.findByForm(form, dialect).length > 0;
+    corrections.has(form) || replaced.has(form) || ownWords.has(form) || avoid.has(form) || dict.findByForm(form, dialect).length > 0;
+  const sourceName = (from: string) => (from === 'msa' ? 'Modern Standard Arabic' : (dict.getDialect(from)?.name.en ?? from));
 
   const bestSuggestion = (entries: BundledEntry[]) => {
     const own = entries.find((e) => ownWords.has(norm(e.word)));
@@ -59,8 +69,19 @@ export function checkReply(
     if (ownWords.has(form)) return undefined;
 
     const entries = dict.findByForm(form, dialect);
+    // The user's dialect, its ancestors, and its sub-dialects (a Jordanian word is Levantine too).
+    const mine = entries.filter((e) => branch.includes(e.dialect) || dict.branch(e.dialect).includes(dialect));
+    const avoided = avoid.get(form);
+    if (avoided && mine.length === 0) {
+      const use = avoided.use.find((u) => ownWords.has(norm(u))) ?? avoided.use[0];
+      return {
+        text: form,
+        kind: 'other_dialect',
+        reason: `This is ${sourceName(avoided.from)}, not the user's dialect.`,
+        ...(use ? { suggestion: use } : {}),
+      };
+    }
     if (entries.length === 0) return undefined;
-    const mine = entries.filter((e) => branch.includes(e.dialect));
 
     // Vulgar or offensive in every sense? Stories, songs and scripts may swear; nothing uses a slur unprompted.
     const relevant = mine.length > 0 ? mine : entries;
@@ -113,9 +134,14 @@ export function checkReply(
       return undefined;
     }
 
-    // Only in other dialects. Flag it only when the user's dialect has its own word for it.
+    // Only in other dialects. The dictionary is incomplete, so that alone proves nothing (بس, والله,
+    // الحين are said almost everywhere). Flag it only when native speakers verified both sides: a word
+    // that gives its dialect away, and the user's dialect's own word for the same concept.
     for (const other of entries) {
-      const equivalents = dict.equivalentsIn(other, dialect);
+      if (other.status !== 'verified' || !other.concept || !dict.isDiagnostic(other)) continue;
+      const equivalents = dict
+        .equivalentsIn(other, dialect)
+        .filter((e) => e.status === 'verified' && e.concept === other.concept);
       if (equivalents.length > 0) {
         const name = dict.getDialect(other.dialect)?.name.en ?? other.dialect;
         return {
