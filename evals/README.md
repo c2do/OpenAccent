@@ -1,5 +1,7 @@
 # Evals: does OpenAccent actually help?
 
+> **The deciding test is the blind one in [`blind/`](blind/README.md):** native speakers compare replies without and with the paste-in prompt, without knowing which is which. The automatic scores below use OpenAccent's own word lists, so they can show regressions but can't prove that replies sound like home.
+
 Every prompt in `prompts/<dialect>.yaml` is sent to Claude twice:
 
 - **baseline:** no system prompt.

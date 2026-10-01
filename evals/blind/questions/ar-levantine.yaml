@@ -1,0 +1,14 @@
+# Blind test questions for Levantine (South Levantine / Palestinian–Jordanian judges).
+# kind: same (asked in the dialect), english (asked in English for dialect output), long (a long chat).
+dialect: ar-levantine
+questions:
+  - { id: q01, kind: same, text: "كيفك؟ شو عامل اليوم؟" }
+  - { id: q02, kind: same, text: "بدي أطبخ إشي سريع للعشا، شو بتقترح؟" }
+  - { id: q03, kind: same, text: "صاحبي زعلان مني لأني نسيت عيد ميلاده، شو أحكيله؟" }
+  - { id: q04, kind: same, text: "احكيلي نكتة" }
+  - { id: q05, kind: same, text: "اشرحلي شو يعني ذكاء اصطناعي بكلمتين" }
+  - { id: q06, kind: same, text: "اكتبلي رسالة لإمي إني رح أتأخر عالبيت" }
+  - { id: q07, kind: english, text: "Write a short WhatsApp message in Palestinian Arabic inviting my cousins to dinner on Friday." }
+  - { id: q08, kind: english, text: "How would a Jordanian say 'I'm really tired, I'll call you tomorrow'? Write it like a text message." }
+  - { id: q09, kind: english, text: "Write a 4-line bedtime story in Levantine Arabic that I can read to my son." }
+  - { id: q10, kind: long, text: "ابدأ محادثة بـ «بدي أخطط رحلة عالبحر الميت مع العيلة» وكمّل 15 رسالة طبيعية (وين ننام، شو ناخد، قديش بتكلّف…). الصق آخر 3 ردود بس." }

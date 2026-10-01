@@ -27,6 +27,7 @@
     "audit": "tsx scripts/audit-data.ts",
     "eval:manual": "tsx scripts/eval-manual.ts",
     "build:prompts": "tsx scripts/build-prompts.ts",
+    "blind": "tsx scripts/blind.ts",
     "prepublishOnly": "npm run validate && npm test && npm run build"
   },
   "repository": {
