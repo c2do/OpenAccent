@@ -1,0 +1,18 @@
+name: "Become a reviewer / صير مراجع للهجتك"
+description: "You grew up speaking a dialect and want to check its words and guide."
+title: "[reviewer] "
+labels: [reviewer]
+body:
+  - type: markdown
+    attributes:
+      value: "Reviewers mark words as verified. That is what makes OpenAccent trustworthy: nothing is verified until someone who grew up speaking the dialect says so. / المراجعين هم اللي بيخلوا الكلمات «متحقَّق منها»."
+  - type: input
+    id: dialect
+    attributes: { label: "Your dialect, and city or region / لهجتك ومدينتك", placeholder: "Palestinian, Ramallah villages" }
+    validations: { required: true }
+  - type: textarea
+    id: background
+    attributes: { label: "A line about you (optional) / سطر عنك (اختياري)" }
+  - type: dropdown
+    id: time
+    attributes: { label: "How much time can you give? / قديش وقت بتقدر تعطي؟", options: ["A few words now and then / كم كلمة كل فترة", "An hour a week / ساعة بالأسبوع", "More / أكثر"] }

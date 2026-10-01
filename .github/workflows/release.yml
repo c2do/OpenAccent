@@ -1,7 +1,8 @@
 name: Release
 
 # Pushing a tag like v0.1.0 builds openaccent.mcpb (the one-click Claude Desktop extension,
-# which runs locally) and attaches it to a GitHub Release.
+# which runs locally), attaches it to a GitHub Release, and publishes openaccent-mcp to npm when
+# the NPM_TOKEN secret is set. The tag must match the version in package.json and manifest.json.
 on:
   push:
     tags: ['v*']
@@ -19,6 +20,11 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm ci
+      - name: Tag matches package.json and manifest.json
+        run: |
+          v="${GITHUB_REF_NAME#v}"
+          test "$(node -p "require('./package.json').version")" = "$v"
+          test "$(node -p "require('./manifest.json').version")" = "$v"
       - run: npm run validate
       - run: npm test
       - run: npm run pack:mcpb
@@ -26,3 +32,11 @@ jobs:
         with:
           files: openaccent.mcpb
           generate_release_notes: true
+      # npm publish runs only once the owner adds an NPM_TOKEN repository secret (an npm automation token).
+      - name: Publish to npm
+        if: env.NODE_AUTH_TOKEN != ''
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          npm config set //registry.npmjs.org/:_authToken "$NODE_AUTH_TOKEN"
+          npm publish --access public
