@@ -1,0 +1,51 @@
+name: "Add a word / ضيف كلمة"
+description: "A word or phrase people really say in your dialect."
+title: "[Add] "
+labels: [data, add-word]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks! Write the word the way people type it in chat. No GitHub skills needed: just fill in what you know. / اكتبها مثل ما بتنكتب بالشات."
+  - type: input
+    id: word
+    attributes: { label: "Word or phrase / الكلمة", placeholder: "هسّع" }
+    validations: { required: true }
+  - type: input
+    id: dialect
+    attributes: { label: "Dialect / اللهجة", description: "A dialect ID like ar-eg, ar-levantine, ar-ps-fallahi, or just the city or region.", placeholder: "ar-ps-fallahi" }
+    validations: { required: true }
+  - type: input
+    id: meaning_ar
+    attributes: { label: "Meaning in Arabic / المعنى بالعربي" }
+  - type: input
+    id: meaning_en
+    attributes: { label: "Meaning in English" }
+  - type: textarea
+    id: example
+    attributes: { label: "Example sentence, as people write it / مثال", placeholder: "هسّع جاي، استنّاني" }
+  - type: input
+    id: spellings
+    attributes: { label: "Other spellings / كتابات ثانية", placeholder: "هسّا، هسع" }
+  - type: input
+    id: romanized
+    attributes: { label: "Arabizi / Latin spellings", placeholder: "hassa3" }
+  - type: dropdown
+    id: register
+    attributes: { label: "Register / المستوى", options: [casual, neutral, formal, vulgar] }
+  - type: dropdown
+    id: familiarity
+    attributes: { label: "How common? / قديش منتشرة", options: [common, regional, rare, dated] }
+  - type: textarea
+    id: notes
+    attributes: { label: "Notes / ملاحظات" }
+  - type: input
+    id: grew_up
+    attributes: { label: "Which dialect did you grow up speaking? / بأي لهجة كبرت؟", description: "We ask everyone: it tells reviewers whose ear the word comes from." }
+    validations: { required: true }
+  - type: checkboxes
+    id: license
+    attributes:
+      label: License
+      options:
+        - label: "I agree to share this under CC BY-SA 4.0, like the rest of the dictionary. / موافق إنها تنشر برخصة CC BY-SA 4.0."
+          required: true

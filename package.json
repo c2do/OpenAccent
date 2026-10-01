@@ -1,6 +1,6 @@
 {
   "name": "openaccent-mcp",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Community-built dialect dictionary (open sources, being reviewed by native speakers) with personal dialect memory, served over MCP.",
   "license": "MIT",
   "type": "module",
@@ -25,7 +25,9 @@
     "bench": "tsx bench/run.ts",
     "test:fuzz": "FC_RUNS=20000 vitest run tests/property",
     "audit": "tsx scripts/audit-data.ts",
-    "eval:manual": "tsx scripts/eval-manual.ts"
+    "eval:manual": "tsx scripts/eval-manual.ts",
+    "build:prompts": "tsx scripts/build-prompts.ts",
+    "prepublishOnly": "npm run validate && npm test && npm run build"
   },
   "repository": {
     "type": "git",

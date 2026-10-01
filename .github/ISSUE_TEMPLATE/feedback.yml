@@ -1,0 +1,24 @@
+name: "Try it and tell us / جرّبته؟ احكيلنا"
+description: "Did the AI sound like people from your place after you pasted the prompt?"
+title: "[feedback] "
+labels: [feedback]
+body:
+  - type: input
+    id: dialect
+    attributes: { label: "Dialect / اللهجة", placeholder: "ar-eg" }
+    validations: { required: true }
+  - type: dropdown
+    id: app
+    attributes: { label: "Which app? / أي تطبيق؟", options: [ChatGPT, Claude, Gemini, Other] }
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: "Did it sound like home? / صار يحكي مثل أهلك؟"
+      options: ["Yes, like people from my place / آه، مثلنا", "Better, but still mixes / أحسن بس لسا بيخلط", "No difference / ما في فرق", "Worse / أسوأ"]
+    validations: { required: true }
+  - type: textarea
+    id: wrong
+    attributes: { label: "Words or sentences it got wrong, and what you'd say / شو غلط وشو بتقول إنت", placeholder: "قال «هلّق» واحنا بنقول «هسّع»" }
+  - type: input
+    id: grew_up
+    attributes: { label: "Which dialect did you grow up speaking? / بأي لهجة كبرت؟" }

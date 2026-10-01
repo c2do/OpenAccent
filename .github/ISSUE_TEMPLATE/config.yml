@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "Paste-in prompts for each dialect / نصوص جاهزة لكل لهجة"
+    url: https://github.com/c2do/OpenAccent/tree/main/docs/prompts
+    about: "No install: copy a prompt into ChatGPT, Claude or Gemini."

@@ -20,6 +20,8 @@ OpenAccent is an open-source, community-built dictionary of the world's dialects
 
 > **Status: early development.** Everything runs locally on your computer. We're starting with the most widely spoken Arabic dialects, filled from open sources and waiting for native speakers to review them. Install: [`docs/setup.md`](docs/setup.md).
 
+**Try it in 30 seconds, no install:** copy your dialect's prompt from [`docs/prompts`](docs/prompts/README.md) into ChatGPT, Claude or Gemini.
+
 ## The problem
 
 AI models are bad at dialects:
@@ -101,11 +103,12 @@ Words come from [Wiktionary](https://en.wiktionary.org) (CC BY-SA 4.0), filtered
 
 You don't need to code.
 
-- **Native speaker of one of these dialects?** We need **reviewers** most of all. Open an issue and tell us which dialect you speak. Every dialect has a short guide (how it sounds, the mistakes AI makes in it) written as a draft and waiting for someone who grew up speaking it.
-- **Want to add a word or a dialect?** Easy forms are coming. For now, see [`data/README.md`](data/README.md).
+- **Native speaker of one of these dialects?** We need **reviewers** most of all: [become one](https://github.com/c2do/OpenAccent/issues/new?template=reviewer.yml). Every dialect has a short guide (how it sounds, the mistakes AI makes in it) written as a draft and waiting for someone who grew up speaking it.
+- **Tried the prompt?** [Tell us](https://github.com/c2do/OpenAccent/issues/new?template=feedback.yml) whether it sounded like people from your place.
+- **Know a word, or spotted a mistake?** [Add a word](https://github.com/c2do/OpenAccent/issues/new?template=add-word.yml) or [fix one](https://github.com/c2do/OpenAccent/issues/new?template=fix-word.yml). Just a form, no code.
 - **Can you improve a translation of this page?** Please do. They were drafted by AI, which is exactly the kind of thing this project exists to fix.
 
-More detail: [`docs/design.md`](docs/design.md) · [`docs/plans/world-wave-1.md`](docs/plans/world-wave-1.md)
+How to contribute: [`CONTRIBUTING.md`](CONTRIBUTING.md) · More detail: [`docs/design.md`](docs/design.md) · [`docs/plans/world-wave-1.md`](docs/plans/world-wave-1.md)
 
 ## License
 
